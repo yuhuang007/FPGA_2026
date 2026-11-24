@@ -1,0 +1,108 @@
+{
+  "baseline": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK\\source",
+  "changed_existing": [
+    "flow.tcl",
+    "config/m3_endpoints.json",
+    "rtl/board/fpga_gsv1_top.v",
+    "rtl/display/m31_osd.v",
+    "rtl/display/m31_text.v",
+    "rtl/network/m365_tx_observer.v",
+    "rtl/network/m3_network.v",
+    "rtl/network/m3_net_core.v",
+    "rtl/network/m3_right_store.v",
+    "rtl/network/m3_upload.v"
+  ],
+  "new_rtl": [
+    "rtl/display/m361_source_map.v"
+  ],
+  "preserved_files": {
+    "constraints/mes50hp.fdc": "c099468c18755d8f4bdd91878570cb2038a4ac0a7ab5e58c36fd99054d65f825",
+    "rtl/capture/cam_ov3660_table.v": "7aebff81bac8b054b434e458f50ddf65db69c0e705250f5b0553ff887105e4c1",
+    "rtl/capture/cam_ov3660_config.v": "dceac3265bbb9c1cca27c1cc67fe1466fde048f1537b1c4a987537f08db556da",
+    "rtl/capture/cam3660_dvp.v": "6f52c8ace1b1e2c371950d7aea10111861e0fdc00bf192dc51d86117eb03186e",
+    "rtl/reuse/reg_config.v": "3fb595d4000aaaaedf9261551613c7c35d79dd5db69e174ef901ea8c9f1a9469",
+    "rtl/network/m36_phy2.v": "5806f1e0ad7511f507fbb349b4c55429d4fb7113a5f0c20340133c011d60302f",
+    "rtl/network/m364_e1_rgmii.v": "282582a69e79636be77169d0127f16b607bdcee04b10eb1eadfe945f1572ef8a",
+    "rtl/network/m3_rgmii_interface.v": "24a63bc70f20b6de0255e14156aa0aa84d19e0ce0b8cd72f086c749cd98a762c",
+    "rtl/network/m3_eth_pll.v": "a3d68bbfaaa04a00ee6c03093e97fa4f74bbaadc074db67c28f84232cb011c48",
+    "rtl/network/m3_mac.v": "0fee967264967b687c8a980d4b0ccc27930b6db98fff516ba2e3d78526b8b69a",
+    "rtl/frame/dual_ddr_arbiter.v": "d7cb30c03d226d25d9a59107580f0ede06ac119adf689f1a0a4b76143c612db3"
+  },
+  "slot_ranges_32bit_word_units": [
+    {
+      "source": "CAM0",
+      "slot": 0,
+      "base": "0x0",
+      "exclusive_end": "0x70800"
+    },
+    {
+      "source": "CAM0",
+      "slot": 1,
+      "base": "0x400000",
+      "exclusive_end": "0x470800"
+    },
+    {
+      "source": "CAM0",
+      "slot": 2,
+      "base": "0x2000000",
+      "exclusive_end": "0x2070800"
+    },
+    {
+      "source": "CAM1",
+      "slot": 0,
+      "base": "0x800000",
+      "exclusive_end": "0x870800"
+    },
+    {
+      "source": "CAM1",
+      "slot": 1,
+      "base": "0xc00000",
+      "exclusive_end": "0xc70800"
+    },
+    {
+      "source": "CAM1",
+      "slot": 2,
+      "base": "0x2800000",
+      "exclusive_end": "0x2870800"
+    },
+    {
+      "source": "HDMI",
+      "slot": 0,
+      "base": "0x1000000",
+      "exclusive_end": "0x1070800"
+    },
+    {
+      "source": "HDMI",
+      "slot": 1,
+      "base": "0x1400000",
+      "exclusive_end": "0x1470800"
+    },
+    {
+      "source": "NET",
+      "slot": 0,
+      "base": "0x1800000",
+      "exclusive_end": "0x1870800"
+    },
+    {
+      "source": "NET",
+      "slot": 1,
+      "base": "0x1c00000",
+      "exclusive_end": "0x1c70800"
+    },
+    {
+      "source": "NET",
+      "slot": 2,
+      "base": "0x2400000",
+      "exclusive_end": "0x2470800"
+    },
+    {
+      "source": "NET",
+      "slot": 3,
+      "base": "0x2c00000",
+      "exclusive_end": "0x2c70800"
+    }
+  ],
+  "overlap": false,
+  "net_extra_slot_memory_bytes": 1843200,
+  "e5_phase_controls_in_source": false
+}

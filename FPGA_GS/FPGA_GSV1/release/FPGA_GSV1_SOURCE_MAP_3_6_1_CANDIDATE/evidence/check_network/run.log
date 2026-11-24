@@ -1,0 +1,9 @@
+NETWORK_PROGRESS input42 fragments=        360 simulated_ns=         16617952000
+NETWORK_PROGRESS input42 fragments=        720 simulated_ns=         33232672000
+NETWORK_PROGRESS input42 fragments=       1080 simulated_ns=         49847392000
+NETWORK_PROGRESS input42 fragments=       1440 simulated_ns=         66462112000
+NETWORK_PROGRESS first publication id=1 time=         66462112000
+NETWORK_PROGRESS second complete upload time=        191058472000
+NETWORK_PROGRESS ingress epoch restore time=        401064490000
+MAP_NETWORK_PASS complete_inputs=3 uploaded_complete=3 pixel_checks=2764800 dual_MAC_FCS=1 event_exact=1 stale_no_fallback=1 restart_namespace=1 overlapped_writes=48160 DDR_stalls=1
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_network_tb.sv:131: $finish called at 523155750000 (1ps)

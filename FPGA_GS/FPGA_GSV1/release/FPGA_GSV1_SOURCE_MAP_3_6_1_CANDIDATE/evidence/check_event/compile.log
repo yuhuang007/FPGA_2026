@@ -1,0 +1,2 @@
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_event_tb.sv:13: warning: Port 17 (right_bank) of module m3_net_core expects 2 bit(s), given 1.
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_event_tb.sv:13:        : Padding 1 high bits of the port.

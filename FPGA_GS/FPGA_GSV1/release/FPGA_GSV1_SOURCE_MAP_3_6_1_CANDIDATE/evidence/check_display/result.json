@@ -1,0 +1,22 @@
+{
+  "case": "display",
+  "pass": true,
+  "board_measured": false,
+  "input_hashes": {
+    "sim/map_display_tb.sv": "967e1dfc07e076b1fc91d662dd222a810c5f45f42ac8ce3c62896f463fb3b8f7",
+    "rtl/display/m361_source_map.v": "4c9feb4643868166e8d0995ec0af6af2b6cd8cf53af448491920555a2842d18c",
+    "rtl/display/m31_video_output.v": "27f4ac304a241355c2e39c70a03aff3e559a3e15905e7e2e7759bbbce8197786",
+    "rtl/display/m31_timing.v": "392b142889332a209dacece27f095f51e0f55baf3743d01d18d0ebe3d69e42e7",
+    "rtl/display/m31_rd_buf.v": "a633c2e4c85e04e824cc54d4371b7aadda166c2ffe2553e66c912f9ca7009b71",
+    "rtl/display/m31_osd.v": "d87c3481d485ee366d32a07f0dda77005df78f30c9233bfe6d5191048ca486b9",
+    "rtl/display/m1_display_gain.v": "b2eb59b8e4702bb9d02c38f68a78a4283875ebd07e4074393f983884ee57063b",
+    "sim/line_ram_model.sv": "7cd3ef43927e4ab99b8ddbbb225811f84379bcd430d8afeb2d4617f09c6dee9e",
+    "sim/m32_text_model.sv": "eadbdcbbb27d6d0de124c0a6829d5bd2d4034377b8dc475b95984e0d9c06603a",
+    "rtl/frame/dual_ddr_arbiter.v": "d7cb30c03d226d25d9a59107580f0ede06ac119adf689f1a0a4b76143c612db3",
+    "rtl/reuse/wr_rd_ctrl_top.v": "d130db39d2623ddcf78aba31da85a9cda6da269f851bc385938169039e634806",
+    "rtl/reuse/wr_cmd_trans.v": "2b99c581904a5c61faa6ea8bf06065482a724a72c01cb4ef56fe86e53443f659",
+    "rtl/reuse/wr_ctrl.v": "bdfd6cbf962c26ba2756aeea177d612b6428a6058ceb22ebfc452c59ea9193b8",
+    "rtl/reuse/rd_ctrl.v": "40656be19a1afcf0cc743cee652b1d90339392f8ca5ca67cea270ddd12ae22e4"
+  },
+  "inputs_unchanged": true
+}

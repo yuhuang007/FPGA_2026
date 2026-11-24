@@ -1,0 +1,14 @@
+{
+  "Version": "3.6.1 logical source mapping: NET FRONT, HDMI REAR, CAM0 LEFT, CAM1 RIGHT; network FRONT upload",
+  "ProcessingEnable": true,
+  "BuildPass": true,
+  "ExitCode": 0,
+  "ExistingConstraintsMet": true,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1\\build\\SOURCE_MAP_3_6_1_20261027_134653_681",
+  "Release": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1\\build\\SOURCE_MAP_3_6_1_20261027_134653_681/FPGA_GSV1_SOURCE_MAP_3_6_1_HDMI_1080P60.sbit",
+  "SHA256": "B6E4AD93CB331C813651E53E771F3288C467A88AA155B3CC50EB7CBCE59C25EA",
+  "GeneratedTime": "2026-10-27T05:54:43.8888011Z"
+}

@@ -1,0 +1,36 @@
+{
+  "logical_source": "LIVE_FRONT",
+  "expected_physical_source": "NET_RX",
+  "display_name": "实时前摄／FPGA网口1输入",
+  "physical_source_verified": false,
+  "status": "WAITING_FPGA_HANDOFF",
+  "fpga_handoff_summary": "release/FPGA_GSV1_SOURCE_MAP_3_6_1_CANDIDATE/artifact.json",
+  "reviewed_wire_profile": {
+    "width": 1280,
+    "height": 720,
+    "pixel_format": "RGB565",
+    "byte_order": "little",
+    "fragment_bytes": 1280,
+    "fragment_count": 1440
+  },
+  "reviewed_event_frame_origin": "NET_RX_COMPLETE_FRAME",
+  "note": "3.6.1交付及用户下载确认已记录；NET_RX来源须经现场发送端停发/恢复核对，KEY与60秒验收单列。",
+  "firmware_version": "3.6.1 SOURCE_MAP",
+  "firmware_sha256": "b6e4ad93cb331c813651e53e771f3288c467a88aa155b3cc50eb7cbce59c25ea",
+  "runtime_source_evidence": null,
+  "board_download_confirmation": {
+    "confirmed": true,
+    "method": "user_message",
+    "text": "已下载"
+  },
+  "frame_id_semantics": "board complete NET_RX publication serial starts1, continues across PC ingress sessions, not sender frame_id",
+  "timestamp_semantics": "board NET_RX complete DDR write time; no cross-device clock subtraction",
+  "ingress": {
+    "kind": 16,
+    "source": 3
+  },
+  "upload": {
+    "kind": 17,
+    "source": 0
+  }
+}

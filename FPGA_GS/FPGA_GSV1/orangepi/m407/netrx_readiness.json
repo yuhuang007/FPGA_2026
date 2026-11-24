@@ -1,0 +1,98 @@
+{
+  "release": "M4-07-r1-netrx-ready",
+  "software_preparation": "READY",
+  "NET_RX_physical_acceptance": "NOT_RUN_WAITING_FPGA_HANDOFF",
+  "mapping": {
+    "NET_RX": "front",
+    "HDMI": "rear",
+    "CAM0_OV5640": "left",
+    "CAM1_OV3660": "right"
+  },
+  "current_physical_upload": "UNVERIFIED; old camera image is not new front acceptance",
+  "source_contract": {
+    "logical_source": "LIVE_FRONT",
+    "expected_physical_source": "NET_RX",
+    "display_name": "实时前摄／FPGA网口1输入",
+    "physical_source_verified": false,
+    "status": "WAITING_FPGA_HANDOFF",
+    "fpga_handoff_summary": null,
+    "reviewed_wire_profile": null,
+    "reviewed_event_frame_origin": null,
+    "note": "GSV3头不能证明物理输入来源；新固件摘要和NET_RX实物链核对前不能称已验收。现有冻结1280x720 RGB565小端作为兼容预期，不代表新候选已核实。"
+  },
+  "unchanged_wire_expectation": {
+    "protocol": "GSV3 v1",
+    "header_bytes": 48,
+    "front_kind": 17,
+    "wire_source": 0,
+    "width": 1280,
+    "height": 720,
+    "pixels": "RGB565 little-endian",
+    "fragment_pixels_bytes": 1280,
+    "fragment_count": 1440,
+    "note": "Compatibility expectation from frozen existing contract; new FPGA candidate not yet reviewed. Do not infer physical camera from source=0."
+  },
+  "feedback_policy": {
+    "unverified_source": "ACK real EVENT using frozen state machine; no unverified frame inference forwarded into real decision lookup, return UNKNOWN under original bounded wait/TTL",
+    "self_test": "explicitly simulated; real EVENT required",
+    "after_handoff": "exact same-session/frame completed model evidence only, no nearby-frame substitution; light control relationship remains UNKNOWN"
+  },
+  "stream_loss": "No local file fallback; complete frame silence >700ms clears image, perception, model generation and exact cache; protocol peer timeout/new session retains existing reconnect handling",
+  "models": "unchanged existing YOLOv8n / YOLOP / YOLOv8s COCO RKNN, m406r2 CPU color/tracking unchanged",
+  "checks": {
+    "targeted_tests": {
+      "count": 8,
+      "passed": 8,
+      "log": "evidence/netrx_targeted_tests.log"
+    },
+    "browser": "evidence/netrx_browser_check.json",
+    "screenshot": "evidence/netrx_ready_page.png",
+    "deployment": "evidence/netrx_deployment_check.json",
+    "candidate_sha256": {
+      "app.py": "8296d3204011185fd568a08bf5384dd19865204d0b44c5397d97e5f2f18e931a",
+      "file_demo.py": "afce88fff55dba22f74652e779fa5c959f7b8979d459f6310b75dcf4422edf25",
+      "receiver_bridge.py": "d75ef75bb8e6d0a313abf651e2edfd1de563fa65b0f75d4ad1660e3818dfb886",
+      "source_contract.py": "07979634790a5401221fb644f08d24e1efefe4951c1173a41826e86b6f5c1209",
+      "source_contract.json": "0a53cce5073f8267539161fd774629622637640f02ee8b9cae19f1fd801a45f3",
+      "index.html": "e2387cc670fa2a3586a12619cc778d602486e120114f6555cc95c0e18e6807f2",
+      "ops.py": "357d33a9dac24325ad1f00bbb8ee5058e0841177b2c75245abcfc159fe63de0b"
+    }
+  },
+  "runtime": {
+    "remote_dir": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m407",
+    "parent_pid": 13588,
+    "sole_receiver_pid": 13594,
+    "preview": "http://127.0.0.1:18084/",
+    "actual_socket_rcvbuf_bytes": 8388608,
+    "real_mode": "REAL; source gate pending",
+    "original_default_entry": "UNCHANGED"
+  },
+  "entries": {
+    "start": "启动实时NPU前摄.cmd",
+    "stop": "停止M407候选.cmd",
+    "file_test": "启动M407录像对照.cmd",
+    "rollback_software": "回退原前摄.cmd; stops confirmed M407 then invokes original LIVE, does not revert FPGA bitstream"
+  },
+  "preserved_previous_evidence": {
+    "old_source_backup": "evidence/m407_before_net_rx_20261027.zip",
+    "remote_running_source_backup": "evidence/pre_netrx_running_sources.zip",
+    "old_live_60s": "evidence/live_60s.json",
+    "interpretation": "previous old CAM0/old-upload integration results only; NOT NET_RX acceptance. Old failed shared-GIL and subsequent isolated receiver evidence retained."
+  },
+  "waiting_for_fpga": [
+    "candidate identity/version and actual upload source NET_RX",
+    "actual dimensions, RGB565 byte order, stride and fragment profile",
+    "same-session frame_id identity shared by upload and KEY reference",
+    "NET_RX disconnect behavior: stop complete upload, no other-camera fallback",
+    "KEY5/6 keep view/filter local without changing uploaded original"
+  ],
+  "next_acceptance": [
+    "PC road video -> FPGA Ethernet1 NET_RX -> Ethernet2 -> Orange Pi NPU visual overlay",
+    "actual KEY1-4 exact-frame hit/miss, EVENT_ACK, RESULT_ACK and UNKNOWN explanations",
+    "NET_RX video loss and recovery/session change, no local recording fallback",
+    "one 60s actual NET_RX window with receive/inference/browser rates, socket and assembly drops, CRC, result ages"
+  ],
+  "no_training_or_models_converted_or_packages_installed": true,
+  "no_FPGA_protocol_network_default_changes": true,
+  "no_scheduled_tasks": true
+}

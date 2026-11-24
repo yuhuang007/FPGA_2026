@@ -1,0 +1,159 @@
+{
+  "selection_frozen_before_inference": true,
+  "source_manifest": "../m403/media_manifest.json",
+  "weight": "runs/public_body_r1_yolov8n_960_e60/weights/best.pt",
+  "weight_sha256": "79ed89a50fe7b78de454a6d157b51cadc3392ac54a988ec6c3ea67fd391e771d",
+  "input": 640,
+  "confidence": 0.25,
+  "iou": 0.45,
+  "threshold_source": "board_validation/validate_numeric.py defaults and m406/model_manifest.json",
+  "preprocess": "RGB NCHW FP32/255; centered square letterbox114, no auto stride rectangle",
+  "class_names": {
+    "0": "motor_vehicle_body",
+    "1": "pedestrian_body"
+  },
+  "no_time_or_scene_input_to_detector": true,
+  "no_final_test_material": true,
+  "entries": [
+    {
+      "name": "SC_BT.mp4",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\SC\\SC_BT.mp4",
+      "sha256": "d9de110a835f400f721b1f27b434631444c3aa096ee46ae2abcc3062ac2ca883",
+      "role": "development_regression_only",
+      "start_seconds": 48,
+      "end_seconds": 58,
+      "selection_reason_before_inference": "Day urban intersection approach; far small horizontal lamps, street furniture and vehicles in the same unaltered scene.",
+      "width": 2556,
+      "height": 1444,
+      "fps_opencv": 30.001687177285582,
+      "sample_frames": [
+        {
+          "requested_seconds": 49,
+          "decoded_pts_seconds": 49.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT_049_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT_049_preview.jpg",
+          "raw_sha256": "dcecf0afe32cc5513402c0c75fc3ed66db60ae30a2b9817b5ccec8db3b3c6f06"
+        },
+        {
+          "requested_seconds": 53,
+          "decoded_pts_seconds": 53.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT_053_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT_053_preview.jpg",
+          "raw_sha256": "a5b7dc6fe64a7b6ec3c4de459a0a22544d8af264a37bcbd909bc8483431ca83d"
+        },
+        {
+          "requested_seconds": 57,
+          "decoded_pts_seconds": 57.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT_057_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT_057_preview.jpg",
+          "raw_sha256": "eea62a0a86643d3f5515cb46e0d471b0ce11c1763ed5386f4dbf016b60258b1e"
+        }
+      ]
+    },
+    {
+      "name": "SC_BT2.mp4",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\SC\\SC_BT2.mp4",
+      "sha256": "5c072d0bcfe08b118d308b2d88fd9c69d23f114cc9811dd1cf2d71a4c37e5ba9",
+      "role": "development_regression_only",
+      "start_seconds": 17,
+      "end_seconds": 27,
+      "selection_reason_before_inference": "Dusk elevated-road approach includes overhead signs and roadside signal-like heads; not a second daytime city junction.",
+      "width": 2558,
+      "height": 1442,
+      "fps_opencv": 30.024968789013734,
+      "sample_frames": [
+        {
+          "requested_seconds": 18,
+          "decoded_pts_seconds": 18.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT2_018_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT2_018_preview.jpg",
+          "raw_sha256": "5baef062e816d101b91ae3f44276bfccfbe1af66747e39a9eb07db740a27ee4b"
+        },
+        {
+          "requested_seconds": 22,
+          "decoded_pts_seconds": 22.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT2_022_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT2_022_preview.jpg",
+          "raw_sha256": "0667c0b98538d908be74ba6749fe753e88c0a05027affff0bff864955641b336"
+        },
+        {
+          "requested_seconds": 26,
+          "decoded_pts_seconds": 26.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_BT2_026_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_BT2_026_preview.jpg",
+          "raw_sha256": "2b35c496c567cf5d7c5b774a1c7ea3d7fa743e89709d9055d549bd6aa510dece"
+        }
+      ]
+    },
+    {
+      "name": "SC_YJ.mp4",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\SC\\SC_YJ.mp4",
+      "sha256": "b683705365784892b1a9f68b83878601ef6900f74ea388e589a963e09dec2b33",
+      "role": "development_regression_only",
+      "start_seconds": 98,
+      "end_seconds": 108,
+      "selection_reason_before_inference": "Night junction with actual horizontal lamp assemblies, cross traffic, distant lit signs and glare.",
+      "width": 2558,
+      "height": 1438,
+      "fps_opencv": 30.00214260849744,
+      "sample_frames": [
+        {
+          "requested_seconds": 99,
+          "decoded_pts_seconds": 99.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ_099_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ_099_preview.jpg",
+          "raw_sha256": "27869d48acf956569a41a1b76bfd7b40b67c8379f8e72036c8efab1bdf52255b"
+        },
+        {
+          "requested_seconds": 103,
+          "decoded_pts_seconds": 103.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ_103_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ_103_preview.jpg",
+          "raw_sha256": "70cd313738cb35f6d13651eed563f4f6fd4a07e188890be3dd8d5d16d50c6bf8"
+        },
+        {
+          "requested_seconds": 107,
+          "decoded_pts_seconds": 107.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ_107_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ_107_preview.jpg",
+          "raw_sha256": "dc0b34bea52ff3eae1ffa23da443654d12310fa9da15da3d4db3bd3ac0d574b7"
+        }
+      ]
+    },
+    {
+      "name": "SC_YJ2.mp4",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\SC\\SC_YJ2.mp4",
+      "sha256": "bd46e9338842650c7637d3d7aae9ae5d9b5a9ef6737f87963fb74d1f6c4c0dc1",
+      "role": "development_regression_only",
+      "start_seconds": 42,
+      "end_seconds": 52,
+      "selection_reason_before_inference": "Blue-hour elevated road with signs, taillights and streetlamps; no clear junction traffic signal visible in preview.",
+      "width": 1280,
+      "height": 720,
+      "fps_opencv": 39.62832425504646,
+      "sample_frames": [
+        {
+          "requested_seconds": 43,
+          "decoded_pts_seconds": 42.95,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ2_043_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ2_043_preview.jpg",
+          "raw_sha256": "be03cfe4f2ddc9a7a10e2ae338ad2855c570d42aa98cbd1b949bc3cb5c09f88c"
+        },
+        {
+          "requested_seconds": 47,
+          "decoded_pts_seconds": 46.975,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ2_047_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ2_047_preview.jpg",
+          "raw_sha256": "219b49c00a44c737513cde35dcbd3cfe085f0ba35db6323f2728016fa606f82c"
+        },
+        {
+          "requested_seconds": 51,
+          "decoded_pts_seconds": 51.0,
+          "raw": "artifacts/sc_video_eval_r1/frames/SC_YJ2_051_raw.png",
+          "preview": "artifacts/sc_video_eval_r1/frames/SC_YJ2_051_preview.jpg",
+          "raw_sha256": "1e283450ac61d751baf8c33e47389ea3faf4726ead19ec5585bea496d4e2d68e"
+        }
+      ]
+    }
+  ]
+}

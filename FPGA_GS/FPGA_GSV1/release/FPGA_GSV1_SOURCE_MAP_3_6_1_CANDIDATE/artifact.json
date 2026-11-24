@@ -1,0 +1,172 @@
+{
+  "version": "3.6.1 SOURCE_MAP",
+  "classification": "complete_function_candidate_pending_board",
+  "baseline": "3.5.9-R0 READBACK original exposure; OV3660 rotate180/25fps; TXDET1",
+  "bitstream": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_SOURCE_MAP_3_6_1_CANDIDATE\\FPGA_GSV1_SOURCE_MAP_3_6_1_HDMI_1080P60.sbit",
+  "sha256": "b6e4ad93cb331c813651e53e771f3288c467a88aa155b3cc50eb7cbce59c25ea",
+  "generated_Asia_Shanghai": "2026-10-27T13:54:43.888801+08:00",
+  "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1\\build\\SOURCE_MAP_3_6_1_20261027_134653_681",
+  "build_pass": true,
+  "declared_STA_pass": true,
+  "internal_STA_pass": true,
+  "constraints_unchanged_from_R0": true,
+  "all_compiled_inputs_match_packaged_source": true,
+  "source_map": {
+    "version": "3.6.1",
+    "logical": [
+      "FRONT=NET_RX(port1)",
+      "REAR=HDMI_RX",
+      "LEFT=CAM0_OV5640",
+      "RIGHT=CAM1_OV3660"
+    ],
+    "key5_order": [
+      "FRONT",
+      "REAR",
+      "LEFT",
+      "RIGHT",
+      "QUAD"
+    ],
+    "quad": [
+      "FRONT top-left",
+      "REAR top-right",
+      "LEFT bottom-left",
+      "RIGHT bottom-right"
+    ],
+    "protocol": {
+      "wire_format": "GSV3 v1 unchanged",
+      "ingress": {
+        "kind": 16,
+        "source": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 1,
+        "pixel_order": "RGB565 little-endian",
+        "fragments": 1440,
+        "fragment_payload": 1280
+      },
+      "upload": {
+        "kind": 17,
+        "source": 0,
+        "same_pixel_layout": true,
+        "frame_id": "board-global complete NET publication serial starting at1, increments across ingress sessions, skip0; reset only full DDR reset/program",
+        "timestamp_ms": "board port1 completion time, not sender timestamp or CAM0 time"
+      },
+      "event": "same serial as FRONT_RAW, latest complete valid NET publication at DDR/core key mailbox; invalid frame=0; exact frame may be missed by upload throttling => UNKNOWN",
+      "expiry": "ingress peer session <=2s, complete-frame age<3s; no CAM0 fallback; invalidation latches event evidence invalid until next KEY",
+      "net2_endpoint_unchanged": true
+    },
+    "net_slots_word_addresses": [
+      "0x1800000",
+      "0x1c00000",
+      "0x2400000",
+      "0x2c00000"
+    ],
+    "known_limit": "CAM1 stripes remain unresolved; no image-quality changes"
+  },
+  "checks": {
+    "owner": {
+      "pass": true,
+      "board_measured": false
+    },
+    "display": {
+      "pass": true,
+      "board_measured": false
+    },
+    "keys": {
+      "pass": true,
+      "board_measured": false
+    },
+    "health": {
+      "pass": true,
+      "board_measured": false
+    },
+    "event": {
+      "pass": true,
+      "board_measured": false
+    },
+    "cancel": {
+      "pass": true,
+      "board_measured": false
+    },
+    "network": {
+      "pass": true,
+      "board_measured": false
+    }
+  },
+  "simulation_limits": [
+    "Production MAC/core/store/upload/arbiter/readers used. Packet/line memory contract models and native DDR service BFM; not analogue DDR PHY or external RGMII eye signoff.",
+    "Display mapping tested in five full1080p60 views using unchanged six-cycle processing bypass; no repeated algorithm regression. Health/title and KEY6 behavior checked separately."
+  ],
+  "external_timing_limits": [
+    "TXDET1 nominal2ns PHY TX model retained; device delay PVT/PCB skew not signed off.",
+    "CAM1 DOVDD/source output timing and DVP external eye remain unknown; inherited input constraints unchanged."
+  ],
+  "known_issues": [
+    "CAM1 colored horizontal stripes unresolved; no E5 BLC experiments or other IQ changes included.",
+    "Upload throttling may omit a KEY-referenced frame; host must use exact ID or UNKNOWN, never substitute another frame.",
+    "Four sources20fps is not complete and is not claimed."
+  ],
+  "rollback": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK_HDMI_1080P60.sbit",
+  "rollback_sha256": "f760692d6a1e7695d4005945d0ba977468d8857c4b36c45dc57bd98e7283acb1",
+  "programmed_by_agent": false,
+  "hardware_verified": false,
+  "pi_service_modified": false,
+  "camera_register_tables_changed": false,
+  "uart_revision": "N2 35M",
+  "fixture_correction": "Initial dual-MAC run timed out with zero publications. Concurrent GMII host tasks shared static Verilog task locals across waits. Corrected packet task to automatic; retained original fixture, log and result under evidence/network_timeout_20261027. No production RTL or bitstream change for this correction.",
+  "timing_resources": {
+    "report": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1\\build\\SOURCE_MAP_3_6_1_20261027_134653_681\\report_timing\\fpga_gsv1_top.rtr",
+    "report_sha256": "0e9e5cd153a92a1ab9fc305c604b7be36ad736f1bf9f0133b0976ecd51c3fe53",
+    "declared_constraints_met": true,
+    "summary": {
+      "slow_setup_slack_ns": {
+        "ddrphy_clkin": 0.237,
+        "pix_clk": 0.674,
+        "net2_nominal_PHY_capture": 0.07
+      },
+      "slow_hold_slack_ns": {
+        "ddrphy_clkin": 0.22,
+        "pix_clk": 0.325,
+        "net2_nominal_PHY_capture": 0.096
+      },
+      "fast_setup_slack_ns": {
+        "ddrphy_clkin": 2.93,
+        "pix_clk": 2.329,
+        "net2_nominal_PHY_capture": 0.312
+      },
+      "fast_hold_slack_ns": {
+        "ddrphy_clkin": 0.14,
+        "pix_clk": 0.256,
+        "net2_nominal_PHY_capture": 0.334
+      }
+    },
+    "resources": {
+      "FF": {
+        "used": 23504.0,
+        "available": 64200.0
+      },
+      "LUT": {
+        "used": 22114.0,
+        "available": 42800.0
+      },
+      "DRM": {
+        "used": 94.5,
+        "available": 134.0
+      },
+      "PLL": {
+        "used": 5.0,
+        "available": 5.0
+      },
+      "IO": {
+        "used": 192.0,
+        "available": 296.0
+      }
+    },
+    "limits": [
+      "Inherited constraints unchanged. Results cover declared internal and nominal external paths only.",
+      "Net2 PHY internal delay PVT and PCB skew remain unqualified; nominal model is not full board signoff.",
+      "DVP source timing and actual module DOVDD remain unknown; input timing coverage is inherited.",
+      "No hardware programming or board verification performed."
+    ]
+  }
+}

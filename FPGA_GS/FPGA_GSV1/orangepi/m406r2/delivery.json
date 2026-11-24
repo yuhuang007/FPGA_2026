@@ -1,0 +1,723 @@
+{
+  "release": "M4-06-r2-candidate",
+  "recommend_replace_default": false,
+  "decision": "Night SC_YJ 98-108s improved; day/other scene continuity and false bodies remain inadequate. Retain independent candidate.",
+  "evaluation_scope": {
+    "training": false,
+    "final_test_used": false,
+    "fixed_images": 12,
+    "additional_LED_negative": 1,
+    "videos": "Four original development/regression videos; selected frozen continuous windows only, not full-length acceptance",
+    "baseline": "complete original m406 traffic crop/geometry/color/tracking branch, not PC full-image YOLO alone",
+    "replay": "same source PTS and object exclusion input for both; source-exact thumbnails; 15fps rendered output is not measured throughput",
+    "browser": "actual headless Edge canvas through SSH, unique epoch/frame_id counts, recordings include failures. Sequential runs, not simultaneous or strict performance causality."
+  },
+  "offline": [
+    {
+      "video": "SC_BT.mp4",
+      "start": 48,
+      "end": 58,
+      "observations": 34,
+      "output_frames": 150,
+      "offline_wall_seconds": 18.981910951002646,
+      "real_time_performance_claimed": false,
+      "versions": {
+        "m406": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 6,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 64
+          },
+          "transitions": []
+        },
+        "m406r2": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 16,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 48
+          },
+          "transitions": []
+        }
+      },
+      "comparison_video": "evidence/offline/SC_BT_source_exact.mp4"
+    },
+    {
+      "video": "SC_BT2.mp4",
+      "start": 17,
+      "end": 27,
+      "observations": 34,
+      "output_frames": 150,
+      "offline_wall_seconds": 19.35148256699904,
+      "real_time_performance_claimed": false,
+      "versions": {
+        "m406": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 15,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 72
+          },
+          "transitions": []
+        },
+        "m406r2": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 19,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 42
+          },
+          "transitions": []
+        }
+      },
+      "comparison_video": "evidence/offline/SC_BT2_source_exact.mp4"
+    },
+    {
+      "video": "SC_YJ.mp4",
+      "start": 98,
+      "end": 108,
+      "observations": 34,
+      "output_frames": 150,
+      "offline_wall_seconds": 19.520175220000965,
+      "real_time_performance_claimed": false,
+      "versions": {
+        "m406": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 1,
+          "observations_without_candidate": 0,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 2,
+            "UNKNOWN": 49
+          },
+          "transitions": []
+        },
+        "m406r2": {
+          "observations": 34,
+          "observations_with_any_confirmed_color": 32,
+          "observations_without_candidate": 0,
+          "light_observation_counts": {
+            "RED": 44,
+            "YELLOW": 0,
+            "GREEN": 20,
+            "UNKNOWN": 26
+          },
+          "transitions": [
+            {
+              "source_pts": 105.233333,
+              "source_frame_id": 3157,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 105.533333,
+              "source_frame_id": 3166,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 105.833333,
+              "source_frame_id": 3175,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 106.133333,
+              "source_frame_id": 3184,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 106.433333,
+              "source_frame_id": 3193,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 106.733333,
+              "source_frame_id": 3202,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 107.033333,
+              "source_frame_id": 3211,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 107.333333,
+              "source_frame_id": 3220,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 107.633333,
+              "source_frame_id": 3229,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            },
+            {
+              "source_pts": 107.933333,
+              "source_frame_id": 3238,
+              "events": [
+                {
+                  "id": 1,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                },
+                {
+                  "id": 2,
+                  "previous": "RED",
+                  "current": "GREEN",
+                  "frame_id": 3157,
+                  "at_monotonic": 1105.233333
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison_video": "evidence/offline/SC_YJ_source_exact.mp4"
+    },
+    {
+      "video": "SC_YJ2.mp4",
+      "start": 42,
+      "end": 52,
+      "observations": 38,
+      "output_frames": 150,
+      "offline_wall_seconds": 15.747783899998467,
+      "real_time_performance_claimed": false,
+      "versions": {
+        "m406": {
+          "observations": 38,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 29,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 12
+          },
+          "transitions": []
+        },
+        "m406r2": {
+          "observations": 38,
+          "observations_with_any_confirmed_color": 0,
+          "observations_without_candidate": 33,
+          "light_observation_counts": {
+            "RED": 0,
+            "YELLOW": 0,
+            "GREEN": 0,
+            "UNKNOWN": 9
+          },
+          "transitions": []
+        }
+      },
+      "comparison_video": "evidence/offline/SC_YJ2_source_exact.mp4"
+    }
+  ],
+  "real_time_browser": {
+    "baseline": [
+      {
+        "video": "SC_YJ.mp4",
+        "seek": 98,
+        "actualStartPosition": 99.1,
+        "actualEndPosition": 111.133333,
+        "seconds": 12.002928885005414,
+        "release": "M4-06-r1",
+        "PID_not_in_browser": true,
+        "processedFps": 14.996339787105121,
+        "previewNewFrameFps": 14.996339787105121,
+        "objectHz": 14.579774793018869,
+        "roadHz": 7.831421888821564,
+        "trafficHz": 3.7490849467762803,
+        "trafficSkipped": 134,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 14.416,
+          "jpeg": 2.146,
+          "traffic_preprocess": 4.953,
+          "traffic_inference": 97.187,
+          "traffic_postprocess": 8.07,
+          "traffic_geometry_color": 83.92,
+          "traffic_total": 194.904,
+          "det_preprocess": 5.223,
+          "det_inference": 34.785,
+          "det_postprocess": 11.399,
+          "det_tracking": 0.158,
+          "det_display_tracking": 8.62,
+          "road_preprocess": 6.59,
+          "road_model": 65.423,
+          "lane_postprocess": 23.642,
+          "lane_semantics": 0.113,
+          "decode": 14.602,
+          "rules": 0.028,
+          "total": 40.662,
+          "timeline_lag_ms": 57.294
+        },
+        "sampled_traffic_observation_age_max_ms": 519.3
+      },
+      {
+        "video": "SC_BT.mp4",
+        "seek": 48,
+        "actualStartPosition": 49,
+        "actualEndPosition": 58.3,
+        "seconds": 9.220203604001552,
+        "release": "M4-06-r1",
+        "PID_not_in_browser": true,
+        "processedFps": 14.53330162273686,
+        "previewNewFrameFps": 14.53330162273686,
+        "objectHz": 12.364152126805985,
+        "roadHz": 7.049735861775342,
+        "trafficHz": 3.579096668285943,
+        "trafficSkipped": 99,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 25.145,
+          "jpeg": 2.33,
+          "traffic_preprocess": 7.346,
+          "traffic_inference": 98.403,
+          "traffic_postprocess": 11.218,
+          "traffic_geometry_color": 72.625,
+          "traffic_total": 190.913,
+          "det_preprocess": 8.239,
+          "det_inference": 43.856,
+          "det_postprocess": 18.218,
+          "det_tracking": 0.127,
+          "det_display_tracking": 9.805,
+          "road_preprocess": 2.851,
+          "road_model": 56.724,
+          "lane_postprocess": 30.469,
+          "lane_semantics": 28.386,
+          "decode": 15.241,
+          "rules": 0.033,
+          "total": 55.192,
+          "timeline_lag_ms": 74.824
+        },
+        "sampled_traffic_observation_age_max_ms": 526.6
+      },
+      {
+        "video": "SC_BT2.mp4",
+        "seek": 17,
+        "actualStartPosition": 17.733333,
+        "actualEndPosition": 26.7,
+        "seconds": 8.963758287999779,
+        "release": "M4-06-r1",
+        "PID_not_in_browser": true,
+        "processedFps": 14.391284978388875,
+        "previewNewFrameFps": 14.391284978388875,
+        "objectHz": 12.16007800499525,
+        "roadHz": 7.2514226635292784,
+        "trafficHz": 3.5699311574297985,
+        "trafficSkipped": 96,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 21.091,
+          "jpeg": 2.478,
+          "traffic_preprocess": 5.451,
+          "traffic_inference": 99.842,
+          "traffic_postprocess": 11.103,
+          "traffic_geometry_color": 102.349,
+          "traffic_total": 223.622,
+          "det_preprocess": 7.742,
+          "det_inference": 44.014,
+          "det_postprocess": 18.218,
+          "det_tracking": 0.216,
+          "det_display_tracking": 11.101,
+          "road_preprocess": 6.484,
+          "road_model": 64.53,
+          "lane_postprocess": 44.082,
+          "lane_semantics": 1.503,
+          "decode": 16.997,
+          "rules": 0.054,
+          "total": 52.889,
+          "timeline_lag_ms": 70.276
+        },
+        "sampled_traffic_observation_age_max_ms": 619.3
+      },
+      {
+        "video": "SC_YJ2.mp4",
+        "seek": 42,
+        "actualStartPosition": 42.325,
+        "actualEndPosition": 51.925,
+        "seconds": 9.608084514003247,
+        "release": "M4-06-r1",
+        "PID_not_in_browser": true,
+        "processedFps": 14.88329955794888,
+        "previewNewFrameFps": 12.281324110755019,
+        "objectHz": 12.697640182306037,
+        "roadHz": 6.973294198479545,
+        "trafficHz": 3.7468446439591583,
+        "trafficSkipped": 107,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 18.759,
+          "jpeg": 2.552,
+          "traffic_preprocess": 4.669,
+          "traffic_inference": 102.449,
+          "traffic_postprocess": 11.824,
+          "traffic_geometry_color": 85.575,
+          "traffic_total": 204.747,
+          "det_preprocess": 4.539,
+          "det_inference": 48.262,
+          "det_postprocess": 21.907,
+          "det_tracking": 0.094,
+          "det_display_tracking": 7.036,
+          "road_preprocess": 2.712,
+          "road_model": 61.042,
+          "lane_postprocess": 28.771,
+          "lane_semantics": 27.675,
+          "decode": 5.407,
+          "rules": 0.099,
+          "total": 36.434,
+          "timeline_lag_ms": 48.138
+        },
+        "sampled_traffic_observation_age_max_ms": 652.6
+      }
+    ],
+    "candidate": [
+      {
+        "video": "SC_YJ.mp4",
+        "seek": 98,
+        "actualStartPosition": 99.166667,
+        "actualEndPosition": 112.3,
+        "seconds": 13.146088552001864,
+        "release": "M4-06-r2-candidate",
+        "PID_not_in_browser": true,
+        "processedFps": 14.909377738076582,
+        "previewNewFrameFps": 13.159807901465555,
+        "objectHz": 13.920490439122524,
+        "roadHz": 7.758961884101079,
+        "trafficHz": 3.7273444345191455,
+        "trafficSkipped": 148,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 15.773,
+          "jpeg": 2.195,
+          "traffic_preprocess": 4.1,
+          "traffic_inference": 98.939,
+          "traffic_postprocess": 8.782,
+          "traffic_geometry_color": 97.932,
+          "traffic_total": 209.769,
+          "det_preprocess": 5.686,
+          "det_inference": 36.179,
+          "det_postprocess": 13.192,
+          "det_tracking": 0.176,
+          "det_display_tracking": 8.719,
+          "road_preprocess": 6.814,
+          "road_model": 64.996,
+          "lane_postprocess": 24.386,
+          "lane_semantics": 0.11,
+          "decode": 15.75,
+          "rules": 0.029,
+          "total": 43.483,
+          "timeline_lag_ms": 60.113
+        },
+        "sampled_traffic_observation_age_max_ms": 602.1
+      },
+      {
+        "video": "SC_BT.mp4",
+        "seek": 48,
+        "actualStartPosition": 48.8,
+        "actualEndPosition": 57.933333,
+        "seconds": 9.071923708003014,
+        "release": "M4-06-r2-candidate",
+        "PID_not_in_browser": true,
+        "processedFps": 14.3299265055897,
+        "previewNewFrameFps": 14.21969630170055,
+        "objectHz": 11.133250592804306,
+        "roadHz": 7.054733048905699,
+        "trafficHz": 3.5273665244528494,
+        "trafficSkipped": 97,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 24.775,
+          "jpeg": 2.504,
+          "traffic_preprocess": 5.944,
+          "traffic_inference": 101.495,
+          "traffic_postprocess": 11.313,
+          "traffic_geometry_color": 87.13,
+          "traffic_total": 205.898,
+          "det_preprocess": 9.021,
+          "det_inference": 47.49,
+          "det_postprocess": 20.685,
+          "det_tracking": 0.134,
+          "det_display_tracking": 9.599,
+          "road_preprocess": 2.463,
+          "road_model": 57.085,
+          "lane_postprocess": 31.422,
+          "lane_semantics": 30.543,
+          "decode": 15.609,
+          "rules": 0.142,
+          "total": 55.288,
+          "timeline_lag_ms": 71.659
+        },
+        "sampled_traffic_observation_age_max_ms": 403.7
+      },
+      {
+        "video": "SC_BT2.mp4",
+        "seek": 17,
+        "actualStartPosition": 17.9,
+        "actualEndPosition": 26.766667,
+        "seconds": 8.878175020001828,
+        "release": "M4-06-r2-candidate",
+        "PID_not_in_browser": true,
+        "processedFps": 14.530013173808037,
+        "previewNewFrameFps": 14.530013173808037,
+        "objectHz": 12.502569475137149,
+        "roadHz": 7.208688706385383,
+        "trafficHz": 3.6043443531926913,
+        "trafficSkipped": 97,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 19.845,
+          "jpeg": 2.494,
+          "traffic_preprocess": 6.114,
+          "traffic_inference": 103.144,
+          "traffic_postprocess": 10.349,
+          "traffic_geometry_color": 107.154,
+          "traffic_total": 226.782,
+          "det_preprocess": 6.821,
+          "det_inference": 42.75,
+          "det_postprocess": 19.432,
+          "det_tracking": 0.194,
+          "det_display_tracking": 11.156,
+          "road_preprocess": 6.927,
+          "road_model": 64.964,
+          "lane_postprocess": 46.422,
+          "lane_semantics": 0.565,
+          "decode": 16.033,
+          "rules": 0.031,
+          "total": 50.796,
+          "timeline_lag_ms": 65.834
+        },
+        "sampled_traffic_observation_age_max_ms": 675.3
+      },
+      {
+        "video": "SC_YJ2.mp4",
+        "seek": 42,
+        "actualStartPosition": 42.425,
+        "actualEndPosition": 51.5,
+        "seconds": 9.04959880399704,
+        "release": "M4-06-r2-candidate",
+        "PID_not_in_browser": true,
+        "processedFps": 14.917788393047106,
+        "previewNewFrameFps": 14.696784120557519,
+        "objectHz": 12.376239259416858,
+        "roadHz": 7.072136719666776,
+        "trafficHz": 3.6465704960781813,
+        "trafficSkipped": 100,
+        "maxInflight": 1,
+        "duplicates": 0,
+        "stageMeanMs": {
+          "overlay": 18.854,
+          "jpeg": 2.301,
+          "traffic_preprocess": 3.806,
+          "traffic_inference": 103.044,
+          "traffic_postprocess": 9.953,
+          "traffic_geometry_color": 87.947,
+          "traffic_total": 204.771,
+          "det_preprocess": 4.897,
+          "det_inference": 47.922,
+          "det_postprocess": 23.512,
+          "det_tracking": 0.092,
+          "det_display_tracking": 6.839,
+          "road_preprocess": 1.94,
+          "road_model": 59.557,
+          "lane_postprocess": 31.299,
+          "lane_semantics": 29.37,
+          "decode": 5.789,
+          "rules": 0.169,
+          "total": 36.359,
+          "timeline_lag_ms": 48.635
+        },
+        "sampled_traffic_observation_age_max_ms": 530.3
+      }
+    ]
+  },
+  "age_definition": "host decode-complete to host observation/display time; not camera-to-browser or physical event latency. Expired observations >600ms carry no valid old light.",
+  "switch_observation": "YJ current GREEN 104.933s -> pending UNKNOWN -> confirmed GREEN 105.233s (300ms source PTS); source data in predictions.jsonl, not physical end-to-end latency",
+  "known_failures": [
+    "SC_BT 49.2s camera/information plate misdetected as a traffic-light body; retained UNKNOWN with raw evidence.",
+    "SC_YJ2 44.4s roadside fixture/backplate misdetected; retained UNKNOWN.",
+    "Day SC_BT/BT2: real remote lights often missed or UNKNOWN; new schedule has MORE zero-candidate observations in these windows, not a broad recall improvement.",
+    "SC_YJ browser recording after 109s includes expired empty observations and later ID loss/UNKNOWN. Stable selected 98-108s does not generalize to all night footage.",
+    "Existing LED negative: no left sign promoted by paired-housing geometry, but partially clipped side/countdown candidate remains UNKNOWN.",
+    "Yellow lacks reliable positive validation; OFF, arrow, vehicle/pedestrian lamp classification and request control attribution not established.",
+    "No labelled truth set/mAP/accuracy; certain-color coverage is not accuracy. Geometry body score is not neural confidence."
+  ],
+  "checks": {
+    "targeted_tests": "evidence/targeted_tests.log",
+    "pause_and_switch": "evidence/browser/candidate/expiry_switch_checks.json",
+    "loop": "evidence/browser/candidate/loop_check.json",
+    "browser_exports": "evidence/browser/exports.json",
+    "protected_source_and_runtime": "evidence/deployment_check.json",
+    "lifecycle": "candidate state/candidate_start_*.json and candidate_stop_*.json: start, repeated start same PID, graceful stop, repeated stop, restarted current candidate"
+  },
+  "render_note": "Use *_source_exact.mp4 and *_source_exact.jpg. Earlier *_m406_vs_m406r2.mp4 / *_compare.jpg are retained intermediate renders; their enlarged crops were sampled from display rather than original observation frame and are superseded.",
+  "operation": {
+    "remote_directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406r2",
+    "url": "http://127.0.0.1:18082/",
+    "remote_bind": "127.0.0.1:8082",
+    "start": "启动交通灯候选.cmd",
+    "stop": "停止交通灯候选.cmd",
+    "configuration": "../oneclick/config.json SSH user/host/port/remote_dir; candidate ports isolated from defaults",
+    "closing_launcher": "remote continues running; use candidate stop for a deliberate stop",
+    "rollback": [
+      "stop candidate using 停止交通灯候选.cmd",
+      "start original ../oneclick/启动智驾录像演示.cmd"
+    ],
+    "concurrency": "candidate refuses original full demo already running; stop candidate before starting original, do not share NPU across these benchmarks"
+  },
+  "new_numeric_experiments_or_training": false
+}

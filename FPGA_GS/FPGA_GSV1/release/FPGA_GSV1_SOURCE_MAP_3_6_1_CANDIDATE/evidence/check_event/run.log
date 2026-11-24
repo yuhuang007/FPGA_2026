@@ -1,0 +1,2 @@
+MAP_EVENT_PASS exact_identity=1 wrong_frame_rejected=1 invalid_frame0=1 expiry_latched=1 no_old_result_revival=1 session_restart=1
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_event_tb.sv:103: $finish called at 2107350000 (1ps)

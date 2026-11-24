@@ -1,0 +1,111 @@
+{
+  "release": "M4-06-r2-candidate",
+  "selected": {
+    "name": "Ultralytics YOLOv8s COCO",
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt",
+    "license": "AGPL-3.0",
+    "role": "80类COCO模型，仅使用class_id=9 traffic light作为灯体候选；不是灯色/箭头模型",
+    "deployment": "yolov8s640_fp16.rknn",
+    "backend": "RKNN/NPU，申请CORE_2；不宣称核利用率",
+    "input": "640x640 RGB NHWC uint8，letterbox114；模型内 /255；输出[1,84,8400]解码框/类别分数",
+    "schedule": {
+      "target_total_hz": 4,
+      "cycle": [
+        "center",
+        "left",
+        "right",
+        "center",
+        "full",
+        "left",
+        "right"
+      ],
+      "regions_normalized": {
+        "center": [
+          0.3,
+          0.12,
+          0.7,
+          0.7
+        ],
+        "left": [
+          0,
+          0.12,
+          0.4,
+          0.7
+        ],
+        "right": [
+          0.6,
+          0.12,
+          1,
+          0.7
+        ],
+        "full": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "note": "one neural call per observation; this is not four observations per second for every individual light"
+    },
+    "thresholds": {
+      "body_candidate": 0.25,
+      "color_gate_body_confidence": 0.45,
+      "nms": 0.45
+    },
+    "sha256": "48af8d6cd66051fd4e5d879006fd9223aa0e3abd152c84defd7b114a1bb16149"
+  },
+  "existing_environment": {
+    "python": "../.venv404/bin/python",
+    "RKNN_Lite": "2.5.0",
+    "runtime": "2.3.0",
+    "driver": "0.9.8",
+    "model_build_toolkit": "2.3.2",
+    "new_packages_or_conversion": false
+  },
+  "weight_storage": {
+    "remote_symlink": "yolov8s640_fp16.rknn -> ../m406/yolov8s640_fp16.rknn",
+    "local_original": "../m406/yolov8s640_fp16.rknn"
+  },
+  "color": {
+    "source": "CPU original RGB/HSV within bounded model or paired-capsule candidates; bright-core centering is localization only",
+    "geometry_hypothesis_factors": [
+      0.65,
+      0.85,
+      1.05,
+      1.35
+    ],
+    "geometry_limit": "paired horizontal three-cell casing hypothesis, not a trained light-body result",
+    "confirmation": "two distinct, increasing source images; changed color becomes UNKNOWN pending immediately",
+    "expiry_ms": 600,
+    "template_max_age_ms": 1200,
+    "template_refresh": "independent direct detection only; tracked image rereads current RGB",
+    "edge_candidate": "UNKNOWN; crop boundary cannot establish a complete light",
+    "shape": "UNKNOWN",
+    "direction": "UNKNOWN",
+    "control_relation": "UNKNOWN",
+    "automatic_release": false,
+    "OFF": "never inferred from a miss"
+  },
+  "protected": {
+    "traffic.py": "5730d99215e8bfa407e2eb222bb6c66b5800e7cfe93298a43bc8232b56a01c04",
+    "demo.py": "434accff183bde25dd553f79c9e52950e6631724ed1ade0646866a1dedb9a7c8",
+    "overlay.py": "15243ba2bbb8b28b302e285e267619fe54bc975c0ca8554d4a8bb69ac37221bd",
+    "driving.py": "82d19f636b0d232bc9b4cfee82f852076a6a9b1b828490b048697c7f46bab6c7",
+    "road.py": "24ae42f2dd02049a0c7eab37e7d1aaccdfce23627d4f6342fb87972b901f1875",
+    "lane_semantics.py": "9a0758b0c7a41d01ced1aa24f2f1b93bc851bc83f8471b5bbff84e39930dbb18",
+    "index.html": "4d1f4ac8fbeda3146e3359a0d1e50f8204045014e83375d4a974b11de0cdfbcc",
+    "model_manifest.json": "a222946bda64c9503c3b5a8c0435c7ae6df4401fe167621388cdeb90625ae6db",
+    "yolov8s640_fp16.rknn": "48af8d6cd66051fd4e5d879006fd9223aa0e3abd152c84defd7b114a1bb16149"
+  },
+  "candidate_source_sha256": {
+    "traffic.py": "4e3f7caf86b2ce7e492499de25da20a998a0cb49f74119b63247032f737f1c01",
+    "demo.py": "4b9d20254dd9262c662733b9c1468c4932d03b21a741bfa53513807d2c39e49f",
+    "overlay.py": "f5fc9245af4a92ad22d73908f33aca0592f63d318d027bbec00dff9c12f9a45d",
+    "driving.py": "82d19f636b0d232bc9b4cfee82f852076a6a9b1b828490b048697c7f46bab6c7",
+    "road.py": "24ae42f2dd02049a0c7eab37e7d1aaccdfce23627d4f6342fb87972b901f1875",
+    "lane_semantics.py": "9a0758b0c7a41d01ced1aa24f2f1b93bc851bc83f8471b5bbff84e39930dbb18",
+    "index.html": "c7b25eaeb069a192ecac18ad64afbce2e26f822ac8a721848e395703eaea027b",
+    "yolov8s640_fp16.rknn": "48af8d6cd66051fd4e5d879006fd9223aa0e3abd152c84defd7b114a1bb16149"
+  },
+  "scope": "FILE_TEST + SIMULATION vehicle only. No LIVE, FPGA, UDP, new trained weights, final-test input, network/environment change."
+}

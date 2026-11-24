@@ -1,0 +1,1 @@
+module monitor; initial begin #1000000; $display("ONE_MS online=%b/%b sessions=%h/%h rxstates=%d/%d pending=%h CRC=%h PUBS=%d",map_network_tb.online1,map_network_tb.online2,map_network_tb.core1.session,map_network_tb.core2.session,map_network_tb.core1.rs,map_network_tb.core2.rs,map_network_tb.pend,map_network_tb.crc,map_network_tb.pub_count);$finish;end endmodule
