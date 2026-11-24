@@ -1,0 +1,2 @@
+PASS production UART369bytes
+sim/patch_uart_tb.sv:12: $finish called at 335030000 (1ps)

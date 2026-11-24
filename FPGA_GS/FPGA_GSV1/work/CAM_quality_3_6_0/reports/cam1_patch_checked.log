@@ -1,0 +1,2 @@
+PASS native1280x720: vendor16DRM, 11520 exact RGB565 pixels across720rows,480pages, bad-frame rejection/recovery, frozen ownership, CRC=d3a214ae
+sim/cam1_pixel_patch_tb.sv:55: $finish called at 73442031976 (1ps)
