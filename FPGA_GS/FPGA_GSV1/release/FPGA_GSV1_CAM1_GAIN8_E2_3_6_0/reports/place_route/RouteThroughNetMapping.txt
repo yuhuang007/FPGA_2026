@@ -1,0 +1,25 @@
+ntR7340;monitor2/pixels [1]
+ntR7341;network/core/head [324]
+ntR7342;network2/core/head [362]
+ntR7343;u_DDR3_50H/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t500us [1]
+ntR7344;rear_gain_sequence[3]
+ntR7345;rear_gain_sequence[1]
+ntR7346;monitor1/good_frames [0]
+ntR7347;initial_en
+ntR7348;buffer2/ddr_wreq
+ntR7349;u_DDR3_50H/u_ipsxb_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ipsxb_distributed_fifo/u_ipsxb_distributed_fifo_distributed_fifo_v1_0/wr_addr [2]
+ntR7350;buffer0/m2_reader.hd.reader/fs_sync [7]
+ntR7351;_N129308
+ntR7352;u_DDR3_50H/u_ipsxb_ddrc_top/mcdq_wdatapath/data_out [1]
+ntR7353;_N147741
+ntR7354;arbiter/wgrant [2]
+ntR7355;arbiter/wgrant [1]
+ntR7356;u_DDR3_50H/ddr_rstn
+ntR7357;u_DDR3_50H/ddr_rstn
+ntR7358;network2/e1_io.observer/serial/N345
+ntR7359;network2/e1_io.observer/serial/N345
+ntR7360;network2/e1_io.observer/serial/N345
+ntR7361;network2/e1_io.observer/serial/N352_inv_1
+ntR7362;ddr_init_done
+ntR7363;nt_sys_clk
+ntR7364;nt_pix_clk

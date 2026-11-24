@@ -1,0 +1,382 @@
+{
+  "recorded_at": "2026-10-25T13:32:34.595893+08:00",
+  "reviewer": "AI / Codex; not human signoff",
+  "candidate_count": 400,
+  "independently_visually_prechecked_images": 8,
+  "completed_second_pass_label_reviews": 400,
+  "approved_for_training": 38,
+  "first_pass_label_files_at_check": 400,
+  "status": "immutable_first_pass_batches_available_awaiting_genuine_independent_review",
+  "record_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_precheck.json",
+  "required_materials": [
+    "Versioned revised per-image body annotations, class/ignore/hard-negative regions and readable attributes; source XML alone is not first-pass completion.",
+    "First-pass reviewer identity (AI explicitly allowed if declared), timestamp, actual full-image/zoom method, omissions and geometry changes for each submitted image.",
+    "Manifest binding image SHA256, revised annotation SHA256 and candidate ID; fixed incremental batches are acceptable.",
+    "Near-duplicate and same-site grouping table with visual evidence, uncertain links and proposed split boundaries; dHash proposals alone are not approved groups.",
+    "PC arbitration mechanism/results for integrated countdown/body definition, ambiguous kind, glare and missing small lights."
+  ],
+  "next_action": "Review frozen originals independently before labels; save genuine version-bound fillback separately. First-pass continuation is not an independent second pass.",
+  "frozen_first_pass_images": 400,
+  "frozen_batches": [
+    {
+      "batch_id": "batch_001",
+      "images": 32,
+      "manifest_sha256": "9c97718255f52e7c890014b49a971554041635997bac7566feff7b8e0dff6be1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_001/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_002",
+      "images": 8,
+      "manifest_sha256": "6443a0d84897f33ab8bb03e7c38567e3f1a6dc5488ceab3a19985f18254b46ab",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_002/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_003",
+      "images": 8,
+      "manifest_sha256": "4c18757598db33ec1ca98dea8c0117c7c60112c1c1c5e35a7e2aa765c854bfa3",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_003/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_004",
+      "images": 8,
+      "manifest_sha256": "3846f415202c0653397d6b528bc0141a79005a1c16716f47e9c2d5047898c786",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_004/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_005",
+      "images": 8,
+      "manifest_sha256": "441ae467ccb54eb57399841caa06d06d99dfdc9c39a17134f500a9ad5b6d1583",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_005/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_006",
+      "images": 8,
+      "manifest_sha256": "6ff4767ec2ed33c32c803c5850f0c003903a47dcd1e1bbf59388d4f5b85d9a9b",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_006/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_007",
+      "images": 8,
+      "manifest_sha256": "a883bb9ddee40fe9bfccb75efeab92300a603db1989f3e01be0897e7d08307e1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_007/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_008",
+      "images": 8,
+      "manifest_sha256": "82b89a522a4e7b72cd8b17426e3ed7ee6d74b49c80964ae0d97212304fe0207f",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_008/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_009",
+      "images": 8,
+      "manifest_sha256": "719e6c2c4adac1501b249fc660c2031f221a7b6a77fff55e0fa48d3d3db94314",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_009/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_010",
+      "images": 8,
+      "manifest_sha256": "ec903e7cc75ee3bc96b9a0d605869efee103b6e89b55fa76bfbc722d3bfe2da9",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_010/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_011",
+      "images": 8,
+      "manifest_sha256": "ca6f570387dbb4c8c53f438ec5a7d80fd2daf2766a8d1fe0d60541ff056e1238",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_011/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_012",
+      "images": 8,
+      "manifest_sha256": "f802f56da773a4a152ebc41b03ef3082621325cc6d3893514470eac6fca38ce2",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_012/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_013",
+      "images": 8,
+      "manifest_sha256": "cb258f7c7c74534ae1381627246adfc1f721a76719b0e9efde1a02822baa1f9b",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_013/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_014",
+      "images": 8,
+      "manifest_sha256": "b9164ccf384147fd39ecf8966e3413b9e4f762179c9f7d186de7e81e8f89063a",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_014/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_015",
+      "images": 8,
+      "manifest_sha256": "78cdb8315a5626d62606c6f7ca2de7cf805bf546ec505a36cc5096e86db22a01",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_015/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_016",
+      "images": 8,
+      "manifest_sha256": "2906a43e923bcb942424b9d8085ad4b4a29a7c6a251e23dee67067b3085b50c4",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_016/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_017",
+      "images": 8,
+      "manifest_sha256": "b53cb2129cdb6905d301a2f362e45fc2befe1cda45f93051ab4add955e3df999",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_017/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_018",
+      "images": 8,
+      "manifest_sha256": "077a31fd8ca6ac8fdc7ada4baba2cd4b1be49e37dabdd2a7c783d76cb5b20ba1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_018/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_019",
+      "images": 8,
+      "manifest_sha256": "cbce8789241c477174e5258d5052ac514b9abbda376b81ea87b536606b9c6715",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_019/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_020",
+      "images": 8,
+      "manifest_sha256": "25adff8de28d633805dd2f6948696087d137ca5e337fc6373c8d635e0991281b",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_020/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_021",
+      "images": 8,
+      "manifest_sha256": "e8d1d5986a997414a4ebc152e067e50ef49e05947281cf96053a75d3a0e7696f",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_021/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_022",
+      "images": 8,
+      "manifest_sha256": "2407ef3b910f5c1af23079a6c313e654657fb8d19a6cf371bd88975cbb52194d",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_022/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_023",
+      "images": 8,
+      "manifest_sha256": "5f9877884c20da4130880c353846fad58ec5872873cde44ca217e73e5b8d43dd",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_023/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_024",
+      "images": 8,
+      "manifest_sha256": "a6f19c61416a25dc64e2287b30b51589ae86437e1186757bfd9969f3515b19b4",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_024/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_025",
+      "images": 8,
+      "manifest_sha256": "55250b5e90d9c31b479a00436aeabdd326edf408cfcdedd966748c568aff74ef",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_025/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_026",
+      "images": 8,
+      "manifest_sha256": "4a1cc221be2df47ff71a7a9a38be93e6777c7ab3e208031b422a60c119ebcfa2",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_026/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_027",
+      "images": 8,
+      "manifest_sha256": "68a2b2e081e147967763d42b35cf8b3fa9975910c5e0a45b41a05e08785165f1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_027/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_028",
+      "images": 8,
+      "manifest_sha256": "c3f1ef748b802fb9c9b8d6466efc0180cc1ba8bc129e24d127529fa72d767962",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_028/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_029",
+      "images": 8,
+      "manifest_sha256": "725563d72f64b39e18dc0bf4449133f0d24e6ce42f53870513dbd05161b15cc1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_029/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_030",
+      "images": 8,
+      "manifest_sha256": "c3b0e6de702619e28d751c78972fbe5e91f74ac554e02c17bb1120c2ac1a0550",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_030/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_031",
+      "images": 8,
+      "manifest_sha256": "de137736d6e53bbb39aee76cc7835729640af3af954dff9d9a977d3611e82de1",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_031/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_032",
+      "images": 8,
+      "manifest_sha256": "4f90f65852282fc29adc86346e07919f777e6c78007355fd54d9fd03defb640a",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_032/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_033",
+      "images": 8,
+      "manifest_sha256": "126427057ee3175a82be91d39859bceb5135a1a6d84a6ed68f20e74c55b33b0d",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_033/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_034",
+      "images": 8,
+      "manifest_sha256": "757f341497b2cf6d324404dbc7be8570d8a3fe010938c7d2d2bad25e8933081a",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_034/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_035",
+      "images": 8,
+      "manifest_sha256": "6f9d8a3665fc84faba392ec314c737caeb4a8aa87d5a15ab9fe22b5d93f3df3d",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_035/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_036",
+      "images": 8,
+      "manifest_sha256": "8b191fea853125c6a33da85f68b6a258a7d697bb49ca6a7eec45818f11f70f5e",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_036/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_037",
+      "images": 8,
+      "manifest_sha256": "f445a6b502524ec8573824be61a5376f4748f54e81fca8494edf5ec78edfb301",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_037/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_038",
+      "images": 8,
+      "manifest_sha256": "dbd7eedaa5e9a894c16cbe3e1f82ea8efefd381848c0421c9b86cb7546ec00c2",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_038/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_039",
+      "images": 8,
+      "manifest_sha256": "60895b9023aac40dd424073911a5db9b3f328757dae1ce61241e76e2889f7e0e",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_039/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_040",
+      "images": 8,
+      "manifest_sha256": "ba92b9a71c57a8d6e75dae82082cc7d606e08cc124e8ffd72dcfb740ec2b1354",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_040/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_041",
+      "images": 8,
+      "manifest_sha256": "e712ecbae94a26cbe74fb2385ef4b3c8c1b38459bdd39e612d1fe5cc64477eb9",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_041/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_042",
+      "images": 8,
+      "manifest_sha256": "34ec901b2459917fff82e8377eebdc6a1fd1ccfc20e78d100871d9b41fed3ba8",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_042/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_043",
+      "images": 8,
+      "manifest_sha256": "f61e0bc5b54f031ad9c83347321c43729eacb47ef8b422eac85a7db2453f6aef",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_043/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_044",
+      "images": 8,
+      "manifest_sha256": "875d79b645a2b730c423698f4ee957ee5333a9a8a4cb01e56d6b81a089490471",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_044/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_045",
+      "images": 8,
+      "manifest_sha256": "ed5e42c3eac5cf19aa6870b862be317b39048c18c1acaf9113aa924caf322c5a",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_045/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_046",
+      "images": 8,
+      "manifest_sha256": "2fe79a01cdf7b1393ea1535f368904896b042503640ab2102d854eeb15c48fad",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_046/review_fillback.jsonl"
+    },
+    {
+      "batch_id": "batch_047",
+      "images": 8,
+      "manifest_sha256": "22b03541acaeff51d9f22544f9f94db3fafad049489c7662efb86b11a9148481",
+      "integrity_passed": true,
+      "fillback": "review_stage2/frozen/batch_047/review_fillback.jsonl"
+    }
+  ],
+  "historical_status_path": "reports/independent_review_status_before_resume.json",
+  "training_approval_inferred_from_integrity": false,
+  "historical_precheck_not_modified": [
+    "candidates.csv",
+    "annotations",
+    "review_stage2/first_pass",
+    "readiness.json",
+    "check_readiness.py",
+    "CUDA results",
+    "training gates"
+  ],
+  "historical_precheck_partial_first_pass_visual_note_count_at_check": 48,
+  "historical_precheck_partial_visual_note_sha256": "ee818f54a035adacf1542395ac721d46ffe3b81a6489acf68d63ea635aa325d2",
+  "remaining_detailed_first_pass_images": 0,
+  "draft_decision_counts": {
+    "accept": 200,
+    "uncertain": 4,
+    "needs_modify": 196
+  },
+  "pending_arbitration_images": 157,
+  "human_signoff_images": 0,
+  "explicitly_excluded_images": 41,
+  "reconfirmation_queue_path": "review_stage2/reconfirmation_queue.json",
+  "current_version_independent_reviews": 400,
+  "current_version_draft_accepts": 250,
+  "final_body_label_confirmed_images": 202,
+  "final_label_candidates": 242,
+  "label_review_contract": "Two genuine independent AI review records are allowed for label confirmation; AI is not human signoff. Group/split/ignore-safe export are separate data conditions; no new blanket human-signature gate.",
+  "formal_review_records_preserved": 63,
+  "first_48_current_version_disagreements": 0,
+  "current_stage_progress": "reports/current_stage_progress.json"
+}

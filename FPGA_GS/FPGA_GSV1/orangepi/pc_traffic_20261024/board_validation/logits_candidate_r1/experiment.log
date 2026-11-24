@@ -1,0 +1,1243 @@
+I rknn-toolkit2 version: 2.3.2
+I Loading :   0%|                                                             | 0/2 [00:00<?, ?it/s]I Loading : 100%|███████████████████████████████████████████████████| 2/2 [00:00<00:00, 9642.08it/s]
+D base_optimize ...
+D base_optimize done.
+D 
+D fold_constant ...
+D fold_constant done.
+D 
+D correct_ops ...
+D correct_ops done.
+D 
+D fuse_ops ...
+D fuse_ops done.
+D 
+D sparse_weight ...
+D sparse_weight done.
+D 
+I rknn building ...
+I RKNN: [19:27:32.658] compress = 0, conv_eltwise_activation_fuse = 1, global_fuse = 1, multi-core-model-mode = 7, output_optimize = 1, layout_match = 1, enable_argb_group = 0, op_group_sram_opt = 0, enable_flash_attention = 0, op_group_nbuf_opt = 0, safe_fuse = 0
+I RKNN: librknnc version: 2.3.2 (@2025-04-03T08:30:46)
+D RKNN: [19:27:32.659] RKNN is invoked
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNExtractCustomOpAttrs
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNExtractCustomOpAttrs
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNSetOpTargetPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNSetOpTargetPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNBindNorm
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNBindNorm
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNEliminateQATDataConvert
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNEliminateQATDataConvert
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNConvStrideFixPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNConvStrideFixPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNTileGroupConv
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNTileGroupConv
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNAddConvBias
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNAddConvBias
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNTileChannel
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNTileChannel
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNDuplicateWeightPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNDuplicateWeightPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNInitRNNConst
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNInitRNNConst
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNPerChannelPrep
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNPerChannelPrep
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNBnQuant
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNBnQuant
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNFuseOptimizerPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNFuseOptimizerPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNTurnAutoPad
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNTurnAutoPad
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNInitCastConst
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNInitCastConst
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNMultiSurfacePass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNMultiSurfacePass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNReplaceConstantTensorPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNReplaceConstantTensorPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNSubgraphManager
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNSubgraphManager
+D RKNN: [19:27:32.660] >>>>>> start: OpEmit
+D RKNN: [19:27:32.660] <<<<<<<< end: OpEmit
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNAddFirstConv
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNAddFirstConv
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNTilingPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNTilingPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNLayoutMatchPass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNLayoutMatchPass
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNAddSecondaryNode
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNAddSecondaryNode
+D RKNN: [19:27:32.660] >>>>>> start: rknn::RKNNAllocateConvCachePass
+D RKNN: [19:27:32.660] <<<<<<<< end: rknn::RKNNAllocateConvCachePass
+D RKNN: [19:27:32.660] >>>>>> start: OpEmit
+D RKNN: [19:27:32.661] <<<<<<<< end: OpEmit
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNSubGraphMemoryPlanPass
+D RKNN: [19:27:32.661] <<<<<<<< end: rknn::RKNNSubGraphMemoryPlanPass
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNProfileAnalysisPass
+D RKNN: [19:27:32.661] <<<<<<<< end: rknn::RKNNProfileAnalysisPass
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNOperatorIdGenPass
+D RKNN: [19:27:32.661] <<<<<<<< end: rknn::RKNNOperatorIdGenPass
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNWeightTransposePass
+D RKNN: [19:27:32.661] <<<<<<<< end: rknn::RKNNWeightTransposePass
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNCPUWeightTransposePass
+D RKNN: [19:27:32.661] <<<<<<<< end: rknn::RKNNCPUWeightTransposePass
+D RKNN: [19:27:32.661] >>>>>> start: rknn::RKNNModelBuildPass
+D RKNN: [19:27:32.662] <<<<<<<< end: rknn::RKNNModelBuildPass
+D RKNN: [19:27:32.662] >>>>>> start: rknn::RKNNModelRegCmdbuildPass
+D RKNN: [19:27:32.662] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.662]                                                         Network Layer Information Table                                                      
+D RKNN: [19:27:32.662] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.662] ID   OpType             DataType Target InputShape                               OutputShape            Cycles(DDR/NPU/Total)    RW(KB)       FullName        
+D RKNN: [19:27:32.662] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.662] 0    InputOperator      FLOAT16  CPU    \                                        (1,3,8,8)              0/0/0                    0            InputOperator:input
+D RKNN: [19:27:32.662] 1    Conv               FLOAT16  NPU    (1,3,8,8),(16,3,1,1),(16)                (1,16,8,8)             117/128/128              0            Conv:class_logits
+D RKNN: [19:27:32.662] 2    OutputOperator     FLOAT16  CPU    (1,16,8,8)                               \                      0/0/0                    2            OutputOperator:class_logits
+D RKNN: [19:27:32.662] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.662] <<<<<<<< end: rknn::RKNNModelRegCmdbuildPass
+D RKNN: [19:27:32.663] >>>>>> start: rknn::RKNNModelExportPass
+D RKNN: [19:27:32.663] Export RKNN model to /tmp/tmp1y69grcc/check.rknn
+D RKNN: [19:27:32.663] <<<<<<<< end: rknn::RKNNModelExportPass
+D RKNN: [19:27:32.663] >>>>>> start: rknn::RKNNMemStatisticsPass
+D RKNN: [19:27:32.663] -------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.663]                                       Feature Tensor Information Table                         
+D RKNN: [19:27:32.663] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] ID  User           Tensor       DataType  DataFormat   OrigShape    NativeShape  |     [Start       End)       Size
+D RKNN: [19:27:32.663] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] 1   Conv           input        FLOAT16   NC1HWC2      (1,3,8,8)    (1,4,8,8,3)  | 0x00000000 0x00000180 0x00000180
+D RKNN: [19:27:32.663] 2   OutputOperator class_logits FLOAT16   NC1HWC2      (1,16,8,8)   (1,8,8,8,8)  | 0x00000180*0x00000980 0x00000800
+D RKNN: [19:27:32.663] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] ---------------------------------------------------------------------------
+D RKNN: [19:27:32.663]                          Const Tensor Information Table       
+D RKNN: [19:27:32.663] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] ID  User Tensor   DataType  OrigShape    |     [Start       End)       Size
+D RKNN: [19:27:32.663] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] 1   Conv weight   FLOAT16   (16,3,1,1)   | 0x00000000 0x00000100 0x00000100
+D RKNN: [19:27:32.663] 1   Conv bias     FLOAT     (16)         | 0x00000100 0x00000140 0x00000040
+D RKNN: [19:27:32.663] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.663] ----------------------------------------
+D RKNN: [19:27:32.663] Total Internal Memory Size: 2.375KB
+D RKNN: [19:27:32.663] Total Weight Memory Size: 2.3125KB
+D RKNN: [19:27:32.663] ----------------------------------------
+D RKNN: [19:27:32.663] <<<<<<<< end: rknn::RKNNMemStatisticsPass
+I rknn building done.
+W rknn-toolkit-lite2 version: 2.5.0
+W Verbose file path is invalid, debug info will not dump to file.
+D target set by user is: None
+D Starting ntp or adb, target soc is RK3588, device id is: None
+I RKNN: [19:27:32.759] RKNN Runtime Information, librknnrt version: 2.3.0 (c949ad889d@2024-11-07T11:35:33)
+I RKNN: [19:27:32.759] RKNN Driver Information, version: 0.9.8
+I RKNN: [19:27:32.759] RKNN Model Information, version: 6, toolkit version: 2.3.2(compiler version: 2.3.2 (@2025-04-03T08:26:16)), target: RKNPU v2, target platform: rk3588, framework name: ONNX, framework layout: NCHW, model inference type: static_shape
+D RKNN: [19:27:32.759] allocated memory, name: task, virt addr: 0x7f9e293000, dma addr: 0xfffff000, obj addr: 0xffffff8142d1a800, size: 440, aligned size: 4096, fd: 4, handle: 1, flags: 0x40b, gem name: 1, iommu domain id: 0
+D RKNN: [19:27:32.759] allocated memory, name: weight, virt addr: 0x7f9e290000, dma addr: 0xffffc000, obj addr: 0xffffff8142d1d800, size: 10304, aligned size: 12288, fd: 5, handle: 2, flags: 0x403, gem name: 2, iommu domain id: 0
+D RKNN: [19:27:32.759] subgraph0 regcmdbuffer size: 7488, taskbuffer size: 440
+D RKNN: [19:27:32.759] allocated memory, name: internal, virt addr: 0x7f9e28f000, dma addr: 0xffffb000, obj addr: 0xffffff8142d19800, size: 2432, aligned size: 4096, fd: 6, handle: 3, flags: 0x403, gem name: 3, iommu domain id: 0
+D RKNN: [19:27:32.760] -------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.760]                                       Feature Tensor Information Table                         
+D RKNN: [19:27:32.760] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] ID  User           Tensor       DataType  DataFormat   OrigShape    NativeShape  |     [Start       End)       Size
+D RKNN: [19:27:32.760] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] 1   Conv           input        FLOAT16   NC1HWC2      (1,3,8,8)    (1,4,8,8,3)  | 0xffffb000 0xffffb180 0x00000180
+D RKNN: [19:27:32.760] 2   OutputOperator class_logits FLOAT16   NC1HWC2      (1,16,8,8)   (1,8,8,8,8)  | 0xffffb180*0xffffb980 0x00000800
+D RKNN: [19:27:32.760] ---------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] ---------------------------------------------------------------------------
+D RKNN: [19:27:32.760]                          Const Tensor Information Table       
+D RKNN: [19:27:32.760] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] ID  User Tensor   DataType  OrigShape    |     [Start       End)       Size
+D RKNN: [19:27:32.760] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] 1   Conv weight   FLOAT16   (16,3,1,1)   | 0xffffc000 0xffffc100 0x00000100
+D RKNN: [19:27:32.760] 1   Conv bias     FLOAT     (16)         | 0xffffc100 0xffffc140 0x00000040
+D RKNN: [19:27:32.760] -----------------------------------------+---------------------------------
+D RKNN: [19:27:32.760] ----------------------------------------
+D RKNN: [19:27:32.760] Total Internal Memory Size: 2.375KB
+D RKNN: [19:27:32.760] Total Weight Memory Size: 2.3125KB
+D RKNN: [19:27:32.760] ----------------------------------------
+D RKNN: [19:27:32.760] The RKNN_FLAG_EXECUTE_FALLBACK_PRIOR_DEVICE_GPU is not set and without GPU op in Graphs, OpenCL will not be initialized
+W RKNN: [19:27:32.760] query RKNN_QUERY_INPUT_DYNAMIC_RANGE error, rknn model is static shape type, please export rknn with dynamic_shapes
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+D RKNN: [19:27:32.761] allocated memory, name: input, virt addr: 0x7f9e28e000, dma addr: 0xffffa000, obj addr: 0xffffff8142d19c00, size: 384, aligned size: 4096, fd: 7, handle: 4, flags: 0x403, gem name: 4, iommu domain id: 0
+D RKNN: [19:27:32.761] allocated memory, name: class_logits, virt addr: 0x7f9e28d000, dma addr: 0xffff9000, obj addr: 0xffffff8142d19400, size: 2048, aligned size: 4096, fd: 8, handle: 5, flags: 0x403, gem name: 5, iommu domain id: 0
+D RKNN: [19:27:32.761] enable argb mode, dtype: UINT8, channel: 3
+D RKNN: [19:27:32.761] update cvt sign: 0
+D RKNN: [19:27:32.761] normalize target: CPU
+W RKNN: [19:27:32.761] Failed to get NPU freq, take 1000MHz as default NPU freq
+D RKNN: [19:27:32.761] Get DDR frequency: 528MHz
+D RKNN: [19:27:32.761] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.761]                                                                           Network Layer Information Table                                                                                
+D RKNN: [19:27:32.761] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.761] ID   OpType             DataType Target InputShape                               OutputShape            Cycles(DDR/NPU/Total)    Time(us)     MacUsage(%)          WorkLoad(0/1/2)      RW(KB)       FullName        
+D RKNN: [19:27:32.761] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.761] 1    InputOperator      FLOAT16  CPU    \                                        (1,3,8,8)              0/0/0                    5                                 0.0%/0.0%/0.0%       0            InputOperator:input
+D RKNN: [19:27:32.761] 2    Conv               FLOAT16  NPU    (1,3,8,8),(16,3,1,1),(16)                (1,16,8,8)             466/128/466              86           0.01/0.00/0.00       100.0%/0.0%/0.0%     0            Conv:class_logits
+D RKNN: [19:27:32.761] 3    OutputOperator     FLOAT16  CPU    (1,16,8,8)                               \                      0/0/0                    2                                 0.0%/0.0%/0.0%       2            OutputOperator:class_logits
+D RKNN: [19:27:32.761] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.761] Total Operator Elapsed Per Frame Time(us): 93
+D RKNN: [19:27:32.761] Total Memory Read/Write Per Frame Size(KB): 2.69
+D RKNN: [19:27:32.761] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.762] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.762]                                  Operator Time Consuming Ranking Table            
+D RKNN: [19:27:32.762] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.762] OpType             CallNumber   CPUTime(us)  GPUTime(us)  NPUTime(us)  TotalTime(us)  TimeRatio(%)  
+D RKNN: [19:27:32.762] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.762] Conv               1            0            0            86           86             92.47%        
+D RKNN: [19:27:32.762] InputOperator      1            5            0            0            5              5.38%         
+D RKNN: [19:27:32.762] OutputOperator     1            2            0            0            2              2.15%         
+D RKNN: [19:27:32.762] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.762] Total                           7            0            86           93            
+D RKNN: [19:27:32.762] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.766] enable argb mode, dtype: UINT8, channel: 3
+D RKNN: [19:27:32.766] update cvt sign: 0
+D RKNN: [19:27:32.766] normalize target: CPU
+W RKNN: [19:27:32.766] Failed to get NPU freq, take 1000MHz as default NPU freq
+D RKNN: [19:27:32.766] Get DDR frequency: 528MHz
+D RKNN: [19:27:32.767] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767]                                                                           Network Layer Information Table                                                                                
+D RKNN: [19:27:32.767] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] ID   OpType             DataType Target InputShape                               OutputShape            Cycles(DDR/NPU/Total)    Time(us)     MacUsage(%)          WorkLoad(0/1/2)      RW(KB)       FullName        
+D RKNN: [19:27:32.767] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] 1    InputOperator      FLOAT16  CPU    \                                        (1,3,8,8)              0/0/0                    6                                 0.0%/0.0%/0.0%       0            InputOperator:input
+D RKNN: [19:27:32.767] 2    Conv               FLOAT16  NPU    (1,3,8,8),(16,3,1,1),(16)                (1,16,8,8)             466/128/466              83           0.01/0.00/0.00       100.0%/0.0%/0.0%     0            Conv:class_logits
+D RKNN: [19:27:32.767] 3    OutputOperator     FLOAT16  CPU    (1,16,8,8)                               \                      0/0/0                    3                                 0.0%/0.0%/0.0%       2            OutputOperator:class_logits
+D RKNN: [19:27:32.767] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] Total Operator Elapsed Per Frame Time(us): 92
+D RKNN: [19:27:32.767] Total Memory Read/Write Per Frame Size(KB): 2.69
+D RKNN: [19:27:32.767] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767]                                  Operator Time Consuming Ranking Table            
+D RKNN: [19:27:32.767] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] OpType             CallNumber   CPUTime(us)  GPUTime(us)  NPUTime(us)  TotalTime(us)  TimeRatio(%)  
+D RKNN: [19:27:32.767] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] Conv               1            0            0            83           83             90.22%        
+D RKNN: [19:27:32.767] InputOperator      1            6            0            0            6              6.52%         
+D RKNN: [19:27:32.767] OutputOperator     1            3            0            0            3              3.26%         
+D RKNN: [19:27:32.767] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.767] Total                           9            0            83           92            
+D RKNN: [19:27:32.767] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] enable argb mode, dtype: UINT8, channel: 3
+D RKNN: [19:27:32.771] update cvt sign: 0
+D RKNN: [19:27:32.771] normalize target: CPU
+W RKNN: [19:27:32.771] Failed to get NPU freq, take 1000MHz as default NPU freq
+D RKNN: [19:27:32.771] Get DDR frequency: 528MHz
+D RKNN: [19:27:32.771] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771]                                                                           Network Layer Information Table                                                                                
+D RKNN: [19:27:32.771] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] ID   OpType             DataType Target InputShape                               OutputShape            Cycles(DDR/NPU/Total)    Time(us)     MacUsage(%)          WorkLoad(0/1/2)      RW(KB)       FullName        
+D RKNN: [19:27:32.771] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] 1    InputOperator      FLOAT16  CPU    \                                        (1,3,8,8)              0/0/0                    6                                 0.0%/0.0%/0.0%       0            InputOperator:input
+D RKNN: [19:27:32.771] 2    Conv               FLOAT16  NPU    (1,3,8,8),(16,3,1,1),(16)                (1,16,8,8)             466/128/466              83           0.01/0.00/0.00       100.0%/0.0%/0.0%     0            Conv:class_logits
+D RKNN: [19:27:32.771] 3    OutputOperator     FLOAT16  CPU    (1,16,8,8)                               \                      0/0/0                    3                                 0.0%/0.0%/0.0%       2            OutputOperator:class_logits
+D RKNN: [19:27:32.771] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] Total Operator Elapsed Per Frame Time(us): 92
+D RKNN: [19:27:32.771] Total Memory Read/Write Per Frame Size(KB): 2.69
+D RKNN: [19:27:32.771] ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771]                                  Operator Time Consuming Ranking Table            
+D RKNN: [19:27:32.771] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] OpType             CallNumber   CPUTime(us)  GPUTime(us)  NPUTime(us)  TotalTime(us)  TimeRatio(%)  
+D RKNN: [19:27:32.771] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] Conv               1            0            0            83           83             90.22%        
+D RKNN: [19:27:32.771] InputOperator      1            6            0            0            6              6.52%         
+D RKNN: [19:27:32.771] OutputOperator     1            3            0            0            3              3.26%         
+D RKNN: [19:27:32.771] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.771] Total                           9            0            83           92            
+D RKNN: [19:27:32.771] ---------------------------------------------------------------------------------------------------
+D RKNN: [19:27:32.775] free memory, name: internal, virt addr: 0x7f9e28f000, dma addr: 0xffffb000, obj addr: 0xffffff8142d19800, size: 2432, aligned size: 4096, fd: 6, handle: 3, flags: 0x403, gem name: 3, iommu domain id: 0
+D RKNN: [19:27:32.775] free memory, name: weight, virt addr: 0x7f9e290000, dma addr: 0xffffc000, obj addr: 0xffffff8142d1d800, size: 10304, aligned size: 12288, fd: 5, handle: 2, flags: 0x403, gem name: 2, iommu domain id: 0
+D RKNN: [19:27:32.775] free memory, name: task, virt addr: 0x7f9e293000, dma addr: 0xfffff000, obj addr: 0xffffff8142d1a800, size: 440, aligned size: 4096, fd: 4, handle: 1, flags: 0x40b, gem name: 1, iommu domain id: 0
+D RKNN: [19:27:32.775] free memory, name: input, virt addr: 0x7f9e28e000, dma addr: 0xffffa000, obj addr: 0xffffff8142d19c00, size: 384, aligned size: 4096, fd: 7, handle: 4, flags: 0x403, gem name: 4, iommu domain id: 0
+D RKNN: [19:27:32.775] free memory, name: class_logits, virt addr: 0x7f9e28d000, dma addr: 0xffff9000, obj addr: 0xffffff8142d19400, size: 2048, aligned size: 4096, fd: 8, handle: 5, flags: 0x403, gem name: 5, iommu domain id: 0
+{"probe_passed": true, "score_error": {"count": 3072, "max_abs": 2.697413035515628e-05, "mean_abs": 1.6684751731440206e-06, "rmse": 5.5278057489469175e-06, "p50_abs": 0.0, "p95_abs": 6.740087767890049e-06, "p99_abs": 2.697413035515628e-05, "p99.9_abs": 2.697413035515628e-05}}
+I rknn-toolkit2 version: 2.3.2
+I Loading :   0%|                                                            | 0/81 [00:00<?, ?it/s]I Loading : 100%|████████████████████████████████████████████████| 81/81 [00:00<00:00, 26566.99it/s]
+D base_optimize ...
+D base_optimize done.
+D 
+D fold_constant ...
+D fold_constant done.
+D 
+D correct_ops ...
+D correct_ops done.
+D 
+D fuse_ops ...
+D fuse_ops results:
+D     replace_exswish: remove node = ['/model.0/act/Sigmoid', '/model.0/act/Mul'], add node = ['/model.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.1/act/Sigmoid', '/model.1/act/Mul'], add node = ['/model.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.2/cv1/act/Sigmoid', '/model.2/cv1/act/Mul'], add node = ['/model.2/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.2/Slice', '/model.2/Slice_1'], add node = ['/model.2/Slice_2sp']
+D     replace_exswish: remove node = ['/model.2/m.0/cv1/act/Sigmoid', '/model.2/m.0/cv1/act/Mul'], add node = ['/model.2/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.2/m.0/cv2/act/Sigmoid', '/model.2/m.0/cv2/act/Mul'], add node = ['/model.2/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.2/cv2/act/Sigmoid', '/model.2/cv2/act/Mul'], add node = ['/model.2/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.3/act/Sigmoid', '/model.3/act/Mul'], add node = ['/model.3/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.4/cv1/act/Sigmoid', '/model.4/cv1/act/Mul'], add node = ['/model.4/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.4/Slice', '/model.4/Slice_1'], add node = ['/model.4/Slice_2sp']
+D     replace_exswish: remove node = ['/model.4/m.0/cv1/act/Sigmoid', '/model.4/m.0/cv1/act/Mul'], add node = ['/model.4/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.4/m.0/cv2/act/Sigmoid', '/model.4/m.0/cv2/act/Mul'], add node = ['/model.4/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.4/m.1/cv1/act/Sigmoid', '/model.4/m.1/cv1/act/Mul'], add node = ['/model.4/m.1/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.4/m.1/cv2/act/Sigmoid', '/model.4/m.1/cv2/act/Mul'], add node = ['/model.4/m.1/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.4/cv2/act/Sigmoid', '/model.4/cv2/act/Mul'], add node = ['/model.4/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.5/act/Sigmoid', '/model.5/act/Mul'], add node = ['/model.5/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.6/cv1/act/Sigmoid', '/model.6/cv1/act/Mul'], add node = ['/model.6/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.6/Slice', '/model.6/Slice_1'], add node = ['/model.6/Slice_2sp']
+D     replace_exswish: remove node = ['/model.6/m.0/cv1/act/Sigmoid', '/model.6/m.0/cv1/act/Mul'], add node = ['/model.6/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.6/m.0/cv2/act/Sigmoid', '/model.6/m.0/cv2/act/Mul'], add node = ['/model.6/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.6/m.1/cv1/act/Sigmoid', '/model.6/m.1/cv1/act/Mul'], add node = ['/model.6/m.1/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.6/m.1/cv2/act/Sigmoid', '/model.6/m.1/cv2/act/Mul'], add node = ['/model.6/m.1/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.6/cv2/act/Sigmoid', '/model.6/cv2/act/Mul'], add node = ['/model.6/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.7/act/Sigmoid', '/model.7/act/Mul'], add node = ['/model.7/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.8/cv1/act/Sigmoid', '/model.8/cv1/act/Mul'], add node = ['/model.8/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.8/Slice', '/model.8/Slice_1'], add node = ['/model.8/Slice_2sp']
+D     replace_exswish: remove node = ['/model.8/m.0/cv1/act/Sigmoid', '/model.8/m.0/cv1/act/Mul'], add node = ['/model.8/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.8/m.0/cv2/act/Sigmoid', '/model.8/m.0/cv2/act/Mul'], add node = ['/model.8/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.8/cv2/act/Sigmoid', '/model.8/cv2/act/Mul'], add node = ['/model.8/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.9/cv1/act/Sigmoid', '/model.9/cv1/act/Mul'], add node = ['/model.9/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.9/cv2/act/Sigmoid', '/model.9/cv2/act/Mul'], add node = ['/model.9/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.12/cv1/act/Sigmoid', '/model.12/cv1/act/Mul'], add node = ['/model.12/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.12/Slice', '/model.12/Slice_1'], add node = ['/model.12/Slice_2sp']
+D     replace_exswish: remove node = ['/model.12/m.0/cv1/act/Sigmoid', '/model.12/m.0/cv1/act/Mul'], add node = ['/model.12/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.12/m.0/cv2/act/Sigmoid', '/model.12/m.0/cv2/act/Mul'], add node = ['/model.12/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.12/cv2/act/Sigmoid', '/model.12/cv2/act/Mul'], add node = ['/model.12/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.15/cv1/act/Sigmoid', '/model.15/cv1/act/Mul'], add node = ['/model.15/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.15/Slice', '/model.15/Slice_1'], add node = ['/model.15/Slice_2sp']
+D     replace_exswish: remove node = ['/model.15/m.0/cv1/act/Sigmoid', '/model.15/m.0/cv1/act/Mul'], add node = ['/model.15/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.15/m.0/cv2/act/Sigmoid', '/model.15/m.0/cv2/act/Mul'], add node = ['/model.15/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.15/cv2/act/Sigmoid', '/model.15/cv2/act/Mul'], add node = ['/model.15/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.16/act/Sigmoid', '/model.16/act/Mul'], add node = ['/model.16/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.18/cv1/act/Sigmoid', '/model.18/cv1/act/Mul'], add node = ['/model.18/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.18/Slice', '/model.18/Slice_1'], add node = ['/model.18/Slice_2sp']
+D     replace_exswish: remove node = ['/model.18/m.0/cv1/act/Sigmoid', '/model.18/m.0/cv1/act/Mul'], add node = ['/model.18/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.18/m.0/cv2/act/Sigmoid', '/model.18/m.0/cv2/act/Mul'], add node = ['/model.18/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.18/cv2/act/Sigmoid', '/model.18/cv2/act/Mul'], add node = ['/model.18/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.19/act/Sigmoid', '/model.19/act/Mul'], add node = ['/model.19/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.21/cv1/act/Sigmoid', '/model.21/cv1/act/Mul'], add node = ['/model.21/cv1/act/Sigmoid_2swish']
+D     replace_parallel_slice_by_split: remove node = ['/model.21/Slice', '/model.21/Slice_1'], add node = ['/model.21/Slice_2sp']
+D     replace_exswish: remove node = ['/model.21/m.0/cv1/act/Sigmoid', '/model.21/m.0/cv1/act/Mul'], add node = ['/model.21/m.0/cv1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.21/m.0/cv2/act/Sigmoid', '/model.21/m.0/cv2/act/Mul'], add node = ['/model.21/m.0/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.21/cv2/act/Sigmoid', '/model.21/cv2/act/Mul'], add node = ['/model.21/cv2/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.2/cv2.2.0/act/Sigmoid', '/model.22/cv2.2/cv2.2.0/act/Mul'], add node = ['/model.22/cv2.2/cv2.2.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.2/cv2.2.1/act/Sigmoid', '/model.22/cv2.2/cv2.2.1/act/Mul'], add node = ['/model.22/cv2.2/cv2.2.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.2/cv3.2.0/act/Sigmoid', '/model.22/cv3.2/cv3.2.0/act/Mul'], add node = ['/model.22/cv3.2/cv3.2.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.2/cv3.2.1/act/Sigmoid', '/model.22/cv3.2/cv3.2.1/act/Mul'], add node = ['/model.22/cv3.2/cv3.2.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.1/cv2.1.0/act/Sigmoid', '/model.22/cv2.1/cv2.1.0/act/Mul'], add node = ['/model.22/cv2.1/cv2.1.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.1/cv2.1.1/act/Sigmoid', '/model.22/cv2.1/cv2.1.1/act/Mul'], add node = ['/model.22/cv2.1/cv2.1.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.1/cv3.1.0/act/Sigmoid', '/model.22/cv3.1/cv3.1.0/act/Mul'], add node = ['/model.22/cv3.1/cv3.1.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.1/cv3.1.1/act/Sigmoid', '/model.22/cv3.1/cv3.1.1/act/Mul'], add node = ['/model.22/cv3.1/cv3.1.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.0/cv2.0.0/act/Sigmoid', '/model.22/cv2.0/cv2.0.0/act/Mul'], add node = ['/model.22/cv2.0/cv2.0.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv2.0/cv2.0.1/act/Sigmoid', '/model.22/cv2.0/cv2.0.1/act/Mul'], add node = ['/model.22/cv2.0/cv2.0.1/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.0/cv3.0.0/act/Sigmoid', '/model.22/cv3.0/cv3.0.0/act/Mul'], add node = ['/model.22/cv3.0/cv3.0.0/act/Sigmoid_2swish']
+D     replace_exswish: remove node = ['/model.22/cv3.0/cv3.0.1/act/Sigmoid', '/model.22/cv3.0/cv3.0.1/act/Mul'], add node = ['/model.22/cv3.0/cv3.0.1/act/Sigmoid_2swish']
+D     fold_constant ...
+D     fold_constant done.
+D fuse_ops done.
+D 
+D sparse_weight ...
+D sparse_weight done.
+D 
+D recover_const_share ...
+D recover_const_share done.
+D 
+I rknn building ...
+I RKNN: [19:27:35.844] compress = 0, conv_eltwise_activation_fuse = 1, global_fuse = 1, multi-core-model-mode = 7, output_optimize = 1, layout_match = 1, enable_argb_group = 0, op_group_sram_opt = 0, enable_flash_attention = 0, op_group_nbuf_opt = 0, safe_fuse = 0
+I RKNN: librknnc version: 2.3.2 (@2025-04-03T08:30:46)
+D RKNN: [19:27:35.893] RKNN is invoked
+W RKNN: [19:27:36.075] Model initializer tensor data is empty, name: /model.10/Constant_1_output_0
+D RKNN: [19:27:36.101] >>>>>> start: rknn::RKNNExtractCustomOpAttrs
+D RKNN: [19:27:36.103] <<<<<<<< end: rknn::RKNNExtractCustomOpAttrs
+D RKNN: [19:27:36.103] >>>>>> start: rknn::RKNNSetOpTargetPass
+D RKNN: [19:27:36.103] <<<<<<<< end: rknn::RKNNSetOpTargetPass
+D RKNN: [19:27:36.103] >>>>>> start: rknn::RKNNBindNorm
+D RKNN: [19:27:36.104] <<<<<<<< end: rknn::RKNNBindNorm
+D RKNN: [19:27:36.104] >>>>>> start: rknn::RKNNEliminateQATDataConvert
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNEliminateQATDataConvert
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNConvStrideFixPass
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNConvStrideFixPass
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNTileGroupConv
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNTileGroupConv
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNAddConvBias
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNAddConvBias
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNTileChannel
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNTileChannel
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNDuplicateWeightPass
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNDuplicateWeightPass
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNInitRNNConst
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNInitRNNConst
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNPerChannelPrep
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNPerChannelPrep
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNBnQuant
+D RKNN: [19:27:36.105] <<<<<<<< end: rknn::RKNNBnQuant
+D RKNN: [19:27:36.105] >>>>>> start: rknn::RKNNFuseOptimizerPass
+D RKNN: [19:27:36.138] <<<<<<<< end: rknn::RKNNFuseOptimizerPass
+D RKNN: [19:27:36.138] >>>>>> start: rknn::RKNNTurnAutoPad
+D RKNN: [19:27:36.138] <<<<<<<< end: rknn::RKNNTurnAutoPad
+D RKNN: [19:27:36.138] >>>>>> start: rknn::RKNNInitCastConst
+D RKNN: [19:27:36.138] <<<<<<<< end: rknn::RKNNInitCastConst
+D RKNN: [19:27:36.138] >>>>>> start: rknn::RKNNMultiSurfacePass
+D RKNN: [19:27:36.138] <<<<<<<< end: rknn::RKNNMultiSurfacePass
+D RKNN: [19:27:36.138] >>>>>> start: rknn::RKNNReplaceConstantTensorPass
+D RKNN: [19:27:36.139] <<<<<<<< end: rknn::RKNNReplaceConstantTensorPass
+D RKNN: [19:27:36.139] >>>>>> start: rknn::RKNNSubgraphManager
+D RKNN: [19:27:36.139] <<<<<<<< end: rknn::RKNNSubgraphManager
+D RKNN: [19:27:36.139] >>>>>> start: OpEmit
+T RKNN: [19:27:36.139] ---> start check: InputOperator:images
+T RKNN: [19:27:36.139] -----> end check: InputOperator:images
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.0/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.0/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.2/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.2/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.2/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.2/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.2/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.2/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.2/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.2/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.2/m.0/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.2/m.0/Add
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.2/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.2/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.2/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.2/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.3/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.3/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.4/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.4/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.4/m.0/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.4/m.0/Add
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.4/m.1/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.4/m.1/Add
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.4/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.4/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.4/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.4/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.5/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.5/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.6/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.6/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.6/m.0/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.6/m.0/Add
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.6/m.1/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.6/m.1/Add
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.6/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.6/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.6/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.6/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.7/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.7/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.8/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.8/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.8/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.8/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.8/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.8/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.8/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.8/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Add:/model.8/m.0/Add
+T RKNN: [19:27:36.139] -----> end check: Add:/model.8/m.0/Add
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.8/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.8/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.8/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.8/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.9/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.9/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: MaxPool:/model.9/m/MaxPool
+T RKNN: [19:27:36.139] -----> end check: MaxPool:/model.9/m/MaxPool
+T RKNN: [19:27:36.139] ---> start check: MaxPool:/model.9/m_1/MaxPool
+T RKNN: [19:27:36.139] -----> end check: MaxPool:/model.9/m_1/MaxPool
+T RKNN: [19:27:36.139] ---> start check: MaxPool:/model.9/m_2/MaxPool
+T RKNN: [19:27:36.139] -----> end check: MaxPool:/model.9/m_2/MaxPool
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.9/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.9/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.9/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.9/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Resize:/model.10/Resize
+T RKNN: [19:27:36.139] -----> end check: Resize:/model.10/Resize
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.11/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.11/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.12/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.12/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.12/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.12/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.12/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.12/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.12/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.12/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.12/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.12/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.12/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.12/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Resize:/model.13/Resize
+T RKNN: [19:27:36.139] -----> end check: Resize:/model.13/Resize
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.14/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.14/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.15/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.15/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Split:/model.15/Slice_2sp
+T RKNN: [19:27:36.139] -----> end check: Split:/model.15/Slice_2sp
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.15/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.15/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.15/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] -----> end check: Conv:/model.15/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.139] ---> start check: Concat:/model.15/Concat
+T RKNN: [19:27:36.139] -----> end check: Concat:/model.15/Concat
+T RKNN: [19:27:36.139] ---> start check: Conv:/model.15/cv2/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.15/cv2/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.16/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.16/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Concat:/model.17/Concat
+T RKNN: [19:27:36.140] -----> end check: Concat:/model.17/Concat
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.0/cv2.0.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.0/cv2.0.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.0/cv3.0.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.0/cv3.0.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.18/cv1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.18/cv1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Split:/model.18/Slice_2sp
+T RKNN: [19:27:36.140] -----> end check: Split:/model.18/Slice_2sp
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.0/cv2.0.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.0/cv2.0.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.0/cv2.0.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.0/cv2.0.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:box_s8
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:box_s8
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.0/cv3.0.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.0/cv3.0.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.0/cv3.0.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.0/cv3.0.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:class_logits_s8
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:class_logits_s8
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.18/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.18/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.18/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.18/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Concat:/model.18/Concat
+T RKNN: [19:27:36.140] -----> end check: Concat:/model.18/Concat
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.18/cv2/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.18/cv2/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.19/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.19/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Concat:/model.20/Concat
+T RKNN: [19:27:36.140] -----> end check: Concat:/model.20/Concat
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.1/cv2.1.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.1/cv2.1.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.1/cv3.1.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.1/cv3.1.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.21/cv1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.21/cv1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Split:/model.21/Slice_2sp
+T RKNN: [19:27:36.140] -----> end check: Split:/model.21/Slice_2sp
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.1/cv2.1.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.1/cv2.1.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.1/cv2.1.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.1/cv2.1.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:box_s16
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:box_s16
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.1/cv3.1.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.1/cv3.1.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.1/cv3.1.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.1/cv3.1.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:class_logits_s16
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:class_logits_s16
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.21/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.21/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.21/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.21/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Concat:/model.21/Concat
+T RKNN: [19:27:36.140] -----> end check: Concat:/model.21/Concat
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.21/cv2/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.21/cv2/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.2/cv2.2.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.2/cv2.2.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.2/cv3.2.0/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.2/cv3.2.0/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.2/cv2.2.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.2/cv2.2.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv2.2/cv2.2.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv2.2/cv2.2.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:box_s32
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:box_s32
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.2/cv3.2.1/conv/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.2/cv3.2.1/conv/Conv
+T RKNN: [19:27:36.140] ---> start check: Conv:/model.22/cv3.2/cv3.2.2/Conv
+T RKNN: [19:27:36.140] -----> end check: Conv:/model.22/cv3.2/cv3.2.2/Conv
+T RKNN: [19:27:36.140] ---> start check: OutputOperator:class_logits_s32
+T RKNN: [19:27:36.140] -----> end check: OutputOperator:class_logits_s32
+D RKNN: [19:27:36.140] <<<<<<<< end: OpEmit
+D RKNN: [19:27:36.140] >>>>>> start: rknn::RKNNAddFirstConv
+D RKNN: [19:27:36.140] <<<<<<<< end: rknn::RKNNAddFirstConv
+D RKNN: [19:27:36.140] >>>>>> start: rknn::RKNNTilingPass
+D RKNN: [19:27:36.143] <<<<<<<< end: rknn::RKNNTilingPass
+D RKNN: [19:27:36.143] >>>>>> start: rknn::RKNNLayoutMatchPass
+D RKNN: [19:27:36.144] <<<<<<<< end: rknn::RKNNLayoutMatchPass
+D RKNN: [19:27:36.144] >>>>>> start: rknn::RKNNAddSecondaryNode
+D RKNN: [19:27:36.144] <<<<<<<< end: rknn::RKNNAddSecondaryNode
+D RKNN: [19:27:36.144] >>>>>> start: rknn::RKNNAllocateConvCachePass
+D RKNN: [19:27:36.144] <<<<<<<< end: rknn::RKNNAllocateConvCachePass
+D RKNN: [19:27:36.144] >>>>>> start: OpEmit
+T RKNN: [19:27:36.144] ---> start emit: InputOperator:images
+T RKNN: [19:27:36.144] -----> end emit: InputOperator:images
+T RKNN: [19:27:36.144] ---> start emit: Conv:/model.0/conv/Conv
+T RKNN: [19:27:36.155] -----> end emit: Conv:/model.0/conv/Conv
+T RKNN: [19:27:36.155] ---> start emit: Conv:/model.1/conv/Conv
+T RKNN: [19:27:36.159] -----> end emit: Conv:/model.1/conv/Conv
+T RKNN: [19:27:36.159] ---> start emit: Conv:/model.2/cv1/conv/Conv
+T RKNN: [19:27:36.161] -----> end emit: Conv:/model.2/cv1/conv/Conv
+T RKNN: [19:27:36.161] ---> start emit: Split:/model.2/Slice_2sp
+T RKNN: [19:27:36.161] -----> end emit: Split:/model.2/Slice_2sp
+T RKNN: [19:27:36.161] ---> start emit: Conv:/model.2/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.162] -----> end emit: Conv:/model.2/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.162] ---> start emit: Conv:/model.2/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.163] -----> end emit: Conv:/model.2/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.163] ---> start emit: Add:/model.2/m.0/Add
+T RKNN: [19:27:36.163] -----> end emit: Add:/model.2/m.0/Add
+T RKNN: [19:27:36.163] ---> start emit: Concat:/model.2/Concat
+T RKNN: [19:27:36.163] -----> end emit: Concat:/model.2/Concat
+T RKNN: [19:27:36.164] ---> start emit: Conv:/model.2/cv2/conv/Conv
+T RKNN: [19:27:36.166] -----> end emit: Conv:/model.2/cv2/conv/Conv
+T RKNN: [19:27:36.166] ---> start emit: Conv:/model.3/conv/Conv
+T RKNN: [19:27:36.168] -----> end emit: Conv:/model.3/conv/Conv
+T RKNN: [19:27:36.168] ---> start emit: Conv:/model.4/cv1/conv/Conv
+T RKNN: [19:27:36.169] -----> end emit: Conv:/model.4/cv1/conv/Conv
+T RKNN: [19:27:36.169] ---> start emit: Split:/model.4/Slice_2sp
+T RKNN: [19:27:36.169] -----> end emit: Split:/model.4/Slice_2sp
+T RKNN: [19:27:36.169] ---> start emit: Conv:/model.4/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.170] -----> end emit: Conv:/model.4/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.170] ---> start emit: Conv:/model.4/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.171] -----> end emit: Conv:/model.4/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.171] ---> start emit: Add:/model.4/m.0/Add
+T RKNN: [19:27:36.171] -----> end emit: Add:/model.4/m.0/Add
+T RKNN: [19:27:36.171] ---> start emit: Conv:/model.4/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.172] -----> end emit: Conv:/model.4/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.172] ---> start emit: Conv:/model.4/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.173] -----> end emit: Conv:/model.4/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.173] ---> start emit: Add:/model.4/m.1/Add
+T RKNN: [19:27:36.173] -----> end emit: Add:/model.4/m.1/Add
+T RKNN: [19:27:36.173] ---> start emit: Concat:/model.4/Concat
+T RKNN: [19:27:36.174] -----> end emit: Concat:/model.4/Concat
+T RKNN: [19:27:36.174] ---> start emit: Conv:/model.4/cv2/conv/Conv
+T RKNN: [19:27:36.176] -----> end emit: Conv:/model.4/cv2/conv/Conv
+T RKNN: [19:27:36.176] ---> start emit: Conv:/model.5/conv/Conv
+T RKNN: [19:27:36.177] -----> end emit: Conv:/model.5/conv/Conv
+T RKNN: [19:27:36.177] ---> start emit: Conv:/model.6/cv1/conv/Conv
+T RKNN: [19:27:36.178] -----> end emit: Conv:/model.6/cv1/conv/Conv
+T RKNN: [19:27:36.178] ---> start emit: Split:/model.6/Slice_2sp
+T RKNN: [19:27:36.178] -----> end emit: Split:/model.6/Slice_2sp
+T RKNN: [19:27:36.178] ---> start emit: Conv:/model.6/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.179] -----> end emit: Conv:/model.6/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.179] ---> start emit: Conv:/model.6/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.179] -----> end emit: Conv:/model.6/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.179] ---> start emit: Add:/model.6/m.0/Add
+T RKNN: [19:27:36.179] -----> end emit: Add:/model.6/m.0/Add
+T RKNN: [19:27:36.180] ---> start emit: Conv:/model.6/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.180] -----> end emit: Conv:/model.6/m.1/cv1/conv/Conv
+T RKNN: [19:27:36.180] ---> start emit: Conv:/model.6/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.181] -----> end emit: Conv:/model.6/m.1/cv2/conv/Conv
+T RKNN: [19:27:36.181] ---> start emit: Add:/model.6/m.1/Add
+T RKNN: [19:27:36.181] -----> end emit: Add:/model.6/m.1/Add
+T RKNN: [19:27:36.181] ---> start emit: Concat:/model.6/Concat
+T RKNN: [19:27:36.181] -----> end emit: Concat:/model.6/Concat
+T RKNN: [19:27:36.181] ---> start emit: Conv:/model.6/cv2/conv/Conv
+T RKNN: [19:27:36.182] -----> end emit: Conv:/model.6/cv2/conv/Conv
+T RKNN: [19:27:36.183] ---> start emit: Conv:/model.7/conv/Conv
+T RKNN: [19:27:36.184] -----> end emit: Conv:/model.7/conv/Conv
+T RKNN: [19:27:36.184] ---> start emit: Conv:/model.8/cv1/conv/Conv
+T RKNN: [19:27:36.184] -----> end emit: Conv:/model.8/cv1/conv/Conv
+T RKNN: [19:27:36.184] ---> start emit: Split:/model.8/Slice_2sp
+T RKNN: [19:27:36.184] -----> end emit: Split:/model.8/Slice_2sp
+T RKNN: [19:27:36.184] ---> start emit: Conv:/model.8/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.185] -----> end emit: Conv:/model.8/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.185] ---> start emit: Conv:/model.8/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.186] -----> end emit: Conv:/model.8/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.186] ---> start emit: Add:/model.8/m.0/Add
+T RKNN: [19:27:36.186] -----> end emit: Add:/model.8/m.0/Add
+T RKNN: [19:27:36.186] ---> start emit: Concat:/model.8/Concat
+T RKNN: [19:27:36.186] -----> end emit: Concat:/model.8/Concat
+T RKNN: [19:27:36.186] ---> start emit: Conv:/model.8/cv2/conv/Conv
+T RKNN: [19:27:36.187] -----> end emit: Conv:/model.8/cv2/conv/Conv
+T RKNN: [19:27:36.187] ---> start emit: Conv:/model.9/cv1/conv/Conv
+T RKNN: [19:27:36.187] -----> end emit: Conv:/model.9/cv1/conv/Conv
+T RKNN: [19:27:36.187] ---> start emit: MaxPool:/model.9/m/MaxPool
+T RKNN: [19:27:36.188] -----> end emit: MaxPool:/model.9/m/MaxPool
+T RKNN: [19:27:36.188] ---> start emit: MaxPool:/model.9/m_1/MaxPool
+T RKNN: [19:27:36.188] -----> end emit: MaxPool:/model.9/m_1/MaxPool
+T RKNN: [19:27:36.188] ---> start emit: MaxPool:/model.9/m_2/MaxPool
+T RKNN: [19:27:36.188] -----> end emit: MaxPool:/model.9/m_2/MaxPool
+T RKNN: [19:27:36.188] ---> start emit: Concat:/model.9/Concat
+T RKNN: [19:27:36.188] -----> end emit: Concat:/model.9/Concat
+T RKNN: [19:27:36.188] ---> start emit: Conv:/model.9/cv2/conv/Conv
+T RKNN: [19:27:36.190] -----> end emit: Conv:/model.9/cv2/conv/Conv
+T RKNN: [19:27:36.190] ---> start emit: Resize:/model.10/Resize
+T RKNN: [19:27:36.191] -----> end emit: Resize:/model.10/Resize
+T RKNN: [19:27:36.191] ---> start emit: Concat:/model.11/Concat
+T RKNN: [19:27:36.191] -----> end emit: Concat:/model.11/Concat
+T RKNN: [19:27:36.191] ---> start emit: Conv:/model.12/cv1/conv/Conv
+T RKNN: [19:27:36.193] -----> end emit: Conv:/model.12/cv1/conv/Conv
+T RKNN: [19:27:36.193] ---> start emit: Split:/model.12/Slice_2sp
+T RKNN: [19:27:36.193] -----> end emit: Split:/model.12/Slice_2sp
+T RKNN: [19:27:36.193] ---> start emit: Conv:/model.12/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.194] -----> end emit: Conv:/model.12/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.194] ---> start emit: Conv:/model.12/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.194] -----> end emit: Conv:/model.12/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.195] ---> start emit: Concat:/model.12/Concat
+T RKNN: [19:27:36.195] -----> end emit: Concat:/model.12/Concat
+T RKNN: [19:27:36.195] ---> start emit: Conv:/model.12/cv2/conv/Conv
+T RKNN: [19:27:36.196] -----> end emit: Conv:/model.12/cv2/conv/Conv
+T RKNN: [19:27:36.196] ---> start emit: Resize:/model.13/Resize
+T RKNN: [19:27:36.196] -----> end emit: Resize:/model.13/Resize
+T RKNN: [19:27:36.196] ---> start emit: Concat:/model.14/Concat
+T RKNN: [19:27:36.197] -----> end emit: Concat:/model.14/Concat
+T RKNN: [19:27:36.197] ---> start emit: Conv:/model.15/cv1/conv/Conv
+T RKNN: [19:27:36.200] -----> end emit: Conv:/model.15/cv1/conv/Conv
+T RKNN: [19:27:36.200] ---> start emit: Split:/model.15/Slice_2sp
+T RKNN: [19:27:36.200] -----> end emit: Split:/model.15/Slice_2sp
+T RKNN: [19:27:36.200] ---> start emit: Conv:/model.15/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.200] -----> end emit: Conv:/model.15/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.200] ---> start emit: Conv:/model.15/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.201] -----> end emit: Conv:/model.15/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.201] ---> start emit: Concat:/model.15/Concat
+T RKNN: [19:27:36.202] -----> end emit: Concat:/model.15/Concat
+T RKNN: [19:27:36.202] ---> start emit: Conv:/model.15/cv2/conv/Conv
+T RKNN: [19:27:36.203] -----> end emit: Conv:/model.15/cv2/conv/Conv
+T RKNN: [19:27:36.203] ---> start emit: Conv:/model.16/conv/Conv
+T RKNN: [19:27:36.205] -----> end emit: Conv:/model.16/conv/Conv
+T RKNN: [19:27:36.205] ---> start emit: Concat:/model.17/Concat
+T RKNN: [19:27:36.205] -----> end emit: Concat:/model.17/Concat
+T RKNN: [19:27:36.205] ---> start emit: Conv:/model.22/cv2.0/cv2.0.0/conv/Conv
+T RKNN: [19:27:36.207] -----> end emit: Conv:/model.22/cv2.0/cv2.0.0/conv/Conv
+T RKNN: [19:27:36.207] ---> start emit: Conv:/model.22/cv3.0/cv3.0.0/conv/Conv
+T RKNN: [19:27:36.208] -----> end emit: Conv:/model.22/cv3.0/cv3.0.0/conv/Conv
+T RKNN: [19:27:36.208] ---> start emit: Conv:/model.18/cv1/conv/Conv
+T RKNN: [19:27:36.209] -----> end emit: Conv:/model.18/cv1/conv/Conv
+T RKNN: [19:27:36.209] ---> start emit: Split:/model.18/Slice_2sp
+T RKNN: [19:27:36.209] -----> end emit: Split:/model.18/Slice_2sp
+T RKNN: [19:27:36.209] ---> start emit: Conv:/model.22/cv2.0/cv2.0.1/conv/Conv
+T RKNN: [19:27:36.211] -----> end emit: Conv:/model.22/cv2.0/cv2.0.1/conv/Conv
+T RKNN: [19:27:36.211] ---> start emit: Conv:/model.22/cv2.0/cv2.0.2/Conv
+T RKNN: [19:27:36.211] -----> end emit: Conv:/model.22/cv2.0/cv2.0.2/Conv
+T RKNN: [19:27:36.211] ---> start emit: OutputOperator:box_s8
+T RKNN: [19:27:36.211] -----> end emit: OutputOperator:box_s8
+T RKNN: [19:27:36.211] ---> start emit: Conv:/model.22/cv3.0/cv3.0.1/conv/Conv
+T RKNN: [19:27:36.213] -----> end emit: Conv:/model.22/cv3.0/cv3.0.1/conv/Conv
+T RKNN: [19:27:36.213] ---> start emit: Conv:/model.22/cv3.0/cv3.0.2/Conv
+T RKNN: [19:27:36.213] -----> end emit: Conv:/model.22/cv3.0/cv3.0.2/Conv
+T RKNN: [19:27:36.213] ---> start emit: OutputOperator:class_logits_s8
+T RKNN: [19:27:36.213] -----> end emit: OutputOperator:class_logits_s8
+T RKNN: [19:27:36.213] ---> start emit: Conv:/model.18/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.214] -----> end emit: Conv:/model.18/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.214] ---> start emit: Conv:/model.18/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.214] -----> end emit: Conv:/model.18/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.215] ---> start emit: Concat:/model.18/Concat
+T RKNN: [19:27:36.215] -----> end emit: Concat:/model.18/Concat
+T RKNN: [19:27:36.215] ---> start emit: Conv:/model.18/cv2/conv/Conv
+T RKNN: [19:27:36.216] -----> end emit: Conv:/model.18/cv2/conv/Conv
+T RKNN: [19:27:36.216] ---> start emit: Conv:/model.19/conv/Conv
+T RKNN: [19:27:36.218] -----> end emit: Conv:/model.19/conv/Conv
+T RKNN: [19:27:36.218] ---> start emit: Concat:/model.20/Concat
+T RKNN: [19:27:36.218] -----> end emit: Concat:/model.20/Concat
+T RKNN: [19:27:36.218] ---> start emit: Conv:/model.22/cv2.1/cv2.1.0/conv/Conv
+T RKNN: [19:27:36.219] -----> end emit: Conv:/model.22/cv2.1/cv2.1.0/conv/Conv
+T RKNN: [19:27:36.219] ---> start emit: Conv:/model.22/cv3.1/cv3.1.0/conv/Conv
+T RKNN: [19:27:36.220] -----> end emit: Conv:/model.22/cv3.1/cv3.1.0/conv/Conv
+T RKNN: [19:27:36.220] ---> start emit: Conv:/model.21/cv1/conv/Conv
+T RKNN: [19:27:36.221] -----> end emit: Conv:/model.21/cv1/conv/Conv
+T RKNN: [19:27:36.221] ---> start emit: Split:/model.21/Slice_2sp
+T RKNN: [19:27:36.221] -----> end emit: Split:/model.21/Slice_2sp
+T RKNN: [19:27:36.221] ---> start emit: Conv:/model.22/cv2.1/cv2.1.1/conv/Conv
+T RKNN: [19:27:36.221] -----> end emit: Conv:/model.22/cv2.1/cv2.1.1/conv/Conv
+T RKNN: [19:27:36.221] ---> start emit: Conv:/model.22/cv2.1/cv2.1.2/Conv
+T RKNN: [19:27:36.222] -----> end emit: Conv:/model.22/cv2.1/cv2.1.2/Conv
+T RKNN: [19:27:36.222] ---> start emit: OutputOperator:box_s16
+T RKNN: [19:27:36.222] -----> end emit: OutputOperator:box_s16
+T RKNN: [19:27:36.222] ---> start emit: Conv:/model.22/cv3.1/cv3.1.1/conv/Conv
+T RKNN: [19:27:36.222] -----> end emit: Conv:/model.22/cv3.1/cv3.1.1/conv/Conv
+T RKNN: [19:27:36.222] ---> start emit: Conv:/model.22/cv3.1/cv3.1.2/Conv
+T RKNN: [19:27:36.222] -----> end emit: Conv:/model.22/cv3.1/cv3.1.2/Conv
+T RKNN: [19:27:36.222] ---> start emit: OutputOperator:class_logits_s16
+T RKNN: [19:27:36.222] -----> end emit: OutputOperator:class_logits_s16
+T RKNN: [19:27:36.222] ---> start emit: Conv:/model.21/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.223] -----> end emit: Conv:/model.21/m.0/cv1/conv/Conv
+T RKNN: [19:27:36.223] ---> start emit: Conv:/model.21/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.224] -----> end emit: Conv:/model.21/m.0/cv2/conv/Conv
+T RKNN: [19:27:36.224] ---> start emit: Concat:/model.21/Concat
+T RKNN: [19:27:36.224] -----> end emit: Concat:/model.21/Concat
+T RKNN: [19:27:36.224] ---> start emit: Conv:/model.21/cv2/conv/Conv
+T RKNN: [19:27:36.225] -----> end emit: Conv:/model.21/cv2/conv/Conv
+T RKNN: [19:27:36.225] ---> start emit: Conv:/model.22/cv2.2/cv2.2.0/conv/Conv
+T RKNN: [19:27:36.226] -----> end emit: Conv:/model.22/cv2.2/cv2.2.0/conv/Conv
+T RKNN: [19:27:36.226] ---> start emit: Conv:/model.22/cv3.2/cv3.2.0/conv/Conv
+T RKNN: [19:27:36.226] -----> end emit: Conv:/model.22/cv3.2/cv3.2.0/conv/Conv
+T RKNN: [19:27:36.226] ---> start emit: Conv:/model.22/cv2.2/cv2.2.1/conv/Conv
+T RKNN: [19:27:36.227] -----> end emit: Conv:/model.22/cv2.2/cv2.2.1/conv/Conv
+T RKNN: [19:27:36.227] ---> start emit: Conv:/model.22/cv2.2/cv2.2.2/Conv
+T RKNN: [19:27:36.227] -----> end emit: Conv:/model.22/cv2.2/cv2.2.2/Conv
+T RKNN: [19:27:36.227] ---> start emit: OutputOperator:box_s32
+T RKNN: [19:27:36.227] -----> end emit: OutputOperator:box_s32
+T RKNN: [19:27:36.227] ---> start emit: Conv:/model.22/cv3.2/cv3.2.1/conv/Conv
+T RKNN: [19:27:36.228] -----> end emit: Conv:/model.22/cv3.2/cv3.2.1/conv/Conv
+T RKNN: [19:27:36.228] ---> start emit: Conv:/model.22/cv3.2/cv3.2.2/Conv
+T RKNN: [19:27:36.228] -----> end emit: Conv:/model.22/cv3.2/cv3.2.2/Conv
+T RKNN: [19:27:36.228] ---> start emit: OutputOperator:class_logits_s32
+T RKNN: [19:27:36.228] -----> end emit: OutputOperator:class_logits_s32
+D RKNN: [19:27:36.228] <<<<<<<< end: OpEmit
+D RKNN: [19:27:36.228] >>>>>> start: rknn::RKNNSubGraphMemoryPlanPass
+D RKNN: [19:27:36.228] <<<<<<<< end: rknn::RKNNSubGraphMemoryPlanPass
+D RKNN: [19:27:36.228] >>>>>> start: rknn::RKNNProfileAnalysisPass
+D RKNN: [19:27:36.228] <<<<<<<< end: rknn::RKNNProfileAnalysisPass
+D RKNN: [19:27:36.231] >>>>>> start: rknn::RKNNOperatorIdGenPass
+D RKNN: [19:27:36.231] <<<<<<<< end: rknn::RKNNOperatorIdGenPass
+D RKNN: [19:27:36.231] >>>>>> start: rknn::RKNNWeightTransposePass
+W RKNN: [19:27:36.261] Warning: Tensor /model.10/Constant_output_0 need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.10/Constant_1_output_0 need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.10/Constant_output_0 need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.10/Constant_1_output_0 need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.2/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.2/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.4/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.4/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.6/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.6/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.8/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.8/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.12/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.12/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.15/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.15/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.18/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.18/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.21/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+W RKNN: [19:27:36.261] Warning: Tensor /model.21/Slice_2sp_split need parameter qtype, type is set to float16 by default!
+D RKNN: [19:27:36.261] <<<<<<<< end: rknn::RKNNWeightTransposePass
+D RKNN: [19:27:36.261] >>>>>> start: rknn::RKNNCPUWeightTransposePass
+D RKNN: [19:27:36.261] <<<<<<<< end: rknn::RKNNCPUWeightTransposePass
+D RKNN: [19:27:36.261] >>>>>> start: rknn::RKNNModelBuildPass
+D RKNN: [19:27:36.329] <<<<<<<< end: rknn::RKNNModelBuildPass
+D RKNN: [19:27:36.329] >>>>>> start: rknn::RKNNModelRegCmdbuildPass
+D RKNN: [19:27:36.355] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.355]                                                         Network Layer Information Table                                                      
+D RKNN: [19:27:36.355] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.355] ID   OpType             DataType Target InputShape                               OutputShape            Cycles(DDR/NPU/Total)    RW(KB)       FullName        
+D RKNN: [19:27:36.355] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.355] 0    InputOperator      FLOAT16  CPU    \                                        (1,3,640,640)          0/0/0                    0            InputOperator:images
+D RKNN: [19:27:36.355] 1    ConvExSwish        FLOAT16  NPU    (1,3,640,640),(16,3,3,3),(16)            (1,16,320,320)         242529/921600/921600     2402         Conv:/model.0/conv/Conv
+D RKNN: [19:27:36.355] 2    ConvExSwish        FLOAT16  NPU    (1,16,320,320),(32,16,3,3),(32)          (1,32,160,160)         208191/460800/460800     3209         Conv:/model.1/conv/Conv
+D RKNN: [19:27:36.355] 3    ConvExSwish        FLOAT16  NPU    (1,32,160,160),(32,32,1,1),(32)          (1,32,160,160)         138623/102400/138623     1602         Conv:/model.2/cv1/conv/Conv
+D RKNN: [19:27:36.355] 4    Split              FLOAT16  NPU    (1,32,160,160),(2)                       (1,16,160,160),...     0/0/0                    1600         Split:/model.2/Slice_2sp
+D RKNN: [19:27:36.355] 5    ConvExSwish        FLOAT16  NPU    (1,16,160,160),(16,16,3,3),(16)          (1,16,160,160)         69463/230400/230400      804          Conv:/model.2/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 6    ConvExSwish        FLOAT16  NPU    (1,16,160,160),(16,16,3,3),(16)          (1,16,160,160)         69463/230400/230400      804          Conv:/model.2/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 7    Add                FLOAT16  NPU    (1,16,160,160),(1,16,160,160)            (1,16,160,160)         0/0/0                    1600         Add:/model.2/m.0/Add
+D RKNN: [19:27:36.355] 8    Concat             FLOAT16  NPU    (1,16,160,160),(1,16,160,160),...        (1,48,160,160)         0/0/0                    2400         Concat:/model.2/Concat
+D RKNN: [19:27:36.355] 9    ConvExSwish        FLOAT16  NPU    (1,48,160,160),(32,48,1,1),(32)          (1,32,160,160)         173299/102400/173299     2403         Conv:/model.2/cv2/conv/Conv
+D RKNN: [19:27:36.355] 10   ConvExSwish        FLOAT16  NPU    (1,32,160,160),(64,32,3,3),(64)          (1,64,80,80)           105468/230400/230400     1636         Conv:/model.3/conv/Conv
+D RKNN: [19:27:36.355] 11   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,1,1),(64)            (1,64,80,80)           69623/51200/69623        808          Conv:/model.4/cv1/conv/Conv
+D RKNN: [19:27:36.355] 12   Split              FLOAT16  NPU    (1,64,80,80),(2)                         (1,32,80,80),...       0/0/0                    800          Split:/model.4/Slice_2sp
+D RKNN: [19:27:36.355] 13   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.4/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 14   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.4/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 15   Add                FLOAT16  NPU    (1,32,80,80),(1,32,80,80)                (1,32,80,80)           0/0/0                    800          Add:/model.4/m.0/Add
+D RKNN: [19:27:36.355] 16   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.4/m.1/cv1/conv/Conv
+D RKNN: [19:27:36.355] 17   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.4/m.1/cv2/conv/Conv
+D RKNN: [19:27:36.355] 18   Add                FLOAT16  NPU    (1,32,80,80),(1,32,80,80)                (1,32,80,80)           0/0/0                    800          Add:/model.4/m.1/Add
+D RKNN: [19:27:36.355] 19   Concat             FLOAT16  NPU    (1,32,80,80),(1,32,80,80),...            (1,128,80,80)          0/0/0                    1600         Concat:/model.4/Concat
+D RKNN: [19:27:36.355] 20   ConvExSwish        FLOAT16  NPU    (1,128,80,80),(64,128,1,1),(64)          (1,64,80,80)           104602/102400/104602     1616         Conv:/model.4/cv2/conv/Conv
+D RKNN: [19:27:36.355] 21   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(128,64,3,3),(128)          (1,128,40,40)          58205/230400/230400      944          Conv:/model.5/conv/Conv
+D RKNN: [19:27:36.355] 22   ConvExSwish        FLOAT16  NPU    (1,128,40,40),(128,128,1,1),(128)        (1,128,40,40)          36040/51200/51200        432          Conv:/model.6/cv1/conv/Conv
+D RKNN: [19:27:36.355] 23   Split              FLOAT16  NPU    (1,128,40,40),(2)                        (1,64,40,40),...       0/0/0                    400          Split:/model.6/Slice_2sp
+D RKNN: [19:27:36.355] 24   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.6/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 25   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.6/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 26   Add                FLOAT16  NPU    (1,64,40,40),(1,64,40,40)                (1,64,40,40)           0/0/0                    400          Add:/model.6/m.0/Add
+D RKNN: [19:27:36.355] 27   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.6/m.1/cv1/conv/Conv
+D RKNN: [19:27:36.355] 28   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.6/m.1/cv2/conv/Conv
+D RKNN: [19:27:36.355] 29   Add                FLOAT16  NPU    (1,64,40,40),(1,64,40,40)                (1,64,40,40)           0/0/0                    400          Add:/model.6/m.1/Add
+D RKNN: [19:27:36.355] 30   Concat             FLOAT16  NPU    (1,64,40,40),(1,64,40,40),...            (1,256,40,40)          0/0/0                    800          Concat:/model.6/Concat
+D RKNN: [19:27:36.355] 31   ConvExSwish        FLOAT16  NPU    (1,256,40,40),(128,256,1,1),(128)        (1,128,40,40)          54742/102400/102400      864          Conv:/model.6/cv2/conv/Conv
+D RKNN: [19:27:36.355] 32   ConvExSwish        FLOAT16  NPU    (1,128,40,40),(256,128,3,3),(256)        (1,256,20,20)          50954/230400/230400      977          Conv:/model.7/conv/Conv
+D RKNN: [19:27:36.355] 33   ConvExSwish        FLOAT16  NPU    (1,256,20,20),(256,256,1,1),(256)        (1,256,20,20)          22901/51200/51200        329          Conv:/model.8/cv1/conv/Conv
+D RKNN: [19:27:36.355] 34   Split              FLOAT16  NPU    (1,256,20,20),(2)                        (1,128,20,20),...      0/0/0                    200          Split:/model.8/Slice_2sp
+D RKNN: [19:27:36.355] 35   ConvExSwish        FLOAT16  NPU    (1,128,20,20),(128,128,3,3),(128)        (1,128,20,20)          21148/115200/115200      388          Conv:/model.8/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 36   ConvExSwish        FLOAT16  NPU    (1,128,20,20),(128,128,3,3),(128)        (1,128,20,20)          21148/115200/115200      388          Conv:/model.8/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 37   Add                FLOAT16  NPU    (1,128,20,20),(1,128,20,20)              (1,128,20,20)          0/0/0                    200          Add:/model.8/m.0/Add
+D RKNN: [19:27:36.355] 38   Concat             FLOAT16  NPU    (1,128,20,20),(1,128,20,20),...          (1,384,20,20)          0/0/0                    300          Concat:/model.8/Concat
+D RKNN: [19:27:36.355] 39   ConvExSwish        FLOAT16  NPU    (1,384,20,20),(256,384,1,1),(256)        (1,256,20,20)          30001/76800/76800        493          Conv:/model.8/cv2/conv/Conv
+D RKNN: [19:27:36.355] 40   ConvExSwish        FLOAT16  NPU    (1,256,20,20),(128,256,1,1),(128)        (1,128,20,20)          15780/25600/25600        264          Conv:/model.9/cv1/conv/Conv
+D RKNN: [19:27:36.355] 41   MaxPool            FLOAT16  NPU    (1,128,20,20)                            (1,128,20,20)          0/0/0                    100          MaxPool:/model.9/m/MaxPool
+D RKNN: [19:27:36.355] 42   MaxPool            FLOAT16  NPU    (1,128,20,20)                            (1,128,20,20)          0/0/0                    100          MaxPool:/model.9/m_1/MaxPool
+D RKNN: [19:27:36.355] 43   MaxPool            FLOAT16  NPU    (1,128,20,20)                            (1,128,20,20)          0/0/0                    100          MaxPool:/model.9/m_2/MaxPool
+D RKNN: [19:27:36.355] 44   Concat             FLOAT16  NPU    (1,128,20,20),(1,128,20,20),...          (1,512,20,20)          0/0/0                    400          Concat:/model.9/Concat
+D RKNN: [19:27:36.355] 45   ConvExSwish        FLOAT16  NPU    (1,512,20,20),(256,512,1,1),(256)        (1,256,20,20)          37101/102400/102400      657          Conv:/model.9/cv2/conv/Conv
+D RKNN: [19:27:36.355] 46   Resize             FLOAT16  NPU    (1,256,20,20),(0),(4)                    (1,256,40,40)          0/0/0                    200          Resize:/model.10/Resize
+D RKNN: [19:27:36.355] 47   Concat             FLOAT16  NPU    (1,256,40,40),(1,128,40,40)              (1,384,40,40)          0/0/0                    1200         Concat:/model.11/Concat
+D RKNN: [19:27:36.355] 48   ConvExSwish        FLOAT16  NPU    (1,384,40,40),(128,384,1,1),(128)        (1,128,40,40)          73443/153600/153600      1296         Conv:/model.12/cv1/conv/Conv
+D RKNN: [19:27:36.355] 49   Split              FLOAT16  NPU    (1,128,40,40),(2)                        (1,64,40,40),...       0/0/0                    400          Split:/model.12/Slice_2sp
+D RKNN: [19:27:36.355] 50   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.12/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 51   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.12/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 52   Concat             FLOAT16  NPU    (1,64,40,40),(1,64,40,40),...            (1,192,40,40)          0/0/0                    600          Concat:/model.12/Concat
+D RKNN: [19:27:36.355] 53   ConvExSwish        FLOAT16  NPU    (1,192,40,40),(128,192,1,1),(128)        (1,128,40,40)          45391/76800/76800        648          Conv:/model.12/cv2/conv/Conv
+D RKNN: [19:27:36.355] 54   Resize             FLOAT16  NPU    (1,128,40,40),(0),(4)                    (1,128,80,80)          0/0/0                    400          Resize:/model.13/Resize
+D RKNN: [19:27:36.355] 55   Concat             FLOAT16  NPU    (1,128,80,80),(1,64,80,80)               (1,192,80,80)          0/0/0                    2400         Concat:/model.14/Concat
+D RKNN: [19:27:36.355] 56   ConvExSwish        FLOAT16  NPU    (1,192,80,80),(64,192,1,1),(64)          (1,64,80,80)           139581/153600/153600     2424         Conv:/model.15/cv1/conv/Conv
+D RKNN: [19:27:36.355] 57   Split              FLOAT16  NPU    (1,64,80,80),(2)                         (1,32,80,80),...       0/0/0                    800          Split:/model.15/Slice_2sp
+D RKNN: [19:27:36.355] 58   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.15/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 59   ConvExSwish        FLOAT16  NPU    (1,32,80,80),(32,32,3,3),(32)            (1,32,80,80)           35418/115200/115200      418          Conv:/model.15/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 60   Concat             FLOAT16  NPU    (1,32,80,80),(1,32,80,80),...            (1,96,80,80)           0/0/0                    1200         Concat:/model.15/Concat
+D RKNN: [19:27:36.355] 61   ConvExSwish        FLOAT16  NPU    (1,96,80,80),(64,96,1,1),(64)            (1,64,80,80)           87112/76800/87112        1212         Conv:/model.15/cv2/conv/Conv
+D RKNN: [19:27:36.355] 62   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,3,3),(64)            (1,64,40,40)           46419/115200/115200      872          Conv:/model.16/conv/Conv
+D RKNN: [19:27:36.355] 63   Concat             FLOAT16  NPU    (1,64,40,40),(1,128,40,40)               (1,192,40,40)          0/0/0                    600          Concat:/model.17/Concat
+D RKNN: [19:27:36.355] 64   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,3,3),(64)            (1,64,80,80)           72393/460800/460800      872          Conv:/model.22/cv2.0/cv2.0.0/conv/Conv
+D RKNN: [19:27:36.355] 65   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,3,3),(64)            (1,64,80,80)           72393/460800/460800      872          Conv:/model.22/cv3.0/cv3.0.0/conv/Conv
+D RKNN: [19:27:36.355] 66   ConvExSwish        FLOAT16  NPU    (1,192,40,40),(128,192,1,1),(128)        (1,128,40,40)          45391/76800/76800        648          Conv:/model.18/cv1/conv/Conv
+D RKNN: [19:27:36.355] 67   Split              FLOAT16  NPU    (1,128,40,40),(2)                        (1,64,40,40),...       0/0/0                    400          Split:/model.18/Slice_2sp
+D RKNN: [19:27:36.355] 68   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,3,3),(64)            (1,64,80,80)           72393/460800/460800      872          Conv:/model.22/cv2.0/cv2.0.1/conv/Conv
+D RKNN: [19:27:36.355] 69   Conv               FLOAT16  NPU    (1,64,80,80),(64,64,1,1),(64)            (1,64,80,80)           69623/51200/69623        808          Conv:/model.22/cv2.0/cv2.0.2/Conv
+D RKNN: [19:27:36.355] 70   OutputOperator     FLOAT16  CPU    (1,64,80,80)                             \                      0/0/0                    800          OutputOperator:box_s8
+D RKNN: [19:27:36.355] 71   ConvExSwish        FLOAT16  NPU    (1,64,80,80),(64,64,3,3),(64)            (1,64,80,80)           72393/460800/460800      872          Conv:/model.22/cv3.0/cv3.0.1/conv/Conv
+D RKNN: [19:27:36.355] 72   Conv               FLOAT16  NPU    (1,64,80,80),(2,64,1,1),(2)              (1,2,80,80)            43305/12800/43305        800          Conv:/model.22/cv3.0/cv3.0.2/Conv
+D RKNN: [19:27:36.355] 73   OutputOperator     FLOAT16  CPU    (1,2,80,80)                              \                      0/0/0                    200          OutputOperator:class_logits_s8
+D RKNN: [19:27:36.355] 74   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.18/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 75   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.18/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 76   Concat             FLOAT16  NPU    (1,64,40,40),(1,64,40,40),...            (1,192,40,40)          0/0/0                    600          Concat:/model.18/Concat
+D RKNN: [19:27:36.355] 77   ConvExSwish        FLOAT16  NPU    (1,192,40,40),(128,192,1,1),(128)        (1,128,40,40)          45391/76800/76800        648          Conv:/model.18/cv2/conv/Conv
+D RKNN: [19:27:36.355] 78   ConvExSwish        FLOAT16  NPU    (1,128,40,40),(128,128,3,3),(128)        (1,128,20,20)          34135/115200/115200      688          Conv:/model.19/conv/Conv
+D RKNN: [19:27:36.355] 79   Concat             FLOAT16  NPU    (1,128,20,20),(1,256,20,20)              (1,384,20,20)          0/0/0                    300          Concat:/model.20/Concat
+D RKNN: [19:27:36.355] 80   ConvExSwish        FLOAT16  NPU    (1,128,40,40),(64,128,3,3),(64)          (1,64,40,40)           32220/230400/230400      544          Conv:/model.22/cv2.1/cv2.1.0/conv/Conv
+D RKNN: [19:27:36.355] 81   ConvExSwish        FLOAT16  NPU    (1,128,40,40),(64,128,3,3),(64)          (1,64,40,40)           32220/230400/230400      544          Conv:/model.22/cv3.1/cv3.1.0/conv/Conv
+D RKNN: [19:27:36.355] 82   ConvExSwish        FLOAT16  NPU    (1,384,20,20),(256,384,1,1),(256)        (1,256,20,20)          30001/76800/76800        493          Conv:/model.21/cv1/conv/Conv
+D RKNN: [19:27:36.355] 83   Split              FLOAT16  NPU    (1,256,20,20),(2)                        (1,128,20,20),...      0/0/0                    200          Split:/model.21/Slice_2sp
+D RKNN: [19:27:36.355] 84   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.22/cv2.1/cv2.1.1/conv/Conv
+D RKNN: [19:27:36.355] 85   Conv               FLOAT16  NPU    (1,64,40,40),(64,64,1,1),(64)            (1,64,40,40)           17674/12800/17674        208          Conv:/model.22/cv2.1/cv2.1.2/Conv
+D RKNN: [19:27:36.355] 86   OutputOperator     FLOAT16  CPU    (1,64,40,40)                             \                      0/0/0                    200          OutputOperator:box_s16
+D RKNN: [19:27:36.355] 87   ConvExSwish        FLOAT16  NPU    (1,64,40,40),(64,64,3,3),(64)            (1,64,40,40)           20445/115200/115200      272          Conv:/model.22/cv3.1/cv3.1.1/conv/Conv
+D RKNN: [19:27:36.355] 88   Conv               FLOAT16  NPU    (1,64,40,40),(2,64,1,1),(2)              (1,2,40,40)            10837/3200/10837         200          Conv:/model.22/cv3.1/cv3.1.2/Conv
+D RKNN: [19:27:36.355] 89   OutputOperator     FLOAT16  CPU    (1,2,40,40)                              \                      0/0/0                    50           OutputOperator:class_logits_s16
+D RKNN: [19:27:36.355] 90   ConvExSwish        FLOAT16  NPU    (1,128,20,20),(128,128,3,3),(128)        (1,128,20,20)          21148/115200/115200      388          Conv:/model.21/m.0/cv1/conv/Conv
+D RKNN: [19:27:36.355] 91   ConvExSwish        FLOAT16  NPU    (1,128,20,20),(128,128,3,3),(128)        (1,128,20,20)          21148/115200/115200      388          Conv:/model.21/m.0/cv2/conv/Conv
+D RKNN: [19:27:36.355] 92   Concat             FLOAT16  NPU    (1,128,20,20),(1,128,20,20),...          (1,384,20,20)          0/0/0                    300          Concat:/model.21/Concat
+D RKNN: [19:27:36.355] 93   ConvExSwish        FLOAT16  NPU    (1,384,20,20),(256,384,1,1),(256)        (1,256,20,20)          30001/76800/76800        493          Conv:/model.21/cv2/conv/Conv
+D RKNN: [19:27:36.355] 94   ConvExSwish        FLOAT16  NPU    (1,256,20,20),(64,256,3,3),(64)          (1,64,20,20)           23302/115200/115200      488          Conv:/model.22/cv2.2/cv2.2.0/conv/Conv
+D RKNN: [19:27:36.355] 95   ConvExSwish        FLOAT16  NPU    (1,256,20,20),(64,256,3,3),(64)          (1,64,20,20)           23302/115200/115200      488          Conv:/model.22/cv3.2/cv3.2.0/conv/Conv
+D RKNN: [19:27:36.355] 96   ConvExSwish        FLOAT16  NPU    (1,64,20,20),(64,64,3,3),(64)            (1,64,20,20)           7457/28800/28800         122          Conv:/model.22/cv2.2/cv2.2.1/conv/Conv
+D RKNN: [19:27:36.355] 97   Conv               FLOAT16  NPU    (1,64,20,20),(64,64,1,1),(64)            (1,64,20,20)           4687/3200/4687           58           Conv:/model.22/cv2.2/cv2.2.2/Conv
+D RKNN: [19:27:36.355] 98   OutputOperator     FLOAT16  CPU    (1,64,20,20)                             \                      0/0/0                    50           OutputOperator:box_s32
+D RKNN: [19:27:36.355] 99   ConvExSwish        FLOAT16  NPU    (1,64,20,20),(64,64,3,3),(64)            (1,64,20,20)           7457/28800/28800         122          Conv:/model.22/cv3.2/cv3.2.1/conv/Conv
+D RKNN: [19:27:36.355] 100  Conv               FLOAT16  NPU    (1,64,20,20),(2,64,1,1),(2)              (1,2,20,20)            2720/800/2720            50           Conv:/model.22/cv3.2/cv3.2.2/Conv
+D RKNN: [19:27:36.355] 101  OutputOperator     FLOAT16  CPU    (1,2,20,20)                              \                      0/0/0                    12           OutputOperator:class_logits_s32
+D RKNN: [19:27:36.355] --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.355] <<<<<<<< end: rknn::RKNNModelRegCmdbuildPass
+D RKNN: [19:27:36.356] >>>>>> start: rknn::RKNNModelExportPass
+D RKNN: [19:27:36.356] Export RKNN model to /tmp/tmp28yuo586/check.rknn
+D RKNN: [19:27:36.381] <<<<<<<< end: rknn::RKNNModelExportPass
+D RKNN: [19:27:36.381] >>>>>> start: rknn::RKNNMemStatisticsPass
+D RKNN: [19:27:36.383] ------------------------------------------------------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.383]                                                   Feature Tensor Information Table                                           
+D RKNN: [19:27:36.383] --------------------------------------------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] ID  User           Tensor                                     DataType  DataFormat   OrigShape      NativeShape     |     [Start       End)       Size
+D RKNN: [19:27:36.383] --------------------------------------------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] 1   ConvExSwish    images                                     FLOAT16   NC1HWC2      (1,3,640,640)  (1,4,640,640,3) | 0x00000000 0x00258000 0x00258000
+D RKNN: [19:27:36.383] 2   ConvExSwish    /model.0/act/Mul_output_0                  FLOAT16   NC1HWC2      (1,16,320,320) (1,24,320,320,8) | 0x00258000 0x00bb8000 0x00960000
+D RKNN: [19:27:36.383] 3   ConvExSwish    /model.1/act/Mul_output_0                  FLOAT16   NC1HWC2      (1,32,160,160) (1,48,160,160,8) | 0x00bb8000*0x01068000 0x004b0000
+D RKNN: [19:27:36.383] 4   Split          /model.2/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,32,160,160) (1,48,160,160,8) | 0x00000000 0x004b0000 0x004b0000
+D RKNN: [19:27:36.383] 5   ConvExSwish    /model.2/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,16,160,160) (1,8,160,160,8) | 0x004b0000 0x00578000 0x000c8000
+D RKNN: [19:27:36.383] 6   ConvExSwish    /model.2/m.0/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,16,160,160) (1,24,160,160,8) | 0x00000000 0x00258000 0x00258000
+D RKNN: [19:27:36.383] 7   Add            /model.2/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,16,160,160) (1,8,160,160,8) | 0x004b0000 0x00578000 0x000c8000
+D RKNN: [19:27:36.383] 7   Add            /model.2/m.0/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,16,160,160) (1,24,160,160,8) | 0x00258000 0x004b0000 0x00258000
+D RKNN: [19:27:36.383] 8   Concat         /model.2/Slice_output_0                    FLOAT16   NC1HWC2      (1,16,160,160) (1,8,160,160,8) | 0x00578000 0x00640000 0x000c8000
+D RKNN: [19:27:36.383] 8   Concat         /model.2/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,16,160,160) (1,8,160,160,8) | 0x004b0000 0x00578000 0x000c8000
+D RKNN: [19:27:36.383] 8   Concat         /model.2/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,16,160,160) (1,8,160,160,8) | 0x00000000 0x000c8000 0x000c8000
+D RKNN: [19:27:36.383] 9   ConvExSwish    /model.2/Concat_output_0                   FLOAT16   NC1HWC2      (1,48,160,160) (1,24,160,160,8) | 0x000c8000 0x00320000 0x00258000
+D RKNN: [19:27:36.383] 10  ConvExSwish    /model.2/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,32,160,160) (1,48,160,160,8) | 0x00320000 0x007d0000 0x004b0000
+D RKNN: [19:27:36.383] 11  ConvExSwish    /model.3/act/Mul_output_0                  FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x00000000 0x00258000 0x00258000
+D RKNN: [19:27:36.383] 12  Split          /model.4/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x00258000 0x004b0000 0x00258000
+D RKNN: [19:27:36.383] 13  ConvExSwish    /model.4/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x00064000 0x000c8000 0x00064000
+D RKNN: [19:27:36.383] 14  ConvExSwish    /model.4/m.0/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x000c8000 0x001f4000 0x0012c000
+D RKNN: [19:27:36.383] 15  Add            /model.4/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x00064000 0x000c8000 0x00064000
+D RKNN: [19:27:36.383] 15  Add            /model.4/m.0/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x001f4000 0x00320000 0x0012c000
+D RKNN: [19:27:36.383] 16  ConvExSwish    /model.4/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x000c8000 0x0012c000 0x00064000
+D RKNN: [19:27:36.383] 17  ConvExSwish    /model.4/m.1/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x0012c000 0x00258000 0x0012c000
+D RKNN: [19:27:36.383] 18  Add            /model.4/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x000c8000 0x0012c000 0x00064000
+D RKNN: [19:27:36.383] 18  Add            /model.4/m.1/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x00258000 0x00384000 0x0012c000
+D RKNN: [19:27:36.383] 19  Concat         /model.4/Slice_output_0                    FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x00000000 0x00064000 0x00064000
+D RKNN: [19:27:36.383] 19  Concat         /model.4/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x00064000 0x000c8000 0x00064000
+D RKNN: [19:27:36.383] 19  Concat         /model.4/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x000c8000 0x0012c000 0x00064000
+D RKNN: [19:27:36.383] 19  Concat         /model.4/m.1/Add_output_0                  FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x0012c000 0x00190000 0x00064000
+D RKNN: [19:27:36.383] 20  ConvExSwish    /model.4/Concat_output_0                   FLOAT16   NC1HWC2      (1,128,80,80)  (1,64,80,80,8)  | 0x00190000 0x00320000 0x00190000
+D RKNN: [19:27:36.383] 21  ConvExSwish    /model.4/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x00320000 0x00578000 0x00258000
+D RKNN: [19:27:36.383] 22  ConvExSwish    /model.5/act/Mul_output_0                  FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00000000 0x0012c000 0x0012c000
+D RKNN: [19:27:36.383] 23  Split          /model.6/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x0012c000 0x00258000 0x0012c000
+D RKNN: [19:27:36.383] 24  ConvExSwish    /model.6/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x00258000 0x0028a000 0x00032000
+D RKNN: [19:27:36.383] 25  ConvExSwish    /model.6/m.0/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 26  Add            /model.6/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x00258000 0x0028a000 0x00032000
+D RKNN: [19:27:36.383] 26  Add            /model.6/m.0/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00096000 0x0012c000 0x00096000
+D RKNN: [19:27:36.383] 27  ConvExSwish    /model.6/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002bc000 0x002ee000 0x00032000
+D RKNN: [19:27:36.383] 28  ConvExSwish    /model.6/m.1/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 29  Add            /model.6/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002bc000 0x002ee000 0x00032000
+D RKNN: [19:27:36.383] 29  Add            /model.6/m.1/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00096000 0x0012c000 0x00096000
+D RKNN: [19:27:36.383] 30  Concat         /model.6/Slice_output_0                    FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x0028a000 0x002bc000 0x00032000
+D RKNN: [19:27:36.383] 30  Concat         /model.6/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x00258000 0x0028a000 0x00032000
+D RKNN: [19:27:36.383] 30  Concat         /model.6/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002bc000 0x002ee000 0x00032000
+D RKNN: [19:27:36.383] 30  Concat         /model.6/m.1/Add_output_0                  FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002ee000 0x00320000 0x00032000
+D RKNN: [19:27:36.383] 31  ConvExSwish    /model.6/Concat_output_0                   FLOAT16   NC1HWC2      (1,256,40,40)  (1,128,40,40,8) | 0x00000000 0x000c8000 0x000c8000
+D RKNN: [19:27:36.383] 32  ConvExSwish    /model.6/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x000c8000 0x001f4000 0x0012c000
+D RKNN: [19:27:36.383] 33  ConvExSwish    /model.7/act/Mul_output_0                  FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 34  Split          /model.8/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x001f4000 0x0028a000 0x00096000
+D RKNN: [19:27:36.383] 35  ConvExSwish    /model.8/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002a3000 0x002bc000 0x00019000
+D RKNN: [19:27:36.383] 36  ConvExSwish    /model.8/m.0/cv1/act/Mul_output_0          FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x002bc000 0x00307000 0x0004b000
+D RKNN: [19:27:36.383] 37  Add            /model.8/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002a3000 0x002bc000 0x00019000
+D RKNN: [19:27:36.383] 37  Add            /model.8/m.0/cv2/act/Mul_output_0          FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x001f4000 0x0023f000 0x0004b000
+D RKNN: [19:27:36.383] 38  Concat         /model.8/Slice_output_0                    FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x0028a000 0x002a3000 0x00019000
+D RKNN: [19:27:36.383] 38  Concat         /model.8/Slice_1_output_0                  FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002a3000 0x002bc000 0x00019000
+D RKNN: [19:27:36.383] 38  Concat         /model.8/m.0/Add_output_0                  FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x0023f000 0x00258000 0x00019000
+D RKNN: [19:27:36.383] 39  ConvExSwish    /model.8/Concat_output_0                   FLOAT16   NC1HWC2      (1,384,20,20)  (1,192,20,20,8) | 0x001f4000 0x0023f000 0x0004b000
+D RKNN: [19:27:36.383] 40  ConvExSwish    /model.8/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 41  MaxPool        /model.9/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x001f4000 0x0023f000 0x0004b000
+D RKNN: [19:27:36.383] 42  MaxPool        /model.9/m/MaxPool_output_0                FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x00000000 0x00019000 0x00019000
+D RKNN: [19:27:36.383] 43  MaxPool        /model.9/m_1/MaxPool_output_0              FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x00019000 0x00032000 0x00019000
+D RKNN: [19:27:36.383] 44  Concat         /model.9/cv1/act/Mul_output_0              FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x001f4000 0x0023f000 0x0004b000
+D RKNN: [19:27:36.383] 44  Concat         /model.9/m/MaxPool_output_0                FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x00000000 0x00019000 0x00019000
+D RKNN: [19:27:36.383] 44  Concat         /model.9/m_1/MaxPool_output_0              FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x00019000 0x00032000 0x00019000
+D RKNN: [19:27:36.383] 44  Concat         /model.9/m_2/MaxPool_output_0              FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x00032000 0x0004b000 0x00019000
+D RKNN: [19:27:36.383] 45  ConvExSwish    /model.9/Concat_output_0                   FLOAT16   NC1HWC2      (1,512,20,20)  (1,256,20,20,8) | 0x0004b000 0x000af000 0x00064000
+D RKNN: [19:27:36.383] 46  Resize         /model.9/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x001f4000 0x0028a000 0x00096000
+D RKNN: [19:27:36.383] 47  Concat         /model.10/Resize_output_0                  FLOAT16   NC1HWC2      (1,256,40,40)  (1,128,40,40,8) | 0x00000000 0x000c8000 0x000c8000
+D RKNN: [19:27:36.383] 47  Concat         /model.6/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x000c8000 0x001f4000 0x0012c000
+D RKNN: [19:27:36.383] 48  ConvExSwish    /model.11/Concat_output_0                  FLOAT16   NC1HWC2      (1,384,40,40)  (1,192,40,40,8) | 0x00578000 0x006a4000 0x0012c000
+D RKNN: [19:27:36.383] 49  Split          /model.12/cv1/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00000000 0x0012c000 0x0012c000
+D RKNN: [19:27:36.383] 50  ConvExSwish    /model.12/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002bc000 0x002ee000 0x00032000
+D RKNN: [19:27:36.383] 51  ConvExSwish    /model.12/m.0/cv1/act/Mul_output_0         FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 52  Concat         /model.12/Slice_output_0                   FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x0028a000 0x002bc000 0x00032000
+D RKNN: [19:27:36.383] 52  Concat         /model.12/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x002bc000 0x002ee000 0x00032000
+D RKNN: [19:27:36.383] 52  Concat         /model.12/m.0/cv2/act/Mul_output_0         FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00096000 0x0012c000 0x00096000
+D RKNN: [19:27:36.383] 53  ConvExSwish    /model.12/Concat_output_0                  FLOAT16   NC1HWC2      (1,192,40,40)  (1,96,40,40,8)  | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 54  Resize         /model.12/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00096000 0x001c2000 0x0012c000
+D RKNN: [19:27:36.383] 55  Concat         /model.13/Resize_output_0                  FLOAT16   NC1HWC2      (1,128,80,80)  (1,64,80,80,8)  | 0x00578000 0x00708000 0x00190000
+D RKNN: [19:27:36.383] 55  Concat         /model.4/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x00320000 0x00578000 0x00258000
+D RKNN: [19:27:36.383] 56  ConvExSwish    /model.14/Concat_output_0                  FLOAT16   NC1HWC2      (1,192,80,80)  (1,96,80,80,8)  | 0x00708000 0x00960000 0x00258000
+D RKNN: [19:27:36.383] 57  Split          /model.15/cv1/act/Mul_output_0             FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x0028a000 0x004e2000 0x00258000
+D RKNN: [19:27:36.383] 58  ConvExSwish    /model.15/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x004e2000 0x00546000 0x00064000
+D RKNN: [19:27:36.383] 59  ConvExSwish    /model.15/m.0/cv1/act/Mul_output_0         FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x0028a000 0x003b6000 0x0012c000
+D RKNN: [19:27:36.383] 60  Concat         /model.15/Slice_output_0                   FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x00000000 0x00064000 0x00064000
+D RKNN: [19:27:36.383] 60  Concat         /model.15/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,32,80,80)   (1,16,80,80,8)  | 0x004e2000 0x00546000 0x00064000
+D RKNN: [19:27:36.383] 60  Concat         /model.15/m.0/cv2/act/Mul_output_0         FLOAT16   NC1HWC2      (1,32,80,80)   (1,48,80,80,8)  | 0x003b6000 0x004e2000 0x0012c000
+D RKNN: [19:27:36.383] 61  ConvExSwish    /model.15/Concat_output_0                  FLOAT16   NC1HWC2      (1,96,80,80)   (1,48,80,80,8)  | 0x0028a000 0x003b6000 0x0012c000
+D RKNN: [19:27:36.383] 62  ConvExSwish    /model.15/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x003b6000 0x0060e000 0x00258000
+D RKNN: [19:27:36.383] 63  Concat         /model.16/act/Mul_output_0                 FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00000000 0x00096000 0x00096000
+D RKNN: [19:27:36.383] 63  Concat         /model.12/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00096000 0x001c2000 0x0012c000
+D RKNN: [19:27:36.383] 64  ConvExSwish    /model.15/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x003b6000 0x0060e000 0x00258000
+D RKNN: [19:27:36.383] 65  ConvExSwish    /model.15/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x003b6000 0x0060e000 0x00258000
+D RKNN: [19:27:36.383] 66  ConvExSwish    /model.17/Concat_output_0                  FLOAT16   NC1HWC2      (1,192,40,40)  (1,96,40,40,8)  | 0x0028a000 0x00320000 0x00096000
+D RKNN: [19:27:36.383] 67  Split          /model.18/cv1/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00000000 0x0012c000 0x0012c000
+D RKNN: [19:27:36.383] 68  ConvExSwish    /model.22/cv2.0/cv2.0.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x0060e000 0x00866000 0x00258000
+D RKNN: [19:27:36.383] 69  Conv           /model.22/cv2.0/cv2.0.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x0028a000 0x004e2000 0x00258000
+D RKNN: [19:27:36.383] 70  OutputOperator box_s8                                     FLOAT16   NC1HWC2      (1,64,80,80)   (1,32,80,80,8)  | 0x00000000 0x000c8000 0x000c8000
+D RKNN: [19:27:36.383] 71  ConvExSwish    /model.22/cv3.0/cv3.0.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x00866000 0x00abe000 0x00258000
+D RKNN: [19:27:36.383] 72  Conv           /model.22/cv3.0/cv3.0.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,80,80)   (1,96,80,80,8)  | 0x0028a000 0x004e2000 0x00258000
+D RKNN: [19:27:36.383] 73  OutputOperator class_logits_s8                            FLOAT16   NC1HWC2      (1,2,80,80)    (1,8,80,80,8)   | 0x000c8000 0x000fa000 0x00032000
+D RKNN: [19:27:36.383] 74  ConvExSwish    /model.18/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x0015e000 0x00190000 0x00032000
+D RKNN: [19:27:36.383] 75  ConvExSwish    /model.18/m.0/cv1/act/Mul_output_0         FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x0028a000 0x00320000 0x00096000
+D RKNN: [19:27:36.383] 76  Concat         /model.18/Slice_output_0                   FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x0012c000 0x0015e000 0x00032000
+D RKNN: [19:27:36.383] 76  Concat         /model.18/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x0015e000 0x00190000 0x00032000
+D RKNN: [19:27:36.383] 76  Concat         /model.18/m.0/cv2/act/Mul_output_0         FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00320000 0x003b6000 0x00096000
+D RKNN: [19:27:36.383] 77  ConvExSwish    /model.18/Concat_output_0                  FLOAT16   NC1HWC2      (1,192,40,40)  (1,96,40,40,8)  | 0x0028a000 0x00320000 0x00096000
+D RKNN: [19:27:36.383] 78  ConvExSwish    /model.18/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00320000 0x0044c000 0x0012c000
+D RKNN: [19:27:36.383] 79  Concat         /model.19/act/Mul_output_0                 FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x0028a000 0x002d5000 0x0004b000
+D RKNN: [19:27:36.383] 79  Concat         /model.9/cv2/act/Mul_output_0              FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x001f4000 0x0028a000 0x00096000
+D RKNN: [19:27:36.383] 80  ConvExSwish    /model.18/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00320000 0x0044c000 0x0012c000
+D RKNN: [19:27:36.383] 81  ConvExSwish    /model.18/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,128,40,40)  (1,192,40,40,8) | 0x00320000 0x0044c000 0x0012c000
+D RKNN: [19:27:36.383] 82  ConvExSwish    /model.20/Concat_output_0                  FLOAT16   NC1HWC2      (1,384,20,20)  (1,192,20,20,8) | 0x002d5000 0x00320000 0x0004b000
+D RKNN: [19:27:36.383] 83  Split          /model.21/cv1/act/Mul_output_0             FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x00226000 0x002bc000 0x00096000
+D RKNN: [19:27:36.383] 84  ConvExSwish    /model.22/cv2.1/cv2.1.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x000fa000 0x00190000 0x00096000
+D RKNN: [19:27:36.383] 85  Conv           /model.22/cv2.1/cv2.1.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00226000 0x002bc000 0x00096000
+D RKNN: [19:27:36.383] 86  OutputOperator box_s16                                    FLOAT16   NC1HWC2      (1,64,40,40)   (1,32,40,40,8)  | 0x000fa000 0x0012c000 0x00032000
+D RKNN: [19:27:36.383] 87  ConvExSwish    /model.22/cv3.1/cv3.1.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00190000 0x00226000 0x00096000
+D RKNN: [19:27:36.383] 88  Conv           /model.22/cv3.1/cv3.1.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,40,40)   (1,96,40,40,8)  | 0x00226000 0x002bc000 0x00096000
+D RKNN: [19:27:36.383] 89  OutputOperator class_logits_s16                           FLOAT16   NC1HWC2      (1,2,40,40)    (1,8,40,40,8)   | 0x0012c000 0x00138800 0x0000c800
+D RKNN: [19:27:36.383] 90  ConvExSwish    /model.21/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002bc000 0x002d5000 0x00019000
+D RKNN: [19:27:36.383] 91  ConvExSwish    /model.21/m.0/cv1/act/Mul_output_0         FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x00138800 0x00183800 0x0004b000
+D RKNN: [19:27:36.383] 92  Concat         /model.21/Slice_output_0                   FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002d5000 0x002ee000 0x00019000
+D RKNN: [19:27:36.383] 92  Concat         /model.21/Slice_1_output_0                 FLOAT16   NC1HWC2      (1,128,20,20)  (1,64,20,20,8)  | 0x002bc000 0x002d5000 0x00019000
+D RKNN: [19:27:36.383] 92  Concat         /model.21/m.0/cv2/act/Mul_output_0         FLOAT16   NC1HWC2      (1,128,20,20)  (1,192,20,20,8) | 0x00183800 0x001ce800 0x0004b000
+D RKNN: [19:27:36.383] 93  ConvExSwish    /model.21/Concat_output_0                  FLOAT16   NC1HWC2      (1,384,20,20)  (1,192,20,20,8) | 0x00138800 0x00183800 0x0004b000
+D RKNN: [19:27:36.383] 94  ConvExSwish    /model.21/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x00183800 0x00219800 0x00096000
+D RKNN: [19:27:36.383] 95  ConvExSwish    /model.21/cv2/act/Mul_output_0             FLOAT16   NC1HWC2      (1,256,20,20)  (1,384,20,20,8) | 0x00183800 0x00219800 0x00096000
+D RKNN: [19:27:36.383] 96  ConvExSwish    /model.22/cv2.2/cv2.2.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,20,20)   (1,96,20,20,8)  | 0x00138800 0x0015e000 0x00025800
+D RKNN: [19:27:36.383] 97  Conv           /model.22/cv2.2/cv2.2.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,20,20)   (1,96,20,20,8)  | 0x00183800 0x001a9000 0x00025800
+D RKNN: [19:27:36.383] 98  OutputOperator box_s32                                    FLOAT16   NC1HWC2      (1,64,20,20)   (1,32,20,20,8)  | 0x00138800 0x00145000 0x0000c800
+D RKNN: [19:27:36.383] 99  ConvExSwish    /model.22/cv3.2/cv3.2.0/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,20,20)   (1,96,20,20,8)  | 0x0015e000 0x00183800 0x00025800
+D RKNN: [19:27:36.383] 100 Conv           /model.22/cv3.2/cv3.2.1/act/Mul_output_0   FLOAT16   NC1HWC2      (1,64,20,20)   (1,96,20,20,8)  | 0x00183800 0x001a9000 0x00025800
+D RKNN: [19:27:36.383] 101 OutputOperator class_logits_s32                           FLOAT16   NC1HWC2      (1,2,20,20)    (1,8,20,20,8)   | 0x00145000 0x00148200 0x00003200
+D RKNN: [19:27:36.383] --------------------------------------------------------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] --------------------------------------------------------------------------------------------------------
+D RKNN: [19:27:36.383]                                   Const Tensor Information Table                      
+D RKNN: [19:27:36.383] ----------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] ID  User        Tensor                        DataType  OrigShape     |     [Start       End)       Size
+D RKNN: [19:27:36.383] ----------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] 1   ConvExSwish model.0.conv.weight           FLOAT16   (16,3,3,3)    | 0x00000000 0x00000900 0x00000900
+D RKNN: [19:27:36.383] 1   ConvExSwish model.0.conv.bias             FLOAT     (16)          | 0x00000900 0x00000940 0x00000040
+D RKNN: [19:27:36.383] 2   ConvExSwish model.1.conv.weight           FLOAT16   (32,16,3,3)   | 0x00000940 0x00002d40 0x00002400
+D RKNN: [19:27:36.383] 2   ConvExSwish model.1.conv.bias             FLOAT     (32)          | 0x00002d40 0x00002dc0 0x00000080
+D RKNN: [19:27:36.383] 3   ConvExSwish model.2.cv1.conv.weight       FLOAT16   (32,32,1,1)   | 0x00002dc0 0x000035c0 0x00000800
+D RKNN: [19:27:36.383] 3   ConvExSwish model.1.conv.bias_1           FLOAT     (32)          | 0x005ba200 0x005ba280 0x00000080
+D RKNN: [19:27:36.383] 4   Split       /model.2/Slice_2sp_split      INT64     (2)           | 0x005bed80 0x005bed90 0x00000010
+D RKNN: [19:27:36.383] 5   ConvExSwish model.2.m.0.cv1.conv.weight   FLOAT16   (16,16,3,3)   | 0x000041c0 0x000053c0 0x00001200
+D RKNN: [19:27:36.383] 5   ConvExSwish model.0.conv.bias_1           FLOAT     (16)          | 0x005ba280 0x005ba2c0 0x00000040
+D RKNN: [19:27:36.383] 6   ConvExSwish model.2.m.0.cv2.conv.weight   FLOAT16   (16,16,3,3)   | 0x000053c0 0x000065c0 0x00001200
+D RKNN: [19:27:36.383] 6   ConvExSwish model.0.conv.bias_2           FLOAT     (16)          | 0x005ba2c0 0x005ba300 0x00000040
+D RKNN: [19:27:36.383] 9   ConvExSwish model.2.cv2.conv.weight       FLOAT16   (32,48,1,1)   | 0x000035c0 0x000041c0 0x00000c00
+D RKNN: [19:27:36.383] 9   ConvExSwish model.1.conv.bias_2           FLOAT     (32)          | 0x005ba300 0x005ba380 0x00000080
+D RKNN: [19:27:36.383] 10  ConvExSwish model.3.conv.weight           FLOAT16   (64,32,3,3)   | 0x000065c0 0x0000f5c0 0x00009000
+D RKNN: [19:27:36.383] 10  ConvExSwish model.3.conv.bias             FLOAT     (64)          | 0x0000f5c0 0x0000f6c0 0x00000100
+D RKNN: [19:27:36.383] 11  ConvExSwish model.4.cv1.conv.weight       FLOAT16   (64,64,1,1)   | 0x0000f6c0 0x000116c0 0x00002000
+D RKNN: [19:27:36.383] 11  ConvExSwish model.3.conv.bias_1           FLOAT     (64)          | 0x005ba380 0x005ba480 0x00000100
+D RKNN: [19:27:36.383] 12  Split       /model.4/Slice_2sp_split      INT64     (2)           | 0x005bedc0 0x005bedd0 0x00000010
+D RKNN: [19:27:36.383] 13  ConvExSwish model.4.m.0.cv1.conv.weight   FLOAT16   (32,32,3,3)   | 0x000156c0 0x00019ec0 0x00004800
+D RKNN: [19:27:36.383] 13  ConvExSwish model.1.conv.bias_3           FLOAT     (32)          | 0x005ba480 0x005ba500 0x00000080
+D RKNN: [19:27:36.383] 14  ConvExSwish model.4.m.0.cv2.conv.weight   FLOAT16   (32,32,3,3)   | 0x00019ec0 0x0001e6c0 0x00004800
+D RKNN: [19:27:36.383] 14  ConvExSwish model.1.conv.bias_4           FLOAT     (32)          | 0x005ba500 0x005ba580 0x00000080
+D RKNN: [19:27:36.383] 16  ConvExSwish model.4.m.1.cv1.conv.weight   FLOAT16   (32,32,3,3)   | 0x0001e6c0 0x00022ec0 0x00004800
+D RKNN: [19:27:36.383] 16  ConvExSwish model.1.conv.bias_5           FLOAT     (32)          | 0x005ba580 0x005ba600 0x00000080
+D RKNN: [19:27:36.383] 17  ConvExSwish model.4.m.1.cv2.conv.weight   FLOAT16   (32,32,3,3)   | 0x00022ec0 0x000276c0 0x00004800
+D RKNN: [19:27:36.383] 17  ConvExSwish model.1.conv.bias_6           FLOAT     (32)          | 0x005ba600 0x005ba680 0x00000080
+D RKNN: [19:27:36.383] 20  ConvExSwish model.4.cv2.conv.weight       FLOAT16   (64,128,1,1)  | 0x000116c0 0x000156c0 0x00004000
+D RKNN: [19:27:36.383] 20  ConvExSwish model.3.conv.bias_2           FLOAT     (64)          | 0x005ba680 0x005ba780 0x00000100
+D RKNN: [19:27:36.383] 21  ConvExSwish model.5.conv.weight           FLOAT16   (128,64,3,3)  | 0x000276c0 0x0004b6c0 0x00024000
+D RKNN: [19:27:36.383] 21  ConvExSwish model.5.conv.bias             FLOAT     (128)         | 0x0004b6c0 0x0004b8c0 0x00000200
+D RKNN: [19:27:36.383] 22  ConvExSwish model.6.cv1.conv.weight       FLOAT16   (128,128,1,1) | 0x0004b8c0 0x000538c0 0x00008000
+D RKNN: [19:27:36.383] 22  ConvExSwish model.5.conv.bias_1           FLOAT     (128)         | 0x005ba780 0x005ba980 0x00000200
+D RKNN: [19:27:36.383] 23  Split       /model.6/Slice_2sp_split      INT64     (2)           | 0x005bee00 0x005bee10 0x00000010
+D RKNN: [19:27:36.383] 24  ConvExSwish model.6.m.0.cv1.conv.weight   FLOAT16   (64,64,3,3)   | 0x000638c0 0x000758c0 0x00012000
+D RKNN: [19:27:36.383] 24  ConvExSwish model.3.conv.bias_3           FLOAT     (64)          | 0x005ba980 0x005baa80 0x00000100
+D RKNN: [19:27:36.383] 25  ConvExSwish model.6.m.0.cv2.conv.weight   FLOAT16   (64,64,3,3)   | 0x000758c0 0x000878c0 0x00012000
+D RKNN: [19:27:36.383] 25  ConvExSwish model.3.conv.bias_4           FLOAT     (64)          | 0x005baa80 0x005bab80 0x00000100
+D RKNN: [19:27:36.383] 27  ConvExSwish model.6.m.1.cv1.conv.weight   FLOAT16   (64,64,3,3)   | 0x000878c0 0x000998c0 0x00012000
+D RKNN: [19:27:36.383] 27  ConvExSwish model.3.conv.bias_5           FLOAT     (64)          | 0x005bab80 0x005bac80 0x00000100
+D RKNN: [19:27:36.383] 28  ConvExSwish model.6.m.1.cv2.conv.weight   FLOAT16   (64,64,3,3)   | 0x000998c0 0x000ab8c0 0x00012000
+D RKNN: [19:27:36.383] 28  ConvExSwish model.3.conv.bias_6           FLOAT     (64)          | 0x005bac80 0x005bad80 0x00000100
+D RKNN: [19:27:36.383] 31  ConvExSwish model.6.cv2.conv.weight       FLOAT16   (128,256,1,1) | 0x000538c0 0x000638c0 0x00010000
+D RKNN: [19:27:36.383] 31  ConvExSwish model.5.conv.bias_2           FLOAT     (128)         | 0x005bad80 0x005baf80 0x00000200
+D RKNN: [19:27:36.383] 32  ConvExSwish model.7.conv.weight           FLOAT16   (256,128,3,3) | 0x000ab8c0 0x0013b8c0 0x00090000
+D RKNN: [19:27:36.383] 32  ConvExSwish model.7.conv.bias             FLOAT     (256)         | 0x0013b8c0 0x0013bcc0 0x00000400
+D RKNN: [19:27:36.383] 33  ConvExSwish model.8.cv1.conv.weight       FLOAT16   (256,256,1,1) | 0x0013bcc0 0x0015bcc0 0x00020000
+D RKNN: [19:27:36.383] 33  ConvExSwish model.7.conv.bias_1           FLOAT     (256)         | 0x005baf80 0x005bb380 0x00000400
+D RKNN: [19:27:36.383] 34  Split       /model.8/Slice_2sp_split      INT64     (2)           | 0x005bee40 0x005bee50 0x00000010
+D RKNN: [19:27:36.383] 35  ConvExSwish model.8.m.0.cv1.conv.weight   FLOAT16   (128,128,3,3) | 0x0018bcc0 0x001d3cc0 0x00048000
+D RKNN: [19:27:36.383] 35  ConvExSwish model.5.conv.bias_3           FLOAT     (128)         | 0x005bb380 0x005bb580 0x00000200
+D RKNN: [19:27:36.383] 36  ConvExSwish model.8.m.0.cv2.conv.weight   FLOAT16   (128,128,3,3) | 0x001d3cc0 0x0021bcc0 0x00048000
+D RKNN: [19:27:36.383] 36  ConvExSwish model.5.conv.bias_4           FLOAT     (128)         | 0x005bb580 0x005bb780 0x00000200
+D RKNN: [19:27:36.383] 39  ConvExSwish model.8.cv2.conv.weight       FLOAT16   (256,384,1,1) | 0x0015bcc0 0x0018bcc0 0x00030000
+D RKNN: [19:27:36.383] 39  ConvExSwish model.7.conv.bias_2           FLOAT     (256)         | 0x005bb780 0x005bbb80 0x00000400
+D RKNN: [19:27:36.383] 40  ConvExSwish model.9.cv1.conv.weight       FLOAT16   (128,256,1,1) | 0x0021bcc0 0x0022bcc0 0x00010000
+D RKNN: [19:27:36.383] 40  ConvExSwish model.5.conv.bias_5           FLOAT     (128)         | 0x005bbb80 0x005bbd80 0x00000200
+D RKNN: [19:27:36.383] 45  ConvExSwish model.9.cv2.conv.weight       FLOAT16   (256,512,1,1) | 0x0022bcc0 0x0026bcc0 0x00040000
+D RKNN: [19:27:36.383] 45  ConvExSwish model.7.conv.bias_3           FLOAT     (256)         | 0x005bbd80 0x005bc180 0x00000400
+D RKNN: [19:27:36.383] 46  Resize      /model.10/Constant_1_output_0 FLOAT     (0)           | 0x005ba200 0x005ba200 0x00000000
+D RKNN: [19:27:36.383] 46  Resize      /model.10/Constant_output_0   FLOAT     (4)           | 0x005ba180 0x005ba200 0x00000080
+D RKNN: [19:27:36.383] 48  ConvExSwish model.12.cv1.conv.weight      FLOAT16   (128,384,1,1) | 0x0026bcc0 0x00283cc0 0x00018000
+D RKNN: [19:27:36.383] 48  ConvExSwish model.5.conv.bias_6           FLOAT     (128)         | 0x005bc180 0x005bc380 0x00000200
+D RKNN: [19:27:36.383] 49  Split       /model.12/Slice_2sp_split     INT64     (2)           | 0x005bee80 0x005bee90 0x00000010
+D RKNN: [19:27:36.383] 50  ConvExSwish model.12.m.0.cv1.conv.weight  FLOAT16   (64,64,3,3)   | 0x0028fcc0 0x002a1cc0 0x00012000
+D RKNN: [19:27:36.383] 50  ConvExSwish model.3.conv.bias_7           FLOAT     (64)          | 0x005bc380 0x005bc480 0x00000100
+D RKNN: [19:27:36.383] 51  ConvExSwish model.12.m.0.cv2.conv.weight  FLOAT16   (64,64,3,3)   | 0x002a1cc0 0x002b3cc0 0x00012000
+D RKNN: [19:27:36.383] 51  ConvExSwish model.3.conv.bias_8           FLOAT     (64)          | 0x005bc480 0x005bc580 0x00000100
+D RKNN: [19:27:36.383] 53  ConvExSwish model.12.cv2.conv.weight      FLOAT16   (128,192,1,1) | 0x00283cc0 0x0028fcc0 0x0000c000
+D RKNN: [19:27:36.383] 53  ConvExSwish model.5.conv.bias_7           FLOAT     (128)         | 0x005bc580 0x005bc780 0x00000200
+D RKNN: [19:27:36.383] 54  Resize      /model.10/Constant_1_output_0 FLOAT     (0)           | 0x005ba200 0x005ba200 0x00000000
+D RKNN: [19:27:36.383] 54  Resize      /model.10/Constant_output_0   FLOAT     (4)           | 0x005ba180 0x005ba200 0x00000080
+D RKNN: [19:27:36.383] 56  ConvExSwish model.15.cv1.conv.weight      FLOAT16   (64,192,1,1)  | 0x002b3cc0 0x002b9cc0 0x00006000
+D RKNN: [19:27:36.383] 56  ConvExSwish model.3.conv.bias_9           FLOAT     (64)          | 0x005bc780 0x005bc880 0x00000100
+D RKNN: [19:27:36.383] 57  Split       /model.15/Slice_2sp_split     INT64     (2)           | 0x005beec0 0x005beed0 0x00000010
+D RKNN: [19:27:36.383] 58  ConvExSwish model.15.m.0.cv1.conv.weight  FLOAT16   (32,32,3,3)   | 0x002bccc0 0x002c14c0 0x00004800
+D RKNN: [19:27:36.383] 58  ConvExSwish model.1.conv.bias_7           FLOAT     (32)          | 0x005bc880 0x005bc900 0x00000080
+D RKNN: [19:27:36.383] 59  ConvExSwish model.15.m.0.cv2.conv.weight  FLOAT16   (32,32,3,3)   | 0x002c14c0 0x002c5cc0 0x00004800
+D RKNN: [19:27:36.383] 59  ConvExSwish model.1.conv.bias_8           FLOAT     (32)          | 0x005bc900 0x005bc980 0x00000080
+D RKNN: [19:27:36.383] 61  ConvExSwish model.15.cv2.conv.weight      FLOAT16   (64,96,1,1)   | 0x002b9cc0 0x002bccc0 0x00003000
+D RKNN: [19:27:36.383] 61  ConvExSwish model.3.conv.bias_10          FLOAT     (64)          | 0x005bc980 0x005bca80 0x00000100
+D RKNN: [19:27:36.383] 62  ConvExSwish model.16.conv.weight          FLOAT16   (64,64,3,3)   | 0x002c5cc0 0x002d7cc0 0x00012000
+D RKNN: [19:27:36.383] 62  ConvExSwish model.3.conv.bias_11          FLOAT     (64)          | 0x005bca80 0x005bcb80 0x00000100
+D RKNN: [19:27:36.383] 64  ConvExSwish model.22.cv2.0.0.conv.weight  FLOAT16   (64,64,3,3)   | 0x0044bcc0 0x0045dcc0 0x00012000
+D RKNN: [19:27:36.383] 64  ConvExSwish model.3.conv.bias_14          FLOAT     (64)          | 0x005bdf80 0x005be080 0x00000100
+D RKNN: [19:27:36.383] 65  ConvExSwish model.22.cv3.0.0.conv.weight  FLOAT16   (64,64,3,3)   | 0x00505dc0 0x00517dc0 0x00012000
+D RKNN: [19:27:36.383] 65  ConvExSwish model.3.conv.bias_16          FLOAT     (64)          | 0x005be180 0x005be280 0x00000100
+D RKNN: [19:27:36.383] 66  ConvExSwish model.18.cv1.conv.weight      FLOAT16   (128,192,1,1) | 0x002d7cc0 0x002e3cc0 0x0000c000
+D RKNN: [19:27:36.383] 66  ConvExSwish model.5.conv.bias_8           FLOAT     (128)         | 0x005bcb80 0x005bcd80 0x00000200
+D RKNN: [19:27:36.383] 67  Split       /model.18/Slice_2sp_split     INT64     (2)           | 0x005bef00 0x005bef10 0x00000010
+D RKNN: [19:27:36.383] 68  ConvExSwish model.22.cv2.0.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x0045dcc0 0x0046fcc0 0x00012000
+D RKNN: [19:27:36.383] 68  ConvExSwish model.3.conv.bias_15          FLOAT     (64)          | 0x005be080 0x005be180 0x00000100
+D RKNN: [19:27:36.383] 69  Conv        model.22.cv2.0.2.weight       FLOAT16   (64,64,1,1)   | 0x0046fcc0 0x00471cc0 0x00002000
+D RKNN: [19:27:36.383] 69  Conv        model.22.cv2.0.2.bias         FLOAT     (64)          | 0x00471cc0 0x00471dc0 0x00000100
+D RKNN: [19:27:36.383] 71  ConvExSwish model.22.cv3.0.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x00517dc0 0x00529dc0 0x00012000
+D RKNN: [19:27:36.383] 71  ConvExSwish model.3.conv.bias_17          FLOAT     (64)          | 0x005be280 0x005be380 0x00000100
+D RKNN: [19:27:36.383] 72  Conv        model.22.cv3.0.2.weight       FLOAT16   (2,64,1,1)    | 0x00529dc0 0x00529ec0 0x00000100
+D RKNN: [19:27:36.383] 72  Conv        model.22.cv3.0.2.bias         FLOAT     (2)           | 0x00529ec0 0x00529f00 0x00000040
+D RKNN: [19:27:36.383] 74  ConvExSwish model.18.m.0.cv1.conv.weight  FLOAT16   (64,64,3,3)   | 0x002efcc0 0x00301cc0 0x00012000
+D RKNN: [19:27:36.383] 74  ConvExSwish model.3.conv.bias_12          FLOAT     (64)          | 0x005bcd80 0x005bce80 0x00000100
+D RKNN: [19:27:36.383] 75  ConvExSwish model.18.m.0.cv2.conv.weight  FLOAT16   (64,64,3,3)   | 0x00301cc0 0x00313cc0 0x00012000
+D RKNN: [19:27:36.383] 75  ConvExSwish model.3.conv.bias_13          FLOAT     (64)          | 0x005bce80 0x005bcf80 0x00000100
+D RKNN: [19:27:36.383] 77  ConvExSwish model.18.cv2.conv.weight      FLOAT16   (128,192,1,1) | 0x002e3cc0 0x002efcc0 0x0000c000
+D RKNN: [19:27:36.383] 77  ConvExSwish model.5.conv.bias_9           FLOAT     (128)         | 0x005bcf80 0x005bd180 0x00000200
+D RKNN: [19:27:36.383] 78  ConvExSwish model.19.conv.weight          FLOAT16   (128,128,3,3) | 0x00313cc0 0x0035bcc0 0x00048000
+D RKNN: [19:27:36.383] 78  ConvExSwish model.5.conv.bias_10          FLOAT     (128)         | 0x005bd180 0x005bd380 0x00000200
+D RKNN: [19:27:36.383] 80  ConvExSwish model.22.cv2.1.0.conv.weight  FLOAT16   (64,128,3,3)  | 0x00471dc0 0x00495dc0 0x00024000
+D RKNN: [19:27:36.383] 80  ConvExSwish model.3.conv.bias_18          FLOAT     (64)          | 0x005be380 0x005be480 0x00000100
+D RKNN: [19:27:36.383] 81  ConvExSwish model.22.cv3.1.0.conv.weight  FLOAT16   (64,128,3,3)  | 0x00529f00 0x0054df00 0x00024000
+D RKNN: [19:27:36.383] 81  ConvExSwish model.3.conv.bias_20          FLOAT     (64)          | 0x005be680 0x005be780 0x00000100
+D RKNN: [19:27:36.383] 82  ConvExSwish model.21.cv1.conv.weight      FLOAT16   (256,384,1,1) | 0x0035bcc0 0x0038bcc0 0x00030000
+D RKNN: [19:27:36.383] 82  ConvExSwish model.7.conv.bias_4           FLOAT     (256)         | 0x005bd380 0x005bd780 0x00000400
+D RKNN: [19:27:36.383] 83  Split       /model.21/Slice_2sp_split     INT64     (2)           | 0x005bef40 0x005bef50 0x00000010
+D RKNN: [19:27:36.383] 84  ConvExSwish model.22.cv2.1.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x00495dc0 0x004a7dc0 0x00012000
+D RKNN: [19:27:36.383] 84  ConvExSwish model.3.conv.bias_19          FLOAT     (64)          | 0x005be480 0x005be580 0x00000100
+D RKNN: [19:27:36.383] 85  Conv        model.22.cv2.1.2.weight       FLOAT16   (64,64,1,1)   | 0x004a7dc0 0x004a9dc0 0x00002000
+D RKNN: [19:27:36.383] 85  Conv        model.22.cv2.0.2.bias_1       FLOAT     (64)          | 0x005be580 0x005be680 0x00000100
+D RKNN: [19:27:36.383] 87  ConvExSwish model.22.cv3.1.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x0054df00 0x0055ff00 0x00012000
+D RKNN: [19:27:36.383] 87  ConvExSwish model.3.conv.bias_21          FLOAT     (64)          | 0x005be780 0x005be880 0x00000100
+D RKNN: [19:27:36.383] 88  Conv        model.22.cv3.1.2.weight       FLOAT16   (2,64,1,1)    | 0x0055ff00 0x00560000 0x00000100
+D RKNN: [19:27:36.383] 88  Conv        model.22.cv3.1.2.bias         FLOAT     (2)           | 0x00560000 0x00560040 0x00000040
+D RKNN: [19:27:36.383] 90  ConvExSwish model.21.m.0.cv1.conv.weight  FLOAT16   (128,128,3,3) | 0x003bbcc0 0x00403cc0 0x00048000
+D RKNN: [19:27:36.383] 90  ConvExSwish model.5.conv.bias_11          FLOAT     (128)         | 0x005bd780 0x005bd980 0x00000200
+D RKNN: [19:27:36.383] 91  ConvExSwish model.21.m.0.cv2.conv.weight  FLOAT16   (128,128,3,3) | 0x00403cc0 0x0044bcc0 0x00048000
+D RKNN: [19:27:36.383] 91  ConvExSwish model.5.conv.bias_12          FLOAT     (128)         | 0x005bd980 0x005bdb80 0x00000200
+D RKNN: [19:27:36.383] 93  ConvExSwish model.21.cv2.conv.weight      FLOAT16   (256,384,1,1) | 0x0038bcc0 0x003bbcc0 0x00030000
+D RKNN: [19:27:36.383] 93  ConvExSwish model.7.conv.bias_5           FLOAT     (256)         | 0x005bdb80 0x005bdf80 0x00000400
+D RKNN: [19:27:36.383] 94  ConvExSwish model.22.cv2.2.0.conv.weight  FLOAT16   (64,256,3,3)  | 0x004a9dc0 0x004f1dc0 0x00048000
+D RKNN: [19:27:36.383] 94  ConvExSwish model.3.conv.bias_22          FLOAT     (64)          | 0x005be880 0x005be980 0x00000100
+D RKNN: [19:27:36.383] 95  ConvExSwish model.22.cv3.2.0.conv.weight  FLOAT16   (64,256,3,3)  | 0x00560040 0x005a8040 0x00048000
+D RKNN: [19:27:36.383] 95  ConvExSwish model.3.conv.bias_24          FLOAT     (64)          | 0x005beb80 0x005bec80 0x00000100
+D RKNN: [19:27:36.383] 96  ConvExSwish model.22.cv2.2.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x004f1dc0 0x00503dc0 0x00012000
+D RKNN: [19:27:36.383] 96  ConvExSwish model.3.conv.bias_23          FLOAT     (64)          | 0x005be980 0x005bea80 0x00000100
+D RKNN: [19:27:36.383] 97  Conv        model.22.cv2.2.2.weight       FLOAT16   (64,64,1,1)   | 0x00503dc0 0x00505dc0 0x00002000
+D RKNN: [19:27:36.383] 97  Conv        model.22.cv2.0.2.bias_2       FLOAT     (64)          | 0x005bea80 0x005beb80 0x00000100
+D RKNN: [19:27:36.383] 99  ConvExSwish model.22.cv3.2.1.conv.weight  FLOAT16   (64,64,3,3)   | 0x005a8040 0x005ba040 0x00012000
+D RKNN: [19:27:36.383] 99  ConvExSwish model.3.conv.bias_25          FLOAT     (64)          | 0x005bec80 0x005bed80 0x00000100
+D RKNN: [19:27:36.383] 100 Conv        model.22.cv3.2.2.weight       FLOAT16   (2,64,1,1)    | 0x005ba040 0x005ba140 0x00000100
+D RKNN: [19:27:36.383] 100 Conv        model.22.cv3.2.2.bias         FLOAT     (2)           | 0x005ba140 0x005ba180 0x00000040
+D RKNN: [19:27:36.383] ----------------------------------------------------------------------+---------------------------------
+D RKNN: [19:27:36.383] ----------------------------------------
+D RKNN: [19:27:36.384] Total Internal Memory Size: 16800KB
+D RKNN: [19:27:36.384] Total Weight Memory Size: 5885.88KB
+D RKNN: [19:27:36.384] ----------------------------------------
+D RKNN: [19:27:36.384] <<<<<<<< end: rknn::RKNNMemStatisticsPass
+I rknn building done.
+W rknn-toolkit-lite2 version: 2.5.0
+W Verbose file path is invalid, debug info will not dump to file.
+D target set by user is: None
+D Starting ntp or adb, target soc is RK3588, device id is: None
+I RKNN: [19:27:36.599] RKNN Runtime Information, librknnrt version: 2.3.0 (c949ad889d@2024-11-07T11:35:33)
+W Query dynamic range failed. Ret code: RKNN_ERR_MODEL_INVALID. (If it is a static shape RKNN model, please ignore the above warning message.)
+{"fixture": "RED_full", "input_sha256": "ef06bd42973cd63d2f491ae5055ca2b4e28d9a831099c0a63454b7a86b19e3f7", "letterbox": {"original_wh": [2558, 1438], "resized_wh": [640, 360], "gain": 0.2501954652071931, "padding_ltrb": [0, 140, 0, 140], "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"}, "heads": [{"name": "box_s8", "shape": [1, 64, 80, 80], "dtype": "float32", "reference_range": [0.9999991655349731, 1.0000007152557373], "actual_range": [1.0, 1.0], "raw_error": {"count": 409600, "max_abs": 8.344650268554688e-07, "mean_abs": 9.533148841001094e-08, "rmse": 1.4959710758577337e-07, "p50_abs": 5.960464477539063e-08, "p95_abs": 3.5762786865234375e-07, "p99_abs": 4.76837158203125e-07, "p99.9_abs": 5.364418029785156e-07}, "passed": true}, {"name": "class_logits_s8", "shape": [1, 2, 80, 80], "dtype": "float32", "reference_range": [-7.847763538360596, -7.847762107849121], "actual_range": [-7.84765625, -7.84765625], "raw_error": {"count": 12800, "max_abs": 0.00010728836059570312, "mean_abs": 0.00010645177215337753, "rmse": 0.0001064519720001175, "p50_abs": 0.00010633468627929688, "p95_abs": 0.0001068115234375, "p99_abs": 0.0001068115234375, "p99.9_abs": 0.0001068115234375}, "passed": true}, {"name": "box_s16", "shape": [1, 64, 40, 40], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 102400, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s16", "shape": [1, 2, 40, 40], "dtype": "float32", "reference_range": [-6.46146821975708, -6.46146821975708], "actual_range": [-6.4609375, -6.4609375], "raw_error": {"count": 3200, "max_abs": 0.0005307197570800781, "mean_abs": 0.0005307197570800781, "rmse": 0.0005307197570800781, "p50_abs": 0.0005307197570800781, "p95_abs": 0.0005307197570800781, "p99_abs": 0.0005307197570800781, "p99.9_abs": 0.0005307197570800781}, "passed": true}, {"name": "box_s32", "shape": [1, 64, 20, 20], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 25600, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s32", "shape": [1, 2, 20, 20], "dtype": "float32", "reference_range": [-5.075173854827881, -5.075173854827881], "actual_range": [-5.07421875, -5.07421875], "raw_error": {"count": 800, "max_abs": 0.0009551048278808594, "mean_abs": 0.0009551048278808594, "rmse": 0.0009551048278808594, "p50_abs": 0.0009551048278808594, "p95_abs": 0.0009551048278808594, "p99_abs": 0.0009551048278808594, "p99.9_abs": 0.0009551048278808594}, "passed": true}], "cpu_sigmoid_scores": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003017157010417e-07, "rmse": 1.3372335899195748e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "score_buckets": {"low_p_lt_0.01": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003017157010417e-07, "rmse": 1.3372335899195748e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "middle_0.01_to_0.99": {"count": 0, "status": "not_covered"}, "high_p_gt_0.99": {"count": 0, "status": "not_covered"}}, "decoded_box_error_input_px": {"count": 33600, "max_abs": 5.856156604977514e-06, "mean_abs": 6.170025530280586e-07, "rmse": 1.0432338538287878e-06, "p50_abs": 2.086162567138672e-07, "p95_abs": 2.741813645457114e-06, "p99_abs": 3.1888484954833984e-06, "p99.9_abs": 3.7252905713529573e-06}, "decoded_box_error_original_px": {"count": 33600, "max_abs": 2.3406325937003203e-05, "mean_abs": 2.466082080592297e-06, "rmse": 4.169675313011464e-06, "p50_abs": 8.33813146527973e-07, "p95_abs": 1.0958686459616729e-05, "p99_abs": 1.2745428648486268e-05, "p99.9_abs": 1.4889520753229136e-05}, "paired_box_iou_min": 0.9999999216447198, "paired_box_iou_median": 0.999999982242783, "nms": {"threshold": 0.25, "iou_threshold": 0.45, "reference_count": 0, "actual_count": 0, "anchor_and_class_ids_equal": true, "empty_outputs_not_pass_criterion": true}, "parent_onnx_equivalence": {"box_raw_max_abs": 0.0, "cpu_score_vs_original_probability": {"count": 16800, "max_abs": 4.1338283835075373e-08, "mean_abs": 2.9345835357190727e-08, "rmse": 2.9523402181352244e-08, "p50_abs": 2.7376983275317034e-08, "p95_abs": 3.2041542472114985e-08, "p99_abs": 4.1338283835075373e-08, "p99.9_abs": 4.1338283835075373e-08}}, "npu_single_observation_ms": 84.5274649982457, "passed": true}
+{"fixture": "RED_left_half", "input_sha256": "90071ea68fe8e1dd25f72549ab36c008cba10a1914937983f285f56f3adb666f", "letterbox": {"original_wh": [1406, 777], "resized_wh": [640, 354], "gain": 0.45519203413940257, "padding_ltrb": [0, 143, 0, 143], "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"}, "heads": [{"name": "box_s8", "shape": [1, 64, 80, 80], "dtype": "float32", "reference_range": [0.9999992251396179, 1.0000008344650269], "actual_range": [1.0, 1.0], "raw_error": {"count": 409600, "max_abs": 8.344650268554688e-07, "mean_abs": 1.0014045983552933e-07, "rmse": 1.546840726603467e-07, "p50_abs": 5.960464477539063e-08, "p95_abs": 3.5762786865234375e-07, "p99_abs": 4.76837158203125e-07, "p99.9_abs": 5.364418029785156e-07}, "passed": true}, {"name": "class_logits_s8", "shape": [1, 2, 80, 80], "dtype": "float32", "reference_range": [-7.847763538360596, -7.847762107849121], "actual_range": [-7.84765625, -7.84765625], "raw_error": {"count": 12800, "max_abs": 0.00010728836059570312, "mean_abs": 0.00010646238923072815, "rmse": 0.0001064625997938885, "p50_abs": 0.00010633468627929688, "p95_abs": 0.0001068115234375, "p99_abs": 0.0001068115234375, "p99.9_abs": 0.0001068115234375}, "passed": true}, {"name": "box_s16", "shape": [1, 64, 40, 40], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 102400, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s16", "shape": [1, 2, 40, 40], "dtype": "float32", "reference_range": [-6.46146821975708, -6.46146821975708], "actual_range": [-6.4609375, -6.4609375], "raw_error": {"count": 3200, "max_abs": 0.0005307197570800781, "mean_abs": 0.0005307197570800781, "rmse": 0.0005307197570800781, "p50_abs": 0.0005307197570800781, "p95_abs": 0.0005307197570800781, "p99_abs": 0.0005307197570800781, "p99.9_abs": 0.0005307197570800781}, "passed": true}, {"name": "box_s32", "shape": [1, 64, 20, 20], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 25600, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s32", "shape": [1, 2, 20, 20], "dtype": "float32", "reference_range": [-5.075173854827881, -5.075173854827881], "actual_range": [-5.07421875, -5.07421875], "raw_error": {"count": 800, "max_abs": 0.0009551048278808594, "mean_abs": 0.0009551048278808594, "rmse": 0.0009551048278808594, "p50_abs": 0.0009551048278808594, "p95_abs": 0.0009551048278808594, "p99_abs": 0.0009551048278808594, "p99.9_abs": 0.0009551048278808594}, "passed": true}], "cpu_sigmoid_scores": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003332894649773e-07, "rmse": 1.337233688134254e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "score_buckets": {"low_p_lt_0.01": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003332894649773e-07, "rmse": 1.337233688134254e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "middle_0.01_to_0.99": {"count": 0, "status": "not_covered"}, "high_p_gt_0.99": {"count": 0, "status": "not_covered"}}, "decoded_box_error_input_px": {"count": 33600, "max_abs": 4.440546433670534e-06, "mean_abs": 6.381741767021628e-07, "rmse": 1.07545320246944e-06, "p50_abs": 1.9371509552001953e-07, "p95_abs": 2.741813646167657e-06, "p99_abs": 3.1888484954833984e-06, "p99.9_abs": 3.769993918808723e-06}, "decoded_box_error_original_px": {"count": 33600, "max_abs": 9.755325446558771e-06, "mean_abs": 1.4019888946116277e-06, "rmse": 2.362636255240421e-06, "p50_abs": 4.255678618392267e-07, "p95_abs": 6.023421860845701e-06, "p99_abs": 7.005501515777723e-06, "p99.9_abs": 8.282205396195508e-06}, "paired_box_iou_min": 0.9999999225139693, "paired_box_iou_median": 0.9999999810010195, "nms": {"threshold": 0.25, "iou_threshold": 0.45, "reference_count": 0, "actual_count": 0, "anchor_and_class_ids_equal": true, "empty_outputs_not_pass_criterion": true}, "parent_onnx_equivalence": {"box_raw_max_abs": 0.0, "cpu_score_vs_original_probability": {"count": 16800, "max_abs": 4.1338283835075373e-08, "mean_abs": 2.9425232845982363e-08, "rmse": 2.9603192177348697e-08, "p50_abs": 2.7376983275317034e-08, "p95_abs": 3.2041542472114985e-08, "p99_abs": 4.1338283835075373e-08, "p99.9_abs": 4.1338283835075373e-08}}, "npu_single_observation_ms": 70.53735700174002, "passed": true}
+{"fixture": "GREEN_full", "input_sha256": "3752b3d4472fc2f3c25e28cc4e369f9ae2bb4d4652350d499cc0c8ad5deee38d", "letterbox": {"original_wh": [2558, 1438], "resized_wh": [640, 360], "gain": 0.2501954652071931, "padding_ltrb": [0, 140, 0, 140], "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"}, "heads": [{"name": "box_s8", "shape": [1, 64, 80, 80], "dtype": "float32", "reference_range": [0.9999991655349731, 1.0000007152557373], "actual_range": [1.0, 1.0], "raw_error": {"count": 409600, "max_abs": 8.344650268554688e-07, "mean_abs": 9.506969945505262e-08, "rmse": 1.4964467248836438e-07, "p50_abs": 5.960464477539063e-08, "p95_abs": 3.5762786865234375e-07, "p99_abs": 4.76837158203125e-07, "p99.9_abs": 5.364418029785156e-07}, "passed": true}, {"name": "class_logits_s8", "shape": [1, 2, 80, 80], "dtype": "float32", "reference_range": [-7.847763538360596, -7.847762107849121], "actual_range": [-7.84765625, -7.84765625], "raw_error": {"count": 12800, "max_abs": 0.00010728836059570312, "mean_abs": 0.00010645236819982529, "rmse": 0.00010645256788879857, "p50_abs": 0.00010633468627929688, "p95_abs": 0.0001068115234375, "p99_abs": 0.0001068115234375, "p99.9_abs": 0.0001068115234375}, "passed": true}, {"name": "box_s16", "shape": [1, 64, 40, 40], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 102400, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s16", "shape": [1, 2, 40, 40], "dtype": "float32", "reference_range": [-6.46146821975708, -6.46146821975708], "actual_range": [-6.4609375, -6.4609375], "raw_error": {"count": 3200, "max_abs": 0.0005307197570800781, "mean_abs": 0.0005307197570800781, "rmse": 0.0005307197570800781, "p50_abs": 0.0005307197570800781, "p95_abs": 0.0005307197570800781, "p99_abs": 0.0005307197570800781, "p99.9_abs": 0.0005307197570800781}, "passed": true}, {"name": "box_s32", "shape": [1, 64, 20, 20], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 25600, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s32", "shape": [1, 2, 20, 20], "dtype": "float32", "reference_range": [-5.075173854827881, -5.075173854827881], "actual_range": [-5.07421875, -5.07421875], "raw_error": {"count": 800, "max_abs": 0.0009551048278808594, "mean_abs": 0.0009551048278808594, "rmse": 0.0009551048278808594, "p50_abs": 0.0009551048278808594, "p95_abs": 0.0009551048278808594, "p99_abs": 0.0009551048278808594, "p99.9_abs": 0.0009551048278808594}, "passed": true}], "cpu_sigmoid_scores": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.700303488263476e-07, "rmse": 1.3372335954261055e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "score_buckets": {"low_p_lt_0.01": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.700303488263476e-07, "rmse": 1.3372335954261055e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "middle_0.01_to_0.99": {"count": 0, "status": "not_covered"}, "high_p_gt_0.99": {"count": 0, "status": "not_covered"}}, "decoded_box_error_input_px": {"count": 33600, "max_abs": 4.842877331157069e-06, "mean_abs": 6.159758807765061e-07, "rmse": 1.0433970675847292e-06, "p50_abs": 2.086162567138672e-07, "p95_abs": 2.741813645457114e-06, "p99_abs": 3.1888484954833984e-06, "p99.9_abs": 3.6209821020065647e-06}, "decoded_box_error_original_px": {"count": 33600, "max_abs": 1.9356375332790776e-05, "mean_abs": 2.4619785999671103e-06, "rmse": 4.170327657944236e-06, "p50_abs": 8.338130328411353e-07, "p95_abs": 1.0958686516460148e-05, "p99_abs": 1.2745428648486268e-05, "p99.9_abs": 1.447261290689994e-05}, "paired_box_iou_min": 0.9999999113380909, "paired_box_iou_median": 0.9999999826153131, "nms": {"threshold": 0.25, "iou_threshold": 0.45, "reference_count": 0, "actual_count": 0, "anchor_and_class_ids_equal": true, "empty_outputs_not_pass_criterion": true}, "parent_onnx_equivalence": {"box_raw_max_abs": 0.0, "cpu_score_vs_original_probability": {"count": 16800, "max_abs": 4.1338283835075373e-08, "mean_abs": 2.9349744646908234e-08, "rmse": 2.9527333789987522e-08, "p50_abs": 2.7376983275317034e-08, "p95_abs": 3.2041542472114985e-08, "p99_abs": 4.1338283835075373e-08, "p99.9_abs": 4.1338283835075373e-08}}, "npu_single_observation_ms": 73.69808799921884, "passed": true}
+{"fixture": "GREEN_left_half", "input_sha256": "d57d137bb07a1eb4db921fb00bcda34f2a88577a2fd5890f487054861ea6989d", "letterbox": {"original_wh": [1406, 777], "resized_wh": [640, 354], "gain": 0.45519203413940257, "padding_ltrb": [0, 143, 0, 143], "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"}, "heads": [{"name": "box_s8", "shape": [1, 64, 80, 80], "dtype": "float32", "reference_range": [0.9999992251396179, 1.0000008344650269], "actual_range": [1.0, 1.0], "raw_error": {"count": 409600, "max_abs": 8.344650268554688e-07, "mean_abs": 9.798503015190362e-08, "rmse": 1.5385313630952345e-07, "p50_abs": 5.960464477539063e-08, "p95_abs": 3.5762786865234375e-07, "p99_abs": 4.76837158203125e-07, "p99.9_abs": 5.364418029785156e-07}, "passed": true}, {"name": "class_logits_s8", "shape": [1, 2, 80, 80], "dtype": "float32", "reference_range": [-7.847763538360596, -7.847762107849121], "actual_range": [-7.84765625, -7.84765625], "raw_error": {"count": 12800, "max_abs": 0.00010728836059570312, "mean_abs": 0.00010646112263202667, "rmse": 0.00010646133187294445, "p50_abs": 0.00010633468627929688, "p95_abs": 0.0001068115234375, "p99_abs": 0.0001068115234375, "p99.9_abs": 0.0001068115234375}, "passed": true}, {"name": "box_s16", "shape": [1, 64, 40, 40], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 102400, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s16", "shape": [1, 2, 40, 40], "dtype": "float32", "reference_range": [-6.46146821975708, -6.46146821975708], "actual_range": [-6.4609375, -6.4609375], "raw_error": {"count": 3200, "max_abs": 0.0005307197570800781, "mean_abs": 0.0005307197570800781, "rmse": 0.0005307197570800781, "p50_abs": 0.0005307197570800781, "p95_abs": 0.0005307197570800781, "p99_abs": 0.0005307197570800781, "p99.9_abs": 0.0005307197570800781}, "passed": true}, {"name": "box_s32", "shape": [1, 64, 20, 20], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 25600, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s32", "shape": [1, 2, 20, 20], "dtype": "float32", "reference_range": [-5.075173854827881, -5.075173854827881], "actual_range": [-5.07421875, -5.07421875], "raw_error": {"count": 800, "max_abs": 0.0009551048278808594, "mean_abs": 0.0009551048278808594, "rmse": 0.0009551048278808594, "p50_abs": 0.0009551048278808594, "p95_abs": 0.0009551048278808594, "p99_abs": 0.0009551048278808594, "p99.9_abs": 0.0009551048278808594}, "passed": true}], "cpu_sigmoid_scores": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003295227703636e-07, "rmse": 1.337233676416496e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "score_buckets": {"low_p_lt_0.01": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003295227703636e-07, "rmse": 1.337233676416496e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "middle_0.01_to_0.99": {"count": 0, "status": "not_covered"}, "high_p_gt_0.99": {"count": 0, "status": "not_covered"}}, "decoded_box_error_input_px": {"count": 33600, "max_abs": 4.678964756976711e-06, "mean_abs": 6.266452905996579e-07, "rmse": 1.0698774321438444e-06, "p50_abs": 1.7881377800677e-07, "p95_abs": 2.7418136596679688e-06, "p99_abs": 3.1888484954833984e-06, "p99.9_abs": 3.7848950116199377e-06}, "decoded_box_error_original_px": {"count": 33600, "max_abs": 1.0279100706611644e-05, "mean_abs": 1.3766613727013957e-06, "rmse": 2.3503869845840146e-06, "p50_abs": 3.928314953327572e-07, "p95_abs": 6.023421860845701e-06, "p99_abs": 7.005501515777723e-06, "p99.9_abs": 8.314941209476956e-06}, "paired_box_iou_min": 0.9999999206513203, "paired_box_iou_median": 0.99999998273949, "nms": {"threshold": 0.25, "iou_threshold": 0.45, "reference_count": 0, "actual_count": 0, "anchor_and_class_ids_equal": true, "empty_outputs_not_pass_criterion": true}, "parent_onnx_equivalence": {"box_raw_max_abs": 0.0, "cpu_score_vs_original_probability": {"count": 16800, "max_abs": 4.1338283835075373e-08, "mean_abs": 2.9414992945196777e-08, "rmse": 2.9592911286947976e-08, "p50_abs": 2.7376983275317034e-08, "p95_abs": 3.2041542472114985e-08, "p99_abs": 4.1338283835075373e-08, "p99.9_abs": 4.1338283835075373e-08}}, "npu_single_observation_ms": 74.42315700245672, "passed": true}
+{"fixture": "SYNTHETIC_channel_ramp_odd_padding", "input_sha256": "79b2d68cac0a3772809af9c9a07884ef485f1e3066878101c6fabb17d8c725c4", "letterbox": {"original_wh": [503, 301], "resized_wh": [640, 383], "gain": 1.2723658051689861, "padding_ltrb": [0, 128, 0, 129], "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"}, "heads": [{"name": "box_s8", "shape": [1, 64, 80, 80], "dtype": "float32", "reference_range": [0.9999988079071045, 1.0000011920928955], "actual_range": [1.0, 1.0], "raw_error": {"count": 409600, "max_abs": 1.1920928955078125e-06, "mean_abs": 1.8983875634148718e-07, "rmse": 2.5143198267612956e-07, "p50_abs": 1.1920928955078125e-07, "p95_abs": 4.76837158203125e-07, "p99_abs": 7.152557373046875e-07, "p99.9_abs": 9.5367431640625e-07}, "passed": true}, {"name": "class_logits_s8", "shape": [1, 2, 80, 80], "dtype": "float32", "reference_range": [-7.847763538360596, -7.847762107849121], "actual_range": [-7.84765625, -7.84765625], "raw_error": {"count": 12800, "max_abs": 0.00010728836059570312, "mean_abs": 0.00010658923536539078, "rmse": 0.00010658968444417601, "p50_abs": 0.00010633468627929688, "p95_abs": 0.00010728836059570312, "p99_abs": 0.00010728836059570312, "p99.9_abs": 0.00010728836059570312}, "passed": true}, {"name": "box_s16", "shape": [1, 64, 40, 40], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 102400, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s16", "shape": [1, 2, 40, 40], "dtype": "float32", "reference_range": [-6.46146821975708, -6.46146821975708], "actual_range": [-6.4609375, -6.4609375], "raw_error": {"count": 3200, "max_abs": 0.0005307197570800781, "mean_abs": 0.0005307197570800781, "rmse": 0.0005307197570800781, "p50_abs": 0.0005307197570800781, "p95_abs": 0.0005307197570800781, "p99_abs": 0.0005307197570800781, "p99.9_abs": 0.0005307197570800781}, "passed": true}, {"name": "box_s32", "shape": [1, 64, 20, 20], "dtype": "float32", "reference_range": [1.0, 1.0], "actual_range": [1.0, 1.0], "raw_error": {"count": 25600, "max_abs": 0.0, "mean_abs": 0.0, "rmse": 0.0, "p50_abs": 0.0, "p95_abs": 0.0, "p99_abs": 0.0, "p99.9_abs": 0.0}, "passed": true}, {"name": "class_logits_s32", "shape": [1, 2, 20, 20], "dtype": "float32", "reference_range": [-5.075173854827881, -5.075173854827881], "actual_range": [-5.07421875, -5.07421875], "raw_error": {"count": 800, "max_abs": 0.0009551048278808594, "mean_abs": 0.0009551048278808594, "rmse": 0.0009551048278808594, "p50_abs": 0.0009551048278808594, "p95_abs": 0.0009551048278808594, "p99_abs": 0.0009551048278808594, "p99.9_abs": 0.0009551048278808594}, "passed": true}], "cpu_sigmoid_scores": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7007105127941566e-07, "rmse": 1.3372348633209834e-06, "p50_abs": 4.169287717251547e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "score_buckets": {"low_p_lt_0.01": {"count": 16800, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7007105127941566e-07, "rmse": 1.3372348633209834e-06, "p50_abs": 4.169287717251547e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}, "middle_0.01_to_0.99": {"count": 0, "status": "not_covered"}, "high_p_gt_0.99": {"count": 0, "status": "not_covered"}}, "decoded_box_error_input_px": {"count": 33600, "max_abs": 7.763505578850527e-06, "mean_abs": 1.1747783158727863e-06, "rmse": 1.7457370171055617e-06, "p50_abs": 8.344642310476047e-07, "p95_abs": 3.7550926265339513e-06, "p99_abs": 5.215406361571695e-06, "p99.9_abs": 6.368771093264137e-06}, "decoded_box_error_original_px": {"count": 33600, "max_abs": 6.101630164678795e-06, "mean_abs": 9.233023324894088e-07, "rmse": 1.3720401867920567e-06, "p50_abs": 6.558367147135868e-07, "p95_abs": 2.951268113449146e-06, "p99_abs": 4.09898343580295e-06, "p99.9_abs": 5.005456033657713e-06}, "paired_box_iou_min": 0.9999998793005972, "paired_box_iou_median": 0.9999999556690455, "nms": {"threshold": 0.25, "iou_threshold": 0.45, "reference_count": 0, "actual_count": 0, "anchor_and_class_ids_equal": true, "empty_outputs_not_pass_criterion": true}, "parent_onnx_equivalence": {"box_raw_max_abs": 0.0, "cpu_score_vs_original_probability": {"count": 16800, "max_abs": 4.1338283835075373e-08, "mean_abs": 2.994278805413301e-08, "rmse": 3.0116876315034063e-08, "p50_abs": 2.963746129178331e-08, "p95_abs": 3.2041542472114985e-08, "p99_abs": 4.1338283835075373e-08, "p99.9_abs": 4.1338283835075373e-08}}, "npu_single_observation_ms": 72.40602999809198, "passed": true}
+{"candidate_passed": true, "onnx_sha256": "4b6c1deb809cbf2696f712c414e61be2671ce59288284707a677ebf31ddf073d", "rknn_sha256": "9fae642bb50044f332de5b974200b12e4c562f8dcec7e0d2f5c85465ccfd8886", "score_error": {"count": 84000, "max_abs": 5.898262425079771e-06, "mean_abs": 4.7003957057988026e-07, "rmse": 1.337233882643573e-06, "p50_abs": 4.1506758144556864e-08, "p95_abs": 8.268829581124359e-07, "p99_abs": 5.898262425079771e-06, "p99.9_abs": 5.898262425079771e-06}}

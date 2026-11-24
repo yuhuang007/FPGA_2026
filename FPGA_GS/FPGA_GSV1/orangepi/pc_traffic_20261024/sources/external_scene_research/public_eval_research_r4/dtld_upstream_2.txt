@@ -1,0 +1,1 @@
+{"_id":"6a92d28307ca67c9069d8f1d","id":"MengZhibin/DTLD_train_dataset","author":"MengZhibin","sha":"988885a8b9cba203596d5ed063b3a8a2eb26ba55","lastModified":"2026-08-29T12:37:23.000Z","private":false,"gated":false,"disabled":false,"tags":["region:us"],"downloads":4,"likes":0,"siblings":[{"rfilename":".gitattributes"}],"createdAt":"2026-08-29T12:37:23.000Z","usedStorage":0}

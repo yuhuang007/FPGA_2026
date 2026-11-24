@@ -1,0 +1,31 @@
+{
+  "manifest": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\reports\\cleanup_20261027_round2\\manifest.json",
+  "archive": "E:\\zhoumian\\FPGA\\FPGA_GS\\_archive\\cleanup_20261027_round2\\historical_generated_and_logs.zip",
+  "paths": [
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185701_021/compile/fpga_gsv1_top_comp.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/compile/cmr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/compile/fpga_gsv1_top_comp.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/device_map/dmr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/device_map/fpga_gsv1_top_map.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/generate_bitstream/bgr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/fpga_gsv1_top_plc.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/fpga_gsv1_top_pnr.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/fpga_gsv1_top_pnr.netlist",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/fpga_gsv1_top_rtp.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/prr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/route_constraint_ite_3/fpga_gsv1_top_pnr.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/route_constraint_ite_3/fpga_gsv1_top_pnr.netlist",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/route_constraint_ite_3/fpga_gsv1_top_rtp.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/route_constraint_ite_3/prr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/route_constraint_ite_3/rtr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/place_route/rtr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/report_timing/fpga_gsv1_top_rtp.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/report_timing/rtr.db",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/synthesize/fpga_gsv1_top_syn.adf",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/synthesize/fpga_gsv1_top_syn.vm",
+    "work/M3_05A_3_4A/build/M3_05A_3_4A_20261021_185729_709/synthesize/snr.db",
+    "work/M3_05A_3_4A/reports/reports/pds_help/report_timing/fpga_gsv1_top_rtp.adf",
+    "work/M3_05A_3_4A/reports/reports/pds_help/report_timing/rtr.db"
+  ],
+  "recovery_command": "python \"E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\reports\\cleanup_20261027_round2\\cleanup.py\" --restore"
+}

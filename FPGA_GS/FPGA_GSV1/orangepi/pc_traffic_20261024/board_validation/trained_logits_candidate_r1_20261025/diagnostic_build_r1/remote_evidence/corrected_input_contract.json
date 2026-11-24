@@ -1,0 +1,23 @@
+{
+  "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/inputs/fixtures/s2tld720_000000_rgb_u8.npy",
+  "source_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+  "source_shape": [
+    640,
+    640,
+    3
+  ],
+  "derived": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_build_r1/same_fixture_rgb_nchw_u8.npy",
+  "derived_sha256": "acf4c377ed036720038bcef048c29caf066b0e316df5726f1c3679b1d128b9ff",
+  "derived_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "dtype": "uint8",
+  "same_RGB_pixels_exact": true,
+  "normalization_applied": false,
+  "source_changed": false,
+  "used_for_inference_or_accuracy_analysis": false,
+  "reason": "Format correction only, no second build or analysis attempted after the one allowed diagnostic build exited."
+}

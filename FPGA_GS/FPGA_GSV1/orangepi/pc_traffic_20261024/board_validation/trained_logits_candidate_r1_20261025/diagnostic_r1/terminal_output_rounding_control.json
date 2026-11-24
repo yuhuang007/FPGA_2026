@@ -1,0 +1,8 @@
+{
+  "scope": "Offline selected fixture only: round the already computed FP32 final output tensors to FP16 and back; no weight rounding, model inference or candidate reference replacement.",
+  "raw_rounding_max_abs": 0.0077610015869140625,
+  "score_rounding_max_abs": 9.696108405504722e-05,
+  "decoded_box_rounding_max_abs_input_px": 0.1038066197507419,
+  "actual_NPU_vs_terminal_round_score_max_abs": 0.013106489823590417,
+  "conclusion": "NPU-vs-FP32 discrepancy exceeds a final-output-only rounding control. This rules out final tensor serialization rounding alone as a complete explanation; it does not locate internal error or separate fused-weight rounding, operation accumulation and conversion effects."
+}

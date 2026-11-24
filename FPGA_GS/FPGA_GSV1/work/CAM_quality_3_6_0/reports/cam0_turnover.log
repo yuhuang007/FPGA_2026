@@ -1,0 +1,13 @@
+ACCEPT variant=0 id=0 blank=1 t=3417000
+ACCEPT variant=1 id=0 blank=1 t=3417000
+ACCEPT variant=1 id=2 blank=1 t=33340036000
+ACCEPT variant=0 id=2 blank=1 t=66675226000
+ACCEPT variant=1 id=3 blank=1 t=66675941000
+ACCEPT variant=1 id=4 blank=1 t=100011845000
+ACCEPT variant=0 id=4 blank=1 t=133347036000
+ACCEPT variant=1 id=5 blank=1 t=133347750000
+ACCEPT variant=1 id=6 blank=1 t=166683655000
+ACCEPT variant=0 id=6 blank=1 t=200018846000
+ACCEPT variant=1 id=7 blank=1 t=200019560000
+PASS old SOF-only 3/6; blanking grant 6/6 full720; no malformed publication, reader pin protected
+sim/cam0_turnover_tb.sv:86: $finish called at 200111264050 (1ps)

@@ -1,0 +1,2 @@
+PASS real video_capture_status + capture_pipe: VS opening tag0 retained despite active-pixel tag1; matching verdict closes frame; six exact pixels, no image control feedback
+sim/cam1_patch_tags_tb.sv:34: $finish called at 8790000 (1ps)

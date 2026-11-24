@@ -1,0 +1,109 @@
+{
+  "scope": "Diagnostic micrograph, not replacement of same-SHA full model",
+  "rows": [
+    {
+      "logit": -12.0,
+      "reference_sigmoid": 6.144174602214718e-06,
+      "npu": 0.0018310546875,
+      "abs_error": 0.0018249105128977853
+    },
+    {
+      "logit": -10.0,
+      "reference_sigmoid": 4.5397868702434395e-05,
+      "npu": 0.0018310546875,
+      "abs_error": 0.0017856568187975656
+    },
+    {
+      "logit": -8.0,
+      "reference_sigmoid": 0.0003353501304664781,
+      "npu": 0.0018310546875,
+      "abs_error": 0.0014957045570335218
+    },
+    {
+      "logit": -7.8480000495910645,
+      "reference_sigmoid": 0.00039037977696026197,
+      "npu": 0.0018310546875,
+      "abs_error": 0.001440674910539738
+    },
+    {
+      "logit": -6.460999965667725,
+      "reference_sigmoid": 0.0015607918710814142,
+      "npu": 0.0018310546875,
+      "abs_error": 0.0002702628164185858
+    },
+    {
+      "logit": -6.0,
+      "reference_sigmoid": 0.0024726231566347743,
+      "npu": 0.00250244140625,
+      "abs_error": 2.9818249615225657e-05
+    },
+    {
+      "logit": -5.074999809265137,
+      "reference_sigmoid": 0.006212254285995211,
+      "npu": 0.0062255859375,
+      "abs_error": 1.3331651504788593e-05
+    },
+    {
+      "logit": -4.0,
+      "reference_sigmoid": 0.01798620996209156,
+      "npu": 0.01800537109375,
+      "abs_error": 1.916113165844127e-05
+    },
+    {
+      "logit": -2.0,
+      "reference_sigmoid": 0.11920292202211755,
+      "npu": 0.1192626953125,
+      "abs_error": 5.977329038245327e-05
+    },
+    {
+      "logit": 0.0,
+      "reference_sigmoid": 0.5,
+      "npu": 0.5,
+      "abs_error": 0.0
+    },
+    {
+      "logit": 2.0,
+      "reference_sigmoid": 0.8807970779778823,
+      "npu": 0.880859375,
+      "abs_error": 6.229702211768551e-05
+    },
+    {
+      "logit": 4.0,
+      "reference_sigmoid": 0.9820137900379085,
+      "npu": 0.98193359375,
+      "abs_error": 8.019628790845168e-05
+    },
+    {
+      "logit": 6.0,
+      "reference_sigmoid": 0.9975273768433653,
+      "npu": 0.99755859375,
+      "abs_error": 3.1216906634656816e-05
+    },
+    {
+      "logit": 8.0,
+      "reference_sigmoid": 0.9996646498695336,
+      "npu": 0.998046875,
+      "abs_error": 0.001617774869533628
+    },
+    {
+      "logit": 10.0,
+      "reference_sigmoid": 0.9999546021312976,
+      "npu": 0.998046875,
+      "abs_error": 0.0019077271312976096
+    },
+    {
+      "logit": 12.0,
+      "reference_sigmoid": 0.9999938558253978,
+      "npu": 0.998046875,
+      "abs_error": 0.0019469808253977927
+    }
+  ],
+  "shape": [
+    1,
+    16,
+    8,
+    8
+  ],
+  "onnx_sha256": "1c160308f5f04eb76c92b9fcb662f7bf0ea23ac257f1a008d3fddff9f77ea564",
+  "rknn_sha256": "f6377204ed85e1a8a2c6aab97305686e46b97fad259d244a2f0a0f00cef1c03c"
+}

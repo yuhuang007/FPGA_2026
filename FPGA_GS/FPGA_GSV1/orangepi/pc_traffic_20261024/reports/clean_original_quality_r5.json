@@ -1,0 +1,22 @@
+{
+  "production_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+  "archive_provenance": "data/archive_provenance.json",
+  "archive_provenance_sha256": "da86f49a87bfb8d5b59a284c14fcc2ad1914811aa81d61ec061579dc392b0fda",
+  "archive": "data/s2tld_1080.zip",
+  "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "source_image_sha256": "24899ef29a2b41fea4daa7327e8b9aefa0aaa26e78c4a907382b96bbe9fa18ab",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_38_37.149809396.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_007_remaining_review.jsonl",
+      "independent_review_file_sha256": "cab7c385e40a69e1539b0cb34cac467362f840fad80fddea42dd0ac1945292b3",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    }
+  ],
+  "old_group_clean_original_metadata_preserved": true,
+  "human_signoff": false
+}

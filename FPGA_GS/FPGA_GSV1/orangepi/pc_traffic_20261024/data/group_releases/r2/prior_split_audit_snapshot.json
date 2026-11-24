@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-25T04:00:05.981338+00:00",
+  "passed": true,
+  "scope": "Group/split risk closure only; no dataset quantity/coverage/test/export approval.",
+  "release": "data/group_releases/r1/manifest.json",
+  "release_sha256": "69d242c2947ee5bc471368b1dc192e29e20dd3a6f3c62c3c6d1d92a50b17ee5c",
+  "two_AI_source_audits": true,
+  "human_signoff": false,
+  "train_leakage_units": 1,
+  "independent_val_source_groups": 5,
+  "final_test_present": false,
+  "training_release": false
+}

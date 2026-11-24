@@ -1,0 +1,111 @@
+{
+  "recorded_at": "2026-10-25T06:13:47.485011+00:00",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=traffic+light+Guangzhou+filetype%3Abitmap&gsrnamespace=6&gsrlimit=16&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "30724319": {
+          "pageid": 30724319,
+          "ns": 6,
+          "title": "File:PHYSIC STREET, CANTON.jpg",
+          "index": 1,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/PHYSIC_STREET%2C_CANTON.jpg/1280px-PHYSIC_STREET%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 1610,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/47/PHYSIC_STREET%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/PHYSIC_STREET%2C_CANTON.jpg/1280px-PHYSIC_STREET%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1610,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/47/PHYSIC_STREET%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PHYSIC_STREET%2C_CANTON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:PHYSIC_STREET,_CANTON.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30724319",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-01-21 10:06:30",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "PHYSIC STREET, CANTON",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Author died more than 70 years ago public domain images|CC-PD-Mark|Guangzhou in the 1870s|Jianglan Road|PD-old missing SDC copyright status|Images from Illustrations of China and Its People vol. I.|Photographs of Guangzhou by John Thomson",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "John Thomson: The streets of a Chinese city differ greatly from those of Europe, and are always extremely narrow, except at Nankin and Peking. They are paved crosswise with slabs of stone, usually worn down by the traffic to a hollow in the centre of the path, and this disagreeable substitute for the gutters of European thoroughfares forms the only means by which the rain-water is carried off. The shops in good streets are all nearly uniform in size; a brick party-wall divides each building from its neighbour; all have one apartment, which opens upon the street, and a granite or brick counter for the purpose of displaying their wares. A granite base also supports the upright sign-board, which, as with us in former days, is the indispensable characteristic of every shop in China.\n<p>Opposite to the sign-board stands a small altar or shrine dedicated to the God who presides over the tradesman and his craft. This Deity is honoured regularly when the shop is opened, and a small incense stick is lit and kept burning in a bronze cup of ashes placed in front of the shrine.\n</p><p>The shops within are frequently fitted with a counter of polished wood and finely carved shelves, while at the back is an accountant's room, screened off with an openwork wooden partition, so carved as to resemble a climbing plant.\n</p><p>In some conspicuous place stand the brazen scales and weights, ever brightly polished, and adorned with red cloth, which is wound in strips around the beam. These scales are used for weighing the silver currency of the place, for chopped money is but too common among the Chinese. When goods are sold by weight, the purchaser generally brings his own balance, so as to secure his correct portion of the article which he has come to buy.\n</p><p>Physic Street, or, more correctly, Tsiang-Lan-Kiai (our Market Street), as the Chinese term it,—is one of the finest streets in Canton, and, with its varied array of brightly coloured sign-boards, presents an appearance no less interesting than picturesque.\n</p><p>But traversing it is by no means pleasant in wet weather, as the sloping roofs of the shops approach so near to each other that they rain a perpetual shower-bath on every passer by. The narrowness of the streets is intended to exclude the burning sun, and this object is assisted by covering the open space between the roofs with bamboo basket-work, sufficiently open in its construction to admit light and air, and yet an effective shelter from the heat. To each trade its special locality or street has been assigned, and each shop is a perfect counterpart of its neighbour. Here we find none of the display, none of those desperate efforts to secure the lion's share of custom, which competition has fostered in European towns; and nothing fills a foreigner with more surprise than the drowsy indifference among the shopkeepers of China with regard to the disposal of their wares. When a customer enters a shop the proprietor, a grey-headed man perhaps, but conveying by his well-dressed person a profound appearance of old-established honest trading, will slowly and calmly set down his pipe on the polished counter, or push aside his cup of tea, and then inquire politely the nature of his customer's demands. Should he have the article in stock, he will sell it at the price fixed by the members of the guild to which he belongs, or a higher one if he can obtain it; but, should he be discovered underselling his neighbour, he would be subjected to a heavy penalty.\n</p><p>The streets of the city of Canton are irregularly built and tortuous in their course; those of the poorer sort are much narrower than the one shown in the photograph; they are badly kept, filthy, and even more offensive than the most crowded alley in London, the right of way being contested between human beings, domestic pigs, and undomesticated mongrel curs. The shops and houses are built of light inflammable material, and a row of earthen pots of water disposed along the roof of each tenement is the sole precaution adopted to prevent the ravages of fire.\n</p><p>I am indebted to Mr. W. F. Mayers, the well-known Chinese scholar, for the translation of the sign-boards of Physic Street, and for the interesting note which follows on Schroffing dollars.\n</p><p>The signboards may be taken as fair examples of the street literature of China, showing the national tendency of the shopkeepers to introduce their commonest wares by some high-flown classical phrase, having, so far as I can see, no reference whatever to the contents of the shop. Tien Yih (Celestial Advantage), for example, offers a thoroughly terrestrial advantage to customers in the shape of covers and cushions; and why, one might be tempted to ask, should swallows' nests be a \"Sign of the Eternal?\"\n</p><p>These phrases are, however, simply intended as the signs, or names by which each shop is known, as with us in olden times, we used to have the \"Golden Fleece,\" \"The Anchor,\" and the quaint signs of our wayside inns.\n</p><p>Kien Ki Hao. — The sign of the symbol Kien (Heaven). Hwei-chow ink, pencils, and writing requisites. Chang Tsi Tang (Chang of the family branch designated Tsi). Wax-cased pills of select manufacture. Tien Yih (Celestial advantage). Table-covers, chair-covers, cushions for chairs, and divans for sale. Tien Yih Shen (Celestial advantage combined with attention). Shop for the sale of cushions and rattan mats. Yung Ki (sign of the Eternal) Swallows' Nests. Money-schroffing taught here.\n</p><p>K'ing Wen T'ang.— The Mall of delight in Scholarship. Seals artistically engraved.\n</p>\n1 The art of \"schroffing,\" or of detecting spurious coin, and of ascertaining the difference between dollars of various issues, is very extensively practised in China, and is studied as a profession by hundreds of young men, who find employment in banks and merchants' offices. The establishments where \"schroffing\" is taught, are well-known to be in direct communication with the counterfeiters of Mexican dollars and other coin, and it has often been remarked that the existence of sthroffs and of false money are mutually indispensable to each other. If the amount of counterfeit coin in circulation were less, the necessity for a multitude of schroffs would not be so severely felt as at present; and if the establishments where schroffage is taught did not exist, the counterfeiters would lose their principal means of passing false money into circulation.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1873<div style=\"display: none;\">date QS:P,+1873-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://beinecke.library.yale.edu/dl_crosscollex/buildSearchVCG.asp?vcgk=29\">Beinecke Rare Book &amp; Manuscript Library</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:John_Thomson_(photographer)\" class=\"extiw\" title=\"w:en:John Thomson (photographer)\"><span title=\"Scottish photographer, geographer, and traveller (1837–1921)\">John Thomson</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

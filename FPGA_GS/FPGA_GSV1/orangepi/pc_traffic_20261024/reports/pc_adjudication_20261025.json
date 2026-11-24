@@ -1,0 +1,380 @@
+{
+  "reviewer": "Codex_PC_AI_stage2",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "independent_review_created": false,
+  "cases": [
+    {
+      "candidate_id": "s2tld1080_0215",
+      "annotation_file": "review_stage2/revisions/pc_r2_001/labels/s2tld1080_0215.json",
+      "annotation_sha256": "2754c2c83a76163a53774d2a3e565fe1119145437e66f38d03392216213cdf6d",
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "whole_image_standard_yolo_release": false,
+      "remaining_label_blockers": [
+        "uncertain side/far kind retained as ignore",
+        "changed rationale requires new-SHA independent check"
+      ],
+      "actual_observation": "Visible circular green face, central digit-like display and dark left circular face share a horizontal physical signal housing; existing corrected rationale supported. Side three-hood assembly exists but facing morphology/kind insufficient, retain ignore.",
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0215_full.jpg",
+          "sha256": "559de7dce2ad53240aa4be6b398704306822515db6e2d9dd6c08f9adf40b76ee"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0215_detail.png",
+          "sha256": "8df642bf41f7492c112fdb1f8bf9542550fd051c084860c43f8ee82848e7c292"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_001/manifest.json",
+      "resulting_annotation_sha256": "2754c2c83a76163a53774d2a3e565fe1119145437e66f38d03392216213cdf6d"
+    },
+    {
+      "candidate_id": "s2tld1080_0216",
+      "annotation_file": "review_stage2/revisions/pc_r2_002/labels/s2tld1080_0216.json",
+      "annotation_sha256": "ef4cb3291ddef6519ee4d860534b46f201f0c5fcf8b396872885a9582814ba6c",
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "whole_image_standard_yolo_release": false,
+      "remaining_label_blockers": [
+        "uncertain side/far kind retained as ignore",
+        "changed rationale requires new-SHA independent check"
+      ],
+      "actual_observation": "Green circular face and separate numeral 4 shape are visible within shared horizontal shell; three-round-hole claim rejected. Side three hoods are visible but do not distinguish motor/nonmotor/pedestrian kind by themselves; retain ignore.",
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0216_full.jpg",
+          "sha256": "aa3be48d5e56be4360d35143076e48981ef7e071cdc01442b78edbdf6d67c68f"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0216_detail.png",
+          "sha256": "ccec2a91555b9f6bc86127f23acf0714be8e6c9ca26dc3b7156b0366043b1047"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_002/manifest.json",
+      "resulting_annotation_sha256": "ef4cb3291ddef6519ee4d860534b46f201f0c5fcf8b396872885a9582814ba6c"
+    },
+    {
+      "candidate_id": "s2tld1080_0220",
+      "annotation_file": "review_stage2/revisions/pc_r2_002/labels/s2tld1080_0220.json",
+      "annotation_sha256": "98afefa3a7dae3f0eeee837a3f781746a362ca529a5a72296de80b6fead52efe",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "Current original shows red circular face, central numeral 9 and dark right circular face in one shell, top truncated. Three-circle rationale rejected. Red boundary and LED structure persist around saturated yellow core, supporting red, not yellow. Far candidate cannot establish kind.",
+      "remaining_label_blockers": [
+        "new-SHA morphology rationale check",
+        "far ignore kind"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0220_full.jpg",
+          "sha256": "8e4ce11d80f586ae50e66d5b888775f892ba77fb383654979ae025eefaf9fe2c"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0220_detail.png",
+          "sha256": "c4d979458f28e967e131da19062a78ccf5ba93584277f166c885588c8047c634"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_002/manifest.json",
+      "resulting_annotation_sha256": "98afefa3a7dae3f0eeee837a3f781746a362ca529a5a72296de80b6fead52efe"
+    },
+    {
+      "candidate_id": "s2tld1080_0221",
+      "annotation_file": "review_stage2/revisions/pc_r2_002/labels/s2tld1080_0221.json",
+      "annotation_sha256": "2c61bdf7c44db1aea86731c875764c778445e58d0a342e348b9781c374b8c6b3",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "Individually checked numeral 6 between red circle and dark right face, one physical horizontal shell. No third round lens claim. Red rim is readable despite saturated center. Far candidate remains unresolved.",
+      "remaining_label_blockers": [
+        "new-SHA morphology rationale check",
+        "far ignore kind"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0221_full.jpg",
+          "sha256": "0eda066d00453c1ce02b043088c0f1ceb658ea4e5d3fa0848f7605e7bee983db"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0221_detail.png",
+          "sha256": "f7a0f47af71cbc6fc6051b8ef6075f1f20b41bef88da65120a900fc11495e61a"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_002/manifest.json",
+      "resulting_annotation_sha256": "2c61bdf7c44db1aea86731c875764c778445e58d0a342e348b9781c374b8c6b3"
+    },
+    {
+      "candidate_id": "s2tld1080_0222",
+      "annotation_file": "review_stage2/revisions/pc_r2_002/labels/s2tld1080_0222.json",
+      "annotation_sha256": "af637f85ccae90c2ef4a151dd0c36a4f1afd1199e1ccbfebf167a5b15f32fdd3",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "Individually checked numeral 3, left red circle and right dark circular face under top-truncated common shell. Rider in foreground is not signal. Existing correction supported; far candidate kind unresolved.",
+      "remaining_label_blockers": [
+        "new-SHA morphology rationale check",
+        "far ignore kind"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0222_full.jpg",
+          "sha256": "ec94167c4f14faf5a7d5c93dbb3f978e14e05343aa9611062145de120420559d"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0222_detail.png",
+          "sha256": "cb130778481db00ec4c5133753e6186918b1d36c50810294509299be5196690e"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_002/manifest.json",
+      "resulting_annotation_sha256": "af637f85ccae90c2ef4a151dd0c36a4f1afd1199e1ccbfebf167a5b15f32fdd3"
+    },
+    {
+      "candidate_id": "s2tld1080_0285",
+      "annotation_file": "review_stage2/revisions/pc_r2_003/labels/s2tld1080_0285.json",
+      "annotation_sha256": "f3f54c7840237b10c2210a60b81fd620ae206d7297bdd851910a958855a727f5",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "Left signal housing has visible left arrow plus digit 6. Right housing shows numeral 2 with scan/LED gaps; per-image evidence does not establish circular traffic-signal face/kind. Keep right body_2 as ignore and do not infer green/off. Brown Tashan Forest Park sign, tower roof and blue lane associate with Tashan approach seen in 0394/0395; no train/val independence inferred.",
+      "remaining_label_blockers": [
+        "right numeric-only kind remains ignore",
+        "far small candidate unresolved",
+        "new-SHA confirmation"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0285_full.jpg",
+          "sha256": "1bff688e88f66565889d0eb147910a3b1f0c63f8ec838632f363f4b21cb5a8f2"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0285_detail.png",
+          "sha256": "e4900cf9f3e1e620a6907702de52bcfaa1725201cc812408cf6716ba7236c0d7"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_003/manifest.json",
+      "resulting_annotation_sha256": "f3f54c7840237b10c2210a60b81fd620ae206d7297bdd851910a958855a727f5"
+    },
+    {
+      "candidate_id": "s2tld1080_0322",
+      "annotation_file": "review_stage2/revisions/pc_r2_003/labels/s2tld1080_0322.json",
+      "annotation_sha256": "88bf6ebcfcd1bd3d8b69bb795bab06128ed71cea1b748e55dec707f88cc168fa",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "This frame shows two dark round end faces with central cyan numeral 2 in one horizontal signal shell. Motor-vehicle signal morphology is readable; no emitter green/off follows from the digit or unlit faces. Right side hoods and far shape remain ignore; dark state uncertainty does not invalidate the reliable main body.",
+      "remaining_label_blockers": [
+        "new-SHA rationale confirmation",
+        "side/far ignore kind"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0322_full.jpg",
+          "sha256": "3516ae7ccba1e302168f7854382af62fb5b24c76106702bc081b5e669fb12e07"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0322_detail.png",
+          "sha256": "c6507562c3af9e4d649b399cc6f9e0eae40a465833b993b52fdee4c63969568b"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_003/manifest.json",
+      "resulting_annotation_sha256": "88bf6ebcfcd1bd3d8b69bb795bab06128ed71cea1b748e55dec707f88cc168fa"
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "annotation_file": "review_stage2/revisions/pc_r2_003/labels/s2tld1080_0339.json",
+      "annotation_sha256": "ed6462bdbe40ae6fe4ed8b1a16d16e43014b9498bac61976658a5e0157051203",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1",
+        "body_2"
+      ],
+      "actual_observation": "Two physically separate shells: left red left-arrow and two dark faces; right red circle, central numeral 9 and dark right round face. Corrected descriptions supported. Right tall brown rectangular panel has white partitions/lettering-like shapes, no confirmed emitter; retain conservative ignore rather than force traffic class. Further small region remains unresolved.",
+      "remaining_label_blockers": [
+        "new-SHA rationale confirmation",
+        "right panel/far region ignore"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0339_full.jpg",
+          "sha256": "25fb458b61ddc424cd6e4ee5737d4222f883f9f26d07e4680f807ccadbca4039"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0339_detail.png",
+          "sha256": "75f3e364f7c2aec6416ac9e9dc050257d939be707659f57ad226b8306ef6b11e"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_003/manifest.json",
+      "resulting_annotation_sha256": "ed6462bdbe40ae6fe4ed8b1a16d16e43014b9498bac61976658a5e0157051203"
+    },
+    {
+      "candidate_id": "s2tld1080_0364",
+      "annotation_file": "review_stage2/revisions/pc_r2_003/labels/s2tld1080_0364.json",
+      "annotation_sha256": "8d3e898ee303a3fe8252a0b62df67e375529de1d5e1384d2ba5a83ac87e68a6d",
+      "whole_image_standard_yolo_release": false,
+      "decision": "retain_uncertain_kind_temporary_body_training_exclusion_proposed",
+      "body_detection_objects_reliable": [],
+      "actual_observation": "Original contains small horizontal dark shell with central slender cyan segmented mark. End faces/true kind are insufficiently resolved at native pixels; no asserted green/off emitter. Existing downgrade to ignore supported. Exclusion from ordinary body-detection export proposed; this is not a negative image.",
+      "remaining_label_blockers": [
+        "confirm downgrade to ignore at revision SHA; do not repeat morphology review indefinitely"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0364_full.jpg",
+          "sha256": "02a86c5f971e767e00d190d0b0fdb4915d5580510cf61dab6db81064340b4481"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0364_detail.png",
+          "sha256": "e52b227cca7014bdc731c0b16fb0823ebdc36b789403ce5e9cab2775dcdd5e48"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_003/manifest.json",
+      "resulting_annotation_sha256": "8d3e898ee303a3fe8252a0b62df67e375529de1d5e1384d2ba5a83ac87e68a6d"
+    },
+    {
+      "candidate_id": "s2tld1080_0266",
+      "annotation_file": "review_stage2/revisions/pc_r2_004/labels/s2tld1080_0266.json",
+      "annotation_sha256": "d97118c60420f2b4dbd445ff1c03bd8efa8e90f26a829aea25253c3c2b31b425",
+      "whole_image_standard_yolo_release": false,
+      "decision": "new_targeted_amendment_required",
+      "body_detection_objects_reliable": [],
+      "actual_observation": "Near left arrow and near green circular signal face are independently visible; missing attributes were rightly added in pc_r2_004. Arrow edges retain red coloration around saturated yellow core at both near and far arrow, supporting red with overexposure flag; shell bounds/kind remain unresolved independently of color/symbol. Two smaller cyan fragments below near arrow do not establish separate emitter existence; downgrade them to ignore, retain actual near green circle. Numeral 3 remains display, not emitter.",
+      "remaining_label_blockers": [
+        "reconfirm arrow color and downgrade of two uncertain cyan fragments at new SHA",
+        "shell boundaries/kind remain ignore; no whole-image ordinary YOLO export"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0266_full.jpg",
+          "sha256": "60a2c257795593588151b7f68be96a90008a45a8adc62c64f7a1bdec95456026"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0266_detail.png",
+          "sha256": "6ae48bcb6e722079f15ee853458583d1ed4866c15d38fe8ec91f16b5aede45f5"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_007/manifest.json",
+      "resulting_annotation_sha256": "eb053a69ee1a12208423d7beb5c378e15892e290f53715775fc7d8908ee3983b"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "annotation_file": "review_stage2/revisions/pc_r2_004/labels/s2tld1080_0012.json",
+      "annotation_sha256": "74c6960d85bce667a1019bb8aa534d099d54384c8b4fe235320cd7bffbf8e408",
+      "whole_image_standard_yolo_release": false,
+      "decision": "new_targeted_amendment_required",
+      "body_detection_objects_reliable": [
+        "body_1",
+        "ignore_far_as_motor_body_proposed"
+      ],
+      "actual_observation": "Full original now shows both near and far vertical signal shells. Far face is round with a red contour and saturated yellow core, matching near readable red rim within the same frame. Upper/lower vertical shell outline is visible, with foliage occluding middle. Promote far region to motor-vehicle body with partial occlusion; record red circular emitter rather than mechanically retaining historical unreadability. Gate display remains unknown kind.",
+      "remaining_label_blockers": [
+        "independent check of far-body promotion and red color at new SHA",
+        "gate display remains ignore"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0012_full.jpg",
+          "sha256": "8f222f0936388d5eb99f12dcef17ada84db8d9a90f936f9ebf624d29278a5511"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0012_detail.png",
+          "sha256": "4b8b5f5d2639b62dd250b0bd17ac77b012e06fc49061ec4a94e7ae7725da68e3"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_007/manifest.json",
+      "resulting_annotation_sha256": "2e4ca4f8d7b8edbac4d5142ccf44d59c78247c236926989f0c7f0bd62d0e51ce"
+    },
+    {
+      "candidate_id": "s2tld1080_0187",
+      "annotation_file": "review_stage2/first_pass/s2tld1080_0187.json",
+      "annotation_sha256": "eb1a17d40ea6bab11d019272149dc7ca9566ee5ccbe853234f926113e0be6808",
+      "whole_image_standard_yolo_release": false,
+      "decision": "new_targeted_attribute_amendment_body_exclusion_proposed",
+      "body_detection_objects_reliable": [],
+      "actual_observation": "Upper arrow and right pedestrian-shaped emitter retain narrow red contours around saturated yellow cores; mark their color red with overexposure. Upper circular face also distinct; nearby left-arrow and circle have readable shapes but orange/yellow bloom does not securely distinguish state, preserve unknown color independently. Dark shells remain unresolved, so no body detector positives fabricated. Text column and wet reflection stay hard negatives.",
+      "remaining_label_blockers": [
+        "new-SHA attribute check; body-training exclusion proposed because shell/kind unresolved"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0187_full.jpg",
+          "sha256": "4ded0709232c9de195f88c1fdf61dbbbf50a760f8c64f9e50885cde56c782e34"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0187_detail.png",
+          "sha256": "1fcd46d65fdb3ad80d10df59d3dfbfbf97518649a441775951be1955de30cc94"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_008/manifest.json",
+      "resulting_annotation_sha256": "1784082ddb960e0b2eb72e88824dac99e9a0127428ed811aa7c3e5574c9d7200"
+    },
+    {
+      "candidate_id": "s2tld1080_0282",
+      "annotation_file": "review_stage2/first_pass/s2tld1080_0282.json",
+      "annotation_sha256": "48a3e6d73e5d3ddf1be250019b989c930014d17f25dd268febceacfb1a6d2864",
+      "whole_image_standard_yolo_release": false,
+      "decision": "new_targeted_attribute_amendment_body_exclusion_proposed",
+      "body_detection_objects_reliable": [],
+      "actual_observation": "Below existing upper green circle is a separate cyan dot; original pixels cannot establish true lamp versus optical ghost/reflection. Current ignore_2 covers both and remains. Left nearer small green circle at ignore_3 is distinctly readable and should get emitter attribute without inventing body/kind. Far-left green marks too small for symbol/kind. Whole image remains unsuitable as ordinary body-negative.",
+      "remaining_label_blockers": [
+        "new-SHA added left emitter check",
+        "second dot unresolved; temporary body export exclusion proposed"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0282_full.jpg",
+          "sha256": "b31c7243b79c9f6b2588aac6e4b3c46e1b9f425ba1f359eb816e56425f4ee02c"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0282_detail.png",
+          "sha256": "da95cb842f8b9dcd0e073d01b05878e83e27c531faa8349edac1a21187221b06"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_008/manifest.json",
+      "resulting_annotation_sha256": "850b5f1f538e98749fd29f970112d5267276ea806f14486bbfe5129bdfbef727"
+    },
+    {
+      "candidate_id": "s2tld1080_0014",
+      "annotation_file": "review_stage2/revisions/pc_r2_004/labels/s2tld1080_0014.json",
+      "annotation_sha256": "05b86cdcc6db96ae123ec3b0e63b3db8840ecd9f640144b8fae299b330dacf43",
+      "whole_image_standard_yolo_release": false,
+      "decision": "existing_amendment_reaffirmed_pending_targeted_independent_check",
+      "body_detection_objects_reliable": [
+        "body_1"
+      ],
+      "actual_observation": "Right side head shows red narrow angled/triangular vertical mark, but it lacks reliably separated head/limbs for pedestrian classification or a definite arrow direction. Existing red emitter with unknown symbol and ignore body is supported. Main green round signal and vertical body are clear independently.",
+      "remaining_label_blockers": [
+        "new-SHA red attribute confirmation",
+        "side kind/symbol remains ignore"
+      ],
+      "evidence": [
+        {
+          "path": "review_stage2/adjudication_20261025/0014_full.jpg",
+          "sha256": "7ec1c44997e793d9fbf75d11e63359aa8b25c82a21c6f8fbc7cf1d64adbf4fb2"
+        },
+        {
+          "path": "review_stage2/adjudication_20261025/0014_detail.png",
+          "sha256": "0867debb66907d9d0d6f8d4ab70a9658af880f4e9ddbcf9bf0d6965352149753"
+        }
+      ],
+      "resulting_revision_manifest": "review_stage2/revisions/pc_r2_004/manifest.json",
+      "resulting_annotation_sha256": "05b86cdcc6db96ae123ec3b0e63b3db8840ecd9f640144b8fae299b330dacf43"
+    }
+  ],
+  "recorded_at": "2026-10-24T16:48:30.249577+00:00"
+}

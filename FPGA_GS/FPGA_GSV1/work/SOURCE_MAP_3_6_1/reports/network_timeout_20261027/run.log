@@ -1,0 +1,2 @@
+FATAL: E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_network_tb.sv:129: timeout pubs=         0 uploads=         0 frontvalid=0 p1= 0 p2=1
+       Time: 600000000000  Scope: map_network_tb

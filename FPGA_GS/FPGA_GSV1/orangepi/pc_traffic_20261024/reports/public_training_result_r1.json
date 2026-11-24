@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-25T07:37:51.413438+00:00",
+  "training_completed": true,
+  "epochs": 60,
+  "optimizer_updates": 3801,
+  "best_epoch_by_predefined_fitness": 15,
+  "best_checkpoint": "runs/public_body_r1_yolov8n_960_e60/weights/best.pt",
+  "best_checkpoint_sha256": "79ed89a50fe7b78de454a6d157b51cadc3392ac54a988ec6c3ea67fd391e771d",
+  "checkpoint_not_modified": true,
+  "best_validation_960": {
+    "metrics/precision(B)": 0.49638,
+    "metrics/recall(B)": 0.74607,
+    "metrics/mAP50(B)": 0.75463,
+    "metrics/mAP50-95(B)": 0.23116,
+    "val/box_loss": 2.53342,
+    "val/cls_loss": 2.52347,
+    "val/dfl_loss": 2.45484,
+    "fitness": 0.28351
+  },
+  "deployment_resolution_validation_640": {
+    "metrics/precision(B)": 0.6277514819787852,
+    "metrics/recall(B)": 0.7805815776108118,
+    "metrics/mAP50(B)": 0.5192899999999999,
+    "metrics/mAP50-95(B)": 0.20072796666666665,
+    "fitness": 0.23258416999999998
+  },
+  "deployment_resolution_per_class": [
+    {
+      "class_id": 0,
+      "name": "motor_vehicle_body",
+      "precision": 0.7964071043275683,
+      "recall": 0.5611631552216237,
+      "mAP50": 0.5410799999999999,
+      "mAP50_95": 0.2853726
+    },
+    {
+      "class_id": 1,
+      "name": "pedestrian_body",
+      "precision": 0.459095859630002,
+      "recall": 1.0,
+      "mAP50": 0.4975,
+      "mAP50_95": 0.11608333333333334
+    }
+  ],
+  "val_originals": 5,
+  "val_bodies": 8,
+  "val_motor_bodies": 7,
+  "val_pedestrian_bodies": 1,
+  "holdout_used": false,
+  "China_reserved_candidates_used": false,
+  "independent_test_adequate": false,
+  "operating_threshold_selected_by_this_script": false,
+  "recognition_ready_for_production": false,
+  "limits": [
+    "Five highly selected clean crops and one pedestrian body are insufficient for precision/generalization claims.",
+    "Best fitness occurs early; last60epoch checkpoint has lower validation performance despite lower training loss.",
+    "Training960 and deployment640 accuracy are measured separately; numeric ONNX agreement does not imply equal recall.",
+    "Broader independent China/road-view validation and representative final test remain required."
+  ]
+}

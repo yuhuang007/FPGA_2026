@@ -1,0 +1,1533 @@
+{
+  "query": "incategory:\"Traffic signals in Beijing\" filetype:bitmap",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=incategory%3A%22Traffic+signals+in+Beijing%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=16&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "34274693": {
+          "pageid": 34274693,
+          "ns": 6,
+          "title": "File:A11656 29 (509904395).jpg",
+          "index": 1,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A11656_29_%28509904395%29.jpg/1280px-A11656_29_%28509904395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 860,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/e/e5/A11656_29_%28509904395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/A11656_29_%28509904395%29.jpg/1280px-A11656_29_%28509904395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 860,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e5/A11656_29_%28509904395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/A11656_29_%28509904395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:A11656_29_(509904395).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34274693",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-07-29 02:42:32",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "A11656 29 (509904395)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Police officers of China|Steps|Police handling traffic in China|Flickr images reviewed by FlickreviewR|Snow in Beijing|Traffic signals in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.flickr.com/photos/antjeverena/416498621/\">[1]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.flickr.com/photos/pricey/471501520/\">[2]</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2007-05-20 17:39",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/oskarlin/509904395/\">A11656 29</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11414631@N00\">oskar karlin</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "69125233": {
+          "pageid": 69125233,
+          "ns": 6,
+          "title": "File:Beijing, China (23977961178).jpg",
+          "index": 5,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Beijing%2C_China_%2823977961178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 854,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Beijing%2C_China_%2823977961178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 854
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Beijing%2C_China_%2823977961178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing,_China_(23977961178).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69125233",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-05-15 14:42:23",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Beijing, China (23977961178)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Files uploaded by OceanAtoll|Flickr images reviewed by FlickreviewR 2|Traffic signals in Beijing|Photographs by Andrey Filippov",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Beijing, China",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-05-06 06:13",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/andrey_filippov/23977961178/\">Beijing, China</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147731466@N03\">Andrey Filippov 安德烈</a> from Moscow, Russia",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "69125228": {
+          "pageid": 69125228,
+          "ns": 6,
+          "title": "File:Beijing, China (23977961508).jpg",
+          "index": 14,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Beijing%2C_China_%2823977961508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 854,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Beijing%2C_China_%2823977961508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 854
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Beijing%2C_China_%2823977961508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing,_China_(23977961508).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69125228",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-05-15 14:42:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Beijing, China (23977961508)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Files uploaded by OceanAtoll|Flickr images reviewed by FlickreviewR 2|Traffic signals in Beijing|Photographs by Andrey Filippov",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Beijing, China",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-05-06 06:13",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/andrey_filippov/23977961508/\">Beijing, China</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/147731466@N03\">Andrey Filippov 安德烈</a> from Moscow, Russia",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "54086441": {
+          "pageid": 54086441,
+          "ns": 6,
+          "title": "File:Beijing (November 2016) - 494.jpg",
+          "index": 8,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Beijing_%28November_2016%29_-_494.jpg/1280px-Beijing_%28November_2016%29_-_494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Beijing_%28November_2016%29_-_494.jpg/3840px-Beijing_%28November_2016%29_-_494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Beijing_%28November_2016%29_-_494.jpg/1280px-Beijing_%28November_2016%29_-_494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Beijing_%28November_2016%29_-_494.jpg/3840px-Beijing_%28November_2016%29_-_494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Beijing_%28November_2016%29_-_494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_494.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54086441",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-12-14 17:30:02",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Beijing (November 2016) - 494",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Files of China with bad file names|Self-published work|Street signs in Beijing|November 2016 in Beijing|Blue street signs in China|Traffic signals in Beijing|Kerry Centre (Beijing)|2016 photographs of Beijing by Another Believer",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Beijing (November 2016)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-11-22 09:54:58",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "54086443": {
+          "pageid": 54086443,
+          "ns": 6,
+          "title": "File:Beijing (November 2016) - 496.jpg",
+          "index": 13,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Beijing_%28November_2016%29_-_496.jpg/1280px-Beijing_%28November_2016%29_-_496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Beijing_%28November_2016%29_-_496.jpg/3840px-Beijing_%28November_2016%29_-_496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Beijing_%28November_2016%29_-_496.jpg/1280px-Beijing_%28November_2016%29_-_496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Beijing_%28November_2016%29_-_496.jpg/3840px-Beijing_%28November_2016%29_-_496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Beijing_%28November_2016%29_-_496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_496.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54086443",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-12-14 17:30:03",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Beijing (November 2016) - 496",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "China photographs taken on 2016-11-22|Files of China with bad file names|Taken with Canon Digital IXUS 220 HS|Bridges in Beijing|Location possible|Self-published work|FoP-China|Signs in Beijing|White letter signs|November 2016 in Beijing|Blue and white rectangular signs|White on blue signs in China|Traffic signals in Beijing|Middle Road of East 3rd Ring Road (Beijing)|2016 photographs of Beijing by Another Believer|Red banners in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Guanghua Bridge with bridge name sign and traffic lights in Beijing, China <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_496.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Taken on 22 November 2016, 09:56:04",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Another_Believer\" title=\"User:Another Believer\">Another Believer</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_496.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "3645107": {
+          "pageid": 3645107,
+          "ns": 6,
+          "title": "File:Chongwen Men Wai Dajie, Beijing.JPG",
+          "index": 3,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chongwen_Men_Wai_Dajie%2C_Beijing.JPG/1280px-Chongwen_Men_Wai_Dajie%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chongwen_Men_Wai_Dajie%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chongwen_Men_Wai_Dajie%2C_Beijing.JPG/1280px-Chongwen_Men_Wai_Dajie%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chongwen_Men_Wai_Dajie%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chongwen_Men_Wai_Dajie%2C_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chongwen_Men_Wai_Dajie,_Beijing.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3645107",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-03-01 20:28:52",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Chongwen Men Wai Dajie, Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Taken with Fujifilm FinePix A340|CC-BY-SA-3.0,2.5,2.0,1.0|Chongwenmenwai Dajie|License migration redundant|Self-published work|Cycling in Beijing|Photos by User:BrokenSphere|Green and white buses|Intersections in Beijing|Traffic signals in Beijing|Beijing Bus Transport Route 39",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Ciqikou, the intersection of Chongwenmen Wai Dajie, Zhushikou Dong Dajie, Guangqumen Nei Dajie, Dongcheng District, Beijing, PRC.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2007-10-21",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:BrokenSphere\" title=\"User:BrokenSphere\">BrokenSphere</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "40339941": {
+          "pageid": 40339941,
+          "ns": 6,
+          "title": "File:Intersection of Di'anmen East, West and Outer streets, Beijing.jpg",
+          "index": 2,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg/1280px-Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 693,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg/3840px-Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg/1280px-Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 693,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg/3840px-Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Intersection_of_Di%27anmen_East%2C_West_and_Outer_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intersection_of_Di%27anmen_East,_West_and_Outer_streets,_Beijing.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40339941",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-05-20 17:51:56",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Intersection of Di'anmen East, West and Outer streets, Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "China photographs taken on 2014-04-02|GFDL|Di'anmenwai Dajie|Di'anmen Xidajie|License migration redundant|Di'anmen|Di'anmen Dongdajie|Self-published work|Taxis in Beijing|Traffic lights at red state|April 2014 in Beijing|Files with coordinates missing SDC location of creation|Intersections in Beijing|Traffic signals in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "39.931830",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "116.390600",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection of Di'anmen East, West and Outer streets in the <a href=\"https://en.wikipedia.org/wiki/Dongcheng_District,_Beijing\" class=\"extiw\" title=\"w:Dongcheng District, Beijing\">Dongcheng District</a> of Beijing",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-04-02",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "34722560": {
+          "pageid": 34722560,
+          "ns": 6,
+          "title": "File:Intersection of Dongsi West, Wangfujing, Wusi and Meishuguan streets, Beijing, with traffic.jpg",
+          "index": 11,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg/1280px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 786,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg/3840px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg/1280px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 786,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg/3840px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing%2C_with_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intersection_of_Dongsi_West,_Wangfujing,_Wusi_and_Meishuguan_streets,_Beijing,_with_traffic.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34722560",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-08-14 02:18:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Intersection of Dongsi West, Wangfujing, Wusi and Meishuguan streets, Beijing, with traffic",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Spring in China|China photographs taken on 2014-03-31|Traffic lights at green state in China|GFDL|Taken with Nikon D3x|National Art Museum Station|License migration redundant|Dongsi|Beijing Trolleybus Route 104|Self-published work|Taxis in Beijing|Cycling in Beijing|Files with coordinates missing SDC location of creation|Intersections in Beijing|Traffic signals in Beijing|National Art Museum of China - Building|Foton BJD-WG120F",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "39.922500",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "116.411389",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection of these streets with traffic and <a href=\"https://en.wikipedia.org/wiki/National_Art_Museum_of_China\" class=\"extiw\" title=\"w:National Art Museum of China\">National Art Museum of China</a> in the background",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-03-31",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "34722240": {
+          "pageid": 34722240,
+          "ns": 6,
+          "title": "File:Intersection of Dongsi West, Wangfujing, Wusi and Meishuguan streets, Beijing.jpg",
+          "index": 7,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg/1280px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 810,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg/3840px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg/1280px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 810,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg/3840px-Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Intersection_of_Dongsi_West%2C_Wangfujing%2C_Wusi_and_Meishuguan_streets%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intersection_of_Dongsi_West,_Wangfujing,_Wusi_and_Meishuguan_streets,_Beijing.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34722240",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-08-14 01:20:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Intersection of Dongsi West, Wangfujing, Wusi and Meishuguan streets, Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Spring in China|China photographs taken on 2014-03-31|GFDL|Taken with Nikon D3x|License migration redundant|Dongsi|Self-published work|Cycling in Beijing|Traffic lights at red state|Files with coordinates missing SDC location of creation|Intersections in Beijing|Traffic signals in Beijing|National Art Museum of China - Building",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "39.922500",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "116.411389",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "View from southeast corner of those streets, with the <a href=\"https://en.wikipedia.org/wiki/National_Art_Museum_of_China\" class=\"extiw\" title=\"w:National Art Museum of China\">National Art Museum of China</a> in the background.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-03-31",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "32202684": {
+          "pageid": 32202684,
+          "ns": 6,
+          "title": "File:Intersection of East Chang'an Avenue and Nanheyan Street, Beijing, 2014.jpg",
+          "index": 9,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg/1280px-Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 696,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg/3840px-Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg/1280px-Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 696,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg/3840px-Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street%2C_Beijing%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intersection_of_East_Chang%27an_Avenue_and_Nanheyan_Street,_Beijing,_2014.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32202684",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-04-15 22:30:37",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Intersection of East Chang'an Avenue and Nanheyan Street, Beijing, 2014",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "China photographs taken on 2014-03-28|Blue sky in China|GFDL|Taken with Nikon D3x|Chang'an Avenue|License migration redundant|Self-published work|Traffic lights at red state|March 2014 in Beijing|Spring in Beijing|Intersections in Beijing|Traffic signals in Beijing|Road sign 路-25 (China)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection two blocks east of <a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/Tiananmen%20Square\" title=\"w:Tiananmen Square\" class=\"extiw\">Tiananmen Square</a>, in front of the <a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/Beijing%20Hotel\" title=\"w:Beijing Hotel\" class=\"extiw\">Grand Beijing Hotel</a>, where <a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/Tank%20Man\" title=\"w:Tank Man\" class=\"extiw\">a man</a> once stopped traffic on <a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/People's%20Liberation%20Army%20at%20Tiananmen%20Square%20protests%20of%201989\" title=\"w:People's Liberation Army at Tiananmen Square protests of 1989\" class=\"extiw\">a late spring day</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-03-29",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "37076233": {
+          "pageid": 37076233,
+          "ns": 6,
+          "title": "File:Intersection of National Stadium and Tianchen West roads, Chaoyang District, Beijing.jpg",
+          "index": 6,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg/1280px-Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 826,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg/3840px-Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg/1280px-Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 826,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg/3840px-Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Intersection_of_National_Stadium_and_Tianchen_West_roads%2C_Chaoyang_District%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Intersection_of_National_Stadium_and_Tianchen_West_roads,_Chaoyang_District,_Beijing.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37076233",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-12-01 07:09:02",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Intersection of National Stadium and Tianchen West roads, Chaoyang District, Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Blue sky in China|2010s photographs of China|GFDL|Taken with Nikon D3x|Chaoyang District, Beijing|Views from buses in Beijing|License migration redundant|Self-published work|Taxis in Beijing|April 2014 in Beijing|Photographs taken on 2014-04-01|Spring in Beijing|Intersections in Beijing|Views through glass|Traffic signals in Beijing|China National Convention Center Phase I",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection of Tianchen West and National Stadium roads in Beijing's <a href=\"https://en.wikipedia.org/wiki/Chaoyang_District,_Beijing\" class=\"extiw\" title=\"w:Chaoyang District, Beijing\">Chaoyang District</a>. Rear of <a href=\"https://en.wikipedia.org/wiki/China_National_Convention_Center\" class=\"extiw\" title=\"w:China National Convention Center\">China National Convention Center</a> is in background.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-04-01",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "96872883": {
+          "pageid": 96872883,
+          "ns": 6,
+          "title": "File:North start of Niujie St (20201125145623).jpg",
+          "index": 12,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg/1280px-North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg/3840px-North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg/1280px-North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg/3840px-North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/North_start_of_Niujie_St_%2820201125145623%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:North_start_of_Niujie_St_(20201125145623).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96872883",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-11-25 17:34:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "North start of Niujie St (20201125145623)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Niu Jie|Self-published work|Files with coordinates missing SDC location of creation|November 2020 in Beijing|Beijing photographs taken on 2020-11-25|Traffic signals in Beijing|Traffic signals with red arrows|Cycling signals in China",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "39.887783",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "116.357222",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The north section has more business...",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2020-11-25 14:56:23",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "33602786": {
+          "pageid": 33602786,
+          "ns": 6,
+          "title": "File:Regent Hotel Beijing.jpg",
+          "index": 10,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Regent_Hotel_Beijing.jpg/1280px-Regent_Hotel_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 704,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Regent_Hotel_Beijing.jpg/3840px-Regent_Hotel_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Regent_Hotel_Beijing.jpg/1280px-Regent_Hotel_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 704,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Regent_Hotel_Beijing.jpg/3840px-Regent_Hotel_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Regent_Hotel_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Regent_Hotel_Beijing.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33602786",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-04-04 10:29:30",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Regent Hotel Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Spring in China|GFDL|Taken with Nikon D3x|Regent Hotels & Resorts|License migration redundant|Hotels in Dongcheng District, Beijing|Self-published work|Traffic lights at red state|Youngman Neoplan trolleybuses|Intersections in Beijing|Traffic signals in Beijing|Beijing Trolleybus Route 108",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The Regent Hotel Beijing, from across the intersection of Dongsi Street South, Jinyu Hutong, Jinbao Street and Dongdan Street North.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-03-31",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "26605914": {
+          "pageid": 26605914,
+          "ns": 6,
+          "title": "File:数字北京大厦 20130610.JPG",
+          "index": 4,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG/1280px-%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG/1280px-%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E6%95%B0%E5%AD%97%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%8E%A6_20130610.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26605914",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-06-12 04:52:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "数字北京大厦 20130610",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Sony DSC-RX100|Digital Beijing Building|Self-published work|FoP-China|Traffic lights at red state|Traffic signals in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Digital_Beijing_Building\" class=\"extiw\" title=\"w:Digital Beijing Building\">Digital Beijing Building</a>, designed by Pei Zhu",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-06-10 14:45:17",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E9%A2%90%E5%9B%AD%E6%96%B0%E5%B1%85\" title=\"User:颐园新居\">颐园新居</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

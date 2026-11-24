@@ -1,0 +1,32 @@
+{
+  "reviewer": "Codex_PC_AI_actual_clean_crop_omission_review_r10",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "actual_method": "Actually viewed eight source/crop comparisons and original-pixel central-distance comparisons; enlarged0051 independently. Source whole-image accept does not certify this newly detected region.",
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "base_manifest": "review_stage2/frozen/batch_007/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_far_green",
+          "type": "ignore",
+          "bbox_xyxy": [
+            1008,
+            522,
+            1036,
+            552
+          ],
+          "reason": "Far visible green luminous patch; target body existence/class/bounds unresolved. Preserve region as ignore, never ordinary no-object background."
+        }
+      ],
+      "note": "Actual production crop omission search found a distant green luminous patch near[1020,536] not represented by old labels. Do not infer a complete body or class from color. Add conservative ignore; previous full-image/crop acceptance does not inherit to this annotation SHA. Existing confirmed heads unchanged.",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r10/0051_far_unmarked.png",
+        "review_stage2/clean_crop_release_r2/views/central_distance_check.jpg",
+        "review_stage2/clean_crop_release_r2/views/s2tld1080_0051_comparison.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+ntR7571;cam0_rates/byte_count [1]
+ntR7572;network2/e1_io.observer/serial/held [97]
+ntR7573;network/core/head [331]
+ntR7574;monitor0/bad_frames [1]
+ntR7575;network/core/pack_beat [21]
+ntR7576;coms1_reg_config/u1/cyc_count [0]
+ntR7577;buffer2/wr_buf/rd_addr [2]
+ntR7578;u_DDR3_50H/u_ipsxb_ddrc_top/mcdq_wdatapath/data_out [0]
+ntR7579;buffer0/wr_buf/N54
+ntR7580;network/core/rs_reg [13]
+ntR7581;network2/core/N12033
+ntR7582;arbiter/wgrant [1]
+ntR7583;arbiter/wgrant [1]
+ntR7584;u_DDR3_50H/ddr_rstn
+ntR7585;nt_cmos2_reset
+ntR7586;network2/e1_io.observer/serial/N345
+ntR7587;nt_sys_clk
+ntR7588;nt_sys_clk
+ntR7589;nt_pix_clk

@@ -1,0 +1,264 @@
+{
+  "recorded_at": "2026-10-25T04:36:32.608992+00:00",
+  "qualified_original_images": 4,
+  "qualified_body_targets": 7,
+  "split_counts": {
+    "train": 1,
+    "val": 2,
+    "holdout": 1
+  },
+  "production_manifest": "review_stage2/clean_crop_release_r5/manifest.json",
+  "production_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+  "validation": "reports/clean_crop_release_validation_r5.json",
+  "validation_sha256": "a71c252a7fdf9f2baefb230647ac91ca6f8acf32d7474e75c6976c6b74b6e511",
+  "visual_QA": "reports/clean_crop_release_visual_QA_r5.json",
+  "visual_QA_sha256": "078d805cc227706d4472e406961e131be844228430b8aae84388aa2b92c4b0ee",
+  "qualification_unit": "unique original photo, one crop per source; global training gates separate",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "canonical_original_id": "s2tld1080_0051",
+      "source_image_sha256": "24899ef29a2b41fea4daa7327e8b9aefa0aaa26e78c4a907382b96bbe9fa18ab",
+      "source_annotation": "review_stage2/revisions/pc_r2_016/labels/s2tld1080_0051.json",
+      "source_annotation_sha256": "6ee37ef6909f857a820b45eba74a923fcf71a9d2da251ad345ca7392b9b88c84",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r5/images/s2tld1080_0051_clean01.png",
+      "crop_sha256": "1573a6c3597260fb9360d97a2b1d7015b42371af42d0b3df709d77f9c4b457c2",
+      "yolo_label_file": "review_stage2/clean_crop_release_r5/labels/s2tld1080_0051_clean01.txt",
+      "yolo_label_sha256": "b48ea78300038d3432f0f99a3637d454e279e450b14257791248705838cbb1fb",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            723,
+            273,
+            763,
+            373
+          ],
+          "native_size": [
+            40,
+            100
+          ],
+          "at_640_letterbox_size": [
+            23.703703703703702,
+            59.25925925925925
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_ped_left",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            568,
+            483,
+            590,
+            535
+          ],
+          "native_size": [
+            22,
+            52
+          ],
+          "at_640_letterbox_size": [
+            13.037037037037036,
+            30.814814814814813
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_amendment_016",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_016.jsonl",
+        "sha256": "14e4ec53ab561658883d0fbe594f3e3a138329ccdbe0d4061d43c2215f7211f9",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000338560",
+      "canonical_original_id": "flickr_photo_4583091116",
+      "source_image_sha256": "d6a2b116288a867318d4f869c8ae5e118149832e3cf6d9c9a58ca501c25ded5a",
+      "source_annotation": "review_stage2/external_scene_pilot_r3/labels/coco_scene_000000338560.json",
+      "source_annotation_sha256": "0d16a88dd10f3921b97e9f12ef95f2447852845e67546189160924fe86e51bd5",
+      "split": "val",
+      "leakage_group": "US_Houston_downtown_photo_4583091116",
+      "crop_file": "review_stage2/clean_crop_release_r5/images/coco_scene_000000338560_clean01.png",
+      "crop_sha256": "e33ebd5b2b820b86684bdf9b4745af5c8cdcb9657dca8be4940a43be798e583b",
+      "yolo_label_file": "review_stage2/clean_crop_release_r5/labels/coco_scene_000000338560_clean01.txt",
+      "yolo_label_sha256": "128222c9fac151b5f23a2a90058bde3a844db6aa5a8158c556f1ddc8bc928daa",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            244,
+            32,
+            274,
+            51
+          ],
+          "native_size": [
+            30,
+            19
+          ],
+          "at_640_letterbox_size": [
+            31.372549019607845,
+            19.869281045751634
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r3",
+      "independent_reviewer": "Codex_board_independent_AI_external_r3_whole_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/external_scene_r3_whole_review.jsonl",
+        "source_file_sha256": "beba9a0b6f7deb71cdbc34fb506c3c0c95cffa742abe7b20a6a8b61d2b35d28f",
+        "line": 2
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000309391",
+      "canonical_original_id": "flickr_photo_5329327710",
+      "source_image_sha256": "bc5ac1f6d05ed1ec0bd0d3751bd744b7c28841a330e4db58f68dc5453b35c501",
+      "source_annotation": "review_stage2/external_scene_revisions/external_pc_r2_004/labels/coco_scene_000000309391.json",
+      "source_annotation_sha256": "7e6f97b438bc221b9497850608906415d097917c7e9faf3fa7e61d37d0ac6200",
+      "split": "val",
+      "leakage_group": "US_Portland_unresolved_photos_5329327710_10190866013",
+      "crop_file": "review_stage2/clean_crop_release_r5/images/coco_scene_000000309391_clean01.png",
+      "crop_sha256": "4fda881dfc27496b8c7e28b7e6c78e50adfed92cecd833129bbf58b7d471455c",
+      "yolo_label_file": "review_stage2/clean_crop_release_r5/labels/coco_scene_000000309391_clean01.txt",
+      "yolo_label_sha256": "0fb5c3a7d7a874fa08580d6b1ed4c5e3fb21237cd03168f1931f62e9d2266165",
+      "targets": [
+        {
+          "source_id": "body_left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            6,
+            132,
+            29,
+            209
+          ],
+          "native_size": [
+            23,
+            77
+          ],
+          "at_640_letterbox_size": [
+            28.253358925143953,
+            94.5873320537428
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_midleft",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            181,
+            162,
+            208,
+            223
+          ],
+          "native_size": [
+            27,
+            61
+          ],
+          "at_640_letterbox_size": [
+            33.16698656429942,
+            74.93282149712091
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_ped_left",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            145,
+            226,
+            168,
+            247
+          ],
+          "native_size": [
+            23,
+            21
+          ],
+          "at_640_letterbox_size": [
+            28.253358925143953,
+            25.796545105566217
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 3,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r3",
+      "independent_reviewer": "Codex_board_independent_AI_external_pc_r2_004_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/recheck_external_pc_r2_004.jsonl",
+        "source_file_sha256": "bed578dab1be526369202ee542a878df554a229c9cb9373f6b7fac4f8a90be74",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "commons_scene_132116089",
+      "canonical_original_id": "commons_page_132116089",
+      "source_image_sha256": "d5692ff14b8274e13729f57c8422aed35a7b906eb364c5378a38554f75125f00",
+      "source_annotation": "review_stage2/external_scene_pilot_r7/labels/commons_scene_132116089.json",
+      "source_annotation_sha256": "d094855cf1514346ae6faf7c1f19f1f02ca74de9b71550fcf5689c0c66f55aca",
+      "split": "holdout",
+      "leakage_group": "ES_Madrid_Plaza_Espana_commons_132116089",
+      "crop_file": "review_stage2/clean_crop_release_r5/images/commons_scene_132116089_clean01.png",
+      "crop_sha256": "67113d7e5068089d2f4e6cbc77c3e18ad8bd79643f662c4d1b2ccfeb71325d15",
+      "yolo_label_file": "review_stage2/clean_crop_release_r5/labels/commons_scene_132116089_clean01.txt",
+      "yolo_label_sha256": "74fea37bb5fc8a6c63b587e7937b3dd5f61a95aaf937d4ff3b44b4e9b891d112",
+      "targets": [
+        {
+          "source_id": "body_ped",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            327,
+            220,
+            922,
+            1227
+          ],
+          "native_size": [
+            595,
+            1007
+          ],
+          "at_640_letterbox_size": [
+            223.08142940831868,
+            377.5512595196251
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r7",
+      "independent_reviewer": "Codex_board_independent_AI_external_r7_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/external_scene_r7_whole_review.jsonl",
+        "source_file_sha256": "1aecc34f22b6406c4595ec14b488dd786d1edc7a8b95d28d62610ec91a90e47d",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    }
+  ],
+  "global_training_release": false
+}

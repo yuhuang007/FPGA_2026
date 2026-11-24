@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "duration_s": 10.581183763999434,
+  "onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "rknn_sha256": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+  "log_path": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/build.log",
+  "untrained": true,
+  "quantization": false,
+  "target": "rk3588",
+  "command": [
+    "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/.venv405build/bin/python",
+    "-u",
+    "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/convert_rknn.py",
+    "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.onnx",
+    "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn"
+  ]
+}

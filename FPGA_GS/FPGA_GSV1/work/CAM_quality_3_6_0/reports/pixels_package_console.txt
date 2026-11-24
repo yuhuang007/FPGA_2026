@@ -1,0 +1,89 @@
+{
+  "version": "3.6.0 CAM1 RAW E3 pre-DDR pixel-location experiment",
+  "bitstream": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\FPGA_GSV1_CAM1_RAW_E3_3_6_0_HDMI_1080P60.sbit",
+  "sha256": "8e7addbe24c20757de9f2286b57fd83ef0539319b5dd83869b961c23d8286756",
+  "generated_utc": "2026-10-24T12:47:18.4295315Z",
+  "generated_local": "2026-10-24T20:47:18.429532+08:00",
+  "programmed": false,
+  "board_verified": false,
+  "green_line_fixed": false,
+  "behavior": "20s after reset: freeze one accepted native16x720 strip at source x1120 before DDR/filter/OSD; repeat480 pages with frame ID and whole-strip CRC on existing UART.",
+  "sensor_configuration": "R0 original tables, including OV3660 original gain ceiling15.5x; no GAIN8/profile/SCCB writes added.",
+  "uart": "N2 35P,40 words @20Hz; C1R8 W12..19 retained; C1PX W20..39. Existing COM reader recognition updated to O/P.",
+  "main_video_path_affected": false,
+  "cam0_owner_fix_included": false,
+  "cam0_exposure_changed": false,
+  "rollback": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK_HDMI_1080P60.sbit",
+  "rollback_sha256": "f760692d6a1e7695d4005945d0ba977468d8857c4b36c45dc57bd98e7283acb1",
+  "manual_operation": "Cover rear lens BEFORE download; keep original+rear single view and COM23 free; confirm download. One55s serial capture then decode. No Pi LIVE or other function tests.",
+  "interpretation": "Visible lines in native strip locate defect upstream of DDR; sensor/ISP versus DVP still requires evidence. Clean strip is only this region/frame, not proof of full clean video.",
+  "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_pixels_source\\build\\CAM1_RAW_E3_3_6_0_20261024_203852_117",
+  "timing": {
+    "existing_constraints_met": true,
+    "summaries": [
+      {
+        "summary": "Setup Summary(Slow Corner):",
+        "worst_slack_ns": 0.0,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Slow Corner):",
+        "worst_slack_ns": 0.096,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Slow Corner):",
+        "worst_slack_ns": 3.941,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Slow Corner):",
+        "worst_slack_ns": 0.395,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Slow Corner):",
+        "worst_slack_ns": 0.397,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Setup Summary(Fast Corner):",
+        "worst_slack_ns": 0.312,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Fast Corner):",
+        "worst_slack_ns": 0.137,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Fast Corner):",
+        "worst_slack_ns": 5.032,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Fast Corner):",
+        "worst_slack_ns": 0.277,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Fast Corner):",
+        "worst_slack_ns": 0.568,
+        "failing_endpoints": 0
+      }
+    ],
+    "resources": {
+      "CLMA": 4492.0,
+      "CLMS": 2873.0,
+      "DRM": 109.5,
+      "PLL": 5.0,
+      "LUT": 22280.0,
+      "FF": 23186.0
+    },
+    "constraints_changed": false,
+    "limits": [
+      "Inherited external PHY PVT/PCB and camera pad electrical-model limits remain.",
+      "Positive internal STA does not prove incoming pixel data or sensor image quality correct."
+    ]
+  }
+}

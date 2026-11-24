@@ -1,0 +1,11 @@
+{
+  "case": "cancel",
+  "pass": true,
+  "board_measured": false,
+  "input_hashes": {
+    "sim/map_cancel_tb.sv": "daddaec012661bdc850646f1c6a6c016e5d5970b0ea25f9e829c1314dc57fe14",
+    "rtl/network/m3_upload.v": "4f0c1f6aac35f2ca3b03e93245e8606f1d0c30e7f0f8ccbae8a13fb2ac858a9b",
+    "sim/line_ram_model.sv": "7cd3ef43927e4ab99b8ddbbb225811f84379bcd430d8afeb2d4617f09c6dee9e"
+  },
+  "inputs_unchanged": true
+}

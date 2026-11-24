@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T06:06:40.014628+00:00",
+  "passed": true,
+  "route": "source_positive_only_for_sparse_images",
+  "implementation": "scripts/source_partial_yolo.py",
+  "implementation_sha256": "f7b7037962369a09ded73cd136408e2fcba2ded18e382b6169df4e8a07c0b8b7",
+  "real_source_images": [
+    "data/public_datasets/s2tld720_r1/sample_images/s2tld720_000000.jpg",
+    "review_stage2/clean_crop_release_r1/images/s2tld1080_0013_clean01.png"
+  ],
+  "mixed_real_image_loader_and_loss_backward_passed": true,
+  "forced_flip_source_box_transport_passed": true,
+  "whole_image_unknown_domain_inherits_letterbox_and_flip": true,
+  "positive_priority_gradient_passed": true,
+  "sparse_negative_classification_gradients_exactly_zero": true,
+  "complete_image_background_gradients_preserved": true,
+  "unbound_image_source_fails_closed": true,
+  "ordinary_detection_ema_roundtrip_passed": true,
+  "ordinary_val_metrics_only_on_complete_images": true,
+  "mosaic_mixup_copy_paste_and_geometric_crops_disabled": true,
+  "real_batch_loss_parts_box_cls_dfl": [
+    9.146178285845963e-07,
+    2.081130027770996,
+    5.745233693232876e-07
+  ],
+  "classification_term_counts": {
+    "sparse_images": 1,
+    "positive_terms_retained": 8,
+    "sparse_unknown_negative_terms_masked": 4196,
+    "complete_negative_terms_retained": 4196
+  },
+  "optimizer_updates": 0,
+  "recognition_training": false,
+  "CUDA_trial": false,
+  "limits": "Real loader/augmentation/model-backprop test, no optimizer step or production trainer fit yet. Not recognition accuracy or proof of arbitrary spatial-ignore support."
+}

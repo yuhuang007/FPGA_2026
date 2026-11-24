@@ -1,0 +1,12 @@
+{
+  "pass_status": true,
+  "source": "synthetic test only; not hardware",
+  "checks": [
+    "C1Q1 header/byte order",
+    "measured50us rows ->39.8ms",
+    "15.5x baseline/8x applied",
+    "SYSCLK36MHz",
+    "25fps with2s page gaps",
+    "single-record rejection"
+  ]
+}

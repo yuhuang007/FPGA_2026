@@ -1,0 +1,78 @@
+{
+  "crops": [
+    {
+      "index": 0,
+      "crop_xyxy": [
+        1548,
+        510,
+        1590,
+        574
+      ],
+      "magnification": 4,
+      "resampling": "nearest; no added visual detail",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_0000_suspect_0.png",
+      "source_sha256": "d52bf48762aba3a98f622eb245d903108613534ad4cd30978185d10fb5accec3"
+    },
+    {
+      "index": 64,
+      "crop_xyxy": [
+        646,
+        500,
+        690,
+        580
+      ],
+      "magnification": 4,
+      "resampling": "nearest; no added visual detail",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_0064_suspect_0.png",
+      "source_sha256": "e676b5c8a8a7da14e29f2a5e0f411307e0702b67771651d604649cc50cadcaaf"
+    },
+    {
+      "index": 200,
+      "crop_xyxy": [
+        538,
+        170,
+        627,
+        273
+      ],
+      "magnification": 4,
+      "resampling": "nearest; no added visual detail",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_0200_suspect_0.png",
+      "source_sha256": "8afd62bd9f5dbf90bef8424517fc5b17b6bbb9d9e4ca33948d6f58c28c16b82b"
+    },
+    {
+      "index": 200,
+      "crop_xyxy": [
+        1280,
+        220,
+        1350,
+        382
+      ],
+      "magnification": 4,
+      "resampling": "nearest; no added visual detail",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_0200_suspect_1.png",
+      "source_sha256": "8afd62bd9f5dbf90bef8424517fc5b17b6bbb9d9e4ca33948d6f58c28c16b82b"
+    },
+    {
+      "index": 300,
+      "crop_xyxy": [
+        795,
+        425,
+        846,
+        469
+      ],
+      "magnification": 4,
+      "resampling": "nearest; no added visual detail",
+      "path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_0300_suspect_0.png",
+      "source_sha256": "4bd8dfab3827d7453512f7d6474badd0f4409842da4e12c8167274062224f16c"
+    }
+  ],
+  "pair": {
+    "a": "s2tld1080_0032",
+    "b": "s2tld1080_0127",
+    "sha_a": "5eacbb2408209ab634935fc637d2da8676ebfe1f7cae0d43127dfb2fda3bc745",
+    "sha_b": "afaaa3b1d13b69d7a6cdb67446e36b3826064c1d9bf295c685d40de7906aa6e7",
+    "pixel_identical": false,
+    "mean_abs_rgb": 1.1047220614711935,
+    "scope": "Pixel comparison corroborates separate AI visual inspection; not final split approval"
+  }
+}

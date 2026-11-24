@@ -1,0 +1,129 @@
+{
+  "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&pageids=132116089&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "132116089": {
+          "pageid": 132116089,
+          "ns": 6,
+          "title": "File:Gay themed pedestrian traffic light on Plaza Espana Madrid.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5344989,
+              "width": 3468,
+              "height": 4624,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg/1280px-Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 1707,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg/1920px-Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg/1280px-Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1707,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg/1920px-Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gay_themed_pedestrian_traffic_light_on_Plaza_Espana_Madrid.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132116089",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-05-19 18:00:50",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Gay themed pedestrian traffic light on Plaza Espana Madrid",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Plaza de España, Madrid|Self-published work|Pedestrian signals in Spain|Files with coordinates missing SDC location of creation|Traffic signals in Madrid",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.423321",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.710817",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Gay themed pedestrian traffic light on Plaza Espana Madrid",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-05-14 22:38:12",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Szombat78\" title=\"User:Szombat78\">Szombat78</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

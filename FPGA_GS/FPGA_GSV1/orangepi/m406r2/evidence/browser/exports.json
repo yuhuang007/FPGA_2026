@@ -1,0 +1,242 @@
+[
+  {
+    "source": "candidate/SC_YJ.webm",
+    "output": "candidate/SC_YJ.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "142"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "142"
+        }
+      ],
+      "format": {
+        "duration": "13.096000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "candidate/SC_BT.webm",
+    "output": "candidate/SC_BT.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "114"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "114"
+        }
+      ],
+      "format": {
+        "duration": "9.074000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "candidate/SC_BT2.webm",
+    "output": "candidate/SC_BT2.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 361,
+          "nb_read_frames": "107"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "107"
+        }
+      ],
+      "format": {
+        "duration": "8.872000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "candidate/SC_YJ2.webm",
+    "output": "candidate/SC_YJ2.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "116"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "116"
+        }
+      ],
+      "format": {
+        "duration": "9.002000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "baseline/SC_YJ.webm",
+    "output": "baseline/SC_YJ.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "163"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "163"
+        }
+      ],
+      "format": {
+        "duration": "11.939000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "baseline/SC_BT.webm",
+    "output": "baseline/SC_BT.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "111"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "111"
+        }
+      ],
+      "format": {
+        "duration": "9.160000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "baseline/SC_BT2.webm",
+    "output": "baseline/SC_BT2.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 361,
+          "nb_read_frames": "111"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 362,
+          "nb_read_frames": "111"
+        }
+      ],
+      "format": {
+        "duration": "8.913000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  },
+  {
+    "source": "baseline/SC_YJ2.webm",
+    "output": "baseline/SC_YJ2.mp4",
+    "original": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "105"
+        }
+      ],
+      "format": {}
+    },
+    "converted": {
+      "programs": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 360,
+          "nb_read_frames": "105"
+        }
+      ],
+      "format": {
+        "duration": "9.552000"
+      }
+    },
+    "no_interpolation": true,
+    "odd_size_only_black_border_padding": true
+  }
+]

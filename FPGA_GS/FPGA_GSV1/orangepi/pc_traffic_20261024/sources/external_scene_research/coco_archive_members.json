@@ -1,0 +1,44 @@
+[
+  {
+    "name": "annotations/instances_train2017.json",
+    "compressed": 152757829,
+    "uncompressed": 469785474,
+    "offset": 0,
+    "method": 8
+  },
+  {
+    "name": "annotations/instances_val2017.json",
+    "compressed": 6529031,
+    "uncompressed": 19987840,
+    "offset": 152757923,
+    "method": 8
+  },
+  {
+    "name": "annotations/captions_train2017.json",
+    "compressed": 18816055,
+    "uncompressed": 91865115,
+    "offset": 159287046,
+    "method": 8
+  },
+  {
+    "name": "annotations/captions_val2017.json",
+    "compressed": 805705,
+    "uncompressed": 3872473,
+    "offset": 178103194,
+    "method": 8
+  },
+  {
+    "name": "annotations/person_keypoints_train2017.json",
+    "compressed": 71011080,
+    "uncompressed": 238884731,
+    "offset": 178908990,
+    "method": 8
+  },
+  {
+    "name": "annotations/person_keypoints_val2017.json",
+    "compressed": 2986607,
+    "uncompressed": 10020657,
+    "offset": 249920171,
+    "method": 8
+  }
+]

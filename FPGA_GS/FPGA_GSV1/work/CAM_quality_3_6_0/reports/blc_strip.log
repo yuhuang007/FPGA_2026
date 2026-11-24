@@ -1,0 +1,5 @@
+PASS stage0 id0 complete11520 pixels/480pages
+PASS stage1 id3 complete11520 pixels/480pages
+PASS stage2 id5 complete11520 pixels/480pages
+PASS three rearmed production input flops -> cam3660_dvp -> video_capture_status -> capture_pipe -> vendor DRM strip: 2 full720 frames,1843200 independent pixels,11520 exact exported pixels,480pages; dark row chroma/walking16bits/55aa-aa55/row-column data; analogue pad timing NOT covered
+sim/blc_strip_tb.sv:109: $finish called at 251846620000 (1ps)

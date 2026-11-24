@@ -1,0 +1,209 @@
+{
+  "recorded_at": "2026-10-25T02:20:23.708075+00:00",
+  "reviewer": "Codex_PC_AI_stage2",
+  "reviewer_type": "AI",
+  "actual_scope": "Targeted native8x unmarked image and coordinate-grid inspection; earlier independent whole-image review preserved, no new whole-image omission claim.",
+  "training_release": false,
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0057",
+      "base_manifest": "review_stage2/frozen/batch_008/manifest.json",
+      "changes": [
+        {
+          "object_id": "left_green",
+          "field": "bbox_xyxy",
+          "value": [
+            212,
+            421,
+            226,
+            436
+          ]
+        }
+      ],
+      "note": "绿圆真实左缘在旧框外；框左移并贴合完整亮面。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0057_left_green.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0067",
+      "base_manifest": "review_stage2/frozen/batch_009/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            657,
+            419,
+            672,
+            433
+          ]
+        }
+      ],
+      "note": "旧框向右偏；上灯圆面左移，不吞下方倒计时。局部为强过曝暖色核心及红边，保留原红色/过曝记录，不沿用独立理由中误写的绿色文字。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0067_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0071",
+      "base_manifest": "review_stage2/frozen/batch_009/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            656,
+            419,
+            672,
+            434
+          ]
+        }
+      ],
+      "note": "红边过曝圆面左侧在旧框外；框左移收紧暗背景，颜色/箭头属性未改。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0071_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0072",
+      "base_manifest": "review_stage2/frozen/batch_009/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            657,
+            419,
+            672,
+            433
+          ]
+        }
+      ],
+      "note": "与0071相邻场景但独立查看原像素；圆面框左移收紧，不包含下方数字8。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0072_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0079",
+      "base_manifest": "review_stage2/frozen/batch_010/manifest.json",
+      "changes": [
+        {
+          "object_id": "distant_green",
+          "field": "bbox_xyxy",
+          "value": [
+            753,
+            541,
+            764,
+            550
+          ]
+        }
+      ],
+      "note": "远处绿面上缘高于旧框，向上贴亮面；灯体类型仍ignore，不因可辨绿面推定外壳。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0079_distant_green.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0080",
+      "base_manifest": "review_stage2/frozen/batch_010/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            694,
+            535,
+            704,
+            544
+          ]
+        }
+      ],
+      "note": "绿圆上部被旧框裁掉，向上重新贴合；不改变已确认机动车灯体。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0080_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0082",
+      "base_manifest": "review_stage2/frozen/batch_011/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            484,
+            508,
+            496,
+            521
+          ]
+        }
+      ],
+      "note": "上灯红边圆面顶部被旧框遗漏，收紧底部暗孔；饱和暖色核心不被另猜为黄灯。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0082_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0084",
+      "base_manifest": "review_stage2/frozen/batch_011/manifest.json",
+      "changes": [
+        {
+          "object_id": "partial_green",
+          "field": "bbox_xyxy",
+          "value": [
+            819,
+            490,
+            829,
+            502
+          ]
+        }
+      ],
+      "note": "叶遮绿面实际在旧框左侧，重贴可见亮面，不补隐藏灯壳，类别仍ignore。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0084_partial_green.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0085",
+      "base_manifest": "review_stage2/frozen/batch_011/manifest.json",
+      "changes": [
+        {
+          "object_id": "ped_green",
+          "field": "bbox_xyxy",
+          "value": [
+            1459,
+            518,
+            1471,
+            533
+          ]
+        }
+      ],
+      "note": "绿人形可见头、躯干及分腿在约518至532，旧底边546含明显暗区；收紧到可见符号，未改变行人灯体框。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0085_ped_green.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0087",
+      "base_manifest": "review_stage2/frozen/batch_011/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            645,
+            365,
+            664,
+            385
+          ]
+        }
+      ],
+      "note": "绿圆旧框裁左侧亮面，左移贴完整圆面；避开白色外壳边，未改变灯体框。 本次仅修订发光区域几何，必须按新SHA独立复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r4/0087_emitter_1.png"
+      ]
+    }
+  ]
+}

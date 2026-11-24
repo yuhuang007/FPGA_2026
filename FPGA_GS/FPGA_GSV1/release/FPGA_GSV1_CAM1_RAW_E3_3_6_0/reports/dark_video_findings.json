@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-24T20:36:03.111698+08:00",
+  "user_confirmed": "黑底仍有成排绿线",
+  "videos": [
+    {
+      "path": "E:\\系统软件\\下载\\c82896c619f04fc09964f9799b989464.mp4",
+      "sha256": "0e3a9f64cc61e57cb6b43e116886b122fb3878d986fe16ffc9c6b83944dc7cdc"
+    },
+    {
+      "path": "E:\\系统软件\\下载\\452f27d2d5a62ecdcc1fa2f7f8520b5d.mp4",
+      "sha256": "39559d427f63135a58dff08c3ef816ee5516d6aa39fcc4fe11d1ae5b4fb007a2"
+    }
+  ],
+  "extracted_frames": [
+    "covered_video/contact.png",
+    "covered_video2/contact.png"
+  ],
+  "visible_observations": [
+    "Thin red/purple and green horizontal streaks change across recorded frames.",
+    "Yellow OSD remains legible/stable in these filmed views.",
+    "No claim of full-frame block/address corruption is made from these filmed views."
+  ],
+  "serial_after_cover_report": {
+    "file": "GAIN8_after_cover_uart.txt",
+    "decode": "GAIN8_after_cover_decode.json",
+    "window_seconds": 8,
+    "capture_fps": 25.0,
+    "ddr_publish_fps": 25.0,
+    "display_new_fps": 25.0,
+    "bad_delta": 0,
+    "exposure_ms": [
+      29.988000000000003,
+      29.988000000000003
+    ],
+    "gain_x": [
+      8.0,
+      8.0
+    ],
+    "simultaneous_with_video": false,
+    "physical_cover_during_uart_read": "Not independently confirmed"
+  },
+  "conclusions": [
+    "Environment light bands alone do not explain the user-confirmed persistence with the lens fully covered.",
+    "Gain8 was not binding in the earlier live scene; it is binding in this later8s readback. Do not conflate these scenes.",
+    "Valid geometry/rates do not establish pixel-content correctness.",
+    "Reference OV3660 BLC auto+continuous-update and rotation compensation match the archived driver; no erroneous BLC register established.",
+    "Need lossless pre-DDR source pixels to separate an upstream defect from DDR/display/filming effects."
+  ],
+  "sensor_isp_vs_dvp_sampling_root_confirmed": false,
+  "next_candidate": "CAM1_RAW_E3_3_6_0: one accepted native16x720 strip x1120; same full720 video remains live; whole-strip CRC and repeated UART pages.",
+  "next_candidate_sensor_settings": "R0 original OV3660 table/gain ceiling15.5x; no new sensor writes; GAIN8 experiment not promoted.",
+  "camera_front_full_path_check": {
+    "log": "cam0_front30_corrected.log",
+    "pass_": false,
+    "result": "4 DDR publications with consecutive30fps before deliberate bad-frame drop; final geometry totals4good/2bad disagree with fixture expectation5good/1bad.",
+    "next": "Instrument individual frame verdicts and resolve startup/monitor counting before front candidate. No full front build launched."
+  },
+  "pi_live_started": false,
+  "auto_programmed": false
+}

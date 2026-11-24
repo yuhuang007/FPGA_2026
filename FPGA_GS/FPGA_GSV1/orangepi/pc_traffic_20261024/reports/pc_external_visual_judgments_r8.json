@@ -1,0 +1,375 @@
+{
+  "acquisition_manifest": "data/external_scene_candidates_r8/acquisition_manifest.json",
+  "output": "review_stage2/external_scene_pilot_r8",
+  "label_version": "external-PC-AI-r8-20261025",
+  "reviewer": "Codex_PC_AI_external_scene_r8",
+  "actual_method": "Actually viewed whole unmarked official full-context1280 variant and targeted2x/3x native details. Coordinate panels used for placement; no source labels imported.",
+  "license_audit_output": "reports/external_scene_license_audit_r8.json",
+  "independent_scope": "Independently inspect whole unmarked photo, all body omissions/kinds/instance/bounds and ignore coverage. Unknown attributes do not invalidate body. Check precise body versus backplate and adjacent side structures. Source grouping remains unassigned.",
+  "judgments": [
+    {
+      "candidate_id": "commons_scene_173323959",
+      "objects": [
+        {
+          "id": "body_left",
+          "type": "body",
+          "bbox_xyxy": [
+            468,
+            501,
+            496,
+            548
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete frontal vertical head with multiple circular aspect chambers; separate from adjacent turn sign.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_middle",
+          "type": "body",
+          "bbox_xyxy": [
+            573,
+            503,
+            603,
+            550
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Separate complete frontal circular-aspect head.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_right",
+          "type": "body",
+          "bbox_xyxy": [
+            696,
+            507,
+            727,
+            555
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Third complete frontal circular-aspect head; directional road sign is outside body.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_back_left",
+          "type": "ignore",
+          "bbox_xyxy": [
+            275,
+            550,
+            309,
+            597
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Rear-facing head with unreadable front kind."
+        },
+        {
+          "id": "ignore_back_middle",
+          "type": "ignore",
+          "bbox_xyxy": [
+            358,
+            548,
+            390,
+            594
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Separate rear-facing head, unreadable kind."
+        },
+        {
+          "id": "ignore_back_right",
+          "type": "ignore",
+          "bbox_xyxy": [
+            442,
+            548,
+            472,
+            591
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Separate rear/side head below the front gantry, front kind unknown."
+        },
+        {
+          "id": "ignore_far_left_low",
+          "type": "ignore",
+          "bbox_xyxy": [
+            372,
+            606,
+            472,
+            671
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Small side/rear boxes and crossing assemblies below foreground gantry, individual kinds not certified."
+        },
+        {
+          "id": "ignore_right_and_far",
+          "type": "ignore",
+          "bbox_xyxy": [
+            740,
+            596,
+            1100,
+            745
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Side-facing near head, smaller road and path heads, backs and partly occluded distant scene. Individual complete-body kinds/bounds not all resolvable; not ordinary background."
+        }
+      ],
+      "scene_id": "PL_Krakow_29_Listopada_Commons173323959",
+      "location_basis": "Commons description explicitly Krakow,29 Listopada Avenue; Polish road signs and city streetscape are consistent. Same-road Commons179853532 must stay linked unless evidence proves otherwise.",
+      "planned_split": "unassigned_pending_group_audit",
+      "notes": [
+        "Source labels absent. Three frontal motor bodies reviewed; rear and distant heads remain ignore. No attribute truth created.",
+        "Do not treat this photo and other29 Listopada photos as independently split scenes."
+      ],
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r8/views/commons_173323959.jpg",
+        "data/external_scene_candidates_r8/views/173323959_coords_450.png",
+        "data/external_scene_candidates_r8/views/173323959_detail_0.png",
+        "data/external_scene_candidates_r8/views/173323959_detail_1.png",
+        "data/external_scene_candidates_r8/views/173323959_grid.jpg"
+      ]
+    },
+    {
+      "candidate_id": "commons_scene_163437471",
+      "objects": [
+        {
+          "id": "body_left",
+          "type": "body",
+          "bbox_xyxy": [
+            176,
+            14,
+            209,
+            79
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete three-circular-aspect head with visible arrow in lower chamber; body includes front housing/hoods, excludes arm.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_middle",
+          "type": "body",
+          "bbox_xyxy": [
+            305,
+            17,
+            338,
+            78
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Separate complete vertical head with multiple chambers.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_right",
+          "type": "body",
+          "bbox_xyxy": [
+            447,
+            20,
+            481,
+            83
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Separate complete front head, three round chambers.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_pole_motor",
+          "type": "body",
+          "bbox_xyxy": [
+            665,
+            155,
+            693,
+            205
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete lower pole-mounted circular-aspect head.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_pedestrian",
+          "type": "body",
+          "bbox_xyxy": [
+            670,
+            210,
+            700,
+            233
+          ],
+          "kind": "pedestrian",
+          "layout": "vertical",
+          "kind_basis": "Separate compact pedestrian housing has illuminated upright hand; mounting bracket and pole excluded. Unknown precise color mapping does not negate body kind.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        }
+      ],
+      "scene_id": "US_Newton_Route9_Boylston_Commons163437471",
+      "location_basis": "Commons description names Route9 Boylston Street, Newton and The Shoppes at Chestnut Hill; actual shopping sign and US signal/road signs agree.",
+      "planned_split": "unassigned_pending_group_audit",
+      "notes": [
+        "Whole source plus native2x and3x upper and pole details viewed. No additional definite or uncertain traffic-light body found in remaining scene.",
+        "All5 bodies require independent omission/kind/bounds check. Only body targets proposed."
+      ],
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r8/views/commons_163437471.jpg",
+        "data/external_scene_candidates_r8/views/163437471_coords_150.png",
+        "data/external_scene_candidates_r8/views/163437471_coords_655.png",
+        "data/external_scene_candidates_r8/views/163437471_detail_0.png",
+        "data/external_scene_candidates_r8/views/163437471_detail_1.png",
+        "data/external_scene_candidates_r8/views/163437471_grid.jpg"
+      ]
+    },
+    {
+      "candidate_id": "commons_scene_182611616",
+      "objects": [
+        {
+          "id": "body_left",
+          "type": "body",
+          "bbox_xyxy": [
+            45,
+            411,
+            69,
+            459
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete near frontal three-circular-aspect housing with oval close rim; excludes separate rear protrusion/mount.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_middle",
+          "type": "body",
+          "bbox_xyxy": [
+            636,
+            402,
+            665,
+            455
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete separate near frontal circular-aspect head on median pole.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_left_head_side",
+          "type": "ignore",
+          "bbox_xyxy": [
+            70,
+            436,
+            90,
+            462
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Side/back protrusion next to near left head has unreadable face and uncertain physical instance relation; conservatively excluded."
+        },
+        {
+          "id": "ignore_middle_side",
+          "type": "ignore",
+          "bbox_xyxy": [
+            665,
+            425,
+            685,
+            445
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Oblique adjacent dark structure/hood beside main median head, kind/instance unresolved."
+        },
+        {
+          "id": "ignore_left_distance",
+          "type": "ignore",
+          "bbox_xyxy": [
+            350,
+            385,
+            600,
+            510
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Far-left crossing heads and backs partially hidden by vehicles/structures, individual complete bounds/kinds not all certified."
+        },
+        {
+          "id": "ignore_right_distance",
+          "type": "ignore",
+          "bbox_xyxy": [
+            680,
+            340,
+            860,
+            445
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Distant corridor signal-like points and side heads unresolved at this source resolution; retain excluded region."
+        }
+      ],
+      "scene_id": "ZA_CapeTown_StrandStreet_Commons182611616",
+      "location_basis": "Commons description explicitly Strand Street Crossing, Cape Town; decorative floral crossing and streetscape agree. No camera GPS claimed.",
+      "planned_split": "unassigned_pending_group_audit",
+      "notes": [
+        "Whole source and4 native details viewed. Two near motor housings reliable; distant and side structures remain ignore.",
+        "Unresolved side structures may block clean crops with required context; do not delete those ignores for export."
+      ],
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r8/views/commons_182611616.jpg",
+        "data/external_scene_candidates_r8/views/182611616_coords_0.png",
+        "data/external_scene_candidates_r8/views/182611616_coords_625.png",
+        "data/external_scene_candidates_r8/views/182611616_detail_0.png",
+        "data/external_scene_candidates_r8/views/182611616_detail_1.png",
+        "data/external_scene_candidates_r8/views/182611616_detail_2.png",
+        "data/external_scene_candidates_r8/views/182611616_detail_3.png",
+        "data/external_scene_candidates_r8/views/182611616_grid.jpg"
+      ]
+    }
+  ]
+}

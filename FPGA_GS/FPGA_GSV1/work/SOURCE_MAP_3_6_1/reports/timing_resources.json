@@ -1,0 +1,55 @@
+{
+  "report": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1\\build\\SOURCE_MAP_3_6_1_20261027_134653_681\\report_timing\\fpga_gsv1_top.rtr",
+  "report_sha256": "0e9e5cd153a92a1ab9fc305c604b7be36ad736f1bf9f0133b0976ecd51c3fe53",
+  "declared_constraints_met": true,
+  "summary": {
+    "slow_setup_slack_ns": {
+      "ddrphy_clkin": 0.237,
+      "pix_clk": 0.674,
+      "net2_nominal_PHY_capture": 0.07
+    },
+    "slow_hold_slack_ns": {
+      "ddrphy_clkin": 0.22,
+      "pix_clk": 0.325,
+      "net2_nominal_PHY_capture": 0.096
+    },
+    "fast_setup_slack_ns": {
+      "ddrphy_clkin": 2.93,
+      "pix_clk": 2.329,
+      "net2_nominal_PHY_capture": 0.312
+    },
+    "fast_hold_slack_ns": {
+      "ddrphy_clkin": 0.14,
+      "pix_clk": 0.256,
+      "net2_nominal_PHY_capture": 0.334
+    }
+  },
+  "resources": {
+    "FF": {
+      "used": 23504.0,
+      "available": 64200.0
+    },
+    "LUT": {
+      "used": 22114.0,
+      "available": 42800.0
+    },
+    "DRM": {
+      "used": 94.5,
+      "available": 134.0
+    },
+    "PLL": {
+      "used": 5.0,
+      "available": 5.0
+    },
+    "IO": {
+      "used": 192.0,
+      "available": 296.0
+    }
+  },
+  "limits": [
+    "Inherited constraints unchanged. Results cover declared internal and nominal external paths only.",
+    "Net2 PHY internal delay PVT and PCB skew remain unqualified; nominal model is not full board signoff.",
+    "DVP source timing and actual module DOVDD remain unknown; input timing coverage is inherited.",
+    "No hardware programming or board verification performed."
+  ]
+}

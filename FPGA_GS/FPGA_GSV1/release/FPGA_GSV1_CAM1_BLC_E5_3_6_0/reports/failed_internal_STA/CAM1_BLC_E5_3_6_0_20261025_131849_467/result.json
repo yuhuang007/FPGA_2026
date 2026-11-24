@@ -1,0 +1,11 @@
+{
+  "Version": "CAM1 BLC A-B-A prime E5 controlled diagnostic; not a quality repair",
+  "ProcessingEnable": true,
+  "BuildPass": false,
+  "ExitCode": 0,
+  "ExistingConstraintsMet": false,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_blc_source\\build\\CAM1_BLC_E5_3_6_0_20261025_131849_467"
+}

@@ -1,0 +1,10 @@
+{
+  "Build": "work/CAM_quality_3_6_0/rear_gain_source/build/CAM1_GAIN8_E2_3_6_0_20261024_194700_050",
+  "ReleaseEligible": false,
+  "WorstSetupNs": -0.189,
+  "FailingEndpoints": 14,
+  "Path": "network2/core/udp_final[1] -> network2/core/bad_packets CE",
+  "Action": "Reduced own passive camera diagnostic load: omit CAM0 read-only polling and wide page mux; retain CAM0 image/config/upload/frame counters. No network/constraint changes.",
+  "FinalBuild": "work/CAM_quality_3_6_0/rear_gain_source/build/CAM1_GAIN8_E2_3_6_0_20261024_195637_482",
+  "FinalExistingConstraintsMet": true
+}

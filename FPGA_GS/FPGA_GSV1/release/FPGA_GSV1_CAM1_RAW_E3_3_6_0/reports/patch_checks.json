@@ -1,0 +1,15 @@
+{
+  "native_pixel_oracle_pass": true,
+  "whole_crc_pass": true,
+  "incomplete_and_conflict_rejected": true,
+  "data_bytes": 23040,
+  "production_changes": [
+    "rtl/board/fpga_gsv1_top.v",
+    "rtl/capture/cam1_pixel_patch.v",
+    "rtl/network/m365_tx_observer.v"
+  ],
+  "camera_tables_capture_filters_ddr_network_and_constraints_unchanged": true,
+  "gain_profile_module_absent": true,
+  "cam0_owner_fix_included": false,
+  "sensor_register_writes_added": false
+}

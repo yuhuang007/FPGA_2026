@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-25T04:36:31.745100+00:00",
+  "passed": true,
+  "production_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r5.json",
+      "fresh_visual_QA_sha256": "80bdd9e248e3a5452fe3ecdd24e4049920ff4289e307c6bf81b3778f03eb0e26",
+      "crop_sha256": "1573a6c3597260fb9360d97a2b1d7015b42371af42d0b3df709d77f9c4b457c2",
+      "yolo_label_sha256": "b48ea78300038d3432f0f99a3637d454e279e450b14257791248705838cbb1fb"
+    },
+    {
+      "candidate_id": "coco_scene_000000338560",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r7.json",
+      "prior_visual_QA_sha256": "1fcc25680a4be1ab9799d657b2f00fc22d5db917b7107091777f23817a0d0164",
+      "prior_validation": "reports/clean_crop_validation_r7.json",
+      "prior_validation_sha256": "eb2b1249b23d8428c5327053c870ddd0633c3add27cd2ca746e6cb8531a3a9ac",
+      "crop_sha256": "e33ebd5b2b820b86684bdf9b4745af5c8cdcb9657dca8be4940a43be798e583b",
+      "yolo_label_sha256": "128222c9fac151b5f23a2a90058bde3a844db6aa5a8158c556f1ddc8bc928daa"
+    },
+    {
+      "candidate_id": "coco_scene_000000309391",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r5.json",
+      "fresh_visual_QA_sha256": "80bdd9e248e3a5452fe3ecdd24e4049920ff4289e307c6bf81b3778f03eb0e26",
+      "crop_sha256": "4fda881dfc27496b8c7e28b7e6c78e50adfed92cecd833129bbf58b7d471455c",
+      "yolo_label_sha256": "0fb5c3a7d7a874fa08580d6b1ed4c5e3fb21237cd03168f1931f62e9d2266165"
+    },
+    {
+      "candidate_id": "commons_scene_132116089",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r5.json",
+      "fresh_visual_QA_sha256": "80bdd9e248e3a5452fe3ecdd24e4049920ff4289e307c6bf81b3778f03eb0e26",
+      "crop_sha256": "67113d7e5068089d2f4e6cbc77c3e18ad8bd79643f662c4d1b2ccfeb71325d15",
+      "yolo_label_sha256": "74fea37bb5fc8a6c63b587e7937b3dd5f61a95aaf937d4ff3b44b4e9b891d112"
+    }
+  ],
+  "method": "Reuse only exact original pixels, crop bounds, obstacles, targets and label bytes from actual prior PC QA; changed crops require separate fresh actual visual evidence. No independent crop signature claimed.",
+  "human_signoff": false,
+  "new_images_visually_reviewed": 3
+}

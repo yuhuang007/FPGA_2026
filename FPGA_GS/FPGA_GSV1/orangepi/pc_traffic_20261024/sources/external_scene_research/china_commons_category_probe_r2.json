@@ -1,0 +1,69 @@
+[
+  {
+    "prefix": "Traffic lights of Ch",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Traffic+lights+of+Ch&aclimit=40",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": []
+      }
+    }
+  },
+  {
+    "prefix": "Traffic signals of Ch",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Traffic+signals+of+Ch&aclimit=40",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": []
+      }
+    }
+  },
+  {
+    "prefix": "Traffic signals in Ch",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Traffic+signals+in+Ch&aclimit=40",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": [
+          {
+            "*": "Traffic signals in Charente-Maritime"
+          },
+          {
+            "*": "Traffic signals in Charleroi"
+          },
+          {
+            "*": "Traffic signals in Charlottenburg-Wilmersdorf"
+          },
+          {
+            "*": "Traffic signals in Charlton County, Georgia"
+          },
+          {
+            "*": "Traffic signals in Chatham County, Georgia"
+          },
+          {
+            "*": "Traffic signals in Chemnitz"
+          },
+          {
+            "*": "Traffic signals in Cheshire"
+          },
+          {
+            "*": "Traffic signals in Chiba prefecture"
+          },
+          {
+            "*": "Traffic signals in Chicago"
+          },
+          {
+            "*": "Traffic signals in Chile"
+          },
+          {
+            "*": "Traffic signals in China"
+          },
+          {
+            "*": "Traffic signals in China by city"
+          }
+        ]
+      }
+    }
+  }
+]

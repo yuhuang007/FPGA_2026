@@ -1,0 +1,232 @@
+{
+  "version": "3.6.0 CAM1 IOREG E4 controlled board experiment",
+  "bitstream": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_IOREG_E4_3_6_0\\FPGA_GSV1_CAM1_IOREG_E4_3_6_0_HDMI_1080P60.sbit",
+  "sha256": "ff11e6121a4adf898f6d74115883a9d7bc2a20d4f38508a40fee56b94692e896",
+  "generated_utc": "2026-10-25T04:27:34.633351+00:00",
+  "generated_local": "2026-10-25T12:27:34.633351+08:00",
+  "programmed": false,
+  "board_verified": false,
+  "green_lines_fixed": false,
+  "qualified_functional_release": false,
+  "build_wrapper_original_pass": false,
+  "independent_implementation_validation_pass": true,
+  "build_wrapper_issue": "Premature Tcl guard read failed before deferred implementation started. Original BuildPass:false retained. All actual design actions succeeded; independent exact-error classification + snapshot hashes +10 IREGIS + fresh final-DB STA query validated. Future flow guard removed; no RTL/FDC repair or rebuild.",
+  "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source\\build\\CAM1_IOREG_E4_3_6_0_20261025_121928_558",
+  "uart_identity": "N2 35I; original C1R8 and C1PX payload unchanged",
+  "actual_changes": "CAM1 data8/HREF/VS existing first positive-edge FFs packed into IOL. UART revision only other RTL edit.",
+  "unchanged": "Sensor config/exposure/gain/BLC, IO standard/drive/PCLK/PLL, camera byte assembly, CAM0 owner, HDMI/DDR/filter/network logic.",
+  "physical_pnr_caveat": "Placement/routing rerun can alter paths beyond the logical change. No claim that only one physical quantity changed.",
+  "rollback": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\FPGA_GSV1_CAM1_RAW_E3_3_6_0_HDMI_1080P60.sbit",
+  "rollback_sha256": "8e7addbe24c20757de9f2286b57fd83ef0539319b5dd83869b961c23d8286756",
+  "timing": {
+    "internal_constraints_met": true,
+    "summaries": [
+      {
+        "summary": "Setup Summary(Slow Corner):",
+        "worst_slack_ns": 0.07,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Slow Corner):",
+        "worst_slack_ns": 0.096,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Slow Corner):",
+        "worst_slack_ns": 4.358,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Slow Corner):",
+        "worst_slack_ns": 0.505,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Slow Corner):",
+        "worst_slack_ns": 0.397,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Setup Summary(Fast Corner):",
+        "worst_slack_ns": 0.312,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Fast Corner):",
+        "worst_slack_ns": 0.122,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Fast Corner):",
+        "worst_slack_ns": 5.456,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Fast Corner):",
+        "worst_slack_ns": 0.342,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Fast Corner):",
+        "worst_slack_ns": 0.568,
+        "failing_endpoints": 0
+      }
+    ],
+    "resources": {
+      "CLMA": 4486.0,
+      "CLMS": 2815.0,
+      "DRM": 109.5,
+      "PLL": 5.0,
+      "LUT": 22292.0,
+      "FF": 23176.0
+    },
+    "implemented_input_registers": {
+      "cmos2_data[0]": "IREGIS",
+      "cmos2_data[1]": "IREGIS",
+      "cmos2_data[2]": "IREGIS",
+      "cmos2_data[3]": "IREGIS",
+      "cmos2_data[4]": "IREGIS",
+      "cmos2_data[5]": "IREGIS",
+      "cmos2_data[6]": "IREGIS",
+      "cmos2_data[7]": "IREGIS",
+      "cmos2_href": "IREGIS",
+      "cmos2_vsync": "IREGIS"
+    },
+    "io_receiver_requirements": [
+      {
+        "port": "cmos2_data[0]",
+        "corner": "SLOW",
+        "setup_ns": -3.084,
+        "hold_ns": 5.331
+      },
+      {
+        "port": "cmos2_data[0]",
+        "corner": "FAST",
+        "setup_ns": -1.716,
+        "hold_ns": 3.32
+      },
+      {
+        "port": "cmos2_data[1]",
+        "corner": "SLOW",
+        "setup_ns": -3.043,
+        "hold_ns": 5.29
+      },
+      {
+        "port": "cmos2_data[1]",
+        "corner": "FAST",
+        "setup_ns": -1.68,
+        "hold_ns": 3.284
+      },
+      {
+        "port": "cmos2_data[2]",
+        "corner": "SLOW",
+        "setup_ns": -3.044,
+        "hold_ns": 5.291
+      },
+      {
+        "port": "cmos2_data[2]",
+        "corner": "FAST",
+        "setup_ns": -1.681,
+        "hold_ns": 3.285
+      },
+      {
+        "port": "cmos2_data[3]",
+        "corner": "SLOW",
+        "setup_ns": -3.043,
+        "hold_ns": 5.289
+      },
+      {
+        "port": "cmos2_data[3]",
+        "corner": "FAST",
+        "setup_ns": -1.683,
+        "hold_ns": 3.287
+      },
+      {
+        "port": "cmos2_data[4]",
+        "corner": "SLOW",
+        "setup_ns": -3.059,
+        "hold_ns": 5.306
+      },
+      {
+        "port": "cmos2_data[4]",
+        "corner": "FAST",
+        "setup_ns": -1.691,
+        "hold_ns": 3.295
+      },
+      {
+        "port": "cmos2_data[5]",
+        "corner": "SLOW",
+        "setup_ns": -3.006,
+        "hold_ns": 5.252
+      },
+      {
+        "port": "cmos2_data[5]",
+        "corner": "FAST",
+        "setup_ns": -1.646,
+        "hold_ns": 3.25
+      },
+      {
+        "port": "cmos2_data[6]",
+        "corner": "SLOW",
+        "setup_ns": -3.012,
+        "hold_ns": 5.258
+      },
+      {
+        "port": "cmos2_data[6]",
+        "corner": "FAST",
+        "setup_ns": -1.652,
+        "hold_ns": 3.256
+      },
+      {
+        "port": "cmos2_data[7]",
+        "corner": "SLOW",
+        "setup_ns": -3.01,
+        "hold_ns": 5.256
+      },
+      {
+        "port": "cmos2_data[7]",
+        "corner": "FAST",
+        "setup_ns": -1.65,
+        "hold_ns": 3.254
+      },
+      {
+        "port": "cmos2_href",
+        "corner": "SLOW",
+        "setup_ns": -3.863,
+        "hold_ns": 5.475
+      },
+      {
+        "port": "cmos2_href",
+        "corner": "FAST",
+        "setup_ns": -2.277,
+        "hold_ns": 3.415
+      },
+      {
+        "port": "cmos2_vsync",
+        "corner": "SLOW",
+        "setup_ns": -3.864,
+        "hold_ns": 5.476
+      },
+      {
+        "port": "cmos2_vsync",
+        "corner": "FAST",
+        "setup_ns": -2.278,
+        "hold_ns": 3.416
+      }
+    ],
+    "worst_pad_setup_ns": -1.646,
+    "worst_pad_hold_ns": 5.476,
+    "source_io_slack_unknown": true,
+    "external_input_timing_signed_off": false,
+    "limits": [
+      "No source tCO min/max/launch-edge guarantee, TY DOVDD or actual board/FFC skew available.",
+      "IO datasheet is receiver requirement only, not measured margin. Unknown input delay has not been replaced with zero.",
+      "All inherited clocks/IO standards/uncertainties preserved; no false path or relaxed period added.",
+      "Existing network/other external timing limits remain. No board quality claim from internal STA.",
+      "PAP_IO_REGISTER changes physical sampling aperture; hold demand may grow. No source margin improvement claimed."
+    ]
+  },
+  "minimal_board_action": "One manual SRAM download; KEY6 original, KEY5 rear single; compare same light/position then cover lens once5s. Keep COM23 free; no reset/cabling/Pi/LIVE.",
+  "interpretation": "Improvement supports DVP input implementation sensitivity; persistent lines leave source/ISP or other electrical faults unresolved. No unique root cause from one comparison.",
+  "front30_fix_included": false
+}

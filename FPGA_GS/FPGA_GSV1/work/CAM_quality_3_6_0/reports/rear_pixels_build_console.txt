@@ -1,0 +1,47 @@
+BUILD_DIRECTORY=E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\CAM_quality_3_6_0\rear_pixels_source\build\CAM1_RAW_E3_3_6_0_20261024_203400_081
+{
+  "Version": "CAM1 pre-DDR native pixel patch E3; original sensor settings; no quality fix claimed",
+  "ProcessingEnable": true,
+  "BuildPass": false,
+  "ExitCode": 1,
+  "ExistingConstraintsMet": false,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_pixels_source\\build\\CAM1_RAW_E3_3_6_0_20261024_203400_081"
+}
+Placed instance u_DDR3_50H/u_ddrphy_top/I_GTP_DLL/gopdll(gopDLL) on DLL_7_186, and placed u_DDR3_50H/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].u_ddrphy_data_slice/u_ddc_dqs/opit_0(gopDQS_DDC) on DQSL_6_180.
+Placed instance u_DDR3_50H/u_ddrphy_top/I_GTP_DLL/gopdll(gopDLL) on DLL_7_186, and placed u_DDR3_50H/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].u_ddrphy_data_slice/u_ddc_dqs/opit_0(gopDQS_DDC) on DQSL_6_224.
+Placed instance u_DDR3_50H/u_ddrphy_top/I_GTP_DLL/gopdll(gopDLL) on DLL_7_186, and placed u_DDR3_50H/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].u_ddrphy_data_slice/u_ddc_dqs/opit_0(gopDQS_DDC) on DQSL_6_276.
+Process placement takes 0.00 sec.
+
+Phase 2.3 IO placement started.
+IO placement takes 0.08 sec.
+
+Phase 2.4 2nd GP placement started.
+Run super clustering :
+	Initial slack -5550.
+	9 iterations finished.
+	Final slack -2292.
+Super clustering done.
+Design Utilization : 53%.
+Worst slack after global placement is 115
+2nd GP placement takes 10.30 sec.
+
+Wirelength after global placement is 214778 and checksum is 3D2851D0C64F9EC1.
+Global placement takes 10.94 sec.
+
+Phase 3 Post global placement started.
+Phase 3.1 Macro cell placement started.
+I: Process macros using "Greedy".
+Ram placement takes 0.00 sec.
+Wirelength after macro cell placement is 234800 and checksum is BE7DA42F313DB849.
+Macro cell placement takes 0.06 sec.
+
+Phase 3.2 3rd GP placement started.
+Run super clustering :
+	Initial slack -5550.
+	7 iterations finished.
+	Final slack -3273.
+Super clustering done.
+Design Utilization : 53%.

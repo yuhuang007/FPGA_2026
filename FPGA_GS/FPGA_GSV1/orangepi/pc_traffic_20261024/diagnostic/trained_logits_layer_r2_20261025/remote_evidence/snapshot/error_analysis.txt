@@ -1,0 +1,172 @@
+# simulator_error: calculate the output error of each layer of the simulator (compared to the 'golden' value).
+#              entire: output error of each layer between 'golden' and 'simulator', these errors will accumulate layer by layer.
+#              single: single-layer output error between 'golden' and 'simulator', can better reflect the single-layer accuracy of the simulator.
+# runtime_error: calculate the output error of each layer of the runtime.
+#              entire: output error of each layer between 'golden' and 'runtime', these errors will accumulate layer by layer.
+#              single_sim: single-layer output error between 'simulator' and 'runtime', can better reflect the single-layer accuracy of runtime.
+
+layer_name                                                      simulator_error                             runtime_error                      
+                                                            entire              single                  entire           single_sim            
+                                                         cos      euc        cos      euc            cos      euc        cos      euc          
+---------------------------------------------------------------------------------------------------------------------------------------
+[Input] images                                         1.00000 | 0.0       1.00000 | 0.0           1.00000 | 0.0814    1.00000 | 0.0814        
+[Conv] /model.0/conv/Conv_output_0                     1.00000 | 2.6835    1.00000 | 2.6835        
+[exSwish] /model.0/act/Mul_output_0                    1.00000 | 2.1805    1.00000 | 1.1748        1.00000 | 10.088    1.00000 | 9.7011        
+[Conv] /model.1/conv/Conv_output_0                     1.00000 | 3.4875    1.00000 | 2.4525        
+[exSwish] /model.1/act/Mul_output_0                    1.00000 | 2.6267    1.00000 | 0.9055        1.00000 | 11.728    1.00000 | 7.0159        
+[Conv] /model.2/cv1/conv/Conv_output_0                 1.00000 | 1.9806    1.00000 | 0.9047        
+[exSwish] /model.2/cv1/act/Mul_output_0                1.00000 | 1.3436    1.00000 | 0.4832        1.00000 | 5.2529    1.00000 | 2.8646        
+[Split] /model.2/Slice_output_0                        1.00000 | 1.1891    1.00000 | 0.2680        1.00000 | 4.3800    1.00000 | 0.0           
+[Split] /model.2/Slice_1_output_0                      1.00000 | 0.6261    1.00000 | 0.2031        1.00000 | 2.9021    1.00000 | 0.0           
+[Conv] /model.2/m.0/cv1/conv/Conv_output_0             1.00000 | 2.1492    1.00000 | 1.4069        
+[exSwish] /model.2/m.0/cv1/act/Mul_output_0            1.00000 | 1.6956    1.00000 | 0.4202        1.00000 | 5.5251    1.00000 | 2.3183        
+[Conv] /model.2/m.0/cv2/conv/Conv_output_0             1.00000 | 2.2034    1.00000 | 0.6970        
+[exSwish] /model.2/m.0/cv2/act/Mul_output_0            1.00000 | 1.4522    1.00000 | 0.4891        1.00000 | 5.5195    1.00000 | 2.2165        
+[Add] /model.2/m.0/Add_output_0                        1.00000 | 1.6738    1.00000 | 0.5540        1.00000 | 6.3745    1.00000 | 0.0           
+[Concat] /model.2/Concat_output_0                      1.00000 | 2.1446    1.00000 | 0.5301        1.00000 | 8.2605    1.00000 | 0.0           
+[Conv] /model.2/cv2/conv/Conv_output_0                 1.00000 | 1.6370    1.00000 | 0.6565        
+[exSwish] /model.2/cv2/act/Mul_output_0                1.00000 | 1.1239    1.00000 | 0.3427        1.00000 | 3.2740    1.00000 | 1.3551        
+[Conv] /model.3/conv/Conv_output_0                     1.00000 | 1.1454    1.00000 | 0.2876        
+[exSwish] /model.3/act/Mul_output_0                    1.00000 | 0.6444    1.00000 | 0.1809        1.00000 | 1.6680    1.00000 | 0.4472        
+[Conv] /model.4/cv1/conv/Conv_output_0                 1.00000 | 1.2095    1.00000 | 0.3478        
+[exSwish] /model.4/cv1/act/Mul_output_0                1.00000 | 0.7144    1.00000 | 0.1552        0.99999 | 1.9011    1.00000 | 0.4191        
+[Split] /model.4/Slice_output_0                        1.00000 | 0.6365    1.00000 | 0.0637        0.99999 | 1.6499    1.00000 | 0.0           
+[Split] /model.4/Slice_1_output_0                      1.00000 | 0.3245    1.00000 | 0.0762        1.00000 | 0.9449    1.00000 | 0.0           
+[Conv] /model.4/m.0/cv1/conv/Conv_output_0             1.00000 | 0.5657    1.00000 | 0.2084        
+[exSwish] /model.4/m.0/cv1/act/Mul_output_0            1.00000 | 0.2849    1.00000 | 0.0678        0.99999 | 0.7584    1.00000 | 0.1625        
+[Conv] /model.4/m.0/cv2/conv/Conv_output_0             1.00000 | 0.6703    1.00000 | 0.1532        
+[exSwish] /model.4/m.0/cv2/act/Mul_output_0            1.00000 | 0.3815    1.00000 | 0.0998        1.00000 | 0.9419    1.00000 | 0.2297        
+[Add] /model.4/m.0/Add_output_0                        1.00000 | 0.4841    1.00000 | 0.1608        1.00000 | 1.3233    1.00000 | 0.0           
+[Conv] /model.4/m.1/cv1/conv/Conv_output_0             1.00000 | 0.5339    1.00000 | 0.1913        
+[exSwish] /model.4/m.1/cv1/act/Mul_output_0            1.00000 | 0.1545    1.00000 | 0.0352        0.99999 | 0.4769    1.00000 | 0.0861        
+[Conv] /model.4/m.1/cv2/conv/Conv_output_0             1.00000 | 0.7546    1.00000 | 0.2121        
+[exSwish] /model.4/m.1/cv2/act/Mul_output_0            1.00000 | 0.5363    1.00000 | 0.1685        1.00000 | 1.6597    1.00000 | 0.4646        
+[Add] /model.4/m.1/Add_output_0                        1.00000 | 0.7453    1.00000 | 0.2666        1.00000 | 2.1140    1.00000 | 0.0           
+[Concat] /model.4/Concat_output_0                      1.00000 | 1.1402    1.00000 | 0.2460        1.00000 | 3.1358    1.00000 | 0.0           
+[Conv] /model.4/cv2/conv/Conv_output_0                 1.00000 | 0.9575    1.00000 | 0.2939        
+[exSwish] /model.4/cv2/act/Mul_output_0                1.00000 | 0.4939    1.00000 | 0.1153        0.99999 | 1.4287    1.00000 | 0.3264        
+[Conv] /model.5/conv/Conv_output_0                     1.00000 | 0.6579    1.00000 | 0.1386        
+[exSwish] /model.5/act/Mul_output_0                    1.00000 | 0.3465    1.00000 | 0.0783        0.99999 | 1.1129    1.00000 | 0.1939        
+[Conv] /model.6/cv1/conv/Conv_output_0                 1.00000 | 0.9074    1.00000 | 0.1856        
+[exSwish] /model.6/cv1/act/Mul_output_0                1.00000 | 0.4457    1.00000 | 0.0897        0.99999 | 1.4948    1.00000 | 0.3281        
+[Split] /model.6/Slice_output_0                        1.00000 | 0.3892    1.00000 | 0.0459        0.99999 | 1.2877    1.00000 | 0.0           
+[Split] /model.6/Slice_1_output_0                      1.00000 | 0.2172    1.00000 | 0.0350        0.99999 | 0.7593    1.00000 | 0.0           
+[Conv] /model.6/m.0/cv1/conv/Conv_output_0             1.00000 | 0.5840    1.00000 | 0.1404        
+[exSwish] /model.6/m.0/cv1/act/Mul_output_0            1.00000 | 0.2032    1.00000 | 0.0414        0.99999 | 0.7166    1.00000 | 0.1362        
+[Conv] /model.6/m.0/cv2/conv/Conv_output_0             1.00000 | 0.4017    1.00000 | 0.0812        
+[exSwish] /model.6/m.0/cv2/act/Mul_output_0            1.00000 | 0.2189    1.00000 | 0.0474        0.99999 | 0.6451    1.00000 | 0.1209        
+[Add] /model.6/m.0/Add_output_0                        1.00000 | 0.3123    1.00000 | 0.0722        0.99999 | 0.9964    1.00000 | 0.0           
+[Conv] /model.6/m.1/cv1/conv/Conv_output_0             1.00000 | 0.5508    1.00000 | 0.1326        
+[exSwish] /model.6/m.1/cv1/act/Mul_output_0            1.00000 | 0.1601    1.00000 | 0.0367        0.99999 | 0.5422    1.00000 | 0.1204        
+[Conv] /model.6/m.1/cv2/conv/Conv_output_0             1.00000 | 0.5269    1.00000 | 0.1239        
+[exSwish] /model.6/m.1/cv2/act/Mul_output_0            1.00000 | 0.3245    1.00000 | 0.0968        0.99999 | 1.0558    1.00000 | 0.2922        
+[Add] /model.6/m.1/Add_output_0                        1.00000 | 0.4474    1.00000 | 0.1247        1.00000 | 1.4403    1.00000 | 0.0           
+[Concat] /model.6/Concat_output_0                      1.00000 | 0.7046    1.00000 | 0.1180        0.99999 | 2.3025    1.00000 | 0.0           
+[Conv] /model.6/cv2/conv/Conv_output_0                 1.00000 | 0.6044    1.00000 | 0.1616        
+[exSwish] /model.6/cv2/act/Mul_output_0                1.00000 | 0.2329    1.00000 | 0.0532        0.99999 | 0.8516    1.00000 | 0.1606        
+[Conv] /model.7/conv/Conv_output_0                     1.00000 | 0.3941    1.00000 | 0.0957        
+[exSwish] /model.7/act/Mul_output_0                    1.00000 | 0.1761    1.00000 | 0.0410        0.99999 | 0.6956    1.00000 | 0.1074        
+[Conv] /model.8/cv1/conv/Conv_output_0                 1.00000 | 0.4653    1.00000 | 0.1162        
+[exSwish] /model.8/cv1/act/Mul_output_0                1.00000 | 0.2385    1.00000 | 0.0605        0.99999 | 1.1193    1.00000 | 0.2303        
+[Split] /model.8/Slice_output_0                        1.00000 | 0.2212    1.00000 | 0.0381        0.99999 | 1.0609    1.00000 | 0.0           
+[Split] /model.8/Slice_1_output_0                      1.00000 | 0.0892    1.00000 | 0.0163        0.99999 | 0.3568    1.00000 | 0.0           
+[Conv] /model.8/m.0/cv1/conv/Conv_output_0             1.00000 | 0.2902    1.00000 | 0.0792        
+[exSwish] /model.8/m.0/cv1/act/Mul_output_0            1.00000 | 0.1407    1.00000 | 0.0386        0.99999 | 0.5933    1.00000 | 0.0939        
+[Conv] /model.8/m.0/cv2/conv/Conv_output_0             1.00000 | 0.4483    1.00000 | 0.0914        
+[exSwish] /model.8/m.0/cv2/act/Mul_output_0            1.00000 | 0.2585    1.00000 | 0.0735        0.99999 | 1.1754    1.00000 | 0.2302        
+[Add] /model.8/m.0/Add_output_0                        1.00000 | 0.2805    1.00000 | 0.0716        0.99999 | 1.2480    1.00000 | 0.0           
+[Concat] /model.8/Concat_output_0                      1.00000 | 0.3682    1.00000 | 0.0640        0.99999 | 1.6764    1.00000 | 0.0           
+[Conv] /model.8/cv2/conv/Conv_output_0                 1.00000 | 0.4661    1.00000 | 0.1146        
+[exSwish] /model.8/cv2/act/Mul_output_0                1.00000 | 0.2229    1.00000 | 0.0604        0.99999 | 1.0775    1.00000 | 0.1900        
+[Conv] /model.9/cv1/conv/Conv_output_0                 1.00000 | 0.2688    1.00000 | 0.0961        
+[exSwish] /model.9/cv1/act/Mul_output_0                1.00000 | 0.2588    1.00000 | 0.1210        1.00000 | 1.1207    1.00000 | 0.3022        
+[MaxPool] /model.9/m/MaxPool_output_0                  1.00000 | 0.3740    1.00000 | 0.1266        1.00000 | 1.8130    1.00000 | 0.0           
+[MaxPool] /model.9/m_1/MaxPool_output_0                1.00000 | 0.4527    1.00000 | 0.1565        1.00000 | 2.4087    1.00000 | 0.0           
+[MaxPool] /model.9/m_2/MaxPool_output_0                1.00000 | 0.5074    1.00000 | 0.1801        1.00000 | 2.8633    1.00000 | 0.0           
+[Concat] /model.9/Concat_output_0                      1.00000 | 0.8181    1.00000 | 0.2815        1.00000 | 4.3060    1.00000 | 0.0           
+[Conv] /model.9/cv2/conv/Conv_output_0                 1.00000 | 0.3991    1.00000 | 0.1501        
+[exSwish] /model.9/cv2/act/Mul_output_0                1.00000 | 0.1156    1.00000 | 0.0281        0.99995 | 0.9377    1.00000 | 0.0908        
+[Resize] /model.10/Resize_output_0                     1.00000 | 0.2312    1.00000 | 0.0401        0.99995 | 1.8751    1.00000 | 0.0           
+[Concat] /model.11/Concat_output_0                     1.00000 | 0.3281    1.00000 | 0.0542        0.99997 | 2.0588    1.00000 | 0.0           
+[Conv] /model.12/cv1/conv/Conv_output_0                1.00000 | 0.6245    1.00000 | 0.1507        
+[exSwish] /model.12/cv1/act/Mul_output_0               1.00000 | 0.3376    1.00000 | 0.0816        0.99997 | 1.9711    1.00000 | 0.1990        
+[Split] /model.12/Slice_output_0                       1.00000 | 0.2715    1.00000 | 0.0342        0.99997 | 1.5605    1.00000 | 0.0           
+[Split] /model.12/Slice_1_output_0                     1.00000 | 0.2006    1.00000 | 0.0408        0.99998 | 1.2042    1.00000 | 0.0           
+[Conv] /model.12/m.0/cv1/conv/Conv_output_0            1.00000 | 0.3752    1.00000 | 0.1091        
+[exSwish] /model.12/m.0/cv1/act/Mul_output_0           1.00000 | 0.1239    1.00000 | 0.0278        0.99997 | 0.7420    1.00000 | 0.0677        
+[Conv] /model.12/m.0/cv2/conv/Conv_output_0            1.00000 | 0.3015    1.00000 | 0.0718        
+[exSwish] /model.12/m.0/cv2/act/Mul_output_0           1.00000 | 0.1628    1.00000 | 0.0480        0.99998 | 1.0088    1.00000 | 0.1171        
+[Concat] /model.12/Concat_output_0                     1.00000 | 0.3747    1.00000 | 0.0620        0.99998 | 2.2139    1.00000 | 0.0           
+[Conv] /model.12/cv2/conv/Conv_output_0                1.00000 | 0.4438    1.00000 | 0.1079        
+[exSwish] /model.12/cv2/act/Mul_output_0               1.00000 | 0.1798    1.00000 | 0.0511        0.99998 | 0.9257    1.00000 | 0.1281        
+[Resize] /model.13/Resize_output_0                     1.00000 | 0.3595    1.00000 | 0.0691        0.99998 | 1.8509    1.00000 | 0.0           
+[Concat] /model.14/Concat_output_0                     1.00000 | 0.6108    1.00000 | 0.1005        0.99999 | 2.3377    1.00000 | 0.0           
+[Conv] /model.15/cv1/conv/Conv_output_0                1.00000 | 0.6704    1.00000 | 0.1867        
+[exSwish] /model.15/cv1/act/Mul_output_0               1.00000 | 0.3810    1.00000 | 0.1381        1.00000 | 1.4300    1.00000 | 0.3400        
+[Split] /model.15/Slice_output_0                       1.00000 | 0.2678    1.00000 | 0.0523        0.99999 | 1.0464    1.00000 | 0.0           
+[Split] /model.15/Slice_1_output_0                     1.00000 | 0.2709    1.00000 | 0.0721        1.00000 | 0.9750    1.00000 | 0.0           
+[Conv] /model.15/m.0/cv1/conv/Conv_output_0            1.00000 | 0.5576    1.00000 | 0.1865        
+[exSwish] /model.15/m.0/cv1/act/Mul_output_0           1.00000 | 0.1944    1.00000 | 0.0493        0.99999 | 0.6282    1.00000 | 0.1225        
+[Conv] /model.15/m.0/cv2/conv/Conv_output_0            1.00000 | 0.6165    1.00000 | 0.1564        
+[exSwish] /model.15/m.0/cv2/act/Mul_output_0           1.00000 | 0.3624    1.00000 | 0.1204        1.00000 | 1.1324    1.00000 | 0.2911        
+[Concat] /model.15/Concat_output_0                     1.00000 | 0.5258    1.00000 | 0.1202        1.00000 | 1.8239    1.00000 | 0.0           
+[Conv] /model.15/cv2/conv/Conv_output_0                1.00000 | 0.7614    1.00000 | 0.2412        
+[exSwish] /model.15/cv2/act/Mul_output_0               1.00000 | 0.4034    1.00000 | 0.1336        0.99999 | 1.3906    1.00000 | 0.3380        
+[Conv] /model.16/conv/Conv_output_0                    1.00000 | 0.4902    1.00000 | 0.1093        
+[exSwish] /model.16/act/Mul_output_0                   1.00000 | 0.2544    1.00000 | 0.0574        0.99999 | 1.0040    1.00000 | 0.1812        
+[Concat] /model.17/Concat_output_0                     1.00000 | 0.3115    1.00000 | 0.0514        0.99999 | 1.3655    1.00000 | 0.0           
+[Conv] /model.18/cv1/conv/Conv_output_0                1.00000 | 0.6423    1.00000 | 0.1489        
+[exSwish] /model.18/cv1/act/Mul_output_0               1.00000 | 0.3620    1.00000 | 0.0797        0.99999 | 1.5361    1.00000 | 0.2571        
+[Split] /model.18/Slice_output_0                       1.00000 | 0.2578    1.00000 | 0.0316        0.99998 | 0.9751    1.00000 | 0.0           
+[Split] /model.18/Slice_1_output_0                     1.00000 | 0.2541    1.00000 | 0.0436        0.99999 | 1.1870    1.00000 | 0.0           
+[Conv] /model.18/m.0/cv1/conv/Conv_output_0            1.00000 | 0.4095    1.00000 | 0.1065        
+[exSwish] /model.18/m.0/cv1/act/Mul_output_0           1.00000 | 0.1193    1.00000 | 0.0335        0.99999 | 0.6305    1.00000 | 0.1271        
+[Conv] /model.18/m.0/cv2/conv/Conv_output_0            1.00000 | 0.4855    1.00000 | 0.1217        
+[exSwish] /model.18/m.0/cv2/act/Mul_output_0           1.00000 | 0.2821    1.00000 | 0.0748        0.99998 | 1.3631    1.00000 | 0.2342        
+[Concat] /model.18/Concat_output_0                     1.00000 | 0.4590    1.00000 | 0.0726        0.99998 | 2.0536    1.00000 | 0.0           
+[Conv] /model.18/cv2/conv/Conv_output_0                1.00000 | 0.5664    1.00000 | 0.1408        
+[exSwish] /model.18/cv2/act/Mul_output_0               1.00000 | 0.2437    1.00000 | 0.0650        0.99999 | 1.1632    1.00000 | 0.2055        
+[Conv] /model.19/conv/Conv_output_0                    1.00000 | 0.3249    1.00000 | 0.0584        
+[exSwish] /model.19/act/Mul_output_0                   1.00000 | 0.1560    1.00000 | 0.0297        0.99998 | 0.7382    1.00000 | 0.0803        
+[Concat] /model.20/Concat_output_0                     1.00000 | 0.1942    1.00000 | 0.0283        0.99997 | 1.1933    1.00000 | 0.0           
+[Conv] /model.21/cv1/conv/Conv_output_0                1.00000 | 0.5975    1.00000 | 0.1031        
+[exSwish] /model.21/cv1/act/Mul_output_0               1.00000 | 0.3427    1.00000 | 0.0543        0.99996 | 1.7810    1.00000 | 0.1477        
+[Split] /model.21/Slice_output_0                       1.00000 | 0.2761    1.00000 | 0.0272        0.99996 | 1.2143    1.00000 | 0.0           
+[Split] /model.21/Slice_1_output_0                     1.00000 | 0.2031    1.00000 | 0.0243        0.99995 | 1.3029    1.00000 | 0.0           
+[Conv] /model.21/m.0/cv1/conv/Conv_output_0            1.00000 | 0.6325    1.00000 | 0.0737        
+[exSwish] /model.21/m.0/cv1/act/Mul_output_0           1.00000 | 0.3431    1.00000 | 0.0302        0.99978 | 2.6579    1.00000 | 0.0735        
+[Conv] /model.21/m.0/cv2/conv/Conv_output_0            1.00000 | 1.3452    1.00000 | 0.0761        
+[exSwish] /model.21/m.0/cv2/act/Mul_output_0           0.99999 | 0.6454    1.00000 | 0.0444        0.99974 | 5.3308    1.00000 | 0.2969        
+[Concat] /model.21/Concat_output_0                     1.00000 | 0.7307    1.00000 | 0.0484        0.99979 | 5.6205    1.00000 | 0.0           
+[Conv] /model.21/cv2/conv/Conv_output_0                1.00000 | 1.1952    1.00000 | 0.0997        
+[exSwish] /model.21/cv2/act/Mul_output_0               0.99999 | 0.4997    1.00000 | 0.0377        0.99980 | 2.5999    1.00000 | 0.2128        
+[Conv] /model.22/cv2.2/cv2.2.0/conv/Conv_output_0      0.99999 | 0.9502    1.00000 | 0.0477        
+[exSwish] /model.22/cv2.2/cv2.2.0/act/Mul_output_0     0.99999 | 0.6925    1.00000 | 0.0420        0.99989 | 2.0127    1.00000 | 0.1414        
+[Conv] /model.22/cv2.2/cv2.2.1/conv/Conv_output_0      0.99999 | 2.0978    1.00000 | 0.0877        
+[exSwish] /model.22/cv2.2/cv2.2.1/act/Mul_output_0     0.99999 | 1.6563    1.00000 | 0.0941        0.99993 | 4.1039    1.00000 | 0.6103        
+[Conv] box_s32                                         1.00000 | 0.8845    1.00000 | 0.0822        0.99998 | 2.4525    1.00000 | 0.0002        
+[Conv] /model.22/cv3.2/cv3.2.0/conv/Conv_output_0      0.99999 | 0.6042    1.00000 | 0.0268        
+[exSwish] /model.22/cv3.2/cv3.2.0/act/Mul_output_0     0.99999 | 0.4031    1.00000 | 0.0242        0.99978 | 1.5581    1.00000 | 0.0582        
+[Conv] /model.22/cv3.2/cv3.2.1/conv/Conv_output_0      0.99999 | 0.6712    1.00000 | 0.0300        
+[exSwish] /model.22/cv3.2/cv3.2.1/act/Mul_output_0     0.99999 | 0.3594    1.00000 | 0.0286        0.99989 | 1.3277    1.00000 | 0.0696        
+[Conv] class_logits_s32                                1.00000 | 0.3074    1.00000 | 0.0544        0.99999 | 1.3750    1.00000 | 0.0           
+[Conv] /model.22/cv2.1/cv2.1.0/conv/Conv_output_0      1.00000 | 0.5870    1.00000 | 0.1302        
+[exSwish] /model.22/cv2.1/cv2.1.0/act/Mul_output_0     1.00000 | 0.3265    1.00000 | 0.0751        0.99998 | 1.5988    1.00000 | 0.4421        
+[Conv] /model.22/cv2.1/cv2.1.1/conv/Conv_output_0      1.00000 | 1.1707    1.00000 | 0.2202        
+[exSwish] /model.22/cv2.1/cv2.1.1/act/Mul_output_0     1.00000 | 0.9162    1.00000 | 0.2156        0.99999 | 3.9832    1.00000 | 1.1683        
+[Conv] box_s16                                         1.00000 | 0.8451    1.00000 | 0.2282        0.99999 | 3.9031    1.00000 | 0.0089        
+[Conv] /model.22/cv3.1/cv3.1.0/conv/Conv_output_0      1.00000 | 0.5769    1.00000 | 0.0873        
+[exSwish] /model.22/cv3.1/cv3.1.0/act/Mul_output_0     1.00000 | 0.4055    1.00000 | 0.0740        0.99998 | 1.6222    1.00000 | 0.1753        
+[Conv] /model.22/cv3.1/cv3.1.1/conv/Conv_output_0      1.00000 | 0.7118    1.00000 | 0.0791        
+[exSwish] /model.22/cv3.1/cv3.1.1/act/Mul_output_0     1.00000 | 0.4081    1.00000 | 0.0736        0.99998 | 1.5938    1.00000 | 0.1746        
+[Conv] class_logits_s16                                1.00000 | 0.3912    1.00000 | 0.1108        1.00000 | 1.1516    1.00000 | 0.0078        
+[Conv] /model.22/cv2.0/cv2.0.0/conv/Conv_output_0      1.00000 | 0.9569    1.00000 | 0.2421        
+[exSwish] /model.22/cv2.0/cv2.0.0/act/Mul_output_0     1.00000 | 0.4104    1.00000 | 0.1049        0.99999 | 1.4990    1.00000 | 0.4625        
+[Conv] /model.22/cv2.0/cv2.0.1/conv/Conv_output_0      1.00000 | 2.3803    1.00000 | 0.4567        
+[exSwish] /model.22/cv2.0/cv2.0.1/act/Mul_output_0     1.00000 | 1.8353    1.00000 | 0.4290        0.99999 | 6.7379    1.00000 | 2.5563        
+[Conv] box_s8                                          1.00000 | 1.8300    1.00000 | 0.4663        1.00000 | 6.1640    1.00000 | 0.0097        
+[Conv] /model.22/cv3.0/cv3.0.0/conv/Conv_output_0      1.00000 | 1.2341    1.00000 | 0.2538        
+[exSwish] /model.22/cv3.0/cv3.0.0/act/Mul_output_0     1.00000 | 0.7793    1.00000 | 0.1405        0.99998 | 2.8448    1.00000 | 0.3551        
+[Conv] /model.22/cv3.0/cv3.0.1/conv/Conv_output_0      1.00000 | 1.5602    1.00000 | 0.1896        
+[exSwish] /model.22/cv3.0/cv3.0.1/act/Mul_output_0     1.00000 | 1.0398    1.00000 | 0.1872        0.99998 | 4.1399    1.00000 | 0.4473        
+[Conv] class_logits_s8                                 1.00000 | 0.7973    1.00000 | 0.2440        1.00000 | 2.3827    1.00000 | 0.0020        

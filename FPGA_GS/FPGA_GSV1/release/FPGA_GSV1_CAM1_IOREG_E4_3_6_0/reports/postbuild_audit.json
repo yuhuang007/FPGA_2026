@@ -1,0 +1,40 @@
+{
+  "ImplementationValidated": true,
+  "OriginalWrapperBuildPass": false,
+  "original_result_preserved": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source\\build\\CAM1_IOREG_E4_3_6_0_20261025_121928_558\\result.json",
+  "error_classification": "Only five upfront guard-read errors and their five parse summaries; all before implementation action execution. PDS does not defer plain Tcl between scheduled actions.",
+  "original_errors": [
+    "E: couldn't open \"device_map/run.log\": no such file or directory",
+    "E: Flow-0163: Failed to parse file \"E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.tcl\" at line 87. Check if the command options or arguments are valid.",
+    "E: can't read \"mf\": no such variable",
+    "E: Flow-0163: Failed to parse file \"E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.tcl\" at line 88. Check if the command options or arguments are valid.",
+    "E: can't read \"mf\": no such variable",
+    "E: Flow-0163: Failed to parse file \"E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.tcl\" at line 89. Check if the command options or arguments are valid.",
+    "E: can't read \"mapping_log\": no such variable",
+    "E: Flow-0163: Failed to parse file \"E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.tcl\" at line 90. Check if the command options or arguments are valid.",
+    "E: can't read \"packed\": no such variable",
+    "E: Flow-0163: Failed to parse file \"E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.tcl\" at line 91. Check if the command options or arguments are valid."
+  ],
+  "design_implementation_errors": 0,
+  "actual_production_input_packing": [
+    "cmos2_data_ibuf[0]/opit_1",
+    "cmos2_data_ibuf[1]/opit_1",
+    "cmos2_data_ibuf[2]/opit_1",
+    "cmos2_data_ibuf[3]/opit_1",
+    "cmos2_data_ibuf[4]/opit_1",
+    "cmos2_data_ibuf[5]/opit_1",
+    "cmos2_data_ibuf[6]/opit_1",
+    "cmos2_data_ibuf[7]/opit_1",
+    "cmos2_href_ibuf/opit_1",
+    "cmos2_vsync_ibuf/opit_1"
+  ],
+  "all_snapshot_hashes_verified": true,
+  "internal_sta_met": true,
+  "external_source_timing_unknown": true,
+  "future_flow_repaired": true,
+  "repair_does_not_change_rtl_or_constraints": true,
+  "Release": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source\\build\\CAM1_IOREG_E4_3_6_0_20261025_121928_558\\FPGA_GSV1_CAM1_IOREG_E4_3_6_0_HDMI_1080P60.sbit",
+  "SHA256": "ff11e6121a4adf898f6d74115883a9d7bc2a20d4f38508a40fee56b94692e896",
+  "GeneratedTime": "2026-10-25T04:27:34.633351+00:00",
+  "no_rebuild_or_programming_performed": true
+}

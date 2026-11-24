@@ -1,0 +1,11 @@
+test_file_run_never_constructs_business_bridge (__main__.Tests) ... ok
+test_latest_slot_and_exact_identity (__main__.Tests) ... ok
+test_only_real_exact_observation_is_forwarded_to_receiver (__main__.Tests) ... ok
+test_reset_rejects_old_worker_and_bounded_history (__main__.Tests) ... ok
+test_rgb565_little_endian_bgr_and_exact_size (__main__.Tests) ... ok
+test_shared_latest_slot_counts_skip_not_partial_frames (__main__.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+OK

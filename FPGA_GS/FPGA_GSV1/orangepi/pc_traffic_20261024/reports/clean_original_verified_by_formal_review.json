@@ -1,0 +1,415 @@
+{
+  "recorded_at": "2026-10-24T16:54:25.841632+00:00",
+  "verified_images": 34,
+  "human_signoff": false,
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "image_sha256": "d52bf48762aba3a98f622eb245d903108613534ad4cd30978185d10fb5accec3",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_03.690871079.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 1
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "image_sha256": "36bd4cc9cc8c67820195a722fb60bae8195cfc94ba9eb9e7672f19d1fcfc0c46",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_04.373849590.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 2
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "image_sha256": "98ef02585d0675efdcf62d105ed7a18b984a6f6179f8e0ab9f1c31743cde6572",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_05.019293528.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 3
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "image_sha256": "f0a5528f5c8409d123f2a7de39c4c259cadb40f70a227e619fb74fec2046dca3",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_13.307586027.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 4
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0004",
+      "image_sha256": "020c623fda8242e831ac237b176ae18c1e240ef38f2aba88b1c63bf831c331bc",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_13.951261816.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 5
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0005",
+      "image_sha256": "9f4fb3247c1fc10a1290330bd42594601b67a8c52c180c4793f46064746d64b5",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_14.592665496.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 6
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0006",
+      "image_sha256": "e234d20dacff44549639b46a7dbb0c138533f9c00f34007991a527767ced60b7",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_33.888711932.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 7
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0007",
+      "image_sha256": "bf6ce8a9ea4c7d9258dedd7ee900b3adb14f38d813aedf3c8fa596dc5a8f8c0d",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_34.535608330.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 8
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0022",
+      "image_sha256": "0c0168e25815ce4526fd54691f93b0cdd67f5b757740a479e6f536f89e1690d3",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_32_59.166675010.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 9
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0093",
+      "image_sha256": "0166acd4a547fae0083e21e677b2061c7173a42f1934cc96968e82146534677f",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_45_01.094538438.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 10
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0111",
+      "image_sha256": "f463e50c2c5051e6e113d4c13a244fd4c14e4888d1a9f04473c1566f60b46d1d",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_46_32.803167640.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 11
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0212",
+      "image_sha256": "4a3a4c62f78dac99859981ac6301ffc10052b3655ba00b5b2b1dd735176ff598",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_11_49.258358342.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 13
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0213",
+      "image_sha256": "ba5f0f2508fe0bf1984e53c8c11041d68d628c63282f753292b6cb5ebd911804",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_11_49.416752760.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 14
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0214",
+      "image_sha256": "63c70f44639fcdb383f6b98e9768897a9147647fb7384be852f9d70b2a8ecf99",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_11_59.084115397.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 15
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0217",
+      "image_sha256": "803e947396fb0d5ed4b4138e5bd96b45aaf8845b81de768f9a64a4b5e520a8c3",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_11_59.672876574.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 18
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0218",
+      "image_sha256": "797bc56e3f77fcd987034514ee5b5bc431d137bf8810d04bd2490b8893d8fb67",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_11_59.806069770.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 19
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0219",
+      "image_sha256": "fa7dc6fbcb2520e8f3eeaa2db92c8e552745499c42352ff72f93c3d55a1557f7",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_00.772168861.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 20
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0223",
+      "image_sha256": "96138a121b0bd026c8b3bdafacfc50bbffc82433b09c1595ffe4fdc9c5e0d563",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_21.100284571.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 24
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0280",
+      "image_sha256": "3c03b74ddf51adfb5ccbb55c298ea39d40f2d4b58d864b9fd28fe97e5b9c7029",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_16_30.654747377.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 26
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0390",
+      "image_sha256": "2354a6b125dfea3253ea8adbfb4a56caa0e1e3669efdfd81dbcd6803c89fbe3a",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_32_01.650156692.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 32
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0008",
+      "image_sha256": "0fa6b007e5dc92cd1c5740424a7fd33be7933bca76d5685bc0f8a60a97e2c050",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_30_35.179484724.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 1
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0009",
+      "image_sha256": "02bd2385fc7ea3c2ec285c131e4864e2990e903e3ace6087b555d35e7246bb45",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_17.697315993.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 2
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0010",
+      "image_sha256": "ead265571abdb187e37d623ced58b681dd6bbbcfb31053c25b35355c2c23a0b7",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_18.351320194.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 3
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0011",
+      "image_sha256": "dddb00bed3471411c8cc00e9b3522fbbfd386ec9902ccc62483c220d363dcba4",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_18.986938817.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 4
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0013",
+      "image_sha256": "a137344d03e8bd2345e4476e9a88ff1cd519f3cd0a869fca971f260da4a074f8",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_30.153530321.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 6
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0015",
+      "image_sha256": "17fffe53c0c69eabf123184b0f65881655197b974c23b39ca231b7d4a28c78f4",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_45.096862617.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 8
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0016",
+      "image_sha256": "4b57b1165a48fdb127a808ed0b3f5210f9e916e85d7f9ed5f2b776c8405e5249",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_45.743676278.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 1
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0017",
+      "image_sha256": "f5f99b483e20f980d2a864da6177776c80398fc35e4fb1fa37b6b8df6722aec7",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_54.756127275.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 2
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0018",
+      "image_sha256": "3053a049851306ff7dc0ab4f469f5fd12853825723cbe009e5d87682f32e1b14",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_55.354821563.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 3
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0019",
+      "image_sha256": "81ac0600566ba4735674564e48fec44e7f096aaea842291ac3163e64f0861299",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_31_55.935831264.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 4
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0020",
+      "image_sha256": "145c0875d7479bba7c406f3f3e73687f68fd077506c19a13f3d7aa8d13dcf6df",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_32_07.647297085.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 5
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0021",
+      "image_sha256": "0668e07ed1c8ab58e897ac1d5759dd1b9fe735ea556b3bb8bdd065bea762d2c5",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_32_38.380663725.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 6
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0023",
+      "image_sha256": "809e0c666542c34c1f937776f226f8a13b5874991d6e34010d555e59ce444562",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_22.496223523.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 7
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0024",
+      "image_sha256": "a287bac17f2427fffa11394de18c3f27cfaf0b445dbb0b05641ac1e1e96907d3",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_32.496250614.jpg",
+      "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+      "independent_original_visual_review": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 8
+      },
+      "basis": "Byte-identical source archive original; two genuine AI records include original full-frame review before label inspection. Camera timestamp is original, not an inference overlay."
+    }
+  ]
+}

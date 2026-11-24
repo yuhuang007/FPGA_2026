@@ -1,0 +1,28 @@
+usage: console.py [-h] [--role {right,front-control}] [--bind BIND]
+                  [--board BOARD] [--right-fps RIGHT_FPS]
+                  [--front-fps {0,5,10,15,30}] [--drop-every DROP_EVERY]
+                  [--auto {manual,unknown,allow,deny,red,solid}]
+                  [--warmup WARMUP] [--stats STATS] [--headless]
+                  [--seconds SECONDS] [--video VIDEO] [--ffmpeg FFMPEG]
+                  [--loop]
+
+3.6.1 bench: NET FRONT TX / NET2 FRONT RX / simulated control. Legacy --role
+right selects port1. Python 3.9+, standard tkinter and already-installed
+Pillow. No NIC mutations.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --role {right,front-control}
+  --bind BIND           Local interface IPv4 (role default from config)
+  --board BOARD         FPGA IPv4 (role default from config)
+  --right-fps RIGHT_FPS
+  --front-fps {0,5,10,15,30}
+  --drop-every DROP_EVERY
+  --auto {manual,unknown,allow,deny,red,solid}
+  --warmup WARMUP       seconds excluded before common 60s telemetry window
+  --stats STATS         JSON statistics output (default per role)
+  --headless
+  --seconds SECONDS
+  --video VIDEO         Local video decoded by existing FFmpeg
+  --ffmpeg FFMPEG       Path to existing ffmpeg.exe
+  --loop

@@ -1,0 +1,1 @@
+.rtl_screen -top_module {cam1_io_probe} -include_path {<E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility>} -design_files {<E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/probe.v|work>}

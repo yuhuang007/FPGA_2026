@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T15:51:17.212472+08:00",
+  "selected_fixture": "s2tld720_000000",
+  "rknn_sha256": "fbf48333ee9d15a33078b83580013c72e313ae6f877e195500052479e7b81fc8",
+  "input_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+  "accuracy_analysis_arguments": {
+    "inputs": [
+      "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/inputs/fixtures/s2tld720_000000_rgb_u8.npy"
+    ],
+    "output_dir": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_r1/snapshot",
+    "target": "rk3588"
+  },
+  "build_called": false,
+  "config_called": false,
+  "load_onnx_called": false,
+  "model_reexported": false,
+  "new_inputs_used": false,
+  "original_candidate_unchanged": true,
+  "load_rknn_returncode": 0,
+  "accuracy_analysis_returncode": -1,
+  "candidate_protected_file_count": 49,
+  "snapshot_files": []
+}

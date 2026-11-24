@@ -1,0 +1,17 @@
+{
+  "reviewer": "Codex_PC_AI_stage2",
+  "human_signoff": false,
+  "records": [
+    {
+      "candidate_id": "s2tld1080_0282",
+      "result": "unresolved_no_label_change",
+      "finding": "Lower green point could be separate lamp or ghost/reflection; cannot adjudicate from native pixels. Existing ignore_2 covers it; no second confirmed signal added.",
+      "evidence": "review_stage2/arbitration_evidence/0282_attribute_dispute.png"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "result": "partial_attribute_amendment_color_unresolved",
+      "finding": "Circle readable, saturated core and boundary do not reliably settle color."
+    }
+  ]
+}

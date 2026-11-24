@@ -1,0 +1,10 @@
+{
+  "build": "rear_pixels_source/build/CAM1_RAW_E3_3_6_0_20261024_203400_081",
+  "released": false,
+  "timing_signoff_completed": false,
+  "reason": "Code review found a defect in the newly added passive dump: frame ID was latched at first DE, but production video_capture_status exposes opening ID at VS and the next opening tag during active pixels. This could prevent dump completion. This is not evidence of a production video ownership defect.",
+  "action": "Stopped this build, retained its snapshot/log; latch the opening ID at VS. Real video_capture_status + capture_pipe regression passed before the replacement build.",
+  "native_drm_validation_reused": "cam1_patch_checked.log: native1280x720, all720rows/11520pixels/480pages independently checked with actual vendor DRM; RAM/CRC/page datapath unchanged by the tag fix.",
+  "new_tag_regression": "cam1_patch_tags.log",
+  "old_manual_tag_fixture_updated": true
+}

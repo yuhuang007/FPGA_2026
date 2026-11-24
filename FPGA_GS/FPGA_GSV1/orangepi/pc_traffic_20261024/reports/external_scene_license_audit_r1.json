@@ -1,0 +1,89 @@
+{
+  "recorded_at": "2026-10-25T01:59:06.139013+00:00",
+  "entries": [
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "photo_page": "https://www.flickr.com/photos/vax-o-matic/4466652187/",
+      "author": "vaxomatic",
+      "title": "Stoplight on AZ-90, Sierra Vista on the horizon",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000534639",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "photo_page": "https://www.flickr.com/photos/36217981@N02/10190866013/",
+      "author": "transitpeople",
+      "title": "Portland TriMet MAX Yellow Line arrives at Albina/Mississippi station",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "photo_page": "https://www.flickr.com/photos/digitalrob70/502213596/",
+      "author": "digitalrob70",
+      "title": "HxTownHallTrafficLights01",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000184400",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY-NC-SA 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "photo_page": "https://www.flickr.com/photos/ell-r-brown/9326233603/",
+      "author": "ell brown",
+      "title": "St George's Road, Portsmouth - railway bridge - South West Trains - Class 450",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": false,
+      "conflict_quarantined": true
+    },
+    {
+      "candidate_id": "coco_scene_000000577932",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "photo_page": "https://www.flickr.com/photos/gareth1953/5159956078/",
+      "author": "Gareth1953 Granddad at last!",
+      "title": "Rochester High Street - Nov 2010 - Lean On Me - Boys on Pink Bikes, I'm Not Sure",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000176037",
+      "coco_license_id": "CC-BY-2.0",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "photo_page": "https://www.flickr.com/photos/mtaphotos/8140155314/",
+      "author": "MTAPhotos",
+      "title": "NYCB_6218",
+      "oEmbed_evidence_file": "data/external_coco_scene_pilot_r1/acquisition_manifest.json",
+      "oEmbed_evidence_sha256": "b02e2ec97ecb7490840ab5bff76a527ef0c47a889e64c02d95c0eeffb9a5e826",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    }
+  ],
+  "verified_current_CC_BY_2_0": 5,
+  "quarantined_license_conflict": 1,
+  "annotation_license": "COCO annotations CC-BY4.0; this does not replace per-photo license",
+  "official_terms_evidence": "sources/external_scene_research/coco_terms_verified.htm",
+  "license_legalcode_evidence": "sources/external_scene_research/cc_by_2_legalcode.html",
+  "historical_acquisition_manifest_preserved": true
+}

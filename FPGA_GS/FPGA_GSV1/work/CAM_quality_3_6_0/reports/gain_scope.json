@@ -1,0 +1,7 @@
+{
+  "SameProtectedFiles": 156,
+  "ChangedFiles": [
+    "rtl\\board\\fpga_gsv1_top.v",
+    "rtl\\capture\\cam1_gain_profile.v"
+  ]
+}

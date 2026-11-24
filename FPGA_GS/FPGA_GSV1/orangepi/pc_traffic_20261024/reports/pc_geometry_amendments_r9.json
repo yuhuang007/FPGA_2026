@@ -1,0 +1,108 @@
+{
+  "reviewer": "Codex_PC_AI_actual_geometry_r9",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "actual_method": "Actual original-pixel nearest-neighbor comparisons of revised boxes and raw regions. RGB thresholds used only as coordinate aid; final visible cores checked visually. Prior disagreements and failed r14 boxes remain frozen.",
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0227",
+      "base_manifest": "review_stage2/revisions/pc_r2_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1434,
+            328,
+            1457,
+            348
+          ]
+        },
+        {
+          "object_id": "er",
+          "field": "bbox_xyxy",
+          "value": [
+            1550,
+            324,
+            1575,
+            346
+          ]
+        },
+        {
+          "object_id": "count",
+          "field": "bbox_xyxy",
+          "value": [
+            1535,
+            325,
+            1550,
+            346
+          ]
+        },
+        {
+          "object_id": "side_count",
+          "field": "bbox_xyxy",
+          "value": [
+            418,
+            454,
+            435,
+            475
+          ]
+        }
+      ],
+      "note": "承认上一修订的右缘仍截亮核。按真实原像素和修订框对照右扩并保证数字、箭头和圆灯相互分离；颜色/类别/关联均不变，只对这些新边界另做真实定向复核，不能继承旧版accept。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r9/0227_changed.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0228",
+      "base_manifest": "review_stage2/revisions/pc_r2_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "side_count",
+          "field": "bbox_xyxy",
+          "value": [
+            183,
+            436,
+            206,
+            458
+          ]
+        }
+      ],
+      "note": "承认上一修订的右缘仍截亮核。按真实原像素和修订框对照右扩并保证数字、箭头和圆灯相互分离；颜色/类别/关联均不变，只对这些新边界另做真实定向复核，不能继承旧版accept。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r9/0228_changed.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0229",
+      "base_manifest": "review_stage2/revisions/pc_r2_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1352,
+            271,
+            1378,
+            295
+          ]
+        },
+        {
+          "object_id": "red_count",
+          "field": "bbox_xyxy",
+          "value": [
+            1382,
+            272,
+            1398,
+            295
+          ]
+        }
+      ],
+      "note": "承认上一修订的右缘仍截亮核。按真实原像素和修订框对照右扩并保证数字、箭头和圆灯相互分离；颜色/类别/关联均不变，只对这些新边界另做真实定向复核，不能继承旧版accept。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r9/0229_changed.png"
+      ]
+    }
+  ]
+}

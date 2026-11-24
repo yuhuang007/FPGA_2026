@@ -1,0 +1,983 @@
+{
+  "status": {
+    "release": "M4-07-r1-netrx-ready",
+    "mode": "LIVE_FRONT",
+    "source": "实时前摄／FPGA网口1输入",
+    "logical_source": "LIVE_FRONT",
+    "source_contract": {
+      "logical_source": "LIVE_FRONT",
+      "expected_physical_source": "NET_RX",
+      "display_name": "实时前摄／FPGA网口1输入",
+      "physical_source_verified": false,
+      "status": "WAITING_FPGA_HANDOFF",
+      "fpga_handoff_summary": null,
+      "reviewed_wire_profile": null,
+      "reviewed_event_frame_origin": null,
+      "note": "GSV3头不能证明物理输入来源；新固件摘要和NET_RX实物链核对前不能称已验收。现有冻结1280x720 RGB565小端作为兼容预期，不代表新候选已核实。",
+      "current_upload_provenance": "UNVERIFIED_FPGA_UPLOAD",
+      "physical_acceptance_passed": false
+    },
+    "vehicle": "KEY_INTENT_SIMULATION_ONLY",
+    "instance": "9745c91865fb5fec411c7e59",
+    "session": 3370625549,
+    "epoch": 1,
+    "frame_id": 55786,
+    "sequence": 1315,
+    "processed": 1314,
+    "processed_fps": 14.805,
+    "host_monotonic_ms": 3465890.1775149996,
+    "age_ms": 65.7,
+    "stale": false,
+    "last_complete_age_ms": 65.7,
+    "perception": {
+      "signal": {
+        "state": "UNKNOWN",
+        "actions": [],
+        "confidence": 0,
+        "reason": "灯组控制关系未知"
+      },
+      "lanes": {
+        "left": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "right": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "visible_lane_count": null,
+        "ego_ordinal": null,
+        "confirmed_corridors": 0,
+        "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+        "direction_relation": "UNKNOWN",
+        "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+        "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+        "reason": "左右边界不足；不推造完整本车道"
+      },
+      "stage_ms": {},
+      "source": "LIVE_FRONT",
+      "source_verification": "WAITING_FPGA_HANDOFF",
+      "session": 3370625549,
+      "frame_id": 55786,
+      "epoch": 1,
+      "complete_received_monotonic": 3465.824434779,
+      "detection": {
+        "backend": "RKNN/NPU",
+        "model": "YOLOv8n COCO w8a8",
+        "input_size": [
+          640,
+          640
+        ],
+        "threshold": 0.25,
+        "nms_iou": 0.45,
+        "epoch": 1,
+        "frame_id": 55782,
+        "objects": [],
+        "detected_count": 0,
+        "held_count": 0,
+        "count": 0,
+        "detection_fps": 14.09,
+        "stage_ms": {
+          "det_preprocess": 6.886,
+          "det_inference": 72.111,
+          "det_postprocess": 33.71,
+          "det_tracking": 0.013,
+          "det_display_tracking": 2.002
+        },
+        "inference_age_ms": 143.5,
+        "display_frame_id": 55786,
+        "age_reference_monotonic": 3465.835188031,
+        "age_ms": 55.0
+      },
+      "traffic": {
+        "backend": "RKNN/NPU + CPU",
+        "method": "原COCO权重/重叠裁剪与低频全图 + 白芯定位/原图灯色 + 有界图像跟踪",
+        "scope": "自动候选；箭头与控制关系UNKNOWN，不自动放行",
+        "epoch": 1,
+        "source_frame_id": 55778,
+        "decoded_monotonic": 3465.555598529,
+        "age_ms": 334.6,
+        "lights": [],
+        "transitions": [],
+        "control_relation": "UNKNOWN",
+        "control_reason": "本轮不建立灯组控制归属",
+        "stage_ms": {
+          "traffic_preprocess": 2.267955999741389,
+          "traffic_inference": 93.24812400018345,
+          "traffic_postprocess": 4.1485870001451985,
+          "traffic_geometry_color": 99.702,
+          "traffic_total": 199.432
+        },
+        "statistics": {
+          "raw_geometry_candidates": 0,
+          "paired_geometry_candidates": 0,
+          "geometry_hypotheses": 65,
+          "direct_bodies": 0,
+          "image_tracked": 0,
+          "candidates_rejected": 0,
+          "rejected_candidates": [],
+          "raw_candidates": [],
+          "scan_box": [
+            0,
+            86,
+            512,
+            503
+          ]
+        }
+      },
+      "road": {
+        "road_contours": [
+          {
+            "points": [
+              [
+                0.9969,
+                0.6944
+              ],
+              [
+                0.9938,
+                0.7
+              ],
+              [
+                0.9781,
+                0.6667
+              ],
+              [
+                0.9594,
+                0.6611
+              ],
+              [
+                0.9562,
+                0.6556
+              ],
+              [
+                0.9594,
+                0.65
+              ],
+              [
+                0.9531,
+                0.6556
+              ],
+              [
+                0.95,
+                0.65
+              ],
+              [
+                0.9188,
+                0.65
+              ],
+              [
+                0.9156,
+                0.6444
+              ],
+              [
+                0.9156,
+                0.6556
+              ],
+              [
+                0.9125,
+                0.6611
+              ],
+              [
+                0.9,
+                0.6611
+              ],
+              [
+                0.8906,
+                0.6722
+              ],
+              [
+                0.8875,
+                0.6611
+              ],
+              [
+                0.8781,
+                0.65
+              ],
+              [
+                0.8656,
+                0.6556
+              ],
+              [
+                0.8562,
+                0.6389
+              ],
+              [
+                0.8562,
+                0.6167
+              ],
+              [
+                0.8469,
+                0.6167
+              ],
+              [
+                0.8438,
+                0.6278
+              ],
+              [
+                0.8375,
+                0.6278
+              ],
+              [
+                0.8406,
+                0.6333
+              ],
+              [
+                0.8281,
+                0.6611
+              ],
+              [
+                0.8219,
+                0.6611
+              ],
+              [
+                0.8219,
+                0.6722
+              ],
+              [
+                0.8156,
+                0.6778
+              ],
+              [
+                0.8094,
+                0.6944
+              ],
+              [
+                0.8,
+                0.6944
+              ],
+              [
+                0.7938,
+                0.6833
+              ],
+              [
+                0.7875,
+                0.6889
+              ],
+              [
+                0.7781,
+                0.6722
+              ],
+              [
+                0.7812,
+                0.6611
+              ],
+              [
+                0.7781,
+                0.6667
+              ],
+              [
+                0.775,
+                0.6611
+              ],
+              [
+                0.7656,
+                0.6611
+              ],
+              [
+                0.7625,
+                0.6667
+              ],
+              [
+                0.7562,
+                0.6611
+              ],
+              [
+                0.7531,
+                0.6667
+              ],
+              [
+                0.7156,
+                0.6667
+              ],
+              [
+                0.7125,
+                0.6722
+              ],
+              [
+                0.6344,
+                0.6722
+              ],
+              [
+                0.6312,
+                0.6778
+              ],
+              [
+                0.625,
+                0.6722
+              ],
+              [
+                0.5938,
+                0.6722
+              ],
+              [
+                0.5906,
+                0.6667
+              ],
+              [
+                0.5812,
+                0.6778
+              ],
+              [
+                0.5656,
+                0.6667
+              ],
+              [
+                0.5531,
+                0.6778
+              ],
+              [
+                0.5344,
+                0.6833
+              ],
+              [
+                0.5312,
+                0.6944
+              ],
+              [
+                0.5219,
+                0.6944
+              ],
+              [
+                0.5219,
+                0.7
+              ],
+              [
+                0.5125,
+                0.7111
+              ],
+              [
+                0.5031,
+                0.7111
+              ],
+              [
+                0.4938,
+                0.7389
+              ],
+              [
+                0.4906,
+                0.7333
+              ],
+              [
+                0.4938,
+                0.7389
+              ],
+              [
+                0.4844,
+                0.7556
+              ],
+              [
+                0.4844,
+                0.7778
+              ],
+              [
+                0.4781,
+                0.7833
+              ],
+              [
+                0.4844,
+                0.7889
+              ],
+              [
+                0.4781,
+                0.8
+              ],
+              [
+                0.4844,
+                0.8111
+              ],
+              [
+                0.4844,
+                0.8222
+              ],
+              [
+                0.4969,
+                0.8444
+              ],
+              [
+                0.5,
+                0.8444
+              ],
+              [
+                0.5094,
+                0.8667
+              ],
+              [
+                0.5094,
+                0.8778
+              ],
+              [
+                0.5062,
+                0.8833
+              ],
+              [
+                0.5062,
+                0.9056
+              ],
+              [
+                0.5094,
+                0.9111
+              ],
+              [
+                0.5062,
+                0.9167
+              ],
+              [
+                0.5094,
+                0.9278
+              ],
+              [
+                0.5094,
+                0.9667
+              ],
+              [
+                0.5031,
+                0.9778
+              ],
+              [
+                0.5031,
+                0.9944
+              ],
+              [
+                0.7531,
+                0.9944
+              ],
+              [
+                0.7594,
+                0.9889
+              ],
+              [
+                0.7656,
+                0.9722
+              ],
+              [
+                0.7875,
+                0.9611
+              ],
+              [
+                0.7781,
+                0.9389
+              ],
+              [
+                0.7781,
+                0.9278
+              ],
+              [
+                0.7875,
+                0.9167
+              ],
+              [
+                0.825,
+                0.9167
+              ],
+              [
+                0.8281,
+                0.9111
+              ],
+              [
+                0.8344,
+                0.9167
+              ],
+              [
+                0.8469,
+                0.9167
+              ],
+              [
+                0.85,
+                0.9111
+              ],
+              [
+                0.8625,
+                0.9167
+              ],
+              [
+                0.8625,
+                0.9056
+              ],
+              [
+                0.8656,
+                0.9
+              ],
+              [
+                0.8688,
+                0.9056
+              ],
+              [
+                0.8719,
+                0.9
+              ],
+              [
+                0.8812,
+                0.9
+              ],
+              [
+                0.8875,
+                0.8833
+              ],
+              [
+                0.8906,
+                0.8889
+              ],
+              [
+                0.8875,
+                0.8833
+              ],
+              [
+                0.8938,
+                0.8778
+              ],
+              [
+                0.8938,
+                0.8389
+              ],
+              [
+                0.8875,
+                0.8333
+              ],
+              [
+                0.9031,
+                0.8222
+              ],
+              [
+                0.9031,
+                0.8111
+              ],
+              [
+                0.9062,
+                0.8056
+              ],
+              [
+                0.9094,
+                0.8111
+              ],
+              [
+                0.9156,
+                0.8111
+              ],
+              [
+                0.9188,
+                0.8056
+              ],
+              [
+                0.9344,
+                0.8167
+              ],
+              [
+                0.9344,
+                0.8056
+              ],
+              [
+                0.9375,
+                0.8
+              ],
+              [
+                0.9406,
+                0.8111
+              ],
+              [
+                0.95,
+                0.8056
+              ],
+              [
+                0.9562,
+                0.7889
+              ],
+              [
+                0.9594,
+                0.7944
+              ],
+              [
+                0.9688,
+                0.7833
+              ],
+              [
+                0.9719,
+                0.7889
+              ],
+              [
+                0.975,
+                0.7833
+              ],
+              [
+                0.9812,
+                0.7889
+              ],
+              [
+                0.9844,
+                0.75
+              ],
+              [
+                0.9906,
+                0.7389
+              ],
+              [
+                0.9906,
+                0.7167
+              ],
+              [
+                0.9938,
+                0.7111
+              ],
+              [
+                0.9969,
+                0.7167
+              ]
+            ],
+            "hole": false
+          }
+        ],
+        "paint_contours": [
+          {
+            "points": [
+              [
+                0.3906,
+                0.8167
+              ],
+              [
+                0.3875,
+                0.8222
+              ],
+              [
+                0.3812,
+                0.8167
+              ],
+              [
+                0.3781,
+                0.8278
+              ],
+              [
+                0.375,
+                0.8222
+              ],
+              [
+                0.3688,
+                0.8278
+              ],
+              [
+                0.3625,
+                0.8556
+              ],
+              [
+                0.3781,
+                0.8444
+              ],
+              [
+                0.3906,
+                0.8222
+              ]
+            ],
+            "hole": false
+          },
+          {
+            "points": [
+              [
+                0.4375,
+                0.7389
+              ],
+              [
+                0.4312,
+                0.7389
+              ],
+              [
+                0.4188,
+                0.7611
+              ],
+              [
+                0.4156,
+                0.7611
+              ],
+              [
+                0.3969,
+                0.7944
+              ],
+              [
+                0.3969,
+                0.8056
+              ],
+              [
+                0.4062,
+                0.8056
+              ],
+              [
+                0.4312,
+                0.7778
+              ],
+              [
+                0.4375,
+                0.7611
+              ]
+            ],
+            "hole": false
+          }
+        ],
+        "ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定",
+          "display_source": "short_hold"
+        },
+        "stage_ms": {
+          "road_preprocess": 5.68,
+          "road_model": 92.83,
+          "lane_postprocess": 27.15,
+          "lane_semantics": 0.1
+        },
+        "model_ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定"
+        },
+        "lane_semantics": {
+          "left": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "right": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "visible_lane_count": null,
+          "ego_ordinal": null,
+          "confirmed_corridors": 0,
+          "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+          "direction_relation": "UNKNOWN",
+          "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+          "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+          "reason": "左右边界不足；不推造完整本车道"
+        },
+        "epoch": 1,
+        "source_frame_id": 55780,
+        "decoded_monotonic": 3465.622603866,
+        "completed_monotonic": 3465.813924189,
+        "state": "HELD",
+        "age_ms": 267.6,
+        "display_frame_id": 55786
+      }
+    },
+    "skipped_complete_frames": 3,
+    "exact_cache": 27,
+    "received_cache": 29,
+    "stage_ms": {
+      "overlay": 9.503,
+      "jpeg": 2.104,
+      "det_preprocess": 6.886,
+      "det_inference": 72.111,
+      "det_postprocess": 33.71,
+      "det_tracking": 0.013,
+      "det_display_tracking": 2.002,
+      "road_preprocess": 5.68,
+      "road_model": 92.83,
+      "lane_postprocess": 27.15,
+      "lane_semantics": 0.1,
+      "traffic_preprocess": 2.267955999741389,
+      "traffic_inference": 93.24812400018345,
+      "traffic_postprocess": 4.1485870001451985,
+      "traffic_geometry_color": 99.702,
+      "traffic_total": 199.432,
+      "rgb565_decode": 7.006,
+      "process_total": 21.494,
+      "complete_to_preview_ms": 23.166
+    },
+    "stage_mean_ms": {
+      "overlay": 10.948,
+      "jpeg": 2.173,
+      "det_preprocess": 3.577,
+      "det_inference": 39.123,
+      "det_postprocess": 14.211,
+      "det_tracking": 0.014,
+      "det_display_tracking": 2.281,
+      "road_preprocess": 5.057,
+      "road_model": 63.084,
+      "lane_postprocess": 25.54,
+      "lane_semantics": 0.119,
+      "traffic_preprocess": 2.86,
+      "traffic_inference": 98.421,
+      "traffic_postprocess": 8.819,
+      "traffic_geometry_color": 75.06,
+      "traffic_total": 185.181,
+      "rgb565_decode": 8.994,
+      "process_total": 25.466,
+      "complete_to_preview_ms": 27.673
+    },
+    "requested_front_fps": 15,
+    "target_process_fps": 15,
+    "target_preview_fps": 15,
+    "preview_width": 640,
+    "traffic": {
+      "target_hz": 4,
+      "update_fps": 3.61,
+      "completed": 328,
+      "skipped_source_observations": 985,
+      "sampling_skipped": 984,
+      "pending_replaced": 1,
+      "neural_region_schedule": "中心/左/右/中心/全图/左/右；总目标4Hz，逐灯图像观测率另计",
+      "error": null,
+      "thread_alive": true
+    },
+    "road": {
+      "model": "YOLOP",
+      "backend": "RKNN/NPU FP16",
+      "target_fps": 8,
+      "semantic_update_fps": 7.7,
+      "semantic_target_fps": 8,
+      "input_size": 320,
+      "outputs": [
+        "drivable_area",
+        "binary_lane_paint"
+      ],
+      "completed": 687,
+      "update_fps": 7.7,
+      "replaced_pending": 625,
+      "error": null,
+      "alive": true
+    },
+    "detection": {
+      "detection_runs": 1246,
+      "detection_fps": 13.89
+    },
+    "error": null,
+    "show_lights": true,
+    "show_road": true,
+    "show_lane": true,
+    "show_objects": true,
+    "note": "图龄从主机完整接收起算，非端到端延迟；叠加只在香橙派网页，未回传FPGA检测框。",
+    "link": {
+      "heartbeat_tx": 351,
+      "rx_packets": 1893394,
+      "heartbeat_or_welcome": 528,
+      "telemetry_packets": 177,
+      "front_fragments": 1892689,
+      "complete_frames": 1314,
+      "session": 3370625549,
+      "online": true,
+      "connection_state": "STREAMING",
+      "session_epoch": 0,
+      "reconnects": 0,
+      "reconnect_reason": null,
+      "reconnect_quiet_remaining_ms": 0,
+      "session_started_monotonic": 3377.594073473,
+      "last_video_frame_id": 55782,
+      "assembly_frame_id": 55782,
+      "last_complete_monotonic": 3465.622603866,
+      "requested_front_fps": 15,
+      "recent_complete_fps": 14.83,
+      "telemetry": {
+        "mac_crc": 0,
+        "mac_overrun": 0,
+        "reject_format": 43,
+        "reject_checksum": 30,
+        "reject_session": 0,
+        "reject_profile": 0,
+        "sequence_errors": 0,
+        "duplicate_packets": 0,
+        "begin_wait_cycles": 0,
+        "begin_requests": 0,
+        "assembly_timeouts": 0,
+        "assembly_aborts": 0,
+        "ddr_beats": 0,
+        "published": 0,
+        "displayed_new": 0,
+        "rx_packets": 8043
+      },
+      "feedback": {
+        "controls": {
+          "mode": "REAL",
+          "selection": "unknown",
+          "revision": 0,
+          "applies_to": "NEXT_REAL_EVENT_ONLY",
+          "default": "REAL"
+        },
+        "recent_events": [],
+        "counts": {},
+        "history_limit": 32,
+        "ttl_note": "板端按事件时刻计算TTL；主机预算从首次收到EVENT起算并保留100ms余量，不能测得板端剩余TTL。",
+        "latency_note": "耗时仅从主机收到EVENT起算，不是物理按键到FPGA屏幕的端到端延迟。"
+      },
+      "host_elapsed_seconds": 88.06,
+      "front_receive_fps": 14.922,
+      "socket_receive_buffer_bytes": 8388608,
+      "current_frame_fragments": 529,
+      "assembly_dropped": 0,
+      "assembly_duplicates": 0,
+      "hardware_validation": "网口2已有真实前摄验收；按键及双口条件请见本轮验收报告",
+      "receiver_process_pid": 13594,
+      "complete_arrival_intervals_ms": {
+        "count": 1313,
+        "median": 66.99950400025045,
+        "p95": 70.66364199999953,
+        "max": 80.71369900017089
+      },
+      "ipc_observation_dropped": 0
+    },
+    "receive_thread_alive": true
+  },
+  "protected_originals_unchanged": {
+    "link.py": true,
+    "feedback.py": true,
+    "vendor/protocol.py": true,
+    "m406r2/traffic.py": true,
+    "m406r2/road.py": true,
+    "m406r2/lane_semantics.py": true,
+    "m406r2/overlay.py": true,
+    "m404/detector.py": true
+  },
+  "candidate_sha256": {
+    "app.py": "8296d3204011185fd568a08bf5384dd19865204d0b44c5397d97e5f2f18e931a",
+    "file_demo.py": "afce88fff55dba22f74652e779fa5c959f7b8979d459f6310b75dcf4422edf25",
+    "receiver_bridge.py": "d75ef75bb8e6d0a313abf651e2edfd1de563fa65b0f75d4ad1660e3818dfb886",
+    "source_contract.py": "07979634790a5401221fb644f08d24e1efefe4951c1173a41826e86b6f5c1209",
+    "source_contract.json": "0a53cce5073f8267539161fd774629622637640f02ee8b9cae19f1fd801a45f3",
+    "index.html": "e2387cc670fa2a3586a12619cc778d602486e120114f6555cc95c0e18e6807f2",
+    "ops.py": "357d33a9dac24325ad1f00bbb8ee5058e0841177b2c75245abcfc159fe63de0b"
+  },
+  "existing_models": {
+    "m404/yolov8n.rknn": {
+      "sha256": "a3c14e44d8e1a87894bfd91a20f77675704c08a821334230191edd528910fe1d",
+      "bytes": 4327757
+    },
+    "m405/yolop320_fp16.rknn": {
+      "sha256": "0f923bc9ef8f292e922c72c44f0fac4c72b83e209376f947927d650472383f0d",
+      "bytes": 12555759
+    },
+    "m406r2/yolov8s640_fp16.rknn": {
+      "sha256": "48af8d6cd66051fd4e5d879006fd9223aa0e3abd152c84defd7b114a1bb16149",
+      "bytes": 24624122
+    }
+  },
+  "sockets": "Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                             \nudp   UNCONN 0      0         127.0.0.53:53         0.0.0.0:*                                       \nudp   UNCONN 0      0          127.0.0.1:323        0.0.0.0:*                                       \nudp   UNCONN 2048   0       192.168.60.1:50000      0.0.0.0:*    users:((\"python\",pid=13594,fd=17)) \nudp   UNCONN 0      0              [::1]:323              *:*                                       \ntcp   LISTEN 0      0            0.0.0.0:22         0.0.0.0:*                                       \ntcp   LISTEN 0      0          127.0.0.1:8084       0.0.0.0:*    users:((\"python\",pid=13588,fd=16)) \ntcp   LISTEN 0      0          127.0.0.1:5037       0.0.0.0:*                                       \ntcp   LISTEN 0      0          127.0.0.1:6010       0.0.0.0:*                                       \ntcp   LISTEN 0      0            0.0.0.0:5555       0.0.0.0:*                                       \ntcp   LISTEN 0      0            0.0.0.0:5901       0.0.0.0:*    users:((\"Xtigervnc\",pid=1876,fd=7))\ntcp   LISTEN 0      0         127.0.0.53:53         0.0.0.0:*                                       \ntcp   LISTEN 0      0          127.0.0.1:631        0.0.0.0:*                                       \ntcp   LISTEN 0      0              [::1]:3350             *:*                                       \ntcp   LISTEN 0      0                  *:22               *:*                                       \ntcp   LISTEN 0      0                  *:3389             *:*                                       \ntcp   LISTEN 0      0              [::1]:631              *:*                                       \ntcp   LISTEN 0      0                  *:5901             *:*    users:((\"Xtigervnc\",pid=1876,fd=8))\ntcp   LISTEN 0      0              [::1]:6010             *:*                                       \n"
+}

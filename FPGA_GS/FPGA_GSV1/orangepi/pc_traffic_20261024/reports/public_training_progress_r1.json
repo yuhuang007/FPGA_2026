@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-25T06:21:55.403511+00:00",
+  "pid": 34824,
+  "run": "runs/public_body_r1_yolov8n_960_e60",
+  "release": "datasets/public_body_r1/manifest.json",
+  "release_sha256": "74f4227f2498aa660cf03dc9a2f3da714dd62fd1504f1237523c4b36a31e4ce5",
+  "optimizer_updates": 3801,
+  "completed_epochs": 60,
+  "model_task": "two-class motor/pedestrian signal body detection; no color/arrow state truth",
+  "production_train_val_save_verified": true,
+  "final_test_used": false,
+  "deployment_updated": false,
+  "limits": [
+    "Only5complete external val originals/8bodies; no China precision claim.",
+    "Final test currently1pedestrian original, insufficient coverage; reserved from tuning.",
+    "Production Trainer fit/val/save is verified during actual training, not preclaimed.",
+    "normal_2 subset deferred; it is not uniformly night."
+  ],
+  "updated_at": "2026-10-25T07:31:35.189330+00:00",
+  "current_epoch": 60,
+  "train_loss_parts": [
+    0.41578614711761475,
+    0.2764548063278198,
+    0.7893277406692505
+  ],
+  "gpu_allocated_bytes": 139653632,
+  "latest_checkpoint": "runs/public_body_r1_yolov8n_960_e60/weights/last.pt",
+  "val_metrics": {
+    "metrics/precision(B)": 0.27434,
+    "metrics/recall(B)": 0.26297,
+    "metrics/mAP50(B)": 0.24041,
+    "metrics/mAP50-95(B)": 0.14255,
+    "val/box_loss": 1.95748,
+    "val/cls_loss": 3.07882,
+    "val/dfl_loss": 2.45953
+  },
+  "latest_classification_mask_stats": {
+    "sparse_images": 2,
+    "positive_terms_retained": 63,
+    "sparse_unknown_negative_terms_masked": 75537,
+    "complete_negative_terms_retained": 0
+  },
+  "completed_at": "2026-10-25T07:31:35.189330+00:00",
+  "best_checkpoint": "runs/public_body_r1_yolov8n_960_e60/weights/best.pt",
+  "next_required": "Inspect held-out validation errors; export new classification logits and validate new weights on board candidate only."
+}

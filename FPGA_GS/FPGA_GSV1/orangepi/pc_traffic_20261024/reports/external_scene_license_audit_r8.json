@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-25T04:52:53.381150+00:00",
+  "entries": [
+    {
+      "candidate_id": "commons_scene_173323959",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:Igor123121\" title=\"User:Igor123121\">Igor123121</a>",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:29_Listopada_Avenue,_pedestrian_and_bicycle_paths,_Krak%C3%B3w,_Poland.jpg",
+      "title": "File:29 Listopada Avenue, pedestrian and bicycle paths, Kraków, Poland.jpg",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "current_license": "CC BY 4.0",
+      "current_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "metadata_evidence_file": "data/external_scene_candidates_r8/provenance/commons_173323959_metadata.json",
+      "metadata_evidence_sha256": "b4bd5d17a0d02db1f9f2f8a280d1b5580b3997c3e1e38032b72bc42dd024f405",
+      "source": "Wikimedia_Commons"
+    },
+    {
+      "candidate_id": "commons_scene_163437471",
+      "author": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Wikijanieo?action=edit&amp;redlink=1\" title=\"User:Wikijanieo (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Wikijanieo\"]}}'>Wikijanieo</a>",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg",
+      "title": "File:Pedestrian crosswalk along Route 9 Boylston St Newton Entrance to Mall and The Towers.jpg",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "current_license": "CC BY 4.0",
+      "current_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "metadata_evidence_file": "data/external_scene_candidates_r8/provenance/commons_163437471_metadata.json",
+      "metadata_evidence_sha256": "f943793b360569b7512a307da222c520ba2539f18a8629fc6da686365f153311",
+      "source": "Wikimedia_Commons"
+    },
+    {
+      "candidate_id": "commons_scene_182611616",
+      "author": "Mission for Inner City Cape Town",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Strand_street_pedestrian_crossing_3.jpg",
+      "title": "File:Strand street pedestrian crossing 3.jpg",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "current_license": "CC BY 4.0",
+      "current_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "metadata_evidence_file": "data/external_scene_candidates_r8/provenance/commons_182611616_metadata.json",
+      "metadata_evidence_sha256": "9adad8a4cfe1b80d1abf808377e5e5d9ef3899b6d06499b6b871d77d86c402c4",
+      "source": "Wikimedia_Commons"
+    }
+  ],
+  "verified_current_CC_BY": 3,
+  "verified_current_CC0": 0,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

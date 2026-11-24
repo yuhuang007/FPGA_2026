@@ -1,0 +1,3203 @@
+{
+  "recorded_at": "2026-10-25T05:35:39.471641+00:00",
+  "whole_image_results_in_remaining_queue": 352,
+  "current_version_results_all_originals": 400,
+  "new_confirmed_ids": [],
+  "new_review_ledger_records": 0,
+  "pending_disagreements": [
+    {
+      "candidate_id": "s2tld1080_0165",
+      "decision": "needs_modify",
+      "annotation_sha256": "d07ae99906881bbb0dd6cf2ebc1bddbe607484e2c270aa79e0b6623ab1084605",
+      "findings": [
+        {
+          "object": "green_bloom",
+          "conclusion": "[1610,151,1631,173]相对青绿亮核明显偏下，上半亮核在框上沿之外，框下为暗区；需原像素上移。"
+        },
+        {
+          "object": "red_left/ignore_luminous_strip",
+          "conclusion": "红左向亮符号与上方青色LED条分开；上方条不应作绿色灯体，保护ignore。"
+        },
+        {
+          "object": "leaf/white row",
+          "conclusion": "叶下装置与白亮三连排仍不够确认种类，ignore可接受。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重贴green_bloom亮核。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0166",
+      "decision": "needs_modify",
+      "annotation_sha256": "7eb3fd0f212545a0cdcf978a45f0da9a8d688c2750db3c387464773de39f7658",
+      "findings": [
+        {
+          "object": "green_bloom",
+          "conclusion": "[1657,144,1683,169]青绿核上缘在框外，框明显下偏；需按可见亮核上移。"
+        },
+        {
+          "object": "side_green",
+          "conclusion": "[911,210,938,239]上边收入独立黄白小点，而绿核位于下方；应单独贴绿发光区域并与上小点分离。"
+        },
+        {
+          "object": "LED/white rows",
+          "conclusion": "青条及两组三连白装置被ignore保护，不作确定信号壳。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主绿及侧绿几何核对。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0167",
+      "decision": "needs_modify",
+      "annotation_sha256": "fd15b06622021c7c7589c22d5a1589d39a36f263714561258cd5446436fd9c24",
+      "findings": [
+        {
+          "object": "far_left_green",
+          "conclusion": "[70,256,88,274]偏右下：实际远绿核位于框左上侧，框右下暗区较多；需重贴，若不足以可靠框则保护ignore。"
+        },
+        {
+          "object": "red_left",
+          "conclusion": "[1627,149,1646,168]偏下且上缘切左箭亮核上部，需原像素核界。"
+        },
+        {
+          "object": "pole_top_green",
+          "conclusion": "杆顶青核和下方绿色LED竖条分离；未将长条当整灯。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重贴远左绿和主红箭头。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0168",
+      "decision": "needs_modify",
+      "annotation_sha256": "422af5d669e08d9dfd9a73a76ff9c52c7e3f7c869e142e276511250fb9e5d33a",
+      "findings": [
+        {
+          "object": "red_left",
+          "conclusion": "[1654,177,1678,198]略偏下，上箭笔画亮核在框上边之外；重新核亮符号范围。"
+        },
+        {
+          "object": "side_green/pole",
+          "conclusion": "侧绿、杆顶青核与LED竖条分开，壳不清仍ignore；主绿框已基本覆盖核心。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主红箭头亮核上边界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0169",
+      "decision": "needs_modify",
+      "annotation_sha256": "51910bd5b3144ae4c2418240ea39f0ca8ff35bc22976d54d215624d4e3c06456",
+      "findings": [
+        {
+          "object": "red_main",
+          "conclusion": "[1470,137,1491,156]上缘截左箭上笔画，右边偏暗，需重贴。"
+        },
+        {
+          "object": "green_side",
+          "conclusion": "[553,231,583,262]相对青绿核心略偏右下，左/上亮核部分出框；需核原像素。"
+        },
+        {
+          "object": "edge_red",
+          "conclusion": "远右缘小红核可见，种类和符号未知合理；车尾及道路倒影无新确定body。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主红与侧绿几何。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0170",
+      "decision": "needs_modify",
+      "annotation_sha256": "15d9d8657191a68a4f1f037e37ff1f41e6edeb70e61d04afc1cd7d17700905b2",
+      "findings": [
+        {
+          "object": "edge_red",
+          "conclusion": "[1883,45,1895,58]偏左上，红亮主体实际在框右下，明显截去右侧红核；需重贴或仅保留ignore。"
+        },
+        {
+          "object": "red_main",
+          "conclusion": "主左箭框上缘仍切一部分上笔画，请一并核对。"
+        },
+        {
+          "object": "LED/side heads",
+          "conclusion": "主侧红箭与绿核能分，颜色有图像依据；青色文字条保留ignore，未成为body。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远右红核及主红箭头上缘。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0171",
+      "decision": "needs_modify",
+      "annotation_sha256": "7ac61b9831d149e7293ad6c4e7a4296d7194e002bfcbbe25a4caa9b3d2e420bc",
+      "findings": [
+        {
+          "object": "red_main",
+          "conclusion": "主左箭框[1332,101,1352,121]偏右下，左箭尖/上笔画被框切；需重贴可见符号。绿主/侧框与邻近倒计时分开是正确的。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重贴red_main箭头范围。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0174",
+      "decision": "needs_modify",
+      "annotation_sha256": "8475b8b600df8ad08fb45486582e10c4fe3a81ec36ece2dae5349c7ec62dc314",
+      "findings": [
+        {
+          "object": "far_green",
+          "conclusion": "[1723,294,1732,308]框落在远绿亮纹右侧暗区，实际绿纹在框左侧；需原像素重贴，ignore_far_green也核是否完整包住青白顶部/绿纹。顶部截断红箭/圆继续truncated，不补全壳。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重贴远绿，核保护框左缘。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0175",
+      "decision": "needs_modify",
+      "annotation_sha256": "927a77834fd72e6efc505fc7e480f48e20603766e00ba472704098b3ba079feb",
+      "findings": [
+        {
+          "object": "yellow_main",
+          "conclusion": "[442,157,464,179]偏右下，明显切掉黄核上半/左缘，收入下方暗区；需重贴。红箭与数字3、LED文字分开合理；杆顶暖点保留色未知。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主黄核坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0176",
+      "decision": "needs_modify",
+      "annotation_sha256": "dbe535b7de84927e29bee8928dcaf69a82b3531b53ad03d429652b5af00402fa",
+      "findings": [
+        {
+          "object": "warm_pole_top/red_main",
+          "conclusion": "杆顶[1330,245,1342,264]明显偏下，亮顶在框上方，下面多暗区；主红[871,118,891,139]左缘切红核。需原像素重贴，暖点继续unknown。主侧绿左箭有图像依据。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "杆顶暖亮区和主红左边界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0178",
+      "decision": "needs_modify",
+      "annotation_sha256": "3903c4f0175fa5186b8f722246f9220ad90b92d9916a3d1df845a8bb96f31e83",
+      "findings": [
+        {
+          "object": "red_main",
+          "conclusion": "[983,62,1009,87]偏右下，红圆亮核左上部分在框外，右下多暗区；需重贴。两绿左箭与侧红、杆顶暖点/LED文字仍分开，暖顶unknown有依据。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主红圆核心坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0179",
+      "decision": "needs_modify",
+      "annotation_sha256": "8206e0479bd4b48ae76743b178971f82e531e1259594068b5cd827af39a9348c",
+      "findings": [
+        {
+          "object": "red_main/red_side",
+          "conclusion": "主红[994,32,1017,56]与侧红[467,110,491,133]均切去亮圆底缘；侧绿也略缺下笔画。需按本帧亮核重贴，不用相同坐标模板。主绿与旁倒计时已分开，未混数码。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0180",
+      "decision": "needs_modify",
+      "annotation_sha256": "19e5076f0defdce4fe9c730d819e9010bbfb2eba512029ff9598ba4de7c9c99a",
+      "findings": [
+        {
+          "object": "red_side",
+          "conclusion": "侧红[467,110,491,133]上方暗区较多而底部亮圆出框；侧绿[424,161,455,190]下笔画略出框，需本帧重贴。红杆顶与下LED文字分开合理。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0181",
+      "decision": "needs_modify",
+      "annotation_sha256": "20b6f8d4fc7813cf151078a5d6b586369598ba8c85a3cc7f387731d930f6793c",
+      "findings": [
+        {
+          "object": "e_side_red/e_side_green/e_far_pair",
+          "conclusion": "侧红底缘及侧绿下笔画明显越过旧固定框；远青绿[678,204,703,221]右下亮核出框，远暖[665,208,680,224]也偏上。需分别核界；杆顶饱和保持unknown合理。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0182",
+      "decision": "needs_modify",
+      "annotation_sha256": "9ab37e30c08e150587cb75057eb27ea81293f67a36c4d0a4861045f32ff6e3a7",
+      "findings": [
+        {
+          "object": "e_side_yellow/e_side_red/e_far_pair",
+          "conclusion": "侧黄[428,135,458,164]及侧红[467,110,491,133]均截亮核底缘，远青绿框也缺下端。黄/暖状态不能仅沿用相邻帧；本帧黄核可见，右近红具有红晕支持。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0183",
+      "decision": "needs_modify",
+      "annotation_sha256": "c7a84a59b6e4cdbf5e91f4fdb51d0309e44e0fba1c4b49cacf136e120706811e",
+      "findings": [
+        {
+          "object": "e_side_arrow/side_arrow",
+          "conclusion": "[431,108,447,131]同时切掉左箭右尾和下笔画；父ignore[428,102,450,140]也需核右缘是否包完发光尾。主左箭[898,30,921,57]亦切下笔画，远青绿框截下端。色unknown不等于几何可跳过。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0184",
+      "decision": "needs_modify",
+      "annotation_sha256": "55085a30d2e17ea0a6fe7a108957331e33de02ab813ce80c7386e683e468e8fd",
+      "findings": [
+        {
+          "object": "e_side_arrow/e_main_arrow/e_far_pair",
+          "conclusion": "侧左箭[430,108,450,134]的右尾及下笔画仍出框；主箭[892,29,917,56]下笔画超框；远青绿框右下也明显被切。形状可辨但暖色分不清保留unknown。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0185",
+      "decision": "needs_modify",
+      "annotation_sha256": "8fdb5d61330526e15e2f66bde0532fdd896f0d7efba62aac40e8c6964c06c089",
+      "findings": [
+        {
+          "object": "e_side_arrow/e_main_arrow/e_far_pair",
+          "conclusion": "侧左箭尾部/底部、主左箭下笔画及远青绿右下亮核仍出框，需按本图而非继承坐标修订。LED绿竖条单独ignore正确。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0186",
+      "decision": "needs_modify",
+      "annotation_sha256": "620a3d6d305240a2a13f4694a8e395b8356babe29b9cffbc483f34c3dc197571",
+      "findings": [
+        {
+          "object": "e_side_arrow/e_main_arrow/e_far_pair",
+          "conclusion": "侧左箭[430,108,450,134]下笔画和右尾、主箭[896,32,918,57]底部、远青绿[678,204,703,221]下亮核均被截，分别核界；原图强反射不应增加虚构body。"
+        },
+        {
+          "object": "unknown bodies/negative context",
+          "conclusion": "近处壳在雨夜眩光中不可完整分辨，继续ignore；LED文字、下方竖条、车辆及路面反射不作灯体。远青绿簇是否单一发光区域仍需明确，若不能分离可保留整体ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "分别核对所列亮核边界；远青绿若为文字/杂合显示需保护ignore，不能强造确定灯体。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0188",
+      "decision": "needs_modify",
+      "annotation_sha256": "3a93feb124bcd64da2875581bdf27d599c861a948b83a9e4905ab1e87258cb10",
+      "findings": [
+        {
+          "object": "e_main_arrow/e_side_arrow/e_far_pair",
+          "conclusion": "主箭[895,30,918,57]和侧箭[430,108,450,134]切下笔画/右尾；远青点[671,206,685,222]偏左上，实际亮核在右下，远暖也偏上。需逐核重贴。当前主圆/侧圆unknown可以保留，不凭邻帧推色。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0189",
+      "decision": "needs_modify",
+      "annotation_sha256": "a7f3ccc8860a300668091ea54b19656732fbcb5701506b7059d0a909e3c71a2c",
+      "findings": [
+        {
+          "object": "e_main_arrow/e_side_arrow/e_far_pair",
+          "conclusion": "主左箭下笔画及侧箭右尾/下笔画出框；两远亮核框仍上移而下半亮核未包住。红色有真实红晕，顶部青文字单独ignore正确。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0190",
+      "decision": "needs_modify",
+      "annotation_sha256": "00d15ce5b1bbbe7d8b6ab62b5ddc2780b5a1d166a43f2fe8841f65c837227b4a",
+      "findings": [
+        {
+          "object": "e_main_arrow/e_side_arrow/e_far_pair",
+          "conclusion": "主箭[893,37,917,57]下笔画超框；侧箭仍沿用偏小框；两远核明显框偏上。红圆与右/下数字9已分开，不能把倒计时收入emitter来补面积。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0191",
+      "decision": "needs_modify",
+      "annotation_sha256": "6cacdc8d1a7f1dfd95fdaad8eed4ecd0ff1f917c6c90d509853dad116d54b438",
+      "findings": [
+        {
+          "object": "e_main_arrow/e_side_arrow/e_far_pair",
+          "conclusion": "主箭[897,42,918,62]上笔画/左尖被截、下面含暗区；侧箭仍截尾/下笔；远点框上移。下数字6及上青文字保持独立ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0192",
+      "decision": "needs_modify",
+      "annotation_sha256": "9248c2fe16d5612b9bfa785a051b9dba6b50b058bdf35b6aa2e993af95ec0571",
+      "findings": [
+        {
+          "object": "e_main_red_numeric/e_far_pair",
+          "conclusion": "主红[1020,52,1045,77]明显偏右，左约三分之一红圆在框外；e_far_pair[692,234,707,251]跨青与暖相邻点，far_warm[708,236,722,252]落右侧白点，需重新对应对象和边界。主侧箭也需检查被截笔画。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0193",
+      "decision": "needs_modify",
+      "annotation_sha256": "2bc662e54e5be1c4a28b15814896fc17d72dd3e383a0cd37a034f8e1ae74aa7c",
+      "findings": [
+        {
+          "object": "e_side_arrow/e_far_pair/e_text_pole",
+          "conclusion": "侧箭[417,130,442,155]左尖在框外；远红[727,248,744,266]框同时含右白点、错过左侧红核。杆顶被标symbol pedestrian，但仅见强青绿眩光和粗略双腿轮廓，建议PC以原像素证据裁决是否足以确认；不足则symbol unknown，不从LED杆位置推行人。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0194",
+      "decision": "needs_modify",
+      "annotation_sha256": "9aacdc7925bfa2491988ae81e12d24c2945f05c4aedb1d5333d1b6c80503665b",
+      "findings": [
+        {
+          "object": "e_far_pair/far_red_right/e_side_arrow",
+          "conclusion": "远红两框[697,259,711,276]及[714,259,729,278]均偏右：第一框漏左红核，第二主要落右白点/暗区。需重新对应两个实际红亮点；侧左箭[323,120,353,150]左尖亦出框。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0195",
+      "decision": "needs_modify",
+      "annotation_sha256": "e93c92c65513a5b975e84ce12650966397666968b8e8ae3e6f3161b9635067c6",
+      "findings": [
+        {
+          "object": "e_side_green/e_main_red",
+          "conclusion": "侧绿[810,281,828,299]明显偏右下，青核在左上，框下是壳/暗区；主红[929,246,942,258]偏上切下半亮核，侧红框也偏右。需分别原像素重贴。暖数字显示整体ignore，没有把数字当body。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核所列亮核几何及对象对应；疑难形状不升级。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0196",
+      "decision": "needs_modify",
+      "annotation_sha256": "dab5c0b544ddfc2738377bdb24cd3ae5ff10308ca071c09961ca254a044aa47d",
+      "findings": [
+        {
+          "object": "e_side_green/e_side_red",
+          "conclusion": "侧绿[807,254,832,277]偏右下，亮核在框左上，侧红[802,237,815,249]也偏右，需原像素重贴；两杆顶/下小绿点存在但不推类别。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0197",
+      "decision": "needs_modify",
+      "annotation_sha256": "69d14f5fef57f50e849ef16cb5ba65f8cfe2740f08f3608259aabd513ebc481a",
+      "findings": [
+        {
+          "object": "e_pole_lower",
+          "conclusion": "[1061,257,1074,273]主要框住窄绿竖条下段，亮条延伸出上边；需核这是LED竖显示还是独立灯面，不能把窄条当独立确定灯。可保留整段ignore。主红框还切下缘。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0198",
+      "decision": "needs_modify",
+      "annotation_sha256": "df02a10fd72f9ccafa4fc9bf8eecf7ff63cad948580e216d4451e9bf39dd87c3",
+      "findings": [
+        {
+          "object": "e_main_red",
+          "conclusion": "[939,172,952,185]偏上，红亮核下半出框；请重贴。右红LED“图广告”等文字作为hard_negative有文字形状支持，绿条/暖数码ignore合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0199",
+      "decision": "needs_modify",
+      "annotation_sha256": "01fcbce956d99294ad48d04a036fb5869d28ec1cdcd9df3d0ac26807098b850c",
+      "findings": [
+        {
+          "object": "e_side_red/e_side_green",
+          "conclusion": "侧红[632,220,654,241]切上笔画/亮核顶，侧绿[647,244,677,267]框偏下，亮核上缘在框外，需重贴。主绿圆与数字分开、青文字ignore合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0200",
+      "decision": "needs_modify",
+      "annotation_sha256": "dca1fb2d9c29eced224684e57f84f82d0098ca5fbeaac42b3abc4afd33c09c01",
+      "findings": [
+        {
+          "object": "e_main_red_numeric/e_main_green_numeric",
+          "conclusion": "主暖箭[951,143,970,158]下笔画出框，主青绿[1060,140,1087,164]上缘切亮圆并偏下；按实际亮核重贴，不能为未知符号用数字替代。绿长条/暖文字未作灯壳。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0201",
+      "decision": "needs_modify",
+      "annotation_sha256": "f98a2878bf7bb933042baf0945cb29239b1d4117346a643cb064d5a0342e18eb",
+      "findings": [
+        {
+          "object": "e_main_red_numeric",
+          "conclusion": "[1009,61,1037,84]主红箭明显偏右，左尖在框外、右侧接近/收入数字4左缘。需重贴箭头并与4分离；侧红绿、杆顶绿/下竖文字可分辨。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0203",
+      "decision": "needs_modify",
+      "annotation_sha256": "b5c1b723213b58bc19bda99fa507bd1ce9e34717da6210d0cdf77746b783f95d",
+      "findings": [
+        {
+          "object": "e_side_yellow",
+          "conclusion": "[638,321,654,339]切掉黄亮纹下端，实际下方仍有亮核心；需重贴或无法隔离时仅保留ignore，长竖LED不并入灯面。远主红小圆可读但不推完整壳。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定框/显示属性，不从相邻帧复制确认。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0207",
+      "decision": "needs_modify",
+      "annotation_sha256": "27b82b498606198a35dd3b36f22e08e08f70ffe081d271df7d66b0f1e1d29cb6",
+      "findings": [
+        {
+          "object": "e_text_pole",
+          "conclusion": "杆顶[1407,240,1426,267]偏下，青绿亮核上端出框而下方含较多暗区；需按本帧上移/核右缘。绿文字与顶点分离、主绿未含文字正确。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定发光框几何。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0209",
+      "decision": "needs_modify",
+      "annotation_sha256": "2a138626aeef4c015202e294d41b7c4e2181476f39fa4cdbf9cb41676ec042f1",
+      "findings": [
+        {
+          "object": "e_main_yellow",
+          "conclusion": "[804,160,825,181]相对黄核偏右上，黄亮核左下有出框部分；需原像素核界。远暖/苍白点均unknown，蓝牌边白点不强赋灯色或种类。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "核指定发光框几何。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0236",
+      "decision": "needs_modify",
+      "annotation_sha256": "4130bef0ae17c3f6eb905f83cf835b0fcc50072e5e5d3560d148796443bbeab5",
+      "findings": [
+        {
+          "object": "right/er/count",
+          "conclusion": "右灯体上边界、er和count上边界均截到红圆灯/数字7顶端，需按本图重定而非照搬前帧。"
+        },
+        {
+          "object": "ef2",
+          "conclusion": "远双亮点右框左沿仍切核心，需分别对齐两点；形状unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "右灯体与数字/圆灯上沿，远红点"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0237",
+      "decision": "needs_modify",
+      "annotation_sha256": "82980d25ff456abebb20bb43ec01d3e076dcecbdf0cfbc5cf66060c8d5945f01",
+      "findings": [
+        {
+          "object": "right/er",
+          "conclusion": "右灯体及绿灯框上沿明显穿过圆灯亮核心，需要上扩；不是外部光晕。"
+        },
+        {
+          "object": "ef2",
+          "conclusion": "远双红点右点框左沿穿核心，需重定。"
+        },
+        {
+          "object": "text",
+          "conclusion": "上方LED文字独立hard_negative合理，不属于灯体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "绿圆灯/壳上边界和远点"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0238",
+      "decision": "needs_modify",
+      "annotation_sha256": "0e6964fa6be47878db1157a65743d3a4df6aea8821bd28109bf7d412d87322cf",
+      "findings": [
+        {
+          "object": "er",
+          "conclusion": "绿圆灯框上沿切亮核心。"
+        },
+        {
+          "object": "ef2",
+          "conclusion": "远双红点已向左移动，沿用的ef2框主要落在右侧暗区并裁掉左侧核心；两点都应重定位。"
+        },
+        {
+          "object": "main",
+          "conclusion": "红左箭头、灯壳和文字显示可分别辨认。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "绿灯及远双点坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0239",
+      "decision": "needs_modify",
+      "annotation_sha256": "0618ed2b6df796759edac809d9f700819060b49a2114b0e21e77999fce9f337e",
+      "findings": [
+        {
+          "object": "ef1/ef2",
+          "conclusion": "far_pair内两点真实位置偏左：ef1框混入右点，ef2框落在右侧暗区并漏掉目标，须逐点重新对应。"
+        },
+        {
+          "object": "near/aux",
+          "conclusion": "近红左箭头、绿圆灯与LED文字分离合理；摄像机补光阵列作为hard_negative，不标交通灯。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远双红点身份和坐标对应"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0240",
+      "decision": "needs_modify",
+      "annotation_sha256": "29bfe9000ef738a0137411fa4eb7cbcbecb745a00d8ee9e304ceaea290c12877",
+      "findings": [
+        {
+          "object": "en2",
+          "conclusion": "next_main右亮点位于en2框左外，框主要覆盖暗壳，须重定；ef1/ef2也需避免交叉混入另一点。"
+        },
+        {
+          "object": "near",
+          "conclusion": "近红左箭头与截断右灯体可分辨，右侧保留ignore合理，补光阵列不是灯。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远灯对应坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0241",
+      "decision": "needs_modify",
+      "annotation_sha256": "69961e503a8ad7ac172a5dd760f1c144d9e26fa824c7b790e2fcad18d32321ab",
+      "findings": [
+        {
+          "object": "esl",
+          "conclusion": "侧左emitter把上方数字状亮块与下方圆形灯一起圈入，需分离，下方灯形不可读时保持unknown。"
+        },
+        {
+          "object": "er",
+          "conclusion": "主右emitter框向右下偏，左侧亮核心部分在外；灯体框下方空背景较多，建议按壳体复核。"
+        },
+        {
+          "object": "esr/strip",
+          "conclusion": "侧右上部细亮区与下方LED文字区不应合为灯，保持unknown并复查是否数字/符号。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "侧灯与数字拆分、主绿灯坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0242",
+      "decision": "needs_modify",
+      "annotation_sha256": "61dcadb1c8eaa34b065cb919192877fc4220890574067cf1e3028bd38b93e616",
+      "findings": [
+        {
+          "object": "el/count_l",
+          "conclusion": "左箭头框含右侧数字的一段，数字框漏掉上部/左部；需逐对象重新定位。"
+        },
+        {
+          "object": "er/count_r",
+          "conclusion": "绿圆灯框向右下偏，截亮核心上沿；数字框也偏下。"
+        },
+        {
+          "object": "esg",
+          "conclusion": "侧左下圆灯框偏右下并触上方数字，需单独包住圆灯。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "数字/灯分离及核心边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0245",
+      "decision": "needs_modify",
+      "annotation_sha256": "d84c8cc57c6ed25b33d82750034b4e7bedba9a3ed64220768a2bd5445a0c78ee",
+      "findings": [
+        {
+          "object": "ef2",
+          "conclusion": "far_right绿亮竖核在当前框左侧，框主要落右侧暗背景，需重新对齐，不应据邻帧猜形状。"
+        },
+        {
+          "object": "near/strip",
+          "conclusion": "近绿/红灯和侧红亮区分开；LED竖文字与灯分开。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远绿点坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0246",
+      "decision": "needs_modify",
+      "annotation_sha256": "f30d58cf63b01a1c8efbee77f22e0538883a524a7ac0db09a626bc65ae32b4ba",
+      "findings": [
+        {
+          "object": "right/er",
+          "conclusion": "主右壳及红圆框左沿切过实际红灯核心，需左扩/移；灯壳不得裁掉灯孔。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "小红色过曝亮块可辨红，但仅该像素不足确认pedestrian符号；需PC以原图说明可见人形证据，否则symbol unknown。"
+        },
+        {
+          "object": "side",
+          "conclusion": "侧红圆与绿左箭头两个竖壳合理，远cluster保持ignore可接受。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "右红灯边界、pedestrian属性像素依据"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0247",
+      "decision": "needs_modify",
+      "annotation_sha256": "288663b10b4b574cc3cc87245d8e83ec53fff74037dc1505ee15a5347a547efa",
+      "findings": [
+        {
+          "object": "el/count",
+          "conclusion": "el左沿混入数字9右段、count框略偏右上，需按实际箭头和数字分界重定。"
+        },
+        {
+          "object": "esg/side_count",
+          "conclusion": "侧绿箭头框上部触及数字9下缘，数字框偏上且底缘切核心，需分离。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "侧红色人形样式相对可见但当前保持unknown不强增确定性；远cluster有保护。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主/侧数字与箭头坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0248",
+      "decision": "needs_modify",
+      "annotation_sha256": "544c889d6dc4b1855c5604c46b2ae21824fdcf10f8ad6c184d789824c2f07b2d",
+      "findings": [
+        {
+          "object": "left/el",
+          "conclusion": "左灯体和绿左箭头右沿切到箭头尾端，需复核右边界，不只圈中心。"
+        },
+        {
+          "object": "side",
+          "conclusion": "侧箭头、数字4、红圆灯分开合理，遮挡侧灯保持ignore及unknown。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "绿箭头尾端/灯壳边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0249",
+      "decision": "needs_modify",
+      "annotation_sha256": "834982ca88a1fa6fb821da1a333550432a85062e2db19714eda714c00807dd67",
+      "findings": [
+        {
+          "object": "ef",
+          "conclusion": "far_right的ef包含下方绿色LED竖条，且上沿切到上方小灯，须仅圈实际灯，竖条作显示/ignore。"
+        },
+        {
+          "object": "occluded_left",
+          "conclusion": "被货车遮挡的红灯仅剩上弧，保留ignore/unknown而不补全完整灯壳合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "far_right灯与LED条拆分"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0251",
+      "decision": "needs_modify",
+      "annotation_sha256": "46536c9e9efddc3c7c98bf2898704bd94d8ed05a7986ea6b87d181041bf5db7a",
+      "findings": [
+        {
+          "object": "el/er",
+          "conclusion": "主红箭头上支和主红圆上部亮核心越过当前上边界，需上扩，排除光晕即可但不得裁核心。"
+        },
+        {
+          "object": "side/far",
+          "conclusion": "侧双红灯与箭头、远点及LED文本分开；远色不读形状。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主红箭头和圆灯上沿"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0254",
+      "decision": "needs_modify",
+      "annotation_sha256": "b038bbd7abec00d735ceb1ca89c06a1c306b9e38468602ac1d1d214ef7efef4f",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "主红左箭头左侧尖端位于当前框左外，需向左扩/移。"
+        },
+        {
+          "object": "side_count",
+          "conclusion": "侧数字2上部弧段在框上方，当前框偏低，需上移；不能混入上方红圆。"
+        },
+        {
+          "object": "ef",
+          "conclusion": "远红点框上沿切核心，按本图复核。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "箭头尖端、侧数字上边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0255",
+      "decision": "needs_modify",
+      "annotation_sha256": "4515b1091a1558689ad40c4992b5de2bc4913e371608e960e67e76c6b0d42782",
+      "findings": [
+        {
+          "object": "side_r/esr",
+          "conclusion": "原像素上下文确认实际侧灯位于约x1111,y459，现side_r/esr向下落在LED竖条上，漏保护上方灯；应移到真实灯并分离文字。"
+        },
+        {
+          "object": "strip",
+          "conclusion": "hard_negative strip只覆盖竖条下段且落向底座，需重定覆盖可见显示段。"
+        },
+        {
+          "object": "main",
+          "conclusion": "夜间两主红色亮体过曝，kind/symbol保持unknown合理，不据亮白核心强定黄/白。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "侧灯与LED显示对象对应，原像素证据0255_right_context.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0256",
+      "decision": "needs_modify",
+      "annotation_sha256": "f7ab77df4a5f457ffcace921c75ba906cd8c04c0a09f59f52ee2a8b07ae6193e",
+      "findings": [
+        {
+          "object": "e_main_r/count",
+          "conclusion": "主右emitter混入倒计时，count却落在右方暗背景，需按圆灯和数字分别对应。"
+        },
+        {
+          "object": "e_side_r",
+          "conclusion": "侧右框向下落在灯下方数字/竖文字上，需单独定位上方真实灯。"
+        },
+        {
+          "object": "e_far_green",
+          "conclusion": "远绿emitter包含LED竖显示，应与上方小灯分离。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "圆灯/倒计时/LED对象对应"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0257",
+      "decision": "needs_modify",
+      "annotation_sha256": "6aa776c8ad005d1d039fc214d51f8323acfddfa1c804fc473e745ea55c3903ca",
+      "findings": [
+        {
+          "object": "e_far_green",
+          "conclusion": "远green框是下方分段LED数字/文字，未见可独立肯定为灯的核心；应保留ignore，不能强定emitter。"
+        },
+        {
+          "object": "e_main_r",
+          "conclusion": "主绿框左沿裁掉亮核心，需左移。"
+        },
+        {
+          "object": "side_r",
+          "conclusion": "侧右灯自身曝光暗且形状不可判，unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远LED与灯区区分、主绿框"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0258",
+      "decision": "needs_modify",
+      "annotation_sha256": "43927a0439d555806ef25bfd09ea425cff8784d3b48a4942f4d3d6168d8e870c",
+      "findings": [
+        {
+          "object": "e_far_left/e_far_green",
+          "conclusion": "far_left绿形呈上下分段数字状，far_green包含上方灰点与下方LED条；不能作为单独发光灯，需PC分离或降ignore。"
+        },
+        {
+          "object": "e_main_l/e_main_r",
+          "conclusion": "两主灯核心位于当前框左缘外，需重定，不只是光晕。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远LED误作emitter、主框对齐"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0259",
+      "decision": "needs_modify",
+      "annotation_sha256": "8b2ce133c5cecac263fb4981448d884bf7e1d9731ac0705ce729077795e0f71e",
+      "findings": [
+        {
+          "object": "e_far_green",
+          "conclusion": "该框主要是绿色LED竖显示，不是可独立灯体；应移至真实上方灯或ignore。"
+        },
+        {
+          "object": "e_side_r",
+          "conclusion": "侧右框下部混入LED条上端，收紧到上方灯。"
+        },
+        {
+          "object": "main/side",
+          "conclusion": "主红/绿与侧左红箭头/绿点均真实可见，灯壳不可读继续ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "LED显示与灯核心分离"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0260",
+      "decision": "needs_modify",
+      "annotation_sha256": "9a8b11a467c537f115946833aed575f193866bce44696d3aa5efee1bdbf70a66",
+      "findings": [
+        {
+          "object": "e_far_green",
+          "conclusion": "far_green绿色竖段呈显示条，与上方浅灰灯区必须分开；不能把显示条标灯。"
+        },
+        {
+          "object": "e_side_r/e_far_left",
+          "conclusion": "两处核心当前呈灰暗/曝光不可判，仅靠本帧不能肯定green，应unknown并由PC复核。"
+        },
+        {
+          "object": "e_main_l",
+          "conclusion": "主红核心左侧被框裁切，需左移。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远LED、不可辨色及主红框"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0261",
+      "decision": "needs_modify",
+      "annotation_sha256": "ebb80794caa02d134fd74107c8fae2fa6f2f3a32ae760d61658854a59fb5fb89",
+      "findings": [
+        {
+          "object": "e_far_green",
+          "conclusion": "框内同时有青色数字/符号状上部和下方绿LED条，不支持单独灯emitter，需要分离或ignore。"
+        },
+        {
+          "object": "e_side_r",
+          "conclusion": "侧右核心灰暗，不能凭邻帧延用green；需unknown或给本帧颜色依据。"
+        },
+        {
+          "object": "pole_count",
+          "conclusion": "另有独立LED数码显示，hard_negative处理合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远显示对象、侧灯颜色"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0264",
+      "decision": "needs_modify",
+      "annotation_sha256": "a7f2d2b3b0852e5d9b646ed564023bcbe05954b43784aeb222e103ab319b95e0",
+      "findings": [
+        {
+          "object": "e_far_red/far_strip",
+          "conclusion": "far红框混入下方LED竖条，strip框偏下主要到车辆/底座，真实灯位于上方，应分离重定。"
+        },
+        {
+          "object": "e_main_r",
+          "conclusion": "主绿亮核心右侧被框裁切，需右扩；侧红箭头及主红箭头可辨。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远灯/文字位置、主绿边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0265",
+      "decision": "needs_modify",
+      "annotation_sha256": "7170aec98180552b255a03c6d2855d0ba28b63fa83e5962679863c1562a627c7",
+      "findings": [
+        {
+          "object": "e_far_red",
+          "conclusion": "当前远红emitter框落在竖条上，真实红亮点在框上方；far_strip同样偏下。"
+        },
+        {
+          "object": "side_count/e_side_green",
+          "conclusion": "侧数字7右段及绿圆灯右核心被框裁切，需重定，不能照搬上帧。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红与LED区分、侧数字/绿灯边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0267",
+      "decision": "needs_modify",
+      "annotation_sha256": "112ba0d20026533fb24e4d3ebf94bf87d5a6e0fd48d284311847e831a75b906e",
+      "findings": [
+        {
+          "object": "e_far_red",
+          "conclusion": "远红框向右下偏，实际亮核在左上外缘且框包含LED条；需移至灯。"
+        },
+        {
+          "object": "side/main",
+          "conclusion": "近侧两个竖直灯壳分离合理，红左箭头清楚；上方主灯红箭头与数字3、文字分开，未把暗腔认成确定熄灭。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红灯与竖条坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0268",
+      "decision": "needs_modify",
+      "annotation_sha256": "3a62ad99e3d1fb87f75ec07aa1cb5f3f39739581734bc152a87a1e3990b3f66a",
+      "findings": [
+        {
+          "object": "ef",
+          "conclusion": "远cluster框同时包含多个暖亮点/数码状亮块，未支持一个独立emitter，建议仅保留ignore或逐点确认后拆分。"
+        },
+        {
+          "object": "main/side",
+          "conclusion": "主绿与侧绿核心可辨，背向灯ignore、红绿文字hard_negative处理合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远cluster是否单灯及拆分"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0269",
+      "decision": "needs_modify",
+      "annotation_sha256": "8483b0ddc971fc0e4fec64bc0cabc849d3a0febab727a932ef1478177c47c1a0",
+      "findings": [
+        {
+          "object": "side_count",
+          "conclusion": "侧数码上部亮段伸出side_count上边界，框只圈到下半/部分数字，需重定完整显示；保持hard_negative，不改灯类别。"
+        },
+        {
+          "object": "main",
+          "conclusion": "主倒计时8与绿圆灯已分开，远红cluster保留ignore合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "侧数码显示边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0272",
+      "decision": "needs_modify",
+      "annotation_sha256": "8b448b7061fcd4c7f209f000a0efaee5b71366ff0cfd05c4b9eb38e1c98b2ba0",
+      "findings": [
+        {
+          "object": "ef",
+          "conclusion": "far_warm中亮核在框右上方，ef偏左下且上沿切核，需对本帧重定。"
+        },
+        {
+          "object": "side",
+          "conclusion": "远侧LED竖条和不明顶部、背向灯均保护，主红灯过曝形状保留unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远暖亮灯核心边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0273",
+      "decision": "needs_modify",
+      "annotation_sha256": "12b3f85e1abcb0b53396ae1d2e6fc82f55cda95dca88a00036461af739db39c5",
+      "findings": [
+        {
+          "object": "e_far_main",
+          "conclusion": "远红点框向右下偏，上沿切过亮核心，需上移；主红过曝保持unknown形状。"
+        },
+        {
+          "object": "side_text",
+          "conclusion": "侧LED文字上部在当前框上方，需重定可见显示范围。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红框、LED文字范围"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0274",
+      "decision": "needs_modify",
+      "annotation_sha256": "54a27a9b7c64d57de76db980570bcac18327402216aa79c465149473d72d896c",
+      "findings": [
+        {
+          "object": "e_far_main",
+          "conclusion": "远亮点落在框左沿外，框大部是暗背景，须左移/重画。"
+        },
+        {
+          "object": "main/count",
+          "conclusion": "主红圆与数字8分开可辨，但main ignore右沿切数码所在区域，可扩为不明灯组保护；不要强增kind。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远灯坐标与灯组保护范围"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0275",
+      "decision": "needs_modify",
+      "annotation_sha256": "c3a8887caca16afa6c8dd7bf761ef781bbc95af8014033063debda8cf1d9eb5e",
+      "findings": [
+        {
+          "object": "e_far_main",
+          "conclusion": "远红核心被当前框左边裁掉大半，需左移；不要保留暗区代替灯。"
+        },
+        {
+          "object": "main/count",
+          "conclusion": "主红亮体和数字3、背向灯及LED文字分离合理，过曝形状unknown。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红核心坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0276",
+      "decision": "needs_modify",
+      "annotation_sha256": "55c8fb0766cee65d88da38b24ce5f16546206844dcb9e8ea9d3a62c8f76dcc32",
+      "findings": [
+        {
+          "object": "e_far_main",
+          "conclusion": "远红点主要在框左边外，需左移；绿色主灯框正常，不能据主绿改变远灯颜色。"
+        },
+        {
+          "object": "back",
+          "conclusion": "背向壳与LED文字分开，保留ignore不猜机动车/行人kind。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红点对齐"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0277",
+      "decision": "needs_modify",
+      "annotation_sha256": "3ed37ed7752b4d6655ddf7a2f8fdebf12748325b257cee9206170e45238ebe89",
+      "findings": [
+        {
+          "object": "ef",
+          "conclusion": "远绿点在当前框上边界外，框主要落到下方暗区，需向上重定。"
+        },
+        {
+          "object": "main/bus",
+          "conclusion": "横向主红箭头/绿圆与LED文字分开；公交车线路屏作为hard_negative正确。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远绿核心上边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0278",
+      "decision": "needs_modify",
+      "annotation_sha256": "2019f2b83c7e46ad392cb8569538d60a4719605adeafe8473a5b01f280761a46",
+      "findings": [
+        {
+          "object": "em/count",
+          "conclusion": "主红圆em框右侧混入数字4左段，count框又切掉数字左段，须独立重定圆灯与数字。"
+        },
+        {
+          "object": "far/cabinet",
+          "conclusion": "远红点及设备柜区分合理，不把柜子当灯体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主红灯与数字4分界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0283",
+      "decision": "needs_modify",
+      "annotation_sha256": "ba205323cd78ea9bb62d9a572def248714c19b5991fa6426ef65e06fb242d9fa",
+      "findings": [
+        {
+          "object": "left/el",
+          "conclusion": "左灯壳和红箭头均明显向右偏，红箭头左半在框外；需对齐可见壳和完整亮核。"
+        },
+        {
+          "object": "er/count",
+          "conclusion": "绿灯框混入左侧倒计时，count框主要暗区且切数码，应分别重画。"
+        },
+        {
+          "object": "edge",
+          "conclusion": "画外截断侧灯已有ignore，非本车控制灯仍保留。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "双主灯/数码坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0284",
+      "decision": "needs_modify",
+      "annotation_sha256": "3fb444c9bb385419b0a86a431fa0a51256f74a1dd8314b5cb46ae17d50c40bfd",
+      "findings": [
+        {
+          "object": "el/count_l",
+          "conclusion": "红箭头框右侧混入数字3左段，count_l左沿切掉数字左段，需各自重定。"
+        },
+        {
+          "object": "other",
+          "conclusion": "绿圆与数字6分开，低位不明绿点ignore合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "红箭头与数字3边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0286",
+      "decision": "needs_modify",
+      "annotation_sha256": "11c05f47bb0394af1355428147f5440dd3d0146ac2be9df10c780e2e139b7114",
+      "findings": [
+        {
+          "object": "em",
+          "conclusion": "黄圆灯核心在当前框偏下，底部伸出框下沿，需向下重定；壳体机动车kind可辨。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "黄灯核心下边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0288",
+      "decision": "needs_modify",
+      "annotation_sha256": "ee36d0ef9333b5a5ded8d179a0685abd4556884f5642891d8d8af5d5845bf888",
+      "findings": [
+        {
+          "object": "count",
+          "conclusion": "数字6左侧竖/弧段位于count框外，需向左重定并避免侵入红圆灯；灯体/圆灯主体可用。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "数字6完整边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0289",
+      "decision": "needs_modify",
+      "annotation_sha256": "cbc7acaab60b0dbf191b6fad1b164bfed4f1826e54801ad589a67562e454d2d1",
+      "findings": [
+        {
+          "object": "count",
+          "conclusion": "数字3左侧段落在框左外，当前框向右偏，需重定；不能沿用上一帧同坐标直接认可。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "数字3坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0291",
+      "decision": "needs_modify",
+      "annotation_sha256": "02da76f3b3537f7c35c7ebaca6b7dc4fc10894ffcaa4db26a46ba1eaef4f342a",
+      "findings": [
+        {
+          "object": "em",
+          "conclusion": "近红圆灯上部亮核心越过em上沿，需上扩；仅光晕可排除，发光圆盘不得裁切。"
+        },
+        {
+          "object": "back",
+          "conclusion": "背向竖壳ignore合理，机动车尾灯不作信号灯。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "近红圆核心上边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0292",
+      "decision": "needs_modify",
+      "annotation_sha256": "df9aaf4bb547f665f029ea88133b5a641b7007c546c5a6a019fbb98e3e612797",
+      "findings": [
+        {
+          "object": "ef",
+          "conclusion": "侧远绿点上部亮核在框上方，ef向下偏，需向上重定并避免带入下方LED条。"
+        },
+        {
+          "object": "main",
+          "conclusion": "近主红左箭头、绿圆灯、LED文字和车载补光器分开合理，背向灯ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "侧远绿点框"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0293",
+      "decision": "needs_modify",
+      "annotation_sha256": "17ec4458c1895d608bc3507b4bd1becdfc23046a351d242b53a6b38c510ac82e",
+      "findings": [
+        {
+          "object": "el/er",
+          "conclusion": "主红箭头上支和主绿圆灯上部明显在框外，需向上重定，当前包括很多下方暗区。"
+        },
+        {
+          "object": "furniture",
+          "conclusion": "杆上设施与远LED文字作hard_negative，不强当灯体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主箭头/绿灯上边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0295",
+      "decision": "needs_modify",
+      "annotation_sha256": "d5a3e8f78f078c76c820487de09212ac0f2fba6787fb7cfd99b19bdfe81cd142",
+      "findings": [
+        {
+          "object": "ef/en",
+          "conclusion": "两个远红点的框均向右下偏，实际亮核在左上外，须分别按本图定位。"
+        },
+        {
+          "object": "er",
+          "conclusion": "近绿圆灯上下亮核心贴/越框，建议同时复核边界；主文字与灯壳已分开。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "远红两点坐标"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0299",
+      "decision": "needs_modify",
+      "annotation_sha256": "6692b50d65eb3314317c09e68d24914848aec576c5c2664afda7b94c4ba37ba8",
+      "findings": [
+        {
+          "object": "right/er",
+          "conclusion": "主右灯体及绿灯框上沿穿过实际绿圆亮核心，需上移/上扩；不是只排除光晕。"
+        },
+        {
+          "object": "side/pole",
+          "conclusion": "侧红箭头/绿圆及独立杆灯、LED文字分别对应，未因另一方向而忽略。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "主右绿灯及灯壳上边界"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0300",
+      "decision": "needs_modify",
+      "annotation_sha256": "33461b8b55b3236d21f9a5ca099abf0c2cebeee2db9f0a0e0b8d355178f85046",
+      "findings": [
+        {
+          "object": "esl/esr",
+          "conclusion": "侧灯两个emitter框均偏右；esr左边切圆灯左半亮核心，esl也未居中覆盖箭头/亮斑。应分别贴合各自灯面，勿吞邻灯。"
+        },
+        {
+          "object": "left/right/side",
+          "conclusion": "主灯壳与青色文字分开合理；远侧种类保留unknown，不因非本车控制灯删除。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0301",
+      "decision": "needs_modify",
+      "annotation_sha256": "bdb426ab8ebde3f8e7f9053fc50b66cd4fa06ad1582896a5ff26bc69094262da",
+      "findings": [
+        {
+          "object": "esl/esr",
+          "conclusion": "esl右边跨进右圆灯，esr左边从圆灯中部开始；需独立重框亮面。"
+        },
+        {
+          "object": "pole_count",
+          "conclusion": "数字可见且hard_negative方向合理，框上边混入白色牌；请收紧至数字显示而非标志牌。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0302",
+      "decision": "needs_modify",
+      "annotation_sha256": "8b7a265b559b19d6b553911c456943a9f7111ea9d1c0961dcff9dbc358a82c3a",
+      "findings": [
+        {
+          "object": "esr",
+          "conclusion": "侧圆灯框左边穿过亮核心，右偏明显。"
+        },
+        {
+          "object": "pole_numeric/count",
+          "conclusion": "杆上数字在现框上左方，count框只截取下右段，需按本图原像素上移并覆盖完整数字。"
+        },
+        {
+          "object": "el/er/ef",
+          "conclusion": "主红左箭头/圆灯、远杆红点可辨；远杆kind未知与LED文字区分保守合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0303",
+      "decision": "needs_modify",
+      "annotation_sha256": "eabd25012754e559f3a407828cda22b0d87cf27072a1d4d5705edcb94433a13a",
+      "findings": [
+        {
+          "object": "count/pole_numeric",
+          "conclusion": "杆上数字框偏下右，漏掉数字上半和左部。"
+        },
+        {
+          "object": "esr",
+          "conclusion": "侧圆灯左边切核心；er下边过松且需检查左边是否裁灯面。"
+        },
+        {
+          "object": "far_pole/ef",
+          "conclusion": "远红点与下方LED文字分开，kind未强定，接受此处理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0304",
+      "decision": "needs_modify",
+      "annotation_sha256": "45f4c5fa7c32ffd34d4e1c436544c32f7efcf21f9bc649d4abdb9efafea64480",
+      "findings": [
+        {
+          "object": "esr/side_r",
+          "conclusion": "侧圆灯emitter左边切亮面，side_r左边也贴入圆灯边缘；应从真实壳/灯面边界重核。"
+        },
+        {
+          "object": "right",
+          "conclusion": "主右壳右侧暗腔仍延伸至框右外，不应只按亮圆灯截壳。"
+        },
+        {
+          "object": "speed_text",
+          "conclusion": "50km/h文字非信号面，hard_negative接受。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0305",
+      "decision": "needs_modify",
+      "annotation_sha256": "6614842f1fb5e20744804f1c3258d4a7f5e516010ace8d51e9d386aed48a8ea0",
+      "findings": [
+        {
+          "object": "er/esr",
+          "conclusion": "主圆灯和侧圆灯的上边/左边穿过亮面，需完整覆盖核心而非偏向右下。"
+        },
+        {
+          "object": "pole_count",
+          "conclusion": "保留不明为ignore可接受，但框偏右下，未覆盖所指发光形状的上左部。"
+        },
+        {
+          "object": "speed_text",
+          "conclusion": "框上边和左边切掉建议速度文字；若覆盖整个文字牌应重框。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0306",
+      "decision": "needs_modify",
+      "annotation_sha256": "78ae8c1093df1a20b8a47efdef6753c2fc8761cfc4494f6d8dae185ed9138494",
+      "findings": [
+        {
+          "object": "side_count/ep",
+          "conclusion": "side_count上边穿过数字9中段；ep上边穿过杆上亮斑。需各按本图重框，保持数字与灯面分离。"
+        },
+        {
+          "object": "esr",
+          "conclusion": "侧圆灯框下边混入倒计时9，上边/左边切核心。"
+        },
+        {
+          "object": "speed",
+          "conclusion": "建议速度整行文字左部落框外。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0307",
+      "decision": "needs_modify",
+      "annotation_sha256": "a78f3d39367bda3d52c1da9b3540a0044e0567796f9c0c1940c0ae79995c41cd",
+      "findings": [
+        {
+          "object": "side_count/esr",
+          "conclusion": "side_count上边切数字6上段，esr下边混入该数字；须按两独立目标分界重框。"
+        },
+        {
+          "object": "pole_dark_top/pole_count",
+          "conclusion": "暗顶部保留ignore、数字6 hard_negative合理，不据旧帧推红灯。"
+        },
+        {
+          "object": "el/er",
+          "conclusion": "主红左箭头及圆面可辨，control_relation保持unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请在原像素上裁决并修正所列对象几何；不得按相邻帧直接复制框。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0308",
+      "decision": "needs_modify",
+      "annotation_sha256": "e1b310b4cee754a4cceb74364a12ff5e0542d9212d818f47a19c47e9d10c3e6a",
+      "findings": [
+        {
+          "object": "esr/side_count",
+          "conclusion": "侧圆面框下沿混入数字2，数字框上沿穿数字上弧；分别按面/数字重框。"
+        },
+        {
+          "object": "speed",
+          "conclusion": "建议速度文字右端超框，hard_negative类别合理但范围应一致。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0309",
+      "decision": "needs_modify",
+      "annotation_sha256": "aa4b7e7b2b01f790c44a47b3885263a1a3c8746c6ef0aca3588442d3d6314c74",
+      "findings": [
+        {
+          "object": "er",
+          "conclusion": "主绿圆框的上边/右边切亮面，向右上覆盖完整圆面。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆上绿亮图形框左上部需复核，形状不够确定保留symbol unknown合理。"
+        },
+        {
+          "object": "esg",
+          "conclusion": "侧下绿圆可辨，当前框基本包含核心；不沿用上一帧红灯/倒计时。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0310",
+      "decision": "needs_modify",
+      "annotation_sha256": "9b55962e4a12c662b4badca10a42af3f85dd557cbac7100432ba192f4217ccc1",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "红左箭头右边截横臂尾，框需覆盖完整可见发光箭头。"
+        },
+        {
+          "object": "esr",
+          "conclusion": "侧绿圆左边及上边贴入亮面，需重框。"
+        },
+        {
+          "object": "pole_top/ep",
+          "conclusion": "杆上绿色形状可见但不据此强定pedestrian，unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0311",
+      "decision": "needs_modify",
+      "annotation_sha256": "194fe0ab9bcf89b3b074352005478d3c799fa161cf13e1d2cd62524fad733914",
+      "findings": [
+        {
+          "object": "el/esr/ep",
+          "conclusion": "主左箭头右边截横臂；侧绿圆左边截核心；行人发光框下边截下肢，需分别修正。"
+        },
+        {
+          "object": "pole_text",
+          "conclusion": "框落在文字上方暗区并只盖首字一段，需定位实际整条LED文字。"
+        },
+        {
+          "object": "ped",
+          "conclusion": "行走人形本图可辨，pedestrian合理，控制关系不明。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0312",
+      "decision": "needs_modify",
+      "annotation_sha256": "01fe5ac22e55d5f1682ee4b943e48d1443f8b7bcb6ea8175b8f433b89a9c8da1",
+      "findings": [
+        {
+          "object": "el/esl",
+          "conclusion": "主左箭头右边与侧左箭头上边裁核心/箭杆，应按原像素重框。"
+        },
+        {
+          "object": "er",
+          "conclusion": "主绿圆上沿穿亮面；不只包下半圆。"
+        },
+        {
+          "object": "distant/ed",
+          "conclusion": "远绿点确实可见，kind未知、非当前方向仍保留合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0313",
+      "decision": "needs_modify",
+      "annotation_sha256": "0eff76a91756dbb548c38c5dd4f5f6e60e9a7a0bc8a7c9c149a5e1f829923f81",
+      "findings": [
+        {
+          "object": "ed",
+          "conclusion": "远绿点位于框右侧/偏下，现框多数在暗背景，需重新定位。"
+        },
+        {
+          "object": "esl/esr",
+          "conclusion": "侧红箭头上支被上边切、绿圆下边裁核心；主el左上也需核完整形状。"
+        },
+        {
+          "object": "occluded_pole",
+          "conclusion": "公交车遮挡杆体，ignore合理，不能沿旧帧认灯态。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0314",
+      "decision": "needs_modify",
+      "annotation_sha256": "8313647a96f96dcacd158382a5fc5c3b055f742f562af612912a708920178229",
+      "findings": [
+        {
+          "object": "ed",
+          "conclusion": "远点框明显在实际绿点上方，漏下半亮面。"
+        },
+        {
+          "object": "enl",
+          "conclusion": "近左箭头左边穿发光箭头尖，需覆盖完整形状。"
+        },
+        {
+          "object": "main/near",
+          "conclusion": "近清晰三腔头kind motor_vehicle可靠；暗腔不标off合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按本图修订所列框，尤其远点位置；不复制邻帧坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0331",
+      "decision": "needs_modify",
+      "annotation_sha256": "b5160b7ee2fbb11967d3dc435c468e110bc442e2117338a281fefcc3e939c848",
+      "findings": [
+        {
+          "object": "er/count",
+          "conclusion": "绿圆框上边切上部亮核心，数字8框上边同样裁顶段；需上移并贴合各目标。"
+        },
+        {
+          "object": "dark_left/near_side",
+          "conclusion": "暗左头不强推灯态，侧绿亮面即便非当前方向仍记录，保守kind unknown合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "原像素复核并修正所列emitter与数字边界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0332",
+      "decision": "needs_modify",
+      "annotation_sha256": "2d46505a2eef598eba15b3e04b6ff476e802be32cf1d1009d11b28ba64bebf94",
+      "findings": [
+        {
+          "object": "el/en",
+          "conclusion": "主左箭头与近侧左箭头右边均截横臂尾；需完整覆盖实际发光箭头。"
+        },
+        {
+          "object": "er/cr",
+          "conclusion": "绿圆上边穿亮面，数字5右边裁笔画，不能沿用紧框只盖中心。"
+        },
+        {
+          "object": "side_backs",
+          "conclusion": "两个侧背向头合ignore可接受，不能作普通无灯背景。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "原像素复核并修正所列emitter与数字边界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0333",
+      "decision": "needs_modify",
+      "annotation_sha256": "7688b0a1f27f4608f0fecf9b41862709fceec7c7f9aed702d31300a1ee3c950f",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "红箭头框上边切箭头上支，需上扩；数字6左边/上边也需贴全笔画。"
+        },
+        {
+          "object": "near_occluded",
+          "conclusion": "近侧被标牌遮挡，保留ignore合理，不从邻帧补造灯面。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0334",
+      "decision": "needs_modify",
+      "annotation_sha256": "a845fc1372e601c19cbd2ca5e73dbdd02789d5ceb67b8eceb9c90b72c1420a54",
+      "findings": [
+        {
+          "object": "er/enr",
+          "conclusion": "两个黄圆框均偏下右，上边截核心；需各按真实亮面重框。"
+        },
+        {
+          "object": "el/enl",
+          "conclusion": "红箭头上支被上边裁切。近侧partial标注可接受。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0335",
+      "decision": "needs_modify",
+      "annotation_sha256": "e06131a688bc981fd03c5502e0b7732a71b5d088ad9374383195b83940d3c307",
+      "findings": [
+        {
+          "object": "en",
+          "conclusion": "近红圆框左边穿亮核心，明显偏右，需左移覆盖完整灯面。"
+        },
+        {
+          "object": "el/er",
+          "conclusion": "主绿箭头上边/红圆上边切发光形状；不是扩大到邻腔。"
+        },
+        {
+          "object": "near",
+          "conclusion": "近头被蓝牌遮挡partial合理，不可补推隐藏腔体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0336",
+      "decision": "needs_modify",
+      "annotation_sha256": "b758328ce3aaaa0aa96a61ec0609315c812e884402eba0856a31c7d311e5520b",
+      "findings": [
+        {
+          "object": "el/count",
+          "conclusion": "绿左箭头上支明显在框上外；数字7顶横也超框上沿。需独立重框。"
+        },
+        {
+          "object": "er",
+          "conclusion": "红圆与整体三腔壳基本正确；暗文字仍hard_negative合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0337",
+      "decision": "needs_modify",
+      "annotation_sha256": "46f50c94fbe45996385bfa9476b087d0895109401186af851797ac571ffcbff4",
+      "findings": [
+        {
+          "object": "el/count",
+          "conclusion": "绿左箭头上支被上边切；数字3上弧也在框上外。相同相机坐标不代表几何自动通过。"
+        },
+        {
+          "object": "er",
+          "conclusion": "红圆可辨；控制归属继续unknown，不以另一组绿箭头统一灯态。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0338",
+      "decision": "needs_modify",
+      "annotation_sha256": "d2a6eab9cbc086f22826db21766df47dd29c56fd182b6aac79c6e0ae2a944cdc",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "黄圆框上边略穿顶部核心、左边贴入发光轮廓，应完整覆盖此黄圆。"
+        },
+        {
+          "object": "far_cyan_uncertain",
+          "conclusion": "远青点及其上方红亮形状均可见；当前ignore主要罩青点，上红点部分超出，建议扩展不明组或另加ignore，不强推kind。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0340",
+      "decision": "needs_modify",
+      "annotation_sha256": "15a242f47a6afd803448fc5361be5165239235d2215347e22ae94fc5116e416d",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "红左箭头上支在框上外；应覆盖完整发光形状，保留与暗腔分界。"
+        },
+        {
+          "object": "far_red_uncertain",
+          "conclusion": "远两红点作为不明组ignore合理，不推方向/控制关系。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0341",
+      "decision": "needs_modify",
+      "annotation_sha256": "cf00c5dab5efe871ccc32312e10a8422528ea5c3c757004bd9b7a6ded9842b51",
+      "findings": [
+        {
+          "object": "right/er",
+          "conclusion": "主右头及er均向右偏，er落在灯面右方暗腔，body漏左侧亮圆；必须重新定位，不仅放大框。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆红点框偏下，需按原像素核上部亮核心。"
+        },
+        {
+          "object": "left",
+          "conclusion": "远左头kind unknown合理，未因小目标删去。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图修正所列边界/遗漏ignore；未裁决前保持非导出状态。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0342",
+      "decision": "needs_modify",
+      "annotation_sha256": "43e49fc74ac480ab87c37b3afd520f6e4ae3f31c4f0d308c9ad419a325ddbfd4",
+      "findings": [
+        {
+          "object": "en/ep",
+          "conclusion": "近红圆emitter左边切亮面；杆红点框偏右下漏上左部核心，需本图重定位。"
+        },
+        {
+          "object": "near",
+          "conclusion": "近头被标牌部分挡住，partial合理。主远红面不得根据邻图补箭头。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0343",
+      "decision": "needs_modify",
+      "annotation_sha256": "87d49d63b9f524a9e488de4b6a2e9bdfe1f7d7d58712e12ca9c5aab0a86370a7",
+      "findings": [
+        {
+          "object": "count",
+          "conclusion": "当前count框主要是暗腔/白反光，未见可确定数字笔画；不宜确定hard_negative countdown，需移到真实数字或保留ignore。"
+        },
+        {
+          "object": "enl/enr",
+          "conclusion": "近侧箭头/圆面的上边或下边裁核心；两个头应独立贴合。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0344",
+      "decision": "needs_modify",
+      "annotation_sha256": "311481e9dc58ffbbb870f5bc23518af30ce2d54a80bafeb6a95a527139b4159d",
+      "findings": [
+        {
+          "object": "near_count",
+          "conclusion": "数字6上弧位于框上外，上边穿数字中段，需上移。"
+        },
+        {
+          "object": "el/enl",
+          "conclusion": "箭头上支超上沿，需覆盖完整发光形状。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆上形状曝光/模糊，unknown状态比强定红/行人合理，保持隔离。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0345",
+      "decision": "needs_modify",
+      "annotation_sha256": "af3a492ee31bc35eedd81f1071b06d6d20cd8ad5c9dd5496baed4c650b1adcfb",
+      "findings": [
+        {
+          "object": "near_count",
+          "conclusion": "数字3上半在框上外，现框偏下。"
+        },
+        {
+          "object": "enr",
+          "conclusion": "近圆面框上边穿核心，右边偏宽；需重框。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆点框偏下/右，应核实际完整亮斑，不能沿用前图框。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0346",
+      "decision": "needs_modify",
+      "annotation_sha256": "bad3c51088800b0edf64c5d27d0b7ac9570a4771b055ca1219c8464be08b30db",
+      "findings": [
+        {
+          "object": "el/enl/enr",
+          "conclusion": "主红箭头上支、近红箭头上支、近绿圆左侧分别被框切，需重框。"
+        },
+        {
+          "object": "pole_text",
+          "conclusion": "LED文字框过多空上区且只盖末段，如标全条应以实际可见文字为准。"
+        },
+        {
+          "object": "pole",
+          "conclusion": "杆绿形状kind unknown合理，不借同场景更清楚帧回填。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0347",
+      "decision": "needs_modify",
+      "annotation_sha256": "df0b7f8b9260edcd958aa07948ced3f89fd2b71a3891e25856a74d8e0aa23d09",
+      "findings": [
+        {
+          "object": "el/enl/ep",
+          "conclusion": "主/近红箭头上支及行人灯左边均裁可见核心；修正几何。"
+        },
+        {
+          "object": "ped",
+          "conclusion": "行走图标可读，kind pedestrian可接受，control未知；需与LED文字分开。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0348",
+      "decision": "needs_modify",
+      "annotation_sha256": "added636b474c8f58c9726b0b2dc7930c86cb81a4e2b8296a03b0c6c4e60e017",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "框明显偏左，仅其右端覆盖真实红点左缘，需按实际点位置重框。"
+        },
+        {
+          "object": "near/pole_hidden",
+          "conclusion": "近红亮点保留unknown种类、杆被牌遮挡ignore合理，不能强造身体类别。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0349",
+      "decision": "needs_modify",
+      "annotation_sha256": "53bd0296003da725636b617b25a039be8b4a6621caba666f7af046b439b726e0",
+      "findings": [
+        {
+          "object": "enl/enr",
+          "conclusion": "近箭头框明显偏右下，上边/下边错位；近红圆框上边切核心。"
+        },
+        {
+          "object": "el",
+          "conclusion": "主远红箭头细节有限；若PC无法在原像素确认上支应保留symbol unknown，不能仅从邻帧承接方向。"
+        },
+        {
+          "object": "pole_hidden",
+          "conclusion": "被牌遮挡处ignore合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请裁决所列几何及不可辨数字/箭头；不从邻帧确定未知属性。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0350",
+      "decision": "needs_modify",
+      "annotation_sha256": "0ec9008ceaa057e60f94a5f4bd3deb5fc7385f791d56f241c2f742c4e7d71942",
+      "findings": [
+        {
+          "object": "el/er",
+          "conclusion": "主两emitter偏右下，上边切掉大部亮核心，需按本帧重定位。"
+        },
+        {
+          "object": "enl/enr",
+          "conclusion": "近箭头上支、近红圆上部也被裁切，不应承接旧位置。"
+        },
+        {
+          "object": "pole_hidden/count",
+          "conclusion": "牌遮挡ignore与数字hard_negative区分合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0351",
+      "decision": "needs_modify",
+      "annotation_sha256": "019b6393bf50117bf0d532203a75cb4c8726ed72e93ca957241974bf805dd131",
+      "findings": [
+        {
+          "object": "el/er/enr",
+          "conclusion": "主箭头/圆灯和近圆框均明显偏右下，尤其er只盖下半面。"
+        },
+        {
+          "object": "pole_count",
+          "conclusion": "框中小形状不够清楚像完整数字，应核实；不能仅因同位置前帧为数码而确定。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0352",
+      "decision": "needs_modify",
+      "annotation_sha256": "efa03548114462a541839918acd0303f66ca989f4257f879b57597d0cbea19cc",
+      "findings": [
+        {
+          "object": "el/er/enl/enr",
+          "conclusion": "四个emitter上边均切亮面，主框还明显偏右下；应本帧独立贴合。"
+        },
+        {
+          "object": "far_left_pole/right_pole_hidden",
+          "conclusion": "远红点与被遮挡杆保留ignore合理，不能作无灯背景。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0353",
+      "decision": "needs_modify",
+      "annotation_sha256": "a658dd5df50ae390c801d35cdc6c57c1ed80db111c932b17cc25f9ed3c3fb20b",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主数字7框偏右下，近数字7上部也在框上外。"
+        },
+        {
+          "object": "el/er/enl/enr",
+          "conclusion": "主与近灯面框上边裁核心；enr下沿还混入数字。"
+        },
+        {
+          "object": "top_digit",
+          "conclusion": "不明顶部形状ignore合理，杆下可读数字与文字分开。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0354",
+      "decision": "needs_modify",
+      "annotation_sha256": "00b2976d2912436fff985fa2664e8fece0adb79d3d7fea594159585c17dc6788",
+      "findings": [
+        {
+          "object": "el/er/enl",
+          "conclusion": "主箭头与绿圆、近左箭头的上部亮核心落框上外。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆绿亮形状框左边切左轮廓，应重框；种类暂不确认合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0355",
+      "decision": "needs_modify",
+      "annotation_sha256": "65ae7936659ecc672a7750a7b2525c003f0b9ec812f8fcc0a4a87ff887313bbb",
+      "findings": [
+        {
+          "object": "el/er/enl",
+          "conclusion": "主箭头上支、绿圆上缘与近箭头上支裁切，需上移收紧。"
+        },
+        {
+          "object": "ef",
+          "conclusion": "远绿点框偏右，只在左缘包含真实点，需定位。"
+        },
+        {
+          "object": "ped",
+          "conclusion": "近杆行走图标可辨，pedestrian种类支持，颜色/控制不由邻帧推。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0356",
+      "decision": "needs_modify",
+      "annotation_sha256": "9ccadde17e9146aed088d6f68278d334258607d7d02a35b51d700c1ba0d975be",
+      "findings": [
+        {
+          "object": "ep",
+          "conclusion": "行走图标框左边切手/上身轮廓，需包含所有可见发光部分。"
+        },
+        {
+          "object": "main/em",
+          "conclusion": "主三腔壳、右绿圆范围基本贴合，暗腔未标off合理。"
+        },
+        {
+          "object": "back",
+          "conclusion": "右边侧背装置保留ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "逐图重核所列几何/不明数字，不复制邻帧。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0358",
+      "decision": "needs_modify",
+      "annotation_sha256": "1b14c2326b87e5702cd5e8cb39dd74b22369231db6f4d5ea2c878cdb30891e21",
+      "findings": [
+        {
+          "object": "ep",
+          "conclusion": "杆绿亮点框上边穿过亮核心、整体偏右下，需重定位；保留unknown形状/种类合理。"
+        },
+        {
+          "object": "main/em",
+          "conclusion": "主横壳与右绿圆基本对应，左暗腔不判off。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按当前原像素修正偏移框并裁决小箭头证据。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0366",
+      "decision": "needs_modify",
+      "annotation_sha256": "98cad387cd665c7578ccb36272e24a2e5d51840aedcb355c3d726241cd016592",
+      "findings": [
+        {
+          "object": "pole/ep",
+          "conclusion": "杆红点在框左上方，ep仅右上边触及点，需重新定位；pole_text也偏右，漏左侧发光文字。"
+        },
+        {
+          "object": "el",
+          "conclusion": "小主红形状的left arrow需PC原像素确认；不能从同路口较清楚图继承。"
+        },
+        {
+          "object": "near",
+          "conclusion": "近小红点symbol/kind未知合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按当前原像素修正偏移框并裁决小箭头证据。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0367",
+      "decision": "needs_modify",
+      "annotation_sha256": "19f68f71fa75cd28cc7c8e907eea11946dee7384acbf729a47ae7e3b2374c1c4",
+      "findings": [
+        {
+          "object": "ep/er",
+          "conclusion": "杆红点框偏右下，主红圆上边也裁亮面；需各自重框。"
+        },
+        {
+          "object": "pole_text",
+          "conclusion": "LED文字上端在框上外；请按完整可见条而不是下段定位。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0368",
+      "decision": "needs_modify",
+      "annotation_sha256": "8e9c29d0ec188bdab70f695a80385a77b56114b0051f63419934968a35193fbc",
+      "findings": [
+        {
+          "object": "el/ep",
+          "conclusion": "主红箭头框左边切尖部；杆红点框偏下右，需重定位。"
+        },
+        {
+          "object": "near_l_hidden",
+          "conclusion": "近左仅小亮斑/被挡，ignore而不凭邻图确认kind合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0369",
+      "decision": "needs_modify",
+      "annotation_sha256": "00c1a88f3a09e09c401412a77a57135acad396508afeb069691cc3899cc0d579",
+      "findings": [
+        {
+          "object": "near_r/enr",
+          "conclusion": "近右body左边穿圆面，enr偏右下仅包右下核心，需整体重新定位。"
+        },
+        {
+          "object": "el/er/ef",
+          "conclusion": "主两灯面上部裁切；远左红点偏右框也需核完整点。"
+        },
+        {
+          "object": "near_l",
+          "conclusion": "近左partial合理，箭头不得借邻帧代替本图。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0370",
+      "decision": "needs_modify",
+      "annotation_sha256": "628bf1958ff0259a846f09815af039037772557b3dbc72ef4a1bac8480d5c5b4",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主数字9框偏右下只盖右缘，近数字9框落在数字下方暗腔；需重新定位。"
+        },
+        {
+          "object": "el/er/enl/enr",
+          "conclusion": "多个emitter上边裁核心，近右圆下边混入数字。"
+        },
+        {
+          "object": "ep/far_count",
+          "conclusion": "杆顶部与远计数保留unknown/ignore合理，数字可读与否不从邻图继承。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0371",
+      "decision": "needs_modify",
+      "annotation_sha256": "aa71dfb48db691c8b8c5308e193685fab08d728e905a99fce7be47b33b63a59d",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主数字6与近数字6框均偏右下，数字上弧超框；需分别上左移。"
+        },
+        {
+          "object": "enr/ef",
+          "conclusion": "近圆框左边裁亮面并混下数字；远左点框偏右切核心。"
+        },
+        {
+          "object": "pole_count",
+          "conclusion": "杆数字6可辨但框左沿需核完整笔画，勿用邻帧坐标。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0372",
+      "decision": "needs_modify",
+      "annotation_sha256": "754baf5efab3878b2da78c1b5281deb0f7e6c468fabee6bdeec85e38b0ed01a2",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "数字3主框在数字右下方，近计数上段也漏出；需重框完整笔画。"
+        },
+        {
+          "object": "el/er/enr",
+          "conclusion": "主箭头上支、主红圆上缘及近红圆左部均裁切。"
+        },
+        {
+          "object": "side_back",
+          "conclusion": "侧背向装置ignore保留合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0373",
+      "decision": "needs_modify",
+      "annotation_sha256": "31abe6349ae4bd5aab80015e8136d97c6fcc05f15740b3b69ea11150b3daf199",
+      "findings": [
+        {
+          "object": "el/er/enr",
+          "conclusion": "主箭头上支、主绿圆上半、近绿圆左缘明显超框，几何需修正。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "杆绿形状不足可靠定行人，symbol/kind unknown合理；框需覆盖实际点。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0374",
+      "decision": "needs_modify",
+      "annotation_sha256": "7ddf68987c6488e42b361625476ce86d76cf207690b115b9e8b269460f8ddc87",
+      "findings": [
+        {
+          "object": "pole_text",
+          "conclusion": "标为文字的框落在杆底部白色牌/台座，真实红色竖LED在其上方；需上移，不把台座当LED文字。"
+        },
+        {
+          "object": "el/er",
+          "conclusion": "主左红点上半和主右圆上半均被框裁；远左kind未知合理，右circle细节应再核。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "请按当前原图裁决并修正所列框，特别数字与灯面/杆牌分界。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0375",
+      "decision": "needs_modify",
+      "annotation_sha256": "522f07eecf2fb7e0c0f32c01b1923333679d7b31ceb7bc3a3127694f88b08591",
+      "findings": [
+        {
+          "object": "el/er/enr",
+          "conclusion": "主红面上部和近右红圆上部被裁，emitter整体偏下。"
+        },
+        {
+          "object": "pole_digit",
+          "conclusion": "不明顶部亮形状保持ignore合理，但右界贴入形状，需完整包含可见部分。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0376",
+      "decision": "needs_modify",
+      "annotation_sha256": "e361bb67f1c99916f7d000ca164caae92b61dfcc2187fd9f34eae52814f4fc52",
+      "findings": [
+        {
+          "object": "enr",
+          "conclusion": "近右emitter左边/上边穿过圆面核心，需左上移。"
+        },
+        {
+          "object": "el/enl",
+          "conclusion": "小左侧形状当前unknown而非从邻帧强定箭头合理；主el框仍需贴合亮面。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0377",
+      "decision": "needs_modify",
+      "annotation_sha256": "68d7e487ff4534c9e1c96e2c3fc80d57430f467803457e81923b2b6ca2c79f79",
+      "findings": [
+        {
+          "object": "near_r/enr",
+          "conclusion": "近右body左边切圆面，emitter明显偏右下，需本图重定位。"
+        },
+        {
+          "object": "enl",
+          "conclusion": "近左箭头上支在框上外。"
+        },
+        {
+          "object": "pole_hidden_or_digit",
+          "conclusion": "保留不明顶部ignore合理，不强定数字。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0378",
+      "decision": "needs_modify",
+      "annotation_sha256": "faa729753daeea12492b872806ee46a8b0b4227f0ea89843a870fdfc1b9e6768",
+      "findings": [
+        {
+          "object": "left/right/el/er",
+          "conclusion": "两个主body及emitter整体向下错位，body上沿穿亮面、下方多为空背景；需按真实壳重画，不只改面。"
+        },
+        {
+          "object": "enr",
+          "conclusion": "近红圆左上核心超框，需重框。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0379",
+      "decision": "needs_modify",
+      "annotation_sha256": "ab4d9f9450be58df6f8185b0392c1a94a6af33e1e0c77e7e19db759dfe439d49",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主数字9框偏右下，近数字9框几乎落下方暗腔，需重定位完整数字。"
+        },
+        {
+          "object": "near_r/enr",
+          "conclusion": "近body左边穿亮圆，emitter右下偏并混数字，需分开。"
+        },
+        {
+          "object": "ep/far_count",
+          "conclusion": "杆点框及远数字框也偏右下；far_left ignore未完全包下方数码，需覆盖该歧义区域。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0380",
+      "decision": "needs_modify",
+      "annotation_sha256": "62976e4d3d635992833e2943891fbcaebdc2e34340a59abbc51fe801a01bc5dc",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主6和近6框偏右下，漏左上笔画；近框包含暗腔多于数字。"
+        },
+        {
+          "object": "near_r/enr",
+          "conclusion": "近右body左沿穿圆面，emitter混下数字6，需分离。"
+        },
+        {
+          "object": "ep/far_count",
+          "conclusion": "杆点与远左数码几何需按本图重核，不继承前次路口位置。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0381",
+      "decision": "needs_modify",
+      "annotation_sha256": "f5b3e5e914dd6eaa4495b0c0ef02d97fe25aeec01828f91c4312104101b29358",
+      "findings": [
+        {
+          "object": "count/near_count",
+          "conclusion": "主数字3框偏右下，只盖部分右弧；近数字3上弧也超框。"
+        },
+        {
+          "object": "er/enr",
+          "conclusion": "主红圆上缘、近红圆上缘裁切，近框下沿混数字。"
+        },
+        {
+          "object": "el",
+          "conclusion": "红左箭头上支被裁，需覆盖真实发光范围。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0382",
+      "decision": "needs_modify",
+      "annotation_sha256": "7e5cc52ba2a2a7425440d86e308be38ff3f1a129631bfb770b6b3decd16d5f6b",
+      "findings": [
+        {
+          "object": "el/er/enl/enr",
+          "conclusion": "主箭头上支、主绿圆上半、近箭头上支及近绿圆上左部分超框，多个面有一致下偏。"
+        },
+        {
+          "object": "ep/pole_text",
+          "conclusion": "杆绿点框偏右下，文字框仅盖底部片段且切左轮廓；需重新定位实际显示区。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "本图重核所列灯壳、发光面及数字框；不得复制同场景其他捕获坐标。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0383",
+      "decision": "needs_modify",
+      "annotation_sha256": "9234ef7f7bb0d03970b8fc99f16de8a5f087c70784921d7b96f47b20a013fc4d",
+      "findings": [
+        {
+          "object": "el/er/ep",
+          "conclusion": "主红箭头上支、主绿圆上半及杆点左半分别在框外；ep偏右明显。"
+        },
+        {
+          "object": "speed",
+          "conclusion": "建议速度上行文字顶端被hard_negative框切，标完整牌时需调整。"
+        },
+        {
+          "object": "far",
+          "conclusion": "远处模糊物保留ignore合理，不能强定灯态。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0384",
+      "decision": "needs_modify",
+      "annotation_sha256": "3234f0ea9067187d707802a51dcf3ffdda84af54293f5bbec1498c438c019b55",
+      "findings": [
+        {
+          "object": "el/er",
+          "conclusion": "主左箭头上支、右绿圆上部均超框上沿。"
+        },
+        {
+          "object": "ep",
+          "conclusion": "行走图标可辨但框左界切左手/身，需完整包含可见图标；body pedestrian本图有支持。"
+        },
+        {
+          "object": "ef",
+          "conclusion": "远绿点kind未知合理；仅核点不推控制。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0385",
+      "decision": "needs_modify",
+      "annotation_sha256": "36cabf6f3d298261a48f322f2c3f85f841edec131a6b9f2f2181d787ef27c201",
+      "findings": [
+        {
+          "object": "el/er/ep",
+          "conclusion": "主箭头上支及主绿圆上半漏出，杆ep左半漏出；应独立重框。"
+        },
+        {
+          "object": "pole",
+          "conclusion": "图标模糊，kind/symbol保持unknown比承接前帧更合适。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0386",
+      "decision": "needs_modify",
+      "annotation_sha256": "d0342c06568943b6f9ed77d517026a2b7e723711a5e1a7ab2c0e93216073e1c5",
+      "findings": [
+        {
+          "object": "ep",
+          "conclusion": "杆上亮形状实际在框左方，现框大部分暗背景；需重新定位。"
+        },
+        {
+          "object": "pole_text",
+          "conclusion": "框在文字末端右下空区，漏可见上左文字；应按本图发光条重画。"
+        },
+        {
+          "object": "el/er/enl",
+          "conclusion": "主/近箭头上支及主圆上部也超框。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0387",
+      "decision": "needs_modify",
+      "annotation_sha256": "1af86a003bd90591b3bcf36816e0fd8cd2b9dbcea91dc81408e4d0eba5ea197c",
+      "findings": [
+        {
+          "object": "ep",
+          "conclusion": "行人图标左半/手臂在框外；kind可确认不等于框可接受。"
+        },
+        {
+          "object": "el/er/enr",
+          "conclusion": "主箭头上支、绿圆上部及近绿圆左侧裁切。"
+        },
+        {
+          "object": "pole_text",
+          "conclusion": "文字框偏右下、只盖末字部分，需覆盖真实显示范围。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0388",
+      "decision": "needs_modify",
+      "annotation_sha256": "74ef3514c1b6dc6e1da63827e4be941d7b8143293a7e2b1f571a435c266a8239",
+      "findings": [
+        {
+          "object": "el/er",
+          "conclusion": "主箭头上支与绿圆上部裁切。"
+        },
+        {
+          "object": "ef",
+          "conclusion": "远点框偏右下，漏实际绿点左上轮廓。"
+        },
+        {
+          "object": "pole_partial_green_shape",
+          "conclusion": "杆形状不完整时ignore合理，不推kind/color。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0389",
+      "decision": "needs_modify",
+      "annotation_sha256": "d682546c2cfe35554dfa6ec77f171d562d8385c85dca4e01557c8e454eb5bd81",
+      "findings": [
+        {
+          "object": "el",
+          "conclusion": "主红左箭头左界贴进箭尖，原像素可见发光尖端在框左外；需小幅左扩以含完整形状。"
+        },
+        {
+          "object": "near_l/enl/near_r/enr",
+          "conclusion": "近侧两完整竖壳及对应箭头/绿圆基本贴合，暗腔未推off。"
+        },
+        {
+          "object": "far/ef",
+          "conclusion": "远点未知kind保守合理，不因近处灯态推归属。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0391",
+      "decision": "needs_modify",
+      "annotation_sha256": "f1aa1cf1843f195d5126c8bf2a91e8fc327b56800c75e57bc9065653a6b74bda",
+      "findings": [
+        {
+          "object": "main/em/count",
+          "conclusion": "主body下偏，漏壳上沿并混下方蓝路牌；emitter只盖红圆下部，数字8框同样偏下，须重新定位。"
+        },
+        {
+          "object": "ef",
+          "conclusion": "远红点框左边贴入/切核心，需按真实点重框。"
+        },
+        {
+          "object": "side_back",
+          "conclusion": "侧背向装置ignore保留合理。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "按原像素修正所列边界；0389可小幅扩箭尖，不扩大到相邻暗腔。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0392",
+      "decision": "needs_modify",
+      "annotation_sha256": "76935abb23e61511744e8117ddc7573e0461e0adcc02dd80aeab528ed3b4b204",
+      "findings": [
+        {
+          "object": "far / ef",
+          "conclusion": "远红亮点位于当前框左缘，ef左边穿过亮核心，框右半大部为暗背景；far ignore也右偏。需依据本帧重新定位，不能用不控制本车作为忽略真实灯体的理由。"
+        },
+        {
+          "object": "em / count",
+          "conclusion": "主灯与数字4的当前框上沿贴入亮区上部，count框下部空余较多；请按原像素核上边界。数字仍是hard_negative，不并入emitter。"
+        },
+        {
+          "object": "whole_frame / side_back",
+          "conclusion": "已检查全景；右侧背向小壳保留ignore和kind不确定，不由位置推机动车灯或off。未确认额外可分类灯体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重新定位far/ef，并核主灯em及数字4上缘；冻结新标签后定向复核。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0393",
+      "decision": "needs_modify",
+      "annotation_sha256": "f7516f9611899b422def3d9648c9a3d969e6e2457ea36e699311e0ed54026ffe",
+      "findings": [
+        {
+          "object": "far / ef",
+          "conclusion": "远红灯ef左缘穿亮点，亮核心有相当部分在框左侧，当前框向右下偏；far ignore也未合理包围可见灯区。"
+        },
+        {
+          "object": "em",
+          "conclusion": "主红圆亮区上部越过em框上沿，需将上边界对齐本帧可见灯面，而非沿用邻帧。"
+        },
+        {
+          "object": "count / side_back",
+          "conclusion": "数字与背向壳维持独立hard_negative/ignore；背向面不推灯态，控制关系仍未知。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "修正ef/far及em上沿，远灯kind不足继续ignore，不将忽略区变普通背景。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0394",
+      "decision": "needs_modify",
+      "annotation_sha256": "57f45d50018d4e329028d8b52f02de8a184f114f158cb0f746d02d4f470f111c",
+      "findings": [
+        {
+          "object": "near_straight / near_straight_red",
+          "conclusion": "画左近圆灯被body和emitter左缘切开，near_straight_red左缘穿过明亮圆面；相邻左箭头与圆灯分界需从当前原图重定。"
+        },
+        {
+          "object": "far_yellow",
+          "conclusion": "ignore框主体位于两远亮点上方暗区，两亮点落在框下边之外；需重定位/覆盖未能分类的真实灯区，不据黄色饱和点确定kind或灯色真值。"
+        },
+        {
+          "object": "left / straight",
+          "conclusion": "两个主body框下偏，包入下方棕色指路牌且相互重叠；请核真实灯壳边界。圆灯与左箭头可见，控制归属仍未知。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "修正近圆灯和主body几何，重定位far_yellow ignore；共壳/分壳须依据实际外壳而非亮点间距。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0395",
+      "decision": "needs_modify",
+      "annotation_sha256": "506ccce3e7046f4153d812cb3a30f635348607d4ddd68febe30f42a5169fb59a",
+      "findings": [
+        {
+          "object": "countdown_6",
+          "conclusion": "当前框明显右上偏，左边穿数字6，左半亮笔画未含，而右上部分为空；应按当前帧数字整体重框，继续hard_negative。"
+        },
+        {
+          "object": "straight",
+          "conclusion": "body框右/下空余偏大并含下方棕牌，需按真实横灯外壳收紧，保持数字与圆灯的对象定义一致。"
+        },
+        {
+          "object": "far_green_lens",
+          "conclusion": "远绿灯可见，当前框下缘贴入亮圆下部，需核下边界；小灯不推控制方向。全景未确认其他可分类灯体。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "重框数字6和straight body，核远绿emitter下沿；保留原图SHA及新标签版本。"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0396",
+      "decision": "needs_modify",
+      "annotation_sha256": "fc083648b0f9d33a12e13291e6d818a7cac15ac890ea2f8b58f77fa758d7c5a8",
+      "findings": [
+        {
+          "object": "red_bar",
+          "conclusion": "当前ignore左缘从发光竖条中间穿过，实际左半亮条在框外，框右侧多为暗区；需向左重定位覆盖完整可见条。不能将此计时/数字条记为机动车灯面。"
+        },
+        {
+          "object": "left / straight / far_green_lens",
+          "conclusion": "左箭头、主红圆和远绿圆在当前裁剪可辨，主要亮核心已含；方向归属不据位置推断。暗腔不等于off，远小壳维持保守ignore。"
+        }
+      ],
+      "PC_arbitration_required": [
+        "修正red_bar ignore框的左偏移，原kind和灯态不可因重框而额外确认。"
+      ]
+    }
+  ],
+  "stale_version_results_preserved_not_promoted": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "reviewed_sha256": "3822d799085bd3b7738302c8ca8a5103aa7def3b09ef58d40958cc351ead986b",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "reviewed_sha256": "c6649e778c3554693388cff90c961829e94ca3f0cefe04e3ad3cd62abcb86091",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "reviewed_sha256": "9c4a10f9c3c543608919b8aa5bd9ae9ed83dedadfb1481f4ed1b985db1ebd05c",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "reviewed_sha256": "fccf5f6f6042f2c7c2d0cce49037835ef4e91333d748e9a7f97133a9fde717b2",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0004",
+      "reviewed_sha256": "9ac3755409d1b3b02bf7744c762bfd3923b9011622e82eca0288470a5e3c9671",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0005",
+      "reviewed_sha256": "edc5300549154b1ecf63680c4a6c8049b31867cffb607b332aeec3297e25d18a",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0006",
+      "reviewed_sha256": "5d707a9445b3a76ea7475ae59629e6bebeddd85d67a5b3b51de9dbdb099664b7",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0007",
+      "reviewed_sha256": "0707f045e7fbb1e05b8297e9f3457ed315c61998f2ecb1cd2984a1402edbc773",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0187",
+      "reviewed_sha256": "eb1a17d40ea6bab11d019272149dc7ca9566ee5ccbe853234f926113e0be6808",
+      "decision": "uncertain"
+    },
+    {
+      "candidate_id": "s2tld1080_0215",
+      "reviewed_sha256": "8def9444d7be815ba2165a67dd9d8e4b21ce58ff67082dd550837feb35266639",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0216",
+      "reviewed_sha256": "57c6c828c109dbe286c09a60114c9857cff8821945db25c32890de145fc9c1a8",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0220",
+      "reviewed_sha256": "83449e01a56737ca5f713073c9f29d134bb55d1773b7d3ad99e0db4100fef845",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0221",
+      "reviewed_sha256": "42cf7aa3e7d734c835e8c836f3dcf6ff9c7a7ed4a951f39373daf873e2dc1ac2",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0222",
+      "reviewed_sha256": "8783c08660ae1db58a9203b103668b2cd6370f61fcff04ceef78a35bb7fca5ae",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0266",
+      "reviewed_sha256": "1b9312a812c48e108a149c8f11642127d48882bedcb8c5075ac6e9aa733d4cf3",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0282",
+      "reviewed_sha256": "48a3e6d73e5d3ddf1be250019b989c930014d17f25dd268febceacfb1a6d2864",
+      "decision": "uncertain"
+    },
+    {
+      "candidate_id": "s2tld1080_0285",
+      "reviewed_sha256": "154c1815261fb8c37483454d3bd687ff491b0e91c75f06fd5403c0fed9809808",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0322",
+      "reviewed_sha256": "9b53d2a39624a89b25a8aaeb6d1a4419c74e25928dcbbcc351a84f41cfdbf1cc",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "reviewed_sha256": "470378bec05a0b545c58e3cf0c14078017dd15ba5015dbc2c58ff53d3e382a7a",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0364",
+      "reviewed_sha256": "1c13fc4bf089d2a960db6ac9f403731f5ed7a7298cc5c94993af7eb8a6fe440b",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0008",
+      "reviewed_sha256": "a8cff9a619c3954e322cb7823818c091128958a74cb0faa9005c55337d8d760d",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0009",
+      "reviewed_sha256": "f546b43acba46c18836daa3befe9c484f7c68cafeea8f65f4fc99057cc5654da",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0010",
+      "reviewed_sha256": "b2ca1a9c523562adb6789e4f212ada58b4f79eaaaae17c0eb9962ca29cc6fcc0",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0011",
+      "reviewed_sha256": "77d2a03bf7fd4720bec3cd2dccdcdf8d69c6ceec288d31e78771119d8bdf326b",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "reviewed_sha256": "569104520879f265badb08926f96dfee7cc8d8baa044ca734f3cbedd2a97b79c",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0014",
+      "reviewed_sha256": "a2568304568b79c0a7a577cd64a9e192fe8a442744e61aef6e1cea85ba5ea9a2",
+      "decision": "uncertain"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "reviewed_sha256": "2e4ca4f8d7b8edbac4d5142ccf44d59c78247c236926989f0c7f0bd62d0e51ce",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "reviewed_sha256": "86bf83b56351a5a236db47283df7cd6f8ea2104165895d050910b4a451619741",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0227",
+      "reviewed_sha256": "a1abb8eef2d8e23df304fbd5a7ae59bab2076600ee3baafd2bc4e0cdb2846c03",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0228",
+      "reviewed_sha256": "60cf6439de4671bb69cf8a45f3b060228e72dd76852df2c5f92717fb87089d48",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0229",
+      "reviewed_sha256": "f39d1c0c71974972ca2fbaa4e23bd3c4a01e9656aeb144603fd17f196e6ae0ee",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0038",
+      "reviewed_sha256": "e4e151b2335a89ee329ac09b48c74a4b62e165080b63d22819c0d462c409ee1b",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0051",
+      "reviewed_sha256": "734a7fcfefc1a89e39a005e97f307ba20e125f80681348b9dc9a3f7159c4453f",
+      "decision": "accept"
+    },
+    {
+      "candidate_id": "s2tld1080_0057",
+      "reviewed_sha256": "cb7cdbb08c08247731f448dbffc630951841ef2937146d20ec616bb61d9c254a",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0067",
+      "reviewed_sha256": "0107de23a913ea731ff1dfd425c34b6e7ccf35b6096c4f2fb02a4ae55d99a549",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0071",
+      "reviewed_sha256": "9d4dd34a58f875201b8174d2c6e6d4e7388c8a6b2470b012bf81256c92725eae",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0072",
+      "reviewed_sha256": "b9a38b2fa37c3bb93b2d6898ca4c2e34a9e2a41b7703090c5b9c6ad2d7a1ec53",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0079",
+      "reviewed_sha256": "eb90dd4e6b0d9c67a1e60f9be633c86efcb2e7c964521c5f8550dfcc304d4adb",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0080",
+      "reviewed_sha256": "7da4038d5a652c8eecdbe981fff9c979d17d2ac64cd1fdef877a3c87b3342349",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0082",
+      "reviewed_sha256": "10ea8a2bd44a35caf44db8fedb9dc2f7a7ee7eca72a079b3496377591ff6a026",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0084",
+      "reviewed_sha256": "6123a8ff7f4c227b246e2837218b30e8cbdd1fd8f7145588085703aef3d8b41b",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0085",
+      "reviewed_sha256": "e91787eed64ae423df3cb27e6ee41c1c9d5d248834099155a347bb54c2191963",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0087",
+      "reviewed_sha256": "8f485bc8f8e304df4c08540d6bba53edb592789154dafa2f70a852561b2bfe1a",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0108",
+      "reviewed_sha256": "afd11c9d296b91cdb5de35a39a322be2643235c088ffa3aaa916b98d8322e139",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0109",
+      "reviewed_sha256": "a2479076fbb652abc160057dc95be7ace78a074be9177fad4b68682d3f8fc08c",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0110",
+      "reviewed_sha256": "af5138e813d14aabfe9856ff57e4040ac132d2f2d44bb0214148760b06a1a33a",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0113",
+      "reviewed_sha256": "57f78917a6ce44b45908adeb1c7a961dd8f9517225ef47d9a7003c5787b537e4",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0118",
+      "reviewed_sha256": "c6f677427f0920d823212dd8a1250a26fd5706363678ef4f4d5789c8bcde7c34",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0120",
+      "reviewed_sha256": "eb443b5252eca90d76e601d119d9517a8ea71ed22b2d8829325fb914e198bc43",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0123",
+      "reviewed_sha256": "9c3141775f4e094f459966f2452197458318c9c985049c430656317450a76bcd",
+      "decision": "uncertain"
+    },
+    {
+      "candidate_id": "s2tld1080_0125",
+      "reviewed_sha256": "fbc2eb5e5c7d9c918de645c9243e8b3691188ff7b4d05a42401e1ad0ee06998f",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0130",
+      "reviewed_sha256": "d31352bd923bed4988d16212949b7d7514fcf1aefab54a3b65729c02af1cc782",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0131",
+      "reviewed_sha256": "a637ac3011edf9540b5e39f19ed1c0d06aadc5d957b35736be68e9a66f60f3f4",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0132",
+      "reviewed_sha256": "d7f7d2e3b4492897fd002052d52abafbb02fe356888bb2064c851efb423aa569",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0141",
+      "reviewed_sha256": "f060b719ab462a5fcc9a7546a11a613b29fcc8da38307415c89884097dc788d2",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0147",
+      "reviewed_sha256": "772e129c4fa2946686995e119a438a94de0b138ad9ad9d2a19a0811e09597c85",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0148",
+      "reviewed_sha256": "34444617aae7f5f2093f9ed8dd4c0873ca521287f53dd7859eb2a1cc0c347364",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0149",
+      "reviewed_sha256": "1972c64403e767b95c7103aa8491c1242bff95e50430cc764a89db9d2f966934",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0150",
+      "reviewed_sha256": "ecafe1947524d4942fc17788322fba44598d37cc4b4c53fd1586989d196efc40",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0153",
+      "reviewed_sha256": "8597826762c7867c10fff804be8073e1751d10710de47e30fba15c746d3f009f",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0224",
+      "reviewed_sha256": "437b00bd2420720d3bda93d205fb1acca767492d991ad1c7d56c644f90389aca",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0226",
+      "reviewed_sha256": "29ccdc7fe6ecdc82d373220483b1b4282b1948475aa0a7e390c9a766861c29cc",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0227",
+      "reviewed_sha256": "2d333098cece235855c5d93e164579a3de0365b7b2f4f9691499771a021f4c10",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0228",
+      "reviewed_sha256": "6d84b450eb059ff0db3dd5adb1b8d3a7defebdb65f208270ae710746d7eac6ad",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0229",
+      "reviewed_sha256": "69fa93573ba472700efcbeb88d0bf24dbca6f6986a79465b3d1d8d456bc76a75",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0231",
+      "reviewed_sha256": "1aabeda9b82713302f7b4b8aad03150131c164eab15b52d196ccf5e5a195aab9",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0232",
+      "reviewed_sha256": "658b89c841fa0ce968a640006ba3e7b7f957c924838bed6ba30c8a5cc0d516db",
+      "decision": "needs_modify"
+    },
+    {
+      "candidate_id": "s2tld1080_0235",
+      "reviewed_sha256": "265a3a0728b8008ed26da0d7f7bed1dc50555f2ba9d801df920016259d44c1d6",
+      "decision": "needs_modify"
+    }
+  ],
+  "remaining_queue_images": 352,
+  "training_releases_created": 0,
+  "all_existing_final_entries_preserved_except_new_disagreement": true,
+  "stale_final_confirmations_revoked": []
+}

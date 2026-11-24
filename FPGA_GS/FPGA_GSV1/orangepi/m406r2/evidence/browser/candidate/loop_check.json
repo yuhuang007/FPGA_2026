@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "beforeEpoch": 7,
+  "afterEpoch": 9,
+  "beforeLoops": 1,
+  "afterLoops": 2,
+  "position": 0.666667,
+  "no_old_epoch_lights": true
+}

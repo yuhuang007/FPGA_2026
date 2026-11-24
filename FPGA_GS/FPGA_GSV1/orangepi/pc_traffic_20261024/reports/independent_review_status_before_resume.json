@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-24T19:09:34.439418+08:00",
+  "reviewer": "AI / Codex; not human signoff",
+  "candidate_count": 400,
+  "independently_visually_prechecked_images": 8,
+  "completed_second_pass_label_reviews": 0,
+  "approved_for_training": 0,
+  "first_pass_label_files_at_check": 0,
+  "partial_first_pass_visual_note_count_at_check": 48,
+  "partial_visual_note_sha256": "ee818f54a035adacf1542395ac721d46ffe3b81a6489acf68d63ea635aa325d2",
+  "status": "awaiting_versioned_first_pass_labels_and_grouping_evidence",
+  "record_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\independent_review_r1\\candidate_precheck.json",
+  "required_materials": [
+    "Versioned revised per-image body annotations, class/ignore/hard-negative regions and readable attributes; source XML alone is not first-pass completion.",
+    "First-pass reviewer identity (AI explicitly allowed if declared), timestamp, actual full-image/zoom method, omissions and geometry changes for each submitted image.",
+    "Manifest binding image SHA256, revised annotation SHA256 and candidate ID; fixed incremental batches are acceptable.",
+    "Near-duplicate and same-site grouping table with visual evidence, uncertain links and proposed split boundaries; dHash proposals alone are not approved groups.",
+    "PC arbitration mechanism/results for integrated countdown/body definition, ambiguous kind, glare and missing small lights."
+  ],
+  "not_modified": [
+    "candidates.csv",
+    "annotations",
+    "review_stage2/first_pass",
+    "readiness.json",
+    "check_readiness.py",
+    "CUDA results",
+    "training gates"
+  ],
+  "next_action": "On arrival of an immutable reviewed batch, inspect originals and revised labels independently per image; record disagreements and label version rather than copying initial approvals."
+}

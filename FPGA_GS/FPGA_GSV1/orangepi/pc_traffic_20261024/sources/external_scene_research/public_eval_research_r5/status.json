@@ -1,0 +1,127 @@
+{
+  "recorded_at": "2026-10-25T08:11:43.706878+00:00",
+  "Charlotte": {
+    "repository": "samxu29/Charlotte_Area_Traffic_Light_Dataset",
+    "revision": "4528c40995c9fd3ae9649896158409bd84e21109",
+    "dataset_card_license": "MIT",
+    "label_archive_sha256": "c68312bbdb45215d9897e2439fc351516860d8ea38657f4dda6adf07dffa984b",
+    "native_label_files": 942,
+    "native_box_count": 3362,
+    "class_names": [
+      "Red",
+      "RedLeft",
+      "Yellow",
+      "YellowLeft",
+      "Green",
+      "GreenLeft",
+      "FalseDetec",
+      "Sign"
+    ],
+    "class_counts": {
+      "6": 692,
+      "1": 173,
+      "0": 794,
+      "5": 107,
+      "4": 1427,
+      "7": 45,
+      "3": 78,
+      "2": 46
+    },
+    "empty_label_files": 0,
+    "schema_issues": [
+      {
+        "file": "CTLD-day_labels/day_1356.txt",
+        "line": 4,
+        "native": "4 0.615118 0.416429 0.000534 0.000000"
+      },
+      {
+        "file": "CTLD-day_labels/day_1402.txt",
+        "line": 6,
+        "native": "4 0.715278 0.304368 0.000000 0.001899"
+      },
+      {
+        "file": "CTLD-day_labels/day_1516.txt",
+        "line": 2,
+        "native": "4 0.515417 0.350190 0.000148 0.000000"
+      },
+      {
+        "file": "CTLD-day_labels/day_2280.txt",
+        "line": 4,
+        "native": "4 0.586851 0.069264 0.000000 0.001443"
+      },
+      {
+        "file": "CTLD-day_labels/day_2408.txt",
+        "line": 6,
+        "native": "6 0.448052 0.822511 0.000000 0.001443"
+      },
+      {
+        "file": "CTLD-day_labels/day_2651.txt",
+        "line": 10,
+        "native": "6 0.511364 0.471522 0.000000 0.000849"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 1,
+        "error": "could not convert string to float: 'Red'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 2,
+        "error": "could not convert string to float: 'RedLeft'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 3,
+        "error": "could not convert string to float: 'Yellow'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 4,
+        "error": "could not convert string to float: 'YellowLeft'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 5,
+        "error": "could not convert string to float: 'Green'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 6,
+        "error": "could not convert string to float: 'GreenLeft'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 7,
+        "error": "could not convert string to float: 'FalseDetec'"
+      },
+      {
+        "file": "CTLD-day_labels/labels.txt",
+        "line": 8,
+        "error": "could not convert string to float: 'Sign'"
+      }
+    ],
+    "image_archive_request": "data/public_datasets/charlotte_eval_pilot_r1/acquisition_manifest.json",
+    "project_scope_mapping_released": false,
+    "blockers": [
+      "Inspect actual images before full housing mapping; FalseDetec and Sign must not silently become body positives or background.",
+      "Native schema anomalies require explicit adjudication, never silently clamp.",
+      "Identify route/temporal groups; sequential filename is not an independent-scene certificate.",
+      "Dataset title suggests US Charlotte; precise original source/site metadata still to be checked."
+    ],
+    "frozen_training_split_unchanged": true,
+    "qualified_originals": 0
+  },
+  "S2TLD_official_paper": {
+    "url": "https://arxiv.org/pdf/2004.13316",
+    "sha256": "6944a2410bcf24a1c194e2fce243c44044e27004c71d44045114f18c824c23be",
+    "finding": "Dataset description confirms images/categories/conditions but does not name capture sites. Author affiliations do not establish capture geography.",
+    "site_release": false
+  },
+  "DTLD_correction": {
+    "reachable_registration_evidence": "sources/external_scene_research/dtld_registration.html",
+    "finding": "Existing official Ulm landing page and registration form are reachable evidence. Registration and dataset license/download remain unresolved. No registration submitted."
+  },
+  "china_crop_pilot": "review_stage2/china_clean_crop_pilot_r1/pc_visual_validation.json",
+  "newly_qualified_originals": 0,
+  "no_test_inference": true
+}

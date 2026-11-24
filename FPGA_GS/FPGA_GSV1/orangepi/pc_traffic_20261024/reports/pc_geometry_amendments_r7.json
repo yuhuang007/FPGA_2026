@@ -1,0 +1,347 @@
+{
+  "recorded_at": "2026-10-25T02:44:19.217077+00:00",
+  "reviewer": "Codex_PC_AI_stage2",
+  "reviewer_type": "AI",
+  "actual_scope": "Targeted actual native unmarked crops and coordinate grids. No exhaustive full-image omissions recertification.",
+  "training_release": false,
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0123",
+      "base_manifest": "review_stage2/frozen/batch_016/manifest.json",
+      "changes": [
+        {
+          "object_id": "side_upper",
+          "field": "type",
+          "value": "ignore"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "kind",
+          "value": "unknown"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "unknown_reason",
+          "value": "other"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "observed_surface_color",
+          "value": "yellow_brown"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "emission_status",
+          "value": "unknown"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "reason",
+          "value": "Oblique yellow-brown surface lacks a definite emitted-light core in this frame; colored/reflected lens versus lit signal unresolved. Original side housing ignore remains. No off/yellow state truth."
+        },
+        {
+          "object_id": "side_upper",
+          "field": "quality_flags",
+          "value": [
+            "ambiguous_emission"
+          ]
+        }
+      ],
+      "note": "侧上格确有黄褐色表面，未见明确发光核心；不能确定yellow灯态，也不猜off。保留表面颜色观察与原侧壳ignore，撤销该区域的确定emitter语义；可靠主灯体不受影响。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0123_side_upper.png"
+      ],
+      "remove_fields": [
+        {
+          "object_id": "side_upper",
+          "field": "parent_id"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "state"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "color_readable"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "symbol"
+        },
+        {
+          "object_id": "side_upper",
+          "field": "arrow_direction"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0125",
+      "base_manifest": "review_stage2/frozen/batch_016/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            303,
+            260,
+            333,
+            289
+          ]
+        },
+        {
+          "object_id": "emitter_2",
+          "field": "bbox_xyxy",
+          "value": [
+            1062,
+            244,
+            1092,
+            273
+          ]
+        }
+      ],
+      "note": "分别看双红圆原像素，两旧框偏下且裁了部分左缘；两框重新贴完整圆面，排除下中暗格，不用相邻帧坐标补本帧。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0125_emitter_1.png",
+        "review_stage2/adjudication_geometry_r7/0125_emitter_2.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0130",
+      "base_manifest": "review_stage2/frozen/batch_016/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_main",
+          "field": "bbox_xyxy",
+          "value": [
+            918,
+            126,
+            984,
+            274
+          ]
+        },
+        {
+          "object_id": "red_main",
+          "field": "bbox_xyxy",
+          "value": [
+            928,
+            134,
+            970,
+            175
+          ]
+        },
+        {
+          "object_id": "body_main",
+          "field": "occlusion",
+          "value": "partial"
+        },
+        {
+          "object_id": "body_main",
+          "field": "quality_flags",
+          "value": [
+            "occluded"
+          ]
+        },
+        {
+          "object_id": "red_main",
+          "field": "quality_flags",
+          "value": [
+            "overexposure",
+            "occluded"
+          ]
+        }
+      ],
+      "note": "完整白边竖壳从约126开始，旧body顶及emitter遗漏上红圆；同时重贴整壳和上红面。局部还实际见细枝/线跨红面与壳前，none改partial并保留质量标志；中心暖色饱和不另猜黄灯或off。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0130_body_main.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0131",
+      "base_manifest": "review_stage2/frozen/batch_017/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_right",
+          "field": "occlusion",
+          "value": "partial"
+        },
+        {
+          "object_id": "body_right",
+          "field": "quality_flags",
+          "value": [
+            "occluded"
+          ]
+        }
+      ],
+      "note": "粗横枝实际横穿右灯中央数字/下格上方，共壳仍可靠，但none遮挡不符，改partial。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0131_body_right.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0132",
+      "base_manifest": "review_stage2/frozen/batch_017/manifest.json",
+      "changes": [
+        {
+          "object_id": "profile_red",
+          "field": "bbox_xyxy",
+          "value": [
+            1543,
+            408,
+            1552,
+            421
+          ]
+        }
+      ],
+      "note": "侧红可见窄亮面位于旧框左上，按本帧可见亮纹收紧；种类与符号继续unknown，原ignore_profile保留。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0132_profile_red.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0141",
+      "base_manifest": "review_stage2/frozen/batch_018/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_left",
+          "field": "occlusion",
+          "value": "partial"
+        },
+        {
+          "object_id": "body_right",
+          "field": "occlusion",
+          "value": "partial"
+        },
+        {
+          "object_id": "body_left",
+          "field": "quality_flags",
+          "value": [
+            "occluded"
+          ]
+        },
+        {
+          "object_id": "body_right",
+          "field": "quality_flags",
+          "value": [
+            "occluded"
+          ]
+        }
+      ],
+      "note": "两壳分别看原像素：左横枝遮上格/中部，右斜枝穿上圆及边框；有壳及机动车圆格证据仍可靠，但两者应partial。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0141_body_left.png",
+        "review_stage2/adjudication_geometry_r7/0141_body_right.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0147",
+      "base_manifest": "review_stage2/frozen/batch_019/manifest.json",
+      "changes": [
+        {
+          "object_id": "red_side_right",
+          "field": "bbox_xyxy",
+          "value": [
+            1476,
+            504,
+            1482,
+            517
+          ]
+        }
+      ],
+      "note": "本帧右红亮纹顶部在旧框之外，下半旧框主要暗区；向上收紧到可见红纹，不猜符号或类别。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0147_red_side_right.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0148",
+      "base_manifest": "review_stage2/frozen/batch_019/manifest.json",
+      "changes": [
+        {
+          "object_id": "red_side_right",
+          "field": "bbox_xyxy",
+          "value": [
+            1476,
+            504,
+            1482,
+            518
+          ]
+        }
+      ],
+      "note": "单独看本帧右红亮纹后向上收紧，保留下缘亮面；与0147相邻但不复制审核结论，侧壳ignore保留。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0148_red_side_right.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0149",
+      "base_manifest": "review_stage2/frozen/batch_019/manifest.json",
+      "changes": [
+        {
+          "object_id": "red_side_right",
+          "field": "bbox_xyxy",
+          "value": [
+            1476,
+            504,
+            1482,
+            517
+          ]
+        },
+        {
+          "object_id": "green_far",
+          "field": "bbox_xyxy",
+          "value": [
+            1016,
+            532,
+            1024,
+            540
+          ]
+        }
+      ],
+      "note": "分别核右红纹和远绿亮核，红框上移收紧，绿框左移覆盖实际亮面；远壳不因绿核可辨而升级类别。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0149_red_side_right.png",
+        "review_stage2/adjudication_geometry_r7/0149_green_far.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0150",
+      "base_manifest": "review_stage2/frozen/batch_019/manifest.json",
+      "changes": [
+        {
+          "object_id": "red_main_top",
+          "field": "bbox_xyxy",
+          "value": [
+            1078,
+            411,
+            1087,
+            421
+          ]
+        }
+      ],
+      "note": "叶遮上红片在旧框左侧，将框左移到本帧可见红核，不包含右侧树叶，也不与下红片合并；ignore_leaf_main仍保护未知壳体。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0150_red_main_top.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0153",
+      "base_manifest": "review_stage2/frozen/batch_019/manifest.json",
+      "changes": [
+        {
+          "object_id": "green_circle",
+          "field": "bbox_xyxy",
+          "value": [
+            1159,
+            270,
+            1194,
+            303
+          ]
+        }
+      ],
+      "note": "看完整大绿圆，旧左界与底界裁亮面，向左下扩至完整圆盘；圆绿/机动车种类不变，不扩为另一个body。 仅变化部分须按新SHA独立复核，未变整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r7/0153_green_circle.png"
+      ]
+    }
+  ]
+}

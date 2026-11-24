@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-25T04:36:31.092798+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_release_r5/manifest.json",
+  "pilot_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+  "passed": true,
+  "originals": 4,
+  "targets": 7,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.70000031782547e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "coco_scene_000000338560",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.0800000533636194e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "coco_scene_000000309391",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 2.4900003836592077e-07,
+      "body_count": 3
+    },
+    {
+      "candidate_id": "commons_scene_132116089",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 7.074999928136094e-07,
+      "body_count": 1
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "coco_scene_000000309391_clean01.png",
+        "targets": 3
+      },
+      {
+        "file": "coco_scene_000000338560_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "commons_scene_132116089_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0051_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true,
+  "original_group_release_sha256": "df55b8f15f674cc50ee0adcf86b28013d2b509473b46abab2bf5546ea5cb8f26"
+}

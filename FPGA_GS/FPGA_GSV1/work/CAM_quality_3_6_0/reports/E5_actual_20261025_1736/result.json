@@ -1,0 +1,58 @@
+{
+  "digital_acquisition_complete": false,
+  "errors": [
+    "A_update: missing or ambiguous PRE",
+    "B_frozen: missing or ambiguous PRE",
+    "Aprime_restored: 采样未完成：没有同一完整帧、全部像素及CRC通过的C1PX结果；不得用缺页图判断绿线。 received=[8856]"
+  ],
+  "stages": {},
+  "final_status": {
+    "phase": 4,
+    "flags": 13,
+    "error": 0,
+    "sample_id": 3779,
+    "ms": 321193,
+    "bracket_source_frame_tags": [
+      3778,
+      3779,
+      3780,
+      3781
+    ],
+    "pre_crc": "c4b927d2",
+    "post_crc": "d70ffe21",
+    "original_operating_controls": 2165440512,
+    "restored_readback_controls": 17956864,
+    "completed_mask": 7
+  },
+  "verified_done": {
+    "phase": 4,
+    "flags": 13,
+    "error": 0,
+    "sample_id": 3779,
+    "ms": 321193,
+    "bracket_source_frame_tags": [
+      3778,
+      3779,
+      3780,
+      3781
+    ],
+    "pre_crc": "c4b927d2",
+    "post_crc": "d70ffe21",
+    "original_operating_controls": 2165440512,
+    "restored_readback_controls": 17956864,
+    "completed_mask": 7
+  },
+  "visual_validity": "Pending user confirmation: covered lens throughout; fixed-parameter A reproduces stripes; B not merely dark/black or desaturated.",
+  "decision_rules": [
+    "B attenuates stripes and Aprime returns: supports BLC update involvement, not a repair or unique cause.",
+    "B unchanged: lower BLC hypothesis priority; investigate sensor supply/readout and DVP.",
+    "Parameter drift, restore failure, A not reproducing, incomplete data: experiment invalid."
+  ],
+  "limits": [
+    "Each image is one 16x720 pre-DDR RGB565 spatial strip, not a full image, Bayer RAW or continuous capture.",
+    "Coefficient scans are time intervals bracketing capture; not atomic frame-associated values.",
+    "Strip CRC proves exported integrity only. Pixel correctness and external DVP timing remain unverified.",
+    "Native.png is unenhanced; horizontal_x16_preview.png repeats columns only."
+  ],
+  "BLC_effect_verified": false
+}

@@ -1,0 +1,431 @@
+{
+  "reviewer": "Codex_PC_AI_actual_geometry_r8",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "actual_viewed_originals": 8,
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0224",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "e_left",
+          "field": "bbox_xyxy",
+          "value": [
+            1362,
+            335,
+            1382,
+            351
+          ]
+        }
+      ],
+      "append_objects": [],
+      "note": "主红左箭头可见上支在原框上方，按本图亮核上移，排除红色光晕；主灯壳不变。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0224_far.png",
+        "review_stage2/adjudication_geometry_r8/0224_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0224_main.png",
+        "review_stage2/adjudication_geometry_r8/0224_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0226",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1512,
+            318,
+            1530,
+            336
+          ]
+        },
+        {
+          "object_id": "er",
+          "field": "bbox_xyxy",
+          "value": [
+            1618,
+            315,
+            1634,
+            334
+          ]
+        },
+        {
+          "object_id": "count",
+          "field": "bbox_xyxy",
+          "value": [
+            1600,
+            315,
+            1617,
+            335
+          ]
+        },
+        {
+          "object_id": "es",
+          "field": "bbox_xyxy",
+          "value": [
+            615,
+            447,
+            632,
+            461
+          ]
+        },
+        {
+          "object_id": "ef",
+          "field": "bbox_xyxy",
+          "value": [
+            276,
+            483,
+            289,
+            497
+          ]
+        },
+        {
+          "object_id": "far",
+          "field": "bbox_xyxy",
+          "value": [
+            274,
+            465,
+            302,
+            501
+          ]
+        }
+      ],
+      "append_objects": [
+        {
+          "id": "ignore_side_upper_display",
+          "type": "ignore",
+          "bbox_xyxy": [
+            613,
+            425,
+            633,
+            446
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Upper cyan numeral-like bright strokes, separated from lower round emitting face; exact displayed character unassessed."
+        },
+        {
+          "id": "ignore_far_upper_display",
+          "type": "ignore",
+          "bbox_xyxy": [
+            276,
+            467,
+            291,
+            482
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Upper tiny pale/green display-like patch distinct from lower emitting region; no circular/emitter identity asserted."
+        }
+      ],
+      "note": "逐图分开主灯倒计时3与右圆灯、侧上数字状亮纹与下圆灯、远灯上下亮区；远上格无法可靠定符号，保留ignore，不制造圆孔证据。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0226_far.png",
+        "review_stage2/adjudication_geometry_r8/0226_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0226_main.png",
+        "review_stage2/adjudication_geometry_r8/0226_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0227",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1433,
+            328,
+            1452,
+            345
+          ]
+        },
+        {
+          "object_id": "er",
+          "field": "bbox_xyxy",
+          "value": [
+            1550,
+            325,
+            1568,
+            344
+          ]
+        },
+        {
+          "object_id": "count",
+          "field": "bbox_xyxy",
+          "value": [
+            1530,
+            325,
+            1544,
+            345
+          ]
+        },
+        {
+          "object_id": "esg",
+          "field": "bbox_xyxy",
+          "value": [
+            416,
+            476,
+            436,
+            492
+          ]
+        },
+        {
+          "object_id": "side_count",
+          "field": "bbox_xyxy",
+          "value": [
+            418,
+            455,
+            430,
+            474
+          ]
+        },
+        {
+          "object_id": "ef",
+          "field": "bbox_xyxy",
+          "value": [
+            20,
+            520,
+            33,
+            535
+          ]
+        }
+      ],
+      "append_objects": [
+        {
+          "id": "ignore_far_upper_display",
+          "type": "ignore",
+          "bbox_xyxy": [
+            21,
+            502,
+            34,
+            519
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Upper numeral-like tiny cyan region is separate from the lower emitting spot; exact symbol unresolved."
+        }
+      ],
+      "note": "主箭头/数字6/圆灯重新分框；侧数字6与下圆灯分开；远上亮纹不当单圆灯，增加独立ignore。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0227_far.png",
+        "review_stage2/adjudication_geometry_r8/0227_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0227_main.png",
+        "review_stage2/adjudication_geometry_r8/0227_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0228",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1363,
+            296,
+            1386,
+            317
+          ]
+        },
+        {
+          "object_id": "red_count",
+          "field": "bbox_xyxy",
+          "value": [
+            1388,
+            295,
+            1405,
+            317
+          ]
+        },
+        {
+          "object_id": "esr",
+          "field": "bbox_xyxy",
+          "value": [
+            159,
+            416,
+            182,
+            434
+          ]
+        }
+      ],
+      "append_objects": [
+        {
+          "id": "side_count",
+          "type": "hard_negative",
+          "bbox_xyxy": [
+            183,
+            436,
+            202,
+            457
+          ],
+          "reason": "Readable cyan numeral2 above side round lamp; countdown display is not a separate signal emitter."
+        }
+      ],
+      "note": "原像素当前框对照表明主el旧上沿293并未截上支，不照抄复审文字；实际问题是el右沿混入数字6左笔画、数字框漏左侧。收紧箭头并将数字左移；侧箭头上支及数字2单独核实。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0228_current_boxes.png",
+        "review_stage2/adjudication_geometry_r8/0228_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0228_main.png",
+        "review_stage2/adjudication_geometry_r8/0228_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0229",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1352,
+            271,
+            1373,
+            292
+          ]
+        },
+        {
+          "object_id": "red_count",
+          "field": "bbox_xyxy",
+          "value": [
+            1379,
+            272,
+            1393,
+            294
+          ]
+        },
+        {
+          "object_id": "ef",
+          "field": "bbox_xyxy",
+          "value": [
+            1769,
+            449,
+            1777,
+            457
+          ]
+        }
+      ],
+      "append_objects": [],
+      "note": "主红左箭头与数字3逐对象对齐；远红亮核在旧框左上侧，移至本图实际亮点，符号仍unknown。侧红箭头与黄圆灯语义保留。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0229_far.png",
+        "review_stage2/adjudication_geometry_r8/0229_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0229_main.png",
+        "review_stage2/adjudication_geometry_r8/0229_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0231",
+      "base_manifest": "review_stage2/frozen/batch_027/manifest.json",
+      "changes": [
+        {
+          "object_id": "es",
+          "field": "bbox_xyxy",
+          "value": [
+            39,
+            416,
+            63,
+            437
+          ]
+        }
+      ],
+      "append_objects": [],
+      "note": "侧红圆亮核左部被原emitter左沿截去；仅重贴可见亮核，外部红晕不纳入，既有完整body保持。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0231_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0231_main.png",
+        "review_stage2/adjudication_geometry_r8/0231_side.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0232",
+      "base_manifest": "review_stage2/frozen/batch_028/manifest.json",
+      "changes": [
+        {
+          "object_id": "left",
+          "field": "bbox_xyxy",
+          "value": [
+            1320,
+            252,
+            1416,
+            289
+          ]
+        },
+        {
+          "object_id": "el",
+          "field": "bbox_xyxy",
+          "value": [
+            1382,
+            255,
+            1413,
+            285
+          ]
+        },
+        {
+          "object_id": "right",
+          "field": "bbox_xyxy",
+          "value": [
+            1435,
+            248,
+            1534,
+            289
+          ]
+        },
+        {
+          "object_id": "er",
+          "field": "bbox_xyxy",
+          "value": [
+            1441,
+            254,
+            1474,
+            282
+          ]
+        }
+      ],
+      "append_objects": [],
+      "note": "左箭尾及物理壳右边完整纳入；右红圆上缘实际高于旧body和emitter上沿，按本图完整壳重贴，包含真实灯面而不只修子框。颜色和方向无新推断。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0232_far.png",
+        "review_stage2/adjudication_geometry_r8/0232_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0232_main.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0235",
+      "base_manifest": "review_stage2/frozen/batch_028/manifest.json",
+      "changes": [
+        {
+          "object_id": "ef1",
+          "field": "bbox_xyxy",
+          "value": [
+            1738,
+            455,
+            1745,
+            463
+          ]
+        },
+        {
+          "object_id": "ef2",
+          "field": "bbox_xyxy",
+          "value": [
+            1746,
+            454,
+            1753,
+            463
+          ]
+        }
+      ],
+      "append_objects": [],
+      "note": "远双亮点分别重贴本图亮核，旧右框偏右；保留两处unknown状态/形状及父ignore，不从邻帧猜颜色。 所有影响字段须新SHA真实定向确认；未变化整图记录保留。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r8/0235_far.png",
+        "review_stage2/adjudication_geometry_r8/0235_full.jpg",
+        "review_stage2/adjudication_geometry_r8/0235_main.png"
+      ]
+    }
+  ],
+  "training_release": false
+}

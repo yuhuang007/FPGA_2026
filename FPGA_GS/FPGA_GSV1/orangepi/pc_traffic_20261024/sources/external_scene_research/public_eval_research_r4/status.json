@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T07:51:26.320035+00:00",
+  "purpose": "Actively locate source-attributed wider complete road-view eval, China preferred; avoid declaring sparse native annotations complete.",
+  "candidates": {
+    "DTLD": {
+      "official_repository": "julimueller/dtld_parsing",
+      "documented_scope": "11named German cities; routes and sequences correspond to intersections. Explicit country separation and sequence structure useful for independent eval.",
+      "official_README": "dtld_official_README.txt",
+      "acquisition_status": "Official download domain TLS fails, supplied Ulm page404. HF mirrors inspected contain no image files. Dataset LICENSE and reachable raw download not yet acquired; no train/val release."
+    },
+    "day_and_night_traffic_lights": {
+      "fixed_revision": "bf4d62270787c30881fc7dccf43618f6e976a780",
+      "source_author_project": "https://universe.roboflow.com/bhumika-jain-p/day-and-night-traffic-sign",
+      "license": "CC BY4 declared in original-export README",
+      "total_export_images": 4929,
+      "val_images": 423,
+      "schema": "Two duplicate generic traffic-sign classes; video-derived randomized split,640x640 stretch and3augmented versions. Source kind/body scope and geography not established.",
+      "acquisition_status": "Downloaded only pinned source metadata and small val annotations; no image import/label approval. Not an established China two-class independent eval."
+    }
+  },
+  "dataset_images_downloaded_here": 0,
+  "new_samples_qualified": 0
+}

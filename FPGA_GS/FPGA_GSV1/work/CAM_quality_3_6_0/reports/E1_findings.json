@@ -1,0 +1,40 @@
+{
+  "board_identity": "User downloaded CAM1_GREEN_CHAIN_E1_3_6_0; UART D6A0 final-live identity confirmed",
+  "user_observations": {
+    "patterns": "彩条的时候没有绿线，正常摄像头画面的时候有绿线",
+    "additional_light": "补光后明显减少"
+  },
+  "actual_uart": {
+    "file": "E1_actual_uart.txt",
+    "decode": "E1_actual_decode.json",
+    "records": 9,
+    "window_seconds": 8,
+    "stages_captured": [5],
+    "sensor_pattern_register_original": "00",
+    "sensor_pattern_register_restored": "00",
+    "probe_failed": false,
+    "capture_good_delta": 200,
+    "DDR_publish_delta": 200,
+    "display_new_delta": 200,
+    "bad_frame_delta": 0,
+    "rows": 720,
+    "pixels": 921600,
+    "geometry_errors": 0,
+    "PLL_falls": 0,
+    "PHY_ready_falls": 0
+  },
+  "confirmed": [
+    "Green lines visible in live scene to naked eye, not solely a photographed-screen artifact.",
+    "User saw clean test patterns; live defect reduced with additional illumination.",
+    "No frame-cadence/geometry anomaly in this8s restored-live window; this is not a pixel-content proof."
+  ],
+  "not_confirmed": [
+    "Actual CAM1 live exposure/gain not exported in E1; gain-related row noise not yet uniquely proven.",
+    "Cannot rule out data-dependent DVP/IO errors using clean bars alone.",
+    "Sensor BLC/illumination flicker/readout noise or physical module defect not uniquely established."
+  ],
+  "next_candidate": "R0-based CAM1-only gain ceiling8x with coherent44-register readback, measured row period,20s retained baseline; no BLC/ISP/clock/sync writes, no CAM0 changes.",
+  "not_green_line_repair_verified": true,
+  "Pi_LIVE_started": false,
+  "unrelated_tests_repeated": false
+}

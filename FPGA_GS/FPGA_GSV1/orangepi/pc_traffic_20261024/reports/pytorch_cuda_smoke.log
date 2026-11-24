@@ -1,0 +1,65 @@
+WARNING ⚠️ Ultralytics settings reset to default values. This may be due to a possible problem with your settings or a recent ultralytics package update. 
+View Ultralytics Settings with 'yolo settings' or at 'C:\Users\YuHuang\AppData\Roaming\Ultralytics\settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+Overriding model.yaml nc=80 with nc=2
+{"attempt": 1, "loss": 58.57611846923828, "loss_parts_box_cls_dfl": [4.811161994934082, 5.5676398277282715, 4.265228271484375], "elapsed_s": 1.275942300002498, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 2, "loss": 58.37445068359375, "loss_parts_box_cls_dfl": [4.812544822692871, 5.540701866149902, 4.240365982055664], "elapsed_s": 0.0735698999997112, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 3, "loss": 58.406349182128906, "loss_parts_box_cls_dfl": [4.740321636199951, 5.609403610229492, 4.251862049102783], "elapsed_s": 0.06771099999605212, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 4, "loss": 58.067176818847656, "loss_parts_box_cls_dfl": [4.769772529602051, 5.477728366851807, 4.269294261932373], "elapsed_s": 0.057372000002942514, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 5, "loss": 58.150962829589844, "loss_parts_box_cls_dfl": [4.742255687713623, 5.61511754989624, 4.1803669929504395], "elapsed_s": 0.06014290000166511, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 6, "loss": 58.3951416015625, "loss_parts_box_cls_dfl": [4.8146162033081055, 5.584275722503662, 4.199893951416016], "elapsed_s": 0.06243189999804599, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 7, "loss": 58.093299865722656, "loss_parts_box_cls_dfl": [4.7683210372924805, 5.478937149047852, 4.27606725692749], "elapsed_s": 0.06679170000279555, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 8, "loss": 58.420989990234375, "loss_parts_box_cls_dfl": [4.883212089538574, 5.525997638702393, 4.196037769317627], "elapsed_s": 0.0522287000057986, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 9, "loss": 58.54685974121094, "loss_parts_box_cls_dfl": [4.812740325927734, 5.583620548248291, 4.240354537963867], "elapsed_s": 0.05401690000144299, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 10, "loss": 58.39397430419922, "loss_parts_box_cls_dfl": [4.800398826599121, 5.5047783851623535, 4.293316841125488], "elapsed_s": 0.059580600005574524, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 11, "loss": 58.20861053466797, "loss_parts_box_cls_dfl": [4.7938947677612305, 5.5329413414001465, 4.225317001342773], "elapsed_s": 0.05151759999716887, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{"attempt": 12, "loss": 58.63772201538086, "loss_parts_box_cls_dfl": [4.85659646987915, 5.594970703125, 4.2078633308410645], "elapsed_s": 0.051531299999624025, "forward_dtype": "torch.float16", "finite_gradients": true, "scale_before": 128.0, "scale_after": 128.0, "optimizer_step_applied": true}
+{
+  "passed": true,
+  "purpose": "synthetic environment validation only",
+  "recognition_training": false,
+  "started_at": "2026-10-24T19:28:15+0800",
+  "class_order": [
+    "motor_vehicle_body",
+    "pedestrian_body"
+  ],
+  "versions": {
+    "python": "3.11.15",
+    "torch": "2.5.1+cu124",
+    "torchvision": "0.20.1+cu124",
+    "ultralytics": "8.3.40",
+    "cuda_runtime": "12.4",
+    "cudnn": 90100,
+    "driver_query": "NVIDIA GeForce RTX 4060 Laptop GPU, 617.14, 8188 MiB"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "compute_capability": [
+    8,
+    9
+  ],
+  "model": "YOLOv8n nc=2 random initialization (smoke only)",
+  "input_hw": [
+    640,
+    640
+  ],
+  "batch": 4,
+  "amp_requested": true,
+  "amp_enabled": true,
+  "optimizer": "SGD lr=.001 momentum=.9",
+  "synthetic_gt_classes": [
+    0,
+    1
+  ],
+  "weights_saved": false,
+  "completed_optimizer_steps": 12,
+  "parameter_update_l1": 0.4970846176147461,
+  "peak_allocated_mib": 482.2734375,
+  "peak_reserved_mib": 542.0,
+  "step_time_s": {
+    "first": 1.275942300002498,
+    "median_excluding_first2": 0.05847630000425852,
+    "min": 0.05151759999716887,
+    "max": 1.275942300002498
+  },
+  "finished_at": "2026-10-24T19:28:51+0800"
+}

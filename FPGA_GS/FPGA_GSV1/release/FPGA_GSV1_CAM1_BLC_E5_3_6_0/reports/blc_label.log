@@ -1,0 +1,2 @@
+PASS BLC OSD label: A/B/AP/DONE glyphs and two-register area/pixel latency, outside-area exclusion
+sim/blc_label_tb.sv:22: $finish called at 386000 (1ps)

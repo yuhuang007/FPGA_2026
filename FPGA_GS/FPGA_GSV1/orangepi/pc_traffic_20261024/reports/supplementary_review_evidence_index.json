@@ -1,0 +1,153 @@
+{
+  "immutable_frozen_annotations_modified": false,
+  "training_approval_created": false,
+  "entries": [
+    {
+      "evidence_file": "review_stage2/resume_evidence/0089_shape_check.png",
+      "evidence_sha256": "bf505b5cbe04863b6ac55d0605b0fbaac293ba38ee7766c020b219b89a4352f9",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0089",
+          "image_sha256": "47400e1790d5388300276496eda7674401c68bad5bd7be296e772d71b8aeadf8",
+          "original_label_sha256": "1851f50e060a2152efaf926807d20ecdd91c49fbbefc0a7fe984e9fd4e2ee9bb"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0091_shape_check.png",
+      "evidence_sha256": "9e7368fe3f1cebe4d73fbb5696fe3fa387fa2527d4a06b8d9aeb7b00ccf79d9e",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0091",
+          "image_sha256": "ea8fcf8d568e7c70075cde3048c22aeabf741e0de79279a007be7f17dd4cde35",
+          "original_label_sha256": "eee7a1915c9160cae43870ec28e66305cb095737d8d9c7c0a75eff0c5f0b1c5a"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0142_0143_ped_shape_check.png",
+      "evidence_sha256": "c7feaf4baed4e159e2c79a3664c15df3148d71623c60d995a2aa9080570ca257",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0142",
+          "image_sha256": "453edf6d966dc85cea6f4d441bf94a0c1f4f627d096c907fc0adc7a181d44431",
+          "original_label_sha256": "51487849741f7448e7b7828b18abbb4d9cf089e56d8c894b4c77d6410c602800"
+        },
+        {
+          "candidate_id": "s2tld1080_0143",
+          "image_sha256": "b9783791e3783a8d917b823f21c388bee43a75af3d7483068ef11028f007c41a",
+          "original_label_sha256": "3617a3d5efdfc4d528795c777def3b8b4316090bde9acbbb467c7725ecc1c171"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0150_detail_search.png",
+      "evidence_sha256": "3a1a43d04d3ef084710181fab4d17910cb780aa45310b389761a3bc4a293ab78",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0150",
+          "image_sha256": "3f121ce32902fc3c47ad81dcc9f72913df2e84c06d3a285147a8e6b806d43749",
+          "original_label_sha256": "ecafe1947524d4942fc17788322fba44598d37cc4b4c53fd1586989d196efc40"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0224_0225_housing_check.png",
+      "evidence_sha256": "f748d655b681076ed3241082485903f7d0432ffdcd9ac3dcb4fa8319b89156a3",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0224",
+          "image_sha256": "b5e0fcb222e14279acb00f425ab143a58c2fc053ec64fa88c9a514cad7203f8e",
+          "original_label_sha256": "437b00bd2420720d3bda93d205fb1acca767492d991ad1c7d56c644f90389aca"
+        },
+        {
+          "candidate_id": "s2tld1080_0225",
+          "image_sha256": "d6de6f606e73539d39b874624f9a32742e96faeb7635fca4845810202d257922",
+          "original_label_sha256": "4272816573899026d8d3e62d79e30c10fcb85edeec80a57a16560c776e865a8f"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0241_main_check.png",
+      "evidence_sha256": "99463f4b1e4aed1797a6b0943fa6293dc413d3cea1044ece02060b9ab8f0610e",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0241",
+          "image_sha256": "e4cb7b334008fe395a2d70b94580b9132bac20d5c8bd43182a34b6879c084fde",
+          "original_label_sha256": "69961e503a8ad7ac172a5dd760f1c144d9e26fa824c7b790e2fcad18d32321ab"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0245_ped_check.png",
+      "evidence_sha256": "6bf1c2162fa04856d0463f39c80501351a145a944f668a93d47f386db2430452",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0245",
+          "image_sha256": "69174e2f0747cec702d8902b234fbc6b1a8755e6c99109f61ad193ec768b9505",
+          "original_label_sha256": "d84c8cc57c6ed25b33d82750034b4e7bedba9a3ed64220768a2bd5445a0c78ee"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0310_0311_near_check.png",
+      "evidence_sha256": "017f782c7b84e74ca2a450d7a1327c48d98cabd2b6d854de03d5c554f381c260",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0310",
+          "image_sha256": "27865e7ed2a510b2e76de5a9d5a6b808a40f43d7873b318a480b8ad4a684497f",
+          "original_label_sha256": "9b55962e4a12c662b4badca10a42af3f85dd557cbac7100432ba192f4217ccc1"
+        },
+        {
+          "candidate_id": "s2tld1080_0311",
+          "image_sha256": "ceba8e8ea07fc01e26e020e5b573d45931d2e37110da1250b742bb5db6b05864",
+          "original_label_sha256": "194fe0ab9bcf89b3b074352005478d3c799fa161cf13e1d2cd62524fad733914"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0310_pole_check.png",
+      "evidence_sha256": "5acb105bdea8fa0b3a0a9c3dcbd988183a8d2dfdc1688bfc1af59e02a81c01f7",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0310",
+          "image_sha256": "27865e7ed2a510b2e76de5a9d5a6b808a40f43d7873b318a480b8ad4a684497f",
+          "original_label_sha256": "9b55962e4a12c662b4badca10a42af3f85dd557cbac7100432ba192f4217ccc1"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0310_pole_check2.png",
+      "evidence_sha256": "fa5f8540dfb8f8354081cc703c4465c9f4abc48fc23b86eeef3a940b32d639b5",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0310",
+          "image_sha256": "27865e7ed2a510b2e76de5a9d5a6b808a40f43d7873b318a480b8ad4a684497f",
+          "original_label_sha256": "9b55962e4a12c662b4badca10a42af3f85dd557cbac7100432ba192f4217ccc1"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    },
+    {
+      "evidence_file": "review_stage2/resume_evidence/0315_pole_check.png",
+      "evidence_sha256": "43846eab47a7c0ccf896cebddbb4de8b8fe193c3774eadba20f2db3a82abb67d",
+      "candidate_bindings": [
+        {
+          "candidate_id": "s2tld1080_0315",
+          "image_sha256": "c4052c2dc0076011065368fe3fefbfddb24fec0d5de8755269e46bdb610c4bd4",
+          "original_label_sha256": "d9e62e313c9a77729d085066dc0c458e64afce2e97c3d7679326551d81fd4fa4"
+        }
+      ],
+      "scope": "Existing supplementary crop artifact indexed by candidate filename; indexing is not a new visual review or independent approval."
+    }
+  ]
+}

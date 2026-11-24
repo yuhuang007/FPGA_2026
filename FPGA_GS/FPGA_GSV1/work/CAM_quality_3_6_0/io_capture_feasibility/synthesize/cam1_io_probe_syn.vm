@@ -1,0 +1,336 @@
+//
+// Generated (version 2022.2-SP6.4<build 146967>) at Sun Oct 25 12:16:33 2026
+//
+
+module cam1_io_probe
+(
+    input [7:0] cmos2_data,
+    input cmos2_href,
+    input cmos2_pclk,
+    input cmos2_vsync,
+    output probe_out
+);
+	// SDC constraint : (object cmos2_pclk) (id 1000) (clock cmos2_pclk) (69 : E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/probe.fdc)
+    wire _N13;
+    wire _N14;
+    wire [9:0] input_stage;
+    wire [7:0] nt_cmos2_data;
+    wire nt_cmos2_href;
+(* PAP_CLOCK_DEDICATED_ROUTE="FALSE" *)    wire nt_cmos2_pclk;
+    wire nt_cmos2_vsync;
+    wire nt_probe_out;
+    wire [9:0] second_stage;
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_LUT4 /* N1_7 */ #(
+            .INIT(16'b0110100110010110))
+        N1_7 (
+            .Z (_N13),
+            .I0 (second_stage[0]),
+            .I1 (second_stage[1]),
+            .I2 (second_stage[2]),
+            .I3 (second_stage[3]));
+	// LUT = (I0&~I1&~I2&~I3)|(~I0&I1&~I2&~I3)|(~I0&~I1&I2&~I3)|(I0&I1&I2&~I3)|(~I0&~I1&~I2&I3)|(I0&I1&~I2&I3)|(I0&~I1&I2&I3)|(~I0&I1&I2&I3) ;
+
+    GTP_LUT4 /* N1_8 */ #(
+            .INIT(16'b0110100110010110))
+        N1_8 (
+            .Z (_N14),
+            .I0 (second_stage[4]),
+            .I1 (second_stage[5]),
+            .I2 (second_stage[6]),
+            .I3 (second_stage[7]));
+	// LUT = (I0&~I1&~I2&~I3)|(~I0&I1&~I2&~I3)|(~I0&~I1&I2&~I3)|(I0&I1&I2&~I3)|(~I0&~I1&~I2&I3)|(I0&I1&~I2&I3)|(I0&~I1&I2&I3)|(~I0&I1&I2&I3) ;
+
+    GTP_LUT4 /* N1_10 */ #(
+            .INIT(16'b0110100110010110))
+        N1_10 (
+            .Z (nt_probe_out),
+            .I0 (second_stage[8]),
+            .I1 (second_stage[9]),
+            .I2 (_N13),
+            .I3 (_N14));
+	// LUT = (I0&~I1&~I2&~I3)|(~I0&I1&~I2&~I3)|(~I0&~I1&I2&~I3)|(I0&I1&I2&~I3)|(~I0&~I1&~I2&I3)|(I0&I1&~I2&I3)|(I0&~I1&I2&I3)|(~I0&I1&I2&I3) ;
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="Y6", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[0]  (
+            .O (nt_cmos2_data[0]),
+            .I (cmos2_data[0]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="U8", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[1]  (
+            .O (nt_cmos2_data[1]),
+            .I (cmos2_data[1]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="T8", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[2]  (
+            .O (nt_cmos2_data[2]),
+            .I (cmos2_data[2]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="U9", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[3]  (
+            .O (nt_cmos2_data[3]),
+            .I (cmos2_data[3]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="W8", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[4]  (
+            .O (nt_cmos2_data[4]),
+            .I (cmos2_data[4]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="AB8", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[5]  (
+            .O (nt_cmos2_data[5]),
+            .I (cmos2_data[5]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="Y9", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[6]  (
+            .O (nt_cmos2_data[6]),
+            .I (cmos2_data[6]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="AB9", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS12", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* \cmos2_data_ibuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \cmos2_data_ibuf[7]  (
+            .O (nt_cmos2_data[7]),
+            .I (cmos2_data[7]));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="AB5", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* cmos2_href_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        cmos2_href_ibuf (
+            .O (nt_cmos2_href),
+            .I (cmos2_href));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="W6", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* cmos2_pclk_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        cmos2_pclk_ibuf (
+            .O (nt_cmos2_pclk),
+            .I (cmos2_pclk));
+	// ../probe.v:1
+
+(* PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="Y5", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE", PAP_IO_REGISTER="TRUE" *)    GTP_INBUF /* cmos2_vsync_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        cmos2_vsync_ibuf (
+            .O (nt_cmos2_vsync),
+            .I (cmos2_vsync));
+	// ../probe.v:1
+
+    GTP_DFF /* \input_stage[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[0]  (
+            .Q (input_stage[0]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[0]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[1]  (
+            .Q (input_stage[1]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[1]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[2]  (
+            .Q (input_stage[2]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[2]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[3]  (
+            .Q (input_stage[3]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[3]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[4]  (
+            .Q (input_stage[4]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[4]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[5]  (
+            .Q (input_stage[5]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[5]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[6]  (
+            .Q (input_stage[6]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[6]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[7]  (
+            .Q (input_stage[7]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_data[7]));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[8]  (
+            .Q (input_stage[8]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_href));
+	// ../probe.v:6
+
+    GTP_DFF /* \input_stage[9]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \input_stage[9]  (
+            .Q (input_stage[9]),
+            .CLK (nt_cmos2_pclk),
+            .D (nt_cmos2_vsync));
+	// ../probe.v:6
+
+(* PAP_IO_LOC="U19", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33" *)    GTP_OUTBUF /* probe_out_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        probe_out_obuf (
+            .O (probe_out),
+            .I (nt_probe_out));
+	// ../probe.v:1
+
+    GTP_DFF /* \second_stage[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[0]  (
+            .Q (second_stage[0]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[0]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[1]  (
+            .Q (second_stage[1]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[1]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[2]  (
+            .Q (second_stage[2]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[2]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[3]  (
+            .Q (second_stage[3]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[3]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[4]  (
+            .Q (second_stage[4]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[4]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[5]  (
+            .Q (second_stage[5]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[5]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[6]  (
+            .Q (second_stage[6]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[6]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[7]  (
+            .Q (second_stage[7]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[7]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[8]  (
+            .Q (second_stage[8]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[8]));
+	// ../probe.v:6
+
+    GTP_DFF /* \second_stage[9]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \second_stage[9]  (
+            .Q (second_stage[9]),
+            .CLK (nt_cmos2_pclk),
+            .D (input_stage[9]));
+	// ../probe.v:6
+
+
+endmodule
+

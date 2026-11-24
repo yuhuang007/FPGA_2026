@@ -1,0 +1,186 @@
+{
+  "acquisition_manifest": "data/external_scene_candidates_r5/acquisition_manifest.json",
+  "output": "review_stage2/external_scene_pilot_r5",
+  "label_version": "external-PC-AI-r5-20261025",
+  "reviewer": "Codex_PC_AI_external_scene_r5",
+  "actual_method": "Actually viewed four unmarked whole Flickr source photos obtained through official Open Images metadata and current per-photo CC-BY checks. Three proposed full-body overlays inspected; first photo itself is a large close-up. Source generic boxes not copied.",
+  "license_audit_output": "reports/external_scene_license_audit_r5.json",
+  "independent_scope": "Actual independent body-only whole-image omission/kind/bounds review. Check STOP fixture project kind exclusion, Montreal physical housing versus severe processing/lens marking, Barcelona coupled4-module motor versus separate unsupported bicycle2-module head, both complete GrantSt heads and geographic uncertainty. No inferred off/color labels, no split/export approval.",
+  "judgments": [
+    {
+      "candidate_id": "oi_scene_5b54678ebd8b8af3",
+      "objects": [
+        {
+          "id": "ignore_unknown_stop_fixture",
+          "type": "ignore",
+          "bbox_xyxy": [
+            0,
+            0,
+            1023,
+            956
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Close-up single red STOP-letter fixture exists, but complete operational road motor/pedestrian context and project kind are not established; source Traffic light category is insufficient."
+        }
+      ],
+      "scene_id": "unverified_Stop_fixture_photo_2736033682",
+      "location_basis": "Photo title Stop and keywords light/sign/stop supply no site. Do not infer a geographic independent road scene from the catalog.",
+      "notes": [
+        "Actual whole image is itself a large close-up: visible square/circular fixture and STOP lettering inspected. No project motor/pedestrian body confirmed; explicitly exclude instead of using as negative."
+      ],
+      "planned_split": "excluded_unknown_project_kind",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r5/views/5b54678ebd8b8af3.jpg"
+      ]
+    },
+    {
+      "candidate_id": "oi_scene_8d1e53413cd9c13f",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            174,
+            82,
+            346,
+            612
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "One physical vertical three-circular-aspect road housing. Dark upper faces are not off ground truth; lettering on lower face is a separate contamination observation.",
+          "occlusion": "partial",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only",
+          "quality_flags": [
+            "heavy_stylization",
+            "visible_lens_marking",
+            "source_watermark",
+            "minor_branch_at_body_edge"
+          ]
+        }
+      ],
+      "scene_id": "CA_Montreal_photo_6173663323",
+      "location_basis": "Actual public photo description explicitly Montreal; US/Canadian circular green sign and urban frontage consistent. Exact junction unverified.",
+      "notes": [
+        "Whole unmarked source and proposed full-housing overlay actually viewed. One head; support pole and lower arrow road sign excluded from body. Minor branch at edge motivates partial occlusion.",
+        "Heavy grain/color treatment, source watermark and 2s-like marking on lens are explicit quality concerns. Reliable body class is distinct from clean-original/representativeness approval; hold export until source-quality judgment is independently resolved.",
+        "No readable color/arrow/off annotations created."
+      ],
+      "planned_split": "quarantine_processing_and_lens_marking_pending",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r5/views/8d1e53413cd9c13f.jpg",
+        "data/external_scene_candidates_r5/views/8d1e53413cd9c13f_body_check.png"
+      ]
+    },
+    {
+      "candidate_id": "oi_scene_644395d01b541528",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            670,
+            22,
+            840,
+            568
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "One continuously mounted vertical road head assembly with four circular-aspect modules; do not manufacture a three-hole description. Upper arrow and lower circle are in this road head, separate from bicycle head.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_nonmotor_bicycle",
+          "type": "ignore",
+          "bbox_xyxy": [
+            450,
+            255,
+            651,
+            568
+          ],
+          "kind": "non_motor_vehicle",
+          "unknown_reason": "other",
+          "reason": "Readable bicycle symbol establishes non-motor signal; outside current two-class detector export. Whole separate two-module housing retained as an obstacle, not ordinary negative background."
+        }
+      ],
+      "scene_id": "ES_Barcelona_photo_5026521433",
+      "location_basis": "Actual photo keywords Barcelona, España, Catalunya; streetscape and adjacent bicycle signal consistent. Exact junction unverified.",
+      "notes": [
+        "Whole unmarked source and large head overlay actually viewed. Right draft instance granularity is a coupled four-module head and must be independently confirmed against project physical-body definition.",
+        "Left readable bicycle is a known unsupported non-motor class, not unknown color or an ignored pedestrian. It must never become a false road-body negative. Nearby bicycle region may prevent adequate context crop of the motor head."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r5/views/644395d01b541528.jpg",
+        "data/external_scene_candidates_r5/views/644395d01b541528_body_check.png"
+      ]
+    },
+    {
+      "candidate_id": "oi_scene_ee267b62fd17a9b1",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            14,
+            234,
+            129,
+            483
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete separate vertical three-circular-aspect road housing; dark lower lenses not labeled off.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_2",
+          "type": "body",
+          "bbox_xyxy": [
+            861,
+            209,
+            984,
+            464
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Second complete separate frontal three-circular-aspect road housing; shared horizontal arm and central street sign excluded.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        }
+      ],
+      "scene_id": "unverified_Grant_St_500_block_photo_4646111711",
+      "location_basis": "Actual visible sign GRANT ST. 500 BLK and caption hospital on Grant St. No reliable city/country verified; photographer profile is not scene GPS.",
+      "notes": [
+        "Whole unmarked source and exact housing overlays actually viewed. Both heads complete inside original borders. No other signal body or unresolved signal region seen; lower decorative street lamps are ordinary road context.",
+        "Potential fully clean two-body sample, but group independence and precise geographic provenance are still unverified; do not certify a validation site from English text or Open Images membership alone."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r5/views/ee267b62fd17a9b1.jpg",
+        "data/external_scene_candidates_r5/views/ee267b62fd17a9b1_body_check.png"
+      ]
+    }
+  ]
+}

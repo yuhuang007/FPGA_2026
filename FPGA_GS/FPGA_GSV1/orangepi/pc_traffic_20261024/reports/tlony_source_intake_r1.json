@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-25T05:55:59.926989+00:00",
+  "source": "TLoNY",
+  "source_review": "review_stage2/independent_external_scene_r1/public_dataset_compatibility_r1.json",
+  "source_review_sha256": "0713bd75d8f14699f5cd4439723d9b602f5ac5d3e09887835635917c79c288d1",
+  "source_originals": 151,
+  "native_source_boxes": 1279,
+  "author_label_supervision_reuse_supported_by_sample_audit": true,
+  "independently_sampled_photos": 8,
+  "per_photo_final_labels_confirmed_added": 0,
+  "mapping": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1,
+    "6": 1,
+    "7": 1
+  },
+  "target_names": {
+    "0": "motor_vehicle_body",
+    "1": "pedestrian_body"
+  },
+  "temporarily_excluded": [
+    {
+      "image": "data/public_datasets/tlony_r1/extracted/tlony/data/images/train/julien-riedel-alGtgU3MQu4-unsplash.jpg",
+      "image_sha256": "486cb12c633fc67bb651407868217f0d77c982ff193a256b6b2be4985674cbd1",
+      "source_annotation": "data/public_datasets/tlony_r1/extracted/tlony/data/labels/train/julien-riedel-alGtgU3MQu4-unsplash.txt",
+      "source_annotation_sha256": "d2e923b770e36e9c57b54e6df744cfeb0c3e06fc90840a9e230f8d81ded91c26",
+      "reason": "Known row26 kind error and row29 instance/geometry uncertainty. Entire original excluded from first training release; no partial source-label deletion or false background import.",
+      "can_repair_later_in_separate_version": true
+    }
+  ],
+  "proposed_usable_source_originals": 150,
+  "native_source_boxes_in_proposed_usable_originals": 1229,
+  "proposed_group": "TLoNY_Manhattan_unresolved_joint_train",
+  "proposed_split": "train",
+  "do_not_inherit_native_random_split": true,
+  "original_source_labels_preserved": true,
+  "global_training_ready": false,
+  "training_started": false,
+  "reason_for_source_reuse": "User explicitly prioritizes compatible published labels over exhaustive reannotation; source creator supervision and8-sample independent audit retained as distinct evidence. No claim150 photos individually double reviewed."
+}

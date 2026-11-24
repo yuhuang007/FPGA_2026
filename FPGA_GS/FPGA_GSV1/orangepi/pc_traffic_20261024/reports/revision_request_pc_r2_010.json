@@ -1,0 +1,77 @@
+{
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0038",
+      "base_manifest": "review_stage2/frozen/batch_005/manifest.json",
+      "changes": [
+        {
+          "object_id": "ignore_front",
+          "field": "type",
+          "value": "body"
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "bbox_xyxy",
+          "value": [
+            828,
+            498,
+            846,
+            532
+          ]
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "kind",
+          "value": "motor_vehicle"
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "layout",
+          "value": "vertical"
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "occlusion",
+          "value": "none"
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "truncated",
+          "value": false
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "kind_basis",
+          "value": "Original-pixel front shared vertical housing visible, dark circular upper lens and round green lower emitting area. Motor-vehicle kind from actual aspect/housing, not road position; no off labels or fabricated third lens."
+        },
+        {
+          "object_id": "ignore_front",
+          "field": "quality_flags",
+          "value": []
+        },
+        {
+          "object_id": "emitter_front",
+          "field": "bbox_xyxy",
+          "value": [
+            831,
+            516,
+            843,
+            529
+          ]
+        }
+      ],
+      "remove_fields": [
+        {
+          "object_id": "ignore_front",
+          "field": "unknown_reason"
+        }
+      ],
+      "note": "Independent batch005 correctly flagged shifted-down emitter. PC inspected original and native3x/8x grid, corrected green bright area and confirmed actual front vertical motor-vehicle housing. Left leaf-obscured green and upper rear-facing housing remain ignore; symbol/arrow remain unknown. New label requires actual version-bound recheck.",
+      "evidence": [
+        "reports/0038_adjudication_full.jpg",
+        "reports/0038_adjudication_front.png",
+        "reports/0038_bounds_grid.png"
+      ]
+    }
+  ]
+}

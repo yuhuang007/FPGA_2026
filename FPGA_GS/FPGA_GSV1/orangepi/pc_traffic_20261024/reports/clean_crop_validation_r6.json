@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-25T02:47:49.526936+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_pilot_r6/manifest.json",
+  "pilot_manifest_sha256": "369aaa576389ed2cc5f20f3167c97787be3f8a454dd328eda0b1f5f26f9562a2",
+  "passed": true,
+  "originals": 1,
+  "targets": 1,
+  "checks": [
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.119999855196511e-07,
+      "body_count": 1
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "coco_scene_000000015272_clean01.png",
+        "targets": 1
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true
+}

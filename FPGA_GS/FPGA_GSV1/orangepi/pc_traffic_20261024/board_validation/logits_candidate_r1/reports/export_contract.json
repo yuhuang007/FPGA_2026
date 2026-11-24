@@ -1,0 +1,121 @@
+{
+  "parent_onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "onnx_sha256": "4b6c1deb809cbf2696f712c414e61be2671ce59288284707a677ebf31ddf073d",
+  "untrained": true,
+  "score_activation": "cpu_stable_sigmoid_once",
+  "npu_classification_outputs": "raw logits; NOT probabilities",
+  "outputs": [
+    {
+      "name": "box_s8",
+      "shape": [
+        1,
+        64,
+        80,
+        80
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s8",
+      "shape": [
+        1,
+        2,
+        80,
+        80
+      ],
+      "role": "class_logits"
+    },
+    {
+      "name": "box_s16",
+      "shape": [
+        1,
+        64,
+        40,
+        40
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s16",
+      "shape": [
+        1,
+        2,
+        40,
+        40
+      ],
+      "role": "class_logits"
+    },
+    {
+      "name": "box_s32",
+      "shape": [
+        1,
+        64,
+        20,
+        20
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s32",
+      "shape": [
+        1,
+        2,
+        20,
+        20
+      ],
+      "role": "class_logits"
+    }
+  ],
+  "preprocess": "unchanged RGB NHWC uint8, embedded mean0/std255; centered letterbox114",
+  "box_DFL_NMS": "reuse SHA-recorded previous decoder, reg_max16/strides8,16,32/class-aware NMS",
+  "decoder_source_sha256": "8cb5e6ad5e8a84f80c2ce7c1409b50d8f0c6e4993c1114d13e9b47c5039fb4db",
+  "changes": [
+    {
+      "removed_sigmoid_node": "/model.22/Sigmoid",
+      "old_probability_output": "score_s8",
+      "classification_conv_tensor": "/model.22/cv3.0/cv3.0.2/Conv_output_0",
+      "new_output": "class_logits_s8"
+    },
+    {
+      "removed_sigmoid_node": "/model.22/Sigmoid_1",
+      "old_probability_output": "score_s16",
+      "classification_conv_tensor": "/model.22/cv3.1/cv3.1.2/Conv_output_0",
+      "new_output": "class_logits_s16"
+    },
+    {
+      "removed_sigmoid_node": "/model.22/Sigmoid_2",
+      "old_probability_output": "score_s32",
+      "classification_conv_tensor": "/model.22/cv3.2/cv3.2.2/Conv_output_0",
+      "new_output": "class_logits_s32"
+    }
+  ],
+  "unchanged_initializer_count": 81,
+  "unchanged_other_nodes_verified": true,
+  "ops_before": {
+    "Conv": 63,
+    "Sigmoid": 60,
+    "Mul": 57,
+    "Slice": 16,
+    "Add": 6,
+    "Concat": 13,
+    "MaxPool": 3,
+    "Resize": 2
+  },
+  "ops_after": {
+    "Conv": 63,
+    "Sigmoid": 57,
+    "Mul": 57,
+    "Slice": 16,
+    "Add": 6,
+    "Concat": 13,
+    "MaxPool": 3,
+    "Resize": 2
+  },
+  "thresholds_fixed_before_execution": {
+    "box_raw_max_abs": 0.05,
+    "class_logits_raw_max_abs": 0.05,
+    "cpu_activated_score_max_abs": 0.001,
+    "decoded_box_max_abs_input_px": 0.5,
+    "paired_box_median_iou_min": 0.99
+  }
+}

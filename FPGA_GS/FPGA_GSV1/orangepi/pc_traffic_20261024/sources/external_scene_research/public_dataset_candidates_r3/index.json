@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-10-25T05:39:17.311471+00:00",
+  "requests": [
+    {
+      "key": "tlony_github_readme",
+      "url": "https://raw.githubusercontent.com/mkturkcan/traffic-lights-of-new-york/main/README.md",
+      "http": 200,
+      "final_url": "https://raw.githubusercontent.com/mkturkcan/traffic-lights-of-new-york/main/README.md",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\tlony_github_readme.txt"
+    },
+    {
+      "key": "tlony_github_license",
+      "url": "https://raw.githubusercontent.com/mkturkcan/traffic-lights-of-new-york/main/LICENSE",
+      "http": 200,
+      "final_url": "https://raw.githubusercontent.com/mkturkcan/traffic-lights-of-new-york/main/LICENSE",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\tlony_github_license.txt"
+    },
+    {
+      "key": "tlony_tree",
+      "url": "https://huggingface.co/api/datasets/mehmetkeremturkcan/traffic-lights-of-new-york/tree/main",
+      "http": 200,
+      "final_url": "https://huggingface.co/api/datasets/mehmetkeremturkcan/traffic-lights-of-new-york/tree/main",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\tlony_tree.txt"
+    },
+    {
+      "key": "charlotte_github_search",
+      "url": "https://api.github.com/search/repositories?q=Charlotte+traffic+light",
+      "http": 200,
+      "final_url": "https://api.github.com/search/repositories?q=Charlotte+traffic+light",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\charlotte_github_search.txt"
+    },
+    {
+      "key": "charlotte_tree",
+      "url": "https://huggingface.co/api/datasets/samxu29/Charlotte_Area_Traffic_Light_Dataset/tree/main",
+      "http": 200,
+      "final_url": "https://huggingface.co/api/datasets/samxu29/Charlotte_Area_Traffic_Light_Dataset/tree/main",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\charlotte_tree.txt"
+    },
+    {
+      "key": "charlotte_classes",
+      "url": "https://huggingface.co/datasets/samxu29/Charlotte_Area_Traffic_Light_Dataset/raw/main/class_labels.txt",
+      "http": 200,
+      "final_url": "https://huggingface.co/datasets/samxu29/Charlotte_Area_Traffic_Light_Dataset/raw/main/class_labels.txt",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\charlotte_classes.txt"
+    },
+    {
+      "key": "unsplash_license",
+      "url": "https://unsplash.com/license",
+      "http": 401,
+      "final_url": "https://unsplash.com/.within.website?redir=%2Flicense",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\unsplash_license.txt"
+    },
+    {
+      "key": "unsplash_terms",
+      "url": "https://unsplash.com/terms",
+      "http": 401,
+      "final_url": "https://unsplash.com/.within.website?redir=%2Fterms",
+      "file": "sources\\external_scene_research\\public_dataset_candidates_r3\\unsplash_terms.txt"
+    }
+  ]
+}

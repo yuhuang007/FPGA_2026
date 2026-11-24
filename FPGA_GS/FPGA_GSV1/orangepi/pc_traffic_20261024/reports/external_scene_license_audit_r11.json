@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T06:27:07.852198+00:00",
+  "entries": [
+    {
+      "candidate_id": "commons_scene_168927744",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Wuning_Rd_(Westbound)_west_of_Daduhe_Rd_(20250610115125).jpg",
+      "title": "File:Wuning Rd (Westbound) west of Daduhe Rd (20250610115125).jpg",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "current_license": "CC BY-SA 4.0",
+      "current_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "share_alike_required_for_shared_photo_derivatives": true,
+      "metadata_evidence_file": "data/external_scene_candidates_china_shanghai_r1/provenance/commons_168927744_metadata.json",
+      "metadata_evidence_sha256": "c2b75fb35bebf8538c7ffa410875fa869542f9b717ce853d1682be545b259c84",
+      "source": "Wikimedia_Commons"
+    }
+  ],
+  "verified_current_CC_BY": 0,
+  "verified_current_CC0": 0,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

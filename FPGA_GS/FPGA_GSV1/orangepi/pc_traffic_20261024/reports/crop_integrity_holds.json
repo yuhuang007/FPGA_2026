@@ -1,0 +1,530 @@
+{
+  "recorded_at": "2026-10-25T05:18:28.701930+00:00",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "status": "resolved",
+      "image_sha256": "d52bf48762aba3a98f622eb245d903108613534ad4cd30978185d10fb5accec3",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0000.json",
+      "observed_annotation_sha256": "3822d799085bd3b7738302c8ca8a5103aa7def3b09ef58d40958cc351ead986b",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "status": "resolved",
+      "image_sha256": "36bd4cc9cc8c67820195a722fb60bae8195cfc94ba9eb9e7672f19d1fcfc0c46",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0001.json",
+      "observed_annotation_sha256": "c6649e778c3554693388cff90c961829e94ca3f0cefe04e3ad3cd62abcb86091",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "status": "resolved",
+      "image_sha256": "98ef02585d0675efdcf62d105ed7a18b984a6f6179f8e0ab9f1c31743cde6572",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0002.json",
+      "observed_annotation_sha256": "9c4a10f9c3c543608919b8aa5bd9ae9ed83dedadfb1481f4ed1b985db1ebd05c",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "status": "resolved",
+      "image_sha256": "f0a5528f5c8409d123f2a7de39c4c259cadb40f70a227e619fb74fec2046dca3",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0003.json",
+      "observed_annotation_sha256": "fccf5f6f6042f2c7c2d0cce49037835ef4e91333d748e9a7f97133a9fde717b2",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "status": "resolved",
+      "image_sha256": "ad79c40c418b3c51ba2b34f8a48f64b659be8b0493d45db96a0203119952178a",
+      "observed_annotation": "review_stage2/revisions/pc_r2_009/labels/s2tld1080_0012.json",
+      "observed_annotation_sha256": "86bf83b56351a5a236db47283df7cd6f8ea2104165895d050910b4a451619741",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0004",
+      "status": "resolved",
+      "image_sha256": "020c623fda8242e831ac237b176ae18c1e240ef38f2aba88b1c63bf831c331bc",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0004.json",
+      "observed_annotation_sha256": "9ac3755409d1b3b02bf7744c762bfd3923b9011622e82eca0288470a5e3c9671",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0005",
+      "status": "resolved",
+      "image_sha256": "9f4fb3247c1fc10a1290330bd42594601b67a8c52c180c4793f46064746d64b5",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0005.json",
+      "observed_annotation_sha256": "edc5300549154b1ecf63680c4a6c8049b31867cffb607b332aeec3297e25d18a",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0006",
+      "status": "resolved",
+      "image_sha256": "e234d20dacff44549639b46a7dbb0c138533f9c00f34007991a527767ced60b7",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0006.json",
+      "observed_annotation_sha256": "5d707a9445b3a76ea7475ae59629e6bebeddd85d67a5b3b51de9dbdb099664b7",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0007",
+      "status": "resolved",
+      "image_sha256": "bf6ce8a9ea4c7d9258dedd7ee900b3adb14f38d813aedf3c8fa596dc5a8f8c0d",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0007.json",
+      "observed_annotation_sha256": "0707f045e7fbb1e05b8297e9f3457ed315c61998f2ecb1cd2984a1402edbc773",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0008",
+      "status": "resolved",
+      "image_sha256": "0fa6b007e5dc92cd1c5740424a7fd33be7933bca76d5685bc0f8a60a97e2c050",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0008.json",
+      "observed_annotation_sha256": "a8cff9a619c3954e322cb7823818c091128958a74cb0faa9005c55337d8d760d",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": false,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0009",
+      "status": "resolved",
+      "image_sha256": "02bd2385fc7ea3c2ec285c131e4864e2990e903e3ace6087b555d35e7246bb45",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0009.json",
+      "observed_annotation_sha256": "f546b43acba46c18836daa3befe9c484f7c68cafeea8f65f4fc99057cc5654da",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": false,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0010",
+      "status": "resolved",
+      "image_sha256": "ead265571abdb187e37d623ced58b681dd6bbbcfb31053c25b35355c2c23a0b7",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0010.json",
+      "observed_annotation_sha256": "b2ca1a9c523562adb6789e4f212ada58b4f79eaaaae17c0eb9962ca29cc6fcc0",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": false,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0011",
+      "status": "resolved",
+      "image_sha256": "dddb00bed3471411c8cc00e9b3522fbbfd386ec9902ccc62483c220d363dcba4",
+      "observed_annotation": "review_stage2/first_pass/s2tld1080_0011.json",
+      "observed_annotation_sha256": "77d2a03bf7fd4720bec3cd2dccdcdf8d69c6ceec288d31e78771119d8bdf326b",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Unlabelled leaf-obscured white-edged dark assembly left of front road head. Target existence/kind unresolved, not certified ordinary background. Hold representative frames and same-scene candidates conservatively pending targeted independent evidence; not a new positive label.",
+      "actual_PC_targeted_views_completed": false,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+          "sha256": "d7706502613d2aa82e5df9b23642652d490ad17d601e2c581960a6493b45381c"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png",
+          "sha256": "e91c98443ff0f9011044f9f16e42fdba69792301944b8d92253f520bce5f3dd7"
+        },
+        {
+          "path": "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png",
+          "sha256": "df91f5e60b19eaba5a5524189f6fa2437f3dcc50aaeaeefe6467bcb9d6aa2776"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/prior5_targeted.png",
+          "sha256": "1b1d0b66c6fb71e99b8d524a51ca15b0d4f2a71f15760ee62f515858d2c1f8cc"
+        },
+        {
+          "path": "review_stage2/crop_integrity_issue_r1/0012_left_context.png",
+          "sha256": "dbb4cbf362e375e63fc77a93114e54d60058d5addc8859a908e22d3b05c14a64"
+        }
+      ],
+      "resolution": "Exact new label version includes real independently checked unknown-ignore. Old crop version remains stale; no crop qualification restored by this resolution.",
+      "resolution_evidence": [
+        {
+          "path": "reports/crop_integrity_resolution_r1.json",
+          "sha256": "7b9ed07e6a059da2826c0be894d5ad8d3c141c33ab1a646d05463a9d1ccec517"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0024",
+      "status": "active",
+      "image_sha256": "a287bac17f2427fffa11394de18c3f27cfaf0b445dbb0b05641ac1e1e96907d3",
+      "observed_annotation": "review_stage2/frozen/batch_003/labels/s2tld1080_0024.json",
+      "observed_annotation_sha256": "1039fa3337cd13cc1b4d70c88eef1220cd1fdc806b8e9e1864a05a5a329ed0d4",
+      "applies_to_all_label_versions_until_explicit_resolution": true,
+      "reason": "Leaf-obscured dark assembly in same local scene, at approximately[510,390]; cannot certify its visible status/kind as ordinary background after new native crop check. Conservative targeted hold, not a positive label.",
+      "actual_PC_targeted_views_completed": true,
+      "evidence": [
+        {
+          "path": "review_stage2/clean_crop_release_r8/views/0024_left_suspect.png",
+          "sha256": "f623d1d098e5eb407b73a080159e2e763aec2158556af79300864ca72f025598"
+        }
+      ]
+    }
+  ],
+  "historical_releases_preserved": true,
+  "training_started": false
+}

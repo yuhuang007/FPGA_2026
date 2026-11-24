@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-25T05:01:19.214219+00:00",
+  "passed": true,
+  "production_manifest_sha256": "e1ed0a78a0f25acb07ae8642b274915d09c727c70b528a985d4df573cc52b48a",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0017",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r7.json",
+      "fresh_visual_QA_sha256": "7f5b82b7e06f68b250708ec06d5f6a95e6cb5e1492761274195dbab1bd737ef9",
+      "crop_sha256": "6fc04b7bd69ceaab93b86a5efb9e3f1a81c620705185114ce86e684192f7486f",
+      "yolo_label_sha256": "3d8c53d2c23bc997c3e906560ff1c9fd5d6a6bae031ee7c44f1cbb2c6c3a3eb6"
+    },
+    {
+      "candidate_id": "s2tld1080_0018",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r7.json",
+      "fresh_visual_QA_sha256": "7f5b82b7e06f68b250708ec06d5f6a95e6cb5e1492761274195dbab1bd737ef9",
+      "crop_sha256": "fb0c815664a3b63680bc3f1857707cab0fc44e254fa246b4df90a9cd69e54cd1",
+      "yolo_label_sha256": "127fba9a0708cfa50197d7b247a168f93c52ef7536d7ed92cae117796b6676d7"
+    },
+    {
+      "candidate_id": "s2tld1080_0020",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r7.json",
+      "fresh_visual_QA_sha256": "7f5b82b7e06f68b250708ec06d5f6a95e6cb5e1492761274195dbab1bd737ef9",
+      "crop_sha256": "9b02dfd94742fc9724f5292f448b0c43c24b54f0876d343b097f1853813e59c2",
+      "yolo_label_sha256": "2c759cafcff9fff1a36c2202eab5e6e700915db2078491b98a8f461f905b8dde"
+    },
+    {
+      "candidate_id": "s2tld1080_0021",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r7.json",
+      "fresh_visual_QA_sha256": "7f5b82b7e06f68b250708ec06d5f6a95e6cb5e1492761274195dbab1bd737ef9",
+      "crop_sha256": "e4772a7cac877aec53f1f53ade4c4802ea14ffba8b4b18f1fbbc135b9e8d2eee",
+      "yolo_label_sha256": "e38bcc10105a5e1f379bddcd107585029c723a87a2c846c96d666476bb5b92d8"
+    }
+  ],
+  "method": "Reuse only exact original pixels, crop bounds, obstacles, targets and label bytes from actual prior PC QA; changed crops require separate fresh actual visual evidence. No independent crop signature claimed.",
+  "human_signoff": false,
+  "new_images_visually_reviewed": 4
+}

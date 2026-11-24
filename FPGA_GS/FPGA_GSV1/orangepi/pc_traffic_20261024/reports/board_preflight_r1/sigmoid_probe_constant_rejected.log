@@ -1,0 +1,49 @@
+I rknn-toolkit2 version: 2.3.2
+I Loading :   0%|                                                             | 0/2 [00:00<?, ?it/s]I Loading : 100%|██████████████████████████████████████████████████| 2/2 [00:00<00:00, 10094.59it/s]
+D base_optimize ...
+D base_optimize done.
+D 
+D fold_constant ...
+D fold_constant done.
+D fold_constant remove nodes = ['score', 'conv']
+[1;31mE[0m [1;31mbuild: All outputs ['score'] of model are constants, The model is invalid!
+                 Please check if the original model is valid?[0m
+I ===================== WARN(0) =====================
+[1;31mE[0m [1;31mrknn-toolkit2 version: 2.3.2[0m
+[1;31mE[0m [1;31mbuild: Traceback (most recent call last):
+  File "rknn/api/rknn_log.py", line 344, in rknn.api.rknn_log.error_catch_decorator.error_catch_wrapper
+  File "rknn/api/rknn_base.py", line 1990, in rknn.api.rknn_base.RKNNBase.build
+  File "rknn/api/graph_optimizer.py", line 1107, in rknn.api.graph_optimizer.GraphOptimizer.fold_constant
+  File "rknn/api/rknn_log.py", line 95, in rknn.api.rknn_log.RKNNLog.e
+ValueError: All outputs ['score'] of model are constants, The model is invalid!
+                 Please check if the original model is valid?
+[0m
+I ===================== WARN(0) =====================
+[1;31mE[0m [1;31mrknn-toolkit2 version: 2.3.2[0m
+Traceback (most recent call last):
+  File "rknn/api/rknn_log.py", line 344, in rknn.api.rknn_log.error_catch_decorator.error_catch_wrapper
+  File "rknn/api/rknn_base.py", line 1990, in rknn.api.rknn_base.RKNNBase.build
+  File "rknn/api/graph_optimizer.py", line 1107, in rknn.api.graph_optimizer.GraphOptimizer.fold_constant
+  File "rknn/api/rknn_log.py", line 95, in rknn.api.rknn_log.RKNNLog.e
+ValueError: All outputs ['score'] of model are constants, The model is invalid!
+                 Please check if the original model is valid?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/probe_sigmoid.py", line 54, in <module>
+    if __name__=='__main__':main()
+  File "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/probe_sigmoid.py", line 31, in main
+    assert r.build(do_quantization=False)==0
+  File "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/.venv405build/lib/python3.10/site-packages/rknn/api/rknn.py", line 198, in build
+    return self.rknn_base.build(do_quantization=do_quantization, dataset=dataset, expand_batch_size=rknn_batch_size, auto_hybrid=auto_hybrid)
+  File "rknn/api/rknn_log.py", line 349, in rknn.api.rknn_log.error_catch_decorator.error_catch_wrapper
+  File "rknn/api/rknn_log.py", line 95, in rknn.api.rknn_log.RKNNLog.e
+ValueError: Traceback (most recent call last):
+  File "rknn/api/rknn_log.py", line 344, in rknn.api.rknn_log.error_catch_decorator.error_catch_wrapper
+  File "rknn/api/rknn_base.py", line 1990, in rknn.api.rknn_base.RKNNBase.build
+  File "rknn/api/graph_optimizer.py", line 1107, in rknn.api.graph_optimizer.GraphOptimizer.fold_constant
+  File "rknn/api/rknn_log.py", line 95, in rknn.api.rknn_log.RKNNLog.e
+ValueError: All outputs ['score'] of model are constants, The model is invalid!
+                 Please check if the original model is valid?
+

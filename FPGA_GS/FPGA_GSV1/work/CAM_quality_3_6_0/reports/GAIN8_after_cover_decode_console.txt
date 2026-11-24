@@ -1,0 +1,2218 @@
+{
+  "tag": "C1Q1",
+  "records": 9,
+  "snapshots": [
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 75,
+      "read_errors": 0,
+      "front_capture_good": 25929,
+      "front_published": 12965,
+      "front_displayed": 12928,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 865529,
+      "reference_ms": 865993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 76,
+      "read_errors": 0,
+      "front_capture_good": 25959,
+      "front_published": 12980,
+      "front_displayed": 12943,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 866555,
+      "reference_ms": 866993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 77,
+      "read_errors": 0,
+      "front_capture_good": 25989,
+      "front_published": 12995,
+      "front_displayed": 12958,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 867581,
+      "reference_ms": 867993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "03"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 78,
+      "read_errors": 0,
+      "front_capture_good": 26019,
+      "front_published": 13010,
+      "front_displayed": 12973,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 868607,
+      "reference_ms": 868993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 79,
+      "read_errors": 0,
+      "front_capture_good": 26049,
+      "front_published": 13025,
+      "front_displayed": 12988,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 869634,
+      "reference_ms": 869993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 80,
+      "read_errors": 0,
+      "front_capture_good": 26079,
+      "front_published": 13040,
+      "front_displayed": 13003,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 870660,
+      "reference_ms": 870993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "03"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 81,
+      "read_errors": 0,
+      "front_capture_good": 26109,
+      "front_published": 13055,
+      "front_displayed": 13018,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 871686,
+      "reference_ms": 871993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 82,
+      "read_errors": 0,
+      "front_capture_good": 26139,
+      "front_published": 13070,
+      "front_displayed": 13033,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 872713,
+      "reference_ms": 872993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "failed": false,
+      "valid": true,
+      "timeout": false,
+      "error_code": 0,
+      "nacks": 0,
+      "sequence": 83,
+      "read_errors": 0,
+      "front_capture_good": 26169,
+      "front_published": 13085,
+      "front_displayed": 13048,
+      "row_ms": 0.049980000000000004,
+      "baseline_ms": 20890,
+      "sweep_ms": 873739,
+      "reference_ms": 873993,
+      "baseline_exposure_ms": 29.988000000000003,
+      "baseline_gain_x": 3.25,
+      "baseline_gain_ceiling_x": 15.5,
+      "target_ceiling_x": 8.0,
+      "coherent": true,
+      "sensor_id": "3660",
+      "exposure_ms": 29.988000000000003,
+      "gain_x": 8.0,
+      "manual": 0,
+      "HTS": 1800,
+      "VTS": 800,
+      "gain_ceiling_x": 8.0,
+      "exposure_ceiling_50_ms": 39.78408,
+      "exposure_ceiling_60_ms": 39.78408,
+      "inferred_SYSCLK_Hz": 36014405.76230492,
+      "night_mode": false,
+      "frame_insertion": false,
+      "BLC": {
+        "4000": "0D",
+        "4001": "04",
+        "4002": "C5",
+        "4003": "81",
+        "4004": "08",
+        "4005": "12",
+        "4009": "10"
+      },
+      "registers": [
+        {
+          "address": "300A",
+          "value": "36"
+        },
+        {
+          "address": "300B",
+          "value": "60"
+        },
+        {
+          "address": "303A",
+          "value": "00"
+        },
+        {
+          "address": "303B",
+          "value": "18"
+        },
+        {
+          "address": "303C",
+          "value": "12"
+        },
+        {
+          "address": "303D",
+          "value": "20"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3502",
+          "value": "80"
+        },
+        {
+          "address": "3500",
+          "value": "00"
+        },
+        {
+          "address": "3501",
+          "value": "25"
+        },
+        {
+          "address": "3503",
+          "value": "00"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "350A",
+          "value": "00"
+        },
+        {
+          "address": "350B",
+          "value": "80"
+        },
+        {
+          "address": "380C",
+          "value": "07"
+        },
+        {
+          "address": "380D",
+          "value": "08"
+        },
+        {
+          "address": "380E",
+          "value": "03"
+        },
+        {
+          "address": "380F",
+          "value": "20"
+        },
+        {
+          "address": "3A00",
+          "value": "3A"
+        },
+        {
+          "address": "3A05",
+          "value": "30"
+        },
+        {
+          "address": "3A02",
+          "value": "03"
+        },
+        {
+          "address": "3A03",
+          "value": "1C"
+        },
+        {
+          "address": "3A14",
+          "value": "03"
+        },
+        {
+          "address": "3A15",
+          "value": "1C"
+        },
+        {
+          "address": "3A18",
+          "value": "00"
+        },
+        {
+          "address": "3A19",
+          "value": "80"
+        },
+        {
+          "address": "3A08",
+          "value": "00"
+        },
+        {
+          "address": "3A09",
+          "value": "C8"
+        },
+        {
+          "address": "3A0A",
+          "value": "00"
+        },
+        {
+          "address": "3A0B",
+          "value": "A6"
+        },
+        {
+          "address": "3C00",
+          "value": "04"
+        },
+        {
+          "address": "3C01",
+          "value": "80"
+        },
+        {
+          "address": "3C0C",
+          "value": "01"
+        },
+        {
+          "address": "4000",
+          "value": "0D"
+        },
+        {
+          "address": "4001",
+          "value": "04"
+        },
+        {
+          "address": "4002",
+          "value": "C5"
+        },
+        {
+          "address": "4003",
+          "value": "81"
+        },
+        {
+          "address": "4004",
+          "value": "08"
+        },
+        {
+          "address": "4005",
+          "value": "12"
+        },
+        {
+          "address": "4009",
+          "value": "10"
+        },
+        {
+          "address": "503D",
+          "value": "00"
+        },
+        {
+          "address": "5308",
+          "value": "25"
+        }
+      ]
+    }
+  ],
+  "rear_rates": {
+    "tag": "C1R8",
+    "records": 9,
+    "completed": true,
+    "snapshots": [
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21640,
+        "capture_bad": 0,
+        "capture_start_ms": 865945,
+        "ddr_published": 21640,
+        "displayed_new": 21476,
+        "reference_ms": 865993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21665,
+        "capture_bad": 0,
+        "capture_start_ms": 866945,
+        "ddr_published": 21665,
+        "displayed_new": 21501,
+        "reference_ms": 866993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21690,
+        "capture_bad": 0,
+        "capture_start_ms": 867945,
+        "ddr_published": 21690,
+        "displayed_new": 21526,
+        "reference_ms": 867993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21715,
+        "capture_bad": 0,
+        "capture_start_ms": 868945,
+        "ddr_published": 21715,
+        "displayed_new": 21551,
+        "reference_ms": 868993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21740,
+        "capture_bad": 0,
+        "capture_start_ms": 869945,
+        "ddr_published": 21740,
+        "displayed_new": 21576,
+        "reference_ms": 869993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21765,
+        "capture_bad": 0,
+        "capture_start_ms": 870945,
+        "ddr_published": 21765,
+        "displayed_new": 21601,
+        "reference_ms": 870993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21790,
+        "capture_bad": 0,
+        "capture_start_ms": 871945,
+        "ddr_published": 21790,
+        "displayed_new": 21626,
+        "reference_ms": 871993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21815,
+        "capture_bad": 0,
+        "capture_start_ms": 872945,
+        "ddr_published": 21815,
+        "displayed_new": 21651,
+        "reference_ms": 872993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      },
+      {
+        "tag": "C1R8",
+        "configured": true,
+        "config_failed": false,
+        "config_error": 0,
+        "pixels": 921600,
+        "rows": 720,
+        "geometry_errors": 0,
+        "geometry_error_meanings": [],
+        "capture_good": 21840,
+        "capture_bad": 0,
+        "capture_start_ms": 873945,
+        "ddr_published": 21840,
+        "displayed_new": 21676,
+        "reference_ms": 873993,
+        "actual_byte_pclk_hz": 72001536,
+        "inferred_xclk_hz": 24000512.0,
+        "pll_falls": 0,
+        "phy_ready_falls": 0
+      }
+    ],
+    "notes": [
+      "XCLK is inferred from measured PCLK and mandatory PLL readback; not probed directly.",
+      "Capture verdict closes at next VS; its own frame-start timestamps bound capture fps.",
+      "DDR/display counts use the same first/last atomic UART records and reference_ms window.",
+      "Display counts require CAM1 selected, all requested rows complete, no underflow, distinct frame ID.",
+      "16bit counters wrap modulo65536; short/60s windows cannot wrap more than once at25fps."
+    ],
+    "reference_window_seconds": 8.0,
+    "capture_window_seconds": 8.0,
+    "capture_good_delta": 200,
+    "capture_bad_delta": 0,
+    "ddr_publish_delta": 200,
+    "display_new_delta": 200,
+    "capture_fps": 25.0,
+    "ddr_publish_fps": 25.0,
+    "display_new_fps": 25.0,
+    "geometry_ok": true,
+    "reference_epoch_consistent": true,
+    "rate_quality_pass": true
+  },
+  "image_quality_verified": false,
+  "notes": [
+    "This CAM1 candidate exports one C1Q1 page; CAM0 register polling is omitted to reduce passive logic. CAM0 frame counts and C1R8 rates remain.",
+    "Baseline and current exposure use the same measured row period; this profile never changes timing.",
+    "Readback is a short SCCB sweep with repeated exposure/gain checks, not a frame-synchronous AE latch.",
+    "Phase2 means ceiling registers verified; green-line benefit/brightness tradeoff require human comparison."
+  ],
+  "completed": true,
+  "ceiling_applied_verified": true,
+  "front_rates": {
+    "reference_seconds": 8.0,
+    "capture_bad_delta": null,
+    "note": "CAM0 register readback/bad count unavailable in this CAM1-only diagnostic page; do not infer zero.",
+    "front_capture_good_fps": 30.0,
+    "front_published_fps": 15.0,
+    "front_displayed_fps": 15.0
+  }
+}

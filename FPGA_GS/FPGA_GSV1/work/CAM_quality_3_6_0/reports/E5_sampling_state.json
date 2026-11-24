@@ -1,0 +1,41 @@
+{
+  "previous_capture": "E5_actual_uart_20261025_1736.txt",
+  "previous_result": "E5_actual_20261025_1736/result.json",
+  "finding": "N2 35B confirmed, first capture reference_ms=173993 (Aprime). Missing A/B; Aprime369/480 pages only. DONE flags13,error0,mask7. Controls81120000 restored01120000,4003 bit7 REDO intentionally not replayed. Cannot judge BLC effect.",
+  "prearmed_session_id": 97743,
+  "prearmed_seconds": 900,
+  "prearmed_console": "E5_prearmed_repeat_console.txt",
+  "prearmed_final_raw": "E5_prearmed_repeat_uart.txt",
+  "next": "Evaluate feasibility of passive same-implementation DVP sampling-consistency observation, preserving production input path/edge; first verify legal IO mapping and byte/edge correspondence locally. No new whole-design build or sensor parameter changes yet.",
+  "caution": "Reader only writes raw file at completion; live console is flushed. If finishing early retain console N2 lines. Prior reader session29264 explicitly stopped after DONE; raw saved and decoded.",
+  "prearmed_session_active": false,
+  "repeat_complete": true,
+  "repeat_raw": "E5_repeat_20261025_uart.txt",
+  "repeat_raw_sha256": "75dfb0236a90ca296f2dd93a34edcf82bc9afacf3f08e81df8f99c422dd293b7",
+  "repeat_result": "E5_repeat_20261025/result.json",
+  "repeat_metrics": "E5_repeat_20261025/comparison_metrics.json",
+  "repeat_digital_errors": [],
+  "repeat_done": {
+    "phase": 4,
+    "flags": 13,
+    "error": 0,
+    "sample_id": 3779,
+    "ms": 251393,
+    "bracket_source_frame_tags": [
+      3778,
+      3779,
+      3780,
+      3781
+    ],
+    "pre_crc": "3e9fcf04",
+    "post_crc": "a20ca57d",
+    "original_operating_controls": 2165440512,
+    "restored_readback_controls": 17956864,
+    "completed_mask": 7
+  },
+  "serial_closed_after_verified_done": true,
+  "user_visual_observation": "E5重新下载完成，条纹依旧存在",
+  "decision": "All three 480-page strips complete; fixed exposure/gain/WB, BLC frozen and restored readback verified. All three contain colored row streaks. Chroma rowSD A10.82695 B9.52521 Aprime10.22071; modest differences from one strip each do not establish significance. E5 did not solve stripes. Lower priority of dynamic BLC update as sole explanation; do not sweep BLC values.",
+  "rate_window_note": "Full boot-to-DONE decoder geometry false includes eight startup snapshots with 0 pixels/rows before first frame; not ongoing geometry error. A_to_DONE explicitly selects reference_ms>=60000, window191.35s: capture25.0005,publish25.0013,display25.0013,bad_delta0,geometry_ok true. Full original retained.",
+  "next_user_action": "None now; DONE readback verified, lens may be uncovered. Do not redownload or reset."
+}

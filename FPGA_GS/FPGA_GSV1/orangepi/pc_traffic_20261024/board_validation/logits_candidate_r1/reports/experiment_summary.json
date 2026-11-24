@@ -1,0 +1,142 @@
+{
+  "recorded_at": "2026-10-24T19:32:19.462226+08:00",
+  "scope": "One random-weight logits-output candidate. No trained recognition release.",
+  "candidate_numeric_passed": true,
+  "original_probability_model_strict_numeric_status": "failed, retained unchanged",
+  "original_model_and_reports_preserved": true,
+  "onnx_sha256": "4b6c1deb809cbf2696f712c414e61be2671ce59288284707a677ebf31ddf073d",
+  "rknn_sha256": "9fae642bb50044f332de5b974200b12e4c562f8dcec7e0d2f5c85465ccfd8886",
+  "score_activation": "cpu_stable_sigmoid_once",
+  "score_absolute_error_limit": 0.001,
+  "score_limit_relaxed": false,
+  "score_clipping_used": false,
+  "export_contract_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\reports\\export_contract.json",
+  "micrograph": {
+    "passed": true,
+    "score_error": {
+      "count": 3072,
+      "max_abs": 2.697413035515628e-05,
+      "mean_abs": 1.6684751731440206e-06,
+      "rmse": 5.5278057489469175e-06,
+      "p50_abs": 0.0,
+      "p95_abs": 6.740087767890049e-06,
+      "p99_abs": 2.697413035515628e-05,
+      "p99.9_abs": 2.697413035515628e-05
+    },
+    "score_buckets": {
+      "low_p_lt_0.01": {
+        "count": 1344,
+        "max_abs": 6.740087767890049e-06,
+        "mean_abs": 9.054133643877265e-07,
+        "rmse": 2.1743385244347164e-06,
+        "p50_abs": 8.744952630936574e-08,
+        "p95_abs": 5.457110291853286e-06,
+        "p99_abs": 6.740087767890049e-06,
+        "p99.9_abs": 6.740087767890049e-06
+      },
+      "middle_0.01_to_0.99": {
+        "count": 960,
+        "max_abs": 2.697413035515628e-05,
+        "mean_abs": 4.027727975444012e-06,
+        "rmse": 9.54675157385635e-06,
+        "p50_abs": 0.0,
+        "p95_abs": 2.697413035515628e-05,
+        "p99_abs": 2.697413035515628e-05,
+        "p99.9_abs": 2.697413035515628e-05
+      },
+      "high_p_gt_0.99": {
+        "count": 768,
+        "max_abs": 5.681403938417873e-07,
+        "mean_abs": 5.476733559254635e-08,
+        "rmse": 1.655431763311212e-07,
+        "p50_abs": 0.0,
+        "p95_abs": 5.681403938417873e-07,
+        "p99_abs": 5.681403938417873e-07,
+        "p99.9_abs": 5.681403938417873e-07
+      }
+    },
+    "report_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\reports\\logits_probe.json"
+  },
+  "full_candidate": {
+    "passed": true,
+    "input_count": 5,
+    "raw_box_error": {
+      "count": 2688000,
+      "max_abs": 1.1920928955078125e-06,
+      "mean_abs": 8.813187568670227e-08,
+      "rmse": 1.5397652976461652e-07,
+      "p50_abs": 0.0,
+      "p95_abs": 3.5762786865234375e-07,
+      "p99_abs": 5.364418029785156e-07,
+      "p99.9_abs": 7.748603820800781e-07
+    },
+    "raw_class_logits_error": {
+      "count": 84000,
+      "max_abs": 0.0009551048278808594,
+      "mean_abs": 0.00022770085221245176,
+      "rmse": 0.0003251592532291685,
+      "p50_abs": 0.00010633468627929688,
+      "p95_abs": 0.0005307197570800781,
+      "p99_abs": 0.0009551048278808594,
+      "p99.9_abs": 0.0009551048278808594
+    },
+    "cpu_score_error": {
+      "count": 84000,
+      "max_abs": 5.898262425079771e-06,
+      "mean_abs": 4.7003957057988026e-07,
+      "rmse": 1.337233882643573e-06,
+      "p50_abs": 4.1506758144556864e-08,
+      "p95_abs": 8.268829581124359e-07,
+      "p99_abs": 5.898262425079771e-06,
+      "p99.9_abs": 5.898262425079771e-06
+    },
+    "score_buckets": {
+      "low_p_lt_0.01": {
+        "count": 84000,
+        "max_abs": 5.898262425079771e-06,
+        "mean_abs": 4.7003957057988026e-07,
+        "rmse": 1.337233882643573e-06,
+        "p50_abs": 4.1506758144556864e-08,
+        "p95_abs": 8.268829581124359e-07,
+        "p99_abs": 5.898262425079771e-06,
+        "p99.9_abs": 5.898262425079771e-06
+      },
+      "middle_0.01_to_0.99": {
+        "count": 0,
+        "status": "not_covered"
+      },
+      "high_p_gt_0.99": {
+        "count": 0,
+        "status": "not_covered"
+      }
+    },
+    "maximum_decoded_coordinate_error_input_px": 7.763505578850527e-06,
+    "NMS_comparison_passed": true,
+    "nonempty_NMS_and_single_sigmoid_fixture_passed": true,
+    "failed_inputs": [],
+    "all_inputs_and_outputs_retained": true,
+    "report_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\reports\\candidate_validation.json"
+  },
+  "environment": {
+    "toolkit2": "2.3.2",
+    "lite_api": "2.5.0",
+    "runtime": "2.3.0 (c949ad889d)",
+    "driver": "0.9.8",
+    "backend": "actual RK3588 NPU core0, CPU stable sigmoid/DFL/NMS",
+    "upgraded_or_reinstalled": false
+  },
+  "model_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\artifacts\\yolov8n_2class_640_UNTRAINED_raw6_logits_candidate.rknn",
+  "remote_directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_logits_candidate_20261024_r1",
+  "full_log_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\experiment.log",
+  "review_progress_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\board_validation\\logits_candidate_r1\\reports\\independent_review_progress.json",
+  "completed_frozen_revised_label_reviews": 0,
+  "services_stopped_or_started": false,
+  "m406_or_launcher_modified": false,
+  "FPGA_live_or_business_udp_used": false,
+  "limitations": [
+    "Random weights only; no recognition or trained-weight approval.",
+    "Full random model has only low scores; middle/high score coverage is separate diagnostic micrograph evidence.",
+    "Untrained symmetric class heads cannot verify learned semantic class order.",
+    "No live/UDP, service/default model replacement, or system/runtime upgrades."
+  ]
+}

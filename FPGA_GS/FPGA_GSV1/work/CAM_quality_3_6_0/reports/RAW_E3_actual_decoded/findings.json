@@ -1,0 +1,42 @@
+{
+  "loaded_identity": "Actual COM23: N2 35P plus C1PX; RAW E3 confirmed",
+  "valid_strip": true,
+  "frame_id": 490,
+  "source_rectangle": [
+    1120,
+    0,
+    16,
+    720
+  ],
+  "unique_pages": 480,
+  "received_pages": 1101,
+  "crc32": "23797d23",
+  "page_conflicts": 0,
+  "missing_pages": 0,
+  "content_finding": "Native pixels already contain row-correlated colored streaks before DDR.",
+  "scope": [
+    "sensor/ISP",
+    "DVP electrical and sampling",
+    "byte unpacking",
+    "capture before the tap"
+  ],
+  "excluded_as_sole_origin": [
+    "DDR and later scaling/layout/filter/OSD/HDMI"
+  ],
+  "unknown": [
+    "Whether the lens was covered at original reset+20s freeze",
+    "Exposure/gain for frozen frame; E3 does not export or latch them",
+    "Whether source or DVP transport creates the observed row offsets"
+  ],
+  "green_row_example": {
+    "source_y": 23.0,
+    "R_mean": 0.0,
+    "G_mean": 15.5,
+    "B_mean": 0.0,
+    "R_std": 0.0,
+    "G_std": 2.7838821814150108,
+    "B_std": 0.0
+  },
+  "next_single_experiment": "Existing E3, no download: cover lens first, one board reset, hold cover at least25s; re-export one frozen strip to establish a known dark frame and compare temporal row locations.",
+  "no_rtl_or_sensor_changes": true
+}

@@ -1,0 +1,194 @@
+{
+  "recorded_at": "2026-10-25T07:39:34.116571+00:00",
+  "query": "Chinese traffic",
+  "http_status": 200,
+  "datasets": [
+    {
+      "_id": "6751b24872687141b7c61cf7",
+      "id": "kuchidareo/chinese_trafficsign_dataset",
+      "author": "kuchidareo",
+      "cardData": {
+        "dataset_info": {
+          "features": [
+            {
+              "name": "image",
+              "dtype": "image"
+            },
+            {
+              "name": "label",
+              "dtype": {
+                "class_label": {
+                  "names": {
+                    "0": "0",
+                    "1": "1",
+                    "2": "10",
+                    "3": "11",
+                    "4": "12",
+                    "5": "13",
+                    "6": "14",
+                    "7": "15",
+                    "8": "16",
+                    "9": "17",
+                    "10": "18",
+                    "11": "19",
+                    "12": "2",
+                    "13": "20",
+                    "14": "21",
+                    "15": "22",
+                    "16": "23",
+                    "17": "24",
+                    "18": "25",
+                    "19": "26",
+                    "20": "27",
+                    "21": "28",
+                    "22": "29",
+                    "23": "3",
+                    "24": "30",
+                    "25": "31",
+                    "26": "32",
+                    "27": "33",
+                    "28": "34",
+                    "29": "35",
+                    "30": "36",
+                    "31": "37",
+                    "32": "38",
+                    "33": "39",
+                    "34": "4",
+                    "35": "40",
+                    "36": "41",
+                    "37": "42",
+                    "38": "43",
+                    "39": "44",
+                    "40": "45",
+                    "41": "46",
+                    "42": "47",
+                    "43": "48",
+                    "44": "49",
+                    "45": "5",
+                    "46": "50",
+                    "47": "51",
+                    "48": "52",
+                    "49": "53",
+                    "50": "54",
+                    "51": "55",
+                    "52": "56",
+                    "53": "57",
+                    "54": "6",
+                    "55": "7",
+                    "56": "8",
+                    "57": "9"
+                  }
+                }
+              }
+            }
+          ],
+          "splits": [
+            {
+              "name": "train",
+              "num_bytes": 167613767.794,
+              "num_examples": 5998
+            }
+          ],
+          "download_size": 139844741,
+          "dataset_size": 167613767.794
+        },
+        "configs": [
+          {
+            "config_name": "default",
+            "data_files": [
+              {
+                "split": "train",
+                "path": "data/train-*"
+              }
+            ]
+          }
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2024-12-05T14:01:58.000Z",
+      "likes": 3,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "48bc20b7796a3a061deaacf98d4bf188ecc2bdbc",
+      "downloads": 60,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:image",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "createdAt": "2024-12-05T14:01:44.000Z",
+      "key": ""
+    },
+    {
+      "_id": "69d887b875b32803dd248831",
+      "id": "EpicZhang/ChineseTrafficRegulatorySignDataBase",
+      "author": "EpicZhang",
+      "cardData": {
+        "license": "cc-by-nc-sa-4.0",
+        "task_categories": [
+          "object-detection"
+        ],
+        "language": [
+          "zh",
+          "en"
+        ],
+        "tags": [
+          "ChineseTrafficSign",
+          "YOLO",
+          "Speed Limit",
+          "Stop",
+          "Road Closed",
+          "No Entry",
+          "Give Way",
+          "Autonomous Driving",
+          "Computer Vision",
+          "Adverse Weather"
+        ],
+        "pretty_name": "CTRSDB: Chinese Traffic Regulatory Sign Database",
+        "size_categories": [
+          "1K<n<10K"
+        ]
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-04-10T16:37:02.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "56d83439716bd37624fe018d27436d928ac5a753",
+      "description": "\n\t\n\t\t\n\t\n\t\n\t\tCTRSDB: Chinese Traffic Regulatory Sign DataBase\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\t数据集简介\n\t\n\nCTRSDB是聚焦中国道路场景限速、禁行、让行三类核心管制交通标志的目标检测专用数据集，专为边缘端轻量级交通目标识别模型训练优化，覆盖阴天、雨雾、信号干扰等真实复杂道路场景，完美适配YOLO系列等主流检测模型。\n\n\t\n\t\t\n\t\n\t\n\t\t核心亮点\n\t\n\n\n场景针对性强：聚焦自动驾驶、辅助驾驶最核心的管制类交通标志，无冗余类别，标注精度高\n恶劣场景适配：通过AI生成扩增了雨雾极端天气低能见度场景数据，提升模型在复杂天气下的鲁棒性\n开箱即用：原生支持YOLO格式标注，配套训练配置文件，clone后可直接用于模型训练\n合规开源：遵循CC BY-NC-SA 4.0协议，仅用于学术学习与非商用场景\n\n\n\t\n\t\t\n\t\n\t\n\t\t数据集详情\n\t\n\n\n\t\n\t\t\n项目\n详情\n\n\n\t\t\n总图片数量\n3960张\n\n\n核心类别\n限速、禁行通行、禁止驶入、减速让行、停车让行\n\n\n标注格式\nYOLO原生txt格式\n\n\n数据集划分… See the full description on the dataset page: https://huggingface.co/datasets/EpicZhang/ChineseTrafficRegulatorySignDataBase.",
+      "downloads": 2511,
+      "tags": [
+        "task_categories:object-detection",
+        "language:zh",
+        "language:en",
+        "license:cc-by-nc-sa-4.0",
+        "size_categories:1K<n<10K",
+        "format:text",
+        "modality:image",
+        "modality:text",
+        "library:datasets",
+        "library:mlcroissant",
+        "region:us",
+        "ChineseTrafficSign",
+        "YOLO",
+        "Speed Limit",
+        "Stop",
+        "Road Closed",
+        "No Entry",
+        "Give Way",
+        "Autonomous Driving",
+        "Computer Vision",
+        "Adverse Weather"
+      ],
+      "createdAt": "2026-04-10T05:16:40.000Z",
+      "key": ""
+    }
+  ]
+}

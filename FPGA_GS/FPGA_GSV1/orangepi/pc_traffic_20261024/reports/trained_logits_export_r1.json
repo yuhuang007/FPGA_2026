@@ -1,0 +1,312 @@
+{
+  "recorded_at": "2026-10-25T07:34:20.107527+00:00",
+  "passed": true,
+  "trained": true,
+  "checkpoint": "runs/public_body_r1_yolov8n_960_e60/weights/best.pt",
+  "checkpoint_sha256": "79ed89a50fe7b78de454a6d157b51cadc3392ac54a988ec6c3ea67fd391e771d",
+  "checkpoint_not_modified": true,
+  "release": "datasets/public_body_r1/manifest.json",
+  "release_sha256": "74f4227f2498aa660cf03dc9a2f3da714dd62fd1504f1237523c4b36a31e4ce5",
+  "onnx": "artifacts/public_body_r1_trained_logits_r1/yolov8n_body2_640_trained_raw6_logits.onnx",
+  "onnx_sha256": "ed944ebfeab6574b17577a57306e0017d751d992b5ad865723b1d5986c67ece2",
+  "training_imgsz": 960,
+  "deployment_imgsz": 640,
+  "imgsz_accuracy_equivalence_claimed": false,
+  "preprocess_PC": "RGB NCHW float32 /255; centered letterbox114, static640",
+  "preprocess_RKNN": "RGB NHWC uint8; embedded mean0/std255; same centered letterbox114",
+  "outputs": [
+    {
+      "name": "box_s8",
+      "shape": [
+        1,
+        64,
+        80,
+        80
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s8",
+      "shape": [
+        1,
+        2,
+        80,
+        80
+      ],
+      "role": "class_logits"
+    },
+    {
+      "name": "box_s16",
+      "shape": [
+        1,
+        64,
+        40,
+        40
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s16",
+      "shape": [
+        1,
+        2,
+        40,
+        40
+      ],
+      "role": "class_logits"
+    },
+    {
+      "name": "box_s32",
+      "shape": [
+        1,
+        64,
+        20,
+        20
+      ],
+      "role": "box_dfl_logits"
+    },
+    {
+      "name": "class_logits_s32",
+      "shape": [
+        1,
+        2,
+        20,
+        20
+      ],
+      "role": "class_logits"
+    }
+  ],
+  "score_activation": "cpu_stable_sigmoid_once",
+  "classification_output_contains_sigmoid": false,
+  "class_names": {
+    "0": "motor_vehicle_body",
+    "1": "pedestrian_body"
+  },
+  "opset": 12,
+  "ops": {
+    "Conv": 63,
+    "Sigmoid": 57,
+    "Mul": 57,
+    "Slice": 16,
+    "Add": 6,
+    "Concat": 13,
+    "MaxPool": 3,
+    "Resize": 2
+  },
+  "resize_rewrites": [
+    {
+      "node": "/model.10/Resize",
+      "scale": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "old": "asymmetric/floor",
+      "new": "half_pixel/round_prefer_floor(default)"
+    },
+    {
+      "node": "/model.13/Resize",
+      "scale": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "old": "asymmetric/floor",
+      "new": "half_pixel/round_prefer_floor(default)"
+    }
+  ],
+  "decoder": "board_validation/validate_numeric.py",
+  "decoder_sha256": "8cb5e6ad5e8a84f80c2ce7c1409b50d8f0c6e4993c1114d13e9b47c5039fb4db",
+  "limits": {
+    "raw_head_max_abs": 0.001,
+    "decoded_box_max_abs_input_px": 0.01,
+    "cpu_activated_score_max_abs": 1e-05
+  },
+  "comparisons": [
+    {
+      "source": "datasets/public_body_r1/images/train/s2tld720_000000.jpg",
+      "source_sha256": "9073eb911741517b91be781774c0561d9084ba646002192f2271bef06c761954",
+      "split": "train",
+      "preprocess": {
+        "original_wh": [
+          1280,
+          720
+        ],
+        "resized_wh": [
+          640,
+          360
+        ],
+        "gain": 0.5,
+        "padding_ltrb": [
+          0,
+          140,
+          0,
+          140
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "purpose": "numerical equivalence only, not accuracy measurement",
+      "fixture": "s2tld720_000000",
+      "input_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+      "raw_reference_sha256": "7874600c963b12c3436abc3e69cb7c88385be88e5586d7c3a74d9134369ad3ab",
+      "errors": {
+        "raw_head_max_abs": 3.7670135498046875e-05,
+        "decoded_box_max_abs_input_px": 0.0006441153431069324,
+        "cpu_activated_score_max_abs": 1.4768267443399097e-06
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 125
+    },
+    {
+      "source": "datasets/public_body_r1/images/train/tlony_adrian-williams-AU07BMLW1NA-unsplash.jpg",
+      "source_sha256": "54d17721fb8a58551c48dd2aa58d9de0305122323186e65b2d0dbd98069b3403",
+      "split": "train",
+      "preprocess": {
+        "original_wh": [
+          4096,
+          2734
+        ],
+        "resized_wh": [
+          640,
+          427
+        ],
+        "gain": 0.15625,
+        "padding_ltrb": [
+          0,
+          106,
+          0,
+          107
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "purpose": "numerical equivalence only, not accuracy measurement",
+      "fixture": "tlony_adrian-williams-AU07BMLW1NA-unsplash",
+      "input_sha256": "a38904763354e6aeff402373d6ad4857efb1f08feb972326e6205bec6e3d9de7",
+      "raw_reference_sha256": "b9bb094ed7886e173cc15e2e5df3c6faf9867c1318f6ed09c73f36b4b08c5521",
+      "errors": {
+        "raw_head_max_abs": 3.62396240234375e-05,
+        "decoded_box_max_abs_input_px": 0.0006621555677668312,
+        "cpu_activated_score_max_abs": 5.356572329029419e-07
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    },
+    {
+      "source": "datasets/public_body_r1/images/val/coco_scene_000000015272.png",
+      "source_sha256": "4e750af5b1fe0359c54699f842dc6ad9262499945bbca00a8e1d1e63b83dcc56",
+      "split": "val",
+      "preprocess": {
+        "original_wh": [
+          678,
+          1024
+        ],
+        "resized_wh": [
+          424,
+          640
+        ],
+        "gain": 0.625,
+        "padding_ltrb": [
+          108,
+          0,
+          108,
+          0
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "purpose": "numerical equivalence only, not accuracy measurement",
+      "fixture": "coco_scene_000000015272",
+      "input_sha256": "1e42ac2ddd782b05872505d5f6f05d63811fda361c2b4165b1ad06067a5b14b6",
+      "raw_reference_sha256": "cf1cb3bfb8f9f1ff9d64dcbd2d2ae1305ad453da3fd7e684bc96530bf76d656d",
+      "errors": {
+        "raw_head_max_abs": 2.956390380859375e-05,
+        "decoded_box_max_abs_input_px": 0.0005268156598532414,
+        "cpu_activated_score_max_abs": 1.6406224098990292e-09
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    },
+    {
+      "source": "board_validation/logits_candidate_r1/fixtures/GREEN_full_rgb_u8.npy",
+      "source_sha256": "a97e381505c642935a958316a9f8789f542a0361876cbc6f46fa6fa9730f46bf",
+      "purpose": "existing development/regression fixture only; never train/val/calibration",
+      "fixture": "GREEN_full",
+      "input_sha256": "a97e381505c642935a958316a9f8789f542a0361876cbc6f46fa6fa9730f46bf",
+      "raw_reference_sha256": "0ce54af56e68c81df9e0d5c4e1c6ae137d91ec7ad8a32f599dc69488ed9a876f",
+      "errors": {
+        "raw_head_max_abs": 3.1948089599609375e-05,
+        "decoded_box_max_abs_input_px": 0.0007445304513993278,
+        "cpu_activated_score_max_abs": 3.3737910709596974e-07
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    },
+    {
+      "source": "board_validation/logits_candidate_r1/fixtures/GREEN_left_half_rgb_u8.npy",
+      "source_sha256": "89b3ddf8722cd4fb6b3df0dd9702efea8f55edd83bc75d7c3d75473c10f16578",
+      "purpose": "existing development/regression fixture only; never train/val/calibration",
+      "fixture": "GREEN_left_half",
+      "input_sha256": "89b3ddf8722cd4fb6b3df0dd9702efea8f55edd83bc75d7c3d75473c10f16578",
+      "raw_reference_sha256": "20c6c027be824f30821f461f673266c20c54d983e9553f0fbf05b69dcf9ae991",
+      "errors": {
+        "raw_head_max_abs": 3.314018249511719e-05,
+        "decoded_box_max_abs_input_px": 0.00042515395091413666,
+        "cpu_activated_score_max_abs": 3.177239445706359e-07
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 1
+    },
+    {
+      "source": "board_validation/logits_candidate_r1/fixtures/RED_full_rgb_u8.npy",
+      "source_sha256": "893e2d82fe7cd5e6d7950cbdccb182af5051557e73e839698e41ac10b31b5b38",
+      "purpose": "existing development/regression fixture only; never train/val/calibration",
+      "fixture": "RED_full",
+      "input_sha256": "893e2d82fe7cd5e6d7950cbdccb182af5051557e73e839698e41ac10b31b5b38",
+      "raw_reference_sha256": "5957cfed1d25abc23d3d3b17b578bb01b74604bb49a7d175c93b9f0f51441b38",
+      "errors": {
+        "raw_head_max_abs": 3.0040740966796875e-05,
+        "decoded_box_max_abs_input_px": 0.0010680425987601438,
+        "cpu_activated_score_max_abs": 6.133875411155204e-08
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    },
+    {
+      "source": "board_validation/logits_candidate_r1/fixtures/RED_left_half_rgb_u8.npy",
+      "source_sha256": "a691b25a2477808373020fe4fd078fdc4b2446d3a61873ffe8f2f8099fb008f3",
+      "purpose": "existing development/regression fixture only; never train/val/calibration",
+      "fixture": "RED_left_half",
+      "input_sha256": "a691b25a2477808373020fe4fd078fdc4b2446d3a61873ffe8f2f8099fb008f3",
+      "raw_reference_sha256": "1a338ad7381fd231403cd421774274b13c44a7158075c0ede51133ecfa49032b",
+      "errors": {
+        "raw_head_max_abs": 3.504753112792969e-05,
+        "decoded_box_max_abs_input_px": 0.0006169910831204106,
+        "cpu_activated_score_max_abs": 1.8432546823599072e-07
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    },
+    {
+      "source": "board_validation/logits_candidate_r1/fixtures/SYNTHETIC_channel_ramp_odd_padding_rgb_u8.npy",
+      "source_sha256": "c86a0d8063002df9150b69cba8d57041e046ae30810d78dd0bd8193e737ee267",
+      "purpose": "existing development/regression fixture only; never train/val/calibration",
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "input_sha256": "c86a0d8063002df9150b69cba8d57041e046ae30810d78dd0bd8193e737ee267",
+      "raw_reference_sha256": "f7fd051cd9b4d014e4818471cee0964db152825b81814e2f3007c8e8dc8a81c3",
+      "errors": {
+        "raw_head_max_abs": 3.4809112548828125e-05,
+        "decoded_box_max_abs_input_px": 0.0007166334464585589,
+        "cpu_activated_score_max_abs": 5.10382701401392e-09
+      },
+      "passed": true,
+      "nonempty_NMS_detection_count": 0
+    }
+  ],
+  "stable_single_sigmoid_nonempty_NMS_guard_passed": true,
+  "board_validation_passed": false,
+  "RKNN_build_or_runtime_performed_here": false,
+  "accuracy_verified_by_numeric_checks": false,
+  "no_final_test_or_China_reserved_inference": true,
+  "next_required": "Independent isolated RKNN candidate build/runtime with this exact ONNX and fixed thresholds; do not modify stable services."
+}

@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-24T19:32:19.461221+08:00",
+  "reviewer": "AI / Codex independent board-validation reviewer",
+  "human_signature": false,
+  "completed_frozen_revised_label_reviews": 0,
+  "approved_revised_labels": 0,
+  "previous_8_candidate_prechecks_counted_as_formal_review": false,
+  "first_pass_file_count": 0,
+  "frozen_manifest_count": 0,
+  "observed_first_pass_files": [],
+  "observed_frozen_manifests": [],
+  "status": "awaiting first immutable revised-label batch; do not promote source XML or visual notes to approved review",
+  "new_grouping_materials_observed": [
+    "data\\provisional_groups.json",
+    "data\\near_duplicate_components.json",
+    "reports\\near_duplicate_review.json"
+  ],
+  "required_for_batch": [
+    "original-image ID/SHA mapping",
+    "revised annotations and frozen version/SHA",
+    "initial reviewer identity/method/timestamp and change notes",
+    "near-duplicate/group mapping and unresolved arbitration items"
+  ],
+  "PC_initial_records_modified": false
+}

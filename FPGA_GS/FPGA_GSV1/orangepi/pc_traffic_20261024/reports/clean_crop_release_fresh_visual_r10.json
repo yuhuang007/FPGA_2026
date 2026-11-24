@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-25T05:21:36.825140+00:00",
+  "production_manifest_sha256": "c7cd72e4b1747ebf4a81618985d9ee7109b690016ecedad4c334090502ff7911",
+  "actual_method": "Actually viewed current0012 whole-source overlay and large new crop overlay after independently accepted unknown-ignore addition. Source/label split binding refreshed before derivation. Twelve other source frames have no safe crop under unchanged rules.",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0012",
+      "reviewer": "Codex_PC_AI_crop_visual_r10",
+      "reviewer_type": "AI",
+      "actual_visual_QA_passed": true,
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "source_annotation_sha256": "3e5be9b3feb1b181547871d0c4aab14240c7215beeff285bfd67b6b580155b63",
+      "crop_sha256": "2b10e1ada9e158c3c60d11ac57cf732e3c0e9a88f2830618337ac28197cdd7db",
+      "yolo_label_sha256": "1aa2edbe448b3771521bfae78ac15bf9a60654e36399f54747725607d61c1821",
+      "viewed_source": "review_stage2/clean_crop_release_r10/views/s2tld1080_0012_clean01_source.jpg",
+      "viewed_source_sha256": "a1b3bddeba2eedb7def877f769393d3e243799e18edc5966bd88112ad8659f26",
+      "viewed_crop": "review_stage2/clean_crop_release_r10/views/s2tld1080_0012_clean01_crop.jpg",
+      "viewed_crop_sha256": "8e674f969af383acb88bec813f9821aa351979d93fdc758d91bafb825524e7fa",
+      "findings": "Both confirmed front motor housings retained complete. New leaf-obscured unknown assembly entirely to left of crop with padded gap; right gate unknown fully outside. Road, buildings and vehicle context remain. Old broad crop cannot be restored.",
+      "human_signoff": false
+    }
+  ],
+  "no_safe_crop_ids": [
+    "s2tld1080_0000",
+    "s2tld1080_0001",
+    "s2tld1080_0002",
+    "s2tld1080_0003",
+    "s2tld1080_0004",
+    "s2tld1080_0005",
+    "s2tld1080_0006",
+    "s2tld1080_0007",
+    "s2tld1080_0008",
+    "s2tld1080_0009",
+    "s2tld1080_0010",
+    "s2tld1080_0011"
+  ],
+  "training_release": false
+}

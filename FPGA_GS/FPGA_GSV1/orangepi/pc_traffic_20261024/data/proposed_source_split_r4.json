@@ -1,0 +1,119 @@
+{
+  "recorded_at": "2026-10-25T02:23:16.928615+00:00",
+  "official_split_released": false,
+  "original400": {
+    "group": "unresolved_route_A_B_joint_hold",
+    "planned_split": "train",
+    "official_split": "unassigned",
+    "same_actual_site_claim": false,
+    "original_count": 400
+  },
+  "external": [
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "photo_id": "4466652187",
+      "image_sha256": "bb3650f0c0ef740bd88b302d22d94ba74982242a0a6ec9b33b580c13ee938901",
+      "scene_group": "US_AZ90_Sierra_Vista_photo_4466652187",
+      "planned_split": "val",
+      "official_split": "unassigned",
+      "location_evidence": "Photographer title explicitly names AZ-90 and Sierra Vista; visible English street sign and desert mountain road support it.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000008762.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000008762.jpg",
+        "data/external_coco_scene_pilot_r1/larger_sources/000000008762.jpg"
+      ],
+      "independent_group_check": "Genuine independent source observations exist in external_scene_r1_review.jsonl; these observations are not formal split approval."
+    },
+    {
+      "candidate_id": "coco_scene_000000534639",
+      "photo_id": "10190866013",
+      "image_sha256": "0e2722b6f071bb72c697fb7083b34f0097c355981e521df0d019413cc7dfffe7",
+      "scene_group": "US_Portland_Albina_Mississippi_photo_10190866013",
+      "planned_split": "excluded",
+      "official_split": "unassigned",
+      "location_evidence": "Photographer title explicitly Portland TriMet MAX Albina/Mississippi station.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000534639.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000534639.jpg"
+      ],
+      "independent_group_check": "not_selected_for_model_data"
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "photo_id": "502213596",
+      "image_sha256": "f4aa83d56a4800335c35f4f6646e81360ed3c908eb71deb2209660f9b2851d01",
+      "scene_group": "UK_Halifax_Town_Hall_photo_502213596",
+      "planned_split": "val",
+      "official_split": "unassigned",
+      "location_evidence": "Flickr keywords explicitly England/Yorkshire/Halifax/West Yorkshire/Calderdale; distinctive town hall matches the actual photo.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000520009.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000520009.jpg",
+        "data/external_coco_scene_pilot_r1/larger_sources/000000520009.jpg"
+      ],
+      "independent_group_check": "Genuine independent source observations exist in external_scene_r1_review.jsonl; these observations are not formal split approval."
+    },
+    {
+      "candidate_id": "coco_scene_000000184400",
+      "photo_id": "9326233603",
+      "image_sha256": "9b81bd50fee18dfe4f1b1aa804c28f0492bd65d4c1f1c43b7497b8a82e0eb2b1",
+      "scene_group": "UK_Portsmouth_St_Georges_Road_photo_9326233603",
+      "planned_split": "quarantine_license_conflict",
+      "official_split": "unassigned",
+      "location_evidence": "Photographer title names St Georges Road Portsmouth.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000184400.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000184400.jpg"
+      ],
+      "independent_group_check": "not_selected_for_model_data"
+    },
+    {
+      "candidate_id": "coco_scene_000000577932",
+      "photo_id": "5159956078",
+      "image_sha256": "4a10e10d554ec452c9fd08913f0e61a5c6ec5909b127b90b001495e0348fb9e4",
+      "scene_group": "UK_Rochester_High_Street_photo_5159956078",
+      "planned_split": "excluded_ignore_only",
+      "official_split": "unassigned",
+      "location_evidence": "Photographer title explicitly Rochester High Street; British streetscape/signage supports UK. Exact site confirmation still requires independent check; Flickr page currently404 while image and licensed oEmbed remain available.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000577932.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000577932.jpg",
+        "data/external_coco_scene_pilot_r1/larger_sources/000000577932.jpg"
+      ],
+      "independent_group_check": "Source observations preserved; accepted current label has only ignore, so no final-test use."
+    },
+    {
+      "candidate_id": "coco_scene_000000176037",
+      "photo_id": "8140155314",
+      "image_sha256": "64001499037f4314e4deb5cf0f85e9f0b06331370f1e8901bd1057b47c5ddf42",
+      "scene_group": "US_NYC_MTA_photo_8140155314",
+      "planned_split": "excluded",
+      "official_split": "unassigned",
+      "location_evidence": "Official MTA author, NYCB title and M5 South Ferry destination visible; precise junction unverified.",
+      "source_variants_must_link": [
+        "data/external_coco_scene_pilot_r1/images/000000176037.jpg",
+        "review_stage2/external_scene_pilot_r1/images/000000176037.jpg"
+      ],
+      "independent_group_check": "not_selected_for_model_data"
+    }
+  ],
+  "validation_candidate_sites": [
+    "US AZ-90 Sierra Vista",
+    "UK Halifax Town Hall"
+  ],
+  "future_final_test_candidate_site": null,
+  "no_SC_regression_assets_included": true,
+  "source_labels_are_not_project_truth": true,
+  "required_before_release": [
+    "Exact-version independent project labels for external images",
+    "Independent scene and near-duplicate audit of joint original training unit versus external groups",
+    "Clean export and class/context coverage review",
+    "Final test locked independently of validation; currently no released independent test set"
+  ],
+  "supersedes_proposal": {
+    "path": "data/proposed_source_split_r3.json",
+    "sha256": "85aa17c847a313fe94704826d7809fc6eb9f54e58118ef619b799bcd98522667"
+  },
+  "final_test_status": "Missing: Rochester current label is ignore-only and excluded. No usable independent final-test scene has been reserved or released.",
+  "validation_limitations": "Two current body-positive external source photos from distinct documented regions; insufficient size and pedestrian crop coverage for robust validation. More usable independently sourced scenes and reviewed targets required."
+}

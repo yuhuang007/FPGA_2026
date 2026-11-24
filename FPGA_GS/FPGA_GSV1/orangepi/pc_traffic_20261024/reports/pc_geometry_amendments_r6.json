@@ -1,0 +1,215 @@
+{
+  "recorded_at": "2026-10-25T02:29:51.847565+00:00",
+  "reviewer": "Codex_PC_AI_stage2",
+  "reviewer_type": "AI",
+  "actual_scope": "Actual targeted original-pixel unmarked/context and coordinate-grid viewing; no repeat full-image omission claim.",
+  "training_release": false,
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0108",
+      "base_manifest": "review_stage2/frozen/batch_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "partial_green",
+          "field": "type",
+          "value": "ignore"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "bbox_xyxy",
+          "value": [
+            939,
+            480,
+            958,
+            509
+          ]
+        },
+        {
+          "object_id": "partial_green",
+          "field": "kind",
+          "value": "unknown"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "unknown_reason",
+          "value": "other"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "reason",
+          "value": "Leaf-obscured green numeric strokes and lower luminous area cannot be separated reliably as one lamp emitter; retain protected ignore inside original ignore_foliage. Visible green light is observed, but no individual emitter geometry or kind is certified."
+        },
+        {
+          "object_id": "partial_green",
+          "field": "observed_color",
+          "value": "green"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "quality_flags",
+          "value": [
+            "occluded",
+            "ambiguous_component"
+          ]
+        }
+      ],
+      "note": "实际看到上部绿色数字笔画与下部碎亮区域，原框混合两者；不猜完整灯面或人形，改为明确ignore。原ignore_foliage覆盖保留，可靠主灯体不被否定。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0108_partial_green.png"
+      ],
+      "remove_fields": [
+        {
+          "object_id": "partial_green",
+          "field": "parent_id"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "state"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "color_readable"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "symbol"
+        },
+        {
+          "object_id": "partial_green",
+          "field": "arrow_direction"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0109",
+      "base_manifest": "review_stage2/frozen/batch_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_1",
+          "field": "bbox_xyxy",
+          "value": [
+            478,
+            416,
+            506,
+            477
+          ]
+        },
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            481,
+            419,
+            500,
+            437
+          ]
+        }
+      ],
+      "note": "旧灯体框顶部遗漏整个上红圆，旧emitter框落中暗区；按完整白边外壳及实际上红面同时重贴，不补off或数字。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0109_body_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0110",
+      "base_manifest": "review_stage2/frozen/batch_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_2",
+          "field": "bbox_xyxy",
+          "value": [
+            874,
+            212,
+            902,
+            241
+          ]
+        }
+      ],
+      "note": "原像素可见上红圆左边在旧框外，框左移贴完整圆面，避开下倒计时。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0110_emitter_2.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0113",
+      "base_manifest": "review_stage2/frozen/batch_014/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_1",
+          "field": "bbox_xyxy",
+          "value": [
+            292,
+            426,
+            306,
+            440
+          ]
+        }
+      ],
+      "note": "上红圆旧框偏下，向左上重新贴合，底边排除中央数字6。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0113_emitter_1.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0118",
+      "base_manifest": "review_stage2/frozen/batch_015/manifest.json",
+      "changes": [
+        {
+          "object_id": "emitter_2",
+          "field": "bbox_xyxy",
+          "value": [
+            1056,
+            386,
+            1074,
+            403
+          ]
+        }
+      ],
+      "note": "红边过曝圆面顶部在旧框外，向上收紧并排除下方暗区，颜色保留red。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0118_emitter_2.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0120",
+      "base_manifest": "review_stage2/frozen/batch_015/manifest.json",
+      "changes": [
+        {
+          "object_id": "side_red_left",
+          "field": "bbox_xyxy",
+          "value": [
+            232,
+            573,
+            237,
+            584
+          ]
+        },
+        {
+          "object_id": "side_red_right",
+          "field": "bbox_xyxy",
+          "value": [
+            1240,
+            519,
+            1245,
+            530
+          ]
+        },
+        {
+          "object_id": "ignore_side_red_right",
+          "field": "bbox_xyxy",
+          "value": [
+            1230,
+            515,
+            1254,
+            586
+          ]
+        }
+      ],
+      "note": "分别核实两侧狭红亮面，旧框大部落在暗杆；逐一向上贴可见红形，类别与形状继续未知。同步扩大右ignore上沿以保护新定位红区域，不能因原ignore遗漏顶端而制造负背景。 本次变化需按新SHA真实复核，不继承旧通过。",
+      "evidence": [
+        "review_stage2/adjudication_geometry_r6/0120_side_red_left.png",
+        "review_stage2/adjudication_geometry_r6/0120_side_red_right.png"
+      ]
+    }
+  ]
+}

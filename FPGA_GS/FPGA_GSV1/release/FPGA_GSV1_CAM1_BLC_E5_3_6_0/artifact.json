@@ -1,0 +1,268 @@
+{
+  "version": "3.6.0 CAM1 BLC E5 A-B-Aprime controlled diagnostic",
+  "bitstream": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_BLC_E5_3_6_0\\FPGA_GSV1_CAM1_BLC_E5_3_6_0_HDMI_1080P60.sbit",
+  "sha256": "37fd92a0b377efc4acc8177224e5d6786a1ec5b2b446889fa6c1362042cc0f20",
+  "generated_utc": "2026-10-25T05:41:37.0474395Z",
+  "generated_china_time": "2026-10-25T13:41:37.047440+08:00",
+  "programmed": false,
+  "board_verified": false,
+  "stripes_fixed": false,
+  "qualified_functional_release": false,
+  "build_input_snapshot_hashes_verified": true,
+  "failed_build_evidence": [
+    {
+      "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_blc_source\\build\\CAM1_BLC_E5_3_6_0_20261025_131849_467",
+      "setup_WNS_ns": -0.607,
+      "path": "OSD Chinese font DRM -> added diagnostic select -> high-fanout HDMI RGB IOL register",
+      "repair": "Register composed OSD area/pixel; add exactly one cycle to matching pixel/HS/VS/DE/alarm pipeline. Period/IO/clock constraints unchanged.",
+      "check": "12000cycle exact one-cycle retiming equivalence with actual font, labels and raster output slice.",
+      "unqualified_bitstream_not_packaged": true
+    }
+  ],
+  "E4_board_result": "User confirms changing purple/red dark-field lines persist; E4 did not resolve stripes.",
+  "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_blc_source\\build\\CAM1_BLC_E5_3_6_0_20261025_133257_137",
+  "uart_identity": "N2 35B, C1BR PRE/POST, C1BT phase/status, C1PX strip, inherited C1R8 rates",
+  "changes": [
+    "rtl/board/fpga_gsv1_top.v",
+    "rtl/capture/cam1_blc_control.v",
+    "rtl/capture/cam1_pixel_patch.v",
+    "rtl/display/cam1_blc_label.v",
+    "rtl/display/m31_osd.v",
+    "rtl/display/m31_video_output.v",
+    "rtl/network/m361_diag.v",
+    "rtl/network/m365_tx_observer.v",
+    "rtl/network/m3_network.v"
+  ],
+  "timing": {
+    "internal_constraints_met": true,
+    "summaries": [
+      {
+        "summary": "Setup Summary(Slow Corner):",
+        "worst_slack_ns": 0.07,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Slow Corner):",
+        "worst_slack_ns": 0.096,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Slow Corner):",
+        "worst_slack_ns": 4.108,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Slow Corner):",
+        "worst_slack_ns": 0.458,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Slow Corner):",
+        "worst_slack_ns": 0.397,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Setup Summary(Fast Corner):",
+        "worst_slack_ns": 0.312,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Fast Corner):",
+        "worst_slack_ns": 0.137,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Fast Corner):",
+        "worst_slack_ns": 5.29,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Fast Corner):",
+        "worst_slack_ns": 0.302,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Fast Corner):",
+        "worst_slack_ns": 0.568,
+        "failing_endpoints": 0
+      }
+    ],
+    "resources": {
+      "CLMA": 5196.0,
+      "CLMS": 3316.0,
+      "DRM": 110.0,
+      "PLL": 5.0,
+      "LUT": 24308.0,
+      "FF": 26539.0
+    },
+    "implemented_input_registers": {
+      "cmos2_data[0]": "IREGIS",
+      "cmos2_data[1]": "IREGIS",
+      "cmos2_data[2]": "IREGIS",
+      "cmos2_data[3]": "IREGIS",
+      "cmos2_data[4]": "IREGIS",
+      "cmos2_data[5]": "IREGIS",
+      "cmos2_data[6]": "IREGIS",
+      "cmos2_data[7]": "IREGIS",
+      "cmos2_href": "IREGIS",
+      "cmos2_vsync": "IREGIS"
+    },
+    "IO_receiver_requirements": [
+      {
+        "port": "cmos2_data[0]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.092,
+        "hold_requirement_ns": 5.329
+      },
+      {
+        "port": "cmos2_data[0]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.716,
+        "hold_requirement_ns": 3.313
+      },
+      {
+        "port": "cmos2_data[1]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.051,
+        "hold_requirement_ns": 5.288
+      },
+      {
+        "port": "cmos2_data[1]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.68,
+        "hold_requirement_ns": 3.277
+      },
+      {
+        "port": "cmos2_data[2]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.052,
+        "hold_requirement_ns": 5.289
+      },
+      {
+        "port": "cmos2_data[2]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.681,
+        "hold_requirement_ns": 3.278
+      },
+      {
+        "port": "cmos2_data[3]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.051,
+        "hold_requirement_ns": 5.287
+      },
+      {
+        "port": "cmos2_data[3]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.683,
+        "hold_requirement_ns": 3.28
+      },
+      {
+        "port": "cmos2_data[4]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.067,
+        "hold_requirement_ns": 5.304
+      },
+      {
+        "port": "cmos2_data[4]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.691,
+        "hold_requirement_ns": 3.288
+      },
+      {
+        "port": "cmos2_data[5]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.014,
+        "hold_requirement_ns": 5.25
+      },
+      {
+        "port": "cmos2_data[5]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.646,
+        "hold_requirement_ns": 3.243
+      },
+      {
+        "port": "cmos2_data[6]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.02,
+        "hold_requirement_ns": 5.256
+      },
+      {
+        "port": "cmos2_data[6]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.652,
+        "hold_requirement_ns": 3.249
+      },
+      {
+        "port": "cmos2_data[7]",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.018,
+        "hold_requirement_ns": 5.254
+      },
+      {
+        "port": "cmos2_data[7]",
+        "corner": "FAST",
+        "setup_requirement_ns": -1.65,
+        "hold_requirement_ns": 3.247
+      },
+      {
+        "port": "cmos2_href",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.871,
+        "hold_requirement_ns": 5.473
+      },
+      {
+        "port": "cmos2_href",
+        "corner": "FAST",
+        "setup_requirement_ns": -2.277,
+        "hold_requirement_ns": 3.408
+      },
+      {
+        "port": "cmos2_vsync",
+        "corner": "SLOW",
+        "setup_requirement_ns": -3.872,
+        "hold_requirement_ns": 5.474
+      },
+      {
+        "port": "cmos2_vsync",
+        "corner": "FAST",
+        "setup_requirement_ns": -2.278,
+        "hold_requirement_ns": 3.409
+      }
+    ],
+    "external_DVP_input_timing_signed_off": false,
+    "limits": [
+      "TY module DOVDD, source output tCO min/max/guaranteed launch edge and actual FFC/PCB skew remain unknown.",
+      "Receiver IO datasheet numbers are requirements, not source margin or physical measurements.",
+      "E4 constraints preserved byte-for-byte. No period relaxation or new false path.",
+      "Inherited network/other external model limitations remain; internal STA is not full board signoff."
+    ]
+  },
+  "experiment": {
+    "prepare_seconds": 60,
+    "each_export_seconds": 45,
+    "overall_approx_seconds": 200,
+    "common_preparation": "Pin manual AEC/AGC with3503[1:0] and AWB with3406[0], read current held values, rewrite those same exposure/gain/WB values and verify each byte; A must still reproduce stripes.",
+    "A": "Original BLC updating state, all shared parameters fixed.",
+    "B": "4005 RMW clear bit1, then4003 RMW set bit6; never replay4003[7] REDO.",
+    "Aprime": "4003 original operating bits[6:0], then original4005, verify each; do not replay REDO.",
+    "final": "Readback-verified restoration of4003 working bits,4005,3503,3406; only then DONE. Failures INVALID with best effort restore.",
+    "never_written": "4002, BLC windows/targets,402C..4033 coefficients, sampling edge/PLL/IO settings.",
+    "evidence": "One unenhanced16x720 RGB565 strip at source x1120 before DDR per stage. PRE/POST56-register scans with CRC/time/source frame tags; coefficient reads not atomic.",
+    "validity": "A reproduces, lens stays covered, shared parameters stable, full three CRC-valid strips, B coefficient PRE/POST stable, and final restore verified. Black/dark/desaturated output is not improvement.",
+    "interpretation": "B attenuates and Aprime returns supports dynamic BLC involvement only. B unchanged lowers priority. Invalid conditions prohibit conclusions."
+  },
+  "protected": "CAM0 ownership/exposure, CAM1 sensor init/sync/rotation/720p25, DDR, HDMI raster format/PLL/filter algorithms, MAC/protocol/PHY/PLL/RGMII unchanged. Network module edits only expose UART snapshot pulse.",
+  "output_pipeline_change": "Diagnostic OSD composition registered; RGB/raster/OSD/alarm all delayed one extra pixel clock together, verified exact retiming. 1080p60 format remains unchanged.",
+  "physical_limit": "All three phases run in one physical implementation. Comparison against E4 also changes PNR placement/routing, so is not a one-physical-variable comparison.",
+  "source_basis": {
+    "E4_board_result": "User downloaded IOREG E4; covered-lens changing purple/red horizontal lines persist; E4 did not resolve stripes",
+    "E4_raw_E3_path_limits_remain": true,
+    "source_pdf": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\OV3660_datasheet.pdf",
+    "sha256": "837b037fd33648ae48fba59d8fbe97dad24c17c7b2bd0cab27a56ec69cc77245"
+  },
+  "minimum_user_action": "Cover CAM1 before manual SRAM download; select rear single/original; keep COM23 free and immediately confirm download. Keep covered through A/B/Aprime until DONE, about3min20s. No reset or Pi service changes.",
+  "rollback": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_IOREG_E4_3_6_0\\FPGA_GSV1_CAM1_IOREG_E4_3_6_0_HDMI_1080P60.sbit",
+  "rollback_sha256": "ff11e6121a4adf898f6d74115883a9d7bc2a20d4f38508a40fee56b94692e896",
+  "rollback_note": "E4 is the controlled recovery baseline, not a stripe fix. Never use an unverified board reset key.",
+  "next_step_after_board": "Apply fixed validity and decision rules; no further register tuning before results."
+}

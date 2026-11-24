@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-25T02:35:46.872457+00:00",
+  "entries": [
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "author": "Yoshikazu TAKADA",
+      "photo_page": "https://www.flickr.com/photos/yoshikazut/8584364941/",
+      "title": "Sakura and Traffic Light",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r2/provenance/15272_oembed.json",
+      "oEmbed_evidence_sha256": "b4819dc845f8a670a54a66675e2aa6938a924ee88de0d8cd6ca63d4b74932c10",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000183246",
+      "author": "crazytales562",
+      "photo_page": "https://www.flickr.com/photos/crazytales562/2469205788/",
+      "title": "Installing stoplight",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r2/provenance/183246_oembed.json",
+      "oEmbed_evidence_sha256": "3e24ef9fde1698d56eb81f4443a6c80b01974605664668bec410041c925ee43f",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "coco_scene_000000301376",
+      "author": "smaedli",
+      "photo_page": "https://www.flickr.com/photos/smaedli/2718408461/",
+      "title": "North Avenue",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r2/provenance/301376_oembed.json",
+      "oEmbed_evidence_sha256": "1c76039aeaaeb8fd2b503d39e3248ec4a1d927495e3fb0c2fc700b280e69a682",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    }
+  ],
+  "verified_current_CC_BY_2_0": 3,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

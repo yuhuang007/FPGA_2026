@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "python": "3.11.15",
+  "opencv": "4.10.0",
+  "numpy": "1.26.4",
+  "onnxruntime": "1.20.1",
+  "scope": "Independent PC input preparation and ORT reference, not trained accuracy",
+  "comparisons": [
+    {
+      "fixture": "RED_full",
+      "input_byte_identical": true,
+      "input_sha256": "ef06bd42973cd63d2f491ae5055ca2b4e28d9a831099c0a63454b7a86b19e3f7",
+      "pc_vs_board_onnx_heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s8",
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "RED_left_half",
+      "input_byte_identical": true,
+      "input_sha256": "90071ea68fe8e1dd25f72549ab36c008cba10a1914937983f285f56f3adb666f",
+      "pc_vs_board_onnx_heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 1.1920928955078125e-07
+        },
+        {
+          "name": "score_s8",
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "GREEN_full",
+      "input_byte_identical": true,
+      "input_sha256": "3752b3d4472fc2f3c25e28cc4e369f9ae2bb4d4652350d499cc0c8ad5deee38d",
+      "pc_vs_board_onnx_heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s8",
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "GREEN_left_half",
+      "input_byte_identical": true,
+      "input_sha256": "d57d137bb07a1eb4db921fb00bcda34f2a88577a2fd5890f487054861ea6989d",
+      "pc_vs_board_onnx_heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s8",
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "input_byte_identical": true,
+      "input_sha256": "79b2d68cac0a3772809af9c9a07884ef485f1e3066878101c6fabb17d8c725c4",
+      "pc_vs_board_onnx_heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s8",
+          "max_abs": 5.960464477539063e-08
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "score_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

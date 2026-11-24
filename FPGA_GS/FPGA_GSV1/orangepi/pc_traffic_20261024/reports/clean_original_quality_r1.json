@@ -1,0 +1,91 @@
+{
+  "production_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+  "archive_provenance": "data/archive_provenance.json",
+  "archive_provenance_sha256": "da86f49a87bfb8d5b59a284c14fcc2ad1914811aa81d61ec061579dc392b0fda",
+  "archive": "data/s2tld_1080.zip",
+  "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0058",
+      "source_image_sha256": "c6c28fb55760f5f1c977acdb534efa9834cdf6a0e776f20fca23ce4b6faeaaca",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_39_03.535530846.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_008_remaining_review.jsonl",
+      "independent_review_file_sha256": "ba602b4d87578e133823c3b436ed8ee91ba98a0b4e60337b7ea3c4128acc2971",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "source_image_sha256": "29848f09f1f192bfb97312b831120f4fe7ac8f0eec1882627f6e45bda8dbc4d9",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_41_53.248299669.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_009_remaining_review.jsonl",
+      "independent_review_file_sha256": "532720670d1a94d88a75f750b63d77d569592294715f5faa2759031e5db0237a",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0225",
+      "source_image_sha256": "d6de6f606e73539d39b874624f9a32742e96faeb7635fca4845810202d257922",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_49.011989042.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_027_remaining_review.jsonl",
+      "independent_review_file_sha256": "3e37739ab93daa32cc96480c78b6993b2f7a0f110dc6996698a9c3c6011388b3",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0230",
+      "source_image_sha256": "7e6e9e81c1721eaf6abe7b7dd6f64534187a99719b5c59ea41d12c182866f102",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_49.645055547.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_027_remaining_review.jsonl",
+      "independent_review_file_sha256": "3e37739ab93daa32cc96480c78b6993b2f7a0f110dc6996698a9c3c6011388b3",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0233",
+      "source_image_sha256": "2af11086e872a9f9413fd1d28daa757e5aa9f0276bd8621f07fce97b18964b04",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_50.588932430.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+      "independent_review_file_sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0234",
+      "source_image_sha256": "292aaf2c6d3e68836f2e1607a9f7afbe9533492e91a68a9799052b88483fdaa5",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_12_50.831494209.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+      "independent_review_file_sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0243",
+      "source_image_sha256": "236ac71dda0769e2df68051e0a25e5b5f560a6d3703ee39b17d03aa278d97f8e",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_13_12.310715569.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+      "independent_review_file_sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0244",
+      "source_image_sha256": "6d9b8790899cfafd7871561627c3d46f23e7cdcbaae03d9ddb810a3ad06c3377",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-04-04 11_13_12.568989343.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+      "independent_review_file_sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    }
+  ],
+  "old_group_clean_original_metadata_preserved": true,
+  "human_signoff": false
+}

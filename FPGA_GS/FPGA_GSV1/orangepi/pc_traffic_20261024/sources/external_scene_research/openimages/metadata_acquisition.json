@@ -1,0 +1,27 @@
+[
+  {
+    "path": "sources\\external_scene_research\\openimages\\official_download.html",
+    "url": "https://storage.googleapis.com/openimages/web/download_v7.html",
+    "status": 200,
+    "bytes": 76552,
+    "sha256": "6d71544e85e5205878573bf489736927e9cc2c552e56878b5c8ff3a24803954a"
+  },
+  {
+    "path": "sources\\external_scene_research\\openimages\\classes.csv",
+    "url": "https://storage.googleapis.com/openimages/v5/class-descriptions-boxable.csv",
+    "status": 200,
+    "bytes": 12011,
+    "sha256": "2fa47fb1b87e71c90b9fbee2dc1184eb8c59601bb811ea4424b200653cedff8e"
+  },
+  {
+    "path": "sources\\external_scene_research\\openimages\\validation-images.csv",
+    "url": "https://storage.googleapis.com/openimages/2018_04/validation/validation-images-with-rotation.csv",
+    "status": 200,
+    "bytes": 15245485,
+    "sha256": "ed93a0e121fe345effdfc7359b848dbc64a1ff6778c8c73563157cb500b33a17"
+  },
+  {
+    "url": "https://storage.googleapis.com/openimages/v6/oidv6-validation-annotations-bbox.csv",
+    "error": "403 Client Error: Forbidden for url: https://storage.googleapis.com/openimages/v6/oidv6-validation-annotations-bbox.csv"
+  }
+]

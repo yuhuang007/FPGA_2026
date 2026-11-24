@@ -1,0 +1,6 @@
+{
+  "mapped_source": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_pixels_source\\build\\CAM1_RAW_E3_3_6_0_20261024_203852_117\\synthesize\\fpga_gsv1_top_syn.vm",
+  "mapped_sha256": "769515317786096f11579c6d1184f0eb753121f6a9aabb38540608b579660cb7",
+  "extracted_module_sha256": "7b90e2933354d2eccae7439a6ec6afcb873e920d7f747bc9378733537e1fe640",
+  "reason": "Use actual synthesized GRS_EN=TRUE INIT=0 for stopped-clock pipeline; keep original geometry and publication expectations; no production RTL changed."
+}

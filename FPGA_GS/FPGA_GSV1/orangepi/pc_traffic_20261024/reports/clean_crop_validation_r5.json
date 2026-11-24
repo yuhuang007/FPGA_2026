@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-25T02:26:21.935115+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_pilot_r5/manifest.json",
+  "pilot_manifest_sha256": "6bebf50924a336a1cf86ce6a4653915ff6a07d9e828af740dc65d55f92aeb882",
+  "passed": true,
+  "originals": 3,
+  "targets": 3,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0058",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.920000264974078e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.765000080122263e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 3.000000106112566e-07,
+      "body_count": 1
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "coco_scene_000000520009_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0058_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0065_clean01.png",
+        "targets": 1
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true
+}

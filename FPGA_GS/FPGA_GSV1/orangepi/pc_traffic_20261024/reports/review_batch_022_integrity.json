@@ -1,0 +1,10 @@
+{
+  "integrity_passed": true,
+  "batch": "batch_022",
+  "images": 8,
+  "manifest_sha256": "2407ef3b910f5c1af23079a6c313e654657fb8d19a6cf371bd88975cbb52194d",
+  "errors": [],
+  "visual_review_passed": false,
+  "human_signoff": false,
+  "training_approval": false
+}

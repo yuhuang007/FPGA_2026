@@ -1,0 +1,476 @@
+{
+  "schema_version": "0.1",
+  "recorded_at": "2026-10-25T07:54:45.133651+00:00",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "diagnostic_attempt_completed": true,
+  "passed": false,
+  "original_strict_numeric_passed": false,
+  "earliest_significant_operator_located": false,
+  "onnx_sha256": "ed944ebfeab6574b17577a57306e0017d751d992b5ad865723b1d5986c67ece2",
+  "rknn_sha256": "fbf48333ee9d15a33078b83580013c72e313ae6f877e195500052479e7b81fc8",
+  "checkpoint_sha256": "79ed89a50fe7b78de454a6d157b51cadc3392ac54a988ec6c3ea67fd391e771d",
+  "original_fixed_thresholds_unchanged": {
+    "raw_head_max_abs": 0.05,
+    "cpu_activated_score_max_abs": 0.001,
+    "decoded_box_max_abs_input_px": 0.5,
+    "paired_iou_median_min": 0.99
+  },
+  "original_r1_report": {
+    "path": "reports/trained_logits_rknn_candidate_r1.json",
+    "sha256": "aa3dc853a4db651a7e6add7d332543e90c9c5c35204158d1341c97aa38d29995"
+  },
+  "original_board_raw_report": {
+    "path": "board_validation/trained_logits_candidate_r1_20261025/remote_results/reports/candidate_report.json",
+    "sha256": "2d601c33ca1bfcca5a703fae575c56e1706e8e68f3e8f364e6b58c5a03bdea18"
+  },
+  "selected_fixture": "s2tld720_000000",
+  "selection_reason": "Unique maximum across all8 fixtures for raw-head maximum, activated-score maximum, and decoded-box maximum. Other8-fixture rows below are read-only summaries of existing evidence, not new executions.",
+  "selected_input": {
+    "path": "artifacts/public_body_r1_trained_logits_r1/fixtures/s2tld720_000000_rgb_u8.npy",
+    "sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778"
+  },
+  "selected_ONNX_reference": {
+    "path": "artifacts/public_body_r1_trained_logits_r1/fixtures/s2tld720_000000_onnx_raw.npz",
+    "sha256": "7874600c963b12c3436abc3e69cb7c88385be88e5586d7c3a74d9134369ad3ab"
+  },
+  "selected_existing_NPU_outputs": {
+    "path": "board_validation/trained_logits_candidate_r1_20261025/remote_results/actual/s2tld720_000000_rknn_raw.npz",
+    "sha256": "33426825ac87d61ef2c57973979deed8b216a2e918cfa33d8d1b1e51b4cf3e9e"
+  },
+  "per_fixture_per_head_summary": [
+    {
+      "fixture": "s2tld720_000000",
+      "raw_head_max_abs": {
+        "box_s8": 0.10091018676757812,
+        "class_logits_s8": 0.10907363891601562,
+        "box_s16": 0.135833740234375,
+        "class_logits_s16": 0.1188516616821289,
+        "box_s32": 0.17654633522033691,
+        "class_logits_s32": 0.23804378509521484
+      },
+      "score_max_abs": 0.013121551831050127,
+      "decoded_box_max_abs_input_px": 4.773684606947015,
+      "paired_iou_median": 0.9968777911895468,
+      "passed": false
+    },
+    {
+      "fixture": "tlony_adrian-williams-AU07BMLW1NA-unsplash",
+      "raw_head_max_abs": {
+        "box_s8": 0.1373577117919922,
+        "class_logits_s8": 0.11786937713623047,
+        "box_s16": 0.10902643203735352,
+        "class_logits_s16": 0.10593509674072266,
+        "box_s32": 0.09584379196166992,
+        "class_logits_s32": 0.04327678680419922
+      },
+      "score_max_abs": 0.0025715009059604638,
+      "decoded_box_max_abs_input_px": 3.282804870765773,
+      "paired_iou_median": 0.9956551742485834,
+      "passed": false
+    },
+    {
+      "fixture": "coco_scene_000000015272",
+      "raw_head_max_abs": {
+        "box_s8": 0.09544086456298828,
+        "class_logits_s8": 0.06508827209472656,
+        "box_s16": 0.11195778846740723,
+        "class_logits_s16": 0.055135250091552734,
+        "box_s32": 0.15630149841308594,
+        "class_logits_s32": 0.03509330749511719
+      },
+      "score_max_abs": 3.438910819101367e-05,
+      "decoded_box_max_abs_input_px": 2.2491558274439285,
+      "paired_iou_median": 0.9963157208798674,
+      "passed": false
+    },
+    {
+      "fixture": "GREEN_full",
+      "raw_head_max_abs": {
+        "box_s8": 0.09532737731933594,
+        "class_logits_s8": 0.12229347229003906,
+        "box_s16": 0.1428847312927246,
+        "class_logits_s16": 0.08835411071777344,
+        "box_s32": 0.05047798156738281,
+        "class_logits_s32": 0.03585243225097656
+      },
+      "score_max_abs": 0.00870785523649828,
+      "decoded_box_max_abs_input_px": 3.4250701925658404,
+      "paired_iou_median": 0.9975449357357823,
+      "passed": false
+    },
+    {
+      "fixture": "GREEN_left_half",
+      "raw_head_max_abs": {
+        "box_s8": 0.08671379089355469,
+        "class_logits_s8": 0.0986471176147461,
+        "box_s16": 0.11953616142272949,
+        "class_logits_s16": 0.0657510757446289,
+        "box_s32": 0.06316471099853516,
+        "class_logits_s32": 0.026859283447265625
+      },
+      "score_max_abs": 0.010461496285453398,
+      "decoded_box_max_abs_input_px": 2.1151281324123943,
+      "paired_iou_median": 0.997572290227489,
+      "passed": false
+    },
+    {
+      "fixture": "RED_full",
+      "raw_head_max_abs": {
+        "box_s8": 0.11169242858886719,
+        "class_logits_s8": 0.10180902481079102,
+        "box_s16": 0.13840818405151367,
+        "class_logits_s16": 0.09653091430664062,
+        "box_s32": 0.06729936599731445,
+        "class_logits_s32": 0.043137550354003906
+      },
+      "score_max_abs": 0.0011031958210397583,
+      "decoded_box_max_abs_input_px": 4.480868182976678,
+      "paired_iou_median": 0.9972889960773551,
+      "passed": false
+    },
+    {
+      "fixture": "RED_left_half",
+      "raw_head_max_abs": {
+        "box_s8": 0.1063375473022461,
+        "class_logits_s8": 0.0933828353881836,
+        "box_s16": 0.10352921485900879,
+        "class_logits_s16": 0.058696746826171875,
+        "box_s32": 0.10707283020019531,
+        "class_logits_s32": 0.04100990295410156
+      },
+      "score_max_abs": 0.0009095144768894725,
+      "decoded_box_max_abs_input_px": 3.4867249682475006,
+      "paired_iou_median": 0.9972725543173311,
+      "passed": false
+    },
+    {
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "raw_head_max_abs": {
+        "box_s8": 0.07008934020996094,
+        "class_logits_s8": 0.045271873474121094,
+        "box_s16": 0.05214977264404297,
+        "class_logits_s16": 0.033390045166015625,
+        "box_s32": 0.02434515953063965,
+        "class_logits_s32": 0.014575004577636719
+      },
+      "score_max_abs": 1.7241228164799208e-05,
+      "decoded_box_max_abs_input_px": 1.195655919019714,
+      "paired_iou_median": 0.9973292133583038,
+      "passed": false
+    }
+  ],
+  "summary_csv": {
+    "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/head_fixture_summary.csv",
+    "sha256": "1737af02fdc827587da506b65455bc587bd949c3793afc4bc3739b8344cc0798"
+  },
+  "selected_terminal_heads": [
+    {
+      "name": "box_s8",
+      "shape": [
+        1,
+        64,
+        80,
+        80
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -9.338412284851074,
+        11.987854957580566
+      ],
+      "actual_range": [
+        -9.359375,
+        11.96875
+      ],
+      "count": 409600,
+      "max_abs": 0.10091018676757812,
+      "mean_abs": 0.0070733034274667265,
+      "rmse": 0.00963230622574912,
+      "p50_abs": 0.005215644836425781,
+      "p95_abs": 0.01952888965606689,
+      "p99_abs": 0.029654678106308036,
+      "p99.9_abs": 0.04791774845123298,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv2.0/cv2.0.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 181
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    },
+    {
+      "name": "class_logits_s8",
+      "shape": [
+        1,
+        2,
+        80,
+        80
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -18.501480102539062,
+        1.1841306686401367
+      ],
+      "actual_range": [
+        -18.46875,
+        1.1767578125
+      ],
+      "count": 12800,
+      "max_abs": 0.10907363891601562,
+      "mean_abs": 0.015340645294636489,
+      "rmse": 0.02106080331826542,
+      "p50_abs": 0.010751485824584961,
+      "p95_abs": 0.04526634216308592,
+      "p99_abs": 0.06460320472717286,
+      "p99.9_abs": 0.0850822129249576,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv3.0/cv3.0.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 188
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    },
+    {
+      "name": "box_s16",
+      "shape": [
+        1,
+        64,
+        40,
+        40
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -9.455592155456543,
+        12.463001251220703
+      ],
+      "actual_range": [
+        -9.453125,
+        12.4609375
+      ],
+      "count": 102400,
+      "max_abs": 0.135833740234375,
+      "mean_abs": 0.008455698224261142,
+      "rmse": 0.012197589567957624,
+      "p50_abs": 0.005988359451293945,
+      "p95_abs": 0.024575960636138913,
+      "p99_abs": 0.043103480339050156,
+      "p99.9_abs": 0.07291627472639112,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv2.1/cv2.1.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 195
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    },
+    {
+      "name": "class_logits_s16",
+      "shape": [
+        1,
+        2,
+        40,
+        40
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -14.096195220947266,
+        0.45093202590942383
+      ],
+      "actual_range": [
+        -14.09375,
+        0.4365234375
+      ],
+      "count": 3200,
+      "max_abs": 0.1188516616821289,
+      "mean_abs": 0.013635184690356255,
+      "rmse": 0.020357825643216518,
+      "p50_abs": 0.0084381103515625,
+      "p95_abs": 0.045406770706176686,
+      "p99_abs": 0.06977373123168924,
+      "p99.9_abs": 0.10343574714660779,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv3.1/cv3.1.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 202
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    },
+    {
+      "name": "box_s32",
+      "shape": [
+        1,
+        64,
+        20,
+        20
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -9.6846284866333,
+        10.180005073547363
+      ],
+      "actual_range": [
+        -9.671875,
+        10.125
+      ],
+      "count": 25600,
+      "max_abs": 0.17654633522033691,
+      "mean_abs": 0.007886645166581729,
+      "rmse": 0.01532822295493025,
+      "p50_abs": 0.002644777297973633,
+      "p95_abs": 0.03443062305450438,
+      "p99_abs": 0.06388196945190427,
+      "p99.9_abs": 0.10644135999679748,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv2.2/cv2.2.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 209
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    },
+    {
+      "name": "class_logits_s32",
+      "shape": [
+        1,
+        2,
+        20,
+        20
+      ],
+      "dtype": "float32",
+      "reference_range": [
+        -11.23705005645752,
+        -3.1481246948242188
+      ],
+      "actual_range": [
+        -11.2109375,
+        -3.154296875
+      ],
+      "count": 800,
+      "max_abs": 0.23804378509521484,
+      "mean_abs": 0.026215085685253145,
+      "rmse": 0.048616585216865196,
+      "p50_abs": 0.008834004402160645,
+      "p95_abs": 0.12218058109283447,
+      "p99_abs": 0.1942996883392334,
+      "p99.9_abs": 0.2363735122680667,
+      "ONNX_terminal_producer": {
+        "node_name": "/model.22/cv3.2/cv3.2.2/Conv",
+        "op_type": "Conv",
+        "graph_index": 216
+      },
+      "causal_interpretation": "Output boundary only. This terminal producer is not identified as the first erroneous or uniquely responsible operator."
+    }
+  ],
+  "earliest_available_comparison_boundary": "Six final ONNX/NPU raw outputs only; no intermediate ONNX-to-NPU layer pairs were obtained.",
+  "actual_layer_analysis_attempt": {
+    "toolkit": "2.3.2",
+    "load_rknn_returncode": 0,
+    "accuracy_analysis_returncode": -1,
+    "message": "accuracy_analysis: Please load & build model first!",
+    "accuracy_analysis_signature": "(self, inputs, output_dir='./snapshot', target=None, device_id=None)",
+    "arguments": {
+      "inputs": [
+        "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/inputs/fixtures/s2tld720_000000_rgb_u8.npy"
+      ],
+      "output_dir": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_r1/snapshot",
+      "target": "rk3588"
+    },
+    "timeout": false,
+    "snapshots_produced": 0,
+    "NPU_layer_snapshots_obtained": false,
+    "model_load_is_not_layer_analysis_success": true,
+    "limitation": "On this installed Toolkit2, loading the existing exported RKNN is insufficient for accuracy_analysis; it requires load/build state. The previous build object was released after export. No analysis-enabled rebuild was performed under the current no-rebuild scope; a first deviating operator cannot be asserted.",
+    "installed_API": {
+      "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/remote_evidence/installed_api.json",
+      "sha256": "41a60a3cf7e3c30604e44db5ddb87d3c690c0ff677981b51eddef5dfca59ffd7"
+    },
+    "attempt_result": {
+      "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/remote_evidence/attempt_result.json",
+      "sha256": "087023e7d34e25effa33e9d93f9b43551edcefc509627cd5bc1f1d45367d6657"
+    },
+    "actual_log": {
+      "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/remote_evidence/accuracy_analysis.log",
+      "sha256": "88a3e42d335f1aaec9a0af003e71e4c5a50272069466fd093c3763e300a6b27b"
+    },
+    "execution": {
+      "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/remote_evidence/execution.json",
+      "sha256": "f56eb476d06d58aa4ecfe6588c2f39defd15ccc55778160d6639fac917dd6292"
+    },
+    "probe_source": {
+      "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/remote_evidence/probe_existing.py",
+      "sha256": "4f2a459f53294b85d66bb86e11db48db96745c52b1829538cec2cb7a236c2204"
+    }
+  },
+  "FP32_and_mixed_precision_API_facts": {
+    "config_signature": "(self, mean_values=None, std_values=None, quantized_dtype='w8a8', quantized_algorithm='normal', quantized_method='channel', quantized_hybrid_level=0, target_platform=None, quant_img_RGB2BGR=False, float_dtype='float16', optimization_level=3, custom_string=None, remove_weight=False, compress_weight=False, inputs_yuv_fmt=None, single_core_mode=False, dynamic_input=None, model_pruning=False, op_target=None, quantize_weight=False, remove_reshape=False, sparse_infer=False, enable_flash_attention=False, auto_hybrid_cos_thresh=0.98, auto_hybrid_euc_thresh=None, **kwargs)",
+    "float_dtype_documented_allowed_values": [
+      "float16"
+    ],
+    "exact_installed_doc_quote": ":param float_dtype: non quantize data type, currently support: float16, default is float16.",
+    "native_all_NPU_FP32_build_supported_by_inspected_API": false,
+    "FP32_build_attempted": false,
+    "qualification": "No documented float32 mode in the inspected installed API; this is not a claim about every Rockchip SDK/hardware version. No unknown kwargs or alternative build pipeline were tried.",
+    "op_target_documented": ":param op_target: used to specify the target of each operation, the format is {'111':'cpu', '222':'cpu', ...}, default is None.",
+    "op_target_interpretation": "Per-operation CPU placement is documented. It is not a promise of NPU FP32 or an established FP32/FP16 mixed-precision fix; dtype/support/numeric behavior of this graph was not tested.",
+    "hybrid_quantization_APIs": {
+      "hybrid_quantization_step1": "(self, dataset='dataset.txt', rknn_batch_size=None, proposal=False, proposal_dataset_size=1, custom_hybrid=None)",
+      "hybrid_quantization_step2": "(self, model_input, data_input, model_quantization_cfg)"
+    },
+    "hybrid_quantization_interpretation": "These are quantization configuration/rebuild APIs, with calibration dataset arguments. Their existence does not demonstrate arbitrary FP32 layer retention in the current nonquantized RKNN; none was called.",
+    "do_quantization_false_interpretation": "Disables INT8 quantization; does not imply full FP32 NPU computation. The installed float_dtype default is float16."
+  },
+  "selected_fixture_terminal_output_rounding_control": {
+    "path": "board_validation/trained_logits_candidate_r1_20261025/diagnostic_r1/terminal_output_rounding_control.json",
+    "sha256": "279fcae21e83a0dba16e7e0dac5194d89815c67f4c42a52a417e42f0b15501bf"
+  },
+  "rounding_control_summary": {
+    "scope": "Offline selected fixture only: round the already computed FP32 final output tensors to FP16 and back; no weight rounding, model inference or candidate reference replacement.",
+    "raw_rounding_max_abs": 0.0077610015869140625,
+    "score_rounding_max_abs": 9.696108405504722e-05,
+    "decoded_box_rounding_max_abs_input_px": 0.1038066197507419,
+    "actual_NPU_vs_terminal_round_score_max_abs": 0.013106489823590417,
+    "conclusion": "NPU-vs-FP32 discrepancy exceeds a final-output-only rounding control. This rules out final tensor serialization rounding alone as a complete explanation; it does not locate internal error or separate fused-weight rounding, operation accumulation and conversion effects."
+  },
+  "PC_independent_GPU_precision_evidence": {
+    "report": {
+      "path": "reports/trained_fp16_diagnostic_r1.json",
+      "sha256": "28af6aa4a21df6437e47fcba61a1e2f15ddb6331a498bdc524bf4820d1d8fc09"
+    },
+    "executed_by_this_board_review": false,
+    "read_and_bound_to_same_ONNX_checkpoint_and_board_report": true,
+    "reported_maxima": {
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.811981201171875e-05,
+        "cpu_sigmoid_score_max_abs": 1.1305032442121554e-06
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.14734363555908203,
+        "cpu_sigmoid_score_max_abs": 0.004686782368544695
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.12622833251953125,
+        "cpu_sigmoid_score_max_abs": 0.004965012681962838
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.23804378509521484,
+        "cpu_sigmoid_score_max_abs": 0.013121551831050127
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.20703125,
+        "cpu_sigmoid_score_max_abs": 0.017502767135710973
+      }
+    },
+    "interpretation": "PC evidence shows fused-weight half rounding alone can exceed the original0.001 score bound, while GPUhalf and NPU remain materially different. This is a plausible contribution and excludes a simplistic all-backends-equivalent-half explanation, not proof of a unique cause or earliest error layer. FP32 reference is retained."
+  },
+  "root_cause_status": "Not isolated. Existing final outputs establish failure; the available loaded-model layer-analysis attempt cannot expose the first divergence. Neither a specific Conv/Resize/Sigmoid bug nor ordinary FP16 accumulation as the sole cause is proved.",
+  "no_new_build": true,
+  "no_new_material": true,
+  "no_new_inference_fixture": true,
+  "no_parameter_or_version_scan": true,
+  "no_weight_or_export_changes": true,
+  "no_INT8_or_QAT": true,
+  "no_service_or_default_changes": true,
+  "original_candidate_protected_files_checked": 49,
+  "original_candidate_unchanged": true,
+  "remaining_work_if_separately_authorized": "A layer-analysis-capable build session and corresponding snapshots would be needed to locate the first ONNX/NPU intermediate divergence. No such pipeline or CPU-offload/FP32 candidate was executed here.",
+  "recognition_accuracy_verified": false,
+  "deployment_release": false,
+  "final_test_used": false
+}

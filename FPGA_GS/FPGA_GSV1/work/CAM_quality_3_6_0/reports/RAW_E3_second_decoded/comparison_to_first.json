@@ -1,0 +1,224 @@
+{
+  "source_rectangle": [
+    1120,
+    0,
+    16,
+    720
+  ],
+  "capture1": {
+    "frame_id": 490,
+    "crc": "23797d23"
+  },
+  "capture2": {
+    "frame_id": 490,
+    "crc": "91a0e6dc"
+  },
+  "note": "Separate programming epochs; equal frame IDs are not equal physical frames. First cover state unknown; second user reports lens covered throughout freeze.",
+  "channel_comparison": {
+    "R": {
+      "row_mean_correlation": -0.03904078940511086,
+      "mean_absolute_row_mean_change": 8.611284722222223,
+      "row_mean_std_frame1": 8.162186137582758,
+      "row_mean_std_frame2": 8.025904169375723,
+      "top_row_frame1": 325,
+      "top_row_frame2": 398
+    },
+    "G": {
+      "row_mean_correlation": -0.08432454068673624,
+      "mean_absolute_row_mean_change": 3.9052083333333334,
+      "row_mean_std_frame1": 2.7557252893163118,
+      "row_mean_std_frame2": 3.521289144284281,
+      "top_row_frame1": 23,
+      "top_row_frame2": 307
+    },
+    "B": {
+      "row_mean_correlation": 0.005095451201534755,
+      "mean_absolute_row_mean_change": 8.57986111111111,
+      "row_mean_std_frame1": 8.437765554734543,
+      "row_mean_std_frame2": 8.382427634325564,
+      "top_row_frame1": 669,
+      "top_row_frame2": 545
+    }
+  },
+  "channel_one_fraction_comparison": {
+    "0": [
+      0.3910590277777778,
+      0.34913194444444445
+    ],
+    "1": [
+      0.1998263888888889,
+      0.17673611111111112
+    ],
+    "2": [
+      0.04079861111111111,
+      0.04097222222222222
+    ],
+    "3": [
+      0.0,
+      8.680555555555556e-05
+    ],
+    "4": [
+      0.0,
+      0.0
+    ],
+    "5": [
+      0.5184895833333333,
+      0.5097222222222222
+    ],
+    "6": [
+      0.24027777777777778,
+      0.4173611111111111
+    ],
+    "7": [
+      0.00859375,
+      0.04505208333333333
+    ],
+    "8": [
+      0.0,
+      0.00078125
+    ],
+    "9": [
+      0.0,
+      0.0
+    ],
+    "10": [
+      0.0,
+      0.0
+    ],
+    "11": [
+      0.38524305555555555,
+      0.35737847222222224
+    ],
+    "12": [
+      0.2328125,
+      0.1795138888888889
+    ],
+    "13": [
+      0.03411458333333333,
+      0.03706597222222222
+    ],
+    "14": [
+      0.0,
+      0.0
+    ],
+    "15": [
+      0.0,
+      0.0
+    ]
+  },
+  "changed_pixel_count": 11002,
+  "total_pixels": 11520,
+  "strongest_colored_rows_frame2": [
+    {
+      "source_y": 545.0,
+      "R_mean": 24.8125,
+      "G_mean": 0.0,
+      "B_mean": 48.0,
+      "R_std": 8.640158780369722,
+      "G_std": 0.0,
+      "B_std": 2.6457513110645907
+    },
+    {
+      "source_y": 546.0,
+      "R_mean": 16.5,
+      "G_mean": 0.25,
+      "B_mean": 48.0,
+      "R_std": 5.267826876426369,
+      "G_std": 0.9682458365518543,
+      "B_std": 2.6457513110645907
+    },
+    {
+      "source_y": 288.0,
+      "R_mean": 25.9375,
+      "G_mean": 1.75,
+      "B_mean": 39.375,
+      "R_std": 6.905330821184457,
+      "G_std": 2.436698586202241,
+      "B_std": 7.841197293781097
+    },
+    {
+      "source_y": 544.0,
+      "R_mean": 24.875,
+      "G_mean": 0.0,
+      "B_mean": 37.5,
+      "R_std": 9.143816216438298,
+      "G_std": 0.0,
+      "B_std": 3.968626966596886
+    },
+    {
+      "source_y": 398.0,
+      "R_mean": 36.4375,
+      "G_mean": 0.0,
+      "B_mean": 22.0,
+      "R_std": 5.024549109124121,
+      "G_std": 0.0,
+      "B_std": 3.4641016151377544
+    },
+    {
+      "source_y": 658.0,
+      "R_mean": 29.9375,
+      "G_mean": 0.0,
+      "B_mean": 35.875,
+      "R_std": 7.223821270629555,
+      "G_std": 0.0,
+      "B_std": 5.818880906153691
+    },
+    {
+      "source_y": 399.0,
+      "R_mean": 35.5,
+      "G_mean": 0.0,
+      "B_mean": 32.375,
+      "R_std": 3.7080992435478315,
+      "G_std": 0.0,
+      "B_std": 3.7059917700933984
+    },
+    {
+      "source_y": 289.0,
+      "R_mean": 21.375,
+      "G_mean": 1.75,
+      "B_mean": 36.875,
+      "R_std": 9.353308238265218,
+      "G_std": 1.984313483298443,
+      "B_std": 5.925316447245666
+    }
+  ],
+  "most_green_row_frame2": {
+    "source_y": 307.0,
+    "R_mean": 0.0,
+    "R_std": 0.0,
+    "R_min": 0.0,
+    "R_max": 0.0,
+    "G_mean": 23.5,
+    "G_std": 4.873397172404482,
+    "G_min": 16.0,
+    "G_max": 32.0,
+    "B_mean": 0.0,
+    "B_std": 0.0,
+    "B_min": 0.0,
+    "B_max": 0.0,
+    "color_span": 23.5,
+    "dominant_channel": "G",
+    "bit0_one_fraction": 0.0,
+    "bit1_one_fraction": 0.0,
+    "bit2_one_fraction": 0.0,
+    "bit3_one_fraction": 0.0,
+    "bit4_one_fraction": 0.0,
+    "bit5_one_fraction": 0.5,
+    "bit6_one_fraction": 0.4375,
+    "bit7_one_fraction": 0.875,
+    "bit8_one_fraction": 0.125,
+    "bit9_one_fraction": 0.0,
+    "bit10_one_fraction": 0.0,
+    "bit11_one_fraction": 0.0,
+    "bit12_one_fraction": 0.0,
+    "bit13_one_fraction": 0.0,
+    "bit14_one_fraction": 0.0,
+    "bit15_one_fraction": 0.0
+  },
+  "limits": [
+    "Only two16-pixel-wide strips, separated by reprogramming; not continuous temporal capture.",
+    "Different exposure/gain or AE startup may contribute; frame-specific register values are not exported.",
+    "Low correlation does not rule out a smaller fixed-pattern component.",
+    "Colored rows beforeDDR cannot distinguish sensor/ISP from pattern-dependent DVP sampling or packing defects."
+  ]
+}

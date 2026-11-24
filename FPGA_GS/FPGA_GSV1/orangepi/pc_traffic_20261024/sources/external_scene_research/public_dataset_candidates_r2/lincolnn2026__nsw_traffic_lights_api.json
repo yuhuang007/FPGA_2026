@@ -1,0 +1,32 @@
+{
+  "_id": "6995536cdd43fa017f7686c8",
+  "id": "lincolnn2026/nsw_traffic_lights",
+  "author": "lincolnn2026",
+  "sha": "39e93d69176e7410322b44747a557d04160e20f2",
+  "lastModified": "2026-02-18T05:54:27.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 19,
+  "likes": 0,
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "nsw_traffic_lights.zip"
+    }
+  ],
+  "createdAt": "2026-02-18T05:51:40.000Z",
+  "usedStorage": 190332083
+}

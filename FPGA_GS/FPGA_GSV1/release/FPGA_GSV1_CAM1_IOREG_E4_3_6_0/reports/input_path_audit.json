@@ -1,0 +1,1007 @@
+{
+  "paths": [
+    {
+      "port": "cmos2_data[5]",
+      "endpoint": "cmos2_d_d0[5]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.25
+    },
+    {
+      "port": "cmos2_data[7]",
+      "endpoint": "cmos2_d_d0[7]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.246
+    },
+    {
+      "port": "cmos2_data[4]",
+      "endpoint": "cmos2_d_d0[4]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.244
+    },
+    {
+      "port": "cmos2_data[6]",
+      "endpoint": "cmos2_d_d0[6]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.244
+    },
+    {
+      "port": "cmos2_data[1]",
+      "endpoint": "cmos2_d_d0[1]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.224
+    },
+    {
+      "port": "cmos2_data[2]",
+      "endpoint": "cmos2_d_d0[2]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.223
+    },
+    {
+      "port": "cmos2_data[0]",
+      "endpoint": "cmos2_d_d0[0]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.219
+    },
+    {
+      "port": "cmos2_data[3]",
+      "endpoint": "cmos2_d_d0[3]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 2.213
+    },
+    {
+      "port": "cmos2_href",
+      "endpoint": "cmos2_href_d0/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.46
+    },
+    {
+      "port": "cmos2_vsync",
+      "endpoint": "cmos2_vsync_d0/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.459
+    },
+    {
+      "port": "cmos2_vsync",
+      "endpoint": "cmos2_vsync_d0/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.139
+    },
+    {
+      "port": "cmos2_href",
+      "endpoint": "cmos2_href_d0/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.14
+    },
+    {
+      "port": "cmos2_data[3]",
+      "endpoint": "cmos2_d_d0[3]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.311
+    },
+    {
+      "port": "cmos2_data[0]",
+      "endpoint": "cmos2_d_d0[0]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.317
+    },
+    {
+      "port": "cmos2_data[2]",
+      "endpoint": "cmos2_d_d0[2]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.321
+    },
+    {
+      "port": "cmos2_data[1]",
+      "endpoint": "cmos2_d_d0[1]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.322
+    },
+    {
+      "port": "cmos2_data[4]",
+      "endpoint": "cmos2_d_d0[4]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.342
+    },
+    {
+      "port": "cmos2_data[6]",
+      "endpoint": "cmos2_d_d0[6]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.342
+    },
+    {
+      "port": "cmos2_data[7]",
+      "endpoint": "cmos2_d_d0[7]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.344
+    },
+    {
+      "port": "cmos2_data[5]",
+      "endpoint": "cmos2_d_d0[5]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "slow",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.348
+    },
+    {
+      "port": "cmos2_data[5]",
+      "endpoint": "cmos2_d_d0[5]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.588
+    },
+    {
+      "port": "cmos2_data[7]",
+      "endpoint": "cmos2_d_d0[7]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.584
+    },
+    {
+      "port": "cmos2_data[4]",
+      "endpoint": "cmos2_d_d0[4]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.582
+    },
+    {
+      "port": "cmos2_data[6]",
+      "endpoint": "cmos2_d_d0[6]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.582
+    },
+    {
+      "port": "cmos2_data[1]",
+      "endpoint": "cmos2_d_d0[1]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.562
+    },
+    {
+      "port": "cmos2_data[2]",
+      "endpoint": "cmos2_d_d0[2]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.561
+    },
+    {
+      "port": "cmos2_data[0]",
+      "endpoint": "cmos2_d_d0[0]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.557
+    },
+    {
+      "port": "cmos2_data[3]",
+      "endpoint": "cmos2_d_d0[3]/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.551
+    },
+    {
+      "port": "cmos2_href",
+      "endpoint": "cmos2_href_d0/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.011
+    },
+    {
+      "port": "cmos2_vsync",
+      "endpoint": "cmos2_vsync_d0/opit_0_IQ/I",
+      "kind": "max",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 1.01
+    },
+    {
+      "port": "cmos2_vsync",
+      "endpoint": "cmos2_vsync_d0/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.827
+    },
+    {
+      "port": "cmos2_href",
+      "endpoint": "cmos2_href_d0/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "r",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.828
+    },
+    {
+      "port": "cmos2_data[3]",
+      "endpoint": "cmos2_d_d0[3]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.943
+    },
+    {
+      "port": "cmos2_data[0]",
+      "endpoint": "cmos2_d_d0[0]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.949
+    },
+    {
+      "port": "cmos2_data[2]",
+      "endpoint": "cmos2_d_d0[2]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.953
+    },
+    {
+      "port": "cmos2_data[1]",
+      "endpoint": "cmos2_d_d0[1]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.954
+    },
+    {
+      "port": "cmos2_data[4]",
+      "endpoint": "cmos2_d_d0[4]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.974
+    },
+    {
+      "port": "cmos2_data[6]",
+      "endpoint": "cmos2_d_d0[6]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.974
+    },
+    {
+      "port": "cmos2_data[7]",
+      "endpoint": "cmos2_d_d0[7]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.976
+    },
+    {
+      "port": "cmos2_data[5]",
+      "endpoint": "cmos2_d_d0[5]/opit_0_IQ/I",
+      "kind": "min",
+      "corner": "fast",
+      "input_transition": "f",
+      "capture_clock_edge": "r",
+      "delay_ns": 0.98
+    }
+  ],
+  "clocks": [
+    {
+      "register": "cmos2_vsync_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.245
+    },
+    {
+      "register": "cmos2_href_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.245
+    },
+    {
+      "register": "cmos2_d_d0[0]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.254
+    },
+    {
+      "register": "cmos2_d_d0[4]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.254
+    },
+    {
+      "register": "cmos2_d_d0[1]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.218
+    },
+    {
+      "register": "cmos2_d_d0[5]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.206
+    },
+    {
+      "register": "cmos2_d_d0[2]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.218
+    },
+    {
+      "register": "cmos2_d_d0[3]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.206
+    },
+    {
+      "register": "cmos2_d_d0[7]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.206
+    },
+    {
+      "register": "cmos2_d_d0[6]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "slow",
+      "delay_ns": 6.206
+    },
+    {
+      "register": "cmos2_d_d0[6]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.544
+    },
+    {
+      "register": "cmos2_d_d0[7]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.544
+    },
+    {
+      "register": "cmos2_d_d0[3]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.544
+    },
+    {
+      "register": "cmos2_d_d0[5]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.544
+    },
+    {
+      "register": "cmos2_d_d0[2]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.555
+    },
+    {
+      "register": "cmos2_d_d0[1]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.555
+    },
+    {
+      "register": "cmos2_d_d0[4]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.591
+    },
+    {
+      "register": "cmos2_vsync_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.582
+    },
+    {
+      "register": "cmos2_href_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.582
+    },
+    {
+      "register": "cmos2_d_d0[0]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "slow",
+      "delay_ns": 5.591
+    },
+    {
+      "register": "cmos2_vsync_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.901
+    },
+    {
+      "register": "cmos2_href_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.901
+    },
+    {
+      "register": "cmos2_d_d0[0]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.908
+    },
+    {
+      "register": "cmos2_d_d0[4]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.908
+    },
+    {
+      "register": "cmos2_d_d0[1]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.877
+    },
+    {
+      "register": "cmos2_d_d0[5]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.869
+    },
+    {
+      "register": "cmos2_d_d0[2]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.877
+    },
+    {
+      "register": "cmos2_d_d0[3]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.869
+    },
+    {
+      "register": "cmos2_d_d0[7]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.869
+    },
+    {
+      "register": "cmos2_d_d0[6]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "max",
+      "corner": "fast",
+      "delay_ns": 3.869
+    },
+    {
+      "register": "cmos2_d_d0[6]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.513
+    },
+    {
+      "register": "cmos2_d_d0[7]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.513
+    },
+    {
+      "register": "cmos2_d_d0[3]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.513
+    },
+    {
+      "register": "cmos2_d_d0[5]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.513
+    },
+    {
+      "register": "cmos2_d_d0[2]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.521
+    },
+    {
+      "register": "cmos2_d_d0[1]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.521
+    },
+    {
+      "register": "cmos2_d_d0[4]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.552
+    },
+    {
+      "register": "cmos2_vsync_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.544
+    },
+    {
+      "register": "cmos2_href_d0",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.544
+    },
+    {
+      "register": "cmos2_d_d0[0]",
+      "mapped_clock_pin": "opit_0_IQ/SYSCLK",
+      "kind": "min",
+      "corner": "fast",
+      "delay_ns": 3.552
+    }
+  ],
+  "io_datasheet": [
+    {
+      "port": "cmos2_data[0]",
+      "corner": "slow",
+      "setup_ns": -3.084,
+      "hold_ns": 5.331
+    },
+    {
+      "port": "cmos2_data[0]",
+      "corner": "fast",
+      "setup_ns": -1.716,
+      "hold_ns": 3.32
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "slow",
+      "setup_ns": -3.043,
+      "hold_ns": 5.29
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "fast",
+      "setup_ns": -1.68,
+      "hold_ns": 3.284
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "slow",
+      "setup_ns": -3.044,
+      "hold_ns": 5.291
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "fast",
+      "setup_ns": -1.681,
+      "hold_ns": 3.285
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "slow",
+      "setup_ns": -3.043,
+      "hold_ns": 5.289
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "fast",
+      "setup_ns": -1.683,
+      "hold_ns": 3.287
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "slow",
+      "setup_ns": -3.059,
+      "hold_ns": 5.306
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "fast",
+      "setup_ns": -1.691,
+      "hold_ns": 3.295
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "slow",
+      "setup_ns": -3.006,
+      "hold_ns": 5.252
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "fast",
+      "setup_ns": -1.646,
+      "hold_ns": 3.25
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "slow",
+      "setup_ns": -3.012,
+      "hold_ns": 5.258
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "fast",
+      "setup_ns": -1.652,
+      "hold_ns": 3.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "slow",
+      "setup_ns": -3.01,
+      "hold_ns": 5.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "fast",
+      "setup_ns": -1.65,
+      "hold_ns": 3.254
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "slow",
+      "setup_ns": -3.863,
+      "hold_ns": 5.475
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "fast",
+      "setup_ns": -2.277,
+      "hold_ns": 3.415
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "slow",
+      "setup_ns": -3.864,
+      "hold_ns": 5.476
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "fast",
+      "setup_ns": -2.278,
+      "hold_ns": 3.416
+    }
+  ],
+  "combined": [
+    {
+      "port": "cmos2_data[0]",
+      "corner": "slow",
+      "data_min_ns": 1.317,
+      "data_max_ns": 2.219,
+      "clock_early_ns": 5.591,
+      "clock_late_ns": 6.254,
+      "pad_setup_ns": -3.084,
+      "pad_hold_ns": 5.331
+    },
+    {
+      "port": "cmos2_data[0]",
+      "corner": "fast",
+      "data_min_ns": 0.949,
+      "data_max_ns": 1.557,
+      "clock_early_ns": 3.552,
+      "clock_late_ns": 3.908,
+      "pad_setup_ns": -1.716,
+      "pad_hold_ns": 3.32
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "slow",
+      "data_min_ns": 1.322,
+      "data_max_ns": 2.224,
+      "clock_early_ns": 5.555,
+      "clock_late_ns": 6.218,
+      "pad_setup_ns": -3.043,
+      "pad_hold_ns": 5.29
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "fast",
+      "data_min_ns": 0.954,
+      "data_max_ns": 1.562,
+      "clock_early_ns": 3.521,
+      "clock_late_ns": 3.877,
+      "pad_setup_ns": -1.68,
+      "pad_hold_ns": 3.284
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "slow",
+      "data_min_ns": 1.321,
+      "data_max_ns": 2.223,
+      "clock_early_ns": 5.555,
+      "clock_late_ns": 6.218,
+      "pad_setup_ns": -3.044,
+      "pad_hold_ns": 5.291
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "fast",
+      "data_min_ns": 0.953,
+      "data_max_ns": 1.561,
+      "clock_early_ns": 3.521,
+      "clock_late_ns": 3.877,
+      "pad_setup_ns": -1.681,
+      "pad_hold_ns": 3.285
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "slow",
+      "data_min_ns": 1.311,
+      "data_max_ns": 2.213,
+      "clock_early_ns": 5.544,
+      "clock_late_ns": 6.206,
+      "pad_setup_ns": -3.043,
+      "pad_hold_ns": 5.289
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "fast",
+      "data_min_ns": 0.943,
+      "data_max_ns": 1.551,
+      "clock_early_ns": 3.513,
+      "clock_late_ns": 3.869,
+      "pad_setup_ns": -1.683,
+      "pad_hold_ns": 3.287
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "slow",
+      "data_min_ns": 1.342,
+      "data_max_ns": 2.244,
+      "clock_early_ns": 5.591,
+      "clock_late_ns": 6.254,
+      "pad_setup_ns": -3.059,
+      "pad_hold_ns": 5.306
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "fast",
+      "data_min_ns": 0.974,
+      "data_max_ns": 1.582,
+      "clock_early_ns": 3.552,
+      "clock_late_ns": 3.908,
+      "pad_setup_ns": -1.691,
+      "pad_hold_ns": 3.295
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "slow",
+      "data_min_ns": 1.348,
+      "data_max_ns": 2.25,
+      "clock_early_ns": 5.544,
+      "clock_late_ns": 6.206,
+      "pad_setup_ns": -3.006,
+      "pad_hold_ns": 5.252
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "fast",
+      "data_min_ns": 0.98,
+      "data_max_ns": 1.588,
+      "clock_early_ns": 3.513,
+      "clock_late_ns": 3.869,
+      "pad_setup_ns": -1.646,
+      "pad_hold_ns": 3.25
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "slow",
+      "data_min_ns": 1.342,
+      "data_max_ns": 2.244,
+      "clock_early_ns": 5.544,
+      "clock_late_ns": 6.206,
+      "pad_setup_ns": -3.012,
+      "pad_hold_ns": 5.258
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "fast",
+      "data_min_ns": 0.974,
+      "data_max_ns": 1.582,
+      "clock_early_ns": 3.513,
+      "clock_late_ns": 3.869,
+      "pad_setup_ns": -1.652,
+      "pad_hold_ns": 3.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "slow",
+      "data_min_ns": 1.344,
+      "data_max_ns": 2.246,
+      "clock_early_ns": 5.544,
+      "clock_late_ns": 6.206,
+      "pad_setup_ns": -3.01,
+      "pad_hold_ns": 5.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "fast",
+      "data_min_ns": 0.976,
+      "data_max_ns": 1.584,
+      "clock_early_ns": 3.513,
+      "clock_late_ns": 3.869,
+      "pad_setup_ns": -1.65,
+      "pad_hold_ns": 3.254
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "slow",
+      "data_min_ns": 1.14,
+      "data_max_ns": 1.46,
+      "clock_early_ns": 5.582,
+      "clock_late_ns": 6.245,
+      "pad_setup_ns": -3.863,
+      "pad_hold_ns": 5.475
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "fast",
+      "data_min_ns": 0.828,
+      "data_max_ns": 1.011,
+      "clock_early_ns": 3.544,
+      "clock_late_ns": 3.901,
+      "pad_setup_ns": -2.277,
+      "pad_hold_ns": 3.415
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "slow",
+      "data_min_ns": 1.139,
+      "data_max_ns": 1.459,
+      "clock_early_ns": 5.582,
+      "clock_late_ns": 6.245,
+      "pad_setup_ns": -3.864,
+      "pad_hold_ns": 5.476
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "fast",
+      "data_min_ns": 0.827,
+      "data_max_ns": 1.01,
+      "clock_early_ns": 3.544,
+      "clock_late_ns": 3.901,
+      "pad_setup_ns": -2.278,
+      "pad_hold_ns": 3.416
+    }
+  ],
+  "comparison": {
+    "baseline": {
+      "slow": {
+        "min_ns": 2.628,
+        "max_ns": 4.564,
+        "span_ns": 1.936
+      },
+      "fast": {
+        "min_ns": 1.893,
+        "max_ns": 3.054,
+        "span_ns": 1.1609999999999998
+      }
+    },
+    "candidate": {
+      "slow": {
+        "min_ns": 1.311,
+        "max_ns": 2.25,
+        "span_ns": 0.9390000000000001
+      },
+      "fast": {
+        "min_ns": 0.943,
+        "max_ns": 1.588,
+        "span_ns": 0.6450000000000001
+      }
+    },
+    "baseline_pad_stable_ns": [
+      0.234,
+      3.803
+    ],
+    "candidate_pad_stable_ns": [
+      1.646,
+      5.476
+    ],
+    "source_slack_unknown": true,
+    "clock_and_data_delays_changed_by_pnr": true,
+    "caveat": "Spans include corners/transitions; neither span reduction nor receiver aperture proves sensor pixel correctness or positive source margin."
+  }
+}

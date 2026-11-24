@@ -1,0 +1,78 @@
+{
+  "existing_constraints_met": true,
+  "summaries": [
+    {
+      "summary": "Setup Summary(Slow Corner):",
+      "rows": 16,
+      "worst_slack_ns": 0.07,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Slow Corner):",
+      "rows": 16,
+      "worst_slack_ns": 0.096,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Slow Corner):",
+      "rows": 9,
+      "worst_slack_ns": 3.693,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Slow Corner):",
+      "rows": 9,
+      "worst_slack_ns": 0.353,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Slow Corner):",
+      "rows": 18,
+      "worst_slack_ns": 0.397,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Setup Summary(Fast Corner):",
+      "rows": 16,
+      "worst_slack_ns": 0.312,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Fast Corner):",
+      "rows": 16,
+      "worst_slack_ns": 0.116,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Fast Corner):",
+      "rows": 9,
+      "worst_slack_ns": 4.885,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Fast Corner):",
+      "rows": 9,
+      "worst_slack_ns": 0.351,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Fast Corner):",
+      "rows": 18,
+      "worst_slack_ns": 0.568,
+      "failing_endpoints": 0
+    }
+  ],
+  "resources": {
+    "CLMA": 4629.0,
+    "CLMS": 2965.0,
+    "DRM": 94.5,
+    "PLL": 5.0,
+    "LUT": 22556.0,
+    "FF": 23862.0
+  },
+  "constraints_changed": false,
+  "limits": [
+    "Inherited external PHY PVT/PCB and camera pad electrical-model limits remain.",
+    "Test-pattern hardware result required; this is not a green-line repair."
+  ]
+}

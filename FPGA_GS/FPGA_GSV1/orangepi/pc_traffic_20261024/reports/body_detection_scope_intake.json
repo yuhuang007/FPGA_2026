@@ -1,0 +1,1474 @@
+{
+  "recorded_at": "2026-10-25T05:40:23.461049+00:00",
+  "body_scope_confirmed_ids": [
+    "s2tld1080_0240",
+    "s2tld1080_0242"
+  ],
+  "body_scope_pending_ids": [
+    "s2tld1080_0238",
+    "s2tld1080_0239",
+    "s2tld1080_0245",
+    "s2tld1080_0247",
+    "s2tld1080_0249",
+    "s2tld1080_0251"
+  ],
+  "body_scope_confirmed_images": 2,
+  "invalid_or_in_progress_files": [],
+  "new_whole_image_independent_image_count": 0,
+  "old_full_label_decisions_not_rewritten": true,
+  "auxiliary_disagreements_not_accepted_for_training": true,
+  "reviews": [
+    {
+      "candidate_id": "s2tld1080_0238",
+      "annotation_sha256": "0e6964fa6be47878db1157a65743d3a4df6aea8821bd28109bf7d412d87322cf",
+      "image_sha256": "4b085f10f45e80463b3f684b125611e46d07282a5fff1b14f57c42d034a8634e",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 1,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0238",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0238.jpg",
+        "image_sha256": "4b085f10f45e80463b3f684b125611e46d07282a5fff1b14f57c42d034a8634e",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0238.json",
+        "reviewed_annotation_sha256": "0e6964fa6be47878db1157a65743d3a4df6aea8821bd28109bf7d412d87322cf",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.484859+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [
+          "right"
+        ],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_ignore_ids": [
+          "far"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left"
+        ],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+          "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+          "line": 7
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "er",
+            "conclusion": "绿圆灯框上沿切亮核心。"
+          },
+          {
+            "object": "ef2",
+            "conclusion": "远双红点已向左移动，沿用的ef2框主要落在右侧暗区并裁掉左侧核心；两点都应重定位。"
+          },
+          {
+            "object": "main",
+            "conclusion": "红左箭头、灯壳和文字显示可分别辨认。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "本帧上侧暗色外壳轮廓向右上倾斜，当前y=226水平上沿切入右上方外壳边缘约数个原像素；不是仅emitter小框问题。请按外壳上轮廓核上边界，保留LED文字独立。红箭头及横向多腔结构足以支持motor_vehicle存在/kind，但本次不签当前完整body几何。"
+          },
+          {
+            "object": "right",
+            "scope": "body",
+            "decision": "accept",
+            "conclusion": "独立横壳及圆形信号面可见，当前框基本对应完整可见外壳，未截断或被车辆遮挡；不因灯色可见再认证颜色/通行方向。"
+          },
+          {
+            "object": "far / whole_image",
+            "scope": "ignore_and_omission",
+            "decision": "accept",
+            "conclusion": "远双亮点均被far ignore覆盖，完整壳/kind不足保持unknown。整图及远处上下文已搜索，未确认额外body；下方汽车尾灯不当作交通灯。旧ef2/er问题保留。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "核left上沿对可见外壳的裁切并冻结新bbox；本次不提供替代坐标或放行当前body几何。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_1.jpg",
+            "sha256": "d77b453a2be69544310c0b80a2003650717c2a8e309d607c402186e3a0aa4f52"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_far_compare.png",
+            "sha256": "99eca0bcd28893fd5d929bfb399ec5e40812c31e719357c6571e0a67716ae230"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_left_compare.png",
+            "sha256": "a161fdd25c4c5f2df6a30a8d3bd93bb103d627818f7fb069d429ac9cec1f357b"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_right_compare.png",
+            "sha256": "9666d19a9fe599ef5c62ad4fade11bde643909236d0ffcb6a4e7dd7a1c765697"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_omission_context.png",
+            "sha256": "1f9bf694da63bd1c59cba7039f2150a93b5c5603e6e4522b85275f3b3f003121"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_extra_1330.png",
+            "sha256": "aa2edd1a8eb01b1fa05e45e35e76e51db523b00c994bb8cd1b53be9d38545a91"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0238_specific_bounds_1330.png",
+            "sha256": "5b2330fd3e2bf7b36502159b4e71f6bfbe72dbda5aa6e8b9151b3cf0a380a8fb"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0238",
+        "image": "data/candidate_images/s2tld1080_0238.jpg",
+        "image_sha256": "4b085f10f45e80463b3f684b125611e46d07282a5fff1b14f57c42d034a8634e",
+        "annotation": "review_stage2/first_pass/s2tld1080_0238.json",
+        "annotation_sha256": "0e6964fa6be47878db1157a65743d3a4df6aea8821bd28109bf7d412d87322cf",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:41:37.007556+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+          "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+          "line": 7
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "er",
+            "conclusion": "绿圆灯框上沿切亮核心。"
+          },
+          {
+            "object": "ef2",
+            "conclusion": "远双红点已向左移动，沿用的ef2框主要落在右侧暗区并裁掉左侧核心；两点都应重定位。"
+          },
+          {
+            "object": "main",
+            "conclusion": "红左箭头、灯壳和文字显示可分别辨认。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right"
+        ],
+        "ignore_ids_to_check": [
+          "far"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0239",
+      "annotation_sha256": "0618ed2b6df796759edac809d9f700819060b49a2114b0e21e77999fce9f337e",
+      "image_sha256": "efef825abf5b220c56bb9a5a5a5a349a88f8da508a90cc646b602c310824437e",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 2,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0239",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0239.jpg",
+        "image_sha256": "efef825abf5b220c56bb9a5a5a5a349a88f8da508a90cc646b602c310824437e",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0239.json",
+        "reviewed_annotation_sha256": "0618ed2b6df796759edac809d9f700819060b49a2114b0e21e77999fce9f337e",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.487093+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_ignore_ids": [
+          "far_pair",
+          "far_single"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left",
+          "right"
+        ],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+          "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+          "line": 8
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "ef1/ef2",
+            "conclusion": "far_pair内两点真实位置偏左：ef1框混入右点，ef2框落在右侧暗区并漏掉目标，须逐点重新对应。"
+          },
+          {
+            "object": "near/aux",
+            "conclusion": "近红左箭头、绿圆灯与LED文字分离合理；摄像机补光阵列作为hard_negative，不标交通灯。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "未标原像素与当前框对照显示上侧外壳向右上倾斜，y146上沿切去上侧可见暗边，底部左段外壳也越过y195下沿；完整body框需按实际壳边重核，而非只重画ef。"
+          },
+          {
+            "object": "right",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "motor横壳存在和独立实例成立，但当前上沿也落在上方外壳暗边之内；请以原像素外壳包络核框。未发现源截断或车辆遮挡。"
+          },
+          {
+            "object": "far_pair / far_single / omission",
+            "scope": "ignore_and_omission",
+            "decision": "accept",
+            "conclusion": "两个ignore分别覆盖远双点和单点，unknown范围保护合理。整图补光阵列与LED文字是非灯体装置，不能新增motor/ped；未确认其他body。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "核两个主body的上沿及left下沿，保留原ef1/ef2属性/几何分歧。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_1.jpg",
+            "sha256": "d77b453a2be69544310c0b80a2003650717c2a8e309d607c402186e3a0aa4f52"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_far_pair_compare.png",
+            "sha256": "5f94d1930c96006a47fdb61a2b1cd44fd4dc6eb34bbdf1f1eaa75c0f387b0c0c"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_far_single_compare.png",
+            "sha256": "b2a8c5143e48bff75b4ba13acbe98945bb143936917ce4365813f4ea8fe0d12e"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_left_compare.png",
+            "sha256": "85715020d094a2c10cfd7f3b78b357b16dc95aedfea389a97bc2f26c05705860"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_right_compare.png",
+            "sha256": "4597c4b19e22503a7cef21fbde4ec85f8782693d03848143d1b53c352f530220"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_omission_context.png",
+            "sha256": "4616b2031549bec82edc2c7f6aac280b24dc16f5d41c95117f3c7c43aa35834e"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_extra_1395.png",
+            "sha256": "f39a5e70e95e54edb3ebff261ee19966e399cee1d977f0db8cb9e92de1ea6349"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0239_specific_bounds_1395.png",
+            "sha256": "d69bb6773372ac8debb1082465305745d70856127bbdb12e50c78f3e028206c0"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0239",
+        "image": "data/candidate_images/s2tld1080_0239.jpg",
+        "image_sha256": "efef825abf5b220c56bb9a5a5a5a349a88f8da508a90cc646b602c310824437e",
+        "annotation": "review_stage2/first_pass/s2tld1080_0239.json",
+        "annotation_sha256": "0618ed2b6df796759edac809d9f700819060b49a2114b0e21e77999fce9f337e",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:41:37.059736+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+          "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+          "line": 8
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "ef1/ef2",
+            "conclusion": "far_pair内两点真实位置偏左：ef1框混入右点，ef2框落在右侧暗区并漏掉目标，须逐点重新对应。"
+          },
+          {
+            "object": "near/aux",
+            "conclusion": "近红左箭头、绿圆灯与LED文字分离合理；摄像机补光阵列作为hard_negative，不标交通灯。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right"
+        ],
+        "ignore_ids_to_check": [
+          "far_pair",
+          "far_single"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0240",
+      "annotation_sha256": "29bfe9000ef738a0137411fa4eb7cbcbecb745a00d8ee9e304ceaea290c12877",
+      "image_sha256": "197e77f39f7e44de6f0ba2de8265af4f5cfffce7fd2ce0cb87ea6ecb553fd79d",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 3,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0240",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0240.jpg",
+        "image_sha256": "197e77f39f7e44de6f0ba2de8265af4f5cfffce7fd2ce0cb87ea6ecb553fd79d",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0240.json",
+        "reviewed_annotation_sha256": "29bfe9000ef738a0137411fa4eb7cbcbecb745a00d8ee9e304ceaea290c12877",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.489075+00:00",
+        "body_detection_decision": "accept",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [
+          "left"
+        ],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left"
+        ],
+        "confirmed_ignore_ids": [
+          "truncated_right",
+          "far_pair",
+          "next_main"
+        ],
+        "unconfirmed_current_body_ids": [],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 1
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "en2",
+            "conclusion": "next_main右亮点位于en2框左外，框主要覆盖暗壳，须重定；ef1/ef2也需避免交叉混入另一点。"
+          },
+          {
+            "object": "near",
+            "conclusion": "近红左箭头与截断右灯体可分辨，右侧保留ignore合理，补光阵列不是灯。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body",
+            "decision": "accept",
+            "conclusion": "大横壳及左箭头结构清楚，是一个motor_vehicle实例；源上缘附近仍可辨主体上边轮廓，当前框覆盖完整可见壳体，不把横支杆/LED并作body，未见遮挡。"
+          },
+          {
+            "object": "truncated_right / far_pair / next_main",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "右近头确被源右边截断并保留ignore；远双点、下一横头上下文都在对应ignore内，完整kind/实例不明不增加两类正样本。next_main含上方文本的保守ignore不构成灯面属性认证。"
+          },
+          {
+            "object": "whole_image",
+            "scope": "omission",
+            "decision": "accept",
+            "conclusion": "全景及远处上下文未确认额外遗漏body，车灯及补光装置不作信号灯。原en2/ef小框问题完全保留，本结论仅body检测。"
+          }
+        ],
+        "PC_arbitration_required": [],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_2.jpg",
+            "sha256": "4466f30614289cd57b3a4e52865b6c174b9327c438cc85744d90ad0d8b6a5536"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0240_far_pair_compare.png",
+            "sha256": "d608102d1f18d39972933c4819e3f19d2ddab2e9a678848192299f8cb5ddfc83"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0240_left_compare.png",
+            "sha256": "0398008b45818b4c7fbf40d6576c02cd1e0cc447bdbf06401e7ce0a4c42b3142"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0240_next_main_compare.png",
+            "sha256": "36085e0a6005efb8d3d06717f5ec863bf29edecc5ab7e6c41f363954b7474584"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0240_truncated_right_compare.png",
+            "sha256": "56bb576563464b2ad23106ebda2b149fdf57296407f643e26811a73bae3a9fd6"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0240",
+        "image": "data/candidate_images/s2tld1080_0240.jpg",
+        "image_sha256": "197e77f39f7e44de6f0ba2de8265af4f5cfffce7fd2ce0cb87ea6ecb553fd79d",
+        "annotation": "review_stage2/first_pass/s2tld1080_0240.json",
+        "annotation_sha256": "29bfe9000ef738a0137411fa4eb7cbcbecb745a00d8ee9e304ceaea290c12877",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:43:22.925098+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 1
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "en2",
+            "conclusion": "next_main右亮点位于en2框左外，框主要覆盖暗壳，须重定；ef1/ef2也需避免交叉混入另一点。"
+          },
+          {
+            "object": "near",
+            "conclusion": "近红左箭头与截断右灯体可分辨，右侧保留ignore合理，补光阵列不是灯。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left"
+        ],
+        "ignore_ids_to_check": [
+          "truncated_right",
+          "far_pair",
+          "next_main"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0242",
+      "annotation_sha256": "61dcadb1c8eaa34b065cb919192877fc4220890574067cf1e3028bd38b93e616",
+      "image_sha256": "66d070facfdbd96fd678c5c491b31b175849ec07031dc1590ed94ea96ae5119d",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 4,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0242",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0242.jpg",
+        "image_sha256": "66d070facfdbd96fd678c5c491b31b175849ec07031dc1590ed94ea96ae5119d",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0242.json",
+        "reviewed_annotation_sha256": "61dcadb1c8eaa34b065cb919192877fc4220890574067cf1e3028bd38b93e616",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.491075+00:00",
+        "body_detection_decision": "accept",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_ignore_ids": [
+          "side_left",
+          "side_right"
+        ],
+        "unconfirmed_current_body_ids": [],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 3
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "el/count_l",
+            "conclusion": "左箭头框含右侧数字的一段，数字框漏掉上部/左部；需逐对象重新定位。"
+          },
+          {
+            "object": "er/count_r",
+            "conclusion": "绿圆灯框向右下偏，截亮核心上沿；数字框也偏下。"
+          },
+          {
+            "object": "esg",
+            "conclusion": "侧左下圆灯框偏右下并触上方数字，需单独包住圆灯。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left / right",
+            "scope": "body",
+            "decision": "accept",
+            "conclusion": "原像素4倍局部可见两个分开的横向机动车灯壳，数码显示嵌在各壳内，不拆成额外body。当前小尺寸body框与可见壳体基本对应，不将上方独立LED文本合入，未见截断或遮挡；仅确认kind和body，不重签箭头/数字/颜色。"
+          },
+          {
+            "object": "side_left / side_right",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "两侧亮区与邻接不明壳分别被ignore覆盖；小目标结构/类别不足，不由人形样或圆形样推ped/motor，也不把下方LED竖条当额外body。"
+          },
+          {
+            "object": "whole_image",
+            "scope": "omission",
+            "decision": "accept",
+            "conclusion": "整图和含两侧头的宽上下文已搜索，未确认遗漏可分类body。保持原所有emitter/count分歧和整图needs_modify。"
+          }
+        ],
+        "PC_arbitration_required": [],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_2.jpg",
+            "sha256": "4466f30614289cd57b3a4e52865b6c174b9327c438cc85744d90ad0d8b6a5536"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0242_left_compare.png",
+            "sha256": "24c69f9baf1483d28cd1c01389d1879c76738ed3dcfe253dc3d80b60fdf1df07"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0242_right_compare.png",
+            "sha256": "cb25cc4a2e3112123a174b7425de9e13eba59b78abf2e976d69ca5848211feaa"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0242_side_left_compare.png",
+            "sha256": "abd0539d64db42aaac7076eb67d630d692fc148bf5bf1102a82d734ac88607ec"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0242_side_right_compare.png",
+            "sha256": "fe653a99f10cffd9c0432668dec38c25656ffb398f82279dafdb502ad76dcca5"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0242_omission_context.png",
+            "sha256": "6f7fb8bfbe32e2aa144a5f054d4eff92fe55742f3dbd39cbc2054dbee2b0242a"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0242",
+        "image": "data/candidate_images/s2tld1080_0242.jpg",
+        "image_sha256": "66d070facfdbd96fd678c5c491b31b175849ec07031dc1590ed94ea96ae5119d",
+        "annotation": "review_stage2/first_pass/s2tld1080_0242.json",
+        "annotation_sha256": "61dcadb1c8eaa34b065cb919192877fc4220890574067cf1e3028bd38b93e616",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:44:11.414969+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 3
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "el/count_l",
+            "conclusion": "左箭头框含右侧数字的一段，数字框漏掉上部/左部；需逐对象重新定位。"
+          },
+          {
+            "object": "er/count_r",
+            "conclusion": "绿圆灯框向右下偏，截亮核心上沿；数字框也偏下。"
+          },
+          {
+            "object": "esg",
+            "conclusion": "侧左下圆灯框偏右下并触上方数字，需单独包住圆灯。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right"
+        ],
+        "ignore_ids_to_check": [
+          "side_left",
+          "side_right"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0245",
+      "annotation_sha256": "d84c8cc57c6ed25b33d82750034b4e7bedba9a3ed64220768a2bd5445a0c78ee",
+      "image_sha256": "69174e2f0747cec702d8902b234fbc6b1a8755e6c99109f61ad193ec768b9505",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 5,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0245",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0245.jpg",
+        "image_sha256": "69174e2f0747cec702d8902b234fbc6b1a8755e6c99109f61ad193ec768b9505",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0245.json",
+        "reviewed_annotation_sha256": "d84c8cc57c6ed25b33d82750034b4e7bedba9a3ed64220768a2bd5445a0c78ee",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.492180+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_ignore_ids": [
+          "side",
+          "far_left",
+          "far_right"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left",
+          "right"
+        ],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 6
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "ef2",
+            "conclusion": "far_right绿亮竖核在当前框左侧，框主要落右侧暗背景，需重新对齐，不应据邻帧猜形状。"
+          },
+          {
+            "object": "near/strip",
+            "conclusion": "近绿/红灯和侧红亮区分开；LED竖文字与灯分开。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "左横壳实际右缘在近绿面右侧结束，当前x769右缘明显伸入通向右红头的间隙；须按独立外壳收紧，而非借相邻亮点包成一体。"
+          },
+          {
+            "object": "right",
+            "scope": "body_bounds",
+            "decision": "uncertain",
+            "conclusion": "右侧横壳及独立motor实例可辨，但低分辨/曝光边缘下当前上沿及底部与壳边对应不够明确，本次不将其记为完整几何已确认。不是颜色未知导致body否决。"
+          },
+          {
+            "object": "side / far_left / far_right",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "现有三个ignore覆盖各自亮区及不明头上下文，保留unknown。far_right的旧ef2分歧不因ignore覆盖而变成属性通过。"
+          },
+          {
+            "object": "unlabelled signal-like region near [316,522]",
+            "scope": "omission",
+            "decision": "needs_modify",
+            "conclusion": "补充原像素宽上下文可见近竖杆左侧约[316,522]有青绿亮区及向下暗色头样轮廓，不在far_left[347,505,368,529]或far_right内；与道路下方车灯位置不同。完整body/kind不足，需PC核实并保守ignore，不能按普通负背景出口。坐标只是定位，不是新确认body框。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "核新增近杆左侧头样区域并补ignore或提供排除依据；重核left外壳右缘及right几何，不猜两类。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_3.jpg",
+            "sha256": "55deafbc3760238c9b87b6183571a3fbf52e3dd2f9ea001ed6dc048b73711843"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_far_left_compare.png",
+            "sha256": "e63d610cd8f357203a56783f3cafb93ce3feb6e812a35f01726597242a4bff2c"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_far_right_compare.png",
+            "sha256": "8d460353082b7f3173255a990e5f1378690ffb1566961a2fd98f671e6f238c86"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_left_compare.png",
+            "sha256": "c1b0d52a375b537d840725e7d53364543c56ce4305861adb4560c96e095c6f2b"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_right_compare.png",
+            "sha256": "9de52df456f5865616f7e3a2a51d7dcfdeed4dc93a762103889a61c4153c3703"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_side_compare.png",
+            "sha256": "07545b629b75b3a7410ee6e1226fd4e48417051d950bd1d2b2ff73d9e6c3ef2c"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_omission_context.png",
+            "sha256": "ca68a8118838a8b2a3f21e43344b30667cc533c2943615965ee268d25fecc5ff"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0245_specific_bounds_270.png",
+            "sha256": "8f78d63ddfdf795c25b99cc48da039c5eb0dcc806c9dd96d068191465351dab0"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0245",
+        "image": "data/candidate_images/s2tld1080_0245.jpg",
+        "image_sha256": "69174e2f0747cec702d8902b234fbc6b1a8755e6c99109f61ad193ec768b9505",
+        "annotation": "review_stage2/first_pass/s2tld1080_0245.json",
+        "annotation_sha256": "d84c8cc57c6ed25b33d82750034b4e7bedba9a3ed64220768a2bd5445a0c78ee",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:45:32.627709+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 6
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "ef2",
+            "conclusion": "far_right绿亮竖核在当前框左侧，框主要落右侧暗背景，需重新对齐，不应据邻帧猜形状。"
+          },
+          {
+            "object": "near/strip",
+            "conclusion": "近绿/红灯和侧红亮区分开；LED竖文字与灯分开。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right"
+        ],
+        "ignore_ids_to_check": [
+          "side",
+          "far_left",
+          "far_right"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0247",
+      "annotation_sha256": "288663b10b4b574cc3cc87245d8e83ec53fff74037dc1505ee15a5347a547efa",
+      "image_sha256": "74cbad2f06a0ec5317e8236b595f8449a158c1d700f70cadb159cc3f4622e03f",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 6,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0247",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0247.jpg",
+        "image_sha256": "74cbad2f06a0ec5317e8236b595f8449a158c1d700f70cadb159cc3f4622e03f",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0247.json",
+        "reviewed_annotation_sha256": "288663b10b4b574cc3cc87245d8e83ec53fff74037dc1505ee15a5347a547efa",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.494180+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [
+          "right",
+          "side_red",
+          "side_arrow"
+        ],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right",
+          "side_red",
+          "side_arrow"
+        ],
+        "confirmed_ignore_ids": [
+          "side_pole",
+          "far_left_cluster",
+          "far_right_cluster"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left"
+        ],
+        "unconfirmed_current_ignore_ids": [
+          "back"
+        ],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 8
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "el/count",
+            "conclusion": "el左沿混入数字9右段、count框略偏右上，需按实际箭头和数字分界重定。"
+          },
+          {
+            "object": "esg/side_count",
+            "conclusion": "侧绿箭头框上部触及数字9下缘，数字框偏上且底缘切核心，需分离。"
+          },
+          {
+            "object": "ep",
+            "conclusion": "侧红色人形样式相对可见但当前保持unknown不强增确定性；远cluster有保护。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "当前y334下沿切在主左横壳底部之上，仍有可见暗壳边在框外；需核完整外壳包络。数字9和箭头属于同壳内部，不新增实例。"
+          },
+          {
+            "object": "right / side_red / side_arrow",
+            "scope": "body",
+            "decision": "accept",
+            "conclusion": "主右横头和侧两竖头各有独立可见外壳及机动车圆/箭头形态；侧两个相邻外壳不能因紧邻或bbox轻微相交合并，当前范围基本对应可见壳，未见源截断/车辆遮挡。只确认body，属性未认证。"
+          },
+          {
+            "object": "side_pole / far_left_cluster / far_right_cluster",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "三处现有ignore覆盖各自小亮区和未决头样上下文。side_pole的形状不足以本轮新增ped类别；远cluster内LED不拆灯体。"
+          },
+          {
+            "object": "back",
+            "scope": "ignore_bounds",
+            "decision": "needs_modify",
+            "conclusion": "原像素较宽上下文显示侧背头的最上方遮光罩和上段壳体明显在y443上沿之外；当前ignore主要含中下两罩及下方文字，未保护完整可见不明头。需上移/扩展覆盖实际侧背装置，并与下方警示文字分清；不推motor/ped。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "修正back ignore上方漏罩；核left body底沿。其他已确认范围不代表整图或emitter通过。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_3.jpg",
+            "sha256": "55deafbc3760238c9b87b6183571a3fbf52e3dd2f9ea001ed6dc048b73711843"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_back_compare.png",
+            "sha256": "1a98a372f0ef57a0fe09d7fdaeef6c9f5e1c17dcaddc5f9431e48d4845d5dd27"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_far_left_cluster_compare.png",
+            "sha256": "ed9b95d9f4a7f933d73a30882c07ab403f41865ef514a01855ade3dfdc4577b7"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_far_right_cluster_compare.png",
+            "sha256": "57de8736354de9e2aab5c4c5865e77424c5e63b341b729f31e6e3ed3bed4480c"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_left_compare.png",
+            "sha256": "f84c9e8d87cde193af53b33dcc2b10a53f8b159fbdbbb627853d3ecfb9c662b8"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_right_compare.png",
+            "sha256": "9efe2665420afc33c8391457b5be302cdc832caa0220ea5dda806907f2b90f4d"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_side_arrow_compare.png",
+            "sha256": "bb3228904e72170c7f709637ba3e2964c34154f751c36c152839e188db630207"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_side_pole_compare.png",
+            "sha256": "72b96c24f6e903516070917e1b45889855f06fe891ac208292e9391f3d1f19b2"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_side_red_compare.png",
+            "sha256": "28dbeaaaf140d963fbaee79a8e6a383a95c3bb636c84dcf55d65220ffccbca16"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_extra_390.png",
+            "sha256": "90783c101208f8ed77178d724852fcee6c3b045943d8894edac4c4f88e096902"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_extra_1790.png",
+            "sha256": "9c5d561b19cc355a2d8c0373552017ec5a22edfa3c686d2eefaacf4b162f31d2"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0247_specific_bounds_1790.png",
+            "sha256": "38415731f571fe4f4b9407f76a6d14072240de2cefe260f7a0d997800abd5adb"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0247",
+        "image": "data/candidate_images/s2tld1080_0247.jpg",
+        "image_sha256": "74cbad2f06a0ec5317e8236b595f8449a158c1d700f70cadb159cc3f4622e03f",
+        "annotation": "review_stage2/first_pass/s2tld1080_0247.json",
+        "annotation_sha256": "288663b10b4b574cc3cc87245d8e83ec53fff74037dc1505ee15a5347a547efa",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:47:05.552135+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+          "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+          "line": 8
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "el/count",
+            "conclusion": "el左沿混入数字9右段、count框略偏右上，需按实际箭头和数字分界重定。"
+          },
+          {
+            "object": "esg/side_count",
+            "conclusion": "侧绿箭头框上部触及数字9下缘，数字框偏上且底缘切核心，需分离。"
+          },
+          {
+            "object": "ep",
+            "conclusion": "侧红色人形样式相对可见但当前保持unknown不强增确定性；远cluster有保护。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right",
+          "side_red",
+          "side_arrow"
+        ],
+        "ignore_ids_to_check": [
+          "side_pole",
+          "far_left_cluster",
+          "far_right_cluster",
+          "back"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0249",
+      "annotation_sha256": "834982ca88a1fa6fb821da1a333550432a85062e2db19714eda714c00807dd67",
+      "image_sha256": "c704e0eb34c8c7921eb619da18264dd2fdb21abcfd4560a9a320ec00703385a1",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 7,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0249",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0249.jpg",
+        "image_sha256": "c704e0eb34c8c7921eb619da18264dd2fdb21abcfd4560a9a320ec00703385a1",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0249.json",
+        "reviewed_annotation_sha256": "834982ca88a1fa6fb821da1a333550432a85062e2db19714eda714c00807dd67",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.497180+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right"
+        ],
+        "confirmed_ignore_ids": [
+          "occluded_left",
+          "occluded_side",
+          "far_right"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left",
+          "right"
+        ],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_030_remaining_review.jsonl",
+          "sha256": "5fb0dd25121d4d1a756bafebcbc5958ecb6f5fcc121b12c32896efaaf3a6b2ae",
+          "line": 2
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "ef",
+            "conclusion": "far_right的ef包含下方绿色LED竖条，且上沿切到上方小灯，须仅圈实际灯，竖条作显示/ignore。"
+          },
+          {
+            "object": "occluded_left",
+            "conclusion": "被货车遮挡的红灯仅剩上弧，保留ignore/unknown而不补全完整灯壳合理。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "当前x834右缘落在主左横壳右侧暗边内部，外壳仍向右延伸少量原像素；存在/kind成立但完整外壳几何需重核。"
+          },
+          {
+            "object": "right",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "当前y292上缘切过上方外壳暗边，尤其右上轮廓在框外；需按横壳而非红圆亮面重定。"
+          },
+          {
+            "object": "occluded_left / occluded_side / far_right",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "货车上缘外仅存的左红上弧和右人形样亮区都在ignore内；不补造被遮挡壳。far_right保护上方灯样点及下方不明竖亮区，不能将整个竖条认证为emitter。整图及远处宽上下文未确认额外body。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "核两个主横壳右/上轮廓；保留原ef混入竖条问题，不认证属性或补全遮挡头。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_4.jpg",
+            "sha256": "60bbdf54cd5a86b20e3555ba7fc27c13a93e123c2f676a9453451160a126e29b"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_far_right_compare.png",
+            "sha256": "e378f93800bd72446b739f254ff3719747c63c5527d81a24832d95f9aa8e97a8"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_left_compare.png",
+            "sha256": "dd8e0a442cdb774a69db92fe382a62fdda5ad569754e041d97ad1456a10f8f97"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_occluded_left_compare.png",
+            "sha256": "8ec550568b58f6c7ac779c4e60433d1aa10fab92d18dbffcecf077aeedc3c52e"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_occluded_side_compare.png",
+            "sha256": "dfe4dad35cb52afff21752e07588d609cd0c966f712913a63036780ce391f7a5"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_right_compare.png",
+            "sha256": "9df0d3ce63f6047e41acd25a9bbdb39ccaff919160e12425bb0347bf0a25b3a6"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0249_omission_context.png",
+            "sha256": "314fddb12faf239a049081605a1f5be0c35f31b972c943eb3c1e6cd6a4afe4f3"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0249",
+        "image": "data/candidate_images/s2tld1080_0249.jpg",
+        "image_sha256": "c704e0eb34c8c7921eb619da18264dd2fdb21abcfd4560a9a320ec00703385a1",
+        "annotation": "review_stage2/first_pass/s2tld1080_0249.json",
+        "annotation_sha256": "834982ca88a1fa6fb821da1a333550432a85062e2db19714eda714c00807dd67",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:48:21.784387+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_030_remaining_review.jsonl",
+          "sha256": "5fb0dd25121d4d1a756bafebcbc5958ecb6f5fcc121b12c32896efaaf3a6b2ae",
+          "line": 2
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "ef",
+            "conclusion": "far_right的ef包含下方绿色LED竖条，且上沿切到上方小灯，须仅圈实际灯，竖条作显示/ignore。"
+          },
+          {
+            "object": "occluded_left",
+            "conclusion": "被货车遮挡的红灯仅剩上弧，保留ignore/unknown而不补全完整灯壳合理。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right"
+        ],
+        "ignore_ids_to_check": [
+          "occluded_left",
+          "occluded_side",
+          "far_right"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    },
+    {
+      "candidate_id": "s2tld1080_0251",
+      "annotation_sha256": "46536c9e9efddc3c7c98bf2898704bd94d8ed05a7986ea6b87d181041bf5db7a",
+      "image_sha256": "2f5c1bc01f0090474dacefcfd0c5bbcd6ac456e20e434475a415b761de0b8c2c",
+      "source_file": "review_stage2/independent_body_detection_r1/body_scope_r1.jsonl",
+      "source_file_sha256": "11545722e7be1c7ae85ed9dd96f98a8af305318456d9682ee0b7c9e89aec1c2f",
+      "line": 8,
+      "request": "review_stage2/body_detection_scope_r1/request.json",
+      "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+      "raw": {
+        "schema_version": "body_detection_scope_v1",
+        "candidate_id": "s2tld1080_0251",
+        "request_file": "review_stage2\\body_detection_scope_r1\\request.json",
+        "request_sha256": "299a248ebef23673a3f49b15e7908ae79d91753adc3d9789aeb41636807d121e",
+        "image_file": "data/candidate_images/s2tld1080_0251.jpg",
+        "image_sha256": "2f5c1bc01f0090474dacefcfd0c5bbcd6ac456e20e434475a415b761de0b8c2c",
+        "annotation_file": "review_stage2/first_pass/s2tld1080_0251.json",
+        "reviewed_annotation_sha256": "46536c9e9efddc3c7c98bf2898704bd94d8ed05a7986ea6b87d181041bf5db7a",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "reviewer_id": "Codex_board_independent_AI_body_scope_r1_20261025",
+        "reviewer_type": "AI",
+        "independent_from_first_pass": true,
+        "reviewed_at": "2026-10-25T04:56:20.499180+00:00",
+        "body_detection_decision": "needs_modify",
+        "body_full_original_checked": true,
+        "body_omission_search_completed": true,
+        "body_kind_checked": true,
+        "body_bounds_checked": true,
+        "body_instances_checked": true,
+        "body_truncation_occlusion_checked": true,
+        "ignore_coverage_checked": true,
+        "check_boolean_semantics": "Checked means actually inspected, not necessarily passed; failures and uncertain objects are explicitly recorded.",
+        "confirmed_body_ids": [
+          "side_red",
+          "side_arrow"
+        ],
+        "confirmed_body_ids_semantics": "Only currently reliable existence/kind/instance/visible-bounds body IDs; not all merely existing heads.",
+        "body_existence_kind_confirmed_ids": [
+          "left",
+          "right",
+          "side_red",
+          "side_arrow"
+        ],
+        "confirmed_ignore_ids": [
+          "occluded_side",
+          "far_main"
+        ],
+        "unconfirmed_current_body_ids": [
+          "left",
+          "right"
+        ],
+        "unconfirmed_current_ignore_ids": [],
+        "auxiliary_emitter_findings_preserved": true,
+        "prior_full_label_decision": "needs_modify",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_030_remaining_review.jsonl",
+          "sha256": "5fb0dd25121d4d1a756bafebcbc5958ecb6f5fcc121b12c32896efaaf3a6b2ae",
+          "line": 4
+        },
+        "prior_findings_preserved": [
+          {
+            "object": "el/er",
+            "conclusion": "主红箭头上支和主红圆上部亮核心越过当前上边界，需上扩，排除光晕即可但不得裁核心。"
+          },
+          {
+            "object": "side/far",
+            "conclusion": "侧双红灯与箭头、远点及LED文本分开；远色不读形状。"
+          }
+        ],
+        "attributes_checked": false,
+        "attributes_accepted_for_training": false,
+        "actual_method": [
+          "Actually viewed all8 unmarked whole original-image contexts before reading object JSON, in two-image panels, each image960x540. Searched visible signal bodies including side/far heads; no claim all subpixel unresolved objects exhausted.",
+          "Read exact bound annotation, then independently generated every current body/ignore contextual comparison from actual original1920x1080 pixels: unmarked left/current-box right, nearest-neighbor <=4x. All current body and ignore comparisons actually viewed; additional wide unmarked far/side contexts and coordinate-bound overlays actually viewed for doubtful boundaries and omissions. No body acceptance inferred solely from old emitter findings.",
+          "Checked visible motor/ped evidence and separate/shared physical housings, full visible bounds, source edges and vehicle occlusions. Used visual symbol morphology only as body-kind evidence; did not certify emitter/color/off/arrow/control fields. No images uploaded, no label corrections made."
+        ],
+        "findings": [
+          {
+            "object": "left / right",
+            "scope": "body_bounds",
+            "decision": "needs_modify",
+            "conclusion": "两主横壳类别/实例可见，但left当前右缘切入暗壳右侧；right上/右侧外壳仍有部分在框外，下方空余较多。须核body外壳，而非仅修红箭头/红圆emitter。"
+          },
+          {
+            "object": "side_red / side_arrow",
+            "scope": "body",
+            "decision": "accept",
+            "conclusion": "侧面两个独立竖机动车头及其完整可见壳可辨，当前框基本贴合；同框内暗腔不推off，相邻bbox轻微重合不等于共壳。"
+          },
+          {
+            "object": "occluded_side / far_main",
+            "scope": "ignore",
+            "decision": "accept",
+            "conclusion": "右侧货车上缘的头样亮区和远主双点均在对应ignore内；不认证kind/人形/颜色，遮挡处不补完整body。"
+          },
+          {
+            "object": "unlabelled far patches near [415,449] and [646,439]",
+            "scope": "omission",
+            "decision": "needs_modify",
+            "conclusion": "宽上下文在侧两竖头下方约[415,449]见远处红/青上下亮点；远主头右下、LED竖条上方约[646,439]另有小头样亮区，两处均不在现有body/ignore内。不足以确定完整壳和两类kind，请PC核实并保守保护，不能直接当背景。定位不是确定灯色/类别或新增body框。"
+          }
+        ],
+        "PC_arbitration_required": [
+          "核两处新增远头样区域并补ignore或明确图像排除依据；重核两主body几何，保留原属性分歧。"
+        ],
+        "viewed_evidence": [
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\full_pair_4.jpg",
+            "sha256": "60bbdf54cd5a86b20e3555ba7fc27c13a93e123c2f676a9453451160a126e29b"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_far_main_compare.png",
+            "sha256": "99b85b1007f6bec4fbe612de84044abaf806bf2f83edaad46173feb09306548a"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_left_compare.png",
+            "sha256": "b1427c1f336114739aefebe4634024224c56aba8168c7b23815221906a9a98b1"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_occluded_side_compare.png",
+            "sha256": "9130eccc22773f7531aa2d6cedcb40d967e0d74cdbf3741a71de8a65ecaf017b"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_right_compare.png",
+            "sha256": "e9a27ad2da76ffd0bf6ffac121003368ae5bc715e3ebb97ccd55d7f0b1e00dd4"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_side_arrow_compare.png",
+            "sha256": "93a11650b0934a860d68c2a00f622b7459937cd2cd0bcb905d949ae5c9b7c298"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_side_red_compare.png",
+            "sha256": "0ff48ddfb8fbf5a24ccf8270724e8f0da4b9bc30afb692752fe4e4310809fedb"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_omission_context.png",
+            "sha256": "e38e8d634e95229c6699216ef6882b7d9188ce674ec53952cec7dad5bc9e20bd"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_extra_340.png",
+            "sha256": "2f4daa1392e257cb3d7f9f546c1d8f056fab2b73f53107ef3ae1a5e75064cfe8"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_specific_bounds_340.png",
+            "sha256": "b398b82c8c0ea445fc2d8cd50390bfc5cebec282b0b9c4fd979c1319d3868ff1"
+          },
+          {
+            "path": "review_stage2\\independent_body_detection_r1\\views\\s2tld1080_0251_specific_bounds_540.png",
+            "sha256": "bfa7ef8c5d254a341bdd665ff8f1f30e6e07ff694f5da438b74c51532ae953bb"
+          }
+        ],
+        "old_review_acceptance_inherited": false,
+        "old_precheck_reused_as_formal_review": false,
+        "human_signoff": false,
+        "training_approval": false,
+        "export_approval": false,
+        "split_approval": false,
+        "corrected_annotation_file": null,
+        "decision_scope": "Independent body-detection/ignore scope only at exact mixed-label SHA. No replacement of prior full-label needs_modify, no attributes/export/split/training approval."
+      },
+      "task": {
+        "candidate_id": "s2tld1080_0251",
+        "image": "data/candidate_images/s2tld1080_0251.jpg",
+        "image_sha256": "2f5c1bc01f0090474dacefcfd0c5bbcd6ac456e20e434475a415b761de0b8c2c",
+        "annotation": "review_stage2/first_pass/s2tld1080_0251.json",
+        "annotation_sha256": "46536c9e9efddc3c7c98bf2898704bd94d8ed05a7986ea6b87d181041bf5db7a",
+        "label_version": "pc-ai-r1.1-resume-20261024",
+        "first_pass_reviewer": "Codex_PC_AI_stage2",
+        "first_pass_recorded_at": "2026-10-24T22:49:10.875265+08:00",
+        "prior_full_review": {
+          "file": "review_stage2/independent_codex_board_r2/batch_030_remaining_review.jsonl",
+          "sha256": "5fb0dd25121d4d1a756bafebcbc5958ecb6f5fcc121b12c32896efaaf3a6b2ae",
+          "line": 4
+        },
+        "prior_full_label_decision": "needs_modify",
+        "prior_findings_preserved": [
+          {
+            "object": "el/er",
+            "conclusion": "主红箭头上支和主红圆上部亮核心越过当前上边界，需上扩，排除光晕即可但不得裁核心。"
+          },
+          {
+            "object": "side/far",
+            "conclusion": "侧双红灯与箭头、远点及LED文本分开；远色不读形状。"
+          }
+        ],
+        "body_ids_to_check": [
+          "left",
+          "right",
+          "side_red",
+          "side_arrow"
+        ],
+        "ignore_ids_to_check": [
+          "occluded_side",
+          "far_main"
+        ],
+        "status": "pending_genuine_independent_body_only_scope"
+      },
+      "current_label_sha_matches": true
+    }
+  ],
+  "training_release": false
+}

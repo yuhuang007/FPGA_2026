@@ -1,0 +1,2211 @@
+{
+  "purpose": "Archive existing completed fixed-input diagnostic only; no inference/build rerun",
+  "files": [
+    {
+      "path": "analysis.log",
+      "bytes": 372470,
+      "sha256": "5498607d6d3bc2fe8b965906a40336f2ec9b72733411f333474be02cbe83fe41"
+    },
+    {
+      "path": "analysis_attempt.json",
+      "bytes": 179901,
+      "sha256": "56e08e13bc32ba26fe44be7ac6b6898bcb4bcdee0bf08521f0e03cfb53d9d7c1"
+    },
+    {
+      "path": "analyze_nchw.py",
+      "bytes": 5604,
+      "sha256": "df56009a37b78828910f6eef0a450992f629984e47dc19c58bb0434229d1d0d1"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 42,
+      "sha256": "f56eb476d06d58aa4ecfe6588c2f39defd15ccc55778160d6639fac917dd6292"
+    },
+    {
+      "path": "input_contract.json",
+      "bytes": 1624,
+      "sha256": "3a29a0997fe038b054f28d92f0de450bdb1dae16a22a8723ce590fa428662acd"
+    },
+    {
+      "path": "installed_api.json",
+      "bytes": 16074,
+      "sha256": "c1fd9d4a8630103130727755eb7d2af4e58d0ab83c4fe3a952cb52fe4109e8e5"
+    },
+    {
+      "path": "layer_metrics.json",
+      "bytes": 193004,
+      "sha256": "a5f03fb9fd2709e6301b173bb2e5f09e691c68771582b23f55f7767c5f483378"
+    },
+    {
+      "path": "same_fixture_RGB_NCHW_u8.npy",
+      "bytes": 1228928,
+      "sha256": "acf4c377ed036720038bcef048c29caf066b0e316df5726f1c3679b1d128b9ff"
+    },
+    {
+      "path": "snapshot/error_analysis.txt",
+      "bytes": 21977,
+      "sha256": "ea67bf82c91ba620ce7e35f0c9f000f0e988a0382fe5f764b4d8a48cff3b6f6c"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_0_act_Mul_output_0.npy",
+      "bytes": 6553728,
+      "sha256": "6168fff964b2a6753a9d9182c9c51d3d5d3d6b2163885d4a71c23e70ab5716a6"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_0_conv_Conv_output_0.npy",
+      "bytes": 6553728,
+      "sha256": "da56603eb294a0ccb2ba864531821ef05cd422ffb38d57bc5dbafc3dd9c78d28"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_10_Resize_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "3efcc9f19ce0802fe5aba1a5942a78d2ad94c7327fdc4f3b047b1703dbcdec59"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_11_Concat_output_0.npy",
+      "bytes": 2457728,
+      "sha256": "a709587063c2b69c6e07b75996114678449993b410dc5ae3f8d3208cf82ec394"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "6cd0d1c32d2e542354c39f54421cb33e077c9051d01b9914a36affb1cabd0b77"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "baa2540acaf8f3bf756e1f184cdb57462280374dd42174856be96d35b62a16ab"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "0e352b1c4319b1887c287402d258df1132454789ec205694aa22dfd4105f125d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "bc40af133430811d090abc017631eb720d5ef48c964a731624222902ce30101a"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "fd190841e1307bc4625ded9e352001a84c2b82fca747d4639fbc6f7a5cd0f751"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "838d3cd980190054b00f9005705b14afdb1ccfef4b9d8ea11b2daadc2bfe3fc7"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "8c34b36000b139cfb5b2dde600fd8092fcb149fa5ce0c89b16779ee253bef197"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "aff50dbe933b4d48749f2230500bbea88af560e1edf40e4da3b2df932029b131"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "a3e568c727eee45415b303a963d40206e4caee55b1a2d03d9f0f09d9c6ffad15"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "b157ca04487028b090101974056e66ee37da9b98fbe800cd60ea05bbd255baa1"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_12_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "c8aeebaa70463016cdbf76c73dfa1b878f3ccb59b15f182a8abf84bd2afe5560"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_13_Resize_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "8d07d30aaa26464bac4cb36a8457bbd51926370d12df38cee9a7096ce9e16336"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_14_Concat_output_0.npy",
+      "bytes": 4915328,
+      "sha256": "0da239c58b411a5ceacddc2ace669349ecdbf0c91486e7da34262dcd48aa61b7"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_Concat_output_0.npy",
+      "bytes": 2457728,
+      "sha256": "7ad3eaf6ab924158dce53f48073b0180b562de78626bfa4569efc1c1091f0d4c"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_Slice_1_output_0.npy",
+      "bytes": 819328,
+      "sha256": "7099668306a7bf3d59dfd0e5ed04db1499fedcb595311ae3d0dcbb683460263c"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_Slice_output_0.npy",
+      "bytes": 819328,
+      "sha256": "ba1076cd52bde4af45f44366bfc8497c312c96f655c42bab74825381f4576a01"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "429a2cfbd2325293fc351b41ada8617b36dd2dec84d4b04a01d75ddb9a4b7346"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "890a1ef250de988b84e4803d32e72058c761ce3e04f07f30d98cec616582f6e9"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "ea8b0ab9daf171aaded144961a084c961cae0b6450030d4cca83ec81ab170600"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "ffe30d5aa4b706792ac80ab9bf8b4fd6628aa2e34851d7b657e5dab5fc3d8855"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "24e2edb455249322bb2eced0c2291699e8e482fc0d60a96a2a91bb77b924a1d5"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "b3bae794c644d9b23f5855038de2c28918e0d85935f97f486b4908a34a2dd1c5"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "07301a6e914a054dfdf9d1a87b2b3824d9d9a8376aba489723808c3f2a73a882"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_15_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "cd6f2378ee7a83000e876e7247112d57f94f3ec81425c93fa1d4b054f36d638d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_16_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "c871a0c710241823502002b41857f2586267e3a991537ed93d9b55ac66167b66"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_16_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "096eb693f0e16e506489d372bc8db203a4f59333fbbc7c5da26e4087d86719c2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_17_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "52dc1a12e52b2906436eea3c9b6f214873c1e3007b2cc6a8b1543476d30e991d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "612a557bbeb1bcbf6c06d1d8d2f17802d3d7b39a4dc96d52baf56d5b4b422366"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "077bb0ded24129aa3dec78edb9c2c5f7c5fc6c3cb354e7333a1410b3232a41a4"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "72d68e9b228f59b4b705b2cf36ea7a2d5b04d05d0c5c094861a62e1a7286adc2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "87f0327e4fcbcc0908f7ee561920bcd3885f6832d0d8ff653187dee7a4eebb58"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "1eed4515afed861c8f4576dc035d3b0d5b6820543d7d761309d7fecf6539a441"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "32134aeed2c981a55100d3e5b624d9fb0159c5fb45d1941df1ece9691927dc92"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "8d1adcebb5e2692ccf495b4b77d1ff7f2adddcd4a1c29beb28931669e6478165"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "311431cebd262035690c94f16cf72ab220c2fba91b3c55455de8e8779c8554d2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "d2a627b365783dd8fa5dfa31e24c1850b694cf6885ff6973a226173e68b2b347"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "b92deddd9fd2133921189541948e4868eebd2148bf58ceb417405075076deb41"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_18_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "1740032cd9bceee0b57336975934e0a0c15e5173ee8de2d094cb2395a516e7a6"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_19_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "ededc622f8cec9eee6343f642028eba0c2d4a52e866ec6b66811b846b08dcba7"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_19_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "02189d62807adb39146fc9bcb2f88426b5993b6d9e00ce527763fa3e84f4b391"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_1_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "36fa76911f5a98fd98eb5db8aabad26d8c2c9dc063cf86edd56cd95cffb46811"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_1_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "099093a6d08f5473097bfaf0d8826e2823a3b580054fae4b3e7e2023706d0533"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_20_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "4d561c6a1edb69dcd36b6f0a46984e1db41fa7ae5651f76ef39ac16ff74f4312"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "8eacbadb747f3639d3c1329fc49d4d7fd0f04f316492dd9576ec08074a98df85"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_Slice_1_output_0.npy",
+      "bytes": 204928,
+      "sha256": "6b051c0fba755787d7c6e19a51ee06865bb58f4d409c7e0f884d60e3547fb887"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_Slice_output_0.npy",
+      "bytes": 204928,
+      "sha256": "07f25cd7fc2d861f3d74b299c71245c5357c1f055fee4a0b9c601390b951044b"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "fa0b5173d6be79686511f368b7ecf64767cc3122e3200691c19bbaf8d3926215"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "e36780da377519f76837a7e5fb253933f0fd34e1d03ccfa8de1f0120c321e21d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "c095bca1b2d74524385289f897afc90c169df7fe4e1694dc086c3587d756d2a1"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "6196569fa7d75b5cb130ea9cbf0a171cca787627d09b2775d389b62615766e33"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "a95aac9a73be614e257ec2487b8dbdf626a30c86eea5e2f97b74122bfac09b10"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "7ddc232a571186f46f39123c1e13c599a41c5b57f2e576bd05c000628d501542"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "cb48873db9e658939719fb704a469f8e757e73e315a18166f5708e51310621b4"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_21_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "a818412c308771a30deae0b9164a81b094b42380d9f0453def35e4e6448d0263"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_0_cv2_0_0_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a5ac01d88cddba5545d930b21d9035fcd0dc8e87811f9aa8c7047322d05e7a41"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_0_cv2_0_0_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "68aecdc881caa7eb5e7659936f4c637c4b8d63af934d90628c0a40522d5fc7f0"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_0_cv2_0_1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "fba264e4dccf5773c4ef18c90b10bbaefb1f02aa677f1960e0b5a1c4b5fa35ee"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_0_cv2_0_1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "dd17c9c7fb651afbf99dd14ae295b7018d83cc06249373da4cd2169e782fd8e1"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_1_cv2_1_0_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "2767e19d2caf92cc5af80ad8bd0bfc2730e771471c139c91e92a2e80d6bee0c2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_1_cv2_1_0_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "1cd01d51f8344cce9cdd9d75aab70947699a161696d2349a70a7e87163ed2929"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_1_cv2_1_1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "1067d883b28d7ea033c2ea00432d1be25a9c1bb02ff529f7fea3718a092ab0a2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_1_cv2_1_1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "d2057d06aa07af812b9f7475b6ec861c6a895b639aafdf59b889225f16a5441e"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_2_cv2_2_0_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "f866c059710d495e44cbfe4605c6fc7a21d6182994344b4c755d93f4548d7409"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_2_cv2_2_0_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "663fc3d3adc944d9e369ecc96fc97bab111fdd73dd001802c8693d7863ad979e"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_2_cv2_2_1_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "21e8070e392ff4b25a618584e485913734901cabd45548b2638870eee1d471dd"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv2_2_cv2_2_1_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "2cdfb5a350f413db9c063fa549003151755f87b5fd38a183b8d1a4ae476ba7b2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_0_cv3_0_0_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a6a084d79de6afca86e1805916cb825c04f9097c178e21bb0a2b5302995cf8cd"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_0_cv3_0_0_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "8379395c224fb9918bbca34df66d743289d0cf76f6d28278a786d2588bdbbd09"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_0_cv3_0_1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "3a8b9178c87909c4f8fc60714d9e68024068fb03481016628670255e5cf807a3"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_0_cv3_0_1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "2be370874432a8d9e3ad3b543e7ff51d0cfbb48af7744ecae718b5177a614f5d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_1_cv3_1_0_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "cc05d0216b4c5513dc70516fb1d52b99d0c3cd25190bf4c3422c2ec0727e6fe6"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_1_cv3_1_0_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "d573d3a90ffe3dad19e933ef952abfa89414ca210eed1e955e9ff2595fd4e660"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_1_cv3_1_1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "efd538c429baf23d39a6e07369a58544e385758d7683ecbe7a00502823f4bb82"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_1_cv3_1_1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "9a9a2f89fd8923c0c7bbdf09829a25e8eb458543f1b2cdf9840ba6a1bde21e27"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_2_cv3_2_0_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "e2f8f406ea8e8a4da05ebd937bca28ea3be92db0f45b6ace1e86e1c8b59a1987"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_2_cv3_2_0_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "d116bd2a7fcc988899a8978395e2f9d9c6a13d1ce3eb88ea8cea627b6119c16e"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_2_cv3_2_1_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "ca52250d887b819cc0a44e2b2d6894e8d25f9f5d3c2f5c33bed65fb478a6d9b2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_22_cv3_2_cv3_2_1_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "0020caa8c4ec12cb1f2693e5de2f69d31e3275786e33e4e4e4ec8510577ea424"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_Concat_output_0.npy",
+      "bytes": 4915328,
+      "sha256": "2520d504c13ab84380bc7e500ee5bf83d059ca395cf15519e2e0ea37e782f68d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_Slice_1_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a3930956c19d986681111b56608e291925713923db5a887a4b1db3433b40b1d6"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_Slice_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "f14d1a8b0973f3526a7b2b836f1a65c93f355480323569503fff31172b6711f3"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_cv1_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "a16a71bc2c8b8c0828a4b507085b201f6d88420bc2716c8160a097245a977a31"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_cv1_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "debcc3f7bac4c1dcccfe4ab9c1bacfd523872d8275c0cd9b070850dd10ea9caf"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_cv2_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "402397d6b76f047a9c6797b15de7d9bf5a82e07fb18c726b0c1926918470f39c"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_cv2_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "55ad3be5e3b91f0846bd628c9681f1b6a4ef08de39eae9911407ab0f64dc1509"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_m_0_Add_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "966ef08dc6a1303135b36b1d2a67fe45c49797c6f6aba9aee2d6b2f442549a19"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "2567d5fb251ba0b3dc45bd4b1a3d8a5670f937dcfd17fd84ae02a78759891808"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "e4a4d6df4ed55f499e4fbcaf8612b0a4fb3398fcab8764e012b21cf7b2ca12a8"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "6c963d90229e61a7410975cc3ea235c1a268de9e7c6f186b38cdd4de9c5e1312"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_2_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "4a4856c40ecb39596916ec063485a3dd86565aa5b5098dbdbe3035db9cdba6cc"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_3_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "42afb10fa560f1aed2f1e1328633eaf475fa904c394c7ec8ed047209d18b6967"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_3_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "d8f844ad48674879610f2632341b4214b05e9cf3d141084785b95856c6c66571"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_Concat_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "e7f83404f6e68f3a9f54bee92f222edcf16d266875a3934db68e309ad1e7bdb8"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_Slice_1_output_0.npy",
+      "bytes": 819328,
+      "sha256": "3bebaa85bb0b6374dcddfdc2e7d10cdaee3d43973a23c4f22427b3cff6ef3775"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_Slice_output_0.npy",
+      "bytes": 819328,
+      "sha256": "fbccbf8cef4629e7996ebdd052909efd5586b9b19e042543bdb76533a3952195"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "df2539a8ced08c240e9b8509e98cedf8afc4ae912a6d9ddfea28f45436c49e94"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "39b1a7f6fa9803a2d34bb9b88226d49047f3d35387288dbea77809480d044ff2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "1b5690e753e7adc8712449caa744725cc938f4f5e821b6fc5bc1ef526dd4e370"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "80186dd2a8462c9dce5d88d267de778c195b200848cc1839794719d200c933f8"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_0_Add_output_0.npy",
+      "bytes": 819328,
+      "sha256": "28985c88ba15469288dea8e5c5a4be349fb2753003ba6bfcf013f7a63d802a58"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "212bd0f5a8740b8c4a6f578ad66fbcb5f7ce2e4c6ef844e9556783cc3796d406"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "9670ef6ff8af49eb89ab3975fc4e2f98fbc8573bf47f68659c15170fc888ecdf"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "fa9154bf9b1fa94f4d819032f2461ed5f2813400eb8af022b65d479d0943489f"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "2814cc7eacd60e2e0c18d210323fb4a0bc753ddb7012500be5e4627f9476f934"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_1_Add_output_0.npy",
+      "bytes": 819328,
+      "sha256": "27bc970ab768636229c1c13fe1aaa80ec42b12f77a97354caedc18cfca21da44"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_1_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "0dc19a428bf638940dac1b5175fefe494aca389dcbdacebc6d8e279614ca6539"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_1_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "c77150860d3019a25e338f8d26f746e7cf267a296dbf01697dba63ffd8c77f92"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_1_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "bae5f4b10c7a72f6550cde680cee11ba668e890935f66d44739e36dcaca8ad07"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_4_m_1_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "2ff9932625a07c32b0ffa4210514ae80127d20d454b777c06e077845bc0574e2"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_5_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "0685783d92f3a133927aa6ccff2ffa218587fd36627c47cef6ae49d4c0f9aa3b"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_5_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "35279d20283358d4d5f4e3ea02f90b3423774e8bc1d485b851c5789e08be4eeb"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_Concat_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "c5003d1d970fb1cbbe987bc2191bccd833bd76ca727ac266c2170a59604fc31f"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "36a5258cfc6961eda23f343af892be2994111d28a213eea55d8aab20aa0ab550"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "8bf88fd8f5d478280f36ce667bfd842dfd0d4c6db6da29e0b424a4152cf22963"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "bfba3614e503956049ae1259921182ffdd315df6d0fa9bca5b80ae83c6ed4354"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "91b601897193870cee5985cf7b6cc045976fd6a8dad06fd86d67567bc6e0cf3b"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "94fa29757977d84973ed1a4513c5e14c350681d9a7179ba9949565f22a058d54"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "24011323b066cad5cb55249eeafbdf80422d1f50973ba1a183f12c64337e069f"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_0_Add_output_0.npy",
+      "bytes": 409728,
+      "sha256": "feb1dae3e48661d288e6602560f7fed3da04280ec0f0f17254d7777fc9f0cf3d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "18cc6451202d4560c4906cea90fdaea30b25115e8b49b2ec01b280c718b97961"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "cdbd20edd6ac50f05d1a8bc4c7292a306904c259db6090d1c3681c58bffe04b5"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "e227eb5f47c701346575b85bffa4a0650cde889c6ccce80072a658696e3bda10"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "7c62b90fea77414fffbe3b952b836c1a7c97a91d820134eb0b1c4e73e9ab93ed"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_1_Add_output_0.npy",
+      "bytes": 409728,
+      "sha256": "3c97c9dc00fc1da3a457af650e274ffac9af6b64289a1b0557a3cbfa945845c4"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_1_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "2c44ea21617c7963a6efbeeddf2d107eb6035a22a093237c4ec0cd52677e4a60"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_1_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "21f0b935ca6453c295409b30fa0da7cbab0278549badf5a684d3b068aa9dc53f"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_1_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "2d17795a29facb4bfc1136554b0e11bf7200b5f834ff1cb958fd8a4319e9b3f5"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_6_m_1_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "0523ddb06f3d8ecb96e43a7cfaf5a817bdec3d7e02f3c5fd7927986c049c2051"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_7_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "936a02c15ab24e4bb141732b4986e4890eedc4ef3cc75810105eb1be2b17ef7e"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_7_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "8fe3b7dddaf5d235f7034b870e47f144983acc4e017c3151a6417aa14a5809a0"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "001f4685cd2d6c5fc1577c2305ec6a1e699ab41e9b3cfb2ed86a0bec133158ba"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_Slice_1_output_0.npy",
+      "bytes": 204928,
+      "sha256": "401681d2d67fdd985627ab72557648e4d4ad436ca4bb064de2caa928ea50a67a"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_Slice_output_0.npy",
+      "bytes": 204928,
+      "sha256": "014d2b4edc1893405d16dd5ac3d8abf35a5e7a9d6ec032c5befd465a2ed76043"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "891ae3bf5486664107da5bec3d77cfa628ff10d3a6ee2c905db001d86500a0f9"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "af0c6e7034968764a1c806a0382feab142e9646a2aa5edd4c6538de5a29938cd"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "bc96a12413b77da7202da46006e4c8b7d9572e3df89b34c03db5b35f92cf7fbd"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "51ff9e8a68c58940077680731551c04a8bb778d00c7a1c88643aa19a7f951193"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_m_0_Add_output_0.npy",
+      "bytes": 204928,
+      "sha256": "3a39498c5bf29fac02da85ee70ce339fdc96f33820b8a26b2729aeed72f4c745"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "043c48660b8f5c00f528884003fb4f567ce4fd2e0c55fcdbd64fbc98764cd7fc"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "f4059f9d55af8e7489aa70f7fef02e6d6b04773d87c0530756214556df650790"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "9b09411799977e3056b780b52d9ee5eb3c0c6cadad068463a4ba7059aaaa2469"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_8_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "c1976844cbe6eb161f461e43750680c11e8d6810f3d81872412318fd43c54ade"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_Concat_output_0.npy",
+      "bytes": 819328,
+      "sha256": "6b3d5292885b41bc971e120b2f66d3971f6fbecb9360746f4ae24824b3fb4074"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "bf2ffd8e850b002c26153b18c4340420790bcb803113a8f4ede185cce3e44c7f"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "360b415c62777e4c9d2ff6bc432aee7f1da6ef789c97a83fe8789c7a46ea7ee7"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "d2e85dd7b28eba6c47a15cd93c772618e546d43415e98f303e168734be442103"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "900b7673b0ff7880f6f968051d8f91ea088e08fe9efcaf90239209a7feaf4dee"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_m_1_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "cef3b3d3c58385525de84533e55b4b22e91d8debaead9ba1fef991135f0a2d5d"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_m_2_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "8930541be7087776c63a4ee41c50521b37bf6ea3b8e3fd25309185d4d077c4d0"
+    },
+    {
+      "path": "snapshot/golden/npy/_model_9_m_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "ae94a3890690a184c9df935a0205c385d968846eca56ccafd006503c99329ba2"
+    },
+    {
+      "path": "snapshot/golden/npy/box_s16.npy",
+      "bytes": 409728,
+      "sha256": "78776522cfc35969288072222454a7919f4cdca3ba5b4e4f7501ea53b1d6ebb2"
+    },
+    {
+      "path": "snapshot/golden/npy/box_s32.npy",
+      "bytes": 102528,
+      "sha256": "a96adc7a63b35a3dc0a998c4c53f8a3c8782c2d835ef6693f297f8e7b0a51201"
+    },
+    {
+      "path": "snapshot/golden/npy/box_s8.npy",
+      "bytes": 1638528,
+      "sha256": "95b49e15bb3ea898323dc92db230dc02e67b72520ba34b0abf77b3ac27329d42"
+    },
+    {
+      "path": "snapshot/golden/npy/class_logits_s16.npy",
+      "bytes": 12928,
+      "sha256": "080528efaf2b2fe1a548e1f68684c7e9a76049da099912d31c21a1877a82aadb"
+    },
+    {
+      "path": "snapshot/golden/npy/class_logits_s32.npy",
+      "bytes": 3328,
+      "sha256": "fa60ad07311ddcb9c132db91a4b40ca8d3be4ec777cff460f20a380424458f23"
+    },
+    {
+      "path": "snapshot/golden/npy/class_logits_s8.npy",
+      "bytes": 51328,
+      "sha256": "0ec707bd4b3c4659a46406e1a74924de602824e6f92bb67269ef254167d758f5"
+    },
+    {
+      "path": "snapshot/golden/npy/images.npy",
+      "bytes": 4915328,
+      "sha256": "d2f6748357bcb60fc5d1f2aaf127afadbdee668c63d10480cd322bf98ce97baa"
+    },
+    {
+      "path": "snapshot/runtime/npy/000_InputOperator_images_shape_1_3_640_640_float.npy",
+      "bytes": 4915280,
+      "sha256": "3eb77066728b70383bdaeccfd3e42b093100d349fd2901b166474ae087b68b60"
+    },
+    {
+      "path": "snapshot/runtime/npy/001_ConvExSwish__model_0_act_Mul_output_0_shape_1_16_320_320_float.npy",
+      "bytes": 6553696,
+      "sha256": "53c33eda3d7f6d153b3e1e48d16b1c609bb4b3ba3fa242c033e5ff2b837ef1fa"
+    },
+    {
+      "path": "snapshot/runtime/npy/002_ConvExSwish__model_1_act_Mul_output_0_shape_1_32_160_160_float.npy",
+      "bytes": 3276896,
+      "sha256": "34562ad70fcff83431a818072e77f6578be7bb4248a7b9af70df7369b58e2cc5"
+    },
+    {
+      "path": "snapshot/runtime/npy/003_ConvExSwish__model_2_cv1_act_Mul_output_0_shape_1_32_160_160_float.npy",
+      "bytes": 3276896,
+      "sha256": "0f381b95e8fb6df903cc298cd2dcacd23fa28e666fb64827a3ceaa429917b7a8"
+    },
+    {
+      "path": "snapshot/runtime/npy/004_Split__model_2_Slice_1_output_0_shape_1_16_160_160_float.npy",
+      "bytes": 1638496,
+      "sha256": "14a8a69d33f3beccbec02a22afb83fd4ecb516d0f0377e5831627b1d62b65895"
+    },
+    {
+      "path": "snapshot/runtime/npy/004_Split__model_2_Slice_output_0_shape_1_16_160_160_float.npy",
+      "bytes": 1638496,
+      "sha256": "a93e0cd3a1c7801b8827f51d70c54a38571b4e40c3506ae633e5cdfdc19663a4"
+    },
+    {
+      "path": "snapshot/runtime/npy/005_ConvExSwish__model_2_m_0_cv1_act_Mul_output_0_shape_1_16_160_160_float.npy",
+      "bytes": 1638496,
+      "sha256": "d54a84dd45e26277576d859eb73e8d578d837b496586e562e7f9932ab999fad8"
+    },
+    {
+      "path": "snapshot/runtime/npy/006_ConvExSwish__model_2_m_0_cv2_act_Mul_output_0_shape_1_16_160_160_float.npy",
+      "bytes": 1638496,
+      "sha256": "2a3a5ac6973e84993d47a2f38ea51cf959fc52c45ce35d76972ca1f1118bdffc"
+    },
+    {
+      "path": "snapshot/runtime/npy/007_Add__model_2_m_0_Add_output_0_shape_1_16_160_160_float.npy",
+      "bytes": 1638496,
+      "sha256": "e3526d25373e6fca3a77b3b6eed35bd960b866541f4d79dae7ad03987a7b9eb1"
+    },
+    {
+      "path": "snapshot/runtime/npy/008_Concat__model_2_Concat_output_0_shape_1_48_160_160_float.npy",
+      "bytes": 4915296,
+      "sha256": "8765a52b6b641ad2f4c17eb60ba63c69160026a48043c290624c37aab6393080"
+    },
+    {
+      "path": "snapshot/runtime/npy/009_ConvExSwish__model_2_cv2_act_Mul_output_0_shape_1_32_160_160_float.npy",
+      "bytes": 3276896,
+      "sha256": "940082a7e442263470d0c61aadba3612e0cef0e6dfde4c747d1f3f3e246d868c"
+    },
+    {
+      "path": "snapshot/runtime/npy/010_ConvExSwish__model_3_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "2997f07921fda856d212af8927970548f8f5a764c1d9d4b2c2aafe732ab265e2"
+    },
+    {
+      "path": "snapshot/runtime/npy/011_ConvExSwish__model_4_cv1_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "2826ffcd06f4d6e6d3030e82065ff51f79efbe0f02bbabfc40d3f7b111dd36c5"
+    },
+    {
+      "path": "snapshot/runtime/npy/012_Split__model_4_Slice_1_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "35434f17dfc6df3e4e0636bd8b139889a5fbfa217661a7e9c5e7032c7d19349a"
+    },
+    {
+      "path": "snapshot/runtime/npy/012_Split__model_4_Slice_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "bfbd56a8d4404d15cd2c4c3cd82bfefb21d138551420091e4f298529b701ae18"
+    },
+    {
+      "path": "snapshot/runtime/npy/013_ConvExSwish__model_4_m_0_cv1_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "10297b2f822729016aa827ab542d245002b41a25a472e835a6ccad4b2de9f959"
+    },
+    {
+      "path": "snapshot/runtime/npy/014_ConvExSwish__model_4_m_0_cv2_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "a89a29add5ff43a24e40084a93cf2e7ae8956943cc1671ac6d8c144080149c70"
+    },
+    {
+      "path": "snapshot/runtime/npy/015_Add__model_4_m_0_Add_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "559ccff22c02ba050a931f9b323b4597b2384a4a1c4d25e661f388938b04b525"
+    },
+    {
+      "path": "snapshot/runtime/npy/016_ConvExSwish__model_4_m_1_cv1_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "3010012dba556f4d63c88f4998b6b239fc4e246498010d5bb236db1226926442"
+    },
+    {
+      "path": "snapshot/runtime/npy/017_ConvExSwish__model_4_m_1_cv2_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "3937a40f9a6f99bdc3a2fec86649184a44e22ab37d09297ee4192801f72e9606"
+    },
+    {
+      "path": "snapshot/runtime/npy/018_Add__model_4_m_1_Add_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "4941ac5fc352449e881f58d8dcf7769c47652793dcf0881177fab88d7960dbf7"
+    },
+    {
+      "path": "snapshot/runtime/npy/019_Concat__model_4_Concat_output_0_shape_1_128_80_80_float.npy",
+      "bytes": 3276880,
+      "sha256": "5cd03fa836e13bc9a94f972ea0676bbd882cf7819d4b81097f10348adad7a87b"
+    },
+    {
+      "path": "snapshot/runtime/npy/020_ConvExSwish__model_4_cv2_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "6a15a45587f2daf8fdbecb3a7bfa7d567c96c493f27b952dc9b18db0ba985f41"
+    },
+    {
+      "path": "snapshot/runtime/npy/021_ConvExSwish__model_5_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "09ed457d2a1ba1579b4f97d7584cc714297d4b7d90c100d0b1bfa599be38c6cf"
+    },
+    {
+      "path": "snapshot/runtime/npy/022_ConvExSwish__model_6_cv1_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "089dedfae5883768c2e70be786a9761ce659294e54eaef5cd7ae9fa45d402553"
+    },
+    {
+      "path": "snapshot/runtime/npy/023_Split__model_6_Slice_1_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "89ece37e0a01d0a976257186190724060757de2d7d69a3dd6c22eb39d716ff83"
+    },
+    {
+      "path": "snapshot/runtime/npy/023_Split__model_6_Slice_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "b26c4748fdce255c42f13c8e11607c31d7bd5b54aa15c2aa4533bc6e0e58f669"
+    },
+    {
+      "path": "snapshot/runtime/npy/024_ConvExSwish__model_6_m_0_cv1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "885dd9f661c89f2497bf660c33995280a224f3583dccdfdfe4b2a3231890f187"
+    },
+    {
+      "path": "snapshot/runtime/npy/025_ConvExSwish__model_6_m_0_cv2_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "ac5ec276405aada2f89944e65fae81179e86c9cecf2b5dc4f8d58e097cee77c5"
+    },
+    {
+      "path": "snapshot/runtime/npy/026_Add__model_6_m_0_Add_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "9a16c727d15d5a84dffca68a3b4363f088cc96c42a3fbca1e9b99738283efe76"
+    },
+    {
+      "path": "snapshot/runtime/npy/027_ConvExSwish__model_6_m_1_cv1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "b90e90d95af31eb4e90cac84b7ee03de95ed8b34f4dbf07bfd97d736c062cdb7"
+    },
+    {
+      "path": "snapshot/runtime/npy/028_ConvExSwish__model_6_m_1_cv2_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "a3f38a4829a901e471daa269d7bf7febc9d56640db09ba5d3ef8a5ab01f5b0fb"
+    },
+    {
+      "path": "snapshot/runtime/npy/029_Add__model_6_m_1_Add_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "f8b82a7677bf2a2780c2645c316f66c4b587e0037d99fa36c2a6d14fc3563444"
+    },
+    {
+      "path": "snapshot/runtime/npy/030_Concat__model_6_Concat_output_0_shape_1_256_40_40_float.npy",
+      "bytes": 1638480,
+      "sha256": "8f471fdae0824bc23a212ebe091a4bff2842248b0812b9175f2187068c287986"
+    },
+    {
+      "path": "snapshot/runtime/npy/031_ConvExSwish__model_6_cv2_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "2805317a5f4b9d7bac4a89c3e487cbb0219465ba07f594cee5583489965bc8f0"
+    },
+    {
+      "path": "snapshot/runtime/npy/032_ConvExSwish__model_7_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "ba96209e095f1e71f0e1ff62086fdb3b3ebc7c050a0352b6854cb35b59303e17"
+    },
+    {
+      "path": "snapshot/runtime/npy/033_ConvExSwish__model_8_cv1_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "ec6492e3ed5e730e223cf559f64554baabebc9c9ca2e2b38204425e74e6b61a9"
+    },
+    {
+      "path": "snapshot/runtime/npy/034_Split__model_8_Slice_1_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "a587b0b7d4a144fa695c679d1159b179851112d33d4ce6c4ccf33f3abeae8385"
+    },
+    {
+      "path": "snapshot/runtime/npy/034_Split__model_8_Slice_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "01dc47b075d16baa1a27b49c131a0955a494d0b0693b196607099503c012c760"
+    },
+    {
+      "path": "snapshot/runtime/npy/035_ConvExSwish__model_8_m_0_cv1_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "24027032e80934b777b2497dd7b500d3c5a70a32cb98c5df52549cbda5430123"
+    },
+    {
+      "path": "snapshot/runtime/npy/036_ConvExSwish__model_8_m_0_cv2_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "494656a7d14a21541a8f1193cd1b3cbb55bc7d875ea895cd1aff2b68527f8cd3"
+    },
+    {
+      "path": "snapshot/runtime/npy/037_Add__model_8_m_0_Add_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "0450fb28b080ad76c882baef85f8c541c8d0a8481de30d670047d554797ba5d7"
+    },
+    {
+      "path": "snapshot/runtime/npy/038_Concat__model_8_Concat_output_0_shape_1_384_20_20_float.npy",
+      "bytes": 614480,
+      "sha256": "e519b083de5c9716b8690d9f98cb81428e98edd786004631bc5947bcee8e6d7c"
+    },
+    {
+      "path": "snapshot/runtime/npy/039_ConvExSwish__model_8_cv2_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "b4dcd2275bfb9dd9c9d706c23505c41ac859aaade6ceb1c5a9cab1e0bacd0208"
+    },
+    {
+      "path": "snapshot/runtime/npy/040_ConvExSwish__model_9_cv1_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "c94757c286073f79eb0ac99918a7ea233c2c6483943396453126dd4afb260c05"
+    },
+    {
+      "path": "snapshot/runtime/npy/041_MaxPool__model_9_m_MaxPool_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "cc5f8b23df8ef4f5f24f071fad149be087b15ecbb3dbc61345f3c1bb0a45f718"
+    },
+    {
+      "path": "snapshot/runtime/npy/042_MaxPool__model_9_m_1_MaxPool_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "24a8ef0883129c83ebc257c770e7b118149760ac71f085eed1b7d54f5a6d23fe"
+    },
+    {
+      "path": "snapshot/runtime/npy/043_MaxPool__model_9_m_2_MaxPool_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "51be6cd6a23bdc30ce54c5bb697c89dfef7dce56107010bec51240e83621eb15"
+    },
+    {
+      "path": "snapshot/runtime/npy/044_Concat__model_9_Concat_output_0_shape_1_512_20_20_float.npy",
+      "bytes": 819280,
+      "sha256": "ce09015cfc2feb4d416bda1b8411086c1bb05837c9a8619a3bb395d2c13dd1d8"
+    },
+    {
+      "path": "snapshot/runtime/npy/045_ConvExSwish__model_9_cv2_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "a0975beaefc808f3277fc20c2dfae21579deac25003f86326ce5ce8f0ea9554f"
+    },
+    {
+      "path": "snapshot/runtime/npy/046_Resize__model_10_Resize_output_0_shape_1_256_40_40_float.npy",
+      "bytes": 1638480,
+      "sha256": "90aa20159c73e5029072bedd0cff3b1e29364d23a5597139535758b48cae9c18"
+    },
+    {
+      "path": "snapshot/runtime/npy/047_Concat__model_11_Concat_output_0_shape_1_384_40_40_float.npy",
+      "bytes": 2457680,
+      "sha256": "14132a1c03d858af32c207d7fafe819c2db31906c080edf5b6d65c5ae45e8102"
+    },
+    {
+      "path": "snapshot/runtime/npy/048_ConvExSwish__model_12_cv1_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "18fd268319680c04efbe5a4e5f6aa43ea194e221b26ece72dd771b0e5da3c9be"
+    },
+    {
+      "path": "snapshot/runtime/npy/049_Split__model_12_Slice_1_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "646362dc2fdd161251001158a1a34de244efc328b793aa4be3356ed2f1068afa"
+    },
+    {
+      "path": "snapshot/runtime/npy/049_Split__model_12_Slice_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "8e1a19b5a9072ede92bc92377d5fbfebad93294470ecca2f24de8f2fe4d812b9"
+    },
+    {
+      "path": "snapshot/runtime/npy/050_ConvExSwish__model_12_m_0_cv1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "0e32c3fb5d0eb71d4af6d8c80f7558630b2bc5995a1c8f13d20ae7e14e70ae66"
+    },
+    {
+      "path": "snapshot/runtime/npy/051_ConvExSwish__model_12_m_0_cv2_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "b5228c69334a3b04a47e217fb824d3aa747286788c72e4844bf40981ecb3ec85"
+    },
+    {
+      "path": "snapshot/runtime/npy/052_Concat__model_12_Concat_output_0_shape_1_192_40_40_float.npy",
+      "bytes": 1228880,
+      "sha256": "a4d7c4ced4c5bf4cdfc5774a8405f28dec7d8f2c52ab8c6b190c98d4fd7d7a22"
+    },
+    {
+      "path": "snapshot/runtime/npy/053_ConvExSwish__model_12_cv2_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "7a80d76f4b7671f96fb65c7c0b69f3a3283d236c6d490d7432d1c0e4d8600d40"
+    },
+    {
+      "path": "snapshot/runtime/npy/054_Resize__model_13_Resize_output_0_shape_1_128_80_80_float.npy",
+      "bytes": 3276880,
+      "sha256": "ae9bbce086ee52b03ed736e263ab2668f3c9ce36790b22c2110845501efe23ff"
+    },
+    {
+      "path": "snapshot/runtime/npy/055_Concat__model_14_Concat_output_0_shape_1_192_80_80_float.npy",
+      "bytes": 4915280,
+      "sha256": "c2e4ff5236b0761d4f73050ab3a857041dbc9567fb70c87821395d7b2b2795cb"
+    },
+    {
+      "path": "snapshot/runtime/npy/056_ConvExSwish__model_15_cv1_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "7fcdb44af8a9521cc079d5149bd8d5c2c12963b335ff574ce822906970fae529"
+    },
+    {
+      "path": "snapshot/runtime/npy/057_Split__model_15_Slice_1_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "557f138650abab90d534e8e4875677d308f27f4f5278bda872abaf1148eb781a"
+    },
+    {
+      "path": "snapshot/runtime/npy/057_Split__model_15_Slice_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "e73b625a32aa9785f231f2879112127eb10d89dcee1098709407a7ae525f2e37"
+    },
+    {
+      "path": "snapshot/runtime/npy/058_ConvExSwish__model_15_m_0_cv1_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "7866c74abd7d226a2f6a8fe0ea5a8aa2eb0ed95d163f22c053d0310542246617"
+    },
+    {
+      "path": "snapshot/runtime/npy/059_ConvExSwish__model_15_m_0_cv2_act_Mul_output_0_shape_1_32_80_80_float.npy",
+      "bytes": 819280,
+      "sha256": "c62c2597912e6d57c09452de17dd285bf281fe3699b7db7831ccca2ea9135a22"
+    },
+    {
+      "path": "snapshot/runtime/npy/060_Concat__model_15_Concat_output_0_shape_1_96_80_80_float.npy",
+      "bytes": 2457680,
+      "sha256": "6b1b8e0ec9260445b2209bab28263b83e4f7e7da0c8ada8424aedbc11fe11c84"
+    },
+    {
+      "path": "snapshot/runtime/npy/061_ConvExSwish__model_15_cv2_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "0033d4ee8f94b4ae8c7f3cd018cf53bdc2185d63d85f199ea5e3b4d50028dfcd"
+    },
+    {
+      "path": "snapshot/runtime/npy/062_ConvExSwish__model_16_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "ee3d3c7ee3164a83372281cba3330d8f1a26f1798a8d15e50a0f5b138ee7ae2b"
+    },
+    {
+      "path": "snapshot/runtime/npy/063_Concat__model_17_Concat_output_0_shape_1_192_40_40_float.npy",
+      "bytes": 1228880,
+      "sha256": "8d653b63f3f1bab570623e46d53285a8f9286c9804cf7beb3144f97b0448dd66"
+    },
+    {
+      "path": "snapshot/runtime/npy/064_ConvExSwish__model_22_cv2_0_cv2_0_0_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "5a69bf0619ac577f4571bbe27a68bf82d1e0b3383ae7eb1c27a17b1a0fde4470"
+    },
+    {
+      "path": "snapshot/runtime/npy/065_ConvExSwish__model_22_cv3_0_cv3_0_0_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "402abec890ba460e5f8fe0938eed8c00bcf7df1a200eef89ad1545268bb34533"
+    },
+    {
+      "path": "snapshot/runtime/npy/066_ConvExSwish__model_18_cv1_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "116dcd1bb638bf63360499ac4dadafe012c1cd3840e568c5c8d180d32c0de840"
+    },
+    {
+      "path": "snapshot/runtime/npy/067_Split__model_18_Slice_1_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "ed518b9d1308a5f08901d4055dbcacf835b17695a554f63f775e7831da58010a"
+    },
+    {
+      "path": "snapshot/runtime/npy/067_Split__model_18_Slice_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "c6a7c0b5597836454de41faf59223b6a892e11317eae7b311a3190494d41de27"
+    },
+    {
+      "path": "snapshot/runtime/npy/068_ConvExSwish__model_22_cv2_0_cv2_0_1_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "834ae2bc67d4bad8b224ad7a7028f04372c6b5d0f738a55bc4815e165fb0938c"
+    },
+    {
+      "path": "snapshot/runtime/npy/069_Conv_box_s8_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "cb16c816ca79406b1888b732cce00c3ad760cc01c0ac31166fbcd352385d4afd"
+    },
+    {
+      "path": "snapshot/runtime/npy/070_OutputOperator_box_s8_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "cb16c816ca79406b1888b732cce00c3ad760cc01c0ac31166fbcd352385d4afd"
+    },
+    {
+      "path": "snapshot/runtime/npy/071_ConvExSwish__model_22_cv3_0_cv3_0_1_act_Mul_output_0_shape_1_64_80_80_float.npy",
+      "bytes": 1638480,
+      "sha256": "41e45f011c4b5a9eeff1a0f13ad32aa87cbaf24c66bc7799f84811be3cde3ea5"
+    },
+    {
+      "path": "snapshot/runtime/npy/072_Conv_class_logits_s8_shape_1_2_80_80_float.npy",
+      "bytes": 51280,
+      "sha256": "ee4e3a5b83f6d39b55caf45b419d7150e4d51dc227707f54c3944299c9bb7490"
+    },
+    {
+      "path": "snapshot/runtime/npy/073_OutputOperator_class_logits_s8_shape_1_2_80_80_float.npy",
+      "bytes": 51280,
+      "sha256": "ee4e3a5b83f6d39b55caf45b419d7150e4d51dc227707f54c3944299c9bb7490"
+    },
+    {
+      "path": "snapshot/runtime/npy/074_ConvExSwish__model_18_m_0_cv1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "a21907569e33c0c034b9b20bdff4579653453a84c9108cc1ee48de7ec9e54809"
+    },
+    {
+      "path": "snapshot/runtime/npy/075_ConvExSwish__model_18_m_0_cv2_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "10a3f01b9f5b23b7fae6051453a3e8fabfeb5caef7187a2c71019045685f1593"
+    },
+    {
+      "path": "snapshot/runtime/npy/076_Concat__model_18_Concat_output_0_shape_1_192_40_40_float.npy",
+      "bytes": 1228880,
+      "sha256": "d4896074e14718c34aefc0d7d2635c553f1fcd3d80d6201f430651f7bc277ea6"
+    },
+    {
+      "path": "snapshot/runtime/npy/077_ConvExSwish__model_18_cv2_act_Mul_output_0_shape_1_128_40_40_float.npy",
+      "bytes": 819280,
+      "sha256": "e514509bab1ed91d5ae144ad16b6f9cf397b14eeedd19adcc20bbb634b0b8345"
+    },
+    {
+      "path": "snapshot/runtime/npy/078_ConvExSwish__model_19_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "a317e8131d34d5e54e178259c65fa95dc5603cf00d7601165f38e83c7d66906d"
+    },
+    {
+      "path": "snapshot/runtime/npy/079_Concat__model_20_Concat_output_0_shape_1_384_20_20_float.npy",
+      "bytes": 614480,
+      "sha256": "632ee69d01deccb17f22dc3b9543f8824060d190d6b53b9184eff8abd0283d0c"
+    },
+    {
+      "path": "snapshot/runtime/npy/080_ConvExSwish__model_22_cv2_1_cv2_1_0_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "389992a04ecc12bb6bde04ee212c665547ce30dffe8f123e4ee26e465be28224"
+    },
+    {
+      "path": "snapshot/runtime/npy/081_ConvExSwish__model_22_cv3_1_cv3_1_0_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "70a8ad3d335cba9bb45b66307a84c5e1bb54cc3fcdda8adb9efca1ccfc697a38"
+    },
+    {
+      "path": "snapshot/runtime/npy/082_ConvExSwish__model_21_cv1_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "544d3685e124b739150d0a10273b3759325e6c18a25a50d08f92c8786af90547"
+    },
+    {
+      "path": "snapshot/runtime/npy/083_Split__model_21_Slice_1_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "375e0fde975131c493e545af91f5720650054f215b837272940dc3cb4e88c690"
+    },
+    {
+      "path": "snapshot/runtime/npy/083_Split__model_21_Slice_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "54be210f9409ad0b1bd275f5c22b308a3edca23222892e1d92ba5e97ddd29be6"
+    },
+    {
+      "path": "snapshot/runtime/npy/084_ConvExSwish__model_22_cv2_1_cv2_1_1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "4e168dcdddb01a7ee7d98e52aca3f6373cdb2e4eabbea37ddc4c8bbd9b25e9b2"
+    },
+    {
+      "path": "snapshot/runtime/npy/085_Conv_box_s16_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "f4e93e16cbaee2a778027dc9bbd35291b4ada66ac0c5937f9950113e26d093d5"
+    },
+    {
+      "path": "snapshot/runtime/npy/086_OutputOperator_box_s16_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "f4e93e16cbaee2a778027dc9bbd35291b4ada66ac0c5937f9950113e26d093d5"
+    },
+    {
+      "path": "snapshot/runtime/npy/087_ConvExSwish__model_22_cv3_1_cv3_1_1_act_Mul_output_0_shape_1_64_40_40_float.npy",
+      "bytes": 409680,
+      "sha256": "0260e1312defd32dfb28bc4bce973927ca41501a22af3ac6c5bbca8945782287"
+    },
+    {
+      "path": "snapshot/runtime/npy/088_Conv_class_logits_s16_shape_1_2_40_40_float.npy",
+      "bytes": 12880,
+      "sha256": "52cd2e4abf96c0ee9e8bd972ac78ce22f2910389d03d7efcfbdd3bca0aea118d"
+    },
+    {
+      "path": "snapshot/runtime/npy/089_OutputOperator_class_logits_s16_shape_1_2_40_40_float.npy",
+      "bytes": 12880,
+      "sha256": "52cd2e4abf96c0ee9e8bd972ac78ce22f2910389d03d7efcfbdd3bca0aea118d"
+    },
+    {
+      "path": "snapshot/runtime/npy/090_ConvExSwish__model_21_m_0_cv1_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "0edb087ac34545a3d83e4faf0d3eb5fcb8b5e1f2474aecfcf2dac03f14c96407"
+    },
+    {
+      "path": "snapshot/runtime/npy/091_ConvExSwish__model_21_m_0_cv2_act_Mul_output_0_shape_1_128_20_20_float.npy",
+      "bytes": 204880,
+      "sha256": "0ee6aab332952ecc08d5ebc2f5d5af76f32bc42c27f6bf989cff577656b03c0e"
+    },
+    {
+      "path": "snapshot/runtime/npy/092_Concat__model_21_Concat_output_0_shape_1_384_20_20_float.npy",
+      "bytes": 614480,
+      "sha256": "ced7e58a060d1dafa980ce485b36ed5322f1b4a8ab160cccf5c8541a2713ade2"
+    },
+    {
+      "path": "snapshot/runtime/npy/093_ConvExSwish__model_21_cv2_act_Mul_output_0_shape_1_256_20_20_float.npy",
+      "bytes": 409680,
+      "sha256": "eea7598d31b95dff213d9bedef317f6189c0fe9ee2d1d4c824c1a9f8fbca592f"
+    },
+    {
+      "path": "snapshot/runtime/npy/094_ConvExSwish__model_22_cv2_2_cv2_2_0_act_Mul_output_0_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "5450714e477cba35a96ffb892dabc9e1a2304635aeaefd8ed7c06c60f4561248"
+    },
+    {
+      "path": "snapshot/runtime/npy/095_ConvExSwish__model_22_cv3_2_cv3_2_0_act_Mul_output_0_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "fa314eb0b8ac8e9558bb90a9260dc0b20959ad7eb2c9fe1452f784ec09039b59"
+    },
+    {
+      "path": "snapshot/runtime/npy/096_ConvExSwish__model_22_cv2_2_cv2_2_1_act_Mul_output_0_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "7796f0f686d7bdda04433ef3c1ba9fdbdce2ea74b837cea855f0ba961bc9de6d"
+    },
+    {
+      "path": "snapshot/runtime/npy/097_Conv_box_s32_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "d04c596d112786062b438f2c4902e9d237a875ad03154d673fdad5f9a9b7e2ae"
+    },
+    {
+      "path": "snapshot/runtime/npy/098_OutputOperator_box_s32_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "d04c596d112786062b438f2c4902e9d237a875ad03154d673fdad5f9a9b7e2ae"
+    },
+    {
+      "path": "snapshot/runtime/npy/099_ConvExSwish__model_22_cv3_2_cv3_2_1_act_Mul_output_0_shape_1_64_20_20_float.npy",
+      "bytes": 102480,
+      "sha256": "8abcb7481477cf6622a474f4902df1195476e2e7069aeb9a212e358b39813183"
+    },
+    {
+      "path": "snapshot/runtime/npy/100_Conv_class_logits_s32_shape_1_2_20_20_float.npy",
+      "bytes": 3280,
+      "sha256": "5dc4e7b24721d3fddf5524e2e16c64bec6fdbc3d1d23dcdf10c9ae5b3ee01892"
+    },
+    {
+      "path": "snapshot/runtime/npy/101_OutputOperator_class_logits_s32_shape_1_2_20_20_float.npy",
+      "bytes": 3280,
+      "sha256": "5dc4e7b24721d3fddf5524e2e16c64bec6fdbc3d1d23dcdf10c9ae5b3ee01892"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_0_act_Mul_output_0.npy",
+      "bytes": 6553728,
+      "sha256": "bc54d0b9af302e99e40bdb60614f464b9bd66852caa1fa96c8c23867321705e2"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_0_conv_Conv_output_0.npy",
+      "bytes": 6553728,
+      "sha256": "d8287855c78132444be33260d63ccacccd94c52a4d7d3d7e0f317b21eac57027"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_10_Resize_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "17c0a8d6d2ed5fc128c594181e22c3606642fe8b3c4286e215f93c2432cfe2f7"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_11_Concat_output_0.npy",
+      "bytes": 2457728,
+      "sha256": "a5d2f941dac16bd69dbc269554eb51269c036e7ffd6eb829ff8046e20cdb9c2f"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "ebc3d91be94e9a200e24a9daa613a1599a451ad221dec0052f83ab4c94cecfc8"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "0a5df531031d617bab992b3a091296ee37d61f7a3d73155b045d4ac9bbe866f1"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "24528d94204424bc7ee65e186a15eee50ecd333213cb585ebf6fab748950333a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "b7079aa4e9282bca5dd17435a5a8ee10ed3b760766d9d71eb796886a6df633f4"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "550a3d6ebf8b763f3b3da6e4b3233a9604ec028faa0aff593e6e7099686a96d1"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "7c23a53688c50ba1a5a1cce3faabf3b0d25e1cf1870d4b8c8c2ac20864f143ec"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "1d66e8221dcdc3644b8c437073a764f6e5b48b1f6f3fee3085b6ef07d7c6eeab"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "0edea57d52007a7014a5dfd9c413da78533ad5e9450bc920e4a1161449e8076f"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "5a271666ef93fc8ed21656778e44e44124d0d02c279981115a9bfbbb46743272"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "b91e2f0e400360a0f08d0691e8fbf6b4cd5c170c05a9a8d92718346bb355ecbe"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_12_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "6c3b3fb99e12f13077f329300559f1a01187fe3ba5157862079596f505672315"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_13_Resize_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "ca846860e353e0708bef032ac898c504fa7e7f54dc899d305df9328dbb0931ac"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_14_Concat_output_0.npy",
+      "bytes": 4915328,
+      "sha256": "e9ee750d4ecfac3481e369c558b94ffe671d8c39fd81a6c8fdace9db8cff7030"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_Concat_output_0.npy",
+      "bytes": 2457728,
+      "sha256": "c0f42b47b5ad88d9fc0739e9a3028f189fb5173afb09b3d95c6aa4e8d188ccd6"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_Slice_1_output_0.npy",
+      "bytes": 819328,
+      "sha256": "54116eeba785f98e93489d46080e7cd28d83481acbdd905617fb818752b65c35"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_Slice_output_0.npy",
+      "bytes": 819328,
+      "sha256": "03fa27ed39c8304b67a8ea8f1528853042be6ac73715794f4b9d2428c7839cc5"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "2d8962b71377ff58fbf2218aed61d429dd825c9124d29bec0d4ad3c04f3d70d9"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "557ba0d92a23cf26590269754e8896d70f7e5c256ccc6007b201209723731a16"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "be3435597507a07072f21b630fe93843eaa69186454d14dce34f44cd257df1c0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "817e16097619c8de78cc6b23c7b5f4815aa9d854542546ec1f8efe2f29e17cfd"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "a02efc348ac5e1ecd2cd88f4a824fab987fb95c90d9993399b187d117010b27a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "22bc60424ec34cef36458ebf22c8cfdb54be26a4d0d73b3c7e7cc8ec7e50bb02"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "6debd94682e53fc6e25c72024c05dfcf2459d21c3525fd87e0c8b9b3e10a0f69"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_15_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "fa211056c6a0cfaa6ff95ebbad1b8906de0fd33436864e29f816930e3947d850"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_16_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "f329be5575ecfbd0a601442e66a48a77702753415f165c6f770352c62d3df75d"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_16_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "82fa8fb54c6aefaa1b8a92e42f46c4f4d282faebf9074ff141973294f1c006a7"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_17_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "142a651e28d0d3abed61fd0c9fb7ca51c21e3868af3148acaa988afee996bd4e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_Concat_output_0.npy",
+      "bytes": 1228928,
+      "sha256": "bda623b63578c22a0e76e44c592936d737e5ffd7bb61e760a182538becd317ef"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "09c678d7c7aafc8a8594df8dbb03430a08e77a4a5729e633b984e54dd30d1bee"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "c0a836bded09da8eba4440acc5d4ab08b59cd4238a18e527413b6ed2536cab27"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "58c5224fd3dac569bf6e9c131f4825003840aa26d2a74b424f00a9a38d322207"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "eee15537b41cdb313ad67f675a527527203d368b1751dfa57b07aa1cb374b9bc"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "7b926c0e03c3180747b49e744ab23cd8513c0829cb52594671aceb97545c7f38"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "9f637d38d55998e8767bfd5baf1e45a07aa3d75ade0c16133fb1ad8a24e66cda"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "f5382af8347b3c34e9f8727c2c403e0327733640761e671a02f9af74cac68669"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "647a513b3662b4241a623d5f66af863d65ef8890f526f811eb83644a48aa1c69"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "32ebae60b0770e67a1b7497eb19165ae6671e076067cd23be56e30e89a1598ec"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_18_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "a9409fd9fc8ae94924fc871b1560b6cc1b72cdcc98d9735c3718e5e317ea3fb6"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_19_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "b8e0faf8f017257fa1f1fad9bf6a474e972ec401610557a551b558fc6a07a84a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_19_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "b12721315dc8d6b18c228df51c41a6443fa4574eda99a82da9a809e1edd1b082"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_1_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "3ec43f4cdaacfaa75d0be37b210f347d43b1f65291fad39861026b895707d7ad"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_1_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "dd4663429ea067f914b64af84f469608ada292da2eac304715ceffc10c486993"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_20_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "c948ccb54e03a4e2fe5d81f9e5b7c2221c63bb98ded92c75f960d341756bdb35"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "e2d8ef44f1a49e016bae3f2369d65ad9f1e2cb1c0ecd47dc8abdef98e38d6d2b"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_Slice_1_output_0.npy",
+      "bytes": 204928,
+      "sha256": "23811d30962908341ff6a8e148f5d2afeb8967606163d77d09dd8e42427a876e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_Slice_output_0.npy",
+      "bytes": 204928,
+      "sha256": "5ce2e2a781baaa25c246adb6c2a0bcdbd2a7d20e5c77f3e627c4fc80f20a7c9e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "65970c34d7eb6eeb3331a09108f84a58b24d0ccab75a671d9b83162d9cc909f2"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "dec232886d56caf4a8d131bcc6ea3989668aa4be0024e31504b072141fb1cc73"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "345377fab64687b4a1ce34bd77c67547bdb64ceb25a7770e26bb34d5264ea6b7"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "739d798fc519a6f3a52fd150361721804f18447993273b1cbcf253529e217878"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "dcc83cb59fa8894d91c5126c8a01844b6c4f870408d553479e95b3ff80c668c4"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "b736cba18b363896ee3e9b0852edc5c6e0e9903851ef9300b6c7ee1371bc1a3c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "b548386808bf57ed59ceb84352dc0ffdf2942bde9b009e1090c5c64374fd7cfc"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_21_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "73a34f48d33da6b23706fc1a9a50c561b8b4f240a899ac9e2b579992d44d8ab3"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_0_cv2_0_0_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "adc7bd942e94b397fb2accd2f2b8862f12b35257abb4fd616dde7d7117d1dc00"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_0_cv2_0_0_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a79f72c411b489cc6fc75bd55fb0f2ecbc35832cd5f472e661b3578329831c3c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_0_cv2_0_1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a601a04df5750f75d77a888b050e90c541dd3996b358952ed2d485d5e270568d"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_0_cv2_0_1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "55099454b8bc85cde78e437b0eef9f417b8b02352ace53c6aad56c902c9d1983"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_1_cv2_1_0_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "3b740e7864284c34d1c92909b32a2b914605bca120bcbbce0cf1436756cdd426"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_1_cv2_1_0_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "2181070f6731860e4a44ee5f33b4f83ac000cef51993f82ab9f15dd59136eb3a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_1_cv2_1_1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "12545daeef0f558f17c16e8ad391cdd8d38022df7bfd191407f173a0bdd9d834"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_1_cv2_1_1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "a584fb806346a4e699acd0c22de0c000453283e076eee529df7c4c4141353cab"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_2_cv2_2_0_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "a294e4241ec67143233463c129c6f57c65eb3a2a613711fdd61c488ba6fac9e9"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_2_cv2_2_0_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "1e74018c81a47e57f7cd2e6e057d62ffcbb2ff73123f74f00702ac75feeb08c3"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_2_cv2_2_1_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "7442df1ff14cf37b5278fb49bacf21ecfc88edc167b60d810488019cc56eb6b8"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv2_2_cv2_2_1_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "c0ca1011f6b5d07c274c1ff08275e3e95a44ceeb25e791176c591bd4f858a7e4"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_0_cv3_0_0_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "bdcf278c71e2de734d5af1a58a0181e570785f60b33e6e43954a7dfe24ea79ec"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_0_cv3_0_0_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "e8e3fe8b7ec6adf7505452ed6a219a70482c11718eae076b014100bea42789e2"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_0_cv3_0_1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "fa78da9fe0349ba3c212d9d47c9c13397dfdcd4cae1a8087f090536aa4d27bcf"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_0_cv3_0_1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "0418a8287794522911c5d7b2c98646a7a2f27b7ff63a678674eb91142bb2ef2c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_1_cv3_1_0_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "3ca16d0d89384c890fe368042e650a6917cd6064ecb992aee4b23f1a25fbbbd6"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_1_cv3_1_0_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "7a7e36ca3622477c9cf966c5db2c3a9d007e225556690943d02eb517ffd01e03"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_1_cv3_1_1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "6f744366f4bf7a94fe1842b666b644d84f26ed46bfa912b63ef90c168bb3dc4e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_1_cv3_1_1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "f26b776adfd58f9d4dc093b72c3de3af0646640399d6544ca08328d3f649ebe6"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_2_cv3_2_0_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "8e89283d6c3c6eeda4f3bf4c87456919c70c93a953984480049d958223221633"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_2_cv3_2_0_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "e1f6f40aa001c1ee8a9c388d5c567876351094a52ebc4b7bf3736ce86533d9d0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_2_cv3_2_1_act_Mul_output_0.npy",
+      "bytes": 102528,
+      "sha256": "0db0b2b8a25709ef7634a5d13111498b845df58a93756eaa6d331f565df52c50"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_22_cv3_2_cv3_2_1_conv_Conv_output_0.npy",
+      "bytes": 102528,
+      "sha256": "b2fb6d328f3e330ab890422658fe56c1279dbcf747c5a7d667e949adfb45c589"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_Concat_output_0.npy",
+      "bytes": 4915328,
+      "sha256": "cd51d2062e10ce4d036df58a83ebb997bd65716a4428f0963811485173621dd3"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_Slice_1_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "5e09b23707ba8b8b068cad2d0efaf044aeee7c9b3ed18011e310f03a9257bc5c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_Slice_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "8fc61e3d48ea5a1d479f009b9ed4d42580b331ee75b39895cad3af7257b559a7"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_cv1_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "b13758e51e8723dadf4a7c42bc97eeb2e29e30b7579482af36e738f41f879002"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_cv1_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "8dec7ba12e261f25be2e1f03d0eb44d9d5715276dd0879b274cab9797c9aa565"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_cv2_act_Mul_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "36415d0b9d47b1d8ead414b925c3fdb337076c6dc1ee0b9d6e7eb40baef28e0f"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_cv2_conv_Conv_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "22abfb8d6a9177cc95444c32109856867217eb3d831dbc5ee8cedf212166e75f"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_m_0_Add_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "09ca0f25daf7fe37e13be69adc6127f53de25db1742e2bcb2898662c9a1a14ad"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "56e998be28799b095e910c9e35283fba2017a9cfb139ccc9db1933b76dd495bb"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "2d7d9b5c039ed7cb3680375d652470c03aaf9b6bd465d5b1b4e58d0260dcbe56"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "224bf2a1f5fe4d7fb5771df13d70fc2512942f67ab76967f01bb85fcbf07f62e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_2_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "4307f3c770619fc511c032bde3954464afbf82ad06d5adba2b8799f4ad7d116c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_3_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "32d6ac5d8808b0c112d933daacd7e07c2a4bbf275b975df896092f72a0ec8ffc"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_3_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "4990e476c699c8d4bfdea29721512547d8dbea293af686a05a22d77df4c81d7e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_Concat_output_0.npy",
+      "bytes": 3276928,
+      "sha256": "d2b34ddb74c0547552e16239e828ce57cd839ce1059a9b85498fae0b26e5f584"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_Slice_1_output_0.npy",
+      "bytes": 819328,
+      "sha256": "9541970edd7f644f00a9721eca68a21a790217046f8420ecd8350f9d92266741"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_Slice_output_0.npy",
+      "bytes": 819328,
+      "sha256": "a4bff25be110d6b7c9ac6c9823b447a9e7466eec10651f65b3cfd3322a06e297"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_cv1_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a43163691cf5bc99b715a501d919e757913501dedc0a76c1499dc65fcb855626"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_cv1_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "1cd3454850b8b8062e69149fde0d233797d092ff20627a56b8e9f055335c3c7d"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_cv2_act_Mul_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "9005ae36a10e1cdf1224075e28438354b37c50bdf2390129be1b71030eea73ee"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_cv2_conv_Conv_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "a68ede6fc3520af90909929bfbef029ea542d4f3602c645a450c37ab92e86cbe"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_0_Add_output_0.npy",
+      "bytes": 819328,
+      "sha256": "928d095f727ff219eb359bf11f885ed5889da3b1c561495f0c71efe6a574338e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "931d7a3762a1e14a6dcd833a9cf39d55679f5b5aefa8fa8c061ea6d69a95d6b1"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "e44a356087cfbb772098df64bb314630dd6c53d85a5f61b4cc139f2c0ddaa9c4"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "fbad41e1ead4153c438549dc4d84908457f15dcb770b04d61bfe215e27bc3a37"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "f65e464a579a54851de9a37937bc05f0edf0a22453246c996d5d69cc3afe9981"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_1_Add_output_0.npy",
+      "bytes": 819328,
+      "sha256": "7670cd23ecd024889fe306e4545b976b1ec7c5f19a78a6424b169dceebfb5042"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_1_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "63a6dc71b1b7436bbb1c96ba2c43bd900f0dc37b8e16e6fed3fd261d86e4af6f"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_1_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "525acbeb1754b124a2ac9b20a4d1561a20f3f99b26d03c9f939b3dca440e814a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_1_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "6ea45b0f8814433f36d41d5d6aa7fee1446b1aea26c0e76c29b9ad927f14efaf"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_4_m_1_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "3031453d111955401849d29c205652990d35d13607d5dee574bce1f88320289a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_5_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "ea3cfb84e7736b92afaca24c983d6f2bf2a91175f83726503e74d6025caaa6a0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_5_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "0aee62e5e27a55106786db0ab94a60aeb50622e7fcd6710d17b3099edc314093"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_Concat_output_0.npy",
+      "bytes": 1638528,
+      "sha256": "9a474b44319d2e7c6595bfb881520439d736dbfb4a365e73d1ffdf292691fb46"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_Slice_1_output_0.npy",
+      "bytes": 409728,
+      "sha256": "b1e29f3747cd81096f6e5510d0df60ab83350b0d7aa5b59c430e69ad7d243ff3"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_Slice_output_0.npy",
+      "bytes": 409728,
+      "sha256": "3cf2b095ab48cc3d0612c3a9bd5fa7085fa2f66be6faf48c19f4a4422521aebd"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_cv1_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "84d656647f74fcee4fea0158a32ee6ae6174e10d5fa49066f97181265a118d72"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_cv1_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "6753312a84b2453bc3cb32c0b8f29e3d394a8150cc008b321b7f25c990348dd9"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_cv2_act_Mul_output_0.npy",
+      "bytes": 819328,
+      "sha256": "4438cce57f00afbcf1d9622ce19c834693f49451573a89eadb6d05fbc0af87af"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_cv2_conv_Conv_output_0.npy",
+      "bytes": 819328,
+      "sha256": "6fa61503c2965f8d9c83312e2f0c51499f1d7cab2be7ccc39da1581618ff8836"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_0_Add_output_0.npy",
+      "bytes": 409728,
+      "sha256": "af33ecc310dd799e6b66e05fbe5e9a1fb9a0d960eabca530a7e0de15d2241597"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "0635cd632cd264509205a526b7495c267f73e0b7e5fa813b6859685cd18a3782"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "77af6e29738ba6ee004f16f822aadf50b7a7ad820477d4064c1809ff5fcaf4f0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "346a7dc14ba2f673694fcd51e098c1cfda1dbdebb5aa21eaae887538edb1353c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "2b86cd31db9012a5c77b7fba81113ab27db23f7d37439841f4288dc22411c440"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_1_Add_output_0.npy",
+      "bytes": 409728,
+      "sha256": "329a397b89cc834ec212245ae53e228fd366af7da061f5d9c322447413d8f390"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_1_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "663e261a7dbb256c597329b97dbe830b57b0d1317bb19c31ac21f74e3abc6cd2"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_1_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "7e2547f860c448213b6286e1734a3d63f6372f5e6686f101df2768424430364c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_1_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "6ccbfa4e267d9d362c3918a80414684ba024bf8aa833e44fdaa9465168edc35d"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_6_m_1_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "333090b2950e6636cc26803cee63d5da7ecbe7cac83f3f2a19a0dc262c11dc66"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_7_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "99c50c0cc949d4ff3f6412b0e3b72b3eca3b77b9a871f438e0c303d11172173d"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_7_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "1f1f6c2169406958f98b77d4234df08ea4fc11fc198bd015a1dd5885ba111c4e"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_Concat_output_0.npy",
+      "bytes": 614528,
+      "sha256": "8fd56d94efa5b87c8468e0fb01e7de1d1dc873191667b1edf07342f9e27f6fe7"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_Slice_1_output_0.npy",
+      "bytes": 204928,
+      "sha256": "9810404c8ba408c0602bcecbb87d030efc2d7066bde641289b2be64d6e400de0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_Slice_output_0.npy",
+      "bytes": 204928,
+      "sha256": "21be77a7632931f057d4acdf1ebcc4661a4d015608638d7608ae0566be1a4eb0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_cv1_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "72ac6b598d9ac834abb56e83e8f89ac2bd4d1221d823c02dc6bea0db0e4504b6"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_cv1_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "7143931ebaf2886ef83a9d1e58b5a7fbc0b8870398c76af3d7bc3e0e39434222"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "d2f904270df68172f093af7498161fffd330f8d5f7e4961c89fc5b82746047db"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "5444dea1f9ee2b4f59dbe876a6ce546dff14bb106e32adf80f1bc284e039ee1a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_m_0_Add_output_0.npy",
+      "bytes": 204928,
+      "sha256": "61eac56061c0a25b2cde6a42713f72bbf6eb6e45f634adad7468db724a5e8c9a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_m_0_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "4e849fd6060cd7a945ea02863ac7bfd1fe686bfcf8584585c8665ba26717f5db"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_m_0_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "b4014fc1a4536e1e0cfff877a865493b1908746589ac90dbf2413b657cfc8e73"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_m_0_cv2_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "ebc563e9d182a722be3c9e0e9558aebc931affa04a876f8ea8cd896d79b3497c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_8_m_0_cv2_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "13a4431b20cb55bff701b369059d97ab7acbbc014e4637e973f834cd41253591"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_Concat_output_0.npy",
+      "bytes": 819328,
+      "sha256": "413065aec06872fd4a108fa8da16da9bad35926725435f5b91e4e796e9e925f2"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_cv1_act_Mul_output_0.npy",
+      "bytes": 204928,
+      "sha256": "9800357e0e740f1592bb0fbc0440cfa7e3b63b32865c81af60f6e36eb69f487c"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_cv1_conv_Conv_output_0.npy",
+      "bytes": 204928,
+      "sha256": "a0eab1efe58c4892174aeb9fa61c073f240880dc58cca6b63d88083814dcd69a"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_cv2_act_Mul_output_0.npy",
+      "bytes": 409728,
+      "sha256": "5e1ee4392418d911762f0288cddb56f8006ba860636422cd462f52e33a11c3a0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_cv2_conv_Conv_output_0.npy",
+      "bytes": 409728,
+      "sha256": "db6adc40c6f0fc8837672a3c5335e122b5395b8cc3020a6ecd6551ca28d158d0"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_m_1_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "59936c87504f9fd69ed1d0a0abd513edf64239aac850b615f45a23cfc85cdcfe"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_m_2_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "7f9c093e079bcececf0ba6e145820f60b36d7ba318fca155f14ad9a9468178d8"
+    },
+    {
+      "path": "snapshot/simulator/npy/_model_9_m_MaxPool_output_0.npy",
+      "bytes": 204928,
+      "sha256": "1a87a71fa55d07cd09ad85da523997b6598c32f6176d26e0d6443b0dfc45b001"
+    },
+    {
+      "path": "snapshot/simulator/npy/box_s16.npy",
+      "bytes": 409728,
+      "sha256": "cc61547c66b688630255298fe5c400af1123df59399b2a287b26800100f350a4"
+    },
+    {
+      "path": "snapshot/simulator/npy/box_s32.npy",
+      "bytes": 102528,
+      "sha256": "7d6d2e75a558a41a1d02f391a2cc613b349c52bb5bed65c71f1ed5d6c0795665"
+    },
+    {
+      "path": "snapshot/simulator/npy/box_s8.npy",
+      "bytes": 1638528,
+      "sha256": "8224be63efa4e5bdec789707bd46a86b5c3f4cbd0b6fdec0c4da17e805727454"
+    },
+    {
+      "path": "snapshot/simulator/npy/class_logits_s16.npy",
+      "bytes": 12928,
+      "sha256": "cd4bdaa3bc70d324d8d0a91a74e2ff6adb7fbc5c90a6ad8f668031a29292d2b9"
+    },
+    {
+      "path": "snapshot/simulator/npy/class_logits_s32.npy",
+      "bytes": 3328,
+      "sha256": "3c6cd6a62d0ae625fe59140173edadb106e2aa706399937b70444e2fe21068a2"
+    },
+    {
+      "path": "snapshot/simulator/npy/class_logits_s8.npy",
+      "bytes": 51328,
+      "sha256": "47a8f8ece35b740f888a32c049f1bbef8c13c533a7921bd94ab224d73a974882"
+    },
+    {
+      "path": "snapshot/simulator/npy/images.npy",
+      "bytes": 4915328,
+      "sha256": "d2f6748357bcb60fc5d1f2aaf127afadbdee668c63d10480cd322bf98ce97baa"
+    }
+  ],
+  "not_copied": "Duplicated plain-text tensor dumps and intermediate optimized ONNX remain unchanged on board."
+}

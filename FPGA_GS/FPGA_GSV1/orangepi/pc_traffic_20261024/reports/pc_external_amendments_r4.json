@@ -1,0 +1,104 @@
+{
+  "reviewer": "Codex_PC_AI_actual_external_adjudication_r4",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "revisions": [
+    {
+      "candidate_id": "coco_scene_000000309391",
+      "base_manifest": "review_stage2/external_scene_pilot_r3/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_midleft",
+          "field": "bbox_xyxy",
+          "value": [
+            181,
+            255,
+            208,
+            316
+          ]
+        },
+        {
+          "object_id": "body_ped_left",
+          "field": "bbox_xyxy",
+          "value": [
+            145,
+            319,
+            168,
+            340
+          ]
+        },
+        {
+          "object_id": "body_ped_left",
+          "field": "occlusion",
+          "value": "partial"
+        },
+        {
+          "object_id": "body_high",
+          "field": "occlusion",
+          "value": "partial"
+        }
+      ],
+      "append_objects": [
+        {
+          "id": "body_ped_middle",
+          "type": "body",
+          "bbox_xyxy": [
+            383,
+            291,
+            403,
+            315
+          ],
+          "kind": "pedestrian",
+          "layout": "single",
+          "kind_basis": "Visible walking-person figure within a separate dark signal housing; visible outline is partly covered by the pole/tree and foreground panel. Do not infer hidden bottom or control direction.",
+          "occlusion": "partial",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_far_hand_extent",
+          "type": "ignore",
+          "bbox_xyxy": [
+            493,
+            249,
+            511,
+            279
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Small red hand-like emitting patch visible but PC cannot confidently establish full pedestrian-housing kind/bounds; preserve entire previously uncovered lower extent rather than assume background."
+        },
+        {
+          "id": "ignore_middle_upper",
+          "type": "ignore",
+          "bbox_xyxy": [
+            379,
+            263,
+            405,
+            290
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Unresolved small upper/reverse fixture above the newly recorded walk head; no kind or emission truth from the pale face."
+        }
+      ],
+      "notes": [
+        "Independent reviewer correctly found an omitted middle walking-person head. PC actually inspected original-pixel middle_ped detail and added a partially occluded pedestrian body; the old whole-image omission is preserved as a real first-pass error.",
+        "Far red hand-like region is acknowledged independently of color. Existence of a small fixture is visible, but reliable kind/full body remains uncertain to PC; new specific ignore includes its lower part beyond old broad ignore.",
+        "Original-pixel detail confirms midleft visible housing bottom near316. Left hand head is physically occluded at the lower edge: shorten to visible extent and mark partial. Thin foreground wire crosses body_high, so partial is recorded; other none fields are not batch changed without evidence.",
+        "Keep Portland source scene linkage unresolved and conservatively joint with older Portland source. These are annotation amendments, never group/split release."
+      ],
+      "evidence": [
+        "review_stage2/adjudication_external_r4/far_hand.png",
+        "review_stage2/adjudication_external_r4/high_wires.png",
+        "review_stage2/adjudication_external_r4/middle_ped.png",
+        "review_stage2/adjudication_external_r4/midleft_base.png",
+        "data/external_scene_candidates_r3/views/309391_left_native3x.png",
+        "data/external_scene_candidates_r3/views/000000309391.jpg"
+      ]
+    }
+  ],
+  "training_release": false
+}

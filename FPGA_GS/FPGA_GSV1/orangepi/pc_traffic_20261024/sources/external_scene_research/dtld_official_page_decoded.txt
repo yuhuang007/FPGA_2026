@@ -1,0 +1,6040 @@
+<!DOCTYPE html>
+<html lang="de-DE" class="no-js" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="utf-8">
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<link rel="icon" href="/_assets/a92153751098915699a1afa17e77f864/Images/favicon.ico" type="image/png">
+<title>DriveU Traffic Light Dataset - Universität Ulm</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="index,follow">
+<meta name="language" content="de">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/basic-9093e6d547798a1c9a383ca5e898fd9e.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/print-a1f07bd5b005e743ebd87fe6057e5644.css.gz?1792671775" media="print">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/fontawesome-64a198ad1129b6398f421d4da3c8af48.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/academicons-be3dad68d08a356c73f0549f43d7346e.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/ods_osm-e602379d8775fcd5e82e34cfabf80d87.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/style-639ea8e88699f0d4c212223d81ab3042.css.gz?1792671775" media="all">
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />						<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-news.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-jobs.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-kiz.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-news.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-kolloquium-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-pe.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-cs.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-ds.rss" />
+      <link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning-moodle.rss" />
+      <link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning-ohne-moodle.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning.rss" />
+			<link rel="alternate" type="text/calendar" href="https://www.uni-ulm.de/feed-elearning-workshops.ics" /><script>document.documentElement.className = 'js';</script>			<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://webanalyse.uni-ulm.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<link rel="canonical" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/">
+
+<link rel="alternate" hreflang="de-DE" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/">
+<link rel="alternate" hreflang="en-GB" href="https://www.uni-ulm.de/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/">
+<link rel="alternate" hreflang="x-default" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/">
+</head>
+<body data-page-identifier="92093" class="faculty-it">
+<header class="js-page-header page-header">
+
+	<nav class="skipnav--skipanchors" aria-label="Bereiche überspringen">
+    <ul class="skipnav__list" >
+        <li class="skipnav__item " data-level-count="1" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#mainNavIdentifier" tabindex="0">Direkt zur Hauptnavigation</a>
+        </li>
+        <li class="skipnav__item " data-level-count="2" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#mainContentIdentifier" tabindex="0">Direkt zum Inhalt</a>
+        </li>
+        <li class="skipnav__item " data-level-count="3" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#toolbarIdentifier" tabindex="0" >Direkt zum Funktionsmenü (Sprache, Drucken, Social Media)</a>
+        </li>
+        <li class="skipnav__item " data-level-count="4" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#footerNavIdentifier" tabindex="0" >Direkt zur Fußleiste</a>
+        </li>
+        <li class="skipnav__item " data-level-count="5" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#searchIdentifier" tabindex="0">Direkt zur Suche</a>
+        </li>
+    </ul>
+</nav>
+
+	<div class="container">
+		<div class="row row-cols-1 row-cols-md-2">
+			<div class="col">
+				
+	
+	
+			<div class="entry-page-title">
+				
+						<a href="/in/mrm/" class="entry-page-title__link">Institut für Mess-, Regel- und Mikrotechnik</a>
+					
+			</div>
+		
+
+				
+			</div>
+
+			<div class="col">
+				
+	<div class="logo">
+		<a class="logo__link" href="/" title="Startseite">
+			<img class="logo__img" src="/_assets/a92153751098915699a1afa17e77f864/Images/logo-uni-ulm.svg?1792671732" alt="Logo der Universität Ulm" />
+		</a>
+	</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="page-header__row-main-nav">
+		<div class="row">
+			<div class="js-search-bar-field search-bar search-bar--major">
+				
+<div class="container">
+	<form action="https://duckduckgo.com/" class="d-flex js-duckduck" target="_blank">
+		<input type="hidden" name="k1" value="-1" />
+		<input id="q"
+			   class="form-control me-2 js-duckduck-query"
+			   type="search"
+			   name="q"
+			   placeholder="Suchbegriff eingeben"
+			   value=""
+			   aria-label="Suche"
+		>
+		<button class="button--thin search-bar__submit js-duckduck-submit" type="submit">Suchen</button>
+	</form>
+</div>
+
+			</div>
+
+			
+
+
+
+<nav class="js-main-navigation main-navigation">
+		
+			<i class="js-main-navigation-toggle main-navigation_mobileopen" tabindex="0" aria-label="Menü öffnen">
+				Menü
+			</i>
+		
+	<div class="container">
+		
+	<ul class="js-main-navigation-list main-navigation-list list-unstyled main-navigation-level1 noMarginlist" id="mainNavIdentifier">
+			
+				
+					
+					
+						<li class="navigation-title"><span>Institut für Mess-, Regel- u. Mikrotechnik</span>
+					
+
+					
+					
+							
+									
+	<li>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Lehre<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Lehre</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/vorlesungen-sommersemester/">
+				Vorlesungen (Sommersemester)
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Vorlesungen (Sommersemester)</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/automatisierungstechnik-multi-agenten-systeme/">
+				Automatisierungstechnik: Multi-Agenten-Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/dr/">
+				Digitale Regelungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/ert/">
+				Einführung in die Regelungstechnik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/nichtlineare-regelungen/">
+				Nichtlineare Regelungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/vorlesungen-wintersemester/">
+				Vorlesungen (Wintersemester)
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Vorlesungen (Wintersemester)</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/einfuehrung-in-die-messtechnik/">
+				Einführung in die Messtechnik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/fahrerassistenzsysteme-und-automatisiertes-fahren/">
+				Fahrerassistenzsysteme und Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/filter-u-trackingverfahren/">
+				Filter- u. Trackingverfahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/ids/">
+				Identifikation dynamischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/ids-1/">
+				Machine Learning for Dynamical Systems
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/mds/">
+				Modellbildung dynamischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/regelung-verteilt-parametrischer-systeme/">
+				Regelung verteilt-parametrischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/systemtheorie-mehrgroessenregelung-im-zustandsraum/">
+				Systemtheorie: Mehrgrößenregelung im Zustandsraum
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/projekte-praktika/">
+				Projekte &amp; Praktika
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Projekte &amp; Praktika</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/mess-und-automatisierungstechnik-wintersemester/">
+				Mess- und Automatisierungstechnik (Wintersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/projekt-automatisiertes-fahren/">
+				Projekt Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/projekt-wissenschaftliche-software-tools-sommersemester/">
+				Projekt Wissenschaftliche Software-Tools (Sommersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/regelungstechnik-sommersemester/">
+				Regelungstechnik (Sommersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/seminare/">
+				Seminare
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Seminare</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/seminare/seminar-moderne-methoden-der-regelungstechnik-sommer-und-wintersemester/">
+				Seminar Moderne Methoden der Regelungstechnik (Sommer- und Wintersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vortragsankuendigungen/">
+				Vortragsankündigungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/studentische-arbeiten/">
+				Studentische Arbeiten
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li data-actnavigationpage=&quot;1&quot;>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Forschung<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschung</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/">
+				Methoden &amp; Kompetenzen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Methoden &amp; Kompetenzen</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/maschinelle-lernverfahren/">
+				Maschinelle Lernverfahren
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Maschinelle Lernverfahren</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/maschinelle-lernverfahren/maschinelles-sehen/">
+				Maschinelles Sehen
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/klassifikation-und-situationsverstehen/">
+				Klassifikation und Situationsverstehen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/modellbildung-identifikation-diagnose/">
+				Modellbildung, Identifikation &amp; Diagnose
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/">
+				Probabilistische Datenverarbeitung
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Probabilistische Datenverarbeitung</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/informationsfusion-1/">
+				Informationsfusion
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/tracking-lokalisierung-1/">
+				Tracking &amp; Lokalisierung
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/verteilt-parametrische-systeme/">
+				Verteilt-parametrische Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/forschungsthemen/">
+				Forschungsthemen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschungsthemen</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/automatisiertes-fahren/">
+				Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/elektromobilitaet/">
+				Elektromobilität
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/mechatronik/">
+				Mechatronik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/robotik/">
+				Robotik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/vernetztes-fahren-vernetzte-infrastruktur/">
+				Vernetztes Fahren / Vernetzte Infrastruktur
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/infrastruktur/">
+				Infrastruktur
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Infrastruktur</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschungfrastruktur/vis/">
+				Infrastruktursensorik für vernetztes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/infrastruktur/pruefstaende-elektromobilitaet/">
+				Prüfstände Elektromobilität
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/infrastruktur/versuchstraeger-fuer-automatisiertes-fahren/">
+				Versuchsträger für automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li data-actnavigationpage=&quot;1&quot;>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/">
+				Datensätze
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Datensätze</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/aduulm-dataset/">
+				ADUULM Dataset
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/dense-datasets/">
+				DENSE Datasets
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>DENSE Datasets</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/dense-datasets/registrierungsformular-dense/">
+				Registrierungsformular DENSE
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li data-curnavigationpage=&quot;1&quot;>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/">
+				DriveU Traffic Light Dataset
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>DriveU Traffic Light Dataset</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/">
+				Registrierungsformular DTLD
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/ausgruendungen/">
+				Ausgründungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/publikationen/">
+				Publikationen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Institut<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Institut</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/mitarbeitende/">
+				Mitarbeitende
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/institut/forschungsgruppen/">
+				Forschungsgruppen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschungsgruppen</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/beckers/">
+				Beckers
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/buchholz/">
+				Buchholz
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/deutscher/">
+				Deutscher
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/dietmayer/">
+				Dietmayer
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/schriftenreihe/">
+				Schriftenreihe
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/kontakt/">
+				Kontakt
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li>
+		
+				
+						<a class="main-navigation_next-level1" href="/in/mrm/stellenangebote/">Stellenangebote</a>
+					
+
+			
+	</li>
+
+								
+						
+				
+
+				
+				
+			
+
+		<li>
+			<button class="js-search-bar-button-desktop button button--no-style search-bar-toggle search-bar-toggle--desktop" id="searchIdentifier" aria-label="Suche" title="Suche"></button>
+		</li>
+	</ul>
+
+	</div>
+
+	<button class="js-search-bar-button-mobile button button--no-style search-bar-toggle search-bar-toggle--mobile" aria-label="Suche" title="Suche"></button>
+</nav>
+
+
+
+
+
+
+
+
+
+
+			
+				<div class="breadcrumb__container">
+	<div class="container py-0">
+		<nav class="breadcrumb mb-0" aria-labelledby="nav-indicator">
+			<!-- <span class="breadcrumb__indicator" id="nav-indicator">Sie sind hier:</span> -->
+			<a class="breadcrumb__link-home" href="/" title="Startseite"></a>
+			<ul class="breadcrumb__list js-breadcrumb-list"><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/" class="breadcrumb__link">Institut für Mess-, Regel- u. Mikrotechnik</a></li><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/forschung/" class="breadcrumb__link">Forschung</a></li><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/forschung/datensaetze-1/" class="breadcrumb__link">Datensätze</a></li><li class="breadcrumb__item breadcrumb__item--collapse">DriveU Traffic Light Dataset</li></ul>
+		</nav>
+	</div>
+</div>
+
+			
+		</div>
+	</div>
+
+	
+
+
+<ul class="js-toolbar toolbar" id="toolbarIdentifier">
+	<li class="js-coco-parent toolbar__item toolbar__item--has-submenu">
+		<button class="js-toolbar-button-toggle toolbar__button toolbar__button--toggle"
+		        title="Teilen">
+			<img class="toolbar__button-img"
+			     alt="Teilen"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/share.svg?1792671732"
+			     width="30" />
+		</button>
+		<ul class="js-coco-child js-toolbar-button-submenu toolbar__button toolbar__button--submenu">
+			<li class="toolbar__submenu-item">
+				<a class="toolbar__button"
+				   href="https://www.facebook.com/sharer/sharer.php?u=https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/"
+				   target="_blank"
+				   title="Facebook">
+					<img class="toolbar__button-img"
+					     alt="FB"
+					     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/facebook.svg?1792671732"
+					     width="30" />
+				</a>
+			</li>
+			<li class="toolbar__submenu-item">
+				<a class="toolbar__button"
+				   href="mailto:?&subject=Universität&nbsp;Ulm&body=https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/"
+				   target="_blank"
+				   title="Mail">
+					<img class="toolbar__button-img"
+					     alt="@"
+					     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/mail.svg?1792671732"
+					     width="30" />
+				</a>
+			</li>
+		</ul>
+	</li>
+	<li class="js-coco-parent toolbar__item toolbar__item--has-submenu">
+		<button class="js-toolbar-button-toggle toolbar__button toolbar__button--toggle"
+						title="Sprache wählen">
+			<img class="toolbar__button-img"
+					 alt="Sprache wählen"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/globe-white.svg?1792671732"
+					 width="30" />
+		</button>
+		<ul class="js-coco-child js-toolbar-button-submenu toolbar__button toolbar__button--submenu">
+			
+				
+			
+				
+					<li class="toolbar__submenu-item">
+						<a href="/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/?rest_route=%2F&amp;cHash=6b50d8e82658ad5470b8f2bdf3a30864" title="English" class="toolbar__button toolbar__button--text">
+							EN
+						</a>
+					</li>
+				
+			
+		</ul>
+	</li>
+	<li class="js-toolbar-item-print toolbar__item toolbar__item--print">
+		<a class="toolbar__button"
+		   href="javascript:window.print()"
+		   title="Diese Seite ausdrucken">
+			<img class="toolbar__button-img"
+			     alt="Druck"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/print.svg?1792671732"
+			     width="30" />
+		</a>
+	</li>
+	<li class="js-toolbar-item-top toolbar__item toolbar__item--top">
+		<a class="toolbar__button"
+		   href="#"
+		   title="Nach oben">
+			<img class="toolbar__button-img"
+			     alt="Top"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/arrow-ghost-top.svg?1792671732"
+			     width="30" />
+		</a>
+	</li>
+</ul>
+
+</header>
+
+<main class="row" id="mainContentIdentifier">
+	
+	
+
+
+
+<div id="c758908" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	DriveU Traffic Light Dataset (DTLD) 
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse758908" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+					<div id="gallery758908" class="carousel slide" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					
+						
+	
+			
+		<figure class="carousel-item gallery-item active"
+				data-gallery-img-number="1/5"
+		>
+			
+					
+	
+		
+				
+						<a href="/fileadmin/_processed_/c/b/csm_title_2_blur_8961a96ea2.jpg" class="js-zoomable-img zoomable-img" data-lightbox="lightbox758908" data-title="Kamerabild mit Annotationen überlagert mit dem Disparitätsbild.">
+							
+	<img class="d-block w-100 w-auto " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/title_2_blur.jpg" width="1280" height="640" alt="" />
+
+						</a>
+					
+			
+	
+
+				
+			
+				<figcaption class="js-gallery-img-caption gallery__img-caption">
+					Kamerabild mit Annotationen überlagert mit dem Disparitätsbild.
+				</figcaption>
+			
+		</figure>
+	
+		
+
+	
+
+					
+						
+	
+			
+		<figure class="carousel-item gallery-item"
+				data-gallery-img-number="2/5"
+		>
+			
+					
+	
+		
+				
+						<a href="/fileadmin/_processed_/b/6/csm_title_1_1927a2f455.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox758908" data-title="Datensatzbeispiel mit der höchsten Anzahl an Annotationen pro Bild.">
+							
+	<img class="d-block w-100 w-auto " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/title_1.png" width="1280" height="640" alt="" />
+
+						</a>
+					
+			
+	
+
+				
+			
+				<figcaption class="js-gallery-img-caption gallery__img-caption">
+					Datensatzbeispiel mit der höchsten Anzahl an Annotationen pro Bild.
+				</figcaption>
+			
+		</figure>
+	
+		
+
+	
+
+					
+						
+	
+			
+		<figure class="carousel-item gallery-item"
+				data-gallery-img-number="3/5"
+		>
+			
+					
+	
+		
+				
+						<a href="/fileadmin/_processed_/b/f/csm_title_2_ee71461ef3.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox758908" data-title="Öffnungswinkel der Stereokamera.">
+							
+	<img class="d-block w-100 w-auto " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/title_2.png" width="1280" height="640" alt="" />
+
+						</a>
+					
+			
+	
+
+				
+			
+				<figcaption class="js-gallery-img-caption gallery__img-caption">
+					Öffnungswinkel der Stereokamera.
+				</figcaption>
+			
+		</figure>
+	
+		
+
+	
+
+					
+						
+	
+			
+		<figure class="carousel-item gallery-item"
+				data-gallery-img-number="4/5"
+		>
+			
+					
+	
+		
+				
+						<a href="/fileadmin/_processed_/d/4/csm_title_3_4c8d4c5584.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox758908" data-title="Stereodaten sind Teil des Datensatzes.">
+							
+	<img class="d-block w-100 w-auto " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/title_3.png" width="1280" height="640" alt="" />
+
+						</a>
+					
+			
+	
+
+				
+			
+				<figcaption class="js-gallery-img-caption gallery__img-caption">
+					Stereodaten sind Teil des Datensatzes.
+				</figcaption>
+			
+		</figure>
+	
+		
+
+	
+
+					
+						
+	
+			
+		<figure class="carousel-item gallery-item"
+				data-gallery-img-number="5/5"
+		>
+			
+					
+	
+		
+				
+						<a href="/fileadmin/_processed_/1/5/csm_DTLD_all_cities_combined_27d353039a.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox758908" data-title="All 11 recording cities and label illustrations">
+							
+	<img class="d-block w-100 w-auto " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/DTLD_all_cities_combined.png" width="1280" height="655" alt="" />
+
+						</a>
+					
+			
+	
+
+				
+			
+				<figcaption class="js-gallery-img-caption gallery__img-caption">
+					All 11 recording cities and label illustrations
+				</figcaption>
+			
+		</figure>
+	
+		
+
+	
+
+					
+				</div>
+			<a class="carousel-control-prev" href="#gallery758908" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#gallery758908" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</a>
+			</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c758928" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Herzlich Willkommen!
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--50-50 gridlayout--address">
+		<div class="row row-cols-1 row-cols-md-2">
+			<div class="col column-left">
+				
+					
+
+
+
+<div id="c758927" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p> Herzlich Willkommen auf der Homepage des DriveU Traffic Light Datasets (DTLD). Wir präsentieren einen handannotierten Datensatz, welcher an Forscher im Bereich der Erkennung von Lichtsignalanlagen adressiert ist. Die Hauptbeiträge des Datensatzes zum Stand der Technik sind:</p><ul><li>Quantität: Der Datensatz übertrifft bisherige Stichproben zur Lichtsignalerkennung in der Anzahl an gelabelten Objekten (11/2018).</li></ul><ul><li>Qualität: Dank eines eigenen Annotationstools werden sehr exakt und konsistent annotierte Objekte veröffentlicht. Darüber hinaus sind alle Objekte mit weiteren Attributen wie Orientierung, Piktogramm- und Relevanzinformation versehen. Des Weiteren gibt es Trackidentitätsnummern, welche eindeutige Lichtsignalinstanzen gruppieren.</li></ul><ul><li>Weitere Sensordaten: Zusätzlich zu Kamerabildern werden Disparitätsdaten, Kalibrierung sowie weitere Fahrzeugdaten wie GPS, Geschwindigkeit und Gierrate veröffentlicht.</li></ul>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+			<div class="col column-right">
+				
+					
+
+
+
+<div id="c758926" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse758926" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+			
+	<video controls class="d-block w-100  "><source src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/dtld_video_all.mp4" type="video/mp4"></video>
+
+		
+
+						
+
+					
+							<figcaption>
+								Einblick in den Datensatz
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+
+
+<div id="c1000211" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Übersicht zum Datensatz
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--66-33 gridlayout--address">
+		<div class="row">
+			<div class="col-md-8 column-left">
+				
+					
+
+
+
+<div id="c1000212" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>DTLD enthält mehr als 230 000 annotierte Lichtsignalanlagen in Kamerabildern mit 2 Megapixeln Auflösung. Der Datensatz wurde in 11 deutschen Städten mit einer Bildfrequenz von 15 Hz aufgenommen. Durch eine Vielzahl an annotierten Lichtsignalattributen wie Orientierung, Relevanz, Zustand oder Piktogramm existieren insgesamt 344 unterschiedliche Labelklassen. Zusätzlich zu den Kamerabildern werden Disparitätsbilder veröffentlicht, durch welche eine tiefenbasierte Detektion und tiefenabhängige Auswertungen möglich sind.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c1000213" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Annotation an der Auflösungsgrenze 
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Das verwendete Annotationstool ermöglicht eine Annotation von Objekten der Breite 5 Pixel oder weniger. Aus diesem Grund besteht DTLD aus einer sehr hohen Anzahl an sehr kleinen Objekten (siehe Abbildung 2). Daher ist der Datensatz auch für Forschungen im Bereich der Objekterkennung bei sehr geringen Auflösungen gut geeignet.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c1000223" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Hohe Varianz des Lichtsignalseitenverhältnisses 
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Im Datensatz gbt es eine Vielzahl an annotierten Lichtsignalanlagen mit einer, zwei (z.B. Fußgängerpiktogramm), drei oder vier (Bus/Tram) aktiven Lichtelementen. Dadurch ist die Seitenverhältnisvarianz wesentlich höher als in bisherigen Stichproben, welche sich meist auf Lichtsignalanlagen mit 3 aktiven Lichtelementen fokussiert haben.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c1000224" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Hohe örtliche Varianz 
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Eine bedeutende Eigenschaft von DTLD ist die hohe örtliche Varianz (siehe Bild 4). Örtliche Varianz beschreibt die örtliche Verteilung (Position) der Annotationen im Kamerabild. Dies konnte durch Herausfiltern von statischen Szenen erreicht werden. Es wurden nur statische Szenen hinzugefügt, in denen sich der Zustand von mindestens einer Ampel geändert hat.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+			<div class="col-md-4 column-right">
+				
+					
+
+
+
+<div id="c1000225" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse1000225" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/dtld_table.PNG" width="1494" height="397" alt="" />
+
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Statistiken des Datensatzes 
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c1000227" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse1000227" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								
+	<img class="d-block w-100  " src="/fileadmin/_processed_/c/f/csm_class_bar_daimler-eps-converted-to_b3b9edc51e.png" width="683" height="486" alt="" />
+
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Häufigkeit wichtiger Klassen in DTLD 
+							</figcaption>
+						
+				</figure>
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								
+	<img class="d-block w-100  " src="/fileadmin/_processed_/b/3/csm_label_resolution_daimler-eps-converted-to_ccb6281a70.png" width="689" height="418" alt="" />
+
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Label width distribution
+							</figcaption>
+						
+				</figure>
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								
+	<img class="d-block w-100  " src="/fileadmin/_processed_/5/a/csm_label_ratio_daimler-eps-converted-to_a92f00ef60.png" width="683" height="415" alt="" />
+
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Verteilung der Objektseitenverhältnisse
+							</figcaption>
+						
+				</figure>
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								
+	<img class="d-block w-100  " src="/fileadmin/_processed_/d/e/csm_label_heatmap_daimler-eps-converted-to_e3eb92aae2.png" width="659" height="362" alt="" />
+
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Örtliche Verteilung der Objekte
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+
+
+<div id="c758937" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Labels
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--50-50 gridlayout--address">
+		<div class="row row-cols-1 row-cols-md-2">
+			<div class="col column-left">
+				
+					
+
+
+
+<div id="c758930" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Es werden Annotationen in Form von Bounding Box Koordinaten (linke obere Ecke, Breite, Höhe) aber auch weitere Attribute veröffentlicht, wie:</p><ul> 	<li>Perspektivische Orientierung</li> 	<li>Relevanz</li> 	<li>Orientierung</li> 	<li>Anzahl an Lichteinheiten</li> 	<li>Zustand</li> 	<li>Piktogramm</li> </ul><p>Diese Attribute werden durch eine sechsstellige <strong>Klassenidentitätsnummer </strong>zusammengefasst (<strong>Anmerkung 04/21: nur DTLD v1.0!</strong>). <strong>Ab 04/21, DTLD v2.0, wird die Klassenidentitätsnummer durch ein Attribut-Dictionary ersetzt</strong>. Zusätzlich zu den bislang annotierten Attributen wird Reflektion beigefügt. Dies gibt an, ob das Lichtsignal lediglich eine Reflektion, z. B. in Schaufenstern, ist&nbsp;Darüber hinaus besitzt jedes Label eine <strong>Trackidentitätsnummer</strong> (nützlich für die Auswertung von Trackingverfahren). Für jedes Bild exisiert ein <strong>Zeitstempel</strong> und einige Fahrzeugdaten (<strong>GPS</strong> Position, <strong>Geschwindigkeit</strong>, <strong>Gierrate</strong>).</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758931" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h3 class="content-element__title">
+										
+											
+	Klassenidentitätsnummer
+
+										
+									</h3>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p> <strong>Digit I: Perspektivische Orientierung<br></strong>
+</p>
+<p>Beschreibt die Orientierung einer Lichtsignalanlage im Bezug auf das Ego-Fahrzeug. Es gibt vier verschiedene Klassen:</p><ul><li>Front: Lichtsignalanlage ist gültig für das Ego-Fahrzeug. Zustand und Piktogramm sind meist gut erkennbar. </li><li>Back: Lichtsignalanlage ist gültig für den entgegenkommenden Verkehr und meist komplett um 180° gedreht.</li><li>Left: Lichtsignalanlage ist um ca 90 ° nach links gedreht. Gilt meist für Fußgänger.</li><li>Right: Lichtsignalanlage ist um ca 90 ° nach rechts gedreht. Gilt meist für Fußgänger.</li></ul><p> <strong>Digit II: Relevanz/Verdeckung</strong></p><ul><li>Relevant: Eine Lichtsignalanlage ist relevant wenn es für die geplante Route des Ego-Fahrzeugs gültig ist.</li><li>Occlusion: Fasst verdeckte und abgeschnittene (Bildrand) Lichtsignalanlagen zuammen.</li></ul><p> <strong>Digit III: Orientierung</strong></p><ul><li>Horizontal: Horizontal orientierte Lichtsignalanlagen, häufig in Asien.</li><li>Vertical: Vertikal orientierte Lichtsignalanlagen.</li></ul><p> <strong>Digit IV: Anzahl an Leuchteinheiten<br></strong>
+</p>
+<p>Selbsterklärend.
+</p>
+<p><strong>Digit V: Zustand</strong>
+</p>
+<p>Selbsterklärend. 
+</p>
+<p><strong>Digit VI: Piktogramm</strong>
+</p>
+<p>Beschreibt die Maske des aktiven Lichts (kreisförmig, pfeilförmig, Fußgänger, Fahrrad ...).</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758932" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h3 class="content-element__title">
+										
+											
+	Trackidentitätsnummer
+
+										
+									</h3>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Jede Instanz einer Lichtsignalanlage erhält eine Trackidentitätsnummer während einer Sequenz. Eine Sequenz besteht aus allen Bildern einer Kreuzungsanfahrt bis zum Passieren der Haltelinie.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758933" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h3 class="content-element__title">
+										
+											
+	Fahrzeugdaten
+
+										
+									</h3>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>DTLD stellt zeitliche Informationen in Form eines Zeitstempels sowie örtliche Informationen in Form von GPS zur Verfügung. Geschwindigkeit und Gierrate sind jedem Bild beigefügt. </p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+			<div class="col column-right">
+				
+					
+
+
+
+<div id="c883452" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse883452" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/0/6/csm_dtld_attributes_0a82e956aa.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox200334" data-title="Annotierte Attribut-Klassen (DTLD v2.0)">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/dtld_attributes.PNG" width="1469" height="532" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Annotierte Attribut-Klassen (DTLD v2.0)
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758934" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse758934" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/4/c/csm_class_identity_42763b10c8.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox152511" data-title="Sechsstellige Klassenidentitätsnummer (DTLD v1.0)">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/class_identity.png" width="2227" height="847" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Sechsstellige Klassenidentitätsnummer (DTLD v1.0)
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758935" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse758935" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/0/6/csm_classid_digit1_2_86e42f016b.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox152512" data-title="">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/classid_digit1_2.png" width="1190" height="256" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+				</figure>
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/7/a/csm_classid_digit3_4_2138d26ab9.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox152513" data-title="">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/classid_digit3_4.png" width="1330" height="244" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+				</figure>
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/c/6/csm_classid_digit5_6_ba97207e51.png" class="js-zoomable-img zoomable-img" data-lightbox="lightbox152514" data-title="Klassenbeispiele">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/classid_digit5_6.png" width="1592" height="240" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Klassenbeispiele
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+
+
+<div id="c758936" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+			
+			
+	
+
+			<div id="collapse758936" class="">
+				
+
+					
+
+
+
+
+
+	
+			
+				<figure class="figure-with-spacing">
+					
+							
+	
+		
+				
+						
+								<a href="/fileadmin/_processed_/9/2/csm_relevance_6e61922fe1.jpg" class="js-zoomable-img zoomable-img" data-lightbox="lightbox152515" data-title="Digit II: Beide Lichtsignalanlagen die für das Ego-Fahrzeug relevant sind wurden markiert.">
+									
+	<img class="d-block w-100  " src="/fileadmin/website_uni_ulm/iui.inst.110/iui.drive-u/DTLD/relevance.jpg" width="1213" height="609" alt="" />
+
+								</a>
+							
+					
+			
+	
+
+						
+
+					
+							<figcaption>
+								Digit II: Beide Lichtsignalanlagen die für das Ego-Fahrzeug relevant sind wurden markiert.
+							</figcaption>
+						
+				</figure>
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+	
+	
+			
+		
+
+
+				
+
+				
+			</div>
+		
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+
+
+<div id="c759012" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Nutzung des Datensatzes
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--100 gridlayout--address">
+		<div class="row row-cols-1 g-0">
+			
+				
+
+
+
+<div id="c759010" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Wir stellen Tools und Skripte in C++, Python und MATLAB zur Nutzung des Datensatzes zur Verfügung. Eine Dokumentation ist beigelegt.</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+				
+
+
+
+<div id="c759011" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				<article class="card background-card background-card--chameleon">
+					<div class="background-card__content  
+	
+">
+						
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+					<h1 class="background-card__title">
+					
+						
+	Github Repository
+
+					
+					</h1>
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p><a href="https://github.com/julimueller/dtld_parsing" target="_blank" class="external-link-new-window" title="Opens internal link in current window" rel="noreferrer">Klick!</a></p>
+		
+
+
+						
+				
+		
+
+	
+
+					</div>
+				</article>
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+
+
+<div id="c759015" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Download
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--100 gridlayout--address">
+		<div class="row row-cols-1 g-0">
+			
+				
+
+
+
+<div id="c759014" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				<article class="card background-card background-card--chameleon">
+					<div class="background-card__content  
+	
+">
+						
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+					<h1 class="background-card__title">
+					
+						
+	Information
+
+					
+					</h1>
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Klicken Sie <a href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/" class="internal-link" title="Opens internal link in current window">hier</a> zum Registrieren und Download der Daten</p>
+		
+
+
+						
+				
+		
+
+	
+
+					</div>
+				</article>
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+
+
+<div id="c759021" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Zitierung
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Falls Sie das DTLD für Ihre wissenschaftliche Arbeit genutzt haben, zitieren Sie bitte unsere Veröffentlichung auf der ICRA2018. 
+</p>
+<p><a href="https://doi.org/10.1109/ICRA.2018.8460737" target="_blank" class="external-link-new-window" title="Öffnet internen Link im aktuellen Fenster" rel="noreferrer">https://doi.org/10.1109/ICRA.2018.8460737</a></p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c759429" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Veröffentlichungen basierend auf dem DTLD
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p><strong>2016: </strong>
+</p>
+<p><a href="https://doi.org/10.1109/ITSC.2016.7795673" target="_blank" class="external-link-new-window" title="Opens internal link in current window" rel="noreferrer">Fregin et al.: A closer look an traffic light detection evaluation metrics, ITSC 2016</a>
+</p>
+<p><strong>2017: </strong>
+</p>
+<p><a href="https://doi.org/10.1109/IVS.2017.7995756" target="_blank" class="external-link-new-window" rel="noreferrer">Fregin et al.: Three ways using stereo vision for traffic light recognition, IV 2017</a>
+</p>
+<p><a href="https://doi.org/10.1109/ITSC.2017.8317946" target="_blank" class="external-link-new-window" title="Opens internal link in current window" rel="noreferrer">Müller et al.: Multi-camera system for traffic light detection: About camera setup and mapping of detections, ITSC2017<br></a>
+</p>
+<p><a href="https://doi.org/10.1109/ITSC.2017.8317948" target="_blank" class="external-link-new-window" title="Opens internal link in current window" rel="noreferrer">Fregin et al.: Feature detectors for traffic light recognition, ITSC 2017</a>
+</p>
+<p><strong>2018:</strong>
+</p>
+<p><a href="https://arxiv.org/abs/1805.02523" target="_blank" class="external-link-new-window" title="Opens internal link in current window" rel="noreferrer">Müller et al.: Detecting Traffic Lights by Single Shot Detection, arXiv preprint 2018</a>
+</p>
+<h2>Kontaktieren Sie uns um Ihre Publikation basierend auf dem DTLD hinzuzufügen!</h2>
+<h2>&nbsp;</h2>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c758752" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Hier geht es zur <a href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/" class="internal-link" title="Opens internal link in current window">Formularseite</a> </p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c759022" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Feedback/Fragen/Probleme jeglicher Art
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>Feedback? Fragen? Probleme rund um/mit dem Datensatz? <a href="#" data-mailto-token="jxfiql7grifxk+jr+jrbiiboXaxfjibo+zlj" data-mailto-vector="-3" title="Opens internal link in current window">Kontaktieren</a> Sie uns!</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="c1000381" class="grid-element">
+	<div class="container">
+		
+
+	
+		
+				
+			
+
+		
+
+	
+			
+				
+	<div class="container">
+		<div class="row gx-0">
+			
+					
+							
+									<h1 class="content-element__title">
+										
+											
+	Reporting Labeling Errors
+
+										
+									</h1>
+								
+						
+				
+		</div>
+	</div>
+
+			
+		
+
+
+
+
+
+
+
+		
+
+		
+
+
+
+
+		
+				
+			
+	
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--100 gridlayout--address">
+		<div class="row row-cols-1 g-0">
+			
+				
+
+
+
+<div id="c1000382" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>We are currently still working on improving our dataset. You can help us by reporting not labeled traffic lights, inaccurate labels,&nbsp; or wrong class identities. We would appreciate a json file with the following structure:</p>
+		
+
+
+						
+				
+		
+
+	
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+				
+
+
+
+<div id="c1000383" class="content-element 
+	
+">
+	<div class="container 
+	
+">
+		<div class="row gx-0 
+	
+">
+		
+				
+				<article class="card background-card background-card--chameleon">
+					<div class="background-card__content  
+	
+">
+						
+	
+		
+
+	
+
+
+
+	
+
+	
+			
+					
+							
+	
+
+
+							
+	
+	
+			<p>[</p>
+<p>{"path": "./Berlin/Berlin1/2015-04-17_10-50-05/DE_BBBR667_2015-04-17_10-50-13-633939_k0.tiff", "objects": [{"y": 313, "x": 1353, "height": 19, "comment": ["error", "object_error"], "width": 6}]},</p>
+<p>{"path": "./Berlin/Berlin1/2015-04-17_10-50-41/DE_BBBR667_2015-04-17_10-50-46-968138_k0.tiff", "objects": [{"y": 285, "x": 1306, "height": 25, "comment": ["error", "classid_error"], "width": 7}]}</p>
+<p>]</p>
+		
+
+
+						
+				
+		
+
+	
+
+					</div>
+				</article>
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+</main>
+
+<footer>
+	
+	<nav class="footer-navigation" id="footerNavIdentifier">
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+				
+					<div class="col">
+						<ul class="footer-navigation__list footer-navigation__list--level-1">
+							<li class="footer-navigation__item footer-navigation__item--level-1">
+								<h2>Service</h2>
+								
+	<ul class="footer-navigation__list footer-navigation__list--level-2">
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/informationen-von-a-z/universitaet-von-a-z/">
+							Universität von A–Z
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/einrichtungen/kiz/weiteres/campus-navigation/">
+							Lagepläne
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/universitaet/hochschulkommunikation/presse-und-oeffentlichkeitsarbeit/pressestelle/">
+							Presse
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="https://www.uni-ulm.de/karriere/stellenangebote">
+							Stellenangebote
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/home/kalender/">
+							Veranstaltungskalender
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="https://portal.uni-ulm.de/ETB/" rel="noreferrer">
+							Telefonverzeichnis
+						</a>
+					
+			</li>
+		
+	</ul>
+
+							</li>
+						</ul>
+					</div>
+				
+					<div class="col">
+						<ul class="footer-navigation__list footer-navigation__list--level-1">
+							<li class="footer-navigation__item footer-navigation__item--level-1">
+								<h2>Rechtliche Hinweise</h2>
+								
+	<ul class="footer-navigation__list footer-navigation__list--level-2">
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/impressum/">
+							Impressum
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/datenschutz/">
+							Datenschutz
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/barrierefreiheit/">
+							Barrierefreiheit
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/gebaerdensprache/">
+							Gebärdensprache
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/leichte-sprache/">
+							Leichte Sprache
+						</a>
+					
+			</li>
+		
+	</ul>
+
+							</li>
+						</ul>
+					</div>
+				
+				
+						
+	<div class="col">
+		<ul class="footer-navigation__list footer-navigation__list--level-1">
+			<li class="footer-navigation__item footer-navigation__item--level-1">
+				
+					<div class="footer-navigation__text">
+						Inhaltlich verantwortlich für diese Seite:
+						<br>
+						https://www.uni-ulm.de/index.php?id=92093
+						<br>
+						<a href="#" data-mailto-token="jxfiql7fkdtf+jojXrkf:rij+ab" data-mailto-vector="-3">Prof. Dr.-Ing. Thomas Beckers</a>
+					</div>
+				
+				<div class="footer-navigation__text">
+					Zuletzt bearbeitet:
+					<br>
+					28
+					.
+					Februar
+					2025
+				</div>
+				<div class="footer-socialicons">
+					<a href="https://www.instagram.com/universitaetulm/" class="footer-socialicon"
+						 target="_blank" title="instagram">
+						<img class="footer-socialicon--instagram"
+								 alt="instagram"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/instagram.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.linkedin.com/school/ulm-university/" class="footer-socialicon"
+						 target="_blank" title="linkedin">
+						<img class="footer-socialicon--linkedin"
+								 alt="linkedin"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/linkedin.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://mastodon.social/@UniUlm" class="footer-socialicon"
+						 target="_blank" rel="me" title="mastodon">
+						<img class="footer-socialicon--mastodon"
+								 alt="mastodon"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/mastodon.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://bsky.app/profile/uniulm.bsky.social" class="footer-socialicon"
+						 target="_blank" title="bluesky">
+						<img class="footer-socialicon--bluesky"
+								 alt="bluesky"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/bluesky.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.facebook.com/UniUlm" class="footer-socialicon" target="_blank"
+						 title="facebook">
+						<img class="footer-socialicon--facebook"
+								 alt="facebook"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/facebook.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.youtube.com/user/uulm" class="footer-socialicon"
+						 target="_blank" title="youtube">
+						<img class="footer-socialicon--youtube"
+								 alt="youtube"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/youtube.svg?1792671732"
+								 width="20"/>
+					</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+					
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+	
+
+
+
+		
+	<div class="showcase">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-2">
+			<a class="showcase__link" href="https://www.uni-ulm.de/familie">
+				<img class="showcase__award"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/logo_familien_zertifikat_seit_2008.webp?1792671732"
+					 title="Zertifikat seit 2008 – Audit familiengerechte Hochschule"
+					 alt="Logo: Zertifikat seit 2008 – Audit familiengerechte Hochschule"/>
+			</a>
+			</div>
+			<div class="col-lg-2">
+			<a class="showcase__link"
+			   href="https://www.uni-ulm.de/home/uni-aktuell/article/uni-ulm-unter-den-top-ten-der-beliebtesten-universitaeten-deutschlands-im-studycheck-ranking-auf-platz-10/">
+				<img class="showcase__award"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/top-universitaet.webp?1792671732"
+					 title="StudyCheck - Top Universität"
+					 alt="Logo: StudyCheck - Top Universität"/>
+			</a>
+			</div>
+			<div class="col-lg-2">
+				<a class="showcase__link"
+					 href="https://www.uni-ulm.de/home/uni-aktuell/article/uni-ulm-unter-den-top-ten-der-beliebtesten-universitaeten-deutschlands-im-studycheck-ranking-auf-platz-10/">
+					<img class="showcase__award"
+							 alt="Logo: StudyCheck - digital readiness"
+							 src="/_assets/a92153751098915699a1afa17e77f864/Images/Siegel-digital-readiness.webp?1792671732"
+							 title="StudyCheck - digital readiness"/>
+				</a>
+			</div>
+			<div class="col-lg-2">
+				<a class="showcase__link showcase__link--last"
+					 href="https://www.hrk.de/weltoffene-hochschulen">
+					<img class="showcase__award"
+							 src="/_assets/a92153751098915699a1afa17e77f864/Images/logo-weltoffene-hochschule.webp?1792671732"
+							 title="Weltoffene Hochschulen – Gegen Fremdenfeindlichkeit"
+							 alt="Logo: Weltoffene Hochschulen – Gegen Fremdenfeindlichkeit"/>
+				</a>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+		
+	<div class="copyright copyright--chameleon">
+		<div class="row">
+			<div class="copyright__text">
+				©
+				2026
+				Universität Ulm | Ulm University
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+</footer>
+<script src="/typo3temp/assets/compressed/merged-36bd801a3c524163715494705177a810.js?1792671775"></script>
+<script async="async" src="/typo3temp/assets/js/7f6f4007061a3385249e7e32f51dfafe.js?1775726337"></script>
+
+<script src="/_assets/a92153751098915699a1afa17e77f864/JavaScripts/Vendor/require.js?1792671732"
+				async
+				data-main="/_assets/a92153751098915699a1afa17e77f864/JavaScripts/main.js?1792671732">
+</script>
+</body>
+</html>

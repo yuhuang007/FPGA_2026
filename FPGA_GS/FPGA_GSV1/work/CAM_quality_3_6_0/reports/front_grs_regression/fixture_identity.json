@@ -1,0 +1,26 @@
+{
+  "grs_initialized_registers": [
+    "cnt",
+    "de_i_r",
+    "de_i_r1",
+    "de_o",
+    "de_out1",
+    "de_out2",
+    "de_out3",
+    "enble",
+    "pdata_i_reg",
+    "pdata_o",
+    "pdata_out1",
+    "pdata_out2",
+    "pdata_out3",
+    "vs_i_reg"
+  ],
+  "mapped_proof": "../front_mapped_startup/cmos_8_16bit_mapped.v",
+  "production_capture_modified": false,
+  "original_geometry_assertion": "5 good /1 bad retained",
+  "new_oracle": "every verdict error/id, unique publications0,1,2,3,5, complete source pixels, DDR/display protection",
+  "real_startup": "separate global reset and delayed camera init_done; divided clock stopped before first VS",
+  "monitor_pipeline_release_init": "00, proven GTP_DFF_C GRS_EN TRUE INIT0 in synthesized video_capture_status",
+  "preserved_additional_failure": "partial_without_monitor_grs.log + startup_trace.log: gearbox-only GRS was insufficient; stopped-clock permit pipeline remained X without actual mapped monitor GRS",
+  "no_X_assertion": "running/capture VS-DE/packed DE checked at every camera pixel clock"
+}

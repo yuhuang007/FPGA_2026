@@ -1,0 +1,117 @@
+{
+  "version": "3.6.0 CAM1 GREEN CHAIN E1 controlled experiment",
+  "bitstream": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_GREEN_CHAIN_E1_3_6_0\\FPGA_GSV1_CAM1_GREEN_CHAIN_E1_3_6_0_HDMI_1080P60.sbit",
+  "sha256": "5f006cee3b9191be008f9640292008d25ae06c9444855a82dfa282243d91a30f",
+  "generated_time_utc": "2026-10-24T11:33:20.4185041Z",
+  "generated_time_local": "2026-10-24T19:33:20.418504+08:00",
+  "programmed": false,
+  "board_verified": false,
+  "green_line_fixed": false,
+  "cam0_exposure_changed": false,
+  "cam0_ownership_fix_included": false,
+  "sequence_seconds_after_CAM1_config": [
+    {
+      "mode": "live",
+      "seconds": 30
+    },
+    {
+      "mode": "sensor_bars",
+      "seconds": 12
+    },
+    {
+      "mode": "live_gap",
+      "seconds": 8
+    },
+    {
+      "mode": "FPGA_bars",
+      "seconds": 12
+    },
+    {
+      "mode": "live",
+      "seconds": null
+    }
+  ],
+  "purpose": "Separate sensor/PRE_ISP/DVP from downstream DDR/display; patterns cannot alone rule out data-dependent DVP faults.",
+  "uart": "N2 35O W12 D6/phase3/failed1/error4/original503D8/readback503D8; W13..39 unchanged",
+  "rollback": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK\\FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK_HDMI_1080P60.sbit",
+  "rollback_sha256": "f760692d6a1e7695d4005945d0ba977468d8857c4b36c45dc57bd98e7283acb1",
+  "build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_probe_source\\build\\CAM1_GREEN_CHAIN_E1_3_6_0_20261024_192436_439",
+  "timing": {
+    "existing_constraints_met": true,
+    "summaries": [
+      {
+        "summary": "Setup Summary(Slow Corner):",
+        "rows": 16,
+        "worst_slack_ns": 0.07,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Slow Corner):",
+        "rows": 16,
+        "worst_slack_ns": 0.096,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Slow Corner):",
+        "rows": 9,
+        "worst_slack_ns": 3.693,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Slow Corner):",
+        "rows": 9,
+        "worst_slack_ns": 0.353,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Slow Corner):",
+        "rows": 18,
+        "worst_slack_ns": 0.397,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Setup Summary(Fast Corner):",
+        "rows": 16,
+        "worst_slack_ns": 0.312,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Fast Corner):",
+        "rows": 16,
+        "worst_slack_ns": 0.116,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Fast Corner):",
+        "rows": 9,
+        "worst_slack_ns": 4.885,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Fast Corner):",
+        "rows": 9,
+        "worst_slack_ns": 0.351,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Fast Corner):",
+        "rows": 18,
+        "worst_slack_ns": 0.568,
+        "failing_endpoints": 0
+      }
+    ],
+    "resources": {
+      "CLMA": 4629.0,
+      "CLMS": 2965.0,
+      "DRM": 94.5,
+      "PLL": 5.0,
+      "LUT": 22556.0,
+      "FF": 23862.0
+    },
+    "constraints_changed": false,
+    "limits": [
+      "Inherited external PHY PVT/PCB and camera pad electrical-model limits remain.",
+      "Test-pattern hardware result required; this is not a green-line repair."
+    ]
+  }
+}

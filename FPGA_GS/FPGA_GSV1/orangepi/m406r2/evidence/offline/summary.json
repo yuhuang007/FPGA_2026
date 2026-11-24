@@ -1,0 +1,38 @@
+[
+  {
+    "video": "SC_BT.mp4",
+    "start": 48,
+    "end": 58,
+    "observations": 34,
+    "output_frames": 150,
+    "offline_wall_seconds": 18.981910951002646,
+    "real_time_performance_claimed": false
+  },
+  {
+    "video": "SC_BT2.mp4",
+    "start": 17,
+    "end": 27,
+    "observations": 34,
+    "output_frames": 150,
+    "offline_wall_seconds": 19.35148256699904,
+    "real_time_performance_claimed": false
+  },
+  {
+    "video": "SC_YJ.mp4",
+    "start": 98,
+    "end": 108,
+    "observations": 34,
+    "output_frames": 150,
+    "offline_wall_seconds": 19.520175220000965,
+    "real_time_performance_claimed": false
+  },
+  {
+    "video": "SC_YJ2.mp4",
+    "start": 42,
+    "end": 52,
+    "observations": 38,
+    "output_frames": 150,
+    "offline_wall_seconds": 15.747783899998467,
+    "real_time_performance_claimed": false
+  }
+]

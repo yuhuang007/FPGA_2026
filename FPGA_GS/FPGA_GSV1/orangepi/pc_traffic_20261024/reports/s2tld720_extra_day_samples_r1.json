@@ -1,0 +1,114 @@
+[
+  {
+    "id": "s2tld720_000009",
+    "image": "data/public_datasets/s2tld720_r1/sample_images/s2tld720_000009.jpg",
+    "view": "data/public_datasets/s2tld720_r1/compatibility_views/sample_09.jpg",
+    "source_annotation_member": "S2TLDú¿720x1280ú⌐/normal_1/Annotations/000009.xml",
+    "objects": [
+      {
+        "source_index": 0,
+        "source_class": "green",
+        "bbox_xyxy": [
+          165,
+          252,
+          196,
+          320
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 1,
+        "source_class": "green",
+        "bbox_xyxy": [
+          901,
+          221,
+          932,
+          292
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 2,
+        "source_class": "green",
+        "bbox_xyxy": [
+          683,
+          304,
+          689,
+          321
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 3,
+        "source_class": "green",
+        "bbox_xyxy": [
+          696,
+          303,
+          703,
+          320
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 4,
+        "source_class": "off",
+        "bbox_xyxy": [
+          762,
+          316,
+          771,
+          333
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 5,
+        "source_class": "off",
+        "bbox_xyxy": [
+          669,
+          304,
+          677,
+          322
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      }
+    ]
+  },
+  {
+    "id": "s2tld720_000036",
+    "image": "data/public_datasets/s2tld720_r1/sample_images/s2tld720_000036.jpg",
+    "view": "data/public_datasets/s2tld720_r1/compatibility_views/sample_10.jpg",
+    "source_annotation_member": "S2TLDú¿720x1280ú⌐/normal_1/Annotations/000036.xml",
+    "objects": [
+      {
+        "source_index": 0,
+        "source_class": "yellow",
+        "bbox_xyxy": [
+          895,
+          84,
+          931,
+          151
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      },
+      {
+        "source_index": 1,
+        "source_class": "yellow",
+        "bbox_xyxy": [
+          1125,
+          78,
+          1155,
+          148
+        ],
+        "truncated": "0",
+        "difficult": "0"
+      }
+    ]
+  }
+]

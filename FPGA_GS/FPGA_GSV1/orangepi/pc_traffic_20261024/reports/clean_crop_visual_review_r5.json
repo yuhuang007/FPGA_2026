@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-10-25T02:26:18.426409+00:00",
+  "pilot_manifest_sha256": "6bebf50924a336a1cf86ce6a4653915ff6a07d9e828af740dc65d55f92aeb882",
+  "passed": true,
+  "reviewer": "Codex_PC_AI_clean_crop_visual_20261025",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "independent_crop_review_claimed": false,
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0058",
+      "source_annotation_sha256": "98cb2fe14edba3bfc640213d90518a8abd5feeb46debda8a0dbac203b3f9d11a",
+      "crop_sha256": "3d995bf33545171c711a47c5eeff8ecd1aa79799ffc1b0156e4bc83242b9c766",
+      "viewed_crop_overlay": "review_stage2/clean_crop_pilot_r5/views/s2tld1080_0058_clean01_crop.jpg",
+      "viewed_source_overlay": "review_stage2/clean_crop_pilot_r5/views/s2tld1080_0058_clean01_source.jpg",
+      "viewed_evidence_sha256": {
+        "crop_view": "f109df409248dc84cfd7d82a29a328ef444106591a23629d9a8c147bf71ff12d",
+        "source_view": "465eb6473e1265f8c184fb0d3bc80202412d654df7ea3a1d544b41e0c3445555"
+      },
+      "notes": "Only complete green pedestrian body retained with road/vehicles/building context. Both main motor bodies fully above the crop, rear ignores outside. Horizontal white street fixtures not labelled as signals. No new partial body or additional definite signal seen in crop.",
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "crop_context_passed_for_detection_pilot": true,
+      "human_signoff": false,
+      "training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "source_annotation_sha256": "16f742227d09fefb560f9885ed58713a4f78bff1774c9cdc4c70cadb79a5b2ad",
+      "crop_sha256": "e8e5a1d745f2acea52452e7d469d9f1e9e1fd20a4051fb3c94e22b276597e952",
+      "viewed_crop_overlay": "review_stage2/clean_crop_pilot_r5/views/s2tld1080_0065_clean01_crop.jpg",
+      "viewed_source_overlay": "review_stage2/clean_crop_pilot_r5/views/s2tld1080_0065_clean01_source.jpg",
+      "viewed_evidence_sha256": {
+        "crop_view": "3cf8d5cb2c989fb7ba96c02ffab1b5753480746d59b6126958b7cb2dd4c3ffc0",
+        "source_view": "f649e81a57acc6470c0fe0614684bd5b65f0cf2d4b08c3ef9b68504fb1315381"
+      },
+      "notes": "One whole motor body with complete upper dark circular lens and lower green emitter. Right pedestrian body and side/back ignores fully excluded. Road/trees/building context retained; no new partial signal seen at right crop edge.",
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "crop_context_passed_for_detection_pilot": true,
+      "human_signoff": false,
+      "training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "source_annotation_sha256": "beb48e0db0f9110f6fc13e5ed3092b6277ade58e01b26107b3f37bc788ec022a",
+      "crop_sha256": "069b1cc9d6d61674773406509a00c156aa568077defa3c52a7ef9471dd17d9df",
+      "viewed_crop_overlay": "review_stage2/clean_crop_pilot_r5/views/coco_scene_000000520009_clean01_crop.jpg",
+      "viewed_source_overlay": "review_stage2/clean_crop_pilot_r5/views/coco_scene_000000520009_clean01_source.jpg",
+      "viewed_evidence_sha256": {
+        "crop_view": "57951669c830874c93a39841df23498c6bfb29959db04d8a96fbb4c3d678d794",
+        "source_view": "438118efec03dbb249bf7623d88d4349c422fc3b7693738d56602f5c7393ba04"
+      },
+      "notes": "Complete reviewed motor housing retained; white backboard and no-U-turn sign are outside its tight target box. Both left source ignores fully outside crop. Town Hall, street, bus and pedestrians provide context; no additional visible signal target or crop-edge truncation seen.",
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "crop_context_passed_for_detection_pilot": true,
+      "human_signoff": false,
+      "training_release": false
+    }
+  ],
+  "training_release": false
+}

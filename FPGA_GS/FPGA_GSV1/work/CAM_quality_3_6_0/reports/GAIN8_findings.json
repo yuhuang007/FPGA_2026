@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-10-24T20:16:21.954021+08:00",
+  "current_board": "User-confirmed GAIN8 E2; C1Q1 applied-phase readback verified",
+  "user_feedback": "GAIN8已下载，后摄还是有绿线，并且显示画面的效果还不如前摄清晰",
+  "quality_accepted": false,
+  "green_line_fixed": false,
+  "current_exposure_ms_range": [
+    29.52,
+    29.988000000000003
+  ],
+  "current_gain_x_range": [
+    2.5,
+    2.75
+  ],
+  "saved_pre_apply_gain_x": 3.25,
+  "saved_pre_apply_ceiling_x": 15.5,
+  "verified_ceiling_x": 8,
+  "HTS": 1800,
+  "VTS": 800,
+  "rear_rates": {
+    "tag": "C1R8",
+    "records": 13,
+    "completed": true,
+    "notes": [
+      "XCLK is inferred from measured PCLK and mandatory PLL readback; not probed directly.",
+      "Capture verdict closes at next VS; its own frame-start timestamps bound capture fps.",
+      "DDR/display counts use the same first/last atomic UART records and reference_ms window.",
+      "Display counts require CAM1 selected, all requested rows complete, no underflow, distinct frame ID.",
+      "16bit counters wrap modulo65536; short/60s windows cannot wrap more than once at25fps."
+    ],
+    "reference_window_seconds": 12.0,
+    "capture_window_seconds": 12.0,
+    "capture_good_delta": 300,
+    "capture_bad_delta": 0,
+    "ddr_publish_delta": 300,
+    "display_new_delta": 300,
+    "capture_fps": 25.0,
+    "ddr_publish_fps": 25.0,
+    "display_new_fps": 25.0,
+    "geometry_ok": true,
+    "reference_epoch_consistent": true,
+    "rate_quality_pass": true
+  },
+  "front_rates": {
+    "reference_seconds": 12.0,
+    "capture_bad_delta": null,
+    "note": "CAM0 register readback/bad count unavailable in this CAM1-only diagnostic page; do not infer zero.",
+    "front_capture_good_fps": 30.0,
+    "front_published_fps": 15.0,
+    "front_displayed_fps": 15.0
+  },
+  "source_uart": "GAIN8_actual_uart.txt",
+  "decoded": "GAIN8_actual_decode.json",
+  "uart_sha256": "c4a9ca114e7e0774f1e49bb48de30c9df1723079e977f50d4c7dd31cba21036d",
+  "confirmed": [
+    "Gain-ceiling write/readback succeeded; no SCCB errors in these records.",
+    "Observed gain is below both the original15.5x and the new8x limits.",
+    "The8x limit is not binding in this observed scene; reducing it did not demonstrate a green-line benefit.",
+    "CAM1 retains25fps capture/publish/new-display and valid720x1280 geometry in this12s window.",
+    "User reports rear clarity below front clarity; no controlled static-text or digital-pixel comparison yet."
+  ],
+  "not_confirmed": [
+    "Low-light gain itself is not ruled out as a noise amplifier, but excessive gain ceiling is not a demonstrated cause.",
+    "The2.5-2.75x versus saved3.25x difference is not attributed to a non-binding ceiling; scene/AE evolution is uncontrolled.",
+    "Clean bars and valid geometry do not rule out data-dependent DVP errors.",
+    "Lighting banding, sensor/ISP dark-row noise, optics/focus and data-dependent capture faults remain distinguishable hypotheses.",
+    "A photographed screen is not a raw CAM1 frame. No CAM1 digital frame export exists in the current production protocol.",
+    "Comparison with CAM0 is not proof that GAIN8 reduced rear clarity relative to its own prior baseline."
+  ],
+  "actions": {
+    "no_new_rear_register_change": true,
+    "no_new_build": true,
+    "no_pi_live": true,
+    "no_auto_programming": true,
+    "next_user_observation": "One5s fully-covered rear-lens observation: dark-field line persistence versus lighting dependence.",
+    "independent_front_check": "Corrected full720 production-path fixture running; not yet PASS, not in GAIN8."
+  },
+  "rollback": "release/FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK/FPGA_GSV1_CAM0_OV5640_3_5_9_READBACK_HDMI_1080P60.sbit"
+}

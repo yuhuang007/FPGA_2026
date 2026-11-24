@@ -1,0 +1,267 @@
+{
+  "passed": true,
+  "status": "same_sha_fp16_build_passed; board_execution_passed; strict_numeric_check_failed",
+  "passed_scope": "Existing readiness contract: same-SHA config/load/build/export only; not numeric accuracy, data approval, CUDA readiness or training authorization",
+  "recorded_at": "2026-10-24T19:09:34.439418+08:00",
+  "trained": false,
+  "random_weights": true,
+  "onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "rknn_sha256": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+  "toolkit_version": "2.3.2",
+  "lite_api_version": "2.5.0",
+  "runtime_version": "2.3.0 (c949ad889d@2024-11-07T11:35:33)",
+  "driver_version": "0.9.8",
+  "runtime_sha256": "73993ed4b440460825f21611731564503cc1d5a0c123746477da6cd574f34885",
+  "environment_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\environment.json",
+  "log_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\build.log",
+  "remote_log_path": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/build.log",
+  "onnx_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\artifacts\\yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.onnx",
+  "rknn_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\artifacts\\yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn",
+  "remote_directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1",
+  "remote_rknn_path": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn",
+  "build": {
+    "passed": true,
+    "returncode": 0,
+    "duration_s": 10.581183763999434,
+    "onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+    "rknn_sha256": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+    "log_path": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/build.log",
+    "untrained": true,
+    "quantization": false,
+    "target": "rk3588",
+    "command": [
+      "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/.venv405build/bin/python",
+      "-u",
+      "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/convert_rknn.py",
+      "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.onnx",
+      "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn"
+    ],
+    "model_precision_evidence": "Non-quantized build; verbose runtime/model tensor tables show FLOAT16 kernels and weights",
+    "config": "mean0/std255, rk3588, optimization_level3",
+    "calibration_used": false
+  },
+  "board_execution": {
+    "passed": true,
+    "backend": "RKNNLite API / actual RK3588 NPU core0",
+    "fixed_inputs": 5,
+    "service_started_or_stopped": false,
+    "business_ports_bound": false,
+    "log_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\numeric_validation.log",
+    "fixture_directory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\fixtures",
+    "performance_scope": "single-run timings only; no throughput benchmark"
+  },
+  "preprocessing_and_decoder": {
+    "pc_independent_input_check_passed": true,
+    "pc_input_report": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\pc_input_validation.json",
+    "input": {
+      "ONNX": "RGB float32 NCHW /255 once",
+      "RKNN": "RGB uint8 NHWC; embedded mean0/std255",
+      "resize": "cv2.INTER_LINEAR; Python round; centered floor left/top, remainder right/bottom",
+      "fill": 114
+    },
+    "output_order": [
+      {
+        "name": "box_s8",
+        "shape": [
+          1,
+          64,
+          80,
+          80
+        ]
+      },
+      {
+        "name": "score_s8",
+        "shape": [
+          1,
+          2,
+          80,
+          80
+        ]
+      },
+      {
+        "name": "box_s16",
+        "shape": [
+          1,
+          64,
+          40,
+          40
+        ]
+      },
+      {
+        "name": "score_s16",
+        "shape": [
+          1,
+          2,
+          40,
+          40
+        ]
+      },
+      {
+        "name": "box_s32",
+        "shape": [
+          1,
+          64,
+          20,
+          20
+        ]
+      },
+      {
+        "name": "score_s32",
+        "shape": [
+          1,
+          2,
+          20,
+          20
+        ]
+      }
+    ],
+    "class_order": {
+      "0": "motor_vehicle_body",
+      "1": "pedestrian_body"
+    },
+    "class_order_caveat": "ONNX has no class-name metadata. 0=motor_vehicle_body,1=pedestrian_body is external proposed training contract; untrained symmetric outputs cannot verify learned semantic order.",
+    "decoder": "CPU softmax/DFL reg_max16, grid centers+0.5, strides8/16/32, scores already sigmoid, class-aware NMS",
+    "geometry_and_decoder_unit_fixtures": {
+      "uniform_dfl_and_grid": true,
+      "nms_class_separation_and_overlap": true,
+      "geometry": [
+        {
+          "shape_hw": [
+            720,
+            1280
+          ],
+          "original_wh": [
+            1280,
+            720
+          ],
+          "resized_wh": [
+            640,
+            360
+          ],
+          "gain": 0.5,
+          "padding_ltrb": [
+            0,
+            140,
+            0,
+            140
+          ],
+          "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+          "roundtrip_error_original_px": 0.0,
+          "rounded_resize_edge_error_model_px": 0.0,
+          "rgb_and_padding_checked": true
+        },
+        {
+          "shape_hw": [
+            719,
+            1280
+          ],
+          "original_wh": [
+            1280,
+            719
+          ],
+          "resized_wh": [
+            640,
+            360
+          ],
+          "gain": 0.5,
+          "padding_ltrb": [
+            0,
+            140,
+            0,
+            140
+          ],
+          "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+          "roundtrip_error_original_px": 2.842170943040401e-14,
+          "rounded_resize_edge_error_model_px": 0.5,
+          "rgb_and_padding_checked": true
+        },
+        {
+          "shape_hw": [
+            301,
+            101
+          ],
+          "original_wh": [
+            101,
+            301
+          ],
+          "resized_wh": [
+            215,
+            640
+          ],
+          "gain": 2.12624584717608,
+          "padding_ltrb": [
+            212,
+            0,
+            213,
+            0
+          ],
+          "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+          "roundtrip_error_original_px": 1.4210854715202004e-14,
+          "rounded_resize_edge_error_model_px": 0.2491694352159186,
+          "rgb_and_padding_checked": true
+        },
+        {
+          "shape_hw": [
+            271,
+            491
+          ],
+          "original_wh": [
+            491,
+            271
+          ],
+          "resized_wh": [
+            640,
+            353
+          ],
+          "gain": 1.3034623217922607,
+          "padding_ltrb": [
+            0,
+            143,
+            0,
+            144
+          ],
+          "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+          "roundtrip_error_original_px": 3.552713678800501e-15,
+          "rounded_resize_edge_error_model_px": 0.23828920570264245,
+          "rgb_and_padding_checked": true
+        }
+      ]
+    }
+  },
+  "numeric_validation": {
+    "passed": false,
+    "status": "failed_fixed_0.001_score_absolute_error_limit",
+    "report_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\numeric_validation.json",
+    "thresholds": {
+      "box_raw_max_abs": 0.05,
+      "score_raw_max_abs": 0.001,
+      "decoded_box_max_abs_input_px": 0.5,
+      "decoded_score_max_abs": 0.001,
+      "paired_box_median_iou_min": 0.99
+    },
+    "all_unthresholded_boxes_compared_per_input": 8400,
+    "six_raw_heads_compared": true,
+    "maximum_raw_box_absolute_error": 1.1920928955078125e-06,
+    "maximum_decoded_box_error_input_px": 7.763505578850527e-06,
+    "maximum_decoded_score_absolute_error": 0.0014406144618988037,
+    "minimum_paired_median_iou": 0.9999999556690455,
+    "cause_evidence": "Independent Conv+Sigmoid micrograph reproduces low/high sigmoid saturation in this installed stack; do not attribute to RGB or DFL based on empty detections.",
+    "sigmoid_probe_report": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\sigmoid_probe.json",
+    "sigmoid_probe_log": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\board_preflight_r1\\sigmoid_probe.log",
+    "threshold_changed_after_results": false,
+    "not_accuracy_pass": true
+  },
+  "deployment": {
+    "performed": false,
+    "m406_modified": false,
+    "launcher_default_modified": false,
+    "fpga_used": false,
+    "live_or_udp_started": false,
+    "system_or_dependencies_upgraded": false
+  },
+  "follow_up": [
+    "Repeat raw and decoded comparisons on actual trained weights and readable real lights before release.",
+    "If stricter sigmoid-tail fidelity is needed, evaluate documented compiler options or CPU sigmoid on a separately versioned logit-head export; current same-SHA model remains unchanged.",
+    "Do not change PC training gates or claim trained recognition improvement from this preflight."
+  ]
+}

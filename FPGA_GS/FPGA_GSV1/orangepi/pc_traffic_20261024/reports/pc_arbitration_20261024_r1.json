@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-24T20:32:45.271531+08:00",
+  "reviewer": "Codex_PC_AI_stage2",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "policy_clarification": {
+    "rule": "One shared physical signal housing stays one body even when one internal panel is a countdown display; isolated digits/auxiliary text never become another signal body/emitter. Describe only observed morphology, not assumed three circular lenses.",
+    "changes_class_contract": false,
+    "human_confirmation_pending": true
+  },
+  "cases": [
+    {
+      "candidate_id": "s2tld1080_0215",
+      "original_annotation_sha256": "8def9444d7be815ba2165a67dd9d8e4b21ce58ff67082dd550837feb35266639",
+      "independent_opinion_file": "review_stage2/independent_codex_board_r2/batch_001_part_02_review.jsonl",
+      "disposition": "rationale_corrected_new_version_pending_reconfirmation",
+      "revision_manifest": "review_stage2/revisions/pc_r2_001/manifest.json",
+      "training_approval": false
+    },
+    {
+      "candidate_id": "s2tld1080_0187",
+      "independent_opinion_file": "review_stage2/independent_codex_board_r2/batch_001_part_02_review.jsonl",
+      "disposition": "unresolved_keep_conservative_unknown",
+      "reason": "Nearest-neighbor original JPEG crop shows yellow/white cores and red surrounding light, but does not settle emitter color independently of overexposure/glow. Keep current unknown rather than infer red from halo alone; body remains ignore.",
+      "evidence_file": "review_stage2/arbitration_evidence/0187_dispute_raw.png",
+      "evidence_sha256": "05b8db1886ff25465255849c7ff4806d702209eb41267771c3017ecf26c02317",
+      "annotation_changed": false,
+      "training_approval": false
+    }
+  ]
+}

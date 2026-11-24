@@ -1,0 +1,1291 @@
+{
+  "query": "incategory:\"Traffic signals in Shanghai\" filetype:bitmap",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=incategory%3A%22Traffic+signals+in+Shanghai%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=16&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "10677861": {
+          "pageid": 10677861,
+          "ns": 6,
+          "title": "File:Ampel Shanghai.JPG",
+          "index": 2,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ampel_Shanghai.JPG/1280px-Ampel_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 1242,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ampel_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ampel_Shanghai.JPG/1280px-Ampel_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1242,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ampel_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ampel_Shanghai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ampel_Shanghai.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10677861",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-06-19 17:57:41",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Ampel Shanghai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Traffic lights at green state in China|Taken with Canon EOS 450D|Self-published work|Images by J. Patrick Fischer|Countdown traffic signals|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Traffic lights in Shanghai",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-08-24",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:J._Patrick_Fischer\" title=\"User:J. Patrick Fischer\">J. Patrick Fischer</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "167047352": {
+          "pageid": 167047352,
+          "ns": 6,
+          "title": "File:Chinese traffic lights with countdown timer in Shanghai.jpg",
+          "index": 7,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg/1280px-Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg/3840px-Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg/1280px-Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg/3840px-Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chinese_traffic_lights_with_countdown_timer_in_Shanghai.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=167047352",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-06-07 15:40:11",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Chinese traffic lights with countdown timer in Shanghai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Taken with Sony ILCE-7M3|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Unassessed QI candidates|Files with coordinates missing SDC location of creation|China photographs taken on 2025-05-19|Taken with Sigma 85mm F1.4 DG DN Art|May 2025 in Shanghai|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "31.242761",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "121.485900",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A typical Chinese traffic light, which often feature countdown timers beside the signals, taken at night in Shanghai.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-05-19",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Benlisquare\" title=\"User:Benlisquare\">Benlisquare</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "11431592": {
+          "pageid": 11431592,
+          "ns": 6,
+          "title": "File:Flickr - Tokuriki - Shanghai Xin Tian Di (9).jpg",
+          "index": 8,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg/1280px-Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/40/Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg/1280px-Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/40/Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Tokuriki_-_Shanghai_Xin_Tian_Di_(9).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11431592",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-09-09 19:36:33",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Flickr - Tokuriki - Shanghai Xin Tian Di (9)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nexus One|Streets in Shanghai|Xintiandi|Flickr images reviewed by trusted users|Streets in Shanghai at night|2010 photographs of Shanghai|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Shanghai Xin Tian Di",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2010-05-07 22:46",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tokuriki/4595304393/\">Shanghai Xin Tian Di</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/59722994@N00\">Motohiko Tokuriki</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "2085381": {
+          "pageid": 2085381,
+          "ns": 6,
+          "title": "File:Fuzhou Road Henan Road.JPG",
+          "index": 4,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fuzhou_Road_Henan_Road.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fuzhou_Road_Henan_Road.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fuzhou_Road_Henan_Road.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fuzhou_Road_Henan_Road.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2085381",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2007-05-10 16:12:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Fuzhou Road Henan Road",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Fuzhou Road|Henan Road|Self-published work|Photos by User:Baycrest|Cityscapes in Shanghai|Traffic lights at red state|Files with coordinates missing SDC location of creation|Intersections in Shanghai|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "31.236683",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "121.481098",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "福州路-河南中路-西藏中路方向 Fuzhou Road, Henan Road. Compare with <a href=\"//commons.wikimedia.org/wiki/File:Fuzhou_and_Henan_South_roads,_Shanghai.jpg\" title=\"File:Fuzhou and Henan South roads, Shanghai.jpg\">this 2013 image of the same location</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2005-02",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Baycrest\" title=\"User:Baycrest\">Baycrest</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "27859777": {
+          "pageid": 27859777,
+          "ns": 6,
+          "title": "File:Fuzhou and Henan South roads, Shanghai.jpg",
+          "index": 6,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg/1280px-Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 906,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg/3840px-Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg/1280px-Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 906,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg/3840px-Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Fuzhou_and_Henan_South_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fuzhou_and_Henan_South_roads,_Shanghai.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27859777",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-08-24 17:07:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Fuzhou and Henan South roads, Shanghai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Traffic lights at green state in China|GFDL|Fuzhou Road|Henan Road|License migration redundant|Self-published work|Cityscapes in Shanghai|Countdown traffic signals|Intersections in Shanghai|Traffic signals in Shanghai|Road sign 禁-5 (China)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection of Fuzhou (left) and Henan South roads in Shanghai's <a href=\"https://en.wikipedia.org/wiki/Huangpu_District\" class=\"extiw\" title=\"w:Huangpu District\">Huangpu District</a>. Compare with <a href=\"//commons.wikimedia.org/wiki/File:Fuzhou_Road_Henan_Road.JPG\" title=\"File:Fuzhou Road Henan Road.JPG\">this image</a>, taken at same location 8.5 years earlier.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-08-03",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "27804668": {
+          "pageid": 27804668,
+          "ns": 6,
+          "title": "File:Renmin Road at Sichuan South and Lishui roads, Shanghai.jpg",
+          "index": 9,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg/1280px-Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 814,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg/3840px-Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg/1280px-Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 814,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg/3840px-Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Renmin_Road_at_Sichuan_South_and_Lishui_roads%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Renmin_Road_at_Sichuan_South_and_Lishui_roads,_Shanghai.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27804668",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-08-21 03:22:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Renmin Road at Sichuan South and Lishui roads, Shanghai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Traffic lights at green state in China|GFDL|Renmin Road, Shanghai|License migration redundant|Self-published work|Cityscapes in Shanghai|Silver minivans|Intersections in Shanghai|Traffic signals in Shanghai|Road sign 禁-5 (China)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Intersection of Renmin Road and Sichuan South Road, viewed from Lishui Road side, <a href=\"https://en.wikipedia.org/wiki/Huangpu_District\" class=\"extiw\" title=\"w:Huangpu District\">Huangpu District</a>, Shanghai",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-08-03",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "You may select the license of your choice.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "36955428": {
+          "pageid": 36955428,
+          "ns": 6,
+          "title": "File:Shanghai Sikh 1935.jpg",
+          "index": 12,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Shanghai_Sikh_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 2069,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Shanghai_Sikh_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 2069
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Shanghai_Sikh_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai_Sikh_1935.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36955428",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-11-24 14:14:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shanghai Sikh 1935",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "People of China in 1935|1935 in road transport in China|Author died more than 70 years ago public domain images|Police handling traffic in China|1935 postcards of China|Postcards of Shanghai|CC-PD-Mark|Unidentified streets in Shanghai|1935 photographs of Shanghai|Black and white photographs of Shanghai in the 1930s|PD-old missing SDC copyright status|Traffic signals in Shanghai|Men at work in the 1930s|Sikh police officers of Shanghai|Street scenes in Shanghai in the 20th century|Street scenes in China in the 1930s",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Sikh policeman directing traffic inside Shanghai's International Settlement c. 1935.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Taken in 1935",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "eBay.com",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Photo postcard c. 1935 Shanghai",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "47164203": {
+          "pageid": 47164203,
+          "ns": 6,
+          "title": "File:Shanghai Tower 2015.jpg",
+          "index": 10,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Shanghai_Tower_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 1920,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Shanghai_Tower_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1920
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Shanghai_Tower_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai_Tower_2015.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47164203",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-02-25 10:39:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shanghai Tower 2015",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Clouds and blue sky in China|Reflections on structures in China|Traffic lights at green state in China|Shanghai Tower|Self-published work|Photos by User:Baycrest|FoP-China|Low-angle shots of buildings|2015 photographs of Shanghai|Intersections in Shanghai|Traffic signals in Shanghai|Automobiles in motion",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Shanghai Tower, tallest building in China <small>(architect: Jun Xia @ Gensler)</small>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2015",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Baycrest\" title=\"User:Baycrest\">Baycrest</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "21424277": {
+          "pageid": 21424277,
+          "ns": 6,
+          "title": "File:Shanghai downtown2.JPG",
+          "index": 11,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Shanghai_downtown2.JPG/1280px-Shanghai_downtown2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Shanghai_downtown2.JPG/3840px-Shanghai_downtown2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Shanghai_downtown2.JPG/1280px-Shanghai_downtown2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Shanghai_downtown2.JPG/3840px-Shanghai_downtown2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Shanghai_downtown2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai_downtown2.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21424277",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-09-18 08:27:46",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shanghai downtown2",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS 550D|Yuyuan Tourist Mart|Self-published work|Night in Shanghai|Countdown traffic signals|Traffic lights at red state|Paifangs in Shanghai|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Altstadt Shanghai",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-02-16 14:29:17",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MiLu24&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MiLu24 (page does not exist)\">MiLu24</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "21424278": {
+          "pageid": 21424278,
+          "ns": 6,
+          "title": "File:Shanghai downtown3.JPG",
+          "index": 1,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shanghai_downtown3.JPG/1280px-Shanghai_downtown3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shanghai_downtown3.JPG/3840px-Shanghai_downtown3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shanghai_downtown3.JPG/1280px-Shanghai_downtown3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shanghai_downtown3.JPG/3840px-Shanghai_downtown3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Shanghai_downtown3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai_downtown3.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21424278",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-09-18 08:27:48",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shanghai downtown3",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS 550D|Yuyuan Tourist Mart|Self-published work|Night in Shanghai|Traffic lights at red state|Traffic signals in Shanghai",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Altstadt Shanghai",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-02-15 13:19:46",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MiLu24&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MiLu24 (page does not exist)\">MiLu24</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "168927744": {
+          "pageid": 168927744,
+          "ns": 6,
+          "title": "File:Wuning Rd (Westbound) west of Daduhe Rd (20250610115125).jpg",
+          "index": 3,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg/1280px-Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 854,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/84/Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg/1280px-Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 854,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/84/Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Wuning_Rd_%28Westbound%29_west_of_Daduhe_Rd_%2820250610115125%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wuning_Rd_(Westbound)_west_of_Daduhe_Rd_(20250610115125).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=168927744",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-06-30 16:21:05",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Wuning Rd (Westbound) west of Daduhe Rd (20250610115125)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Files with coordinates missing SDC location of creation|Taken with iPhone 13 Pro|China photographs taken on 2025-06-10|June 2025 in Shanghai|Traffic signals in Shanghai|Wuning Road|Zhenruzhen Subdistrict",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "31.246936",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "121.392242",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "G2 visible.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-06-10 11:51:25",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "27806590": {
+          "pageid": 27806590,
+          "ns": 6,
+          "title": "File:Yuyuan Tourist Mart gate, Lishui Road, Shanghai.jpg",
+          "index": 5,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg/1280px-Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg/3840px-Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg/1280px-Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg/3840px-Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Yuyuan_Tourist_Mart_gate%2C_Lishui_Road%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Yuyuan_Tourist_Mart_gate,_Lishui_Road,_Shanghai.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27806590",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-08-21 04:19:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Yuyuan Tourist Mart gate, Lishui Road, Shanghai",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "August 2013 in China|GFDL|Streets in Shanghai|Yuyuan Tourist Mart|License migration redundant|2013 in Shanghai|Self-published work|FoP-China|Traffic lights at red state|Truck prohibition road signs|Road signs in Shanghai|Paifangs in Shanghai|Traffic signals in Shanghai|Bus prohibition road signs|Motorcycle prohibition road signs",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Gateway to <a href=\"https://en.wikipedia.org/wiki/Yuyuan_Tourist_Mart\" class=\"extiw\" title=\"w:Yuyuan Tourist Mart\">Yuyuan Tourist Mart</a> along Lishui Road in Shanghai's <a href=\"https://en.wikipedia.org/wiki/Huangpu_District\" class=\"extiw\" title=\"w:Huangpu District\">Huangpu District</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-08-03",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "The reproduction of this artistic, architectural, or applied artwork, is covered under the <i>Copyright Law of the People's Republic of China</i>, which allows reproduction of works in public place <b>if the author and the name of the original work is attributed.</b> Note: This does not apply to 2D works of art like outdoor paintings permanently installed in public spaces and murals.\n<hr>\n<dl><dd><i><b><a href=\"https://en.wikisource.org/wiki/Copyright_Law_of_the_People%27s_Republic_of_China_(2020)\" class=\"extiw\" title=\"s:Copyright Law of the People's Republic of China (2020)\">Copyright Law of the People's Republic of China</a></b></i>, Article 24: In the following cases, a work may be used without permission from, and without payment of remuneration to, the copyright owner, provided that the name of the author and the title of the work shall be indicated, the normal use of the work shall not be affected, and the legitimate rights and interests of the copyright owner shall not be infringed unreasonably:</dd>\n<dd>(10) copying, drawing, photographing, or video recording of an artistic work located or on display in a public place;</dd></dl>\nSee <a href=\"//commons.wikimedia.org/wiki/Commons:CRT/China#Freedom_of_panorama\" class=\"mw-redirect\" title=\"Commons:CRT/China\">COM:CRT/China#Freedom of panorama</a> for more information.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

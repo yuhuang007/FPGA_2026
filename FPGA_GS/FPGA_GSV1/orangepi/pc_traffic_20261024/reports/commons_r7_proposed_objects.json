@@ -1,0 +1,64 @@
+{
+  "132116089": [
+    {
+      "id": "body_ped",
+      "type": "body",
+      "kind": "pedestrian",
+      "bbox_xyxy": [
+        327,
+        220,
+        922,
+        1227
+      ],
+      "layout": "vertical",
+      "kind_basis": "One physically coupled two-module walking-person signal assembly; two person symbols within one face are not separate bodies.",
+      "occlusion": "none",
+      "truncated": false,
+      "control_relation": "unknown",
+      "color_status": "unknown_or_not_assessed_for_body_only",
+      "arrow_status": "unknown_or_not_assessed_for_body_only"
+    }
+  ],
+  "149061007": [
+    {
+      "id": "body_ped",
+      "type": "body",
+      "kind": "pedestrian",
+      "bbox_xyxy": [
+        632,
+        475,
+        703,
+        621
+      ],
+      "layout": "vertical",
+      "kind_basis": "One complete two-round head with walking-person symbol on lower face, upper face dark state unassessed.",
+      "occlusion": "none",
+      "truncated": false,
+      "control_relation": "unknown",
+      "color_status": "unknown_or_not_assessed_for_body_only",
+      "arrow_status": "unknown_or_not_assessed_for_body_only"
+    },
+    {
+      "id": "ignore_side_left",
+      "type": "ignore",
+      "bbox_xyxy": [
+        58,
+        365,
+        166,
+        650
+      ],
+      "reason": "Side/back signal assembly; project motor/ped kind and full face not established."
+    },
+    {
+      "id": "ignore_lower_head",
+      "type": "ignore",
+      "bbox_xyxy": [
+        598,
+        722,
+        658,
+        870
+      ],
+      "reason": "Small lower head-like multi-round fixture seen from side/back; existence of fixture clear, project class/front face unresolved; not ordinary background."
+    }
+  ]
+}

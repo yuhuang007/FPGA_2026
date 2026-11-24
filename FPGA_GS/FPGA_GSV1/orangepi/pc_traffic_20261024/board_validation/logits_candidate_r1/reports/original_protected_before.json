@@ -1,0 +1,16 @@
+{
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/DIAGNOSTIC_ONLY_sigmoid_probe.onnx": "1c160308f5f04eb76c92b9fcb662f7bf0ea23ac257f1a008d3fddff9f77ea564",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.onnx": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/DIAGNOSTIC_ONLY_sigmoid_probe.rknn": "f6377204ed85e1a8a2c6aab97305686e46b97fad259d244a2f0a0f00cef1c03c",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/artifacts/yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.manifest.json": "9bfc012f99a352c701bffcb6d1eed3295baf916f53ad58ec828661fcaf90ee71",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/build_result.json": "58e3e170afa51572c9c24c2dbf06c815e3d1dd36ad687dd7aab8539d7d1cd875",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/numeric_validation.log": "8b22d7e6e98749ce85e21aa2309e77dca160186b25d1aa00e792dd60c064fc8a",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/sigmoid_probe.json": "3f28ab173e8d4b1eaf07735f2d8cc0f20eb1bfda361fb044de7e2cf9d711d08f",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/sigmoid_probe_constant_rejected.log": "3cade05bea6a6d6ce7b654e5fcd838f8019c41e557bf4a4aa6fb2e47770c9e94",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/deployment_preflight.json": "190b17037e68ef6f71857a61a079643ec9f6bd582ce3785b916eb1a2f017c056",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/environment.json": "c15cb3f47f4b36268e46068d9df62dad3dc88109ffc97c7e43c7785bac44ca14",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/numeric_validation.json": "c264e15f1e62f18d505aa32df105d5a93cee1fdffe8d5412b239af82e9c557e9",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/build.log": "b48b8d854bfe59276aab76348bb2c24dc1967d12539a24d64149caffb4a2f835",
+  "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/sigmoid_probe.log": "e5d38a3c49e08896e4d4554ac029dccba11481148501a414c1f92d5871691ac2"
+}

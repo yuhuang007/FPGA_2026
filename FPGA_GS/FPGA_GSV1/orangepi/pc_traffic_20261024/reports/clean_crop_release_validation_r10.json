@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T05:21:40.998541+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_release_r10/manifest.json",
+  "pilot_manifest_sha256": "c7cd72e4b1747ebf4a81618985d9ee7109b690016ecedad4c334090502ff7911",
+  "passed": true,
+  "originals": 1,
+  "targets": 2,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0012",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.260000020574807e-07,
+      "body_count": 2
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "s2tld1080_0012_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true,
+  "original_group_release_sha256": "1687d1506d381ba8b90456a461036b9485c745023344e839bbb809a1b2b8e3d9"
+}

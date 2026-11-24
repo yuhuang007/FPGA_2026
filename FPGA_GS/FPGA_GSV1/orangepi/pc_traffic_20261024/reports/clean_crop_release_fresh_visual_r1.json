@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex_PC_AI_actual_production_crop_visual_20261025",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "production_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0016",
+      "source_annotation_sha256": "5f5b5e1d2d3c924ec612a72d9756961300665128733bd2249007c373e43427c0",
+      "crop_sha256": "141737344be60db7ba9791337f453fd74859d8112646ee22a9b715be8d685567",
+      "yolo_label_sha256": "08ae8f72fce3f82e8e8655e80effa445883400d3e0416690210869b53075a5e0",
+      "viewed_source": "review_stage2/clean_crop_release_r1/views/s2tld1080_0016_clean01_source.jpg",
+      "viewed_source_sha256": "e33a4928eaf9ab3364ef9dd20a512ac6b8bfc0e33f2e0d1ceca968e2bfb4256c",
+      "viewed_crop": "review_stage2/clean_crop_release_r1/views/s2tld1080_0016_clean01_crop.jpg",
+      "viewed_crop_sha256": "2c1f0fe9667865a6cd63fc728512b73599a22ec9af53c17a2212f12d2a22531d",
+      "actual_visual_QA_passed": true,
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "notes": "Actually viewed production source and crop overlays. New crop differs from historical r3, so prior visual QA was not inherited. One complete vertical shared round+digits head remains, with road/cars/buildings/tree context. Left side and right distant ignore heads remain completely outside crop with safety padding. No additional definite signal body or cut head is visible within retained pixels. Narrow portrait crop/context bias retained in statistics."
+    }
+  ]
+}

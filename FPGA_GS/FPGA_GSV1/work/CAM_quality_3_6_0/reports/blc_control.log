@@ -1,0 +1,10 @@
+PASS control scenario 0 err0 writes21 restored1
+PASS control scenario 1 err1 writes0 restored0
+PASS control scenario 2 err6 writes5 restored1
+PASS control scenario 3 err4 writes17 restored1
+PASS control scenario 4 err4 writes19 restored1
+PASS control scenario 5 err7 writes17 restored1
+PASS control scenario 6 err8 writes21 restored0
+PASS control scenario 7 err5 writes4 restored1
+PASS BLC actual SCCB: A/B/AP, RMW, command-bit exclusion, NACK, readback/parameter/coeff drift, capture timeout, verified restore failures
+sim/cam1_blc_control_tb.sv:88: $finish called at 1104614501000 (1ps)

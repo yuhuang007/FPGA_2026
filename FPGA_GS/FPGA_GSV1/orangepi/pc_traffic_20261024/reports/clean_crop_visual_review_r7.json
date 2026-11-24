@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T03:34:16.122936+00:00",
+  "pilot_manifest_sha256": "9d981f6839c8e4ea3c23fbad092f11aab4dbf050f6812c5ed8a1969b9d2552df",
+  "passed": true,
+  "reviewer": "Codex_PC_AI_actual_crop_visual_r7_r8",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "independent_crop_review_claimed": false,
+  "entries": [
+    {
+      "candidate_id": "coco_scene_000000338560",
+      "source_annotation_sha256": "0d16a88dd10f3921b97e9f12ef95f2447852845e67546189160924fe86e51bd5",
+      "crop_sha256": "e33ebd5b2b820b86684bdf9b4745af5c8cdcb9657dca8be4940a43be798e583b",
+      "viewed_source_overlay": "review_stage2/clean_crop_pilot_r7/views/coco_scene_000000338560_clean01_source.jpg",
+      "viewed_source_overlay_sha256": "0b610ad5aafc3d9689f6ea08cf0553f578f8a263944ebd7ace9b1c86751a291f",
+      "viewed_crop_overlay": "review_stage2/clean_crop_pilot_r7/views/coco_scene_000000338560_clean01_crop.jpg",
+      "viewed_overlay_sha256": "bac923c9f2c1b4f0631467b86c28835f4cb3af84bf5b2e93714462fa5f110a29",
+      "notes": "Actually viewed full source crop outline and cropped overlay. Retains only the first complete horizontal three-aspect head, all shared arm/road/car/foreground hydrant context present in selected rectangle. Second front head is fully outside the right edge, rear heads fully above, right oblique head fully outside. No new partial head or unlabeled target seen. One of two certified source bodies is lost, and crop is portrait with only23.8% source area; keep this bias explicit.",
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "crop_context_passed_for_detection_pilot": true,
+      "human_signoff": false,
+      "training_release": false
+    }
+  ],
+  "no_safe_crop_ids": [
+    "coco_scene_000000252219"
+  ],
+  "training_release": false
+}

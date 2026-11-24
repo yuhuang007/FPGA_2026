@@ -1,0 +1,7 @@
+{
+  "onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "rknn_sha256": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+  "quantized": false,
+  "target": "rk3588",
+  "deployment_performed": false
+}

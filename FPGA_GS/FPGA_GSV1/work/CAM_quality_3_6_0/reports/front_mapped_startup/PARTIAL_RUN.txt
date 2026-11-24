@@ -1,0 +1,1 @@
+Stopped after first complete mapped-startup frame and successful publication id0. The old publication-count assertion assumes that frame is discarded. Full rerun uses verified GRS initialization plus independent frame verdict/publication identities; this partial run is not a PASS.

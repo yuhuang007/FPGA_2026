@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-25T05:18:28.684947+00:00",
+  "revision_manifest": "review_stage2/revisions/pc_r2_017/manifest.json",
+  "revision_manifest_sha256": "0d21e2990c9d9c78816294bed1f2f5a173d813ae35e95fcfc644e5c52089943d",
+  "genuine_targeted_review_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+  "genuine_targeted_review_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+  "records": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "annotation_sha256": "d57e29b71d59c2510f5c8535f36ad2431b9957282e09e583c63cacf336c8a6a9",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 1,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "annotation_sha256": "04083d872b73317bc0ebaaf50c2a9ddf34e550ca2c90d4d1f4016809ebdd4b2f",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 2,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "annotation_sha256": "ecf4afad43297ac7794101e26f098d3bb1f65673fcc6ea72d82d432e45400f45",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 3,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "annotation_sha256": "7ea97f50d82f73b8c16b08cc73e2e4842afce2767c5d73507c02c04ca63ba6b1",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 4,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0004",
+      "annotation_sha256": "f017b73bf556139db750fd402595687bf3924d8b181513eb3a273a1068b65ce7",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 5,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0005",
+      "annotation_sha256": "dba02cee4d1aead12003b98c52731d9810bbdab9f79e1ea0099039d9878ee441",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 6,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0006",
+      "annotation_sha256": "afe2ed1bebfe022c8fb00f329b9245750d0304fe59ad472724ea87cea3f5e620",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 7,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0007",
+      "annotation_sha256": "5a021c7969ba8455b6daab4e2b740a20b4a1998902cefd9a51a96900ca12344c",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 8,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0008",
+      "annotation_sha256": "46434f12263d9a4e723659b3fa176a19d855928cd3cd8ffc4b3c26f8d9870bf0",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 9,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0009",
+      "annotation_sha256": "57b3e37584889af96cae27d500eea4a31a3110d9522e26d8ebfcae0cecb7062b",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 10,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0010",
+      "annotation_sha256": "5b5243f963cb748ee43dde5f3a8c396b585c128138152ec0c3e39ad24a59857c",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 11,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0011",
+      "annotation_sha256": "dec4353e693af09c0005f829852aed399ecb3eed1c799935a4c7547b22761f21",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 12,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "annotation_sha256": "3e5be9b3feb1b181547871d0c4aab14240c7215beeff285bfd67b6b580155b63",
+      "source_file": "review_stage2/independent_codex_board_r2/recheck_pc_r2_017.jsonl",
+      "source_file_sha256": "d62c95c37e9ea3624d89a9ffc7952ad58ea7dfd4ad4c1fe6b4dfaa8d738bad87",
+      "line": 13,
+      "kind_checked": false,
+      "attributes_checked": false,
+      "only_unknown_ignore_addition_accepted": true
+    }
+  ],
+  "resolution": "New exact labels include independently checked conservative ignore. Current labels restored; all old crops on prior label SHA remain permanently stale and unavailable. New source split SHA binding and newly derived crop QA are still required.",
+  "new_qualification_created": false
+}

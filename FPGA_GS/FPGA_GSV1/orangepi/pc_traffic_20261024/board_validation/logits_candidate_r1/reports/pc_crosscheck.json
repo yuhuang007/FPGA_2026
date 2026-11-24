@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "onnxruntime": "1.20.1",
+  "numpy": "1.26.4",
+  "pc_vs_board_onnx": [
+    {
+      "fixture": "RED_full",
+      "heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "RED_left_half",
+      "heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 1.1920928955078125e-07
+        },
+        {
+          "name": "class_logits_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "GREEN_full",
+      "heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "GREEN_left_half",
+      "heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "heads": [
+        {
+          "name": "box_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s8",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s16",
+          "max_abs": 0.0
+        },
+        {
+          "name": "box_s32",
+          "max_abs": 0.0
+        },
+        {
+          "name": "class_logits_s32",
+          "max_abs": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "postprocessing_fixture": {
+    "scope": "Synthetic nonempty CPU regression, not visual accuracy",
+    "selected_anchor_class_ids": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "expected_anchor_class_ids": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "single_sigmoid_guard_passed": true,
+    "different_class_overlap_retained": true,
+    "same_class_overlap_suppressed": true,
+    "nms_threshold": 0.25,
+    "iou_threshold": 0.45
+  },
+  "original_PC_model_and_report_preserved": true,
+  "original_hashes": {
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\reports\\rknn_preflight.json": "9111f3b2ecb1b742e3fe7ded0931cb73ddeae034c17ca3f43351be2a1b5db5de",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\artifacts\\yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.onnx": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\artifacts\\yolov8n_2class_640_UNTRAINED_raw6_rknn_preflight.rknn": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9"
+  }
+}

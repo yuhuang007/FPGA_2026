@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-25T03:45:19.812087+00:00",
+  "entries": [
+    {
+      "candidate_id": "oi_scene_5b54678ebd8b8af3",
+      "author": "walknboston",
+      "photo_page": "https://www.flickr.com/photos/walkn/2736033682/",
+      "title": "Stop",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r5/provenance/5b54678ebd8b8af3_oembed.json",
+      "oEmbed_evidence_sha256": "444bb415777bf52bcd00854f3dd98a5dc850b900f6c21a8b07482a6cd5b81cf8",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "oi_scene_8d1e53413cd9c13f",
+      "author": "Taymaz Valley",
+      "photo_page": "https://www.flickr.com/photos/taymazvalley/6173663323/",
+      "title": "2'S",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r5/provenance/8d1e53413cd9c13f_oembed.json",
+      "oEmbed_evidence_sha256": "f31a5c8f8a554a85b51b439a8dd6422be8937ec979a9296d58f056238a170f4c",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "oi_scene_644395d01b541528",
+      "author": "pravin.premkumar",
+      "photo_page": "https://www.flickr.com/photos/pravin8/5026521433/",
+      "title": "IMG_3301",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r5/provenance/644395d01b541528_oembed.json",
+      "oEmbed_evidence_sha256": "76c90c2f164109bf22ffd430aa32bc4c954645eee22da6482face970f413c3c2",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    },
+    {
+      "candidate_id": "oi_scene_ee267b62fd17a9b1",
+      "author": "brad_holt",
+      "photo_page": "https://www.flickr.com/photos/brad_holt/4646111711/",
+      "title": "Baby Grant Experience, Day 2.  The hospital is on Grant ST.  Yeah, that's pretty awesome.",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "oEmbed_evidence_file": "data/external_scene_candidates_r5/provenance/ee267b62fd17a9b1_oembed.json",
+      "oEmbed_evidence_sha256": "9d9bc07c6795afa390165ed9415e6a54351cd236d2cadd0ee3679be2d26ec0b0",
+      "eligible_license": true,
+      "conflict_quarantined": false
+    }
+  ],
+  "verified_current_CC_BY": 4,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

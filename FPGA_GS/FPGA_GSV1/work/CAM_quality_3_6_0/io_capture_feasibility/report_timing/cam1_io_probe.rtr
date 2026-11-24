@@ -1,0 +1,1299 @@
+
+----------------------------------------------------------------------------------------------------
+| Tool Version : Fabric Compiler (version 2022.2-SP6.4 <build 146967>)
+| Date         : Sun Oct 25 12:16:51 2026
+| Design       : cam1_io_probe
+| Device       : PGL50H
+| Speed Grade  : -6
+| Package      : FBG484
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Timing Models: Production
+| Tcl Command  : report_timing -input_pins true -report_io_datasheet 
+----------------------------------------------------------------------------------------------------
+
+Timing analysis mode : multi corner
+
+ Clock Summary:                                                                                          
+*********************************************************************************************************
+                                                                         Clock   Non-clock               
+ Clock                    Period       Waveform            Type          Loads       Loads  Sources      
+---------------------------------------------------------------------------------------------------------
+ cmos2_pclk               11.9000      {0.0000 5.9500}     Declared         20           0  {cmos2_pclk} 
+=========================================================================================================
+
+ Clock Groups:                                                                                      
+****************************************************************************************************
+ Clock Group                   Group Type                 Clocks                                    
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+ Performance Summary:                                                                               
+****************************************************************************************************
+                              Requested       Estimated      Requested      Estimated               
+ Clock                        Frequency       Frequency      Period         Period             Slack
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk                 84.0336 MHz    549.1488 MHz        11.9000         1.8210         10.079
+====================================================================================================
+
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk             cmos2_pclk                  10.079       0.000              0             10
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk             cmos2_pclk                   0.540       0.000              0             10
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk                                          4.433       0.000              0             20
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk             cmos2_pclk                  10.628       0.000              0             10
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk             cmos2_pclk                   0.287       0.000              0             10
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ cmos2_pclk                                          4.737       0.000              0             20
+====================================================================================================
+
+Slow Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : input_stage[9]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[9]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.052  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.571
+  Launch Clock Delay      :  6.239
+  Clock Pessimism Removal :  0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.624       6.239         ntclkbufg_0      
+ IOL_35_6/CLK_SYS                                                          r       input_stage[9]/opit_0_IQ/SYSCLK
+
+ IOL_35_6/RX_DATA[0]               tco                   0.303       6.542 r       input_stage[9]/opit_0_IQ/OUT
+                                   net (fanout=1)        1.137       7.679         input_stage[9]   
+ CLMS_70_9/M2                                                              r       second_stage[9]/opit_0/D
+
+ Data arrival time                                                   7.679         Logic Levels: 0  
+                                                                                   Logic: 0.303ns(21.042%), Route: 1.137ns(78.958%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047      13.018 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      13.018         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082      13.100 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817      15.917         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      15.917 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.554      17.471         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[9]/opit_0/CLK
+ clock pessimism                                         0.616      18.087                          
+ clock uncertainty                                      -0.250      17.837                          
+
+ Setup time                                             -0.079      17.758                          
+
+ Data required time                                                 17.758                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 17.758                          
+ Data arrival time                                                   7.679                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.079                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[8]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[8]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.052  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.571
+  Launch Clock Delay      :  6.239
+  Clock Pessimism Removal :  0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.624       6.239         ntclkbufg_0      
+ IOL_35_5/CLK_SYS                                                          r       input_stage[8]/opit_0_IQ/SYSCLK
+
+ IOL_35_5/RX_DATA[0]               tco                   0.314       6.553 f       input_stage[8]/opit_0_IQ/OUT
+                                   net (fanout=1)        1.012       7.565         input_stage[8]   
+ CLMS_70_9/M1                                                              f       second_stage[8]/opit_0/D
+
+ Data arrival time                                                   7.565         Logic Levels: 0  
+                                                                                   Logic: 0.314ns(23.680%), Route: 1.012ns(76.320%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047      13.018 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      13.018         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082      13.100 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817      15.917         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      15.917 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.554      17.471         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[8]/opit_0/CLK
+ clock pessimism                                         0.616      18.087                          
+ clock uncertainty                                      -0.250      17.837                          
+
+ Setup time                                             -0.088      17.749                          
+
+ Data required time                                                 17.749                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 17.749                          
+ Data arrival time                                                   7.565                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.184                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[4]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[4]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.061  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.571
+  Launch Clock Delay      :  6.248
+  Clock Pessimism Removal :  0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.633       6.248         ntclkbufg_0      
+ IOL_47_5/CLK_SYS                                                          r       input_stage[4]/opit_0_IQ/SYSCLK
+
+ IOL_47_5/RX_DATA[0]               tco                   0.314       6.562 f       input_stage[4]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.858       7.420         input_stage[4]   
+ CLMS_70_9/M3                                                              f       second_stage[4]/opit_0/D
+
+ Data arrival time                                                   7.420         Logic Levels: 0  
+                                                                                   Logic: 0.314ns(26.792%), Route: 0.858ns(73.208%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047      13.018 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      13.018         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082      13.100 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817      15.917         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      15.917 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.554      17.471         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[4]/opit_0/CLK
+ clock pessimism                                         0.616      18.087                          
+ clock uncertainty                                      -0.250      17.837                          
+
+ Setup time                                             -0.088      17.749                          
+
+ Data required time                                                 17.749                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 17.749                          
+ Data arrival time                                                   7.420                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.329                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[0]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[0]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.013  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  6.224
+  Launch Clock Delay      :  5.595
+  Clock Pessimism Removal :  -0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047       1.118 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.118         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082       1.200 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817       4.017         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.017 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.578       5.595         ntclkbufg_0      
+ IOL_39_5/CLK_SYS                                                          r       input_stage[0]/opit_0_IQ/SYSCLK
+
+ IOL_39_5/RX_DATA[0]               tco                   0.144       5.739 r       input_stage[0]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.595       6.334         input_stage[0]   
+ CLMS_70_9/M0                                                              r       second_stage[0]/opit_0/D
+
+ Data arrival time                                                   6.334         Logic Levels: 0  
+                                                                                   Logic: 0.144ns(19.486%), Route: 0.595ns(80.514%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.609       6.224         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[0]/opit_0/CLK
+ clock pessimism                                        -0.616       5.608                          
+ clock uncertainty                                       0.200       5.808                          
+
+ Hold time                                              -0.014       5.794                          
+
+ Data required time                                                  5.794                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.794                          
+ Data arrival time                                                   6.334                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.540                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[6]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[6]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  6.200
+  Launch Clock Delay      :  5.548
+  Clock Pessimism Removal :  -0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047       1.118 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.118         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082       1.200 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817       4.017         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.017 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.531       5.548         ntclkbufg_0      
+ IOL_131_6/CLK_SYS                                                         r       input_stage[6]/opit_0_IQ/SYSCLK
+
+ IOL_131_6/RX_DATA[0]              tco                   0.144       5.692 r       input_stage[6]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.619       6.311         input_stage[6]   
+ CLMA_126_8/M0                                                             r       second_stage[6]/opit_0/D
+
+ Data arrival time                                                   6.311         Logic Levels: 0  
+                                                                                   Logic: 0.144ns(18.873%), Route: 0.619ns(81.127%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.585       6.200         ntclkbufg_0      
+ CLMA_126_8/CLK                                                            r       second_stage[6]/opit_0/CLK
+ clock pessimism                                        -0.616       5.584                          
+ clock uncertainty                                       0.200       5.784                          
+
+ Hold time                                              -0.014       5.770                          
+
+ Data required time                                                  5.770                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.770                          
+ Data arrival time                                                   6.311                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.541                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[1]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[1]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.049  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  6.224
+  Launch Clock Delay      :  5.559
+  Clock Pessimism Removal :  -0.616
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.047       1.118 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.118         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.082       1.200 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        2.817       4.017         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.017 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.542       5.559         ntclkbufg_0      
+ IOL_63_5/CLK_SYS                                                          r       input_stage[1]/opit_0_IQ/SYSCLK
+
+ IOL_63_5/RX_DATA[0]               tco                   0.144       5.703 f       input_stage[1]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.702       6.405         input_stage[1]   
+ CLMS_70_9/AD                                                              f       second_stage[1]/opit_0/D
+
+ Data arrival time                                                   6.405         Logic Levels: 0  
+                                                                                   Logic: 0.144ns(17.021%), Route: 0.702ns(82.979%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.609       6.224         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[1]/opit_0/CLK
+ clock pessimism                                        -0.616       5.608                          
+ clock uncertainty                                       0.200       5.808                          
+
+ Hold time                                               0.053       5.861                          
+
+ Data required time                                                  5.861                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.861                          
+ Data arrival time                                                   6.405                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.544                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : second_stage[4]/opit_0/CLK
+Endpoint    : probe_out (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    1.254       1.325 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.325         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.126       1.451 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        3.164       4.615         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       4.615 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       1.609       6.224         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[4]/opit_0/CLK
+
+ CLMS_70_9/Q3                      tco                   0.288       6.512 r       second_stage[4]/opit_0/Q
+                                   net (fanout=1)        0.881       7.393         second_stage[4]  
+ CLMA_118_8/A4                                                                     N1_8/gateop_perm/L4
+ CLMA_118_8/Y0                     td                    0.210       7.603 r       N1_8/gateop_perm/Z
+                                   net (fanout=1)        0.826       8.429         _N14             
+ CLMA_78_8/A4                                                                      N1_10/gateop_perm/L4
+ CLMA_78_8/Y0                      td                    0.196       8.625 f       N1_10/gateop_perm/Z
+                                   net (fanout=1)        3.520      12.145         nt_probe_out     
+ IOL_327_118/TX_DATA[7]                                                            probe_out_obuf/opit_1/IN
+ IOL_327_118/DO                    td                    0.139      12.284 f       probe_out_obuf/opit_1/O
+                                   net (fanout=1)        0.000      12.284         probe_out_obuf/ntO
+ IOBS_LR_328_117/DO                                                                probe_out_obuf/opit_0/I
+ IOBS_LR_328_117/PAD               td                    3.962      16.246 f       probe_out_obuf/opit_0/O
+                                   net (fanout=1)        0.087      16.333         probe_out        
+ U19                                                                       f       probe_out (port) 
+
+ Data arrival time                                                  16.333         Logic Levels: 4  
+                                                                                   Logic: 4.795ns(47.433%), Route: 5.314ns(52.567%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[5] (port)
+Endpoint    : input_stage[5]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB8                                                     0.000       0.000 r       cmos2_data[5] (port)
+                                   net (fanout=1)        0.084       0.084         cmos2_data[5]    
+ IOBS_TB_116_0/PAD                                                                 cmos2_data_ibuf[5]/opit_0/I
+ IOBS_TB_116_0/DIN                 td                    2.166       2.250 r       cmos2_data_ibuf[5]/opit_0/O
+                                   net (fanout=1)        0.000       2.250         cmos2_data_ibuf[5]/ntD
+ IOL_119_5/DI                                                              r       input_stage[5]/opit_0_IQ/I
+
+ Data arrival time                                                   2.250         Logic Levels: 1  
+                                                                                   Logic: 2.166ns(96.267%), Route: 0.084ns(3.733%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[7] (port)
+Endpoint    : input_stage[7]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB9                                                     0.000       0.000 r       cmos2_data[7] (port)
+                                   net (fanout=1)        0.080       0.080         cmos2_data[7]    
+ IOBS_TB_128_0/PAD                                                                 cmos2_data_ibuf[7]/opit_0/I
+ IOBS_TB_128_0/DIN                 td                    2.166       2.246 r       cmos2_data_ibuf[7]/opit_0/O
+                                   net (fanout=1)        0.000       2.246         cmos2_data_ibuf[7]/ntD
+ IOL_131_5/DI                                                              r       input_stage[7]/opit_0_IQ/I
+
+ Data arrival time                                                   2.246         Logic Levels: 1  
+                                                                                   Logic: 2.166ns(96.438%), Route: 0.080ns(3.562%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_vsync (port)
+Endpoint    : input_stage[9]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ Y5                                                      0.000       0.000 r       cmos2_vsync (port)
+                                   net (fanout=1)        0.092       0.092         cmos2_vsync      
+ IOBD_33_0/PAD                                                                     cmos2_vsync_ibuf/opit_0/I
+ IOBD_33_0/DIN                     td                    1.047       1.139 r       cmos2_vsync_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.139         cmos2_vsync_ibuf/ntD
+ IOL_35_6/DI                                                               r       input_stage[9]/opit_0_IQ/I
+
+ Data arrival time                                                   1.139         Logic Levels: 1  
+                                                                                   Logic: 1.047ns(91.923%), Route: 0.092ns(8.077%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_href (port)
+Endpoint    : input_stage[8]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB5                                                     0.000       0.000 r       cmos2_href (port)
+                                   net (fanout=1)        0.093       0.093         cmos2_href       
+ IOBS_TB_32_0/PAD                                                                  cmos2_href_ibuf/opit_0/I
+ IOBS_TB_32_0/DIN                  td                    1.047       1.140 r       cmos2_href_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.140         cmos2_href_ibuf/ntD
+ IOL_35_5/DI                                                               r       input_stage[8]/opit_0_IQ/I
+
+ Data arrival time                                                   1.140         Logic Levels: 1  
+                                                                                   Logic: 1.047ns(91.842%), Route: 0.093ns(8.158%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[3] (port)
+Endpoint    : input_stage[3]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ U9                                                      0.000       0.000 f       cmos2_data[3] (port)
+                                   net (fanout=1)        0.047       0.047         cmos2_data[3]    
+ IOBD_93_0/PAD                                                                     cmos2_data_ibuf[3]/opit_0/I
+ IOBD_93_0/DIN                     td                    1.264       1.311 f       cmos2_data_ibuf[3]/opit_0/O
+                                   net (fanout=1)        0.000       1.311         cmos2_data_ibuf[3]/ntD
+ IOL_95_6/DI                                                               f       input_stage[3]/opit_0_IQ/I
+
+ Data arrival time                                                   1.311         Logic Levels: 1  
+                                                                                   Logic: 1.264ns(96.415%), Route: 0.047ns(3.585%)
+====================================================================================================
+
+{cmos2_pclk} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 4.433       5.950           1.517           High Pulse Width  IOL_39_5/CLK_SYS        input_stage[0]/opit_0_IQ/SYSCLK
+ 4.433       5.950           1.517           Low Pulse Width   IOL_39_5/CLK_SYS        input_stage[0]/opit_0_IQ/SYSCLK
+ 4.433       5.950           1.517           High Pulse Width  IOL_63_5/CLK_SYS        input_stage[1]/opit_0_IQ/SYSCLK
+====================================================================================================
+
+====================================================================================================
+Fast Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : input_stage[9]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[9]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.032  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.530
+  Launch Clock Delay      :  3.892
+  Clock Pessimism Removal :  0.330
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.957       3.892         ntclkbufg_0      
+ IOL_35_6/CLK_SYS                                                          r       input_stage[9]/opit_0_IQ/SYSCLK
+
+ IOL_35_6/RX_DATA[0]               tco                   0.242       4.134 f       input_stage[9]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.680       4.814         input_stage[9]   
+ CLMS_70_9/M2                                                              f       second_stage[9]/opit_0/D
+
+ Data arrival time                                                   4.814         Logic Levels: 0  
+                                                                                   Logic: 0.242ns(26.247%), Route: 0.680ns(73.753%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735      12.706 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      12.706         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066      12.772 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744      14.516         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      14.516 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.914      15.430         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[9]/opit_0/CLK
+ clock pessimism                                         0.330      15.760                          
+ clock uncertainty                                      -0.250      15.510                          
+
+ Setup time                                             -0.068      15.442                          
+
+ Data required time                                                 15.442                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 15.442                          
+ Data arrival time                                                   4.814                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.628                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[8]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[8]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.032  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.530
+  Launch Clock Delay      :  3.892
+  Clock Pessimism Removal :  0.330
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.957       3.892         ntclkbufg_0      
+ IOL_35_5/CLK_SYS                                                          r       input_stage[8]/opit_0_IQ/SYSCLK
+
+ IOL_35_5/RX_DATA[0]               tco                   0.242       4.134 f       input_stage[8]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.677       4.811         input_stage[8]   
+ CLMS_70_9/M1                                                              f       second_stage[8]/opit_0/D
+
+ Data arrival time                                                   4.811         Logic Levels: 0  
+                                                                                   Logic: 0.242ns(26.333%), Route: 0.677ns(73.667%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735      12.706 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      12.706         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066      12.772 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744      14.516         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      14.516 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.914      15.430         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[8]/opit_0/CLK
+ clock pessimism                                         0.330      15.760                          
+ clock uncertainty                                      -0.250      15.510                          
+
+ Setup time                                             -0.068      15.442                          
+
+ Data required time                                                 15.442                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 15.442                          
+ Data arrival time                                                   4.811                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.631                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[4]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[4]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.039  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.530
+  Launch Clock Delay      :  3.899
+  Clock Pessimism Removal :  0.330
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.964       3.899         ntclkbufg_0      
+ IOL_47_5/CLK_SYS                                                          r       input_stage[4]/opit_0_IQ/SYSCLK
+
+ IOL_47_5/RX_DATA[0]               tco                   0.242       4.141 f       input_stage[4]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.566       4.707         input_stage[4]   
+ CLMS_70_9/M3                                                              f       second_stage[4]/opit_0/D
+
+ Data arrival time                                                   4.707         Logic Levels: 0  
+                                                                                   Logic: 0.242ns(29.950%), Route: 0.566ns(70.050%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                         11.900      11.900 r                        
+ W6                                                      0.000      11.900 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071      11.971         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735      12.706 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000      12.706         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066      12.772 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744      14.516         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000      14.516 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.914      15.430         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[4]/opit_0/CLK
+ clock pessimism                                         0.330      15.760                          
+ clock uncertainty                                      -0.250      15.510                          
+
+ Setup time                                             -0.068      15.442                          
+
+ Data required time                                                 15.442                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                 15.442                          
+ Data arrival time                                                   4.707                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                        10.735                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[1]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[1]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.030  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.879
+  Launch Clock Delay      :  3.519
+  Clock Pessimism Removal :  -0.330
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735       0.806 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.806         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066       0.872 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744       2.616         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.616 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.903       3.519         ntclkbufg_0      
+ IOL_63_5/CLK_SYS                                                          r       input_stage[1]/opit_0_IQ/SYSCLK
+
+ IOL_63_5/RX_DATA[0]               tco                   0.116       3.635 r       input_stage[1]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.435       4.070         input_stage[1]   
+ CLMS_70_9/AD                                                              r       second_stage[1]/opit_0/D
+
+ Data arrival time                                                   4.070         Logic Levels: 0  
+                                                                                   Logic: 0.116ns(21.053%), Route: 0.435ns(78.947%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.944       3.879         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[1]/opit_0/CLK
+ clock pessimism                                        -0.330       3.549                          
+ clock uncertainty                                       0.200       3.749                          
+
+ Hold time                                               0.034       3.783                          
+
+ Data required time                                                  3.783                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.783                          
+ Data arrival time                                                   4.070                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.287                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[6]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[6]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.860
+  Launch Clock Delay      :  3.511
+  Clock Pessimism Removal :  -0.330
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735       0.806 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.806         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066       0.872 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744       2.616         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.616 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.895       3.511         ntclkbufg_0      
+ IOL_131_6/CLK_SYS                                                         r       input_stage[6]/opit_0_IQ/SYSCLK
+
+ IOL_131_6/RX_DATA[0]              tco                   0.116       3.627 r       input_stage[6]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.379       4.006         input_stage[6]   
+ CLMA_126_8/M0                                                             r       second_stage[6]/opit_0/D
+
+ Data arrival time                                                   4.006         Logic Levels: 0  
+                                                                                   Logic: 0.116ns(23.434%), Route: 0.379ns(76.566%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.925       3.860         ntclkbufg_0      
+ CLMA_126_8/CLK                                                            r       second_stage[6]/opit_0/CLK
+ clock pessimism                                        -0.330       3.530                          
+ clock uncertainty                                       0.200       3.730                          
+
+ Hold time                                              -0.011       3.719                          
+
+ Data required time                                                  3.719                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.719                          
+ Data arrival time                                                   4.006                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.287                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : input_stage[5]/opit_0_IQ/SYSCLK
+Endpoint    : second_stage[5]/opit_0/D
+Path Group  : cmos2_pclk
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.860
+  Launch Clock Delay      :  3.511
+  Clock Pessimism Removal :  -0.334
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.735       0.806 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.806         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.066       0.872 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.744       2.616         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.616 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.895       3.511         ntclkbufg_0      
+ IOL_119_5/CLK_SYS                                                         r       input_stage[5]/opit_0_IQ/SYSCLK
+
+ IOL_119_5/RX_DATA[0]              tco                   0.116       3.627 r       input_stage[5]/opit_0_IQ/OUT
+                                   net (fanout=1)        0.376       4.003         input_stage[5]   
+ CLMA_118_8/M0                                                             r       second_stage[5]/opit_0/D
+
+ Data arrival time                                                   4.003         Logic Levels: 0  
+                                                                                   Logic: 0.116ns(23.577%), Route: 0.376ns(76.423%)
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.925       3.860         ntclkbufg_0      
+ CLMA_118_8/CLK                                                            r       second_stage[5]/opit_0/CLK
+ clock pessimism                                        -0.334       3.526                          
+ clock uncertainty                                       0.200       3.726                          
+
+ Hold time                                              -0.011       3.715                          
+
+ Data required time                                                  3.715                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.715                          
+ Data arrival time                                                   4.003                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.288                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : second_stage[4]/opit_0/CLK
+Endpoint    : probe_out (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock cmos2_pclk (rising edge)                          0.000       0.000 r                        
+ W6                                                      0.000       0.000 r       cmos2_pclk (port)
+                                   net (fanout=1)        0.071       0.071         cmos2_pclk       
+ IOBD_37_0/PAD                                                                     cmos2_pclk_ibuf/opit_0/I
+ IOBD_37_0/DIN                     td                    0.861       0.932 r       cmos2_pclk_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.932         cmos2_pclk_ibuf/ntD
+ IOL_39_6/DI                                                                       cmos2_pclk_ibuf/opit_1/IN
+ IOL_39_6/RX_DATA_DD               td                    0.096       1.028 r       cmos2_pclk_ibuf/opit_1/OUT
+                                   net (fanout=1)        1.907       2.935         nt_cmos2_pclk    
+ USCM_84_108/CLK_A                                                                 clkbufg_0/gopclkbufg/CLK
+ USCM_84_108/CLK_USCM              td                    0.000       2.935 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=20)       0.944       3.879         ntclkbufg_0      
+ CLMS_70_9/CLK                                                             r       second_stage[4]/opit_0/CLK
+
+ CLMS_70_9/Q3                      tco                   0.220       4.099 f       second_stage[4]/opit_0/Q
+                                   net (fanout=1)        0.585       4.684         second_stage[4]  
+ CLMA_118_8/A4                                                                     N1_8/gateop_perm/L4
+ CLMA_118_8/Y0                     td                    0.150       4.834 f       N1_8/gateop_perm/Z
+                                   net (fanout=1)        0.563       5.397         _N14             
+ CLMA_78_8/A4                                                                      N1_10/gateop_perm/L4
+ CLMA_78_8/Y0                      td                    0.150       5.547 f       N1_10/gateop_perm/Z
+                                   net (fanout=1)        2.453       8.000         nt_probe_out     
+ IOL_327_118/TX_DATA[7]                                                            probe_out_obuf/opit_1/IN
+ IOL_327_118/DO                    td                    0.106       8.106 f       probe_out_obuf/opit_1/O
+                                   net (fanout=1)        0.000       8.106         probe_out_obuf/ntO
+ IOBS_LR_328_117/DO                                                                probe_out_obuf/opit_0/I
+ IOBS_LR_328_117/PAD               td                    3.197      11.303 f       probe_out_obuf/opit_0/O
+                                   net (fanout=1)        0.087      11.390         probe_out        
+ U19                                                                       f       probe_out (port) 
+
+ Data arrival time                                                  11.390         Logic Levels: 4  
+                                                                                   Logic: 3.823ns(50.899%), Route: 3.688ns(49.101%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[5] (port)
+Endpoint    : input_stage[5]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB8                                                     0.000       0.000 r       cmos2_data[5] (port)
+                                   net (fanout=1)        0.084       0.084         cmos2_data[5]    
+ IOBS_TB_116_0/PAD                                                                 cmos2_data_ibuf[5]/opit_0/I
+ IOBS_TB_116_0/DIN                 td                    1.504       1.588 r       cmos2_data_ibuf[5]/opit_0/O
+                                   net (fanout=1)        0.000       1.588         cmos2_data_ibuf[5]/ntD
+ IOL_119_5/DI                                                              r       input_stage[5]/opit_0_IQ/I
+
+ Data arrival time                                                   1.588         Logic Levels: 1  
+                                                                                   Logic: 1.504ns(94.710%), Route: 0.084ns(5.290%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[7] (port)
+Endpoint    : input_stage[7]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB9                                                     0.000       0.000 r       cmos2_data[7] (port)
+                                   net (fanout=1)        0.080       0.080         cmos2_data[7]    
+ IOBS_TB_128_0/PAD                                                                 cmos2_data_ibuf[7]/opit_0/I
+ IOBS_TB_128_0/DIN                 td                    1.504       1.584 r       cmos2_data_ibuf[7]/opit_0/O
+                                   net (fanout=1)        0.000       1.584         cmos2_data_ibuf[7]/ntD
+ IOL_131_5/DI                                                              r       input_stage[7]/opit_0_IQ/I
+
+ Data arrival time                                                   1.584         Logic Levels: 1  
+                                                                                   Logic: 1.504ns(94.949%), Route: 0.080ns(5.051%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_vsync (port)
+Endpoint    : input_stage[9]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ Y5                                                      0.000       0.000 r       cmos2_vsync (port)
+                                   net (fanout=1)        0.092       0.092         cmos2_vsync      
+ IOBD_33_0/PAD                                                                     cmos2_vsync_ibuf/opit_0/I
+ IOBD_33_0/DIN                     td                    0.735       0.827 r       cmos2_vsync_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.827         cmos2_vsync_ibuf/ntD
+ IOL_35_6/DI                                                               r       input_stage[9]/opit_0_IQ/I
+
+ Data arrival time                                                   0.827         Logic Levels: 1  
+                                                                                   Logic: 0.735ns(88.875%), Route: 0.092ns(11.125%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_href (port)
+Endpoint    : input_stage[8]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ AB5                                                     0.000       0.000 r       cmos2_href (port)
+                                   net (fanout=1)        0.093       0.093         cmos2_href       
+ IOBS_TB_32_0/PAD                                                                  cmos2_href_ibuf/opit_0/I
+ IOBS_TB_32_0/DIN                  td                    0.735       0.828 r       cmos2_href_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.828         cmos2_href_ibuf/ntD
+ IOL_35_5/DI                                                               r       input_stage[8]/opit_0_IQ/I
+
+ Data arrival time                                                   0.828         Logic Levels: 1  
+                                                                                   Logic: 0.735ns(88.768%), Route: 0.093ns(11.232%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : cmos2_data[3] (port)
+Endpoint    : input_stage[3]/opit_0_IQ/I
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ U9                                                      0.000       0.000 f       cmos2_data[3] (port)
+                                   net (fanout=1)        0.047       0.047         cmos2_data[3]    
+ IOBD_93_0/PAD                                                                     cmos2_data_ibuf[3]/opit_0/I
+ IOBD_93_0/DIN                     td                    0.896       0.943 f       cmos2_data_ibuf[3]/opit_0/O
+                                   net (fanout=1)        0.000       0.943         cmos2_data_ibuf[3]/ntD
+ IOL_95_6/DI                                                               f       input_stage[3]/opit_0_IQ/I
+
+ Data arrival time                                                   0.943         Logic Levels: 1  
+                                                                                   Logic: 0.896ns(95.016%), Route: 0.047ns(4.984%)
+====================================================================================================
+
+{cmos2_pclk} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 4.737       5.950           1.213           High Pulse Width  IOL_39_5/CLK_SYS        input_stage[0]/opit_0_IQ/SYSCLK
+ 4.737       5.950           1.213           Low Pulse Width   IOL_39_5/CLK_SYS        input_stage[0]/opit_0_IQ/SYSCLK
+ 4.737       5.950           1.213           High Pulse Width  IOL_63_5/CLK_SYS        input_stage[1]/opit_0_IQ/SYSCLK
+====================================================================================================
+
+====================================================================================================
+Input Ports Setup/Hold
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Reference           Input               IO Reg  Delay   Setup(ns)           Process Corner  Hold(ns)            Process Corner  Internal   
+ Clock               Port                Type    Type    to Clk (Edge)                       to Clk (Edge)                       Clock      
+--------------------------------------------------------------------------------------------------------------------------------------------
+ cmos2_pclk          cmos2_data[0]                       -3.088 (r)          SLOW            5.325 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[0]                       -1.714 (r)          FAST            3.311 (r)           FAST                       
+ cmos2_pclk          cmos2_data[1]                       -3.047 (r)          SLOW            5.284 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[1]                       -1.678 (r)          FAST            3.275 (r)           FAST                       
+ cmos2_pclk          cmos2_data[2]                       -3.048 (r)          SLOW            5.285 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[2]                       -1.679 (r)          FAST            3.276 (r)           FAST                       
+ cmos2_pclk          cmos2_data[3]                       -3.047 (r)          SLOW            5.283 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[3]                       -1.681 (r)          FAST            3.278 (r)           FAST                       
+ cmos2_pclk          cmos2_data[4]                       -3.063 (r)          SLOW            5.300 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[4]                       -1.689 (r)          FAST            3.286 (r)           FAST                       
+ cmos2_pclk          cmos2_data[5]                       -3.010 (r)          SLOW            5.246 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[5]                       -1.644 (r)          FAST            3.241 (r)           FAST                       
+ cmos2_pclk          cmos2_data[6]                       -3.016 (r)          SLOW            5.252 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[6]                       -1.650 (r)          FAST            3.247 (r)           FAST                       
+ cmos2_pclk          cmos2_data[7]                       -3.014 (r)          SLOW            5.250 (r)           SLOW                       
+ cmos2_pclk          cmos2_data[7]                       -1.648 (r)          FAST            3.245 (r)           FAST                       
+ cmos2_pclk          cmos2_href                          -3.867 (r)          SLOW            5.469 (r)           SLOW                       
+ cmos2_pclk          cmos2_href                          -2.275 (r)          FAST            3.406 (r)           FAST                       
+ cmos2_pclk          cmos2_vsync                         -3.868 (r)          SLOW            5.470 (r)           SLOW                       
+ cmos2_pclk          cmos2_vsync                         -2.276 (r)          FAST            3.407 (r)           FAST                       
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Output Ports Clock-to-out
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Reference           Input               IO Reg  Delay   Max Clk (Edge)      Process Corner  Min Clk (Edge)      Process Corner  Internal   
+ Clock               Port                Type    Type    to port(ns)                         to port(ns)                         Clock      
+--------------------------------------------------------------------------------------------------------------------------------------------
+ cmos2_pclk          probe_out                           16.583 (r)          SLOW            12.495 (r)          SLOW                       
+ cmos2_pclk          probe_out                           11.640 (r)          FAST            8.728 (r)           FAST                       
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Setup/Hold times for input bus
+Clocked by: cmos2_pclk
+------------------------------------------------------------------------------------------------------------------------------------
+                                     Process                         Process         Setup           Hold            Source Offset  
+ Source              Setup(ns)       Corner          Hold(ns)        Corner          Slack(ns)       Slack(ns)       to Center(ns)  
+ cmos2_data[0]       -3.088          SLOW            5.325           SLOW                                                           
+ cmos2_data[0]       -1.714          FAST            3.311           FAST                                                           
+ cmos2_data[1]       -3.047          SLOW            5.284           SLOW                                                           
+ cmos2_data[1]       -1.678          FAST            3.275           FAST                                                           
+ cmos2_data[2]       -3.048          SLOW            5.285           SLOW                                                           
+ cmos2_data[2]       -1.679          FAST            3.276           FAST                                                           
+ cmos2_data[3]       -3.047          SLOW            5.283           SLOW                                                           
+ cmos2_data[3]       -1.681          FAST            3.278           FAST                                                           
+ cmos2_data[4]       -3.063          SLOW            5.300           SLOW                                                           
+ cmos2_data[4]       -1.689          FAST            3.286           FAST                                                           
+ cmos2_data[5]       -3.010          SLOW            5.246           SLOW                                                           
+ cmos2_data[5]       -1.644          FAST            3.241           FAST                                                           
+ cmos2_data[6]       -3.016          SLOW            5.252           SLOW                                                           
+ cmos2_data[6]       -1.650          FAST            3.247           FAST                                                           
+ cmos2_data[7]       -3.014          SLOW            5.250           SLOW                                                           
+ cmos2_data[7]       -1.648          FAST            3.245           FAST                                                           
+------------------------------------------------------------------------------------------------------------------------------------
+ Worst Case Summary  -3.010          SLOW            5.325           SLOW                                                           
+ Worst Case Summary  -1.644          FAST            3.311           FAST                                                           
+------------------------------------------------------------------------------------------------------------------------------------
+Worst Case Data Window: 2.315 (slow corner), 1.667 (fast corner)
+Ideal Clock Offset to Actual Clock: 4.168 (slow corner), 2.478 (fast corner)
+
+
+Inputs and Outputs :
++----------------------------------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                                                
++----------------------------------------------------------------------------------------------------------------------------------------+
+| Input      | E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/place_route/cam1_io_probe_pnr.adf       
+| Output     | E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/report_timing/cam1_io_probe_rtp.adf     
+|            | E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/report_timing/cam1_io_probe.rtr         
+|            | E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/report_timing/rtr.db                    
++----------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: report_timing -input_pins true -report_io_datasheet 
+Peak memory: 876 MB
+Total CPU time to report_timing completion : 0h:0m:4s
+Process Total CPU time to report_timing completion : 0h:0m:4s
+Total real time to report_timing completion : 0h:0m:5s

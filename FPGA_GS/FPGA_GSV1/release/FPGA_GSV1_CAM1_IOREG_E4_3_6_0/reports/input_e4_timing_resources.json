@@ -1,0 +1,208 @@
+{
+  "internal_constraints_met": true,
+  "summaries": [
+    {
+      "summary": "Setup Summary(Slow Corner):",
+      "worst_slack_ns": 0.07,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Slow Corner):",
+      "worst_slack_ns": 0.096,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Slow Corner):",
+      "worst_slack_ns": 4.358,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Slow Corner):",
+      "worst_slack_ns": 0.505,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Slow Corner):",
+      "worst_slack_ns": 0.397,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Setup Summary(Fast Corner):",
+      "worst_slack_ns": 0.312,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Fast Corner):",
+      "worst_slack_ns": 0.122,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Fast Corner):",
+      "worst_slack_ns": 5.456,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Fast Corner):",
+      "worst_slack_ns": 0.342,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Fast Corner):",
+      "worst_slack_ns": 0.568,
+      "failing_endpoints": 0
+    }
+  ],
+  "resources": {
+    "CLMA": 4486.0,
+    "CLMS": 2815.0,
+    "DRM": 109.5,
+    "PLL": 5.0,
+    "LUT": 22292.0,
+    "FF": 23176.0
+  },
+  "implemented_input_registers": {
+    "cmos2_data[0]": "IREGIS",
+    "cmos2_data[1]": "IREGIS",
+    "cmos2_data[2]": "IREGIS",
+    "cmos2_data[3]": "IREGIS",
+    "cmos2_data[4]": "IREGIS",
+    "cmos2_data[5]": "IREGIS",
+    "cmos2_data[6]": "IREGIS",
+    "cmos2_data[7]": "IREGIS",
+    "cmos2_href": "IREGIS",
+    "cmos2_vsync": "IREGIS"
+  },
+  "io_receiver_requirements": [
+    {
+      "port": "cmos2_data[0]",
+      "corner": "SLOW",
+      "setup_ns": -3.084,
+      "hold_ns": 5.331
+    },
+    {
+      "port": "cmos2_data[0]",
+      "corner": "FAST",
+      "setup_ns": -1.716,
+      "hold_ns": 3.32
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "SLOW",
+      "setup_ns": -3.043,
+      "hold_ns": 5.29
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "FAST",
+      "setup_ns": -1.68,
+      "hold_ns": 3.284
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "SLOW",
+      "setup_ns": -3.044,
+      "hold_ns": 5.291
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "FAST",
+      "setup_ns": -1.681,
+      "hold_ns": 3.285
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "SLOW",
+      "setup_ns": -3.043,
+      "hold_ns": 5.289
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "FAST",
+      "setup_ns": -1.683,
+      "hold_ns": 3.287
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "SLOW",
+      "setup_ns": -3.059,
+      "hold_ns": 5.306
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "FAST",
+      "setup_ns": -1.691,
+      "hold_ns": 3.295
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "SLOW",
+      "setup_ns": -3.006,
+      "hold_ns": 5.252
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "FAST",
+      "setup_ns": -1.646,
+      "hold_ns": 3.25
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "SLOW",
+      "setup_ns": -3.012,
+      "hold_ns": 5.258
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "FAST",
+      "setup_ns": -1.652,
+      "hold_ns": 3.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "SLOW",
+      "setup_ns": -3.01,
+      "hold_ns": 5.256
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "FAST",
+      "setup_ns": -1.65,
+      "hold_ns": 3.254
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "SLOW",
+      "setup_ns": -3.863,
+      "hold_ns": 5.475
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "FAST",
+      "setup_ns": -2.277,
+      "hold_ns": 3.415
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "SLOW",
+      "setup_ns": -3.864,
+      "hold_ns": 5.476
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "FAST",
+      "setup_ns": -2.278,
+      "hold_ns": 3.416
+    }
+  ],
+  "worst_pad_setup_ns": -1.646,
+  "worst_pad_hold_ns": 5.476,
+  "source_io_slack_unknown": true,
+  "external_input_timing_signed_off": false,
+  "limits": [
+    "No source tCO min/max/launch-edge guarantee, TY DOVDD or actual board/FFC skew available.",
+    "IO datasheet is receiver requirement only, not measured margin. Unknown input delay has not been replaced with zero.",
+    "All inherited clocks/IO standards/uncertainties preserved; no false path or relaxed period added.",
+    "Existing network/other external timing limits remain. No board quality claim from internal STA.",
+    "PAP_IO_REGISTER changes physical sampling aperture; hold demand may grow. No source margin improvement claimed."
+  ]
+}

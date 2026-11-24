@@ -1,0 +1,60 @@
+{
+  "reviewer": "Codex_PC_AI_actual_crop_visual_r5",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "production_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0051",
+      "source_annotation_sha256": "6ee37ef6909f857a820b45eba74a923fcf71a9d2da251ad345ca7392b9b88c84",
+      "crop_sha256": "1573a6c3597260fb9360d97a2b1d7015b42371af42d0b3df709d77f9c4b457c2",
+      "yolo_label_sha256": "b48ea78300038d3432f0f99a3637d454e279e450b14257791248705838cbb1fb",
+      "viewed_source": "review_stage2/clean_crop_release_r5/views/s2tld1080_0051_clean01_source.jpg",
+      "viewed_source_sha256": "323a5e00fbcf47e78994fb1636b9974966ae5c7b0d7fe7670aaf07538b4bb324",
+      "viewed_crop": "review_stage2/clean_crop_release_r5/views/s2tld1080_0051_clean01_crop.jpg",
+      "viewed_crop_sha256": "04f937de4c7ddac67d56af62006d308ef1d7ba18bfa2dd36639a428fb3393b94",
+      "actually_viewed_comparison": "review_stage2/clean_crop_release_r5/views/s2tld1080_0051_comparison.jpg",
+      "actually_viewed_comparison_sha256": "a872b62bda446ff41e95c7df473647d52cad9ff2fb1bc23fe20b7d247827b0fa",
+      "actual_visual_QA_passed": true,
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "notes": "Actually viewed revised source/crop. Retains one complete left motor and left pedestrian housing. Newly ignored far green region is wholly beyond right crop edge and padding; both right accepted heads are fully outside, not cut. Crosswalk/trees/pole/traffic context retained, but two source targets and half image lost."
+    },
+    {
+      "candidate_id": "coco_scene_000000309391",
+      "source_annotation_sha256": "7e6f97b438bc221b9497850608906415d097917c7e9faf3fa7e61d37d0ac6200",
+      "crop_sha256": "4fda881dfc27496b8c7e28b7e6c78e50adfed92cecd833129bbf58b7d471455c",
+      "yolo_label_sha256": "0fb5c3a7d7a874fa08580d6b1ed4c5e3fb21237cd03168f1931f62e9d2266165",
+      "viewed_source": "review_stage2/clean_crop_release_r5/views/coco_scene_000000309391_clean01_source.jpg",
+      "viewed_source_sha256": "2066ff211a0fd633f8aefee42d5be11588ff264258e9d1ebeaeed3378329a35a",
+      "viewed_crop": "review_stage2/clean_crop_release_r5/views/coco_scene_000000309391_clean01_crop.jpg",
+      "viewed_crop_sha256": "835ce161d5ffde683f2dd6f2b19b0200b98ea0a0adb90c4a91a8ce7e354cbad4",
+      "actually_viewed_comparison": "review_stage2/clean_crop_release_r5/views/coco_scene_000000309391_comparison.jpg",
+      "actually_viewed_comparison_sha256": "bb2589e22b8cc2531c64d03b3f2718f25ed7534d1db6ceec34d153ca7bce3016",
+      "actual_visual_QA_passed": true,
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "notes": "Actually viewed source/crop. Retains two complete motor heads and red-hand pedestrian box, despite partial branch occlusion. Source-top hanging head entirely above crop; dense right unknown/far regions wholly outside. Sidewalk/people/poles/tree/tram-road context retained. Narrow crop loses most source bodies and street depth; report bias."
+    },
+    {
+      "candidate_id": "commons_scene_132116089",
+      "source_annotation_sha256": "d094855cf1514346ae6faf7c1f19f1f02ca74de9b71550fcf5689c0c66f55aca",
+      "crop_sha256": "67113d7e5068089d2f4e6cbc77c3e18ad8bd79643f662c4d1b2ccfeb71325d15",
+      "yolo_label_sha256": "74fea37bb5fc8a6c63b587e7937b3dd5f61a95aaf937d4ff3b44b4e9b891d112",
+      "viewed_source": "review_stage2/clean_crop_release_r5/views/commons_scene_132116089_clean01_source.jpg",
+      "viewed_source_sha256": "99fb6aaf7023c65cb1e84c6e19d284ceae35ab2aeb2788126a6d39025d2b39f0",
+      "viewed_crop": "review_stage2/clean_crop_release_r5/views/commons_scene_132116089_clean01_crop.jpg",
+      "viewed_crop_sha256": "e923dd8cb74bc0383655ee3dcd601d9b676413c68bc03f2081fa281dc59c0bcb",
+      "actually_viewed_comparison": "review_stage2/clean_crop_release_r5/views/commons_scene_132116089_comparison.jpg",
+      "actually_viewed_comparison_sha256": "0f30ba62467fb34ddba5b6957d1856575421ddd5fbf61157ab917c0537577569",
+      "actual_visual_QA_passed": true,
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "notes": "Actually viewed source/crop. Full official1280-resolution source retained, one complete coupled two-module walking-person assembly; internal pair of figures is not two bodies. Pole/building/shop context intact, no other traffic fixture seen. Large close-up nighttime bias explicit. Heldout only, never tuning or INT8 calibration."
+    }
+  ],
+  "withheld_no_safe_crop": "commons_scene_149061007: reliable body remains confirmed but context and padded lower ignore conflict; no rules relaxed and no export created."
+}

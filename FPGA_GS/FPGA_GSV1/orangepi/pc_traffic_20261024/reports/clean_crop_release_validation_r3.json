@@ -1,0 +1,103 @@
+{
+  "recorded_at": "2026-10-25T04:11:18.056667+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_release_r3/manifest.json",
+  "pilot_manifest_sha256": "e61e46503006611a0f1b77980897ed73b418afa29a1c5a0f3c27c3520e6b1501",
+  "passed": true,
+  "originals": 7,
+  "targets": 20,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0027",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.47499984249589e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0049",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.600000794307562e-07,
+      "body_count": 4
+    },
+    {
+      "candidate_id": "s2tld1080_0050",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.600000794307562e-07,
+      "body_count": 4
+    },
+    {
+      "candidate_id": "s2tld1080_0066",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 1.0895000173150038e-06,
+      "body_count": 3
+    },
+    {
+      "candidate_id": "s2tld1080_0122",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.639999802857346e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0143",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.039999220774916e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0144",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.750000013904355e-07,
+      "body_count": 3
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "s2tld1080_0027_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0049_clean01.png",
+        "targets": 4
+      },
+      {
+        "file": "s2tld1080_0050_clean01.png",
+        "targets": 4
+      },
+      {
+        "file": "s2tld1080_0066_clean01.png",
+        "targets": 3
+      },
+      {
+        "file": "s2tld1080_0122_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0143_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0144_clean01.png",
+        "targets": 3
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true,
+  "original_group_release_sha256": "69d242c2947ee5bc471368b1dc192e29e20dd3a6f3c62c3c6d1d92a50b17ee5c"
+}

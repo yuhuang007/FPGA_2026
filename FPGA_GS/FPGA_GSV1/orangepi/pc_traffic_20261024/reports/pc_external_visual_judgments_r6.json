@@ -1,0 +1,96 @@
+{
+  "acquisition_manifest": "data/external_scene_candidates_r6/acquisition_manifest.json",
+  "output": "review_stage2/external_scene_pilot_r6",
+  "label_version": "external-PC-AI-r6-20261025",
+  "reviewer": "Codex_PC_AI_external_scene_r6",
+  "actual_method": "Actually viewed both unmarked full photos, original-pixel Cologne region enlargements and Vancouver boundary coordinate grid; did not copy source COCO boxes.",
+  "license_audit_output": "reports/external_scene_license_audit_r6.json",
+  "independent_scope": "Independent body-only full-image omission/kind/bounds. Cologne bicycle scope exclusion, side/back heads and left-frame fragment; illuminated vertical shop text is not a road head. Vancouver source-truncated hand/walker head must not export as complete head.",
+  "judgments": [
+    {
+      "candidate_id": "coco_scene_000000221754",
+      "objects": [
+        {
+          "id": "ignore_bicycle_and_side_heads",
+          "type": "ignore",
+          "bbox_xyxy": [
+            805,
+            260,
+            975,
+            412
+          ],
+          "reason": "Clear red bicycle pictogram on near front head is outside motor/pedestrian ontology. Adjacent side/back signal assemblies unresolved, preserve whole cluster as ignore, not pedestrian/motor positives."
+        },
+        {
+          "id": "ignore_left_frame_fragment",
+          "type": "ignore",
+          "bbox_xyxy": [
+            0,
+            271,
+            13,
+            312
+          ],
+          "reason": "Source-left frame clips side/reverse signal-like head; class and complete body unknown."
+        },
+        {
+          "id": "negative_vertical_shop_sign",
+          "type": "hard_negative",
+          "bbox_xyxy": [
+            75,
+            279,
+            95,
+            385
+          ],
+          "reason": "Native enlargement shows stacked vertical lettering on commercial sign, not circular traffic signal aspects."
+        }
+      ],
+      "scene_id": "DE_Cologne_Kalk_photo_6035948985",
+      "location_basis": "Photographer title Köln Kalk, German commercial streetscape. No route independence from dataset name inferred.",
+      "notes": [
+        "No in-scope reliable body confirmed. Explicitly exclude instead of treating bicycle/unknown heads as plain background."
+      ],
+      "planned_split": "excluded_no_reliable_in_scope_body",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r6/views/000000221754.jpg",
+        "data/external_scene_candidates_r6/views/221754_native_detail.jpg"
+      ]
+    },
+    {
+      "candidate_id": "coco_scene_000000335800",
+      "objects": [
+        {
+          "id": "body_ped_source_truncated",
+          "type": "body",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            78,
+            416,
+            415,
+            683
+          ],
+          "layout": "single_panel",
+          "kind_basis": "One rectangular NorthAmerican combined hand/walker panel; hand and walking figure are symbols within shared shell.",
+          "occlusion": "none",
+          "truncated": true,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        }
+      ],
+      "scene_id": "CA_Vancouver_Robson_1100_photo_5509703045",
+      "location_basis": "Photographer title Vancouver BC West End Robson; visible ROBSON ST1100 street sign and Canadian flag match.",
+      "notes": [
+        "Reliable in-scope pedestrian body existence/class separate from image-edge truncation. Bottom and lowerleft shell cut by source frame; no safe complete-body crop. Do not count as clean-training positive or discard label to background."
+      ],
+      "planned_split": "excluded_complete_body_export_source_truncation",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r6/views/000000335800.jpg",
+        "data/external_scene_candidates_r6/views/335800_boundary_detail.jpg"
+      ]
+    }
+  ]
+}

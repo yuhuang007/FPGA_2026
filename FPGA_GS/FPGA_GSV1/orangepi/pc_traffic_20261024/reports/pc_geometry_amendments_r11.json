@@ -1,0 +1,320 @@
+{
+  "reviewer": "Codex_PC_AI_crop_integrity_amendment_r11",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "actual_method": "Actually viewed representative original context, five prior targeted panels,0012 separately and all0004-0011 native3x details in small groups. Only new unknown region is amended; no new positive class or attributes.",
+  "revisions": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/crop_integrity_issue_r1/0000_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/crop_integrity_issue_r1/0001_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/crop_integrity_issue_r1/0002_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/crop_integrity_issue_r1/0003_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0004",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0005",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0005_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0006",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0006_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0007",
+      "base_manifest": "review_stage2/frozen/batch_001/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0007_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0008",
+      "base_manifest": "review_stage2/frozen/batch_002/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0008_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0009",
+      "base_manifest": "review_stage2/frozen/batch_002/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0009_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0010",
+      "base_manifest": "review_stage2/frozen/batch_002/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0010_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0011",
+      "base_manifest": "review_stage2/frozen/batch_002/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            480,
+            430,
+            525,
+            495
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0011_left_suspect.png"
+      ]
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "base_manifest": "review_stage2/revisions/pc_r2_009/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_leaf_obscured_assembly",
+          "type": "ignore",
+          "bbox_xyxy": [
+            315,
+            420,
+            395,
+            490
+          ],
+          "reason": "Leaf-obscured dark vertical assembly with white/U-shaped visible edge. Target existence, complete housing bounds and motor/ped kind unresolved; not established as known non-target. Protect visible uncertain region as ignore, never ordinary background. No color/arrow truth inferred."
+        }
+      ],
+      "note": "Actual new crop QA and targeted native-pixel PC views found an unlabelled target-like assembly. Independent targeted issue review agrees requires_ignore on seven inspected representatives, without a whole-image re-signature. PC separately viewed0006-0011 details. Add conservative ignore; unchanged positive bodies and auxiliary attributes are not re-adjudicated. Fresh exact-SHA changed-field check required; historical frozen accepts/crops retained and withheld.",
+      "evidence": [
+        "review_stage2/clean_crop_release_r6/views/s2tld1080_0004_left_context.png",
+        "review_stage2/independent_body_detection_r1/crop_integrity_issue_r1.json",
+        "review_stage2/crop_integrity_issue_r1/0012_left_context.png"
+      ]
+    }
+  ]
+}

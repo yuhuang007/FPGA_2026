@@ -1,0 +1,7 @@
+HD_FRAME view=4 checked=2073600 image=2073600 bursts=10800
+HD_FRAME view=0 checked=4147200 image=2995200 bursts=14400
+HD_FRAME view=1 checked=6220800 image=3916800 bursts=18005
+HD_FRAME view=2 checked=8294400 image=4838400 bursts=21610
+HD_FRAME view=3 checked=10368000 image=5760000 bursts=25215
+MAP_DISPLAY_PASS frames=5 full_output=1920x1080 all_pixels=10368000 image_pixels=5760000 bursts=25215 earliest=12608
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_display_tb.sv:96: $finish called at 83333677609 (1ps)

@@ -1,0 +1,9 @@
+ntR7767;buffer2/two_slots.owner/reset_count [1]
+ntR7768;u_DDR3_50H/u_ddrphy_top/ddrphy_dfi/phy_wrdata_d [142]
+ntR7769;network2/core/arp_mac [28]
+ntR7770;rear_pixel_patch/crc_s [9]
+ntR7771;monitor1/pixels [6]
+ntR7772;network2/e1_io.observer/serial/N351
+ntR7773;nt_sys_clk
+ntR7774;nt_sys_clk
+ntR7775;nt_pix_clk

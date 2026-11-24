@@ -1,0 +1,40 @@
+{
+  "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/inputs/fixtures/s2tld720_000000_rgb_u8.npy",
+  "source_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+  "source_shape": [
+    640,
+    640,
+    3
+  ],
+  "analysis_input": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_nchw_r1/same_fixture_RGB_NCHW_u8.npy",
+  "analysis_input_sha256": "acf4c377ed036720038bcef048c29caf066b0e316df5726f1c3679b1d128b9ff",
+  "shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "dtype": "uint8",
+  "RGB_pixels_roundtrip_exact": true,
+  "canonical_HWC_RGB_pixel_sha256": "c2b88ea1ceb22a419eb34a046f885a4a0ee70a4cd52ec34bc57698dd0bee2c3d",
+  "original_HWC_RGB_pixel_sha256": "c2b88ea1ceb22a419eb34a046f885a4a0ee70a4cd52ec34bc57698dd0bee2c3d",
+  "toolkit_get_input_img_signature": "(path_array, s_layout, r_shape, r_layout, r_rgb2bgr, r_expand_batch=1)",
+  "toolkit_loader_returns_identical_u8": true,
+  "application_divide_by_255": false,
+  "mean_values": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "std_values": [
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "normalization_contract": "Raw RGB uint8 values retained by application and Toolkit get_input_img; configure mean0/std255 once. Expected model input is raw/255. No pre-normalized npy is supplied.",
+  "normalization_execution_check": "If snapshots become available, compare FP32 outputs/input evidence against the original supplied ONNX normalized reference; caller contract alone is not claimed as proof of internal SDK dump normalization."
+}

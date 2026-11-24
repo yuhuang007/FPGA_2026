@@ -1,0 +1,18 @@
+2026-10-24T19:10:31+08:00
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess                             
+udp   UNCONN 0      0         127.0.0.53:53        0.0.0.0:*                                       
+udp   UNCONN 0      0          127.0.0.1:323       0.0.0.0:*                                       
+udp   UNCONN 0      0              [::1]:323             *:*                                       
+tcp   LISTEN 0      0         127.0.0.53:53        0.0.0.0:*                                       
+tcp   LISTEN 0      0            0.0.0.0:22        0.0.0.0:*                                       
+tcp   LISTEN 0      0          127.0.0.1:631       0.0.0.0:*                                       
+tcp   LISTEN 0      0            0.0.0.0:5901      0.0.0.0:*    users:(("Xtigervnc",pid=1870,fd=7))
+tcp   LISTEN 0      0          127.0.0.1:5037      0.0.0.0:*                                       
+tcp   LISTEN 0      0            0.0.0.0:5555      0.0.0.0:*                                       
+tcp   LISTEN 0      0                  *:3389            *:*                                       
+tcp   LISTEN 0      0                  *:22              *:*                                       
+tcp   LISTEN 0      0              [::1]:631             *:*                                       
+tcp   LISTEN 0      0                  *:5901            *:*    users:(("Xtigervnc",pid=1870,fd=8))
+tcp   LISTEN 0      0              [::1]:3350            *:*                                       
+3e4344a5ec09577a7dd48476e5af7c635d79648597279ffd268128f46f93ea97  /home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406/demo_ops.py
+d32ec1e306415401338e295eb1e6095a5c935c7ef21d98ccf705c6a81999d1b1  /home/orangepi/fpga_gs_m401_v0_1_2_20261021/oneclick/config.json

@@ -1,0 +1,41 @@
+[
+  {
+    "fixture": "s2tld720_000000",
+    "source_sha256": "9073eb911741517b91be781774c0561d9084ba646002192f2271bef06c761954",
+    "fixture_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+    "original_to_RGB_letterbox_recreated_exactly": true,
+    "gain": 0.5,
+    "padding_ltrb": [
+      0,
+      140,
+      0,
+      140
+    ]
+  },
+  {
+    "fixture": "tlony_adrian-williams-AU07BMLW1NA-unsplash",
+    "source_sha256": "54d17721fb8a58551c48dd2aa58d9de0305122323186e65b2d0dbd98069b3403",
+    "fixture_sha256": "a38904763354e6aeff402373d6ad4857efb1f08feb972326e6205bec6e3d9de7",
+    "original_to_RGB_letterbox_recreated_exactly": true,
+    "gain": 0.15625,
+    "padding_ltrb": [
+      0,
+      106,
+      0,
+      107
+    ]
+  },
+  {
+    "fixture": "coco_scene_000000015272",
+    "source_sha256": "4e750af5b1fe0359c54699f842dc6ad9262499945bbca00a8e1d1e63b83dcc56",
+    "fixture_sha256": "1e42ac2ddd782b05872505d5f6f05d63811fda361c2b4165b1ad06067a5b14b6",
+    "original_to_RGB_letterbox_recreated_exactly": true,
+    "gain": 0.625,
+    "padding_ltrb": [
+      108,
+      0,
+      108,
+      0
+    ]
+  }
+]

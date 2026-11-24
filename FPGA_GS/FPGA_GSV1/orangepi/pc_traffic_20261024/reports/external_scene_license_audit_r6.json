@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-25T04:21:35.526546+00:00",
+  "entries": [
+    {
+      "candidate_id": "coco_scene_000000221754",
+      "author": "ThomasKohler",
+      "photo_page": "https://www.flickr.com/photos/mecklenburg/6035948985/",
+      "title": "Köln Kalk",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "oEmbed_evidence_file": "data/external_scene_candidates_r6/provenance/221754_oembed.json",
+      "oEmbed_evidence_sha256": "340c23d79bbfba1494437d08b545997fe65cfdd9c2f0092e494b7994cde1d8ee"
+    },
+    {
+      "candidate_id": "coco_scene_000000335800",
+      "author": "Adam Jones, Ph.D. - Global Photo Archive",
+      "photo_page": "https://www.flickr.com/photos/adam_jones/5509703045/",
+      "title": "Vancouver, BC, Canada - West End - Architecture - Robson Street Sign",
+      "current_flickr_license": "CC BY 2.0",
+      "current_flickr_license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "oEmbed_evidence_file": "data/external_scene_candidates_r6/provenance/335800_oembed.json",
+      "oEmbed_evidence_sha256": "f505682fed8dd86a1f2a1e7ed879d09ed4d139956939eb5c8312b350a790e51e"
+    }
+  ],
+  "verified_current_CC_BY": 2,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

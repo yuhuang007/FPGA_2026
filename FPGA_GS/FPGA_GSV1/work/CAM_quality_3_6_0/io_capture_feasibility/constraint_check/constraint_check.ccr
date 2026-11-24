@@ -1,0 +1,48 @@
+##### Written on 2026/10/25 12:16:33 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	cam1_io_probe
+
+Constraint File(s) : 
+	E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/probe.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 5 critical warning(s), 0 warning(s), out of 71 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:cmos2_href} {PAP_IO_LOC} {AB5}
+	C: ConstraintEditor-2002: [E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/probe.fdc(line number: 42)] | Port cmos2_href has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:cmos2_vsync} {PAP_IO_LOC} {Y5}
+	C: ConstraintEditor-2002: [E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/io_capture_feasibility/probe.fdc(line number: 52)] | Port cmos2_vsync has been placed at location Y5, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+C: ConstraintEditor-2005: Port p:probe_out lack of direction, the direction in design file is OUTPUT.
+C: ConstraintEditor-2009: p:probe_out is lack of PAP_IO_DRIVE, OUTPUT or INOUT PORT had better set PAP_IO_DRIVE, the optional value is {8, 4, 12, 16, 24}.
+C: ConstraintEditor-2009: p:probe_out is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {SLOW, FAST}.
+
+Unconstrained ports:
+********************************************
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

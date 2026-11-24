@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-25T06:30:42.571336+00:00",
+  "selected_single_training_route": "source_positive_only_for_sparse_images",
+  "selected_release": "datasets/public_body_r1/manifest.json",
+  "selected_release_sha256": "74f4227f2498aa660cf03dc9a2f3da714dd62fd1504f1237523c4b36a31e4ce5",
+  "implementation": "scripts/source_partial_yolo.py",
+  "implementation_sha256": "f7b7037962369a09ded73cd136408e2fcba2ded18e382b6169df4e8a07c0b8b7",
+  "native_partial_images": 779,
+  "native_complete_images": 149,
+  "legacy_verified_clean_crop_originals": 44,
+  "legacy_verified_clean_crop_targets": 81,
+  "source_partial_policy": "Known source-positive classification terms retain standard BCE; all unassigned/other-class terms in sparse images unknown. Standard TAL/box/DFL unchanged. Complete sources retain full BCE.",
+  "legacy_ignore_policy": "Only44 actually verified safe crops used; no ignored full-frame export, deleted ignore labels, blackout or blur.",
+  "source_ignore_policy": "Whole sparse image unknown; not an arbitrary spatial-ignore validator or loss.",
+  "originals_are_quantity_unit": true,
+  "training_started": true,
+  "production_train_val_save_verified": true,
+  "independent_method_review": "review_stage2/independent_external_scene_r1/public_dataset_compatibility_r2.json",
+  "real_loss_validation": "reports/source_partial_loss_validation_r1.json",
+  "previous_crop_only_decision_applies_to_legacy_subset": "reports/ignore_handling_decision.json",
+  "disabled_mixed_and_crop_augmentations": {
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "degrees": 0.0,
+    "translate": 0.0,
+    "scale": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "multi_scale": false,
+    "rect": false
+  },
+  "limitations": [
+    "Only5complete external val originals/8bodies; no China precision claim.",
+    "Final test currently1pedestrian original, insufficient coverage; reserved from tuning.",
+    "Production Trainer fit/val/save is verified during actual training, not preclaimed.",
+    "normal_2 subset deferred; it is not uniformly night."
+  ]
+}

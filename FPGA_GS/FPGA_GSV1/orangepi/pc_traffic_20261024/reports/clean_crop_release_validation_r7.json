@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-25T05:00:52.848363+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_release_r7/manifest.json",
+  "pilot_manifest_sha256": "e1ed0a78a0f25acb07ae8642b274915d09c727c70b528a985d4df573cc52b48a",
+  "passed": true,
+  "originals": 4,
+  "targets": 5,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0017",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 2.1400001060101204e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0018",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.7299994321292615e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0020",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 7.809999260643963e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0021",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.200000370881753e-07,
+      "body_count": 2
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "s2tld1080_0017_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0018_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0020_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0021_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true,
+  "original_group_release_sha256": "df55b8f15f674cc50ee0adcf86b28013d2b509473b46abab2bf5546ea5cb8f26"
+}

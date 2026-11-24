@@ -1,0 +1,235 @@
+{
+  "recorded_at": "2026-10-25T04:00:31.433165+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_release_r1/manifest.json",
+  "pilot_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+  "passed": true,
+  "originals": 18,
+  "targets": 30,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.660000397256226e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 8.125000476866262e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0013",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.7600001096270717e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0016",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.4799998022426735e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0058",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.920000264974078e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.765000080122263e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0215",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.400000079840538e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0225",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 7.499999128413037e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0230",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.600000083764826e-07,
+      "body_count": 3
+    },
+    {
+      "candidate_id": "s2tld1080_0233",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 1.199000053020427e-06,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0234",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 1.0584999472484924e-06,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0243",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.640000324547145e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0244",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.475000304817513e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.0199997758682e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0390",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.400000529538374e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.119999855196511e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 3.8850004102641833e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 3.000000106112566e-07,
+      "body_count": 1
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "coco_scene_000000008762_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "coco_scene_000000015272_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "coco_scene_000000520009_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0000_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0012_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0013_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0016_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0058_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0065_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0215_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0225_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0230_clean01.png",
+        "targets": 3
+      },
+      {
+        "file": "s2tld1080_0233_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0234_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0243_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0244_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0339_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0390_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true,
+  "original_group_release_sha256": "69d242c2947ee5bc471368b1dc192e29e20dd3a6f3c62c3c6d1d92a50b17ee5c"
+}

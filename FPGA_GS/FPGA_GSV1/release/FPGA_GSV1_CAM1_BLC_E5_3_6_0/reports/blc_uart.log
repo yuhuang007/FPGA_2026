@@ -1,0 +1,2 @@
+PASS actual UART 600 complete lines;486 sequential pixel pages and114 metadata pages; no slot skipped
+sim/blc_uart_tb.sv:39: $finish called at 108155030000 (1ps)

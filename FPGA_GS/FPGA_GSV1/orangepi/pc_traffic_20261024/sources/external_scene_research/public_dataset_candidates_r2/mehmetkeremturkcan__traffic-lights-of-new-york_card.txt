@@ -1,0 +1,79 @@
+---
+license: mit
+---
+
+<p align="center">
+  <img src="https://github.com/mkturkcan/traffic-lights-of-new-york/blob/main/assets/logo.png?raw=true"  width="180" />
+</p>
+
+
+<h3 align="center">
+  <p>Traffic Lights of New York (TLoNY)</p>
+</h3>
+
+# Traffic Lights of New York (TLoNY)
+
+An object detection dataset for fine-grained classification of traffic lights in New York City. The dataset includes both vehicular and pedestrian traffic signals with detailed color state annotations.
+
+## Overview
+
+<p align="center">
+  <img src="http://keremturkcan.com/projects/tlony_collage.png" />
+</p>
+
+
+TLoNY provides accurately labeled traffic light data suitable for training object detection models, sourced from publicly available images from Unsplash. The dataset captures various lighting conditions, weather scenarios, and urban environments of New York City.
+
+## Download
+### Dataset
+* [Huggingface](https://huggingface.co/datasets/mehmetkeremturkcan/traffic-lights-of-new-york/tree/main)
+### Models
+* [Huggingface](https://huggingface.co/mehmetkeremturkcan/traffic-lights-of-new-york)
+
+## Dataset Format
+- **Format:** YOLOv8 (ultralyics)
+- **Resolution:** Various
+- **Images:** RGB, JPG format
+- **Annotations:** txt files in YOLO format
+
+## Classes
+| ID | Class | Description |
+|----|-------|-------------|
+| 0 | red | Vehicular red light |
+| 1 | green | Vehicular green light |
+| 2 | yellow | Vehicular yellow light |
+| 3 | red+yellow | Red and yellow combination |
+| 4 | unknown | Light visible but color unclear |
+| 5 | pedred | Pedestrian signal - red/stop |
+| 6 | pedgreen | Pedestrian signal - green/walk |
+| 7 | pedunknown | Pedestrian signal - color unclear |
+
+## Directory Structure
+```
+tlony/
+├── train/
+│   ├── images/
+│   └── labels/
+├── val/
+│   ├── images/
+│   └── labels/
+└── data.yaml
+```
+
+## Acknowledgements
+
+The creation of this dataset was supported by the ERC for Smart Street Scapes, funded through NSF award EEC-2133516.
+
+## Cite
+
+Cite
+```bibtex
+@misc {mehmet_kerem_turkcan_2025,
+	author       = { {Mehmet Kerem Turkcan} },
+	title        = { traffic-lights-of-new-york (Revision 2999230) },
+	year         = 2025,
+	url          = { https://huggingface.co/datasets/mehmetkeremturkcan/traffic-lights-of-new-york },
+	doi          = { 10.57967/hf/4331 },
+	publisher    = { Hugging Face }
+}
+```

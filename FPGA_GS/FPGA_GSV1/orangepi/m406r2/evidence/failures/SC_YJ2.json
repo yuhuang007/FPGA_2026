@@ -1,0 +1,192 @@
+{
+  "video": "SC_YJ2.mp4",
+  "source_frame_id": 1776,
+  "source_pts": 44.4,
+  "versions": {
+    "m406": {
+      "backend": "RKNN/NPU + CPU",
+      "method": "YOLOv8s COCO灯体 + 成对横排灯壳几何 + 原图灯色 + 两次时序确认",
+      "scope": "上方66%画面；箭头/机动车与行人灯区分及控制归属未完成",
+      "epoch": 1,
+      "source_frame_id": 1776,
+      "decoded_monotonic": 1044.4,
+      "age_ms": 0,
+      "lights": [
+        {
+          "box": [
+            753.5125,
+            361.816384180791,
+            763.4125,
+            385.99152542372883
+          ],
+          "confidence": 0.4438,
+          "body_source": "YOLOv8s_COCO_class9_RKNN_FP16",
+          "color": "UNKNOWN",
+          "shape": "UNKNOWN",
+          "shape_reason": "灯型或分辨率/眩光证据不足",
+          "direction": "UNKNOWN",
+          "kind": "UNKNOWN",
+          "control_relation": "UNKNOWN",
+          "control_reason": "机动车/行人类别及本车方向归属未确认",
+          "reason": "灯体模型低置信度，仅保留候选；不输出确定灯色",
+          "id": 1,
+          "hits": 1,
+          "streak": 1,
+          "observed_color": "UNKNOWN",
+          "last_confirmed": "UNKNOWN",
+          "seen_at": 1044.4,
+          "source_frame_id": 1776,
+          "epoch": 1,
+          "decoded_monotonic": 1044.4,
+          "source": "DIRECT_IMAGE",
+          "change": null,
+          "update_fps": 0
+        },
+        {
+          "box": [
+            980.3875,
+            250.41843220338984,
+            1001.0125,
+            274.3188559322034
+          ],
+          "confidence": 0.4102,
+          "body_source": "YOLOv8s_COCO_class9_RKNN_FP16",
+          "color": "UNKNOWN",
+          "shape": "UNKNOWN",
+          "shape_reason": "灯型或分辨率/眩光证据不足",
+          "direction": "UNKNOWN",
+          "kind": "UNKNOWN",
+          "control_relation": "UNKNOWN",
+          "control_reason": "机动车/行人类别及本车方向归属未确认",
+          "reason": "灯体模型低置信度，仅保留候选；不输出确定灯色",
+          "id": 2,
+          "hits": 1,
+          "streak": 1,
+          "observed_color": "UNKNOWN",
+          "last_confirmed": "UNKNOWN",
+          "seen_at": 1044.4,
+          "source_frame_id": 1776,
+          "epoch": 1,
+          "decoded_monotonic": 1044.4,
+          "source": "DIRECT_IMAGE",
+          "change": null,
+          "update_fps": 0
+        }
+      ],
+      "transitions": [],
+      "control_relation": "UNKNOWN",
+      "control_reason": "自动归属未实现；不使用旧人工场景标定",
+      "stage_ms": {
+        "traffic_preprocess": 1.773881998815341,
+        "traffic_inference": 98.165819003043,
+        "traffic_postprocess": 3.9132169986260124,
+        "traffic_geometry_color": 32.228,
+        "traffic_total": 136.415
+      },
+      "statistics": {
+        "raw_geometry_candidates": 1,
+        "paired_geometry_candidates": 0,
+        "geometry_hypotheses": 47,
+        "dense_context_rejected": 0
+      }
+    },
+    "m406r2": {
+      "backend": "RKNN/NPU + CPU",
+      "method": "原COCO权重/重叠裁剪与低频全图 + 白芯定位/原图灯色 + 有界图像跟踪",
+      "scope": "自动候选；箭头与控制关系UNKNOWN，不自动放行",
+      "epoch": 1,
+      "source_frame_id": 1776,
+      "decoded_monotonic": 1044.4,
+      "age_ms": 0,
+      "lights": [
+        {
+          "box": [
+            979.6,
+            250.478886756238,
+            1001.2,
+            275.6909788867562
+          ],
+          "confidence": 0.3406,
+          "body_source": "YOLOv8s_COCO_class9_RKNN_FP16",
+          "crop_edge": false,
+          "scan_box": [
+            768,
+            86,
+            1280,
+            503
+          ],
+          "context_evidence": {
+            "edge_fraction": 0.0402,
+            "saturated_fraction": 0.3069,
+            "source": "密集文字/LED背景后处理否决，非模型精度"
+          },
+          "color": "UNKNOWN",
+          "shape": "UNKNOWN",
+          "shape_reason": "灯型或分辨率/眩光证据不足",
+          "direction": "UNKNOWN",
+          "kind": "UNKNOWN",
+          "control_relation": "UNKNOWN",
+          "control_reason": "机动车/行人类别及本车方向归属未确认",
+          "reason": "灯体模型低置信度，仅保留候选；不输出确定灯色",
+          "id": 3,
+          "hits": 1,
+          "streak": 1,
+          "observed_color": "UNKNOWN",
+          "last_confirmed": "UNKNOWN",
+          "seen_at": 1044.4,
+          "source_frame_id": 1776,
+          "epoch": 1,
+          "decoded_monotonic": 1044.4,
+          "source": "DIRECT_IMAGE",
+          "display_state": "DIRECT_IMAGE",
+          "change": null,
+          "update_fps": 0
+        }
+      ],
+      "transitions": [],
+      "control_relation": "UNKNOWN",
+      "control_reason": "本轮不建立灯组控制归属",
+      "stage_ms": {
+        "traffic_preprocess": 2.114251001330558,
+        "traffic_inference": 105.19310100062285,
+        "traffic_postprocess": 5.628766997688217,
+        "traffic_geometry_color": 35.36,
+        "traffic_total": 148.307
+      },
+      "statistics": {
+        "raw_geometry_candidates": 0,
+        "paired_geometry_candidates": 0,
+        "geometry_hypotheses": 29,
+        "direct_bodies": 1,
+        "image_tracked": 0,
+        "candidates_rejected": 0,
+        "rejected_candidates": [],
+        "raw_candidates": [
+          {
+            "box": [
+              979.6,
+              250.478886756238,
+              1001.2,
+              275.6909788867562
+            ],
+            "confidence": 0.3406,
+            "body_source": "YOLOv8s_COCO_class9_RKNN_FP16",
+            "crop_edge": false,
+            "scan_box": [
+              768,
+              86,
+              1280,
+              503
+            ]
+          }
+        ],
+        "scan_box": [
+          768,
+          86,
+          1280,
+          503
+        ]
+      }
+    }
+  }
+}

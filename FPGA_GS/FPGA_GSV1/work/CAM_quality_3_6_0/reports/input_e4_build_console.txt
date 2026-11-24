@@ -1,0 +1,47 @@
+BUILD_DIRECTORY=E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\CAM_quality_3_6_0\rear_input_source\build\CAM1_IOREG_E4_3_6_0_20261025_121928_558
+{
+  "Version": "CAM1 IO input-register E4 controlled comparison; unknown external source timing; no quality fix claimed",
+  "ProcessingEnable": true,
+  "BuildPass": false,
+  "ExitCode": 0,
+  "ExistingConstraintsMet": true,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source\\build\\CAM1_IOREG_E4_3_6_0_20261025_121928_558"
+}
+Process "Report Timing" done.
+Executing : report_timing -report_io_datasheet -input_pins TRUE successfully.
+
+
+Executing : gen_bit_stream
+
+
+Process "Generate Bitstream" started.
+Current time: Sun Oct 25 12:27:08 2026
+Compiling architecture definition.
+Analyzing project file 'E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/build.pds'.
+Compiling verification operator library.
+Compiling common defs.
+Compiling prim grid devices.
+Compiling gate devices.
+Compiling gate operators.
+Building architecture model.
+Loading device packaging model.
+Reading design from DB.
+Start Generating Programming File...
+Reading design from DB takes 3.984375 sec.
+Generating architecture configuration.
+The bitstream file is "E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/work/CAM_quality_3_6_0/rear_input_source/build/CAM1_IOREG_E4_3_6_0_20261025_121928_558/generate_bitstream/fpga_gsv1_top.sbit"
+Generate programming file takes 20.500000 sec.
+Generating Programming File done.
+Action gen_bit_stream: Real time elapsed is 0h:0m:28s
+Action gen_bit_stream: CPU time elapsed is 0h:0m:24s
+Action gen_bit_stream: Process CPU time elapsed is 0h:0m:24s
+Current time: Sun Oct 25 12:27:35 2026
+Action gen_bit_stream: Peak memory pool usage is 978 MB
+Action from compile to gen_bit_stream: Total Real Time elapsed is 0h:6m:46s
+Action from compile to gen_bit_stream: Total CPU time elapsed is 0h:5m:44s
+Action from compile to gen_bit_stream: Total Process CPU Time elapsed is 0h:6m:31s
+Process "Generate Bitstream" done.
+Executing : gen_bit_stream successfully.

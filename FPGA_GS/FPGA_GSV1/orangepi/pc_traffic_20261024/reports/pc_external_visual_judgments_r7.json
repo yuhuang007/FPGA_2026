@@ -1,0 +1,108 @@
+{
+  "acquisition_manifest": "data/external_scene_candidates_r7/acquisition_manifest.json",
+  "output": "review_stage2/external_scene_pilot_r7",
+  "label_version": "external-PC-AI-r7-20261025",
+  "reviewer": "Codex_PC_AI_external_scene_r7",
+  "actual_method": "Actually viewed both whole unmarked official full-context1280 resolution variants, native-coordinate signal crops, Tashkent lower fixture enlargement, and both proposed overlays. No source boxes or colors imported. Original full-resolution downloads returned429; official resampling and full-resolution identity metadata preserved.",
+  "license_audit_output": "reports/external_scene_license_audit_r7.json",
+  "independent_scope": "Real independent body-only full-image omission/type/kind/bounds review. Madrid one physical two-module pedestrian head versus two symbols in one face; Tashkent main complete ped head, left side and lower dark head ignore. Color/arrow unassessed. Inspect source geographical independence separately from label and crop approval. Madrid provisionally reserved for final-test candidate, never tuning; no final-test adequacy claim.",
+  "judgments": [
+    {
+      "candidate_id": "commons_scene_132116089",
+      "objects": [
+        {
+          "id": "body_ped",
+          "type": "body",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            327,
+            220,
+            922,
+            1227
+          ],
+          "layout": "vertical",
+          "kind_basis": "One physically coupled two-module walking-person signal assembly; two person symbols within one face are not separate bodies.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        }
+      ],
+      "scene_id": "ES_Madrid_Plaza_Espana_commons_132116089",
+      "location_basis": "Official Commons file title and author description explicitly Plaza Espana Madrid; European facade and pedestrian fixture support it. No exact GPS invented.",
+      "notes": [
+        "One coupled two-module body, walking pairs within each face not extra bodies. Night close-up and large-scale bias explicit; whole source contains building/logo reflections, no additional traffic head observed. Provisional heldout final-test candidate set before model fitting; tiny atypical photo cannot establish final-test adequacy.",
+        "Official full-context resolution variant is not original full-resolution bytes. All resolutions/crops share canonical Commons page/photo identity."
+      ],
+      "planned_split": "holdout_final_test_candidate_pending_independent_scene_and_label_checks",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r7/views/commons_132116089.jpg",
+        "data/external_scene_candidates_r7/views/commons_132116089_detail.jpg",
+        "data/external_scene_candidates_r7/views/commons_132116089_proposed.jpg"
+      ]
+    },
+    {
+      "candidate_id": "commons_scene_149061007",
+      "objects": [
+        {
+          "id": "body_ped",
+          "type": "body",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            632,
+            475,
+            703,
+            621
+          ],
+          "layout": "vertical",
+          "kind_basis": "One complete two-round head with walking-person symbol on lower face, upper face dark state unassessed.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_side_left",
+          "type": "ignore",
+          "bbox_xyxy": [
+            58,
+            365,
+            166,
+            650
+          ],
+          "reason": "Side/back signal assembly; project motor/ped kind and full face not established."
+        },
+        {
+          "id": "ignore_lower_head",
+          "type": "ignore",
+          "bbox_xyxy": [
+            598,
+            722,
+            658,
+            870
+          ],
+          "reason": "Small lower head-like multi-round fixture seen from side/back; existence of fixture clear, project class/front face unresolved; not ordinary background."
+        }
+      ],
+      "scene_id": "UZ_Tashkent_commons_149061007",
+      "location_basis": "Official Commons author description explicitly pedestrian traffic light in Tashkent; scene consistent. Source description, not photographer residence or timestamp; exact junction unverified.",
+      "notes": [
+        "One complete walking-person head; left side/back multi-hood assembly and lower unlit head remain ignore because project class unknown. Unknown color/state does not invalidate main body. Safe crop and pedestrian context retention must be independently assessed, not ordinary full-frameYOLO.",
+        "Official full-context resolution variant is not original full-resolution bytes. All resolutions/crops share canonical Commons page/photo identity."
+      ],
+      "planned_split": "val_candidate_pending_independent_scene_and_label_checks",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r7/views/commons_149061007.jpg",
+        "data/external_scene_candidates_r7/views/commons_149061007_detail.jpg",
+        "data/external_scene_candidates_r7/views/commons_149061007_proposed.jpg",
+        "data/external_scene_candidates_r7/views/commons_149061007_lower.jpg"
+      ]
+    }
+  ]
+}

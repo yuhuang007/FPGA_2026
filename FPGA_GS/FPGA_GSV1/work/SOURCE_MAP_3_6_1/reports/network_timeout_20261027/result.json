@@ -1,0 +1,22 @@
+{
+  "case": "network",
+  "pass": false,
+  "board_measured": false,
+  "input_hashes": {
+    "sim/map_network_tb.sv": "e449eb32a128b587f9420f508a68e7d2156dff169b79d1b7cb880e4035ada3f2",
+    "rtl/network/m3_mac.v": "0fee967264967b687c8a980d4b0ccc27930b6db98fff516ba2e3d78526b8b69a",
+    "rtl/network/m3_net_core.v": "ff5d14ccb45d302cac92abc0a21101ccae9b6c32303b7fd1a58a96840905c099",
+    "rtl/network/m3_right_store.v": "0511848819f87dd36a2fe9fa7985f387815ef471319a95809bba89530ef4ebc3",
+    "rtl/network/m3_upload.v": "4f0c1f6aac35f2ca3b03e93245e8606f1d0c30e7f0f8ccbae8a13fb2ac858a9b",
+    "rtl/display/m31_rd_buf.v": "a633c2e4c85e04e824cc54d4371b7aadda166c2ffe2553e66c912f9ca7009b71",
+    "sim/line_ram_model.sv": "7cd3ef43927e4ab99b8ddbbb225811f84379bcd430d8afeb2d4617f09c6dee9e",
+    "sim/m33_packet_model.sv": "785ddb76f842cd4d03d4b5694b8f4c4b27c9a54b1f518d66a627127cbd364101",
+    "rtl/frame/dual_ddr_arbiter.v": "d7cb30c03d226d25d9a59107580f0ede06ac119adf689f1a0a4b76143c612db3",
+    "rtl/reuse/wr_rd_ctrl_top.v": "d130db39d2623ddcf78aba31da85a9cda6da269f851bc385938169039e634806",
+    "rtl/reuse/wr_cmd_trans.v": "2b99c581904a5c61faa6ea8bf06065482a724a72c01cb4ef56fe86e53443f659",
+    "rtl/reuse/wr_ctrl.v": "bdfd6cbf962c26ba2756aeea177d612b6428a6058ceb22ebfc452c59ea9193b8",
+    "rtl/reuse/rd_ctrl.v": "40656be19a1afcf0cc743cee652b1d90339392f8ca5ca67cea270ddd12ae22e4"
+  },
+  "failed_stage": "run",
+  "inputs_unchanged": true
+}

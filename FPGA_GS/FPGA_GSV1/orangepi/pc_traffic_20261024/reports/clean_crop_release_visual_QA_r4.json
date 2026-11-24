@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-25T04:28:50.284609+00:00",
+  "passed": true,
+  "production_manifest_sha256": "963d8deb467891452a6a4ce7d296b3bb20c5a55f7a2bb50fbe60ad6f1fe08fc3",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0001",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "6d8d25e5e73b48dfd568078cf868953fd8d8aaa1cfe0a9a1db86a153a9f07dd1",
+      "yolo_label_sha256": "a6b01bec3be76b9e1f18c60b303e7ced44505776aa92d34e39073fa0a76b399b"
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "5baee3c7eea76c7c23332b1216fe9aec77d643fcf25d91f2c49a8a9db9c58d55",
+      "yolo_label_sha256": "a6b01bec3be76b9e1f18c60b303e7ced44505776aa92d34e39073fa0a76b399b"
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "1a9572a8354c4be0dc64ce7050ec6d08c0b79604e7fd2c695a30101e13022d8f",
+      "yolo_label_sha256": "a6b01bec3be76b9e1f18c60b303e7ced44505776aa92d34e39073fa0a76b399b"
+    },
+    {
+      "candidate_id": "s2tld1080_0014",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "d6727b98f37c22140b9adffc9b43f50385516f1b3460118618bc381c25093836",
+      "yolo_label_sha256": "8bf98606031763c357049bb0aa43ac156e5f9bdc5762542c795fd34e94687b74"
+    },
+    {
+      "candidate_id": "s2tld1080_0015",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "9f71db75971bf842d120b7cb30b0acd0ca84ef822db347994c38fca0c63cbc14",
+      "yolo_label_sha256": "46d1156b8c40a802d19b63fc7f4ef6e53394c37cc4fe36b5e80fbab59118b84b"
+    },
+    {
+      "candidate_id": "s2tld1080_0019",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "5468464e33246aa5360412fe9b8189779c7fc64a19d2ec55e7f4d93438b8d378",
+      "yolo_label_sha256": "cdd462dd9c3ed2ae4565058c82dbb36c8146711dc0dc30377cfede6f8d9e0cf5"
+    },
+    {
+      "candidate_id": "s2tld1080_0044",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "135e7000f5dfdc7e1772f21cd15d49ac905ffeda6baf31fbc032be219ed887cc",
+      "yolo_label_sha256": "c414478a1f1adbe6c49897750815f7f773338bb2a9959334532ce45849e58aab"
+    },
+    {
+      "candidate_id": "s2tld1080_0121",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r4.json",
+      "fresh_visual_QA_sha256": "499ec30f3cb9ad40e026b4c7fd840f96f7da5d86b84bd54bc46304836c8b3ec1",
+      "crop_sha256": "423079206edba81eec06ca4b2b538d929959bfc353e3b41b016dd27302cd3865",
+      "yolo_label_sha256": "712cd3a9df912a3dade5105a82ad5f373229af6a85733d4288adcf1e024162d9"
+    }
+  ],
+  "method": "Reuse only exact original pixels, crop bounds, obstacles, targets and label bytes from actual prior PC QA; changed crops require separate fresh actual visual evidence. No independent crop signature claimed.",
+  "human_signoff": false,
+  "new_images_visually_reviewed": 8
+}

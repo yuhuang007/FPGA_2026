@@ -1,0 +1,1131 @@
+{
+  "time": "2026-10-24T19:00:10.226838+08:00",
+  "untrained": true,
+  "scope": "Numeric deployment preflight only; no detection accuracy or service integration claim",
+  "thresholds_fixed_before_execution": {
+    "box_raw_max_abs": 0.05,
+    "score_raw_max_abs": 0.001,
+    "decoded_box_max_abs_input_px": 0.5,
+    "decoded_score_max_abs": 0.001,
+    "paired_box_median_iou_min": 0.99
+  },
+  "implementation_checks": {
+    "uniform_dfl_and_grid": true,
+    "nms_class_separation_and_overlap": true,
+    "geometry": [
+      {
+        "shape_hw": [
+          720,
+          1280
+        ],
+        "original_wh": [
+          1280,
+          720
+        ],
+        "resized_wh": [
+          640,
+          360
+        ],
+        "gain": 0.5,
+        "padding_ltrb": [
+          0,
+          140,
+          0,
+          140
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+        "roundtrip_error_original_px": 0.0,
+        "rounded_resize_edge_error_model_px": 0.0,
+        "rgb_and_padding_checked": true
+      },
+      {
+        "shape_hw": [
+          719,
+          1280
+        ],
+        "original_wh": [
+          1280,
+          719
+        ],
+        "resized_wh": [
+          640,
+          360
+        ],
+        "gain": 0.5,
+        "padding_ltrb": [
+          0,
+          140,
+          0,
+          140
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+        "roundtrip_error_original_px": 2.842170943040401e-14,
+        "rounded_resize_edge_error_model_px": 0.5,
+        "rgb_and_padding_checked": true
+      },
+      {
+        "shape_hw": [
+          301,
+          101
+        ],
+        "original_wh": [
+          101,
+          301
+        ],
+        "resized_wh": [
+          215,
+          640
+        ],
+        "gain": 2.12624584717608,
+        "padding_ltrb": [
+          212,
+          0,
+          213,
+          0
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+        "roundtrip_error_original_px": 1.4210854715202004e-14,
+        "rounded_resize_edge_error_model_px": 0.2491694352159186,
+        "rgb_and_padding_checked": true
+      },
+      {
+        "shape_hw": [
+          271,
+          491
+        ],
+        "original_wh": [
+          491,
+          271
+        ],
+        "resized_wh": [
+          640,
+          353
+        ],
+        "gain": 1.3034623217922607,
+        "padding_ltrb": [
+          0,
+          143,
+          0,
+          144
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent",
+        "roundtrip_error_original_px": 3.552713678800501e-15,
+        "rounded_resize_edge_error_model_px": 0.23828920570264245,
+        "rgb_and_padding_checked": true
+      }
+    ]
+  },
+  "onnx_sha256": "5cb102190d135e7019f8ced291d853121b060de5995f0943da58611ee0898201",
+  "rknn_sha256": "b661b0ad1a8835c71a6418095d57bc538938631c5bd176b98048e9b10b1742e9",
+  "preprocess": {
+    "ONNX": "RGB float32 NCHW /255 once",
+    "RKNN": "RGB uint8 NHWC; embedded mean0/std255",
+    "resize": "cv2.INTER_LINEAR; Python round; centered floor left/top, remainder right/bottom",
+    "fill": 114
+  },
+  "output_order": [
+    {
+      "name": "box_s8",
+      "shape": [
+        1,
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "name": "score_s8",
+      "shape": [
+        1,
+        2,
+        80,
+        80
+      ]
+    },
+    {
+      "name": "box_s16",
+      "shape": [
+        1,
+        64,
+        40,
+        40
+      ]
+    },
+    {
+      "name": "score_s16",
+      "shape": [
+        1,
+        2,
+        40,
+        40
+      ]
+    },
+    {
+      "name": "box_s32",
+      "shape": [
+        1,
+        64,
+        20,
+        20
+      ]
+    },
+    {
+      "name": "score_s32",
+      "shape": [
+        1,
+        2,
+        20,
+        20
+      ]
+    }
+  ],
+  "class_order": {
+    "0": "motor_vehicle_body",
+    "1": "pedestrian_body"
+  },
+  "class_order_status": "External two-class training contract; random weights have no learned semantic meaning",
+  "processes_before": "    PID COMMAND\n      1 /sbin/init splash\n      2 [kthreadd]\n      3 [rcu_gp]\n      4 [rcu_par_gp]\n      5 [slub_flushwq]\n      6 [netns]\n     10 [mm_percpu_wq]\n     11 [rcu_tasks_rude_kthread]\n     12 [rcu_tasks_trace_kthread]\n     13 [ksoftirqd/0]\n     14 [rcu_sched]\n     15 [migration/0]\n     16 [cpuhp/0]\n     17 [cpuhp/1]\n     18 [migration/1]\n     19 [ksoftirqd/1]\n     22 [cpuhp/2]\n     23 [migration/2]\n     24 [ksoftirqd/2]\n     27 [cpuhp/3]\n     28 [migration/3]\n     29 [ksoftirqd/3]\n     32 [cpuhp/4]\n     33 [migration/4]\n     34 [ksoftirqd/4]\n     37 [cpuhp/5]\n     38 [migration/5]\n     39 [ksoftirqd/5]\n     42 [cpuhp/6]\n     43 [migration/6]\n     44 [ksoftirqd/6]\n     47 [cpuhp/7]\n     48 [migration/7]\n     49 [ksoftirqd/7]\n     52 [kdevtmpfs]\n     53 [inet_frag_wq]\n     56 [kauditd]\n     57 [oom_reaper]\n     59 [writeback]\n     60 [kblockd]\n     61 [blkcg_punt_bio]\n     62 [kconsole]\n     63 [tpm_dev_wq]\n     64 [edac-poller]\n     65 [devfreq_wq]\n     66 [watchdogd]\n     69 [kworker/4:1H-kblockd]\n     70 [rpciod]\n     71 [xprtiod]\n     72 [cfg80211]\n     73 [irq/22-rockchip_thermal]\n     75 [kswapd0]\n     76 [nfsiod]\n     83 [kthrotld]\n     87 [irq/24-rockchip_usb2phy]\n     88 [irq/25-rockchip_usb2phy]\n     89 [irq/26-rockchip_usb2phy]\n     91 [rk_pcie_hot_rst]\n     92 [mpp_worker_0]\n     93 [mpp_worker_1]\n     94 [mpp_worker_2]\n     95 [mpp_worker_3]\n     96 [mpp_worker_4]\n     97 [mpp_worker_5]\n     98 [mpp_worker_6]\n     99 [mpp_worker_7]\n    100 [mpp_worker_8]\n    101 [mpp_worker_9]\n    102 [mpp_worker_10]\n    103 [mpp_worker_11]\n    104 [hwrng]\n    105 [irq/59-fde50000.dp]\n    107 [hpd_queue]\n    108 [irq/60-dw-hdmi-qp-hpd]\n    109 [irq/61-fde80000.hdmi]\n    110 [irq/63-fde80000.hdmi]\n    111 [dw_hdmi_flt_que]\n    112 [card0-crtc0]\n    113 [card0-crtc1]\n    114 [display-error-event-thread]\n    115 [hdcp_queue]\n    116 [cec-dw_hdmi_qp]\n    117 [irq/62-dw-hdmi-qp-cec]\n    118 [nvme-wq]\n    119 [nvme-reset-wq]\n    120 [nvme-delete-wq]\n    121 [spi2]\n    122 [irq/66-rk806]\n    123 [stmmac_wq]\n    125 [libertastf]\n    130 [kworker/3:5-events]\n    132 [uas]\n    135 [6-0022]\n    136 [6-0022]\n    137 [6-0022]\n    140 [kworker/4:3-events_freezable]\n    141 [irq/83-hym8563]\n    143 [cfinteractive]\n    147 [cryptodev_queue]\n    148 [irq/110-headset_detect]\n    149 [mld]\n    150 [kworker/3:1H-kblockd]\n    151 [ipv6_addrconf]\n    152 [kstrp]\n    219 [irq/40-rga3]\n    220 [irq/41-rga3]\n    221 [irq/111-rga2]\n    222 [gpu_power_off_w]\n    223 [free_pages_work]\n    226 [rknpu_power_off]\n    252 [mmc_complete]\n    253 [kworker/6:1H-kblockd]\n    254 [kworker/0:1H-kblockd]\n    257 [kworker/7:1H-kblockd]\n    258 [kworker/5:1H-kblockd]\n    275 [kworker/1:1H-kblockd]\n    276 [kworker/2:1H-kblockd]\n    288 [kworker/2:2H]\n    289 [kworker/5:2H-kblockd]\n    290 [kworker/1:2H-kblockd]\n    291 [kworker/0:2H-mmc_complete]\n    292 [kworker/7:2H-kblockd]\n    333 [kworker/3:2H]\n    335 [kworker/6:2H-kblockd]\n    336 [jbd2/mmcblk1p1-8]\n    337 [ext4-rsv-conver]\n    371 [kworker/4:2H]\n    420 /lib/systemd/systemd-udevd\n    653 [ext_eventd]\n    654 [dhd_watchdog_thread]\n    680 [ext4-rsv-conver]\n    792 /bin/sh -e /usr/bin/usbdevice start\n    794 /usr/bin/adbd\n    848 /lib/systemd/systemd-journald\n    851 /usr/sbin/haveged --Foreground --verbose=1\n    852 /lib/systemd/systemd-resolved\n    880 /usr/libexec/accounts-daemon\n    890 /usr/sbin/cron -f -P\n    892 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\n    893 /usr/sbin/NetworkManager --no-daemon\n    898 /usr/sbin/rsyslogd -n -iNONE\n    899 /usr/sbin/smartd -n\n    904 /lib/systemd/systemd-logind\n    905 /usr/libexec/udisks2/udisksd\n    906 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant\n   1213 /usr/sbin/cupsd -l\n   1238 /usr/sbin/chronyd -F 1\n   1244 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\n   1250 /usr/bin/containerd\n   1273 /usr/libexec/polkitd --no-debug\n   1292 /usr/sbin/lightdm\n   1386 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\n   1390 brcm_patchram_plus --bd_addr_rand --enable_hci --no2bytes --use_baudrate_for_download --tosleep 200000 --baudrate 1500000 --patchram /lib/firmware/ap6275p BCM4362A2.hcd /dev/ttyS9\n   1404 /usr/sbin/chronyd -F 1\n   1438 /usr/sbin/xrdp-sesman\n   1442 [eth0-fpe]\n   1447 /usr/sbin/kerneloops --test\n   1449 /usr/sbin/kerneloops\n   1545 [dhd_eventd]\n   1546 /usr/sbin/xrdp\n   1557 /usr/lib/bluetooth/bluetoothd\n   1573 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch\n   1583 [mali-gpuq-kthread]\n   1612 lightdm --session-child 12 15\n   1617 /lib/systemd/systemd --user\n   1618 (sd-pam)\n   1625 /usr/bin/pulseaudio --daemonize=no --log-target=journal\n   1632 xfce4-session\n   1666 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\n   1830 /usr/bin/fcitx5 -d\n   1831 [krfcommd]\n   1848 /usr/libexec/gvfsd\n   1857 /usr/libexec/at-spi-bus-launcher\n   1869 /usr/bin/perl /usr/bin/vncserver :1 -geometry 1920x1080 -depth 24 -localhost no\n   1870 /usr/bin/Xtigervnc :1 -localhost=0 -desktop orangepi5:1 (orangepi) -rfbport 5901 -PasswordFile /home/orangepi/.vnc/passwd -SecurityTypes VncAuth,TLSVnc -auth /home/orangepi/.Xauthority -geometry 1920x1080 -depth 24\n   1891 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0\n   1898 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd\n   1912 /usr/libexec/at-spi2-registryd --use-gnome-session\n   1919 xfce4-session\n   1934 /usr/bin/ssh-agent -s\n   1968 xfwm4\n   1976 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session\n   1980 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session\n   1997 /usr/libexec/at-spi-bus-launcher\n   2002 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/tmp/runtime-/at-spi/bus_1\n   2006 /usr/lib/aarch64-linux-gnu/xfce4/xfconf/xfconfd\n   2012 /usr/libexec/at-spi2-registryd --use-gnome-session\n   2018 /usr/bin/ssh-agent -s\n   2024 /usr/bin/gpg-agent --supervised\n   2026 xfwm4\n   2032 /usr/libexec/gvfsd\n   2046 xfsettingsd\n   2047 xfsettingsd\n   2065 /usr/libexec/upowerd\n   2093 xfce4-panel\n   2094 xfce4-panel\n   2109 Thunar --daemon\n   2111 Thunar --daemon\n   2132 xfdesktop\n   2133 xfdesktop\n   2165 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 16777224 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items\n   2166 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2 16777225 actions Action Buttons Log out, lock or other system actions\n   2168 pasystray\n   2176 xfce4-power-manager\n   2179 pasystray\n   2189 xfce4-power-manager\n   2194 /usr/libexec/gvfs-udisks2-volume-monitor\n   2196 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 6 14680072 systray \u72b6\u6001\u680f\u63d2\u4ef6 \u63d0\u4f9b\u72b6\u6001\u901a\u77e5\u7a0b\u5e8f\u9879 (\u5e94\u7528\u7a0b\u5e8f\u6307\u793a\u5668) \u548c\u65e7\u5f0f\u7cfb\u7edf\u6258\u76d8\u9879\n   2199 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2 14680073 actions \u52a8\u4f5c\u6309\u94ae \u6ce8\u9500\u3001\u9501\u5c4f\u6216\u5176\u5b83\u7cfb\u7edf\u52a8\u4f5c\n   2202 /usr/bin/python3 /usr/bin/blueman-applet\n   2203 /usr/bin/python3 /usr/bin/blueman-applet\n   2207 nm-applet\n   2214 nm-applet\n   2217 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd\n   2219 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd\n   2221 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1\n   2228 /usr/libexec/gvfs-goa-volume-monitor\n   2229 /usr/bin/python3 /usr/share/system-config-printer/applet.py\n   2230 /usr/libexec/gvfs-udisks2-volume-monitor\n   2248 xscreensaver -no-splash\n   2252 xscreensaver -no-splash\n   2258 update-notifier\n   2262 update-notifier\n   2276 /usr/libexec/gvfs-mtp-volume-monitor\n   2289 xfce4-volumed\n   2302 /usr/libexec/gvfs-goa-volume-monitor\n   2311 xfce4-volumed\n   2323 /usr/libexec/gvfs-gphoto2-volume-monitor\n   2351 /usr/libexec/gvfs-mtp-volume-monitor\n   2361 xscreensaver-systemd\n   2364 xscreensaver-systemd\n   2372 /usr/libexec/gvfs-afc-volume-monitor\n   2377 /usr/libexec/gvfs-gphoto2-volume-monitor\n   2381 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0\n   2397 /usr/libexec/gvfs-afc-volume-monitor\n   2410 /usr/libexec/gvfsd-trash --spawner :1.15 /org/gtk/gvfs/exec_spaw/0\n   2417 /usr/libexec/gvfsd-metadata\n   2426 /usr/libexec/gvfsd-metadata\n   2448 /usr/lib/bluetooth/obexd\n   2451 /usr/bin/python3 /usr/bin/blueman-tray\n   2454 /usr/lib/bluetooth/obexd\n   2456 /usr/bin/python3 /usr/bin/blueman-tray\n   2479 /bin/login -f\n   2480 /bin/login -f\n   2859 -bash\n   2860 -bash\n   4389 [kworker/2:2-mm_percpu_wq]\n   4721 [kworker/u16:0-devfreq_wq]\n   4738 [kworker/7:1+events]\n   4887 [kworker/u16:2-flush-254:1]\n   4894 [kworker/0:0-events]\n   4902 [kworker/5:0-events]\n   4903 [kworker/u16:4-devfreq_wq]\n   4904 [kworker/u17:1-ext_eventd]\n   4906 [kworker/6:1-events]\n   4907 [kworker/1:0-events]\n   4921 [kworker/2:1-cgroup_destroy]\n   4922 [kworker/u16:1-events_freezable_power_]\n   4923 [kworker/0:2-events_long]\n   4924 [kworker/4:1-events_freezable]\n   4925 [kworker/u17:0-kbase_pm_poweroff_wait]\n   4983 [kworker/7:0-events]\n   5127 [kworker/5:1-events]\n   5263 [kworker/1:1-events]\n   5265 [kworker/6:2-rcu_gp]\n   5400 [kworker/3:0-events]\n   5447 [kworker/0:1-events_freezable]\n   6128 [kworker/0:3-mm_percpu_wq]\n   6278 [kworker/u16:3]\n   6279 [kworker/u16:5-events_unbound]\n   6440 [kworker/2:0-cgroup_destroy]\n   6467 [kworker/4:0]\n   6576 [kworker/7:2-events]\n   6577 sshd: orangepi [priv]\n   6709 sshd: orangepi@notty\n   6710 bash -c /home/orangepi/fpga_gs_m401_v0_1_2_20261021/.venv405build/bin/python -u /home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/validate_numeric.py > /home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/reports/numeric_validation.log 2>&1\n   6711 /home/orangepi/fpga_gs_m401_v0_1_2_20261021/.venv405build/bin/python -u /home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_preflight_20261024_r1/scripts/validate_numeric.py\n   6719 ps -eo pid,args\n",
+  "comparisons": [
+    {
+      "fixture": "RED_full",
+      "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406/evidence/exact_source/RED_raw.jpg",
+      "source_sha256": "1207468d01d509c2971e7ae5fcf5babfd83310d69cee836566d7619addec3b94",
+      "source_roi_xyxy": [
+        0,
+        0,
+        2558,
+        1438
+      ],
+      "input_rgb_u8_sha256": "ef06bd42973cd63d2f491ae5055ca2b4e28d9a831099c0a63454b7a86b19e3f7",
+      "letterbox": {
+        "original_wh": [
+          2558,
+          1438
+        ],
+        "resized_wh": [
+          640,
+          360
+        ],
+        "gain": 0.2501954652071931,
+        "padding_ltrb": [
+          0,
+          140,
+          0,
+          140
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "heads": [
+        {
+          "name": "box_s8",
+          "actual_shape": [
+            1,
+            64,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.9999991655349731,
+            1.0000007152557373
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 8.344650268554688e-07,
+          "p99_abs": 4.76837158203125e-07,
+          "mean_abs": 9.533148841001094e-08,
+          "rmse": 1.4959710758577337e-07,
+          "passed": true
+        },
+        {
+          "name": "score_s8",
+          "actual_shape": [
+            1,
+            2,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0003904402256011963,
+            0.0003904998302459717
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0014406144618988037,
+          "p99_abs": 0.0014406144618988037,
+          "mean_abs": 0.001440569506958127,
+          "rmse": 0.001440569507186709,
+          "passed": false
+        },
+        {
+          "name": "box_s16",
+          "actual_shape": [
+            1,
+            64,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s16",
+          "actual_shape": [
+            1,
+            2,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0015600919723510742,
+            0.0015600919723510742
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0002709627151489258,
+          "p99_abs": 0.0002709627151489258,
+          "mean_abs": 0.0002709627151489258,
+          "rmse": 0.0002709627151489258,
+          "passed": true
+        },
+        {
+          "name": "box_s32",
+          "actual_shape": [
+            1,
+            64,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s32",
+          "actual_shape": [
+            1,
+            2,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.006211221218109131,
+            0.006211221218109131
+          ],
+          "actual_range": [
+            0.0062255859375,
+            0.0062255859375
+          ],
+          "max_abs": 1.436471939086914e-05,
+          "p99_abs": 1.436471939086914e-05,
+          "mean_abs": 1.436471939086914e-05,
+          "rmse": 1.436471939086914e-05,
+          "passed": true
+        }
+      ],
+      "decoded": {
+        "all_anchor_count": 8400,
+        "box_max_abs_input_px": 5.856156604977514e-06,
+        "score_max_abs": 0.0014406144618988037,
+        "paired_iou_min": 0.9999999216447198,
+        "paired_iou_median": 0.999999982242783,
+        "box_max_abs_original_px_unclipped": 2.3406325937003203e-05,
+        "box_max_abs_original_px_clipped": 1.6378471741518297e-05,
+        "threshold_025_nms_counts": [
+          0,
+          0
+        ],
+        "passed": false
+      },
+      "scalar_decode_max_error": 0.0,
+      "onnx_ms_single_observation": 222.77947200200288,
+      "npu_ms_single_observation": 73.4702979971189,
+      "passed": false
+    },
+    {
+      "fixture": "RED_left_half",
+      "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406/evidence/exact_source/RED_raw.jpg",
+      "source_sha256": "1207468d01d509c2971e7ae5fcf5babfd83310d69cee836566d7619addec3b94",
+      "source_roi_xyxy": [
+        0,
+        172,
+        1406,
+        949
+      ],
+      "input_rgb_u8_sha256": "90071ea68fe8e1dd25f72549ab36c008cba10a1914937983f285f56f3adb666f",
+      "letterbox": {
+        "original_wh": [
+          1406,
+          777
+        ],
+        "resized_wh": [
+          640,
+          354
+        ],
+        "gain": 0.45519203413940257,
+        "padding_ltrb": [
+          0,
+          143,
+          0,
+          143
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "heads": [
+        {
+          "name": "box_s8",
+          "actual_shape": [
+            1,
+            64,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.9999992251396179,
+            1.0000008344650269
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 8.344650268554688e-07,
+          "p99_abs": 4.76837158203125e-07,
+          "mean_abs": 1.0014045983552933e-07,
+          "rmse": 1.546840726603467e-07,
+          "passed": true
+        },
+        {
+          "name": "score_s8",
+          "actual_shape": [
+            1,
+            2,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0003904402256011963,
+            0.0003904998302459717
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0014406144618988037,
+          "p99_abs": 0.0014406144618988037,
+          "mean_abs": 0.0014405708387494086,
+          "rmse": 0.0014405708389913833,
+          "passed": false
+        },
+        {
+          "name": "box_s16",
+          "actual_shape": [
+            1,
+            64,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s16",
+          "actual_shape": [
+            1,
+            2,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0015600919723510742,
+            0.0015600919723510742
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0002709627151489258,
+          "p99_abs": 0.0002709627151489258,
+          "mean_abs": 0.0002709627151489258,
+          "rmse": 0.0002709627151489258,
+          "passed": true
+        },
+        {
+          "name": "box_s32",
+          "actual_shape": [
+            1,
+            64,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s32",
+          "actual_shape": [
+            1,
+            2,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.006211221218109131,
+            0.006211221218109131
+          ],
+          "actual_range": [
+            0.0062255859375,
+            0.0062255859375
+          ],
+          "max_abs": 1.436471939086914e-05,
+          "p99_abs": 1.436471939086914e-05,
+          "mean_abs": 1.436471939086914e-05,
+          "rmse": 1.436471939086914e-05,
+          "passed": true
+        }
+      ],
+      "decoded": {
+        "all_anchor_count": 8400,
+        "box_max_abs_input_px": 4.440546433670534e-06,
+        "score_max_abs": 0.0014406144618988037,
+        "paired_iou_min": 0.9999999225139693,
+        "paired_iou_median": 0.9999999810010195,
+        "box_max_abs_original_px_unclipped": 9.755325446558771e-06,
+        "box_max_abs_original_px_clipped": 9.755325446558771e-06,
+        "threshold_025_nms_counts": [
+          0,
+          0
+        ],
+        "passed": false
+      },
+      "scalar_decode_max_error": 0.0,
+      "onnx_ms_single_observation": 220.6197230007092,
+      "npu_ms_single_observation": 67.15175199860823,
+      "passed": false
+    },
+    {
+      "fixture": "GREEN_full",
+      "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406/evidence/exact_source/GREEN_raw.jpg",
+      "source_sha256": "a19b5342e26fdcdcccc73dc5be0272811b93dfe77aad5e80d38bf065b5ea641f",
+      "source_roi_xyxy": [
+        0,
+        0,
+        2558,
+        1438
+      ],
+      "input_rgb_u8_sha256": "3752b3d4472fc2f3c25e28cc4e369f9ae2bb4d4652350d499cc0c8ad5deee38d",
+      "letterbox": {
+        "original_wh": [
+          2558,
+          1438
+        ],
+        "resized_wh": [
+          640,
+          360
+        ],
+        "gain": 0.2501954652071931,
+        "padding_ltrb": [
+          0,
+          140,
+          0,
+          140
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "heads": [
+        {
+          "name": "box_s8",
+          "actual_shape": [
+            1,
+            64,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.9999991655349731,
+            1.0000007152557373
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 8.344650268554688e-07,
+          "p99_abs": 4.76837158203125e-07,
+          "mean_abs": 9.506969945505262e-08,
+          "rmse": 1.4964467248836438e-07,
+          "passed": true
+        },
+        {
+          "name": "score_s8",
+          "actual_shape": [
+            1,
+            2,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0003904402256011963,
+            0.0003904998302459717
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0014406144618988037,
+          "p99_abs": 0.0014406144618988037,
+          "mean_abs": 0.0014405695721507073,
+          "rmse": 0.0014405695723799735,
+          "passed": false
+        },
+        {
+          "name": "box_s16",
+          "actual_shape": [
+            1,
+            64,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s16",
+          "actual_shape": [
+            1,
+            2,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0015600919723510742,
+            0.0015600919723510742
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0002709627151489258,
+          "p99_abs": 0.0002709627151489258,
+          "mean_abs": 0.0002709627151489258,
+          "rmse": 0.0002709627151489258,
+          "passed": true
+        },
+        {
+          "name": "box_s32",
+          "actual_shape": [
+            1,
+            64,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s32",
+          "actual_shape": [
+            1,
+            2,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.006211221218109131,
+            0.006211221218109131
+          ],
+          "actual_range": [
+            0.0062255859375,
+            0.0062255859375
+          ],
+          "max_abs": 1.436471939086914e-05,
+          "p99_abs": 1.436471939086914e-05,
+          "mean_abs": 1.436471939086914e-05,
+          "rmse": 1.436471939086914e-05,
+          "passed": true
+        }
+      ],
+      "decoded": {
+        "all_anchor_count": 8400,
+        "box_max_abs_input_px": 4.842877331157069e-06,
+        "score_max_abs": 0.0014406144618988037,
+        "paired_iou_min": 0.9999999113380909,
+        "paired_iou_median": 0.9999999826153131,
+        "box_max_abs_original_px_unclipped": 1.9356375332790776e-05,
+        "box_max_abs_original_px_clipped": 1.9356375332790776e-05,
+        "threshold_025_nms_counts": [
+          0,
+          0
+        ],
+        "passed": false
+      },
+      "scalar_decode_max_error": 0.0,
+      "onnx_ms_single_observation": 216.88616900064517,
+      "npu_ms_single_observation": 67.50116199691547,
+      "passed": false
+    },
+    {
+      "fixture": "GREEN_left_half",
+      "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m406/evidence/exact_source/GREEN_raw.jpg",
+      "source_sha256": "a19b5342e26fdcdcccc73dc5be0272811b93dfe77aad5e80d38bf065b5ea641f",
+      "source_roi_xyxy": [
+        0,
+        172,
+        1406,
+        949
+      ],
+      "input_rgb_u8_sha256": "d57d137bb07a1eb4db921fb00bcda34f2a88577a2fd5890f487054861ea6989d",
+      "letterbox": {
+        "original_wh": [
+          1406,
+          777
+        ],
+        "resized_wh": [
+          640,
+          354
+        ],
+        "gain": 0.45519203413940257,
+        "padding_ltrb": [
+          0,
+          143,
+          0,
+          143
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "heads": [
+        {
+          "name": "box_s8",
+          "actual_shape": [
+            1,
+            64,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.9999992251396179,
+            1.0000008344650269
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 8.344650268554688e-07,
+          "p99_abs": 4.76837158203125e-07,
+          "mean_abs": 9.798503015190362e-08,
+          "rmse": 1.5385313630952345e-07,
+          "passed": true
+        },
+        {
+          "name": "score_s8",
+          "actual_shape": [
+            1,
+            2,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0003904402256011963,
+            0.0003904998302459717
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0014406144618988037,
+          "p99_abs": 0.0014406144618988037,
+          "mean_abs": 0.0014405706664547325,
+          "rmse": 0.0014405706666950437,
+          "passed": false
+        },
+        {
+          "name": "box_s16",
+          "actual_shape": [
+            1,
+            64,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s16",
+          "actual_shape": [
+            1,
+            2,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0015600919723510742,
+            0.0015600919723510742
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0002709627151489258,
+          "p99_abs": 0.0002709627151489258,
+          "mean_abs": 0.0002709627151489258,
+          "rmse": 0.0002709627151489258,
+          "passed": true
+        },
+        {
+          "name": "box_s32",
+          "actual_shape": [
+            1,
+            64,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s32",
+          "actual_shape": [
+            1,
+            2,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.006211221218109131,
+            0.006211221218109131
+          ],
+          "actual_range": [
+            0.0062255859375,
+            0.0062255859375
+          ],
+          "max_abs": 1.436471939086914e-05,
+          "p99_abs": 1.436471939086914e-05,
+          "mean_abs": 1.436471939086914e-05,
+          "rmse": 1.436471939086914e-05,
+          "passed": true
+        }
+      ],
+      "decoded": {
+        "all_anchor_count": 8400,
+        "box_max_abs_input_px": 4.678964756976711e-06,
+        "score_max_abs": 0.0014406144618988037,
+        "paired_iou_min": 0.9999999206513203,
+        "paired_iou_median": 0.99999998273949,
+        "box_max_abs_original_px_unclipped": 1.0279100706611644e-05,
+        "box_max_abs_original_px_clipped": 1.0279100706611644e-05,
+        "threshold_025_nms_counts": [
+          0,
+          0
+        ],
+        "passed": false
+      },
+      "scalar_decode_max_error": 0.0,
+      "onnx_ms_single_observation": 217.91544200095814,
+      "npu_ms_single_observation": 67.1750850015087,
+      "passed": false
+    },
+    {
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "source": "synthetic numeric fixture, not visual evidence",
+      "input_rgb_u8_sha256": "79b2d68cac0a3772809af9c9a07884ef485f1e3066878101c6fabb17d8c725c4",
+      "letterbox": {
+        "original_wh": [
+          503,
+          301
+        ],
+        "resized_wh": [
+          640,
+          383
+        ],
+        "gain": 1.2723658051689861,
+        "padding_ltrb": [
+          0,
+          128,
+          0,
+          129
+        ],
+        "inverse": "subtract left/top then divide by scalar gain; optional clip to original extent"
+      },
+      "heads": [
+        {
+          "name": "box_s8",
+          "actual_shape": [
+            1,
+            64,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.9999988079071045,
+            1.0000011920928955
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 1.1920928955078125e-06,
+          "p99_abs": 7.152557373046875e-07,
+          "mean_abs": 1.8983875634148718e-07,
+          "rmse": 2.5143198267612956e-07,
+          "passed": true
+        },
+        {
+          "name": "score_s8",
+          "actual_shape": [
+            1,
+            2,
+            80,
+            80
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0003904402256011963,
+            0.0003904998302459717
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0014406144618988037,
+          "p99_abs": 0.0014406144618988037,
+          "mean_abs": 0.0014405792206525802,
+          "rmse": 0.0014405792209505842,
+          "passed": false
+        },
+        {
+          "name": "box_s16",
+          "actual_shape": [
+            1,
+            64,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s16",
+          "actual_shape": [
+            1,
+            2,
+            40,
+            40
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.0015600919723510742,
+            0.0015600919723510742
+          ],
+          "actual_range": [
+            0.0018310546875,
+            0.0018310546875
+          ],
+          "max_abs": 0.0002709627151489258,
+          "p99_abs": 0.0002709627151489258,
+          "mean_abs": 0.0002709627151489258,
+          "rmse": 0.0002709627151489258,
+          "passed": true
+        },
+        {
+          "name": "box_s32",
+          "actual_shape": [
+            1,
+            64,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            1.0,
+            1.0
+          ],
+          "actual_range": [
+            1.0,
+            1.0
+          ],
+          "max_abs": 0.0,
+          "p99_abs": 0.0,
+          "mean_abs": 0.0,
+          "rmse": 0.0,
+          "passed": true
+        },
+        {
+          "name": "score_s32",
+          "actual_shape": [
+            1,
+            2,
+            20,
+            20
+          ],
+          "actual_dtype": "float32",
+          "reference_range": [
+            0.006211221218109131,
+            0.006211221218109131
+          ],
+          "actual_range": [
+            0.0062255859375,
+            0.0062255859375
+          ],
+          "max_abs": 1.436471939086914e-05,
+          "p99_abs": 1.436471939086914e-05,
+          "mean_abs": 1.436471939086914e-05,
+          "rmse": 1.436471939086914e-05,
+          "passed": true
+        }
+      ],
+      "decoded": {
+        "all_anchor_count": 8400,
+        "box_max_abs_input_px": 7.763505578850527e-06,
+        "score_max_abs": 0.0014406144618988037,
+        "paired_iou_min": 0.9999998793005972,
+        "paired_iou_median": 0.9999999556690455,
+        "box_max_abs_original_px_unclipped": 6.101630164678795e-06,
+        "box_max_abs_original_px_clipped": 6.078207547943748e-06,
+        "threshold_025_nms_counts": [
+          0,
+          0
+        ],
+        "passed": false
+      },
+      "scalar_decode_max_error": 0.0,
+      "onnx_ms_single_observation": 217.060582999693,
+      "npu_ms_single_observation": 67.24420899990946,
+      "passed": false
+    }
+  ],
+  "runtime_initialized": true,
+  "passed": false,
+  "limitations": [
+    "Untrained head is near-constant and low-score; numeric agreement does not validate trained recognition.",
+    "All 8400 unthresholded boxes and scores compared; empty post-NMS output is not used as a pass criterion.",
+    "Single bounded NPU runs, not production throughput, accuracy, or multi-model contention benchmark.",
+    "Trained model must repeat RGB/normalization, per-head, decoded/NMS and semantic-class checks."
+  ]
+}

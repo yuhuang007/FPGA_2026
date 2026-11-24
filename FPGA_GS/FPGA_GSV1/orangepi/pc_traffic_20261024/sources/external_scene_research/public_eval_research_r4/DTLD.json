@@ -1,0 +1,302 @@
+{
+  "recorded_at": "2026-10-25T07:39:28.215354+00:00",
+  "query": "DTLD",
+  "http_status": 200,
+  "datasets": [
+    {
+      "_id": "646393fa32317fa48069f7d5",
+      "id": "dtldhjh/github-issues",
+      "author": "dtldhjh",
+      "cardData": {
+        "dataset_info": {
+          "features": [
+            {
+              "name": "url",
+              "dtype": "string"
+            },
+            {
+              "name": "repository_url",
+              "dtype": "string"
+            },
+            {
+              "name": "labels_url",
+              "dtype": "string"
+            },
+            {
+              "name": "comments_url",
+              "dtype": "string"
+            },
+            {
+              "name": "events_url",
+              "dtype": "string"
+            },
+            {
+              "name": "html_url",
+              "dtype": "string"
+            },
+            {
+              "name": "id",
+              "dtype": "int64"
+            },
+            {
+              "name": "node_id",
+              "dtype": "string"
+            },
+            {
+              "name": "number",
+              "dtype": "int64"
+            },
+            {
+              "name": "title",
+              "dtype": "string"
+            },
+            {
+              "name": "user",
+              "dtype": "string"
+            },
+            {
+              "name": "labels",
+              "dtype": "string"
+            },
+            {
+              "name": "state",
+              "dtype": "string"
+            },
+            {
+              "name": "locked",
+              "dtype": "bool"
+            },
+            {
+              "name": "assignee",
+              "dtype": "string"
+            },
+            {
+              "name": "assignees",
+              "dtype": "string"
+            },
+            {
+              "name": "milestone",
+              "dtype": "string"
+            },
+            {
+              "name": "comments",
+              "sequence": "string"
+            },
+            {
+              "name": "created_at",
+              "dtype": "string"
+            },
+            {
+              "name": "updated_at",
+              "dtype": "string"
+            },
+            {
+              "name": "closed_at",
+              "dtype": "string"
+            },
+            {
+              "name": "author_association",
+              "dtype": "string"
+            },
+            {
+              "name": "active_lock_reason",
+              "dtype": "float64"
+            },
+            {
+              "name": "body",
+              "dtype": "string"
+            },
+            {
+              "name": "reactions",
+              "dtype": "string"
+            },
+            {
+              "name": "timeline_url",
+              "dtype": "string"
+            },
+            {
+              "name": "performed_via_github_app",
+              "dtype": "float64"
+            },
+            {
+              "name": "state_reason",
+              "dtype": "string"
+            },
+            {
+              "name": "draft",
+              "dtype": "bool"
+            },
+            {
+              "name": "pull_request",
+              "dtype": "string"
+            },
+            {
+              "name": "is_pull_request",
+              "dtype": "bool"
+            }
+          ],
+          "splits": [
+            {
+              "name": "train",
+              "num_bytes": 24390715,
+              "num_examples": 5000
+            }
+          ],
+          "download_size": 6142822,
+          "dataset_size": 24390715
+        }
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2023-05-16T14:32:36.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "b47ca93b11218f49d406e6960c6b679ebdf04c5d",
+      "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for \"github-issues\"\n\t\n\nMore Information needed\n",
+      "downloads": 4,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:tabular",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "createdAt": "2023-05-16T14:32:26.000Z",
+      "key": ""
+    },
+    {
+      "_id": "65bb6b1c75008984740b0f73",
+      "id": "heekhero/DTL_datasets",
+      "author": "heekhero",
+      "cardData": {
+        "license": "mit"
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2024-02-01T09:57:48.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "d2a596b833fe6014cc5271014169bb20967b1976",
+      "downloads": 3,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "createdAt": "2024-02-01T09:57:48.000Z",
+      "key": ""
+    },
+    {
+      "_id": "6686144bdfd33634bdec647f",
+      "id": "rainkingwang/DTLD",
+      "author": "rainkingwang",
+      "cardData": {
+        "license": "apache-2.0"
+      },
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2024-07-04T03:17:31.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "b954b78ae853a858ab0b0caf6fc570986b4cc3b5",
+      "downloads": 2,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "createdAt": "2024-07-04T03:17:31.000Z",
+      "key": ""
+    },
+    {
+      "_id": "696895cd7c8edbccd1d6f8ed",
+      "id": "dtldr/BGL_0115",
+      "author": "dtldr",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-01-15T07:35:30.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "33437a75ee945052c95543332f1c4a1a67d4429d",
+      "downloads": 2,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-01-15T07:22:53.000Z",
+      "key": ""
+    },
+    {
+      "_id": "6968dd247f59997e28155ccb",
+      "id": "dtldr/BGL_0015-log-summary",
+      "author": "dtldr",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-02-12T09:31:13.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "0131927ac500a85d71fb8d6345043244d1aa7b84",
+      "description": "\n\t\n\t\t\n\t\n\t\n\t\tBGL_0015 Log Summary Dataset / BGL 日志总结数据集\n\t\n\nThis dataset is designed for fine-tuning Large Language Models (LLMs) to generate high-quality failure summaries from BGL (BlueGene/L) system logs. The log windows are derived/sliced from the LogHub/BGL dataset.\n本项目用于为 BGL (BlueGene/L) 系统日志微调大语言模型 (LLM)，使其具备根据原始日志窗口生成高质量故障摘要 (Log Summary) 的能力。其中的日志窗口数据源自 LogHub/BGL 数据集切分而来。\n\n\n\t\n\t\t\n\t\n\t\n\t\t1. Dataset Usage / 数据集用途\n\t\n\nGoal: Enable LLMs to generate high-quality, BGL-specific summaries under… See the full description on the dataset page: https://huggingface.co/datasets/dtldr/BGL_0015-log-summary.",
+      "downloads": 32,
+      "tags": [
+        "size_categories:n<1K",
+        "format:text",
+        "modality:text",
+        "library:datasets",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "createdAt": "2026-01-15T12:27:16.000Z",
+      "key": ""
+    },
+    {
+      "_id": "69845164dcc7079ff0212c8d",
+      "id": "dtldr/BGL_Abnormal_0205",
+      "author": "dtldr",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-02-05T08:22:19.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "f8697d37270b418e9b54bef809c7d7e432ecce1f",
+      "downloads": 3,
+      "tags": [
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "createdAt": "2026-02-05T08:14:28.000Z",
+      "key": ""
+    },
+    {
+      "_id": "6a92d28307ca67c9069d8f1d",
+      "id": "MengZhibin/DTLD_train_dataset",
+      "author": "MengZhibin",
+      "disabled": false,
+      "gated": false,
+      "lastModified": "2026-08-29T12:37:23.000Z",
+      "likes": 0,
+      "trendingScore": 0,
+      "private": false,
+      "sha": "988885a8b9cba203596d5ed063b3a8a2eb26ba55",
+      "downloads": 4,
+      "tags": [
+        "region:us"
+      ],
+      "createdAt": "2026-08-29T12:37:23.000Z",
+      "key": ""
+    }
+  ]
+}

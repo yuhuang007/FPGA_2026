@@ -1,0 +1,81 @@
+{
+  "production_manifest_sha256": "e61e46503006611a0f1b77980897ed73b418afa29a1c5a0f3c27c3520e6b1501",
+  "archive_provenance": "data/archive_provenance.json",
+  "archive_provenance_sha256": "da86f49a87bfb8d5b59a284c14fcc2ad1914811aa81d61ec061579dc392b0fda",
+  "archive": "data/s2tld_1080.zip",
+  "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0027",
+      "source_image_sha256": "6a1960bef09cda379e455ec4613d701190f3af1ba27e3a6d03df3fddeffe2be8",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_42.826187399.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0049",
+      "source_image_sha256": "27cbc07711df75014b5155f912d942e54f543ad3089017637d976d5e1922bd45",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_38_23.538532540.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_007_remaining_review.jsonl",
+      "independent_review_file_sha256": "cab7c385e40a69e1539b0cb34cac467362f840fad80fddea42dd0ac1945292b3",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0050",
+      "source_image_sha256": "275bff8667e7e70475f637794cbb14818a88f7d5923246cd6f0de3666aa7ee45",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_38_24.131840478.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_007_remaining_review.jsonl",
+      "independent_review_file_sha256": "cab7c385e40a69e1539b0cb34cac467362f840fad80fddea42dd0ac1945292b3",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0066",
+      "source_image_sha256": "8c7bc08c21b37652e495d2dead2fb02e07367157f75e693700fea58ce1e97bac",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_41_53.903465225.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_009_remaining_review.jsonl",
+      "independent_review_file_sha256": "532720670d1a94d88a75f750b63d77d569592294715f5faa2759031e5db0237a",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0122",
+      "source_image_sha256": "8887d20dc716b5ebcb63ca36c714d8b233d41cf1393893fc9beaa8d09b99785e",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_51_24.520678730.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_015_remaining_review.jsonl",
+      "independent_review_file_sha256": "84eb7d89b5883bcede1fdaa1b289c9b329ea283bedd7801b2e879a1737f46095",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0143",
+      "source_image_sha256": "b9783791e3783a8d917b823f21c388bee43a75af3d7483068ef11028f007c41a",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_53_33.787729646.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_018_remaining_review.jsonl",
+      "independent_review_file_sha256": "decf17020b34247d4913ccbca08b9a2a33d2fe30daa45be7535cf70d159c7247",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0144",
+      "source_image_sha256": "a38cc175f9abd98dda25bcde4f4e70ed02020e84fc40007dd4cf39681ae57664",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_53_34.387403556.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_018_remaining_review.jsonl",
+      "independent_review_file_sha256": "decf17020b34247d4913ccbca08b9a2a33d2fe30daa45be7535cf70d159c7247",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    }
+  ],
+  "old_group_clean_original_metadata_preserved": true,
+  "human_signoff": false
+}

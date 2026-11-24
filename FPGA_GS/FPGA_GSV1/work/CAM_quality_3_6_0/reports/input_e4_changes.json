@@ -1,0 +1,34 @@
+{
+  "baseline": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\source",
+  "candidate": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source",
+  "hardware_changes": [
+    "rtl/network/m365_tx_observer.v",
+    "constraints/mes50hp.fdc"
+  ],
+  "input_ports": [
+    "cmos2_data[0]",
+    "cmos2_data[1]",
+    "cmos2_data[2]",
+    "cmos2_data[3]",
+    "cmos2_data[4]",
+    "cmos2_data[5]",
+    "cmos2_data[6]",
+    "cmos2_data[7]",
+    "cmos2_href",
+    "cmos2_vsync"
+  ],
+  "uart_identity": "N2 35I, C1R8 and C1PX layouts unchanged",
+  "no_rtl_video_datapath_change": true,
+  "no_cam0_fix_mixed": true,
+  "sensor_registers_unchanged": true,
+  "io_levels_unchanged": true,
+  "pclk_positive_edge_unchanged": true,
+  "dedicated_ioclk_rejected": "Local Place-0089: these IO loaders cannot use one IOCLKBUF; no such route in candidate",
+  "local_global_clock_probe": "All10 actual IREGIS; internal constraints met. This is not full-design placement or source timing signoff.",
+  "hypothesis": "Registered IO reduces pad-to-first-FF routing dispersion; compare coloured dark lines without changing image processing.",
+  "limitations": [
+    "Global PCLK path retained; IREGIS shifts receiving aperture and may increase hold demand.",
+    "TY DOVDD, source tCO/edge, board/FFC skew remain unknown; no source IO slack is claimed.",
+    "A changed image supports sampling sensitivity, not a unique root cause; independent PNR can change unrelated physical routes."
+  ]
+}

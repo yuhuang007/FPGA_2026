@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-10-24T19:28:23.656111+08:00",
+  "user_confirmed_loaded": "3.5.9-R0 READBACK; user path confirmation, not device SHA readback",
+  "user_confirmed_port": "COM23",
+  "no_live_service_started": true,
+  "current_cam0": {
+    "reference_seconds": 12.0,
+    "capture_fps": 30.0,
+    "publish_fps": 15.0,
+    "display_new_fps": 15.0,
+    "bad_delta": 0,
+    "read_errors_delta": 0,
+    "exposure_ms": 29.99664,
+    "gain_x": 8.5,
+    "row_ms": 0.04504,
+    "hts": 1892,
+    "vts": 740,
+    "night": false,
+    "extra_vts": 0
+  },
+  "current_cam1": {
+    "reference_seconds": 8.0,
+    "capture_fps": 25.0,
+    "publish_fps": 25.0,
+    "display_new_fps": 25.0,
+    "bad_delta": 0,
+    "geometry_ok": true,
+    "exposure_gain": "UNKNOWN: R0 UART exports CAM0 registers only; CAM1 has startup verification, no periodic AE/AGC register sweep"
+  },
+  "confirmed_front_bottleneck": {
+    "mechanism": "verdict closes at next VS; DDR drain/reset/regrant misses SOF-only acceptance",
+    "proof": "reports/cam0_turnover.log: same 6 complete720 frames, old3/new6; owner pin invariants checked",
+    "changed_branch": "source/ only FRONT_BLANKING_GRANT wrapper and CAM0 instance",
+    "build_or_hardware_verified": false,
+    "network_slow_reader_may_still_cause_protected_frame_drops": true
+  },
+  "archive_motion": {
+    "sha256": "6fe75558add3378754c8113960f59051ebe401ed8d292723b7dde0b9b4eefe0f",
+    "reusable_sccb_and_profile": true,
+    "protected_source_comparison": {
+      "rtl/reuse/reg_config.v": true,
+      "rtl/reuse/i2c_com.v": true,
+      "rtl/capture/cam_ov3660_table.v": true,
+      "rtl/capture/cam_ov3660_config.v": true,
+      "rtl/capture/cam3660_dvp.v": true,
+      "rtl/frame/m3_front_owner.v": true,
+      "rtl/network/m36_phy2.v": true,
+      "rtl/network/m364_e1_rgmii.v": true,
+      "constraints/mes50hp.fdc": true
+    },
+    "old_checks_reused": "work/CAM0_motion/reports/ae_profile_tests.json and final_timing_resources.json",
+    "hardware_verified": false,
+    "selected_for_download": false,
+    "signal_budget_ratio": 0.3137254901960784,
+    "note": "linear exposure*gain estimate only, not measured image brightness/noise. Do not apply10ms/8x as a guaranteed noise fix."
+  },
+  "rear_green_line": {
+    "user_reports_naked_eye": true,
+    "source_digital_frame_captured": false,
+    "capture_outlet_gap": "existing production upload is CAM0 only; no CAM1 raw-frame output",
+    "next_candidate": "rear_probe_source: OV3660 503D RMW+verify/exact restore, then known FPGA bars after DVP before DDR; no protocol changes",
+    "not_a_fix": true,
+    "limits": "pattern outcome narrows stages; data-dependent DVP errors still possible when sensor bars appear clean"
+  },
+  "unrelated_tests_not_rerun": true,
+  "auto_programmed": false
+}

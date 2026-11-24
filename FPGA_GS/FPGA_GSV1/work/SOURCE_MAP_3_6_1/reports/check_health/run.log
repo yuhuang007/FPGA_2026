@@ -1,0 +1,2 @@
+MAP_HEALTH_PASS inverse_requests=1 one_source_outage=1 correct_titles=1 no_CAM0_fallback=1
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_health_tb.sv:17: $finish called at 9000 (1ps)

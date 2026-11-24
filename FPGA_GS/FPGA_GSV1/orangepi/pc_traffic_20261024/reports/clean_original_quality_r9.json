@@ -1,0 +1,88 @@
+{
+  "production_manifest_sha256": "f5c9b9156d57a37c7c575ef10107b3ece567d9d36e90efa18321a4c4d2632e42",
+  "archive_provenance": "data/archive_provenance.json",
+  "archive_provenance_sha256": "da86f49a87bfb8d5b59a284c14fcc2ad1914811aa81d61ec061579dc392b0fda",
+  "archive": "data/s2tld_1080.zip",
+  "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0025",
+      "source_image_sha256": "d0ddd31669ac7b39fe7e1133c8c94bfd2b3cdda7db6c1ebddd1fe4cff6e20635",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_33.270742929.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0026",
+      "source_image_sha256": "f214bd4e123bd4a743b39e01e0756ac8f68571cca409a10449f5dd8702b8bcd4",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_33.847979340.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0028",
+      "source_image_sha256": "8e2502a109c0cdb60f29c44df53d71c22c70a2ee1c5b7e1da48f40f2b94de1e7",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_43.444829410.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0029",
+      "source_image_sha256": "0541e8aa7733c84c0ac8c7218dc0bdaec42419272c5e6ec95488a791d7a9f1db",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_35_59.679455212.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0030",
+      "source_image_sha256": "618bfbaf921ae2026f1f973a4c5ffd2960d31e32b5c3edc8b68e832bedb5bd73",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_36_00.257216992.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0031",
+      "source_image_sha256": "cf0c8d53f821c1c09dd6e6834c098dbc4f2576c8d5cc50fd8165f870a75dec71",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_36_00.865148500.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    },
+    {
+      "candidate_id": "s2tld1080_0032",
+      "source_image_sha256": "5eacbb2408209ab634935fc637d2da8676ebfe1f7cae0d43127dfb2fda3bc745",
+      "source_member": "S2TLD（1080x1920）/JPEGImages/2020-03-30 11_36_08.694559245.jpg",
+      "byte_identical_archive_original": true,
+      "independent_whole_original_review_verified": true,
+      "source_pixel_observation_not_current_label_omission_recertification": true,
+      "independent_review_file": "review_stage2/independent_codex_board_r2/batch_004_remaining_review.jsonl",
+      "independent_review_file_sha256": "d823906bb485c30d9ed7421f9094b90ac46dab2640aea59b1fe2bfaaa12e6619",
+      "basis": "Original raw archive bytes, independently viewed full original, and actual PC source/crop QA; source timestamp is not an inference overlay."
+    }
+  ],
+  "old_group_clean_original_metadata_preserved": true,
+  "human_signoff": false
+}

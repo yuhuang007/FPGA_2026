@@ -1,0 +1,64 @@
+{
+  "artifact_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_SOURCE_MAP_3_6_1_CANDIDATE\\artifact.json",
+  "artifact_sha256": "31211b69767d7e6eb0f5a565971021009292352cd1178cf8707ea6a544799ad4",
+  "bitstream_path": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_SOURCE_MAP_3_6_1_CANDIDATE\\FPGA_GSV1_SOURCE_MAP_3_6_1_HDMI_1080P60.sbit",
+  "expected_sha256": "b6e4ad93cb331c813651e53e771f3288c467a88aa155b3cc50eb7cbce59c25ea",
+  "actual_sha256": "b6e4ad93cb331c813651e53e771f3288c467a88aa155b3cc50eb7cbce59c25ea",
+  "passed": true,
+  "board_programming_confirmed": true,
+  "board_source_confirmed": false,
+  "scope": "file verification only, not board acceptance",
+  "contract": {
+    "version": "3.6.1",
+    "logical": [
+      "FRONT=NET_RX(port1)",
+      "REAR=HDMI_RX",
+      "LEFT=CAM0_OV5640",
+      "RIGHT=CAM1_OV3660"
+    ],
+    "key5_order": [
+      "FRONT",
+      "REAR",
+      "LEFT",
+      "RIGHT",
+      "QUAD"
+    ],
+    "quad": [
+      "FRONT top-left",
+      "REAR top-right",
+      "LEFT bottom-left",
+      "RIGHT bottom-right"
+    ],
+    "protocol": {
+      "wire_format": "GSV3 v1 unchanged",
+      "ingress": {
+        "kind": 16,
+        "source": 3,
+        "width": 1280,
+        "height": 720,
+        "format": 1,
+        "pixel_order": "RGB565 little-endian",
+        "fragments": 1440,
+        "fragment_payload": 1280
+      },
+      "upload": {
+        "kind": 17,
+        "source": 0,
+        "same_pixel_layout": true,
+        "frame_id": "board-global complete NET publication serial starting at1, increments across ingress sessions, skip0; reset only full DDR reset/program",
+        "timestamp_ms": "board port1 completion time, not sender timestamp or CAM0 time"
+      },
+      "event": "same serial as FRONT_RAW, latest complete valid NET publication at DDR/core key mailbox; invalid frame=0; exact frame may be missed by upload throttling => UNKNOWN",
+      "expiry": "ingress peer session <=2s, complete-frame age<3s; no CAM0 fallback; invalidation latches event evidence invalid until next KEY",
+      "net2_endpoint_unchanged": true
+    },
+    "net_slots_word_addresses": [
+      "0x1800000",
+      "0x1c00000",
+      "0x2400000",
+      "0x2c00000"
+    ],
+    "known_limit": "CAM1 stripes remain unresolved; no image-quality changes"
+  },
+  "confirmation_method": "user_message 已下载"
+}

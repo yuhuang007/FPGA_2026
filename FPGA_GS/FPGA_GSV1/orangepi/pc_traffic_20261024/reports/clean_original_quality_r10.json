@@ -1,0 +1,10 @@
+{
+  "production_manifest_sha256": "c7cd72e4b1747ebf4a81618985d9ee7109b690016ecedad4c334090502ff7911",
+  "archive_provenance": "data/archive_provenance.json",
+  "archive_provenance_sha256": "da86f49a87bfb8d5b59a284c14fcc2ad1914811aa81d61ec061579dc392b0fda",
+  "archive": "data/s2tld_1080.zip",
+  "archive_sha256": "c81b968f8c365415c5f76f2fbfa5503b0bccdcb7926e75abf472cbc52b07a5de",
+  "entries": [],
+  "old_group_clean_original_metadata_preserved": true,
+  "human_signoff": false
+}

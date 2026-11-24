@@ -1,0 +1,8 @@
+Red
+RedLeft
+Yellow
+YellowLeft
+Green
+GreenLeft
+FalseDetec
+Sign

@@ -1,0 +1,7 @@
+path: E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/orangepi/pc_traffic_20261024
+train: E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/orangepi/pc_traffic_20261024/datasets/clean_body_r1/train.txt
+val: E:/zhoumian/FPGA/FPGA_GS/FPGA_GSV1/orangepi/pc_traffic_20261024/datasets/clean_body_r1/val.txt
+names:
+  0: motor_vehicle_body
+  1: pedestrian_body
+nc: 2

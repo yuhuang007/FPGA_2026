@@ -1,0 +1,199 @@
+{
+  "ready_to_train": false,
+  "candidate_images": 431,
+  "qualified_images": 44,
+  "checks": {
+    "qualified_batch_at_least_300": false,
+    "all_candidates_reviewed_or_explicitly_excluded": false,
+    "approved_group_and_hash_exclusive": true,
+    "train_and_val_present": true,
+    "manual_site_and_near_duplicate_audit": true,
+    "safe_clean_export_current_SHA_validated": true,
+    "onnx_preflight_passed": true,
+    "rknn_fp16_build_passed_for_same_onnx": true,
+    "pytorch_gpu_training_smoke_passed": true
+  },
+  "qualified_original400": 38,
+  "qualified_external_originals": 6,
+  "qualified_targets": 81,
+  "qualified_split_counts": {
+    "train": 38,
+    "val": 5,
+    "holdout": 1
+  },
+  "qualified_original_ids": [
+    "coco_scene_000000008762",
+    "coco_scene_000000015272",
+    "coco_scene_000000309391",
+    "coco_scene_000000338560",
+    "coco_scene_000000520009",
+    "commons_scene_132116089",
+    "s2tld1080_0012",
+    "s2tld1080_0013",
+    "s2tld1080_0014",
+    "s2tld1080_0015",
+    "s2tld1080_0016",
+    "s2tld1080_0017",
+    "s2tld1080_0018",
+    "s2tld1080_0019",
+    "s2tld1080_0020",
+    "s2tld1080_0021",
+    "s2tld1080_0025",
+    "s2tld1080_0026",
+    "s2tld1080_0027",
+    "s2tld1080_0028",
+    "s2tld1080_0029",
+    "s2tld1080_0030",
+    "s2tld1080_0031",
+    "s2tld1080_0032",
+    "s2tld1080_0044",
+    "s2tld1080_0049",
+    "s2tld1080_0050",
+    "s2tld1080_0051",
+    "s2tld1080_0058",
+    "s2tld1080_0065",
+    "s2tld1080_0066",
+    "s2tld1080_0121",
+    "s2tld1080_0122",
+    "s2tld1080_0143",
+    "s2tld1080_0144",
+    "s2tld1080_0215",
+    "s2tld1080_0225",
+    "s2tld1080_0230",
+    "s2tld1080_0233",
+    "s2tld1080_0234",
+    "s2tld1080_0243",
+    "s2tld1080_0244",
+    "s2tld1080_0339",
+    "s2tld1080_0390"
+  ],
+  "qualification_registries": [
+    {
+      "path": "reports/qualified_originals_r1.json",
+      "sha256": "486875471c5a9a9c7a5be55e78d9cee5430a84ddbea6e645345444e72c7a3c08",
+      "active_candidate_ids": [
+        "coco_scene_000000008762",
+        "coco_scene_000000015272",
+        "coco_scene_000000520009",
+        "s2tld1080_0013",
+        "s2tld1080_0016",
+        "s2tld1080_0058",
+        "s2tld1080_0065",
+        "s2tld1080_0215",
+        "s2tld1080_0225",
+        "s2tld1080_0230",
+        "s2tld1080_0233",
+        "s2tld1080_0234",
+        "s2tld1080_0243",
+        "s2tld1080_0244",
+        "s2tld1080_0339",
+        "s2tld1080_0390"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r10.json",
+      "sha256": "b7f6e8b86c60995be48430e42feed09b147aef99b932cb9338adcc892bd0f9f1",
+      "active_candidate_ids": [
+        "s2tld1080_0012"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r3.json",
+      "sha256": "af28908d07009a11174f6e8e4251c0576eefd3faaa889974407dff4f4a50235c",
+      "active_candidate_ids": [
+        "s2tld1080_0027",
+        "s2tld1080_0049",
+        "s2tld1080_0050",
+        "s2tld1080_0066",
+        "s2tld1080_0122",
+        "s2tld1080_0143",
+        "s2tld1080_0144"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r4.json",
+      "sha256": "8a0e661f75102f0a79bca73559e32dd266b89c056418ed52ac828544649ac1e4",
+      "active_candidate_ids": [
+        "s2tld1080_0014",
+        "s2tld1080_0015",
+        "s2tld1080_0019",
+        "s2tld1080_0044",
+        "s2tld1080_0121"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r5.json",
+      "sha256": "ee2fb5d4aab9e41150768251979e66aacc499b6630265aaa1082a5a0e68eba8e",
+      "active_candidate_ids": [
+        "coco_scene_000000309391",
+        "coco_scene_000000338560",
+        "commons_scene_132116089",
+        "s2tld1080_0051"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r7.json",
+      "sha256": "10a94a53d3f48cb376e14109839da6e4eb8010e56e9510f7696a7bfa95650f10",
+      "active_candidate_ids": [
+        "s2tld1080_0017",
+        "s2tld1080_0018",
+        "s2tld1080_0020",
+        "s2tld1080_0021"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r9.json",
+      "sha256": "eb0013578edde04d5543ac42ce6a33ad9937a0a425a47582f37b596da49082b9",
+      "active_candidate_ids": [
+        "s2tld1080_0025",
+        "s2tld1080_0026",
+        "s2tld1080_0028",
+        "s2tld1080_0029",
+        "s2tld1080_0030",
+        "s2tld1080_0031",
+        "s2tld1080_0032"
+      ]
+    }
+  ],
+  "invalid_or_stale_releases": [],
+  "active_integrity_hold_ids": [
+    "s2tld1080_0024"
+  ],
+  "integrity_hold_source": {
+    "path": "reports/crop_integrity_holds.json",
+    "sha256": "b32fe13cd5e802d4d9c899ef0308d89aa26a4e833a44f2bb4e0b0fe16f990a97"
+  },
+  "previously_qualified_originals_temporarily_withheld": 0,
+  "withheld_historical_registry_entries": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "registry": "reports/qualified_originals_r1.json",
+      "reason": "current_label_confirmation_missing_or_changed"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "registry": "reports/qualified_originals_r1.json",
+      "reason": "current_label_confirmation_missing_or_changed"
+    },
+    {
+      "candidate_id": "s2tld1080_0001",
+      "registry": "reports/qualified_originals_r4.json",
+      "reason": "current_label_confirmation_missing_or_changed"
+    },
+    {
+      "candidate_id": "s2tld1080_0002",
+      "registry": "reports/qualified_originals_r4.json",
+      "reason": "current_label_confirmation_missing_or_changed"
+    },
+    {
+      "candidate_id": "s2tld1080_0003",
+      "registry": "reports/qualified_originals_r4.json",
+      "reason": "current_label_confirmation_missing_or_changed"
+    }
+  ],
+  "final_test_status": "1 isolated heldout original(s); excluded from tuning/calibration. One Madrid pedestrian close-up alone is not adequate final-test coverage.",
+  "coverage_limits": "Val now includes pedestrian bodies; original/photo/site count remains small. Final-test motor, small/distant and broad scene coverage still missing.",
+  "training_quantity_basis": "Unique qualified train+val originals only; heldout photos and multiple crops do not satisfy300.",
+  "historical_manual_gate_name": "Existing key retained; real two-independent-AI site/near-duplicate records accepted. No human signature fabricated or required.",
+  "warning": "Counts are workflow gates, not a reliability guarantee."
+}

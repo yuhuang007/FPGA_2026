@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-10-25T07:51:26.319050+00:00",
+  "acquired_originals": 4,
+  "first_pass_completed": 3,
+  "independently_confirmed": 3,
+  "qualified": 0,
+  "entries": [
+    {
+      "candidate_id": "commons_scene_96872883",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:North_start_of_Niujie_St_(20201125145623).jpg",
+      "license": "CC BY-SA 4.0",
+      "metadata": "data/external_scene_candidates_china_beijing_r2/provenance/commons_96872883_metadata.json",
+      "metadata_sha256": "d65fa763e2a3c8a30fa5c93da6062c6e8a7360339575d587e9051939485ede86",
+      "image_sha256": "74b6c4d42688dae19eb23d4a546749be84ba0c4ea65a93c66331c15a6dba38b5",
+      "exact_source_attributed": true,
+      "project_label_review": "frozen_PC_draft_pending_independent",
+      "proposed_split": "val_pending_group_audit",
+      "independent_from_S2TLD_source_sites": "not_certified; source GPS/title do not locate unnamed source routes"
+    },
+    {
+      "candidate_id": "commons_scene_37076233",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Intersection_of_National_Stadium_and_Tianchen_West_roads,_Chaoyang_District,_Beijing.jpg",
+      "license": "CC BY-SA 3.0",
+      "metadata": "data/external_scene_candidates_china_beijing_r2/provenance/commons_37076233_metadata.json",
+      "metadata_sha256": "e321606d2cbf876a874fbf8c6ae5e4956134a0be61feb182bbacc4bb2467788c",
+      "image_sha256": "85dcdbedf204bcae928f4ed945c7621e34001b3ab38f41119deef897d65a11a2",
+      "exact_source_attributed": true,
+      "project_label_review": "whole_preview_seen_but_complete_annotation_not_done",
+      "proposed_split": "external_test_reserved",
+      "independent_from_S2TLD_source_sites": "not_certified; source GPS/title do not locate unnamed source routes"
+    },
+    {
+      "candidate_id": "commons_scene_177309707",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Pedestrian_signals_in_Chengdu.jpg",
+      "license": "CC0",
+      "metadata": "data/external_scene_candidates_china_chengdu_r1/provenance/commons_177309707_metadata.json",
+      "metadata_sha256": "672390c8defdbe9b6f1c05b37efa9b24f05ee73ba736e336b5a905cac8cded6e",
+      "image_sha256": "8b7107e677dff09d8bc7dc129acf9892040e008d56f6fcf486d105a1f4a74139",
+      "exact_source_attributed": true,
+      "project_label_review": "frozen_PC_draft_pending_independent",
+      "proposed_split": "external_test_reserved",
+      "independent_from_S2TLD_source_sites": "not_certified; source GPS/title do not locate unnamed source routes"
+    },
+    {
+      "candidate_id": "commons_scene_168927744",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:Wuning_Rd_(Westbound)_west_of_Daduhe_Rd_(20250610115125).jpg",
+      "license": "CC BY-SA 4.0",
+      "metadata": "data/external_scene_candidates_china_shanghai_r1/provenance/commons_168927744_metadata.json",
+      "metadata_sha256": "c2b75fb35bebf8538c7ffa410875fa869542f9b717ce853d1682be545b259c84",
+      "image_sha256": "f70cb97a7d6802b709a5b552d91049eb90244d7622c1335f31d0f43d4e1a9aa3",
+      "exact_source_attributed": true,
+      "project_label_review": "frozen_PC_draft_pending_independent",
+      "proposed_split": "val_pending_group_audit",
+      "independent_from_S2TLD_source_sites": "not_certified; source GPS/title do not locate unnamed source routes"
+    }
+  ],
+  "manifests": [
+    "review_stage2/external_scene_pilot_r9/manifest.json",
+    "review_stage2/external_scene_pilot_r10/manifest.json",
+    "review_stage2/external_scene_pilot_r11/manifest.json"
+  ],
+  "not_in_current_fit": true,
+  "no_inference_or_final_test_tuning": true,
+  "source_manifest_failed_download_history": "data/external_scene_candidates_china_beijing_r1 contains partial artifacts from metadata-width exception, no manifest or acceptance; successful_r2 supersedes acquisition",
+  "remaining_blockers": [
+    "Source-site independence versus full unnamed S2TLD capture remains unknown, not established same-site.",
+    "Split release and actual safe crop QA; old Chengdu full-width crop remains withdrawn."
+  ],
+  "independent_review_completed": 3,
+  "group_review": "review_stage2/independent_external_scene_r1/source_group_china_r1.json",
+  "group_review_sha256": "3b9b11b1b5e48ed294825206fc67b94bf21740b2069489dba5580c3f19082905",
+  "group_SHA_references_verified": 25,
+  "independent_fillback": "review_stage2/independent_external_scene_r1/fillback_external_china_r1.jsonl",
+  "independent_fillback_sha256": "49bb634e3fc765de19d44db52f713caab87603b7e9e8e77bff69541a58744fa4",
+  "PC_targeted_revision": "review_stage2/external_scene_revisions/external_china_pc_r2_001/manifest.json",
+  "PC_targeted_revision_sha256": "75fb3d5f687ac8f0b1126f4d8f1b9bd3f15d182d57735484bebf296dd2359b82",
+  "annotation_status": {
+    "commons_scene_96872883": "Current body/ignore label confirmed by genuine original independent review plus exact-SHA targeted amendment or same-SHA scope clarification; no source split/crop release.",
+    "commons_scene_177309707": "Current body/ignore label confirmed by genuine original independent review plus exact-SHA targeted amendment or same-SHA scope clarification; no source split/crop release.",
+    "commons_scene_168927744": "Current body/ignore label confirmed by genuine original independent review plus exact-SHA targeted amendment or same-SHA scope clarification; no source split/crop release."
+  },
+  "current_annotation_disputes": 0,
+  "targeted_confirmation": "review_stage2/independent_external_scene_r1/fillback_external_china_changes_r2_contract.jsonl",
+  "Shanghai_scope_clarification": "review_stage2/independent_external_scene_r1/clarification_external_china_shanghai_r2.jsonl",
+  "historical_schema_rejection": "Earlier targeted_changes_r2 producer file lacks canonical fields; retained and uncounted. Separately SHA-bound contract transcription is validated; unique review count not increased."
+}

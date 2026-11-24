@@ -1,0 +1,223 @@
+{
+  "recorded_at": "2026-10-25T07:49:33.178538+00:00",
+  "diagnostic_completed": true,
+  "board_report": "board_validation/trained_logits_candidate_r1_20261025/remote_results/reports/candidate_report.json",
+  "board_report_sha256": "2d601c33ca1bfcca5a703fae575c56e1706e8e68f3e8f364e6b58c5a03bdea18",
+  "checkpoint_sha256": "79ed89a50fe7b78de454a6d157b51cadc3392ac54a988ec6c3ea67fd391e771d",
+  "onnx_sha256": "ed944ebfeab6574b17577a57306e0017d751d992b5ad865723b1d5986c67ece2",
+  "optimizer_updates": 0,
+  "checkpoint_modified": false,
+  "TF32_enabled": false,
+  "FP16_reduced_precision_matmul_reduction_enabled": false,
+  "fixture_count": 8,
+  "no_new_or_reserved_test_inputs": true,
+  "maxima": {
+    "gpu_FP32_vs_ONNX_FP32": {
+      "raw_head_max_abs": 1.811981201171875e-05,
+      "cpu_sigmoid_score_max_abs": 1.1305032442121554e-06
+    },
+    "rounded_weight_FP32_vs_ONNX_FP32": {
+      "raw_head_max_abs": 0.14734363555908203,
+      "cpu_sigmoid_score_max_abs": 0.004686782368544695
+    },
+    "GPU_FP16_vs_ONNX_FP32": {
+      "raw_head_max_abs": 0.12622833251953125,
+      "cpu_sigmoid_score_max_abs": 0.004965012681962838
+    },
+    "NPU_vs_ONNX_FP32": {
+      "raw_head_max_abs": 0.23804378509521484,
+      "cpu_sigmoid_score_max_abs": 0.013121551831050127
+    },
+    "NPU_vs_GPU_FP16": {
+      "raw_head_max_abs": 0.20703125,
+      "cpu_sigmoid_score_max_abs": 0.017502767135710973
+    }
+  },
+  "comparisons": [
+    {
+      "fixture": "s2tld720_000000",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.5735626220703125e-05,
+        "cpu_sigmoid_score_max_abs": 1.1305032442121554e-06
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.14734363555908203,
+        "cpu_sigmoid_score_max_abs": 0.004686782368544695
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.12622833251953125,
+        "cpu_sigmoid_score_max_abs": 0.004965012681962838
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.23804378509521484,
+        "cpu_sigmoid_score_max_abs": 0.013121551831050127
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.20703125,
+        "cpu_sigmoid_score_max_abs": 0.017502767135710973
+      }
+    },
+    {
+      "fixture": "tlony_adrian-williams-AU07BMLW1NA-unsplash",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.811981201171875e-05,
+        "cpu_sigmoid_score_max_abs": 3.508581365441188e-07
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03267550468444824,
+        "cpu_sigmoid_score_max_abs": 0.0005633958067831069
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03479361534118652,
+        "cpu_sigmoid_score_max_abs": 0.0006804914492665459
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.1373577117919922,
+        "cpu_sigmoid_score_max_abs": 0.0025715009059604638
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.1171875,
+        "cpu_sigmoid_score_max_abs": 0.0022875141899285634
+      }
+    },
+    {
+      "fixture": "coco_scene_000000015272",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.2874603271484375e-05,
+        "cpu_sigmoid_score_max_abs": 9.170333199401415e-10
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.030277729034423828,
+        "cpu_sigmoid_score_max_abs": 2.229707385213958e-06
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03542613983154297,
+        "cpu_sigmoid_score_max_abs": 1.5757587321034829e-06
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.15630149841308594,
+        "cpu_sigmoid_score_max_abs": 3.438910819101367e-05
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.15625,
+        "cpu_sigmoid_score_max_abs": 3.4102140724018857e-05
+      }
+    },
+    {
+      "fixture": "GREEN_full",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.0013580322265625e-05,
+        "cpu_sigmoid_score_max_abs": 2.233029606779624e-07
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.028098344802856445,
+        "cpu_sigmoid_score_max_abs": 0.0009037808133771363
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03640031814575195,
+        "cpu_sigmoid_score_max_abs": 0.0010695663522574672
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.1428847312927246,
+        "cpu_sigmoid_score_max_abs": 0.00870785523649828
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.15234375,
+        "cpu_sigmoid_score_max_abs": 0.007656459069946442
+      }
+    },
+    {
+      "fixture": "GREEN_left_half",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.049041748046875e-05,
+        "cpu_sigmoid_score_max_abs": 4.163287511405045e-07
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03990435600280762,
+        "cpu_sigmoid_score_max_abs": 0.0007439735400266156
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.04418015480041504,
+        "cpu_sigmoid_score_max_abs": 0.0008182381765296509
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.11953616142272949,
+        "cpu_sigmoid_score_max_abs": 0.010461496285453398
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.1015625,
+        "cpu_sigmoid_score_max_abs": 0.011099122868471978
+      }
+    },
+    {
+      "fixture": "RED_full",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.049041748046875e-05,
+        "cpu_sigmoid_score_max_abs": 1.728391790800643e-08
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.02453446388244629,
+        "cpu_sigmoid_score_max_abs": 0.0002287432277882362
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.03293943405151367,
+        "cpu_sigmoid_score_max_abs": 0.0002267266488229988
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.13840818405151367,
+        "cpu_sigmoid_score_max_abs": 0.0011031958210397583
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.1171875,
+        "cpu_sigmoid_score_max_abs": 0.001329922469862757
+      }
+    },
+    {
+      "fixture": "RED_left_half",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.049041748046875e-05,
+        "cpu_sigmoid_score_max_abs": 1.4624210150152028e-07
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.02363884449005127,
+        "cpu_sigmoid_score_max_abs": 0.00032361008196625865
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.032039642333984375,
+        "cpu_sigmoid_score_max_abs": 0.0002754926833186608
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.10707283020019531,
+        "cpu_sigmoid_score_max_abs": 0.0009095144768894725
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.1015625,
+        "cpu_sigmoid_score_max_abs": 0.0011850071602081333
+      }
+    },
+    {
+      "fixture": "SYNTHETIC_channel_ramp_odd_padding",
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.1205673217773438e-05,
+        "cpu_sigmoid_score_max_abs": 7.671229760360804e-10
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.01317596435546875,
+        "cpu_sigmoid_score_max_abs": 6.690258974665882e-07
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.019459009170532227,
+        "cpu_sigmoid_score_max_abs": 1.000290559583796e-06
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.07008934020996094,
+        "cpu_sigmoid_score_max_abs": 1.7241228164799208e-05
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.0625,
+        "cpu_sigmoid_score_max_abs": 1.6475673852467377e-05
+      }
+    }
+  ],
+  "scope": "Precision-only diagnosis. Cannot approve a different threshold or prove recognition accuracy. GPU half is not RKNN hardware emulation."
+}

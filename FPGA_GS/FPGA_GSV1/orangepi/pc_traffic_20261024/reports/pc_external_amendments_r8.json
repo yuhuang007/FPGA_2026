@@ -1,0 +1,88 @@
+{
+  "revisions": [
+    {
+      "candidate_id": "commons_scene_173323959",
+      "base_manifest": "review_stage2/external_scene_pilot_r8/manifest.json",
+      "changes": [],
+      "append_objects": [
+        {
+          "id": "ignore_left_lower_pole",
+          "type": "ignore",
+          "bbox_xyxy": [
+            294,
+            645,
+            325,
+            682
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Separate dark side/rear head-like assembly on lower-left pole. Partial multi-level shell/hood contours visible; front class and precise instance relation unresolved. Protect as ignore, not ordinary background."
+        }
+      ],
+      "evidence": [
+        "review_stage2/external_adjudication_r8/krakow_lower.png"
+      ],
+      "notes": [
+        "PC actually viewed lower-left native4x context following independent omission. Added conservative ignore around dark pole assembly. Pale rectangular units farther left attach to building and show circular air-conditioning fan/grille detail; no new positive inferred. Existing three frontal bodies unchanged."
+      ]
+    },
+    {
+      "candidate_id": "commons_scene_163437471",
+      "base_manifest": "review_stage2/external_scene_pilot_r8/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_pedestrian",
+          "field": "bbox_xyxy",
+          "value": [
+            673,
+            210,
+            690,
+            228
+          ]
+        }
+      ],
+      "evidence": [
+        "review_stage2/external_adjudication_r8/newton_ped.png"
+      ],
+      "notes": [
+        "PC native6x unmarked detail confirms compact hand housing approximately[673,210,690,228]; yellow pole, lower support and right background removed from body box. Four motor boxes and all body kind/attribute fields unchanged."
+      ]
+    },
+    {
+      "candidate_id": "commons_scene_182611616",
+      "base_manifest": "review_stage2/external_scene_pilot_r8/manifest.json",
+      "changes": [
+        {
+          "object_id": "body_left",
+          "field": "bbox_xyxy",
+          "value": [
+            42,
+            408,
+            72,
+            461
+          ]
+        },
+        {
+          "object_id": "ignore_left_head_side",
+          "field": "bbox_xyxy",
+          "value": [
+            71,
+            428,
+            92,
+            463
+          ]
+        }
+      ],
+      "evidence": [
+        "review_stage2/external_adjudication_r8/cape_left.png"
+      ],
+      "notes": [
+        "PC native5x unmarked detail confirms near left white close rim extends beyond old bbox; enlarge left/up/down accordingly. Adjacent side/back hood and dark shell protected fromy428 without assigning positive kind. Main median body and remaining ignores unchanged."
+      ]
+    }
+  ],
+  "reviewer": "Codex_PC_AI_external_r8_changes",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "actual_method": "Actual targeted native4x/6x/5x PC views of all3 changed regions; unchanged field findings and original independent objections retained."
+}

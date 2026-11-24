@@ -1,0 +1,2 @@
+MAP_OWNER_PASS four_slots=1 independent_display_upload_pins=1 partial_not_published=1 view_switch_retains_upload=1 stale_denied=1 restart_mapping=1
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\SOURCE_MAP_3_6_1\sim\map_owner_tb.sv:39: $finish called at 9870000 (1ps)

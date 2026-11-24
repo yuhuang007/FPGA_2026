@@ -1,0 +1,4 @@
+[
+  "board\\fpga_gsv1_top.v",
+  "reuse\\fram_buf.v"
+]

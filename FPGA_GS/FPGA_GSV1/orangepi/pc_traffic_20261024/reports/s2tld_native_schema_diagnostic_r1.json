@@ -1,0 +1,25 @@
+{
+  "scope": "Schema compatibility diagnostic only; draft labels are not promoted or overwritten; no assertion alldrafttruth.",
+  "native_box_vs_current_PC_draft_comparison": [
+    {
+      "kind": "motor_vehicle",
+      "relation": "IoU>=0.5",
+      "count": 467
+    },
+    {
+      "kind": "pedestrian",
+      "relation": "low_or_no_native_overlap",
+      "count": 28
+    },
+    {
+      "kind": "motor_vehicle",
+      "relation": "low_or_no_native_overlap",
+      "count": 136
+    }
+  ],
+  "pedestrian_bodies_with_source_overlap": [],
+  "all_color_classes_automatically_motor_safe": false,
+  "result": "Do not infer motor/ped kind solely from five color names; source-native kind mapping still needs sample evidence.",
+  "training_started": false,
+  "reason": "No native overlap with current drafted pedestrian bodies was observed, but absence of matches does not establish the native source kind scope. Sample source images and author definitions before mapping."
+}

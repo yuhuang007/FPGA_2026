@@ -1,0 +1,8 @@
+{
+  "query": "incategory:\"Traffic lights in Shanghai\" filetype:bitmap",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=incategory%3A%22Traffic+lights+in+Shanghai%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=16&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": ""
+  }
+}

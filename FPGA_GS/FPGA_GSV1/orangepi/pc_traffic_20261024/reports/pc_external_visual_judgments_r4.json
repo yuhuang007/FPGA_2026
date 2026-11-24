@@ -1,0 +1,355 @@
+{
+  "acquisition_manifest": "data/external_scene_candidates_r4/acquisition_manifest.json",
+  "output": "review_stage2/external_scene_pilot_r4",
+  "label_version": "external-PC-AI-r4-20261025",
+  "reviewer": "Codex_PC_AI_external_scene_r4",
+  "actual_method": "Actually viewed unmarked whole photo then saved native detail/grid; source boxes not copied. Source-photo description/keywords separated from photographer profile location.",
+  "license_audit_output": "reports/external_scene_license_audit_r4.json",
+  "independent_scope": "Actual independent body-only whole-image omission/kind/bounds review, exact hashes; check Seattle road-versus-tram head, Austin small complete front, Weehawken walking-person versus side box, Brighton full housing and backplate, Berlin saturation. Unknown color does not invalidate a reliable body. Scene observations are not split release.",
+  "judgments": [
+    {
+      "candidate_id": "coco_scene_000000514376",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            760,
+            241,
+            779,
+            279
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Visible complete vertical three-circular-aspect housing; road-head morphology, not an assumed rail-only signal from the tram presence.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_left_reverse",
+          "type": "ignore",
+          "bbox_xyxy": [
+            262,
+            342,
+            285,
+            391
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Black side/reverse units at near left pole; unreadable front kind."
+        },
+        {
+          "id": "ignore_far_road",
+          "type": "ignore",
+          "bbox_xyxy": [
+            824,
+            355,
+            1024,
+            455
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Distant road/intersection heads cannot support complete individual body geometry/kind at this resolution."
+        }
+      ],
+      "scene_id": "US_Seattle_Lake_Union_photo_8750726399",
+      "location_basis": "Saved photo description explicitly Street car in Seattle, Lake Union-Seattle; photo keywords Seattle, South Lake Union. Tram destination and ViaSeattle.com are consistent. Photo ID is bound separately in manifest, exact junction unverified.",
+      "notes": [
+        "Whole source and upper-road grid viewed. One complete large head; small/reverse assemblies preserved as ignore. No color/off truth is created."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r4/views/000000514376.jpg",
+        "data/external_scene_candidates_r4/views/514376_native_grid.png"
+      ]
+    },
+    {
+      "candidate_id": "coco_scene_000000119516",
+      "objects": [
+        {
+          "id": "ignore_upper_red",
+          "type": "ignore",
+          "bbox_xyxy": [
+            686,
+            190,
+            717,
+            236
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Red circular emission is visible, but complete physical housing and kind cannot be resolved in this exposure."
+        },
+        {
+          "id": "ignore_lower_red",
+          "type": "ignore",
+          "bbox_xyxy": [
+            437,
+            280,
+            480,
+            322
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Lower bright red head-like point is strongly saturated; complete body and symbol/kind unresolved."
+        },
+        {
+          "id": "ignore_lower_street",
+          "type": "ignore",
+          "bbox_xyxy": [
+            0,
+            320,
+            1024,
+            458
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Multiple distant signs, bright lights and small street assemblies cannot be exhaustively resolved into complete body instances."
+        }
+      ],
+      "scene_id": "DE_Berlin_Potsdamer_Platz_photo_190818272",
+      "location_basis": "Actual photo keywords Berlin, Germany, Potsdamer Platz; nighttime high-rise street consistent. Precise signal site unverified.",
+      "notes": [
+        "Whole source and native1.5x grid viewed. Red color is observable but does not certify complete body/kind; no body-positive claim."
+      ],
+      "planned_split": "excluded_no_reliable_complete_body",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r4/views/000000119516.jpg",
+        "data/external_scene_candidates_r4/views/119516_native_grid.png"
+      ]
+    },
+    {
+      "candidate_id": "coco_scene_000000542625",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            222,
+            95,
+            242,
+            141
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Separate complete vertical front-facing housing with visible circular-aspect chambers; exclude post and nearby circular traffic restriction sign.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_top_rear",
+          "type": "ignore",
+          "bbox_xyxy": [
+            583,
+            0,
+            692,
+            44
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Two rear/oblique suspended assemblies at original top boundary; front kind and complete geometry unresolved."
+        },
+        {
+          "id": "ignore_right_back",
+          "type": "ignore",
+          "bbox_xyxy": [
+            757,
+            120,
+            785,
+            156
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Small yellow rear/side fixture on right pole; no readable front kind."
+        }
+      ],
+      "scene_id": "US_Austin_photo_9089660689",
+      "location_basis": "Actual photo keywords Austin, Texas, TX, June 2013; US street hardware consistent. Exact intersection unverified.",
+      "notes": [
+        "Whole source and native upper grid viewed. Foreground bird, meter and vehicles are context; do not import them as lighting targets."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r4/views/000000542625.jpg",
+        "data/external_scene_candidates_r4/views/542625_native_grid.png"
+      ]
+    },
+    {
+      "candidate_id": "coco_scene_000000393226",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            936,
+            171,
+            955,
+            207
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Complete front-facing vertical round-aspect housing, separate from supporting arm/pole.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "body_ped",
+          "type": "body",
+          "bbox_xyxy": [
+            789,
+            272,
+            810,
+            297
+          ],
+          "kind": "pedestrian",
+          "layout": "single",
+          "kind_basis": "Readable walking-person figure inside a separate compact dark front housing; adjacent yellow side hardware not merged.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_middle_reverse",
+          "type": "ignore",
+          "bbox_xyxy": [
+            757,
+            185,
+            795,
+            221
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Oblique/rear upper head at arm bend has unreadable kind."
+        },
+        {
+          "id": "ignore_near_reverse",
+          "type": "ignore",
+          "bbox_xyxy": [
+            674,
+            247,
+            714,
+            304
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Two back/side fixtures at middle pole; no readable front to establish kind."
+        },
+        {
+          "id": "ignore_ped_side",
+          "type": "ignore",
+          "bbox_xyxy": [
+            811,
+            271,
+            836,
+            298
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Yellow side/reverse box beside walking-person face; physical relation and kind unresolved."
+        }
+      ],
+      "scene_id": "US_NJ_Weehawken_photo_7321339838",
+      "location_basis": "Saved actual photo description Weehawken, NJ; street/US walk icon consistent. Exact junction unverified.",
+      "notes": [
+        "Whole source and native1.8x signal grid viewed. One motor and one readable pedestrian front; reverse assemblies remain protected."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r4/views/000000393226.jpg",
+        "data/external_scene_candidates_r4/views/393226_native_grid.png"
+      ]
+    },
+    {
+      "candidate_id": "coco_scene_000000094751",
+      "objects": [
+        {
+          "id": "body_1",
+          "type": "body",
+          "bbox_xyxy": [
+            228,
+            158,
+            285,
+            321
+          ],
+          "kind": "motor_vehicle",
+          "layout": "vertical",
+          "kind_basis": "Three physical circular-aspect hoods in one vertical frontal housing; no off/color inference from the dark visible lens faces. Exclude mounting pole, surrounding backplate and gray top equipment.",
+          "occlusion": "none",
+          "truncated": false,
+          "control_relation": "unknown",
+          "color_status": "unknown_or_not_assessed_for_body_only",
+          "arrow_status": "unknown_or_not_assessed_for_body_only"
+        },
+        {
+          "id": "ignore_left_far",
+          "type": "ignore",
+          "bbox_xyxy": [
+            0,
+            456,
+            29,
+            510
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Small distant dark signal-like head at left source edge; full class/bounds unresolved."
+        },
+        {
+          "id": "ignore_mid_back",
+          "type": "ignore",
+          "bbox_xyxy": [
+            425,
+            472,
+            469,
+            528
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Far reverse/side traffic assemblies; no readable front."
+        },
+        {
+          "id": "ignore_right_yellow",
+          "type": "ignore",
+          "bbox_xyxy": [
+            616,
+            329,
+            643,
+            365
+          ],
+          "kind": "unknown",
+          "unknown_reason": "other",
+          "reason": "Small oblique yellow fixture at roof/balcony; exact object/kind unresolved."
+        }
+      ],
+      "scene_id": "UK_Brighton_photo_9572416",
+      "location_basis": "Saved actual photo description The pleasures of motoring in Brighton; coastal road and GET IN LANE sign consistent. Exact junction unverified.",
+      "notes": [
+        "Whole unmarked portrait and native2x foreground grid viewed. Main head morphology is reliable even with all color/arrow states unassessed. Independent reviewer must verify backplate-versus-body boundary."
+      ],
+      "planned_split": "unassigned_pending_group_audit",
+      "actual_full_image_viewed": true,
+      "actual_detail_viewed": true,
+      "evidence": [
+        "data/external_scene_candidates_r4/views/000000094751.jpg",
+        "data/external_scene_candidates_r4/views/94751_native_grid.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "passed": false,
+  "reviewer_type": "AI",
+  "human_signoff": null,
+  "candidate_count": 400,
+  "near_duplicate_pairs_visually_checked": 87,
+  "nontrivial_near_duplicate_components": 20,
+  "same_capture_redundant_images": 6,
+  "proposed_group_counts": {
+    "route_visual_A": 154,
+    "route_visual_B": 246
+  },
+  "proposed_split_counts": {
+    "train": 154,
+    "val": 246
+  },
+  "near_duplicate_cross_proposed_split": 0,
+  "official_split_counts": {
+    "unassigned": 400
+  },
+  "blocking": [
+    "independent visual site/group review pending",
+    "human confirmation required by annotation policy pending",
+    "revised labels not all complete",
+    "route A/B independence not established"
+  ],
+  "external_test_scenes": 0,
+  "final_generalization_metrics": "N/A"
+}

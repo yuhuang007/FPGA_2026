@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T06:27:06.964625+00:00",
+  "entries": [
+    {
+      "candidate_id": "commons_scene_96872883",
+      "author": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+      "photo_page": "https://commons.wikimedia.org/wiki/File:North_start_of_Niujie_St_(20201125145623).jpg",
+      "title": "File:North start of Niujie St (20201125145623).jpg",
+      "eligible_license": true,
+      "conflict_quarantined": false,
+      "current_license": "CC BY-SA 4.0",
+      "current_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "share_alike_required_for_shared_photo_derivatives": true,
+      "metadata_evidence_file": "data/external_scene_candidates_china_beijing_r2/provenance/commons_96872883_metadata.json",
+      "metadata_evidence_sha256": "d65fa763e2a3c8a30fa5c93da6062c6e8a7360339575d587e9051939485ede86",
+      "source": "Wikimedia_Commons"
+    }
+  ],
+  "verified_current_CC_BY": 0,
+  "verified_current_CC0": 0,
+  "quarantined_license_conflict": 0,
+  "training_release": false
+}

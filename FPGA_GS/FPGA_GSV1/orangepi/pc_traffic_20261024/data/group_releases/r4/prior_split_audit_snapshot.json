@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-25T05:20:10.539035+00:00",
+  "passed": true,
+  "scope": "Source split risk closure only, independent of label/export/quantity/coverage gates.",
+  "release": "data/group_releases/r3/manifest.json",
+  "release_sha256": "1687d1506d381ba8b90456a461036b9485c745023344e839bbb809a1b2b8e3d9",
+  "two_AI_source_audits": true,
+  "human_signoff": false,
+  "train_leakage_units": 1,
+  "independent_val_source_groups": 8,
+  "reserved_final_test_source_groups": 1,
+  "final_test_statistical_adequacy_approved": false,
+  "training_release": false,
+  "annotation_binding_only_refresh": true,
+  "original_source_audit_scope_preserved": true
+}

@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-25T02:47:45.955646+00:00",
+  "pilot_manifest_sha256": "369aaa576389ed2cc5f20f3167c97787be3f8a454dd328eda0b1f5f26f9562a2",
+  "passed": true,
+  "reviewer": "Codex_PC_AI_clean_crop_visual_20261025",
+  "reviewer_type": "AI",
+  "human_signoff": false,
+  "independent_crop_review_claimed": false,
+  "entries": [
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "source_annotation_sha256": "ed034072c6bae15021b73a3f5e0562878787cdf269d6bb0105840bbb1b16f8a9",
+      "crop_sha256": "4e750af5b1fe0359c54699f842dc6ad9262499945bbca00a8e1d1e63b83dcc56",
+      "viewed_crop_overlay": "review_stage2/clean_crop_pilot_r6/views/coco_scene_000000015272_clean01_crop.jpg",
+      "viewed_overlay_sha256": "50535200388a3d2ea1ffbe1a5c74790c199e30faeb65dd29e726bf1e3bc05952",
+      "notes": "Uncropped full-source pixels preserve one complete horizontal three-module head and cherry/street context. Green box covers whole shared assembly. No additional signal or new partial body seen. Original edge provides less than one body width of lateral margin, so retain all actually available context rather than inventing pixels outside the photo.",
+      "all_visible_body_targets_checked": true,
+      "new_truncated_body_seen": false,
+      "unlabelled_signal_seen": false,
+      "crop_context_passed_for_detection_pilot": true,
+      "human_signoff": false,
+      "training_release": false
+    }
+  ],
+  "no_safe_crop_ids": [
+    "coco_scene_000000183246"
+  ],
+  "training_release": false
+}

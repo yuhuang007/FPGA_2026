@@ -1,0 +1,114 @@
+{
+  "recorded_at": "2026-10-25T02:10:49.487019+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_pilot_r3/manifest.json",
+  "pilot_manifest_sha256": "58840fbf0492a93bc4106a34bf3059a3d1641f0d21e55ea1b9d8c2c3be2d42fc",
+  "passed": true,
+  "originals": 8,
+  "targets": 13,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.660000397256226e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 8.125000476866262e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0013",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.7600001096270717e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0016",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.280000436869159e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0215",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 4.400000079840538e-07,
+      "body_count": 1
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.0199997758682e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0390",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.400000529538374e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 3.8850004102641833e-07,
+      "body_count": 2
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "coco_scene_000000008762_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0000_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0012_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0013_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0016_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0215_clean01.png",
+        "targets": 1
+      },
+      {
+        "file": "s2tld1080_0339_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0390_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true
+}

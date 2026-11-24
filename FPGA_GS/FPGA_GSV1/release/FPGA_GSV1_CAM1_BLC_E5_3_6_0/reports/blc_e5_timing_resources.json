@@ -1,0 +1,204 @@
+{
+  "internal_constraints_met": true,
+  "summaries": [
+    {
+      "summary": "Setup Summary(Slow Corner):",
+      "worst_slack_ns": 0.07,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Slow Corner):",
+      "worst_slack_ns": 0.096,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Slow Corner):",
+      "worst_slack_ns": 4.108,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Slow Corner):",
+      "worst_slack_ns": 0.458,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Slow Corner):",
+      "worst_slack_ns": 0.397,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Setup Summary(Fast Corner):",
+      "worst_slack_ns": 0.312,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Hold Summary(Fast Corner):",
+      "worst_slack_ns": 0.137,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Recovery Summary(Fast Corner):",
+      "worst_slack_ns": 5.29,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Removal Summary(Fast Corner):",
+      "worst_slack_ns": 0.302,
+      "failing_endpoints": 0
+    },
+    {
+      "summary": "Pulse Width Summary(Fast Corner):",
+      "worst_slack_ns": 0.568,
+      "failing_endpoints": 0
+    }
+  ],
+  "resources": {
+    "CLMA": 5196.0,
+    "CLMS": 3316.0,
+    "DRM": 110.0,
+    "PLL": 5.0,
+    "LUT": 24308.0,
+    "FF": 26539.0
+  },
+  "implemented_input_registers": {
+    "cmos2_data[0]": "IREGIS",
+    "cmos2_data[1]": "IREGIS",
+    "cmos2_data[2]": "IREGIS",
+    "cmos2_data[3]": "IREGIS",
+    "cmos2_data[4]": "IREGIS",
+    "cmos2_data[5]": "IREGIS",
+    "cmos2_data[6]": "IREGIS",
+    "cmos2_data[7]": "IREGIS",
+    "cmos2_href": "IREGIS",
+    "cmos2_vsync": "IREGIS"
+  },
+  "IO_receiver_requirements": [
+    {
+      "port": "cmos2_data[0]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.092,
+      "hold_requirement_ns": 5.329
+    },
+    {
+      "port": "cmos2_data[0]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.716,
+      "hold_requirement_ns": 3.313
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.051,
+      "hold_requirement_ns": 5.288
+    },
+    {
+      "port": "cmos2_data[1]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.68,
+      "hold_requirement_ns": 3.277
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.052,
+      "hold_requirement_ns": 5.289
+    },
+    {
+      "port": "cmos2_data[2]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.681,
+      "hold_requirement_ns": 3.278
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.051,
+      "hold_requirement_ns": 5.287
+    },
+    {
+      "port": "cmos2_data[3]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.683,
+      "hold_requirement_ns": 3.28
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.067,
+      "hold_requirement_ns": 5.304
+    },
+    {
+      "port": "cmos2_data[4]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.691,
+      "hold_requirement_ns": 3.288
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.014,
+      "hold_requirement_ns": 5.25
+    },
+    {
+      "port": "cmos2_data[5]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.646,
+      "hold_requirement_ns": 3.243
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.02,
+      "hold_requirement_ns": 5.256
+    },
+    {
+      "port": "cmos2_data[6]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.652,
+      "hold_requirement_ns": 3.249
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.018,
+      "hold_requirement_ns": 5.254
+    },
+    {
+      "port": "cmos2_data[7]",
+      "corner": "FAST",
+      "setup_requirement_ns": -1.65,
+      "hold_requirement_ns": 3.247
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.871,
+      "hold_requirement_ns": 5.473
+    },
+    {
+      "port": "cmos2_href",
+      "corner": "FAST",
+      "setup_requirement_ns": -2.277,
+      "hold_requirement_ns": 3.408
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "SLOW",
+      "setup_requirement_ns": -3.872,
+      "hold_requirement_ns": 5.474
+    },
+    {
+      "port": "cmos2_vsync",
+      "corner": "FAST",
+      "setup_requirement_ns": -2.278,
+      "hold_requirement_ns": 3.409
+    }
+  ],
+  "external_DVP_input_timing_signed_off": false,
+  "limits": [
+    "TY module DOVDD, source output tCO min/max/guaranteed launch edge and actual FFC/PCB skew remain unknown.",
+    "Receiver IO datasheet numbers are requirements, not source margin or physical measurements.",
+    "E4 constraints preserved byte-for-byte. No period relaxation or new false path.",
+    "Inherited network/other external model limitations remain; internal STA is not full board signoff."
+  ]
+}

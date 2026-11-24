@@ -1,0 +1,2409 @@
+<!DOCTYPE html>
+<html lang="de-DE" class="no-js" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="utf-8">
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<link rel="icon" href="/_assets/a92153751098915699a1afa17e77f864/Images/favicon.ico" type="image/png">
+<title>Registrierungsformular DTLD - Universität Ulm</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="index,follow">
+<meta name="language" content="de">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/basic-9093e6d547798a1c9a383ca5e898fd9e.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/print-a1f07bd5b005e743ebd87fe6057e5644.css.gz?1792671775" media="print">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/fontawesome-64a198ad1129b6398f421d4da3c8af48.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/academicons-be3dad68d08a356c73f0549f43d7346e.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/ods_osm-e602379d8775fcd5e82e34cfabf80d87.css.gz?1792671775" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/style-639ea8e88699f0d4c212223d81ab3042.css.gz?1792671775" media="all">
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />						<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-news.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-jobs.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-kiz.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-news.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-dbis-kolloquium-events.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-pe.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-cs.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-ds.rss" />
+      <link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning-moodle.rss" />
+      <link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning-ohne-moodle.rss" />
+			<link rel="alternate" type="application/rss+xml" href="https://www.uni-ulm.de/feed-elearning.rss" />
+			<link rel="alternate" type="text/calendar" href="https://www.uni-ulm.de/feed-elearning-workshops.ics" /><script>document.documentElement.className = 'js';</script>			<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://webanalyse.uni-ulm.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<link rel="canonical" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/">
+
+<link rel="alternate" hreflang="de-DE" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/">
+<link rel="alternate" hreflang="en-GB" href="https://www.uni-ulm.de/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/registration-form-dtld/">
+<link rel="alternate" hreflang="x-default" href="https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/">
+</head>
+<body data-page-identifier="95910" class="faculty-it">
+<header class="js-page-header page-header">
+
+	<nav class="skipnav--skipanchors" aria-label="Bereiche überspringen">
+    <ul class="skipnav__list" >
+        <li class="skipnav__item " data-level-count="1" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#mainNavIdentifier" tabindex="0">Direkt zur Hauptnavigation</a>
+        </li>
+        <li class="skipnav__item " data-level-count="2" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#mainContentIdentifier" tabindex="0">Direkt zum Inhalt</a>
+        </li>
+        <li class="skipnav__item " data-level-count="3" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#toolbarIdentifier" tabindex="0" >Direkt zum Funktionsmenü (Sprache, Drucken, Social Media)</a>
+        </li>
+        <li class="skipnav__item " data-level-count="4" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#footerNavIdentifier" tabindex="0" >Direkt zur Fußleiste</a>
+        </li>
+        <li class="skipnav__item " data-level-count="5" >
+            <a class="skipnavLink sr-only sr-only-focusable" href="#searchIdentifier" tabindex="0">Direkt zur Suche</a>
+        </li>
+    </ul>
+</nav>
+
+	<div class="container">
+		<div class="row row-cols-1 row-cols-md-2">
+			<div class="col">
+				
+	
+	
+			<div class="entry-page-title">
+				
+						<a href="/in/mrm/" class="entry-page-title__link">Institut für Mess-, Regel- und Mikrotechnik</a>
+					
+			</div>
+		
+
+				
+			</div>
+
+			<div class="col">
+				
+	<div class="logo">
+		<a class="logo__link" href="/" title="Startseite">
+			<img class="logo__img" src="/_assets/a92153751098915699a1afa17e77f864/Images/logo-uni-ulm.svg?1792671732" alt="Logo der Universität Ulm" />
+		</a>
+	</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="page-header__row-main-nav">
+		<div class="row">
+			<div class="js-search-bar-field search-bar search-bar--major">
+				
+<div class="container">
+	<form action="https://duckduckgo.com/" class="d-flex js-duckduck" target="_blank">
+		<input type="hidden" name="k1" value="-1" />
+		<input id="q"
+			   class="form-control me-2 js-duckduck-query"
+			   type="search"
+			   name="q"
+			   placeholder="Suchbegriff eingeben"
+			   value=""
+			   aria-label="Suche"
+		>
+		<button class="button--thin search-bar__submit js-duckduck-submit" type="submit">Suchen</button>
+	</form>
+</div>
+
+			</div>
+
+			
+
+
+
+<nav class="js-main-navigation main-navigation">
+		
+			<i class="js-main-navigation-toggle main-navigation_mobileopen" tabindex="0" aria-label="Menü öffnen">
+				Menü
+			</i>
+		
+	<div class="container">
+		
+	<ul class="js-main-navigation-list main-navigation-list list-unstyled main-navigation-level1 noMarginlist" id="mainNavIdentifier">
+			
+				
+					
+					
+						<li class="navigation-title"><span>Institut für Mess-, Regel- u. Mikrotechnik</span>
+					
+
+					
+					
+							
+									
+	<li>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Lehre<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Lehre</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/vorlesungen-sommersemester/">
+				Vorlesungen (Sommersemester)
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Vorlesungen (Sommersemester)</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/automatisierungstechnik-multi-agenten-systeme/">
+				Automatisierungstechnik: Multi-Agenten-Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/dr/">
+				Digitale Regelungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/ert/">
+				Einführung in die Regelungstechnik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-sommersemester/nichtlineare-regelungen/">
+				Nichtlineare Regelungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/vorlesungen-wintersemester/">
+				Vorlesungen (Wintersemester)
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Vorlesungen (Wintersemester)</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/einfuehrung-in-die-messtechnik/">
+				Einführung in die Messtechnik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/fahrerassistenzsysteme-und-automatisiertes-fahren/">
+				Fahrerassistenzsysteme und Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/filter-u-trackingverfahren/">
+				Filter- u. Trackingverfahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/ids/">
+				Identifikation dynamischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/ids-1/">
+				Machine Learning for Dynamical Systems
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/mds/">
+				Modellbildung dynamischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/regelung-verteilt-parametrischer-systeme/">
+				Regelung verteilt-parametrischer Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vorlesungen-wintersemester/systemtheorie-mehrgroessenregelung-im-zustandsraum/">
+				Systemtheorie: Mehrgrößenregelung im Zustandsraum
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/projekte-praktika/">
+				Projekte &amp; Praktika
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Projekte &amp; Praktika</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/mess-und-automatisierungstechnik-wintersemester/">
+				Mess- und Automatisierungstechnik (Wintersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/projekt-automatisiertes-fahren/">
+				Projekt Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/projekt-wissenschaftliche-software-tools-sommersemester/">
+				Projekt Wissenschaftliche Software-Tools (Sommersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/projekte-praktika/regelungstechnik-sommersemester/">
+				Regelungstechnik (Sommersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/lehre/seminare/">
+				Seminare
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Seminare</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/seminare/seminar-moderne-methoden-der-regelungstechnik-sommer-und-wintersemester/">
+				Seminar Moderne Methoden der Regelungstechnik (Sommer- und Wintersemester)
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/vortragsankuendigungen/">
+				Vortragsankündigungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/lehre/studentische-arbeiten/">
+				Studentische Arbeiten
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li data-actnavigationpage=&quot;1&quot;>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Forschung<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschung</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/">
+				Methoden &amp; Kompetenzen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Methoden &amp; Kompetenzen</span>
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/maschinelle-lernverfahren/">
+				Maschinelle Lernverfahren
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Maschinelle Lernverfahren</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/maschinelle-lernverfahren/maschinelles-sehen/">
+				Maschinelles Sehen
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/klassifikation-und-situationsverstehen/">
+				Klassifikation und Situationsverstehen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/modellbildung-identifikation-diagnose/">
+				Modellbildung, Identifikation &amp; Diagnose
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/">
+				Probabilistische Datenverarbeitung
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Probabilistische Datenverarbeitung</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/informationsfusion-1/">
+				Informationsfusion
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/probabilistische-datenverarbeitung/tracking-lokalisierung-1/">
+				Tracking &amp; Lokalisierung
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/methoden-kompetenzen/verteilt-parametrische-systeme/">
+				Verteilt-parametrische Systeme
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/forschungsthemen/">
+				Forschungsthemen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschungsthemen</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/automatisiertes-fahren/">
+				Automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/elektromobilitaet/">
+				Elektromobilität
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/mechatronik/">
+				Mechatronik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/robotik/">
+				Robotik
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/forschungsthemen/vernetztes-fahren-vernetzte-infrastruktur/">
+				Vernetztes Fahren / Vernetzte Infrastruktur
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/infrastruktur/">
+				Infrastruktur
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Infrastruktur</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschungfrastruktur/vis/">
+				Infrastruktursensorik für vernetztes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/infrastruktur/pruefstaende-elektromobilitaet/">
+				Prüfstände Elektromobilität
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/infrastruktur/versuchstraeger-fuer-automatisiertes-fahren/">
+				Versuchsträger für automatisiertes Fahren
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li data-actnavigationpage=&quot;1&quot;>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/">
+				Datensätze
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Datensätze</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/aduulm-dataset/">
+				ADUULM Dataset
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/dense-datasets/">
+				DENSE Datasets
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>DENSE Datasets</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/dense-datasets/registrierungsformular-dense/">
+				Registrierungsformular DENSE
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li data-actnavigationpage=&quot;1&quot;>
+	
+			<a class="main-navigation_next" href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/">
+				DriveU Traffic Light Dataset
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level4">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>DriveU Traffic Light Dataset</span>
+					
+					
+
+
+
+<li data-curnavigationpage=&quot;1&quot;>
+	
+			<a href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/">
+				Registrierungsformular DTLD
+			</a>
+			
+		
+		
+
+
+
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/ausgruendungen/">
+				Ausgründungen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/forschung/publikationen/">
+				Publikationen
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li>
+		
+					<span class="js-main-navigation-forth main-navigation-nolink main-navigation_next-level1 main-navigation_next main-navigation_next-level1--arrow" tabindex="0">
+						Institut<i></i>
+					</span>
+				
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level2">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Institut</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/mitarbeitende/">
+				Mitarbeitende
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a class="main-navigation_next" href="/in/mrm/institut/forschungsgruppen/">
+				Forschungsgruppen
+			</a>
+			<i class="js-main-navigation-forth main-navigation-forth" tabindex="0"></i>
+		
+		
+
+
+
+
+		
+			<ul class="list-unstyled main-navigation-level3">
+				
+					
+						<li class="navigation-title"><button class="js-main-navigation-back main-navigation__back"></button><span>Forschungsgruppen</span>
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/beckers/">
+				Beckers
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/buchholz/">
+				Buchholz
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/deutscher/">
+				Deutscher
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/forschungsgruppen/dietmayer/">
+				Dietmayer
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/schriftenreihe/">
+				Schriftenreihe
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+					
+					
+
+
+
+<li>
+	
+			<a href="/in/mrm/institut/kontakt/">
+				Kontakt
+			</a>
+			
+		
+		
+
+
+
+
+		
+
+
+
+
+</li>
+
+
+
+				
+			</ul>
+		
+
+
+
+
+			
+	</li>
+
+								
+						
+				
+					
+					
+
+					
+					
+							
+									
+	<li>
+		
+				
+						<a class="main-navigation_next-level1" href="/in/mrm/stellenangebote/">Stellenangebote</a>
+					
+
+			
+	</li>
+
+								
+						
+				
+
+				
+				
+			
+
+		<li>
+			<button class="js-search-bar-button-desktop button button--no-style search-bar-toggle search-bar-toggle--desktop" id="searchIdentifier" aria-label="Suche" title="Suche"></button>
+		</li>
+	</ul>
+
+	</div>
+
+	<button class="js-search-bar-button-mobile button button--no-style search-bar-toggle search-bar-toggle--mobile" aria-label="Suche" title="Suche"></button>
+</nav>
+
+
+
+
+
+
+
+
+
+
+			
+				<div class="breadcrumb__container">
+	<div class="container py-0">
+		<nav class="breadcrumb mb-0" aria-labelledby="nav-indicator">
+			<!-- <span class="breadcrumb__indicator" id="nav-indicator">Sie sind hier:</span> -->
+			<a class="breadcrumb__link-home" href="/" title="Startseite"></a>
+			<ul class="breadcrumb__list js-breadcrumb-list"><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/" class="breadcrumb__link">Institut für Mess-, Regel- u. Mikrotechnik</a></li><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/forschung/" class="breadcrumb__link">Forschung</a></li><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/forschung/datensaetze-1/" class="breadcrumb__link">Datensätze</a></li><li class="breadcrumb__item breadcrumb__item--collapse"><a href="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/" class="breadcrumb__link">DriveU Traffic Light Dataset</a></li><li class="breadcrumb__item breadcrumb__item--collapse">Registrierungsformular DTLD</li></ul>
+		</nav>
+	</div>
+</div>
+
+			
+		</div>
+	</div>
+
+	
+
+
+<ul class="js-toolbar toolbar" id="toolbarIdentifier">
+	<li class="js-coco-parent toolbar__item toolbar__item--has-submenu">
+		<button class="js-toolbar-button-toggle toolbar__button toolbar__button--toggle"
+		        title="Teilen">
+			<img class="toolbar__button-img"
+			     alt="Teilen"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/share.svg?1792671732"
+			     width="30" />
+		</button>
+		<ul class="js-coco-child js-toolbar-button-submenu toolbar__button toolbar__button--submenu">
+			<li class="toolbar__submenu-item">
+				<a class="toolbar__button"
+				   href="https://www.facebook.com/sharer/sharer.php?u=https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/"
+				   target="_blank"
+				   title="Facebook">
+					<img class="toolbar__button-img"
+					     alt="FB"
+					     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/facebook.svg?1792671732"
+					     width="30" />
+				</a>
+			</li>
+			<li class="toolbar__submenu-item">
+				<a class="toolbar__button"
+				   href="mailto:?&subject=Universität&nbsp;Ulm&body=https://www.uni-ulm.de/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/"
+				   target="_blank"
+				   title="Mail">
+					<img class="toolbar__button-img"
+					     alt="@"
+					     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/mail.svg?1792671732"
+					     width="30" />
+				</a>
+			</li>
+		</ul>
+	</li>
+	<li class="js-coco-parent toolbar__item toolbar__item--has-submenu">
+		<button class="js-toolbar-button-toggle toolbar__button toolbar__button--toggle"
+						title="Sprache wählen">
+			<img class="toolbar__button-img"
+					 alt="Sprache wählen"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/globe-white.svg?1792671732"
+					 width="30" />
+		</button>
+		<ul class="js-coco-child js-toolbar-button-submenu toolbar__button toolbar__button--submenu">
+			
+				
+			
+				
+					<li class="toolbar__submenu-item">
+						<a href="/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/registration-form-dtld/" title="English" class="toolbar__button toolbar__button--text">
+							EN
+						</a>
+					</li>
+				
+			
+		</ul>
+	</li>
+	<li class="js-toolbar-item-print toolbar__item toolbar__item--print">
+		<a class="toolbar__button"
+		   href="javascript:window.print()"
+		   title="Diese Seite ausdrucken">
+			<img class="toolbar__button-img"
+			     alt="Druck"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/print.svg?1792671732"
+			     width="30" />
+		</a>
+	</li>
+	<li class="js-toolbar-item-top toolbar__item toolbar__item--top">
+		<a class="toolbar__button"
+		   href="#"
+		   title="Nach oben">
+			<img class="toolbar__button-img"
+			     alt="Top"
+			     src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/arrow-ghost-top.svg?1792671732"
+			     width="30" />
+		</a>
+	</li>
+</ul>
+
+</header>
+
+<main class="row" id="mainContentIdentifier">
+	
+	
+
+
+
+<div id="c758749" class="grid-element">
+	<div class="container">
+		
+
+
+
+		
+				
+						
+	<div class="gridlayout gridlayout--100 gridlayout--address">
+		<div class="row row-cols-1 g-0">
+			
+				
+<div id="c758750" class="frame frame-custom-30 frame-type-powermail_pi1 frame-layout-10"><header><div class="container"><div class="row gx-0"><h1 class="content-element__title">
+								
+									
+	Registrierungsformular DTLD
+
+								
+							</h1></div></div></header><div class="container"><div class="row gx-0"><div class="tx-powermail"><div class="container"><div class="row gx-0"><ul class="form__error--list parsley-error u-hide" data-cookievalidation="container"><li>Bitte erlauben Sie Cookies in Ihrem Browser</li></ul><script>
+	var element = document.querySelector('[data-cookievalidation="container"]');
+	if (element !== null) {
+		if (navigator.cookieEnabled === false) {
+			element.classList.remove('u-hide');
+		}
+	}
+</script><div class="container-fluid"><form data-powermail-validate="data-powermail-validate" data-validate="html5" enctype="multipart/form-data" class="powermail_form powermail_form_1102   " action="/in/mrm/forschung/datensaetze-1/driveu-traffic-light-dataset/registrierungsformular-dtld/?tx_powermail_pi1%5Baction%5D=confirmation&amp;tx_powermail_pi1%5Bcontroller%5D=Form&amp;cHash=e2120a65f9614d61e3d7b07783542102#c758750" method="post" name="field"><div><input type="hidden" name="tx_powermail_pi1[__referrer][@extension]" value="Powermail" ><input type="hidden" name="tx_powermail_pi1[__referrer][@controller]" value="Form" ><input type="hidden" name="tx_powermail_pi1[__referrer][@action]" value="form" ><input type="hidden" name="tx_powermail_pi1[__referrer][arguments]" value="YTowOnt948522aa87baab8fc51909690f31e838dd15f7f13" ><input type="hidden" name="tx_powermail_pi1[__referrer][@request]" value="{&quot;@extension&quot;:&quot;Powermail&quot;,&quot;@controller&quot;:&quot;Form&quot;,&quot;@action&quot;:&quot;form&quot;}5a8766af859a276208f2ccf3931926d10a78a0bb" ><input type="hidden" name="tx_powermail_pi1[__trustedProperties]" value="{&quot;field&quot;:{&quot;name&quot;:1,&quot;lastname&quot;:1,&quot;emailfordatadownload&quot;:1,&quot;marker_02&quot;:1,&quot;nameoforgnisation&quot;:1,&quot;street&quot;:1,&quot;number&quot;:1,&quot;zipcode&quot;:1,&quot;city&quot;:1,&quot;country&quot;:1,&quot;marker_03&quot;:[1],&quot;__hp&quot;:1},&quot;powermail_privacy&quot;:1,&quot;mail&quot;:{&quot;form&quot;:1}}756a7a9a76247e2d9c5ed021211480a3bf522761" ></div><fieldset class="powermail_fieldset powermail_fieldset_1902 "><legend class="powermail_legend">Interessent Ampeldatensatz</legend><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_name  "><div class="powermail_field"><label for="powermail_field_name" class="form-label powermail_label" title="">
+        Vorname<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_name" type="text" name="tx_powermail_pi1[field][name]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_lastname  "><div class="powermail_field"><label for="powermail_field_lastname" class="form-label powermail_label" title="">
+        Nachname<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_lastname" type="text" name="tx_powermail_pi1[field][lastname]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_emailfordatadownload  "><div class="powermail_field"><label for="powermail_field_emailfordatadownload" class="form-label powermail_label" title="">
+        Email-Adresse für Download<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" data-powermail-error-message="Keine gültige E-Mail-Adresse!" class="powermail_input form-control " id="powermail_field_emailfordatadownload" type="email" name="tx_powermail_pi1[field][emailfordatadownload]" value="" /></div></div><div role="radiogroup" class="powermail_fieldwrap powermail_fieldwrap_type_radio powermail_fieldwrap_marker_02  "><label for="powermail_field_marker_02" class="form-label powermail_label" title="">
+        Organisation<span class="mandatory" aria-hidden="true">*</span></label><div class="powermail_field"><div class="form-check powermail_radiowrap "><label><input aria-checked="false" required="required" data-powermail-required-message="Eines dieser Felder muss ausgefüllt werden!" data-powermail-errors-container=".powermail_field_error_container_marker_02" data-powermail-class-handler=".powermail_fieldwrap_marker_02 &gt; div &gt; div" id="powermail_field_marker_02_1" class="powermail_radio" type="radio" name="tx_powermail_pi1[field][marker_02]" value="Firma" />
+                    Firma
+                </label></div><div class="form-check powermail_radiowrap "><label><input aria-checked="false" id="powermail_field_marker_02_2" class="powermail_radio" type="radio" name="tx_powermail_pi1[field][marker_02]" value="Universität" />
+                    Universität
+                </label></div><div class="form-check powermail_radiowrap "><label><input aria-checked="false" id="powermail_field_marker_02_3" class="powermail_radio" type="radio" name="tx_powermail_pi1[field][marker_02]" value="Forschungseinrichtung" />
+                    Forschungseinrichtung
+                </label></div><div class="powermail_field_error_container powermail_field_error_container_marker_02"></div></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_nameoforgnisation  "><div class="powermail_field"><label for="powermail_field_nameoforgnisation" class="form-label powermail_label" title="">
+        Organisationsname<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_nameoforgnisation" type="text" name="tx_powermail_pi1[field][nameoforgnisation]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_street  "><div class="powermail_field"><label for="powermail_field_street" class="form-label powermail_label" title="">
+        Straße<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_street" type="text" name="tx_powermail_pi1[field][street]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_number  "><div class="powermail_field"><label for="powermail_field_number" class="form-label powermail_label" title="">
+        Hausnummer<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_number" type="text" name="tx_powermail_pi1[field][number]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_zipcode  "><div class="powermail_field"><label for="powermail_field_zipcode" class="form-label powermail_label" title="">
+        Postleitzahl<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_zipcode" type="text" name="tx_powermail_pi1[field][zipcode]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_city  "><div class="powermail_field"><label for="powermail_field_city" class="form-label powermail_label" title="">
+        Stadt<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_city" type="text" name="tx_powermail_pi1[field][city]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_input powermail_fieldwrap_country  "><div class="powermail_field"><label for="powermail_field_country" class="form-label powermail_label" title="">
+        Land<span class="mandatory" aria-hidden="true">*</span></label><input required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" class="powermail_input form-control " id="powermail_field_country" type="text" name="tx_powermail_pi1[field][country]" value="" /></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_html powermail_fieldwrap_termsofuse  "><div class="powermail_field "><h1>Nutzungsbedingungen</h1><p>
+Mit dem Akzeptieren dieser Nutzungsbedingungen erhält der Nutzer das Recht, das DriveU Traffic Light Dataset (DTLD) kostenlos, nicht - exklusiv, zeitlich und räumlich uneingeschränkt für eigene Lehr- und Forschungszwecke  zu nutzen. Dieses umfasst insbesondere auch das Recht die Daten zu speichern und zu bearbeiten. Eine kommerzielle Nutzung ist ebenso ausgeschlossen, wie jegliche (kostenfreie oder kostenpflichtige) Weitergabe der Daten an Dritte.
+</p><p>
+Der Nutzer ist bei Verarbeitung der Dateien für die Einhaltung der in seinem Land jeweils gültigen datenschutzrechtlichen Regelungen (in Europa gemäß DSGVO, ggf. i.V.m. geltenden Landesdatenschutzgesetzen) selbst verantwortlich. Unter Einhaltung dieser Regelungen ist die auszugsweise Nutzung von Bildern aus dem Datensatz in wissenschaftlichen Publikationen gestattet. Hierfür sind mindestens Personen und Fahrzeugkennzeichen unkenntlich zu machen. In allen Publikationen, die Ergebnisse enthalten die unter Nutzung des DTLD entstanden ist, ist als Quelle das Paper DOI: 10.1109/ICRA.2018.8460737 anzugeben.
+</p><p>
+Für die Fehlerfreiheit und Nutzbarkeit der Daten wir keine Gewährleistung übernommen. Die Verwendung der Daten geschieht auf eigene Gefahr, eine Haftung für Schäden jedweder Art, die sich aus der Nutzung ergeben, ist ausgeschlossen. 
+</p></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_check powermail_fieldwrap_marker_03  "><label for="powermail_field_marker_03" class="form-label powermail_label" title="">
+        Bestätigung der Nutzungsbedingungen<span class="mandatory" aria-hidden="true">*</span></label><div class="powermail_field"><div class="form-check powermail_checkwrap "><label><input type="hidden" name="tx_powermail_pi1[field][marker_03]" value="" /><input aria-checked="false" required="required" data-powermail-required-message="Dieses Feld muss ausgefüllt werden!" data-powermail-errors-container=".powermail_field_error_container_marker_03" data-powermail-class-handler=".powermail_fieldwrap_marker_03 &gt; div &gt; div" id="powermail_field_marker_03_1" class="powermail_checkbox powermail_checkbox_17886" type="checkbox" name="tx_powermail_pi1[field][marker_03][]" value="Die Nutzungsbedingungen habe ich gelesen und verstanden." />
+					Die Nutzungsbedingungen habe ich gelesen und verstanden.
+				</label></div><div class="powermail_field_error_container powermail_field_error_container_marker_03"></div></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_html powermail_fieldwrap_marker_01  "><div class="powermail_field "><h1>Datenschutzerklärung </h1></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_submit powermail_fieldwrap_marker  "><div class="background-box background-box--no-title-gap background-box--neutral"><div class="background-box__content"><p>&nbsp;</p><p>					Die im Formular von Ihnen angegebenen Daten werden von uns ausschließlich für die Beantwortung bzw. Umsetzung Ihrer Anfrage und zur Kontaktaufnahme verarbeitet. Für die Verarbeitung beziehen wir uns auf den Art. 6. Abs. 1 lit. a DSGVO, sofern keine anderweitige gesetzliche Grundlage besteht. Eine Weitergabe an Dritte findet grundsätzlich nicht statt. Sie können Ihre erteilte Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Im Falle des Widerrufs werden Ihre Daten umgehend gelöscht. Ihre Daten werden ansonsten gelöscht, wenn wir Ihre Anfrage bearbeitet haben oder der Zweck der Speicherung entfallen ist. Sie können sich jederzeit über die zu Ihrer Person gespeicherten Daten informieren. Weitere Informationen zum Datenschutz finden Sie auch in der <a href="/rechtliche-hinweise/datenschutz/" target="_blank">Datenschutzerklärung</a> dieser Webseite.</p></div></div><label><input type="hidden" name="tx_powermail_pi1[powermail_privacy]" value="" /><input required="required" aria-checked="false" aria-required="true" data-powermail-required-message="Dies ist ein Pflichtfeld" data-powermail-required="true" data-powermail-errors-container=".powermail_field_error_container_checkboxprivacy" class="powermail_checkbox powermail_checkbox_23461" type="checkbox" name="tx_powermail_pi1[powermail_privacy]" value="true" /><br />
+					Den vorgenannten Hinweis und die Datenschutzerklärung habe ich zur Kenntnis genommen.<br />
+					Mit der oben genannten Art der Verarbeitung meiner freiwillig anzugebenden Daten bin ich einverstanden. *<br /></label><div class="powermail_field_error_container powermail_field_error_container_checkboxprivacy"></div></div><div class="powermail_fieldwrap powermail_fieldwrap_type_submit powermail_fieldwrap_marker  "><div class="powermail_field "><button class="btn btn-primary button button--dart" type="submit" name="" value="">
+					Zur Datenüberprüfung
+				</button></div></div></fieldset><input class="powermail_form_uid" type="hidden" name="tx_powermail_pi1[mail][form]" value="1102" /><div style="margin-left: -99999px; position: absolute;"><label for="powermail_hp_1102" aria-hidden="true">
+			Bitte dieses Feld NICHT ausfüllen!
+		</label><input autocomplete="new-powermail-hp-1102" aria-hidden="true" id="powermail_hp_1102" tabindex="-1" type="text" name="tx_powermail_pi1[field][__hp]" value="" /></div></form></div></div></div></div>
+</div></div></div>
+
+
+			
+		</div>
+	</div>
+
+					
+			
+	</div>
+</div>
+
+
+
+
+</main>
+
+<footer>
+	
+	<nav class="footer-navigation" id="footerNavIdentifier">
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+				
+					<div class="col">
+						<ul class="footer-navigation__list footer-navigation__list--level-1">
+							<li class="footer-navigation__item footer-navigation__item--level-1">
+								<h2>Service</h2>
+								
+	<ul class="footer-navigation__list footer-navigation__list--level-2">
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/informationen-von-a-z/universitaet-von-a-z/">
+							Universität von A–Z
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/einrichtungen/kiz/weiteres/campus-navigation/">
+							Lagepläne
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/universitaet/hochschulkommunikation/presse-und-oeffentlichkeitsarbeit/pressestelle/">
+							Presse
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="https://www.uni-ulm.de/karriere/stellenangebote">
+							Stellenangebote
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/home/kalender/">
+							Veranstaltungskalender
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="https://portal.uni-ulm.de/ETB/" rel="noreferrer">
+							Telefonverzeichnis
+						</a>
+					
+			</li>
+		
+	</ul>
+
+							</li>
+						</ul>
+					</div>
+				
+					<div class="col">
+						<ul class="footer-navigation__list footer-navigation__list--level-1">
+							<li class="footer-navigation__item footer-navigation__item--level-1">
+								<h2>Rechtliche Hinweise</h2>
+								
+	<ul class="footer-navigation__list footer-navigation__list--level-2">
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/impressum/">
+							Impressum
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/datenschutz/">
+							Datenschutz
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/barrierefreiheit/">
+							Barrierefreiheit
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/gebaerdensprache/">
+							Gebärdensprache
+						</a>
+					
+			</li>
+		
+			<li class="footer-navigation__item footer-navigation__item--level-2">
+				
+						<a class="footer-navigation__link footer-navigation__link--level-2" href="/rechtliche-hinweise/leichte-sprache/">
+							Leichte Sprache
+						</a>
+					
+			</li>
+		
+	</ul>
+
+							</li>
+						</ul>
+					</div>
+				
+				
+						
+	<div class="col">
+		<ul class="footer-navigation__list footer-navigation__list--level-1">
+			<li class="footer-navigation__item footer-navigation__item--level-1">
+				
+					<div class="footer-navigation__text">
+						Inhaltlich verantwortlich für diese Seite:
+						<br>
+						https://www.uni-ulm.de/index.php?id=95910
+						<br>
+						<a href="#" data-mailto-token="jxfiql7fkdtf+jojXrkf:rij+ab" data-mailto-vector="-3">Prof. Dr.-Ing. Thomas Beckers</a>
+					</div>
+				
+				<div class="footer-navigation__text">
+					Zuletzt bearbeitet:
+					<br>
+					16
+					.
+					Oktober
+					2026
+				</div>
+				<div class="footer-socialicons">
+					<a href="https://www.instagram.com/universitaetulm/" class="footer-socialicon"
+						 target="_blank" title="instagram">
+						<img class="footer-socialicon--instagram"
+								 alt="instagram"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/instagram.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.linkedin.com/school/ulm-university/" class="footer-socialicon"
+						 target="_blank" title="linkedin">
+						<img class="footer-socialicon--linkedin"
+								 alt="linkedin"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/linkedin.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://mastodon.social/@UniUlm" class="footer-socialicon"
+						 target="_blank" rel="me" title="mastodon">
+						<img class="footer-socialicon--mastodon"
+								 alt="mastodon"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/mastodon.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://bsky.app/profile/uniulm.bsky.social" class="footer-socialicon"
+						 target="_blank" title="bluesky">
+						<img class="footer-socialicon--bluesky"
+								 alt="bluesky"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/bluesky.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.facebook.com/UniUlm" class="footer-socialicon" target="_blank"
+						 title="facebook">
+						<img class="footer-socialicon--facebook"
+								 alt="facebook"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/facebook.svg?1792671732"
+								 width="20"/>
+					</a>
+					<a href="https://www.youtube.com/user/uulm" class="footer-socialicon"
+						 target="_blank" title="youtube">
+						<img class="footer-socialicon--youtube"
+								 alt="youtube"
+								 src="/_assets/a92153751098915699a1afa17e77f864/Images/Icons/youtube.svg?1792671732"
+								 width="20"/>
+					</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+					
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+	
+
+
+
+		
+	<div class="showcase">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-2">
+			<a class="showcase__link" href="https://www.uni-ulm.de/familie">
+				<img class="showcase__award"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/logo_familien_zertifikat_seit_2008.webp?1792671732"
+					 title="Zertifikat seit 2008 – Audit familiengerechte Hochschule"
+					 alt="Logo: Zertifikat seit 2008 – Audit familiengerechte Hochschule"/>
+			</a>
+			</div>
+			<div class="col-lg-2">
+			<a class="showcase__link"
+			   href="https://www.uni-ulm.de/home/uni-aktuell/article/uni-ulm-unter-den-top-ten-der-beliebtesten-universitaeten-deutschlands-im-studycheck-ranking-auf-platz-10/">
+				<img class="showcase__award"
+					 src="/_assets/a92153751098915699a1afa17e77f864/Images/top-universitaet.webp?1792671732"
+					 title="StudyCheck - Top Universität"
+					 alt="Logo: StudyCheck - Top Universität"/>
+			</a>
+			</div>
+			<div class="col-lg-2">
+				<a class="showcase__link"
+					 href="https://www.uni-ulm.de/home/uni-aktuell/article/uni-ulm-unter-den-top-ten-der-beliebtesten-universitaeten-deutschlands-im-studycheck-ranking-auf-platz-10/">
+					<img class="showcase__award"
+							 alt="Logo: StudyCheck - digital readiness"
+							 src="/_assets/a92153751098915699a1afa17e77f864/Images/Siegel-digital-readiness.webp?1792671732"
+							 title="StudyCheck - digital readiness"/>
+				</a>
+			</div>
+			<div class="col-lg-2">
+				<a class="showcase__link showcase__link--last"
+					 href="https://www.hrk.de/weltoffene-hochschulen">
+					<img class="showcase__award"
+							 src="/_assets/a92153751098915699a1afa17e77f864/Images/logo-weltoffene-hochschule.webp?1792671732"
+							 title="Weltoffene Hochschulen – Gegen Fremdenfeindlichkeit"
+							 alt="Logo: Weltoffene Hochschulen – Gegen Fremdenfeindlichkeit"/>
+				</a>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+		
+	<div class="copyright copyright--chameleon">
+		<div class="row">
+			<div class="copyright__text">
+				©
+				2026
+				Universität Ulm | Ulm University
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+</footer>
+<script src="/typo3temp/assets/compressed/merged-36bd801a3c524163715494705177a810.js?1792671775"></script>
+
+<script async="async" src="/typo3temp/assets/js/7f6f4007061a3385249e7e32f51dfafe.js?1775726337"></script>
+
+<script src="/_assets/a92153751098915699a1afa17e77f864/JavaScripts/Vendor/require.js?1792671732"
+				async
+				data-main="/_assets/a92153751098915699a1afa17e77f864/JavaScripts/main.js?1792671732">
+</script>
+
+
+</body>
+</html>

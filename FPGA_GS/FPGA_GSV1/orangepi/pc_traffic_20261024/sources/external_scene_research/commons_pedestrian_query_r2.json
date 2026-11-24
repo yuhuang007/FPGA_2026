@@ -1,0 +1,1377 @@
+{
+  "recorded_at": "2026-10-25T04:45:40.264795+00:00",
+  "request_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=filetype%3Abitmap+intitle%3Apedestrian+hastemplate%3ACC-BY-4.0&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "continue": {
+      "gsroffset": 12,
+      "continue": "gsroffset||"
+    },
+    "query": {
+      "pages": {
+        "173323959": {
+          "pageid": 173323959,
+          "ns": 6,
+          "title": "File:29 Listopada Avenue, pedestrian and bicycle paths, Kraków, Poland.jpg",
+          "index": 8,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 6461353,
+              "width": 3317,
+              "height": 2983,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 1151,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/e/e2/29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1151,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e2/29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/29_Listopada_Avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:29_Listopada_Avenue,_pedestrian_and_bicycle_paths,_Krak%C3%B3w,_Poland.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173323959",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-09-04 05:26:49",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "29 Listopada Avenue, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "29 Listopada Alley in Kraków|Self-published work|Files with coordinates missing SDC location of creation|Bikeways in Kraków",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.088528",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "19.957333",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "29 Listopada Avenue, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-08-19 11:07:50",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Igor123121\" title=\"User:Igor123121\">Igor123121</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "179853532": {
+          "pageid": 179853532,
+          "ns": 6,
+          "title": "File:29 Listopada avenue, pedestrian and bicycle paths, Kraków, Poland.jpg",
+          "index": 6,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 11890868,
+              "width": 6000,
+              "height": 3376,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 720,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/3840px-29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 720,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/3840px-29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/29_Listopada_avenue%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:29_Listopada_avenue,_pedestrian_and_bicycle_paths,_Krak%C3%B3w,_Poland.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179853532",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-12-13 17:37:20",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "29 Listopada avenue, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "29 Listopada Alley in Kraków|Self-published work|Files with coordinates missing SDC location of creation|User:Igor123121",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.084618",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "19.953344",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "29 Listopada Avenue, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-08-19 11:08:30",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Igor123121\" title=\"User:Igor123121\">Igor123121</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "156962493": {
+          "pageid": 156962493,
+          "ns": 6,
+          "title": "File:AURA Recinto Pedestrian Crossing Opening (20241128 170444-CC).tiff",
+          "index": 11,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 12727638,
+              "width": 4000,
+              "height": 1848,
+              "pagecount": 1,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff/lossy-page1-1280px-AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 591,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff/lossy-page1-3840px-AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff/lossy-page1-1280px-AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 591,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff/lossy-page1-3840px-AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/AURA_Recinto_Pedestrian_Crossing_Opening_%2820241128_170444-CC%29.tiff?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:AURA_Recinto_Pedestrian_Crossing_Opening_(20241128_170444-CC).tiff",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156962493",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-12-21 08:16:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "AURA Recinto Pedestrian Crossing Opening (20241128 170444-CC)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Chile|NOIRLab Images|AURA Recinto|NOIRLab files uploaded by OptimusPrimeBot|Deputy directors",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "NOIRLab Deputy Director Stuartt Corder cuts a ribbon to officially open the new pedestrian crossing.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "20 December 2024, 10:50:00 (upload date)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://noirlab.edu/public/images/20241128_170444-CC\">AURA Recinto Pedestrian Crossing Opening</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "NOIRLab",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "NOIRLab",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "181773339": {
+          "pageid": 181773339,
+          "ns": 6,
+          "title": "File:Aleksandra Lubomirskiego street, view to E, pedestrian and bicycle paths, Kraków, Poland.jpg",
+          "index": 9,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7134219,
+              "width": 4000,
+              "height": 2251,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 720,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/3840px-Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 720,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg/3840px-Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Aleksandra_Lubomirskiego_street%2C_view_to_E%2C_pedestrian_and_bicycle_paths%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aleksandra_Lubomirskiego_street,_view_to_E,_pedestrian_and_bicycle_paths,_Krak%C3%B3w,_Poland.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181773339",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-01-13 19:20:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Aleksandra Lubomirskiego street, view to E, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Files with coordinates missing SDC location of creation|Bikeways in Kraków|User:Igor123121|Aleksandra Lubomirskiego Street in Kraków",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.067677",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "19.953781",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Aleksandra Lubomirskiego street, view to E, pedestrian and bicycle paths, Kraków, Poland",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-04-17 13:29:27",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Igor123121\" title=\"User:Igor123121\">Igor123121</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "197429313": {
+          "pageid": 197429313,
+          "ns": 6,
+          "title": "File:Broadbeach South pedestrian overpass design.jpg",
+          "index": 3,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 423594,
+              "width": 1511,
+              "height": 1131,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Broadbeach_South_pedestrian_overpass_design.jpg/1280px-Broadbeach_South_pedestrian_overpass_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 958,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/d/df/Broadbeach_South_pedestrian_overpass_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Broadbeach_South_pedestrian_overpass_design.jpg/1280px-Broadbeach_South_pedestrian_overpass_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 958,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/df/Broadbeach_South_pedestrian_overpass_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Broadbeach_South_pedestrian_overpass_design.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Broadbeach_South_pedestrian_overpass_design.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197429313",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-08-14 10:32:05",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Broadbeach South pedestrian overpass design",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Bombardier Flexity 2 (Gold Coast)|Broadbeach South light rail station|August 2026 in tram transport on the Gold Coast|August 2026 in bus transport on the Gold Coast|August 2026 in Broadbeach, Queensland",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Artist's impression for the pedestrian overpass at Broadbeach South light rail station, which was <a rel=\"nofollow\" class=\"external text\" href=\"https://statements.qld.gov.au/statements/105858\">released</a> by the Queensland Government on 14 August 2026",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-08-14",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.tmr.qld.gov.au/_/media/projects/g/gold-coast-transport-plan/gold-coast-transport-plan.pdf\">https://www.tmr.qld.gov.au/_/media/projects/g/gold-coast-transport-plan/gold-coast-transport-plan.pdf</a> (linked <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tmr.qld.gov.au/gold-coast-transport-plan\">here</a>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Queensland Government (Department of Transport and Main Roads)",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.qld.gov.au/\">© The State of Queensland</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "186463693": {
+          "pageid": 186463693,
+          "ns": 6,
+          "title": "File:DSC02272 Murkraftwerk Pedestrian Bridge, Leoben, 2023-08.jpg",
+          "index": 5,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 27443930,
+              "width": 7008,
+              "height": 4672,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg/1280px-DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg/3840px-DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg/1280px-DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg/3840px-DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/DSC02272_Murkraftwerk_Pedestrian_Bridge%2C_Leoben%2C_2023-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:DSC02272_Murkraftwerk_Pedestrian_Bridge,_Leoben,_2023-08.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=186463693",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-03-19 07:49:54",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "DSC02272 Murkraftwerk Pedestrian Bridge, Leoben, 2023-08",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Bridges in Austria photographed in 2023|Self-published work|Austria photographs taken on 2023-08-21|August 2023 in Styria|Files with coordinates missing SDC location of creation|Supported by Wikimedia Österreich in 2026|Photographs by Aciarium|Images by Aciarium|Transport signs in Leoben|Uploads by Aciarium|Murkraftwerk bridge, Leoben|Uploads by Aciarium/Uploads by Aciarium (2026)|August 2023 in Leoben",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "47.387902",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "15.095583",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The pedestrian bridge at the Leoben Murkraftwerk (power plant at the river Mur) in the city center.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-08-21 17:08:04",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Aciarium\" title=\"User:Aciarium\">Aciarium</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "193207417": {
+          "pageid": 193207417,
+          "ns": 6,
+          "title": "File:Kocmyrzowska and Karol Darwin streets, pedestrian streets and tram tracks, 2026, Kraków, Poland.jpg",
+          "index": 10,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 6654247,
+              "width": 3200,
+              "height": 1915,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 766,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 766,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kocmyrzowska_and_Karol_Darwin_streets,_pedestrian_streets_and_tram_tracks,_2026,_Krak%C3%B3w,_Poland.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=193207417",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-06-01 18:28:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Kocmyrzowska and Karol Darwin streets, pedestrian streets and tram tracks, 2026, Kraków, Poland",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Kocmyrzowska Street in Kraków|Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Kocmyrzowska and Karol Darwin streets, pedestrian streets and tram tracks, 2026, Kraków, Poland",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-12-19 14:45:15",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Igor123121\" title=\"User:Igor123121\">Igor123121</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "180768291": {
+          "pageid": 180768291,
+          "ns": 6,
+          "title": "File:Omiya Station West Exit, Pedestrian Deck 01.jpg",
+          "index": 7,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2322782,
+              "width": 6489,
+              "height": 1400,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg/1280px-Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 276,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg/3840px-Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg/1280px-Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 276,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg/3840px-Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Omiya_Station_West_Exit%2C_Pedestrian_Deck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Omiya_Station_West_Exit,_Pedestrian_Deck_01.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180768291",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-12-27 15:20:54",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Omiya Station West Exit, Pedestrian Deck 01",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Ōmiya Station (Saitama)|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Pedestrian Deck",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-12-18",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Souka_Kinmei&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Souka Kinmei (page does not exist)\">Souka Kinmei</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "196839219": {
+          "pageid": 196839219,
+          "ns": 6,
+          "title": "File:Omotesando Avenue at sunset from pedestrian bridge, Jingumae, Shibuya, Tokyo.jpg",
+          "index": 1,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9329995,
+              "width": 6240,
+              "height": 4160,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/1280px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/3840px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/1280px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg/3840px-Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Omotesando_Avenue_at_sunset_from_pedestrian_bridge%2C_Jingumae%2C_Shibuya%2C_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=196839219",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-08-06 08:25:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Omotesando Avenue at sunset from pedestrian bridge, Jingumae, Shibuya, Tokyo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Night in Omotesando|Omotesando street|Views of Omotesando street from the Omotesando footbridge",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality|valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Omotesando Avenue on a summer evening, seen from a footbridge in Jingumae, Shibuya, Tokyo, Japan.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-08-05 18:24:46",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gogchannel\" title=\"User:Gogchannel\">gog.creator</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "163437471": {
+          "pageid": 163437471,
+          "ns": 6,
+          "title": "File:Pedestrian crosswalk along Route 9 Boylston St Newton Entrance to Mall and The Towers.jpg",
+          "index": 2,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 772031,
+              "width": 1900,
+              "height": 1425,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg/1280px-Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 960,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg/1280px-Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 960,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pedestrian_crosswalk_along_Route_9_Boylston_St_Newton_Entrance_to_Mall_and_The_Towers.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163437471",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-04-11 17:18:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Pedestrian crosswalk along Route 9 Boylston St Newton Entrance to Mall and The Towers",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Massachusetts Route 9|Chestnut Hill, Massachusetts|Self-published work|Crosswalks in Massachusetts|Shopping mall entrances in Massachusetts|Files with coordinates missing SDC location of creation",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "42.319840",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-71.177380",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Pedestrian crosswalk along Route 9 (Boylston Street) in Newton at the entrance to the parking lots of The Shoppes at Chestnut Hill",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-04-06",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Wikijanieo?action=edit&amp;redlink=1\" title=\"User:Wikijanieo (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Wikijanieo\"]}}'>Wikijanieo</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "177324307": {
+          "pageid": 177324307,
+          "ns": 6,
+          "title": "File:Row of houses behind a pedestrian tunnel in Gamla Stan.jpg",
+          "index": 4,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 11023177,
+              "width": 5295,
+              "height": 3530,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg/1280px-Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg/3840px-Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg/1280px-Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg/3840px-Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Row_of_houses_behind_a_pedestrian_tunnel_in_Gamla_Stan.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177324307",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-10-24 21:32:13",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Row of houses behind a pedestrian tunnel in Gamla Stan",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Tunnels in Stockholm|Buildings in Gamla stan|Self-published work|Pedestrian tunnels in Sweden|Files with coordinates missing SDC location of creation|Building exteriors in Stockholm",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "59.324663",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "18.073993",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A row of brightly painted houses behind a pedestrian tunnel in an alley in Gamla Stan, the old town of Stockholm, Sweden.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2025-08-07 16:25:00",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:OleNeitzel\" title=\"User:OleNeitzel\">OleNeitzel</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "182611616": {
+          "pageid": 182611616,
+          "ns": 6,
+          "title": "File:Strand street pedestrian crossing 3.jpg",
+          "index": 12,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 12324573,
+              "width": 5528,
+              "height": 3685,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Strand_street_pedestrian_crossing_3.jpg/1280px-Strand_street_pedestrian_crossing_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Strand_street_pedestrian_crossing_3.jpg/3840px-Strand_street_pedestrian_crossing_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Strand_street_pedestrian_crossing_3.jpg/1280px-Strand_street_pedestrian_crossing_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Strand_street_pedestrian_crossing_3.jpg/3840px-Strand_street_pedestrian_crossing_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Strand_street_pedestrian_crossing_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Strand_street_pedestrian_crossing_3.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182611616",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-01-28 14:55:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Strand street pedestrian crossing 3",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Pedestrian crossings|Design by Skinny laMinx|Pedestrian crossings in Cape Town",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Strand Street Crossing, an artwork pedestrian crossing in Cape Town, designed by Skinny laMinx",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-01-28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Mission for Inner City Cape Town",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Mission for Inner City Cape Town",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pass_": true,
+  "changes": [
+    "rtl/board/fpga_gsv1_top.v",
+    "rtl/capture/cam1_blc_control.v",
+    "rtl/capture/cam1_pixel_patch.v",
+    "rtl/display/cam1_blc_label.v",
+    "rtl/display/m31_osd.v",
+    "rtl/display/m31_video_output.v",
+    "rtl/network/m361_diag.v",
+    "rtl/network/m365_tx_observer.v",
+    "rtl/network/m3_network.v"
+  ],
+  "constraints_identical_to_E4": true,
+  "full720_production_capture_three_rearms": {
+    "0": {
+      "pages": 480,
+      "crc32": "5fa1bea8",
+      "exact_pixels": 11520
+    },
+    "3": {
+      "pages": 480,
+      "crc32": "09d7145b",
+      "exact_pixels": 11520
+    },
+    "5": {
+      "pages": 480,
+      "crc32": "f34ceb4e",
+      "exact_pixels": 11520
+    }
+  },
+  "SCCB_scenarios": 8,
+  "actual_uart_lines": 600,
+  "actual_sequential_pixel_pages": 486,
+  "decoder_complete_rejected_missing_pixel_post_or_restore": true,
+  "decoder_exposure_ms_conversion": true,
+  "fixture_is_simulation_and_prior_data_not_new_board_evidence": true,
+  "production_full_frames_checked": 6,
+  "production_pixels_checked": 5529600,
+  "output_raster_OSD_RGB_retiming_cycles_checked": 12000,
+  "strip_log_literal_note": "Final inherited display string still says2 frames/480pages; preceding three stage lines and the test assertion total_pixels=5529600,verdicts=6 verify the actual three-stage totals. No test log edited.",
+  "external_IO_not_signed_off": true,
+  "no_CAM0_owner_or_network_business_change": true
+}

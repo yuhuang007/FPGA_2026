@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Traffic+lights+in+Ch&aclimit=100",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": [
+          {
+            "*": "Traffic lights in Chicago"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Traffic+lights+in+B&aclimit=100",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": [
+          {
+            "*": "Traffic lights in Bristol"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=allcategories&acprefix=Pedestrian+traffic+lights+in&aclimit=100",
+    "response": {
+      "batchcomplete": "",
+      "query": {
+        "allcategories": []
+      }
+    }
+  }
+]

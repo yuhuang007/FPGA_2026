@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-25T05:17:38.500428+00:00",
+  "first_pass_completed": 400,
+  "independent_review_completed": 400,
+  "final_label_candidates": 242,
+  "final_body_label_confirmed_images": 202,
+  "confirmed_body_count": 330,
+  "confirmed_ignore_only_exclusions": 40,
+  "standard_full_image_yolo_label_compatible_images": 12,
+  "qualified_all_data_conditions": 0,
+  "original_decision_counts": {
+    "accept": 34,
+    "uncertain": 3,
+    "needs_modify": 11
+  },
+  "source_files": [
+    {
+      "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+      "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694"
+    },
+    {
+      "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+      "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6"
+    },
+    {
+      "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+      "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86"
+    }
+  ],
+  "final_validation_sha256": "450d5d32c3561ec3e6b853a6d2d07436f07e60518d5638e50ebefcc50ef8df22",
+  "two_AI_review_ledger": "review_stage2/final_candidates_r1/review_ledger.jsonl",
+  "two_AI_review_ledger_sha256": "4c5b63fee7ce37640e6f7954f0439342e9c0b77ec4c7270a67d277c31293d130",
+  "human_signoff_required_for_this_integration": false,
+  "human_signoffs_created": 0,
+  "label_confirmation_does_not_inherit_to_new_sha": true,
+  "version_bound_review_records_preserved": 476,
+  "targeted_current_version_accept_ids": [
+    "s2tld1080_0215",
+    "s2tld1080_0216",
+    "s2tld1080_0220",
+    "s2tld1080_0221",
+    "s2tld1080_0222",
+    "s2tld1080_0285",
+    "s2tld1080_0322",
+    "s2tld1080_0339",
+    "s2tld1080_0364",
+    "s2tld1080_0266",
+    "s2tld1080_0012",
+    "s2tld1080_0187",
+    "s2tld1080_0282",
+    "s2tld1080_0014"
+  ]
+}

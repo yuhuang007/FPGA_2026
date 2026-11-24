@@ -1,0 +1,99 @@
+{
+  "Timestamp": "2026-10-24T20:49:12.485551+08:00",
+  "CurrentBoard": "GAIN8 E2 remains on board; RAW E3 has NOT been programmed",
+  "E1Read": "8 seconds:25/25/25fps,720 rows,921600 pixels,bad delta0,503D restored00",
+  "User": "Covered lens retains coloured horizontal streaks; two videos reviewed",
+  "RearGainBuildSession": 30029,
+  "RearGainBuild": "work/CAM_quality_3_6_0/rear_gain_source/build/CAM1_GAIN8_E2_3_6_0_20261024_195637_482",
+  "FirstGainBuild": "Not releasable: network2/core/udp_final -> bad_packets CE setup -0.189ns",
+  "SecondBuildChange": "Only passive camera diagnostic load reduced;no CAM0 read polling or wide page mux;camera image/init/net unchanged",
+  "FrontFixIncluded": false,
+  "FrontFullPixelTest": {
+    "log": "cam0_front30_corrected.log",
+    "pass_": false,
+    "result": "4 DDR publications with consecutive30fps before deliberate bad-frame drop; final geometry totals4good/2bad disagree with fixture expectation5good/1bad.",
+    "next": "Instrument individual frame verdicts and resolve startup/monitor counting before front candidate. No full front build launched."
+  },
+  "FrontFullPixelLog": "work/CAM_quality_3_6_0/reports/cam0_front30.log",
+  "PiLiveStarted": false,
+  "Candidate": "release/FPGA_GSV1_CAM1_GAIN8_E2_3_6_0/FPGA_GSV1_CAM1_GAIN8_E2_3_6_0_HDMI_1080P60.sbit",
+  "CandidateSHA256": "26b5445b0930736e94e9ff1dd270d7e9a66fc28baa0c18a6426a522db0838f1c",
+  "FinalBuildPass": true,
+  "Awaiting": "Manual RAW E3 download with rear lens covered before programming, original+rear single view, COM23 free. Then one55s read via candidate tools/cam1/read_net2_diag.ps1 into RAW_E3_actual_uart.txt, decode_cam1_patch.py and C1R8 rates. No Pi LIVE.",
+  "Gain8Findings": "reports/GAIN8_findings.json",
+  "RearGainQualityAccepted": false,
+  "RearRawBuildSession": "8704 completed PASS",
+  "RearRawBranch": "rear_pixels_source",
+  "LatestEvidence": "reports/dark_video_findings.json",
+  "RearRawCandidate": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\FPGA_GSV1_CAM1_RAW_E3_3_6_0_HDMI_1080P60.sbit",
+  "RearRawSHA256": "8e7addbe24c20757de9f2286b57fd83ef0539319b5dd83869b961c23d8286756",
+  "RearRawTiming": {
+    "existing_constraints_met": true,
+    "summaries": [
+      {
+        "summary": "Setup Summary(Slow Corner):",
+        "worst_slack_ns": 0.0,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Slow Corner):",
+        "worst_slack_ns": 0.096,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Slow Corner):",
+        "worst_slack_ns": 3.941,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Slow Corner):",
+        "worst_slack_ns": 0.395,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Slow Corner):",
+        "worst_slack_ns": 0.397,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Setup Summary(Fast Corner):",
+        "worst_slack_ns": 0.312,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Hold Summary(Fast Corner):",
+        "worst_slack_ns": 0.137,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Recovery Summary(Fast Corner):",
+        "worst_slack_ns": 5.032,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Removal Summary(Fast Corner):",
+        "worst_slack_ns": 0.277,
+        "failing_endpoints": 0
+      },
+      {
+        "summary": "Pulse Width Summary(Fast Corner):",
+        "worst_slack_ns": 0.568,
+        "failing_endpoints": 0
+      }
+    ],
+    "resources": {
+      "CLMA": 4492.0,
+      "CLMS": 2873.0,
+      "DRM": 109.5,
+      "PLL": 5.0,
+      "LUT": 22280.0,
+      "FF": 23186.0
+    },
+    "constraints_changed": false,
+    "limits": [
+      "Inherited external PHY PVT/PCB and camera pad electrical-model limits remain.",
+      "Positive internal STA does not prove incoming pixel data or sensor image quality correct."
+    ]
+  },
+  "RearRawArtifact": "release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\artifact.json"
+}

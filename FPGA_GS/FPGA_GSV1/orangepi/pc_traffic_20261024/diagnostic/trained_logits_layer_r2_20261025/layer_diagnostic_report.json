@@ -1,0 +1,465 @@
+{
+  "schema_version": "1.0",
+  "saved_at": "2026-10-25T08:16:44.140729+00:00",
+  "scope": "保存已完成的单固定输入层诊断，不启动下一轮任务。此次收尾新增build=0、inference=0、数据视觉复审=0。",
+  "selected_fixture": "s2tld720_000000",
+  "onnx_sha256": "ed944ebfeab6574b17577a57306e0017d751d992b5ad865723b1d5986c67ece2",
+  "original_rknn_sha256": "fbf48333ee9d15a33078b83580013c72e313ae6f877e195500052479e7b81fc8",
+  "historical_corrected_attempt": {
+    "recorded_at": "2026-10-25T16:07:28.219585+08:00",
+    "config_arguments": {
+      "mean_values": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "std_values": [
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "target_platform": "rk3588",
+      "optimization_level": 3
+    },
+    "build_arguments": {
+      "do_quantization": false
+    },
+    "number_of_build_calls": 1,
+    "number_of_analysis_calls": 1,
+    "config_returncode": 0,
+    "load_onnx_returncode": 0,
+    "build_returncode": 0,
+    "build_seconds": 2.8622013379972486,
+    "accuracy_analysis_returncode": 0,
+    "analysis_seconds": 38.52427193100084,
+    "new_model_exported": false,
+    "original_candidate_unchanged": true,
+    "protected_file_count": 66
+  },
+  "actual_environment_from_existing_evidence": {
+    "rknn-toolkit2": "2.3.2",
+    "rknn-toolkit-lite2": "2.5.0",
+    "numpy": "1.21.5",
+    "onnx": "1.16.2",
+    "onnxruntime": "1.20.1",
+    "python": "3.10.12",
+    "runtime_version_from_actual_NPU_log": "2.3.0 (c949ad889d@2024-11-07T11:35:33)",
+    "system_runtime_strings_consistent": "2.3.0 (c949ad889d@2024-11-07T11:35:33)",
+    "runtime_sha256": "73993ed4b440460825f21611731564503cc1d5a0c123746477da6cd574f34885",
+    "driver": "0.9.8",
+    "NPU_core": "RKNNLite.NPU_CORE_0",
+    "quantization": false,
+    "target": "rk3588"
+  },
+  "diagnostic_capture_completed": true,
+  "strict_numeric_passed": false,
+  "deployment_release": false,
+  "normalization_from_saved_snapshots": {
+    "golden_vs_expected_once": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "rmse": 0.0,
+      "l2": 0.0,
+      "p99_abs": 0.0
+    },
+    "golden_vs_expected_twice": {
+      "max_abs": 0.9960784311406314,
+      "mean_abs": 0.4445532242711937,
+      "rmse": 0.4670506116618605,
+      "l2": 517.7314490268567,
+      "p99_abs": 0.9257670168299228
+    },
+    "runtime_vs_expected_once": {
+      "max_abs": 0.00024318695068359375,
+      "mean_abs": 5.8132605305445393e-05,
+      "rmse": 7.34822865771935e-05,
+      "l2": 0.08145603443714283,
+      "p99_abs": 0.00022596120834350586
+    },
+    "runtime_vs_expected_once_then_FP16": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "rmse": 0.0,
+      "l2": 0.0,
+      "p99_abs": 0.0
+    }
+  },
+  "input_contract": {
+    "source": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/inputs/fixtures/s2tld720_000000_rgb_u8.npy",
+    "source_sha256": "84abceda7cf31828c9acfc5ad088c0af7895bbd0bb63424b625e37d1293b5778",
+    "source_shape": [
+      640,
+      640,
+      3
+    ],
+    "analysis_input": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_nchw_r1/same_fixture_RGB_NCHW_u8.npy",
+    "analysis_input_sha256": "acf4c377ed036720038bcef048c29caf066b0e316df5726f1c3679b1d128b9ff",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "dtype": "uint8",
+    "RGB_pixels_roundtrip_exact": true,
+    "canonical_HWC_RGB_pixel_sha256": "c2b88ea1ceb22a419eb34a046f885a4a0ee70a4cd52ec34bc57698dd0bee2c3d",
+    "original_HWC_RGB_pixel_sha256": "c2b88ea1ceb22a419eb34a046f885a4a0ee70a4cd52ec34bc57698dd0bee2c3d",
+    "toolkit_get_input_img_signature": "(path_array, s_layout, r_shape, r_layout, r_rgb2bgr, r_expand_batch=1)",
+    "toolkit_loader_returns_identical_u8": true,
+    "application_divide_by_255": false,
+    "mean_values": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "std_values": [
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "normalization_contract": "Raw RGB uint8 values retained by application and Toolkit get_input_img; configure mean0/std255 once. Expected model input is raw/255. No pre-normalized npy is supplied.",
+    "normalization_execution_check": "If snapshots become available, compare FP32 outputs/input evidence against the original supplied ONNX normalized reference; caller contract alone is not claimed as proof of internal SDK dump normalization."
+  },
+  "localization": {
+    "earliest_observed_difference": "输入NPU存储已发生FP16舍入；runtime输入与(rawRGB/255).astype(float16).astype(float32)完全一致。golden与rawRGB/255完全一致，排除重复归一化。",
+    "first_observable_NPU_compute_boundary": {
+      "runtime_index": 1,
+      "type": "ConvExSwish",
+      "output_name": "_model_0_act_Mul_output_0",
+      "shape": [
+        1,
+        16,
+        320,
+        320
+      ],
+      "golden_vs_runtime": {
+        "max_abs": 0.053363800048828125,
+        "mean_abs": 0.0046913866385455225,
+        "rmse": 0.007908507046792393,
+        "l2": 10.122889019894263,
+        "p99_abs": 0.022657394409179688
+      },
+      "golden_vs_simulator": {
+        "max_abs": 0.01509857177734375,
+        "mean_abs": 0.0011207669831213476,
+        "rmse": 0.0017023388481906539,
+        "l2": 2.178993725684037,
+        "p99_abs": 0.004616738259792329
+      },
+      "simulator_vs_runtime_cumulative": {
+        "max_abs": 0.0625,
+        "mean_abs": 0.004128679487730551,
+        "rmse": 0.007594322218012448,
+        "l2": 9.720732439055933,
+        "p99_abs": 0.0234375
+      },
+      "golden_file": "snapshot/golden/npy/_model_0_act_Mul_output_0.npy",
+      "runtime_file": "snapshot/runtime/npy/001_ConvExSwish__model_0_act_Mul_output_0_shape_1_16_320_320_float.npy",
+      "simulator_file": "snapshot/simulator/npy/_model_0_act_Mul_output_0.npy"
+    },
+    "SDK_first_fused_row": {
+      "type": "exSwish",
+      "name": "/model.0/act/Mul_output_0",
+      "simulator_entire_cos_euc": [
+        1.0,
+        2.1805
+      ],
+      "simulator_single_cos_euc": [
+        1.0,
+        1.1748
+      ],
+      "runtime_entire_cos_euc": [
+        1.0,
+        10.088
+      ],
+      "runtime_single_sim_cos_euc": [
+        1.0,
+        9.7011
+      ]
+    },
+    "conclusion": "第一处可观测融合ConvExSwish计算边界已出现额外数值差异，后续还有累计/单层差异；不是只在最后分类头或输出存储才出现。",
+    "limitations": [
+      "NPU将Conv和SiLU等融合，缺少独立Conv运行时边界；不能将偏差唯一归因于原始Conv、SiLU、权重舍入或累加实现。",
+      "0.05仅作为原raw-head阈值的诊断参考标记，不是中间层新增验收门槛。",
+      "simulator-vs-runtime直接相减是累计差异，不等于SDK single_sim。",
+      "SDK euc为L2；不同元素数层的L2不可直接作贡献排名，表格四舍五入值与保存NPY精算可略有不同。"
+    ],
+    "SDK_metric_definitions": {
+      "simulator_entire": "golden对simulator累计输出",
+      "simulator_single": "受控输入下的单层误差",
+      "runtime_entire": "golden对runtime累计输出",
+      "runtime_single_sim": "SDK单层simulator对runtime误差"
+    },
+    "available_runtime_boundaries": 110,
+    "SDK_rows": 161
+  },
+  "all_six_diagnostic_heads_equal_original_r1": true,
+  "terminal_comparison": [
+    {
+      "head": "box_s8",
+      "PC_reference_vs_golden": {
+        "max_abs": 1.1444091796875e-05,
+        "mean_abs": 1.0230511702502554e-06,
+        "rmse": 1.4213162311439564e-06,
+        "l2": 0.0009096423879321321,
+        "p99_abs": 4.410743713378906e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.10091018676757812,
+        "mean_abs": 0.0070733034274667265,
+        "rmse": 0.00963230622574912,
+        "l2": 6.1646759844794365,
+        "p99_abs": 0.029654678106308036
+      }
+    },
+    {
+      "head": "class_logits_s8",
+      "PC_reference_vs_golden": {
+        "max_abs": 6.67572021484375e-06,
+        "mean_abs": 1.1808611452579499e-06,
+        "rmse": 1.6299622758224484e-06,
+        "l2": 0.00018440918052996976,
+        "p99_abs": 4.76837158203125e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.10907363891601562,
+        "mean_abs": 0.015340645294636489,
+        "rmse": 0.02106080331826542,
+        "l2": 2.3827578949730595,
+        "p99_abs": 0.06460320472717286
+      }
+    },
+    {
+      "head": "box_s16",
+      "PC_reference_vs_golden": {
+        "max_abs": 9.775161743164062e-06,
+        "mean_abs": 7.929731327749324e-07,
+        "rmse": 1.1084547996581506e-06,
+        "l2": 0.0003547055358906082,
+        "p99_abs": 3.5762786865234375e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.135833740234375,
+        "mean_abs": 0.008455698224261142,
+        "rmse": 0.012197589567957624,
+        "l2": 3.90322866174644,
+        "p99_abs": 0.043103480339050156
+      }
+    },
+    {
+      "head": "class_logits_s16",
+      "PC_reference_vs_golden": {
+        "max_abs": 7.152557373046875e-06,
+        "mean_abs": 1.1142343282699586e-06,
+        "rmse": 1.559507434906312e-06,
+        "l2": 8.821906260264733e-05,
+        "p99_abs": 3.8194656372069185e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.1188516616821289,
+        "mean_abs": 0.013635184690356255,
+        "rmse": 0.020357825643216518,
+        "l2": 1.151612525002543,
+        "p99_abs": 0.06977373123168924
+      }
+    },
+    {
+      "head": "box_s32",
+      "PC_reference_vs_golden": {
+        "max_abs": 1.049041748046875e-05,
+        "mean_abs": 4.4307031203061344e-07,
+        "rmse": 9.859185544290829e-07,
+        "l2": 0.00015774696870865328,
+        "p99_abs": 4.76837158203125e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.17654633522033691,
+        "mean_abs": 0.007886645166581729,
+        "rmse": 0.01532822295493025,
+        "l2": 2.45251567278884,
+        "p99_abs": 0.06388196945190427
+      }
+    },
+    {
+      "head": "class_logits_s32",
+      "PC_reference_vs_golden": {
+        "max_abs": 4.291534423828125e-06,
+        "mean_abs": 7.426738739013672e-07,
+        "rmse": 1.1633751772647717e-06,
+        "l2": 3.290521907632087e-05,
+        "p99_abs": 3.814697265625e-06
+      },
+      "r1_actual_vs_diagnostic_runtime": {
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "rmse": 0.0,
+        "l2": 0.0,
+        "p99_abs": 0.0
+      },
+      "PC_reference_vs_diagnostic_runtime": {
+        "max_abs": 0.23804378509521484,
+        "mean_abs": 0.026215085685253145,
+        "rmse": 0.048616585216865196,
+        "l2": 1.3750846833991617,
+        "p99_abs": 0.1942996883392334
+      }
+    }
+  ],
+  "original_fixed_thresholds_unchanged": {
+    "raw_head_max_abs": 0.05,
+    "cpu_activated_score_max_abs": 0.001,
+    "decoded_box_max_abs_input_px": 0.5,
+    "paired_iou_median_min": 0.99
+  },
+  "original_r1_result_unchanged": {
+    "fully_numeric_passing_fixtures": 0,
+    "fixture_count": 8,
+    "summary_metrics": {
+      "raw_head_max_abs": 0.23804378509521484,
+      "cpu_score_max_abs": 0.013121551831050127,
+      "decoded_box_max_abs_input_px": 4.773684606947015,
+      "minimum_per_fixture_paired_iou_median": 0.9956551742485834,
+      "aggregate_score_error": {
+        "count": 134400,
+        "max_abs": 0.013121551831050127,
+        "mean_abs": 3.0352381198262697e-05,
+        "rmse": 0.0003938802446962496,
+        "p50_abs": 1.1978184592136178e-08,
+        "p95_abs": 2.1794539761040846e-06,
+        "p99_abs": 0.00034303236500078926,
+        "p99.9_abs": 0.007242449011187127
+      },
+      "aggregate_score_error_buckets": {
+        "low_lt_0.01": {
+          "count": 132764,
+          "max_abs": 0.0012140776255439665,
+          "mean_abs": 1.3270206705075874e-06,
+          "rmse": 1.538680000240138e-05,
+          "p50_abs": 1.169637130252422e-08,
+          "p95_abs": 1.238051220078573e-06,
+          "p99_abs": 2.417685366775773e-05,
+          "p99.9_abs": 0.00023856534657254848
+        },
+        "middle_0.01_to_0.99": {
+          "count": 1636,
+          "max_abs": 0.013121551831050127,
+          "mean_abs": 0.0023858065163491664,
+          "rmse": 0.0035673407378502605,
+          "p50_abs": 0.001284212938731215,
+          "p95_abs": 0.008518079897288929,
+          "p99_abs": 0.010470008906365335,
+          "p99.9_abs": 0.012373054252261316
+        },
+        "high_gt_0.99": {
+          "count": 0,
+          "status": "not_covered"
+        }
+      }
+    },
+    "reference": "原ONNX FP32，未改用GPU FP16参考",
+    "recognition_improvement_claimed": false
+  },
+  "prior_PC_precision_evidence_only": {
+    "path": "reports/trained_fp16_diagnostic_r1.json",
+    "sha256": "28af6aa4a21df6437e47fcba61a1e2f15ddb6331a498bdc524bf4820d1d8fc09",
+    "maxima": {
+      "gpu_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 1.811981201171875e-05,
+        "cpu_sigmoid_score_max_abs": 1.1305032442121554e-06
+      },
+      "rounded_weight_FP32_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.14734363555908203,
+        "cpu_sigmoid_score_max_abs": 0.004686782368544695
+      },
+      "GPU_FP16_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.12622833251953125,
+        "cpu_sigmoid_score_max_abs": 0.004965012681962838
+      },
+      "NPU_vs_ONNX_FP32": {
+        "raw_head_max_abs": 0.23804378509521484,
+        "cpu_sigmoid_score_max_abs": 0.013121551831050127
+      },
+      "NPU_vs_GPU_FP16": {
+        "raw_head_max_abs": 0.20703125,
+        "cpu_sigmoid_score_max_abs": 0.017502767135710973
+      }
+    },
+    "interpretation": "权重half存储舍入是已有证据支持的贡献之一，不是唯一根因；未在本次重跑。"
+  },
+  "evidence": {
+    "remote_original_directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/traffic_trained_logits_candidate_20261025_r1/diagnostic_nchw_r1",
+    "local_directory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\pc_traffic_20261024\\diagnostic\\trained_logits_layer_r2_20261025",
+    "archive": "existing_result_evidence.zip",
+    "archive_sha256": "87bef73ebde723aea4fe8c44d798a949e4b7f2cf1cf0e63af1c049aaaff60cc5",
+    "manifest": "remote_evidence/evidence_manifest.json",
+    "manifest_sha256": "35057697aeebe4568efa31620e2b077379ff0a2d32760cdca90f8215584100c7",
+    "verified_archived_files": 441,
+    "npy_files": 433,
+    "layer_metrics": "remote_evidence/layer_metrics.json",
+    "layer_metrics_sha256": "a5f03fb9fd2709e6301b173bb2e5f09e691c68771582b23f55f7767c5f483378",
+    "analysis_log": "remote_evidence/analysis.log",
+    "analysis_log_sha256": "5498607d6d3bc2fe8b965906a40336f2ec9b72733411f333474be02cbe83fe41",
+    "SDK_error_table": "remote_evidence/snapshot/error_analysis.txt",
+    "SDK_error_table_sha256": "ea67bf82c91ba620ce7e35f0c9f000f0e988a0382fe5f764b4d8a48cff3b6f6c",
+    "not_synced": "重复的纯文本张量dump及中间优化ONNX保留在板端；全部golden/simulator/runtime NPY已同步。",
+    "original_candidate_report": "reports/trained_logits_rknn_candidate_r1.json",
+    "original_candidate_report_sha256": "aa3dc853a4db651a7e6add7d332543e90c9c5c35204158d1341c97aa38d29995"
+  },
+  "stop_state": {
+    "new_builds_started_this_closeout": 0,
+    "new_inferences_started_this_closeout": 0,
+    "new_visual_label_reviews_this_closeout": 0,
+    "existing_48_label_reviews": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl; fillback_batch_002.jsonl; fillback_batch_003.jsonl",
+    "existing_48_are_not_recounted_or_promoted_to_current_revision_approvals": true,
+    "scheduled_automation_id": "30",
+    "scheduled_automation_delete_tool_confirmed": true,
+    "original_candidate_modified": false,
+    "stable_service_operated": false,
+    "m406_or_defaults_modified": false,
+    "FPGA_used": false,
+    "next_tasks_started": false
+  }
+}

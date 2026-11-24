@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "steps": {
+    "config": 0,
+    "load": 0,
+    "build": 0,
+    "export": 0
+  },
+  "seconds": 3.4884461809997447,
+  "onnx_sha256": "4b6c1deb809cbf2696f712c414e61be2671ce59288284707a677ebf31ddf073d",
+  "rknn_sha256": "9fae642bb50044f332de5b974200b12e4c562f8dcec7e0d2f5c85465ccfd8886",
+  "quantization": false,
+  "target": "rk3588"
+}

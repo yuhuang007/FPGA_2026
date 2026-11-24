@@ -1,0 +1,40 @@
+{
+  "_id": "62276caea5e47a80eebc0fae",
+  "id": "shpotes/bosch-small-traffic-lights-dataset",
+  "author": "shpotes",
+  "sha": "b333b72d400f6b4a23fd33524065cb732b372c8a",
+  "lastModified": "2022-03-10T20:00:45.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:other",
+    "region:us"
+  ],
+  "citation": "@inproceedings{BehrendtNovak2017ICRA,\n  title={A Deep Learning Approach to Traffic Lights: Detection, Tracking, and Classification},\n  author={Behrendt, Karsten and Novak, Libor},\n  booktitle={Robotics and Automation (ICRA), 2017 IEEE International Conference on},\n  organization={IEEE}\n}",
+  "description": "This dataset contains 13427 camera images at a resolution of 1280x720 pixels and contains about \n24000 annotated traffic lights. The annotations include bounding boxes of traffic lights as well \nas the current state (active light) of each traffic light. The camera images are provided as raw \n12bit HDR images taken with a red-clear-clear-blue filter and as reconstructed 8-bit RGB color \nimages. The RGB images are provided for debugging and can also be used for training. However, the \nRGB conversion process has some drawbacks. Some of the converted images may contain artifacts and \nthe color distribution may seem unusual.",
+  "downloads": 250,
+  "likes": 5,
+  "cardData": {
+    "license": "other"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "bosch-small-traffic-lights-dataset.py"
+    },
+    {
+      "rfilename": "test.tar.gz"
+    },
+    {
+      "rfilename": "train.tar.gz"
+    }
+  ],
+  "createdAt": "2022-03-08T14:48:14.000Z",
+  "usedStorage": 36590890535
+}

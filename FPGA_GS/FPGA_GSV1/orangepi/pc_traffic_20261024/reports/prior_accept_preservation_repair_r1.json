@@ -1,0 +1,18 @@
+{
+  "restored_ids": [
+    "s2tld1080_0013",
+    "s2tld1080_0015",
+    "s2tld1080_0016",
+    "s2tld1080_0019",
+    "s2tld1080_0021",
+    "s2tld1080_0023",
+    "s2tld1080_0217",
+    "s2tld1080_0218",
+    "s2tld1080_0219",
+    "s2tld1080_0390"
+  ],
+  "historical_manifest": "review_stage2/final_candidates_r1/history/3f6b66d9c57f058f94167a0e50acf97aa9d92bb13db8c05098631cacc2ec2e7c.json",
+  "historical_manifest_sha256": "3f6b66d9c57f058f94167a0e50acf97aa9d92bb13db8c05098631cacc2ec2e7c",
+  "reason": "Incremental all400 consumer incorrectly treated existing accepted optional questions as new disagreements. Exact current SHA, identical independent record including aggregate/part duplicates, and recorded PC disposition verified; no new label or review created.",
+  "human_signoff": false
+}

@@ -1,0 +1,206 @@
+{
+  "recorded_at": "2026-10-25T04:02:15.180344+00:00",
+  "passed": true,
+  "production_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "83e364f5099371bdc5294850fe8359cfbeca3e0a3cd10b351b69625a5ddd8ded",
+      "yolo_label_sha256": "a6b01bec3be76b9e1f18c60b303e7ced44505776aa92d34e39073fa0a76b399b"
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "f4c9a4327923cfeb9be0bcb828c3eefa967246465aa24c1763c00c550e1877c3",
+      "yolo_label_sha256": "b77d22d56b3acfa0ebeb62096f704643aacc5af7c10694903b5276645fe293ff"
+    },
+    {
+      "candidate_id": "s2tld1080_0013",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "6eaed320474717add04e7fcf5bb8933d5445f0a2e3018a0361f6671b6372dfd8",
+      "yolo_label_sha256": "ad9aa9c66d8fbddf39bd2a11c48ec3491e6c6f1f862ebd95b0a8e6ff8f5496c8"
+    },
+    {
+      "candidate_id": "s2tld1080_0016",
+      "identical_to_actual_prior_visual_QA": false,
+      "crop_visual_QA_passed": true,
+      "fresh_visual_QA": "reports/clean_crop_release_fresh_visual_r1.json",
+      "fresh_visual_QA_sha256": "c77ab9b7f198af0a0e676fc5678d19052d75a8c929e87823cab2eef5d5684865",
+      "crop_sha256": "141737344be60db7ba9791337f453fd74859d8112646ee22a9b715be8d685567",
+      "yolo_label_sha256": "08ae8f72fce3f82e8e8655e80effa445883400d3e0416690210869b53075a5e0"
+    },
+    {
+      "candidate_id": "s2tld1080_0058",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r5.json",
+      "prior_visual_QA_sha256": "1daf07bdd537fa6819c5aa4439e9298d37331afd5720022e1b67848e95442da8",
+      "prior_validation": "reports/clean_crop_validation_r5.json",
+      "prior_validation_sha256": "8ebbecc9a85e44b29d399cfe0134b7895f1ab87acde926116edf532d109200bf",
+      "crop_sha256": "3d995bf33545171c711a47c5eeff8ecd1aa79799ffc1b0156e4bc83242b9c766",
+      "yolo_label_sha256": "18d82fa1c17e1fa83c57b0e68ecd1f9d9e06bb78beac1d2025b0eb6495c26e4c"
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r5.json",
+      "prior_visual_QA_sha256": "1daf07bdd537fa6819c5aa4439e9298d37331afd5720022e1b67848e95442da8",
+      "prior_validation": "reports/clean_crop_validation_r5.json",
+      "prior_validation_sha256": "8ebbecc9a85e44b29d399cfe0134b7895f1ab87acde926116edf532d109200bf",
+      "crop_sha256": "e8e5a1d745f2acea52452e7d469d9f1e9e1fd20a4051fb3c94e22b276597e952",
+      "yolo_label_sha256": "ac5ee41c05bd0a19aa44b4d746e6d7d1a889d2778eac8f3c8c57205b93d0e278"
+    },
+    {
+      "candidate_id": "s2tld1080_0215",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "1717bafb73125531d5dda60856d1f8e93163a30992ebb64e3bef736b63e8b1b0",
+      "yolo_label_sha256": "1e8899e54d662f069845263328a288cdd8341c7ad28f6d6ae12a32bce4104274"
+    },
+    {
+      "candidate_id": "s2tld1080_0225",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "b03f9aed4fe32859cac6d2441df51369fc8b5a0b8a18e6a17c8d327ce455eff7",
+      "yolo_label_sha256": "221f33e3db5f773429c732bb90fac184a7478924f96a3d1211ebe2737d5001f5"
+    },
+    {
+      "candidate_id": "s2tld1080_0230",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "f7a54f9f0a24f24a391ce4e5d8bc462dcf0e46f7dfa4a6da39e81c36af5d7612",
+      "yolo_label_sha256": "7f3be4ac0a5fd44e8f5a2bc69184a8b798d1c60e84722ddb38b451febee50170"
+    },
+    {
+      "candidate_id": "s2tld1080_0233",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "9534a5eb8cde4399731a26be6292f02ef8634ffe413fa32b3d1c327fa769895f",
+      "yolo_label_sha256": "e1b15ef0c37c27dce0e946aca2922c32c532b594099339482f939e4ed6159de9"
+    },
+    {
+      "candidate_id": "s2tld1080_0234",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "a9309e598c43dbb302cc1aaa4c334b09ba4ed122019b76a8f4c079777758c093",
+      "yolo_label_sha256": "9a87fc7628a1bffa05e24f7fd9620d771272950a7a8b6f4318e3849117d46030"
+    },
+    {
+      "candidate_id": "s2tld1080_0243",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "64f42ba7dfd939f821354554786da57ec7d33dab96bee38698ef948c589c6175",
+      "yolo_label_sha256": "293c8001c06f281b470922e12419874fd5fd31dfdbb9710300e803fe87ba8528"
+    },
+    {
+      "candidate_id": "s2tld1080_0244",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r8.json",
+      "prior_visual_QA_sha256": "5bb0f3d28293a2fd6002f6131ca5f092d789d97132d5c5d920f9f27fcb9a9fc0",
+      "prior_validation": "reports/clean_crop_validation_r8.json",
+      "prior_validation_sha256": "1a723c420f026adacf65ef183d4c3ba15214d78b934f9972546483dc9a32288b",
+      "crop_sha256": "35e89acdd2c2bf35be47c4e9bc2b920ac0332ff758b09c0ce7e7a970c3fa45ef",
+      "yolo_label_sha256": "b2cf30a8e7b1af9ffbab6de0692e188d7aa80992c9e922050059e5abab08470a"
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "c379be5778d9d08c7cc4401a4bd9be9ec9db12067f87a6f1f94df67f2cb7cd94",
+      "yolo_label_sha256": "43359f673c32d2c21a6dcd9483789a5fb258675188e826cac99d078a8b5ce4e6"
+    },
+    {
+      "candidate_id": "s2tld1080_0390",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "6b4699bed8c65cb9ab944bad9008036afba59626332161cba91ddb26f49e8e52",
+      "yolo_label_sha256": "ed0b1d320c473ad6a3f970faa2eb71704848eba15e468ff30de3ee25d90ce9d1"
+    },
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r6.json",
+      "prior_visual_QA_sha256": "91aa7dfebb380b26ce1063b24bc6b6bf0dc01f40810f9020f5337ff8715607d7",
+      "prior_validation": "reports/clean_crop_validation_r6.json",
+      "prior_validation_sha256": "80a60622b49b5ad136a8df36781a02de810fb627789f29d0100eb80b8268d513",
+      "crop_sha256": "4e750af5b1fe0359c54699f842dc6ad9262499945bbca00a8e1d1e63b83dcc56",
+      "yolo_label_sha256": "771fa6bda876ac84086b58df047e13c6f0564d811bd1aee25df444021e59250d"
+    },
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r3.json",
+      "prior_visual_QA_sha256": "d2a6e7c7071231db47102f72fbc5c843e860c58ec694d9f6a576fd0143004433",
+      "prior_validation": "reports/clean_crop_validation_r3.json",
+      "prior_validation_sha256": "101c48d52337bbad8564401d8a39822586285607a36263816b461bc18584e90a",
+      "crop_sha256": "821ae94855f850b962f730d327f0a129f8431cedbfa89662148e61aa449177f3",
+      "yolo_label_sha256": "89486cce765a3e2165d7ac2e79ccb9f09ea97adb62559f80e171c1fc6b910881"
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "identical_to_actual_prior_visual_QA": true,
+      "crop_visual_QA_passed": true,
+      "prior_visual_QA": "reports/clean_crop_visual_review_r5.json",
+      "prior_visual_QA_sha256": "1daf07bdd537fa6819c5aa4439e9298d37331afd5720022e1b67848e95442da8",
+      "prior_validation": "reports/clean_crop_validation_r5.json",
+      "prior_validation_sha256": "8ebbecc9a85e44b29d399cfe0134b7895f1ab87acde926116edf532d109200bf",
+      "crop_sha256": "069b1cc9d6d61674773406509a00c156aa568077defa3c52a7ef9471dd17d9df",
+      "yolo_label_sha256": "86c9c9be07f2b70a0d506a864b67958d2811ad51d6b1527a8dee865e59715d92"
+    }
+  ],
+  "method": "Reuse only exact original pixels, crop bounds, obstacles, targets and label bytes from actual prior PC QA; changed crops require separate fresh actual visual evidence. No independent crop signature claimed.",
+  "human_signoff": false,
+  "new_images_visually_reviewed": 1
+}

@@ -1,0 +1,10 @@
+{
+  "query": "CTLD traffic",
+  "url": "https://api.github.com/search/repositories?q=CTLD+traffic&per_page=8",
+  "http": 200,
+  "response": {
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": []
+  }
+}

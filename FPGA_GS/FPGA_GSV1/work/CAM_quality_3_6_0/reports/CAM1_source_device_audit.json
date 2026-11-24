@@ -1,0 +1,525 @@
+{
+  "audited_production_source": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_RAW_E3_3_6_0\\source",
+  "routed_build": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_pixels_source\\build\\CAM1_RAW_E3_3_6_0_20261024_203852_117",
+  "production_files_identical_to_R0_and_routed_build": {
+    "rtl/capture/cam_ov3660_table.v": "7aebff81bac8b054b434e458f50ddf65db69c0e705250f5b0553ff887105e4c1",
+    "rtl/capture/cam_ov3660_config.v": "dceac3265bbb9c1cca27c1cc67fe1466fde048f1537b1c4a987537f08db556da",
+    "rtl/capture/cam3660_dvp.v": "6f52c8ace1b1e2c371950d7aea10111861e0fdc00bf192dc51d86117eb03186e",
+    "rtl/capture/capture_pipe.v": "26c4f48dff64e288da1194c5b56cb9b2afb680c76b1394d97f23e211b351bc9a",
+    "rtl/reuse/video_capture_status.v": "af4d2fbbfd6b0affe4c464c3b3c618df8558d0802b1ad0ca6579a7dd3706a638",
+    "constraints/mes50hp.fdc": "c099468c18755d8f4bdd91878570cb2038a4ac0a7ab5e58c36fd99054d65f825",
+    "rtl/reuse/fram_buf.v": "3b239a67f5b1eddc0165d08969024e914956ea70a12985fbed14973a2913336c",
+    "rtl/frame/m3_front_owner.v": "f8b23a607e3d1d528a0a77b4e14e02afdc5f8047650532c930e6a1ef245c1ca7"
+  },
+  "reference_sources": [
+    {
+      "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\sensors_ov3660.c",
+      "sha256": "ef756d1b6f99d008f8a55c81469057c95438a67dd65bc310bcf3b22389d4c031",
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/sensors/ov3660.c"
+    },
+    {
+      "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\sensors_private_include_ov3660_regs.h",
+      "sha256": "61c829146e6826ac2f7cfb61e4dd0e3d9200b6e3f92b83c4ad9d5693ce1bc002",
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/sensors/private_include/ov3660_regs.h"
+    },
+    {
+      "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\sensors_private_include_ov3660_settings.h",
+      "sha256": "213a14845af7be40fd17e56dde04e40e5d9572c3b7b8e2c70b182405a7500cf5",
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/sensors/private_include/ov3660_settings.h"
+    },
+    {
+      "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\driver_include_sensor.h",
+      "sha256": "2b50ae9ac3a5bc6fa2394f50138c40dd1af05cac451932ddbef7461484251b19",
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/driver/include/sensor.h"
+    },
+    {
+      "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\sensors_ov5640.c",
+      "sha256": "df60065649695167db86787d7904b584ec82f73f8c0a686743f93f8d2d5b35ac",
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/sensors/ov5640.c"
+    }
+  ],
+  "datasheet": {
+    "file": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\release\\FPGA_GSV1_CAM1_OV3660_3_5_8_ROTATE25_CANDIDATE\\reports\\sources\\OV3660_datasheet.txt",
+    "sha256": "37f0a6c9aae9f71aeb3d9c350b8755587fc1cebc03c297b5620847838cd6aeed",
+    "url": "https://media.ic-find.com/datasheets/4666f79f51fd79b7cecae867005c0723.pdf",
+    "version": "PRELIMINARY1.3 2011-05-13",
+    "relevant_sections": [
+      "2.7/table2-4 RGB565",
+      "figure2-7/tables2-8/2-9 PLL",
+      "3.1/table3-1 rotation",
+      "3.2/figure3-3 window",
+      "3.5/table3-7 and7.13/table7-13 BLC",
+      "5.2/table5-3 DVP frame timing",
+      "8.3/table8-3 voltage",
+      "8.4/table8-4 clocks"
+    ]
+  },
+  "table_entry_count": 248,
+  "reference_prefix_entries": 197,
+  "reference_prefix_exact": true,
+  "sequence": {
+    "reset_and_enable_wait_ms": [
+      100,
+      100
+    ],
+    "critical_readback_register_count": 45,
+    "all_writes_check_ack": true,
+    "stops_on_verify_failure": true,
+    "no_runtime_camera_writer_in_E3": true,
+    "writes_to_overridden_registers": {
+      "3008": [
+        {
+          "index": 0,
+          "value": "82"
+        },
+        {
+          "index": 3,
+          "value": "42"
+        },
+        {
+          "index": 246,
+          "value": "02"
+        }
+      ],
+      "ffff": [
+        {
+          "index": 1,
+          "value": "64"
+        },
+        {
+          "index": 247,
+          "value": "64"
+        }
+      ],
+      "4740": [
+        {
+          "index": 7,
+          "value": "21"
+        },
+        {
+          "index": 245,
+          "value": "20"
+        }
+      ],
+      "3a08": [
+        {
+          "index": 46,
+          "value": "00"
+        },
+        {
+          "index": 239,
+          "value": "00"
+        }
+      ],
+      "3a09": [
+        {
+          "index": 47,
+          "value": "62"
+        },
+        {
+          "index": 240,
+          "value": "c8"
+        }
+      ],
+      "3a0e": [
+        {
+          "index": 48,
+          "value": "08"
+        },
+        {
+          "index": 243,
+          "value": "03"
+        }
+      ],
+      "3a0a": [
+        {
+          "index": 49,
+          "value": "00"
+        },
+        {
+          "index": 241,
+          "value": "00"
+        }
+      ],
+      "3a0b": [
+        {
+          "index": 50,
+          "value": "52"
+        },
+        {
+          "index": 242,
+          "value": "a6"
+        }
+      ],
+      "3a0d": [
+        {
+          "index": 51,
+          "value": "09"
+        },
+        {
+          "index": 244,
+          "value": "04"
+        }
+      ],
+      "3a00": [
+        {
+          "index": 52,
+          "value": "3a"
+        },
+        {
+          "index": 232,
+          "value": "3a"
+        }
+      ],
+      "3a14": [
+        {
+          "index": 53,
+          "value": "09"
+        },
+        {
+          "index": 237,
+          "value": "03"
+        }
+      ],
+      "3a15": [
+        {
+          "index": 54,
+          "value": "30"
+        },
+        {
+          "index": 238,
+          "value": "1c"
+        }
+      ],
+      "3a02": [
+        {
+          "index": 55,
+          "value": "09"
+        },
+        {
+          "index": 235,
+          "value": "03"
+        }
+      ],
+      "3a03": [
+        {
+          "index": 56,
+          "value": "30"
+        },
+        {
+          "index": 236,
+          "value": "1c"
+        }
+      ],
+      "4520": [
+        {
+          "index": 58,
+          "value": "0b"
+        },
+        {
+          "index": 221,
+          "value": "b0"
+        }
+      ],
+      "501f": [
+        {
+          "index": 64,
+          "value": "00"
+        },
+        {
+          "index": 224,
+          "value": "01"
+        }
+      ],
+      "5001": [
+        {
+          "index": 196,
+          "value": "83"
+        },
+        {
+          "index": 217,
+          "value": "83"
+        }
+      ]
+    }
+  },
+  "geometry": {
+    "start": [
+      384,
+      408
+    ],
+    "end_inclusive": [
+      1695,
+      1139
+    ],
+    "sensor_window": [
+      1312,
+      732
+    ],
+    "offset": [
+      16,
+      6
+    ],
+    "output": [
+      1280,
+      720
+    ],
+    "scale": false,
+    "binning": false,
+    "HTS": 1800,
+    "VTS": 800,
+    "crop_formula_verified": true
+  },
+  "final_registers": {
+    "3820": "46",
+    "3821": "06",
+    "4514": "bb",
+    "4520": "b0",
+    "3814": "11",
+    "3815": "11",
+    "5001": "83",
+    "501f": "01",
+    "4300": "61",
+    "4002": "c5",
+    "4003": "81",
+    "4005": "12",
+    "3503": "00",
+    "3a00": "3a",
+    "3a05": "30",
+    "3a18": "00",
+    "3a19": "f8",
+    "4740": "20"
+  },
+  "black_level": {
+    "explicit_writes": {
+      "4002": "C5",
+      "4003": "81",
+      "4005": "12"
+    },
+    "reset_defaults_not_written": {
+      "4000": "0D",
+      "4001": "04",
+      "4004": "08",
+      "4006": "08",
+      "4007": "00",
+      "4009": "10"
+    },
+    "historical_GAIN8_readback": {
+      "4000": "0D",
+      "4001": "04",
+      "4002": "C5",
+      "4003": "81",
+      "4004": "08",
+      "4005": "12",
+      "4009": "10"
+    },
+    "historical_readback_not_simultaneous_E3": true,
+    "unverified_current": [
+      "4000",
+      "4001",
+      "4002",
+      "4003",
+      "4004",
+      "4005",
+      "4006",
+      "4007",
+      "4009",
+      "402c..4033"
+    ],
+    "interpretation": [
+      "4000 bit0 enabled;0D BGR compensation and apply selection preserved",
+      "4002=C5: format-change update enabled,auto enabled,5 reset frames",
+      "4003=81: redo requested,freeze bit6 clear,manual frame count1",
+      "4005=12: always-update bit1 set; reserved bits preserved from reference",
+      "4001 reset4 and4004 reset8: start line and processed count; relation to cropped physical start408 not specified in available documentation",
+      "4007 window selection exists but was not included in historical readback; no evidence it differs from reset00"
+    ],
+    "confirmed_mismatch": false
+  },
+  "clock": {
+    "xclk_nominal_hz": 24000000,
+    "xclk_directly_measured": false,
+    "sysclk_calculated_hz": 36000000,
+    "byte_pclk_calculated_hz": 72000000,
+    "pixel_clock_hz": 36000000,
+    "row_us": 50.0,
+    "frame_ms": 40.0,
+    "fps": 25,
+    "active_bytes": 2560,
+    "available_byte_cycles_per_row": 3600,
+    "ae_max_lines": 796,
+    "ae_max_ms": 39.8,
+    "band50_lines": 200,
+    "band60_lines": 166,
+    "ae_gain_ceiling_x": 15.5
+  },
+  "ISP": {
+    "reference_defaults_retained": true,
+    "values": {
+      "5000": "A7",
+      "5001": "83",
+      "501f": "01",
+      "4300": "61"
+    },
+    "note": "No documented enabled temporal filter/frame memory found; this is not proof that undocumented sensor internals cannot contribute."
+  },
+  "input_path": {
+    "edge": "posedge cmos2_pclk for data/HREF/VS; matching one-byte top staging",
+    "first_register_type": "gopQ in CLB; cmos2_d_d0[0] is CLMA_154_77",
+    "camera_input_register_constraint": false,
+    "non_dedicated_clock_route_allowed": true,
+    "data_pad_standard": "LVCMOS12",
+    "sync_clock_pad_standard": "LVCMOS33",
+    "bank_VCCIO": 3.3,
+    "adapter_DOVDD_schematic_nominal": 2.8,
+    "actual_module_and_waveform_unknown": true,
+    "cmos2_period_constraint_ns": 11.9,
+    "observed_nominal_period_ns": 13.88888888888889,
+    "set_input_delay_present": false,
+    "sample_clock_arrival_ns_from_existing_min_paths": {
+      "fast": 3.514,
+      "slow": 5.553
+    },
+    "note": "These are modeled clock insertion values on an internal FF->FF path, not input-data slack or a full min/max external eye.",
+    "source_clock_false_group": "byte and /2 domains separately asynchronous; tuple RAM pointer CDC intended; bundled descriptor/data held after freeze",
+    "unavailable_to_signoff": [
+      "sensor PCLK-to-data min/max and relation at FPGA pads",
+      "actual PCB/FFC data vs clock skew",
+      "first-FF data arrival and threshold effects"
+    ]
+  },
+  "digital_path": {
+    "full_dimensions": [
+      1280,
+      720
+    ],
+    "source_frames_checked": 2,
+    "production_pixels_checked": 1843200,
+    "exported_pixels_checked": 11520,
+    "unique_pages": 480,
+    "whole_crc": "5fa1bea8",
+    "exact_independent_oracle": true,
+    "tested_patterns": [
+      "dark row chroma",
+      "walking16bits",
+      "55aa-aa55",
+      "row/column mixed words"
+    ],
+    "analog_pad_timing_covered": false,
+    "existing_reject_recovery_checks_reused": true,
+    "code_findings": [
+      "high byte first; pair state reset during VS or outside HREF; odd byte and overflow reject closing frame",
+      "VS/DE/RGB moved in one19-bit FIFO tuple; no independent synchronization of RGB bits",
+      "capture_pipe delays RGB/DE/VS and opening ID together by2 cycles",
+      "strip writes same cap_rgb1/cap_de1/cap_vs1 tuple as production DDR writer",
+      "same-domain strip write and address count; no new video-domain sampling clock",
+      "8banks of2048 words,11520 words used; last bank5/address1279; no wrap-overflow",
+      "descriptor and RAM held frozen before sysclk reads; actual synchronous DRM read latency accounted"
+    ],
+    "limits": [
+      "Stable digital stimulus cannot establish analogue setup/hold or eliminate silicon CDC metastability.",
+      "Existing internal STA excludes unconstrained pad->firstFF external requirements."
+    ]
+  },
+  "recommendation": "No justified sensor-register repair found. One passive receive-end CAM1 DVP timing/level measurement before any further bitstream.",
+  "no_production_source_changed": true,
+  "no_build": true,
+  "no_serial_read": true,
+  "no_programming": true,
+  "no_pi_activity": true,
+  "prioritized_hypotheses": [
+    {
+      "priority": 1,
+      "hypothesis": "CAM1 receive-end DVP input electrical/sampling margin",
+      "locations": [
+        "constraints/mes50hp.fdc:742..750,795..834,892..906",
+        "rtl/board/fpga_gsv1_top.v:251..270",
+        "report_timing/fpga_gsv1_top.rtr:2602..2640,12744..12780"
+      ],
+      "supporting": [
+        "No input delay requirement covers data/HREF/VS to first FF",
+        "First input FF maps to CLB; PCLK non-dedicated segment and global tree insertion are present",
+        "Data usesLVCMOS12 while PCLK/HREF/VS useLVCMOS33; module actual waveform is not validated",
+        "Clean bars do not stress all live-dark data transitions"
+      ],
+      "opposing": [
+        "Two full stable-digital720p frames and exact strip export pass",
+        "Clean sensor bars and valid geometry are real controls; no measured electrical violation yet"
+      ],
+      "missing": [
+        "OV3660 guaranteed PCLK-to-output min/max at used drive/load",
+        "FPGA-side actual data-vs-PCLK eye and voltage; data-to-firstFF delays"
+      ],
+      "discriminating_experiment": "One passive FPGA-receive-end PCLK/D[7:0]/HREF-VS timing/voltage acquisition under present E3,without parameter writes"
+    },
+    {
+      "priority": 2,
+      "hypothesis": "Real-image sensor/ISP row-dependent dark offset, including black reference or supply coupling",
+      "locations": [
+        "rtl/capture/cam_ov3660_table.v:189..191,205..254",
+        "OV3660 v1.3 sections3.5 and7.13",
+        "historical GAIN8_actual_decode.json:BLC"
+      ],
+      "supporting": [
+        "Known-covered preDDR pixels have row-dependent color offsets",
+        "Sensor generated bars observed clean; adding light reduced live streaks",
+        "Two frozen strips have different row distributions"
+      ],
+      "opposing": [
+        "No documented BLC/rotation/window misconfiguration found",
+        "GAIN8 did not remove lines; original live-scene gain wasbelow ceiling",
+        "No frozen-frame gain/exposure/BLC coefficients or rail waveform recorded"
+      ],
+      "missing": [
+        "Current full black-reference window and computed black coefficients",
+        "Direct pin-stream proof and clean electrical margin",
+        "Sensor/IO rail ripple if input sampling proves sound"
+      ],
+      "discriminating_experiment": "Same passive DVP measurement: colored row variation already encoded in well-resolved stable pin bytes supports sensor/upstream origin; clean timing alone is not sensor-fault proof"
+    }
+  ],
+  "sole_next_step": {
+    "kind": "Passive receive-end DVP electrical/timing measurement; no new bitstream",
+    "unchanged": [
+      "current RAW E3",
+      "sensor config/AE/gain",
+      "clock edges/PLL",
+      "cables",
+      "Pi services"
+    ],
+    "equipment": "Oscilloscope recommended>=200MHz analogue bandwidth,>=1GSa/s,low-capacitance probes; multi-channel digital capture useful for byte decoding",
+    "signals": [
+      "PCLK and all8 data bits,probe data bits in one session as channel capacity permits",
+      "HREF/VS around row/frame boundaries",
+      "sensor DOVDD actual level"
+    ],
+    "scope_point": "Board/FPGA receive end near camera connector; report actual point and probe loading. Module pad point alone cannot characterize FFC path.",
+    "calculation": "Measured pad stable windows must be combined with actual firstFF clock/data insertion and device setup/hold; do not compare only against the pad rising edge.",
+    "result_rules": [
+      "Inadequate voltage/stability or data transition at calculated FF sample window supports input-interface hypothesis; repair only identified IO path/constraint.",
+      "Well-resolved raw DVP bytes already encode colored row variations: input is not a clean black image before FPGA sampling; supports sensor/ISP/upstream source; FPGA changes cannot be inferred as remedy.",
+      "Good waveforms but no row anomaly in observed region reduces support for sampling fault only for that capture; different-frame clean data cannot prove the frozen strip was generated incorrectly.",
+      "Inconclusive waveform or incomplete data coverage is inconclusive,not permission for phase/gain/BLC sweep."
+    ]
+  },
+  "CAM0_independent_count_discrepancy": {
+    "resolved_trace": true,
+    "evidence": [
+      "audit_cam0_geometry.log",
+      "audit_cam0_startup.log"
+    ],
+    "six_verdicts": [
+      "id0:00000x00 startup VS/DE overlap unknown",
+      "id1:00",
+      "id2:00",
+      "id3:00",
+      "id4:01 intentional row311 length1279",
+      "id5:00"
+    ],
+    "cause": "Legacy cmos_8_16bit pixel clock starts on firstVS; de_o pipeline has no own reset. At third pixel clock ready_video=11 while old de_o=X, so first SOF latches error bit2=X; valid output arrives same edge. This explains4good/2bad,not5good/1bad in four-state simulation.",
+    "scope": "Isolated simulation startup accounting; not evidence of hardware ongoing invalid frames or of owner-fix correctness.",
+    "production_RTL_changed": false,
+    "complete_DDR_regression_rerun": false,
+    "front_fix_integrated_into_E3": false
+  }
+}

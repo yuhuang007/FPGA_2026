@@ -1,0 +1,17 @@
+{
+  "unchanged_protected_files": 156,
+  "changes": [
+    {
+      "path": "rtl/board/fpga_gsv1_top.v",
+      "added": false,
+      "sha256": "e2567e52c6602f330719a269bb58e35e9ddabb6d046c516c65a4c0e9350d2a19"
+    },
+    {
+      "path": "rtl/capture/cam1_green_probe.v",
+      "added": true,
+      "sha256": "8cd30f7d3cde9fcbba6e2112d98d8abd275d2b30f494e8ee76814e51593a88bb"
+    }
+  ],
+  "constraints_unchanged": true,
+  "decoder_checks": "PASS synthetic phase separation, rates, geometry, truncated-result rejection"
+}

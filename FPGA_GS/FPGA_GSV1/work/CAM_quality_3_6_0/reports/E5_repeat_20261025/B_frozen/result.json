@@ -1,0 +1,21 @@
+{
+  "completed": true,
+  "frame_id": 2646,
+  "source_x": 1120,
+  "source_y": 0,
+  "width": 16,
+  "height": 720,
+  "pixels": 11520,
+  "crc32": "2fd8851f",
+  "pages_received": 730,
+  "preceding_rejected_candidates": 0,
+  "stage": "CAM1 capture_pipe output BEFORE DDR/scaling/filter/OSD",
+  "no_sensor_register_writes": false,
+  "limits": [
+    "One frozen spatial strip is not full-frame or continuous-video pixel signoff.",
+    "Native pixels may include sensor/ISP or DVP sampling faults; this does not separate them.",
+    "The horizontal x16 preview repeats each column for visibility; native.png and raw file retain original pixels.",
+    "Do not use the narrow strip to judge optical focus or whole-image sharpness."
+  ],
+  "experiment": "One bitwise-preserving controlled BLC freeze/restore; fixed exposure/gain/WB shared by A/B/Aprime."
+}

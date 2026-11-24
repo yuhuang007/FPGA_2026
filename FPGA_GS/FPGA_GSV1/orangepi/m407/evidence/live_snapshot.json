@@ -1,0 +1,356 @@
+{
+  "ok": true,
+  "directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m407/evidence/runtime",
+  "snapshot": "LIVE_s1873807545_e1_f40690_1175",
+  "status": {
+    "release": "M4-07-r1-candidate",
+    "mode": "LIVE_FRONT",
+    "source": "FPGA CAM0",
+    "vehicle": "KEY_INTENT_SIMULATION_ONLY",
+    "instance": "72323a12ac13191cec648141",
+    "session": 1873807545,
+    "epoch": 1,
+    "frame_id": 40692,
+    "sequence": 1176,
+    "processed": 1175,
+    "processed_fps": 14.9,
+    "host_monotonic_ms": 2962674.806499,
+    "age_ms": 48.1,
+    "stale": false,
+    "last_complete_age_ms": 48.1,
+    "perception": {
+      "signal": {
+        "state": "UNKNOWN",
+        "actions": [],
+        "confidence": 0,
+        "reason": "灯组控制关系未知"
+      },
+      "lanes": {
+        "left": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "right": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "visible_lane_count": null,
+        "ego_ordinal": null,
+        "confirmed_corridors": 0,
+        "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+        "direction_relation": "UNKNOWN",
+        "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+        "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+        "reason": "左右边界不足；不推造完整本车道"
+      },
+      "stage_ms": {},
+      "source": "LIVE_FRONT",
+      "session": 1873807545,
+      "frame_id": 40692,
+      "epoch": 1,
+      "complete_received_monotonic": 2962.626699217,
+      "detection": {
+        "backend": "RKNN/NPU",
+        "model": "YOLOv8n COCO w8a8",
+        "input_size": [
+          640,
+          640
+        ],
+        "threshold": 0.25,
+        "nms_iou": 0.45,
+        "epoch": 1,
+        "frame_id": 40688,
+        "objects": [],
+        "detected_count": 0,
+        "held_count": 0,
+        "count": 0,
+        "detection_fps": 14.16,
+        "stage_ms": {
+          "det_preprocess": 2.733,
+          "det_inference": 27.547,
+          "det_postprocess": 8.302,
+          "det_tracking": 0.007,
+          "det_display_tracking": 2.082
+        },
+        "inference_age_ms": 144.3,
+        "display_frame_id": 40692,
+        "age_reference_monotonic": 2962.639056345,
+        "age_ms": 35.8
+      },
+      "traffic": {
+        "backend": "RKNN/NPU + CPU",
+        "method": "原COCO权重/重叠裁剪与低频全图 + 白芯定位/原图灯色 + 有界图像跟踪",
+        "scope": "自动候选；箭头与控制关系UNKNOWN，不自动放行",
+        "epoch": 1,
+        "source_frame_id": 40684,
+        "decoded_monotonic": 2962.364578082,
+        "age_ms": 310.2,
+        "lights": [],
+        "transitions": [],
+        "control_relation": "UNKNOWN",
+        "control_reason": "本轮不建立灯组控制归属",
+        "stage_ms": {
+          "traffic_preprocess": 3.8502270003846206,
+          "traffic_inference": 110.67486599995391,
+          "traffic_postprocess": 14.724545999797556,
+          "traffic_geometry_color": 78.248,
+          "traffic_total": 207.509
+        },
+        "statistics": {
+          "raw_geometry_candidates": 0,
+          "paired_geometry_candidates": 0,
+          "geometry_hypotheses": 94,
+          "direct_bodies": 0,
+          "image_tracked": 0,
+          "candidates_rejected": 0,
+          "rejected_candidates": [],
+          "raw_candidates": [],
+          "scan_box": [
+            768,
+            86,
+            1280,
+            503
+          ]
+        }
+      },
+      "road": {
+        "road_contours": [],
+        "paint_contours": [],
+        "ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定",
+          "display_source": "short_hold"
+        },
+        "stage_ms": {
+          "road_preprocess": 7.85,
+          "road_model": 81.7,
+          "lane_postprocess": 28.51,
+          "lane_semantics": 0.18
+        },
+        "model_ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定"
+        },
+        "lane_semantics": {
+          "left": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "right": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "visible_lane_count": null,
+          "ego_ordinal": null,
+          "confirmed_corridors": 0,
+          "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+          "direction_relation": "UNKNOWN",
+          "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+          "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+          "reason": "左右边界不足；不推造完整本车道"
+        },
+        "epoch": 1,
+        "source_frame_id": 40686,
+        "decoded_monotonic": 2962.425543858,
+        "completed_monotonic": 2962.557941112,
+        "state": "HELD",
+        "age_ms": 249.3,
+        "display_frame_id": 40692
+      }
+    },
+    "skipped_complete_frames": 3,
+    "exact_cache": 28,
+    "received_cache": 30,
+    "stage_ms": {
+      "overlay": 9.198,
+      "jpeg": 2.003,
+      "det_preprocess": 2.733,
+      "det_inference": 27.547,
+      "det_postprocess": 8.302,
+      "det_tracking": 0.007,
+      "det_display_tracking": 2.082,
+      "road_preprocess": 7.85,
+      "road_model": 81.7,
+      "lane_postprocess": 28.51,
+      "lane_semantics": 0.18,
+      "traffic_preprocess": 3.8502270003846206,
+      "traffic_inference": 110.67486599995391,
+      "traffic_postprocess": 14.724545999797556,
+      "traffic_geometry_color": 78.248,
+      "traffic_total": 207.509,
+      "rgb565_decode": 6.886,
+      "process_total": 20.559,
+      "complete_to_preview_ms": 23.891
+    },
+    "stage_mean_ms": {
+      "overlay": 11.162,
+      "jpeg": 2.268,
+      "det_preprocess": 3.825,
+      "det_inference": 38.991,
+      "det_postprocess": 15.408,
+      "det_tracking": 0.016,
+      "det_display_tracking": 2.305,
+      "road_preprocess": 5.52,
+      "road_model": 63.981,
+      "lane_postprocess": 24.744,
+      "lane_semantics": 0.118,
+      "traffic_preprocess": 2.86,
+      "traffic_inference": 98.729,
+      "traffic_postprocess": 9.74,
+      "traffic_geometry_color": 83.46,
+      "traffic_total": 194.81,
+      "rgb565_decode": 10.357,
+      "process_total": 26.647,
+      "complete_to_preview_ms": 29.284
+    },
+    "requested_front_fps": 15,
+    "target_process_fps": 15,
+    "target_preview_fps": 15,
+    "preview_width": 640,
+    "traffic": {
+      "target_hz": 4,
+      "update_fps": 3.67,
+      "completed": 294,
+      "skipped_source_observations": 880,
+      "sampling_skipped": 880,
+      "pending_replaced": 0,
+      "neural_region_schedule": "中心/左/右/中心/全图/左/右；总目标4Hz，逐灯图像观测率另计",
+      "error": null,
+      "thread_alive": true
+    },
+    "road": {
+      "model": "YOLOP",
+      "backend": "RKNN/NPU FP16",
+      "target_fps": 8,
+      "semantic_update_fps": 7.87,
+      "semantic_target_fps": 8,
+      "input_size": 320,
+      "outputs": [
+        "drivable_area",
+        "binary_lane_paint"
+      ],
+      "completed": 619,
+      "update_fps": 7.87,
+      "replaced_pending": 555,
+      "error": null,
+      "alive": true
+    },
+    "detection": {
+      "detection_runs": 1129,
+      "detection_fps": 14.34
+    },
+    "error": null,
+    "show_lights": true,
+    "show_road": true,
+    "show_lane": true,
+    "show_objects": true,
+    "note": "图龄从主机完整接收起算，非端到端延迟；叠加只在香橙派网页，未回传FPGA检测框。",
+    "link": {
+      "heartbeat_tx": 315,
+      "rx_packets": 1697846,
+      "heartbeat_or_welcome": 473,
+      "telemetry_packets": 158,
+      "front_fragments": 1697215,
+      "complete_frames": 1178,
+      "session": 1873807545,
+      "online": true,
+      "connection_state": "STREAMING",
+      "session_epoch": 0,
+      "reconnects": 0,
+      "reconnect_reason": null,
+      "reconnect_quiet_remaining_ms": 0,
+      "session_started_monotonic": 2883.709796634,
+      "last_video_frame_id": 40694,
+      "assembly_frame_id": 40694,
+      "last_complete_monotonic": 2962.626699217,
+      "requested_front_fps": 15,
+      "recent_complete_fps": 14.803,
+      "telemetry": {
+        "mac_crc": 0,
+        "mac_overrun": 0,
+        "reject_format": 36,
+        "reject_checksum": 30,
+        "reject_session": 0,
+        "reject_profile": 0,
+        "sequence_errors": 0,
+        "duplicate_packets": 0,
+        "begin_wait_cycles": 0,
+        "begin_requests": 0,
+        "assembly_timeouts": 0,
+        "assembly_aborts": 0,
+        "ddr_beats": 0,
+        "published": 0,
+        "displayed_new": 0,
+        "rx_packets": 4075
+      },
+      "feedback": {
+        "controls": {
+          "mode": "REAL",
+          "selection": "unknown",
+          "revision": 0,
+          "applies_to": "NEXT_REAL_EVENT_ONLY",
+          "default": "REAL"
+        },
+        "recent_events": [],
+        "counts": {},
+        "history_limit": 32,
+        "ttl_note": "板端按事件时刻计算TTL；主机预算从首次收到EVENT起算并保留100ms余量，不能测得板端剩余TTL。",
+        "latency_note": "耗时仅从主机收到EVENT起算，不是物理按键到FPGA屏幕的端到端延迟。"
+      },
+      "host_elapsed_seconds": 78.963,
+      "front_receive_fps": 14.918,
+      "socket_receive_buffer_bytes": 8388608,
+      "current_frame_fragments": 895,
+      "assembly_dropped": 0,
+      "assembly_duplicates": 0,
+      "hardware_validation": "网口2已有真实前摄验收；按键及双口条件请见本轮验收报告",
+      "receiver_process_pid": 11234,
+      "complete_arrival_intervals_ms": {
+        "count": 1177,
+        "median": 66.99938400015526,
+        "p95": 71.41718599996238,
+        "max": 95.57699200013303
+      },
+      "ipc_observation_dropped": 0
+    },
+    "receive_thread_alive": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "protected_files": 22226,
+  "protected_changed": [],
+  "removed_files": 713,
+  "removed_bytes": 8171574178,
+  "archive_bytes": 1424037375,
+  "net_reclaimed_bytes": 6747536803,
+  "archive": "E:\\zhoumian\\FPGA\\FPGA_GS\\_archive\\cleanup_20261027_round2\\historical_generated_and_logs.zip",
+  "archive_sha256": "1c5b6d4513da74885fea9e8b288e67e3b9699184b3a6c398e4fd74de6e388c4c"
+}

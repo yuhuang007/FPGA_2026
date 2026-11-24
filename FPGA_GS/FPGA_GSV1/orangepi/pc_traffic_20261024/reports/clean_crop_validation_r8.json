@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-25T03:28:50.033599+00:00",
+  "pilot_manifest": "review_stage2/clean_crop_pilot_r8/manifest.json",
+  "pilot_manifest_sha256": "6d75d9df14fcc8bd0d800867498919525a96ddba63651711996eb5e56df56cf4",
+  "passed": true,
+  "originals": 6,
+  "targets": 13,
+  "checks": [
+    {
+      "candidate_id": "s2tld1080_0225",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 7.499999128413037e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0230",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 9.600000083764826e-07,
+      "body_count": 3
+    },
+    {
+      "candidate_id": "s2tld1080_0233",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 1.199000053020427e-06,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0234",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 1.0584999472484924e-06,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0243",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 5.640000324547145e-07,
+      "body_count": 2
+    },
+    {
+      "candidate_id": "s2tld1080_0244",
+      "pixel_exact": true,
+      "all_intersecting_bodies_included": true,
+      "ignore_and_partial_signal_intersections": 0,
+      "yolo_roundtrip_max_native_pixel_error": 6.475000304817513e-07,
+      "body_count": 2
+    }
+  ],
+  "standard_yolo_640_loader": {
+    "passed": true,
+    "loaded": [
+      {
+        "file": "s2tld1080_0225_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0230_clean01.png",
+        "targets": 3
+      },
+      {
+        "file": "s2tld1080_0233_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0234_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0243_clean01.png",
+        "targets": 2
+      },
+      {
+        "file": "s2tld1080_0244_clean01.png",
+        "targets": 2
+      }
+    ],
+    "augment": false,
+    "training_started": false
+  },
+  "does_not_release_splits_or_training": true
+}

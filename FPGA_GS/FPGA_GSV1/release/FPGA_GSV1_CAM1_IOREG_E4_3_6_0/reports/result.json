@@ -1,0 +1,11 @@
+{
+  "Version": "CAM1 IO input-register E4 controlled comparison; unknown external source timing; no quality fix claimed",
+  "ProcessingEnable": true,
+  "BuildPass": false,
+  "ExitCode": 0,
+  "ExistingConstraintsMet": true,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_input_source\\build\\CAM1_IOREG_E4_3_6_0_20261025_121928_558"
+}

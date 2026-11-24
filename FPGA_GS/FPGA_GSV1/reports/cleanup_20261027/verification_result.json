@@ -1,0 +1,17 @@
+{
+  "published_SHA_checked": 6611,
+  "published_changed": [],
+  "removed_files_still_present": [],
+  "archive_SHA_verified": true,
+  "WIP_original_zip_SHA_verified": true,
+  "retained_source_examples": [
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\build\\M1_01_1_0_20261020_155534_191\\rtl",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\build\\M1_02_1_1_20261020_172931_733\\rtl",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\SOURCE_MAP_3_6_1",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\m407",
+    "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\orangepi\\m406r2"
+  ],
+  "net_reclaimed_GiB": 1.937,
+  "completed_at_local": "2026-10-27 13:35:08 +0800",
+  "passed": true
+}

@@ -1,0 +1,3 @@
+PASS stage0 id0 complete11520 pixels/480pages
+FATAL: sim/blc_strip_tb.sv:79: export descriptor
+       Time: 83950940000  Scope: blc_strip_tb

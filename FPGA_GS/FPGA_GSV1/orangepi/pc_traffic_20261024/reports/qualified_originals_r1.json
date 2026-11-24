@@ -1,0 +1,1087 @@
+{
+  "recorded_at": "2026-10-25T04:03:33.781026+00:00",
+  "qualified_original_images": 18,
+  "qualified_body_targets": 30,
+  "split_counts": {
+    "train": 15,
+    "val": 3
+  },
+  "production_manifest": "review_stage2/clean_crop_release_r1/manifest.json",
+  "production_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+  "validation": "reports/clean_crop_release_validation_r1.json",
+  "validation_sha256": "86cd87b36e790bbc3fa5de37ed94392899c6ea73b7b3cdd628905067f8012bf9",
+  "visual_QA": "reports/clean_crop_release_visual_QA_r1.json",
+  "visual_QA_sha256": "7957b5c51d61ec1f858640f738d3c1dc39230ea0d47f06f26efc6bb5df68adeb",
+  "qualification_unit": "unique original photo, one crop per source; global training gates separate",
+  "entries": [
+    {
+      "candidate_id": "s2tld1080_0000",
+      "canonical_original_id": "s2tld1080_0000",
+      "source_image_sha256": "d52bf48762aba3a98f622eb245d903108613534ad4cd30978185d10fb5accec3",
+      "source_annotation": "review_stage2/frozen/batch_001/labels/s2tld1080_0000.json",
+      "source_annotation_sha256": "3822d799085bd3b7738302c8ca8a5103aa7def3b09ef58d40958cc351ead986b",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0000_clean01.png",
+      "crop_sha256": "83e364f5099371bdc5294850fe8359cfbeca3e0a3cd10b351b69625a5ddd8ded",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0000_clean01.txt",
+      "yolo_label_sha256": "a6b01bec3be76b9e1f18c60b303e7ced44505776aa92d34e39073fa0a76b399b",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            614,
+            476,
+            635,
+            523
+          ],
+          "native_size": [
+            21,
+            47
+          ],
+          "at_640_letterbox_size": [
+            12.444444444444443,
+            27.85185185185185
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261024_r2",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0012",
+      "canonical_original_id": "s2tld1080_0012",
+      "source_image_sha256": "ad79c40c418b3c51ba2b34f8a48f64b659be8b0493d45db96a0203119952178a",
+      "source_annotation": "review_stage2/revisions/pc_r2_009/labels/s2tld1080_0012.json",
+      "source_annotation_sha256": "86bf83b56351a5a236db47283df7cd6f8ea2104165895d050910b4a451619741",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0012_clean01.png",
+      "crop_sha256": "f4c9a4327923cfeb9be0bcb828c3eefa967246465aa24c1763c00c550e1877c3",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0012_clean01.txt",
+      "yolo_label_sha256": "b77d22d56b3acfa0ebeb62096f704643aacc5af7c10694903b5276645fe293ff",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            515,
+            472,
+            539,
+            523
+          ],
+          "native_size": [
+            24,
+            51
+          ],
+          "at_640_letterbox_size": [
+            9.752380952380953,
+            20.723809523809525
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "ignore_far",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            866,
+            457,
+            891,
+            509
+          ],
+          "native_size": [
+            25,
+            52
+          ],
+          "at_640_letterbox_size": [
+            10.158730158730158,
+            21.13015873015873
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261025_geometry",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/recheck_20261025_0012_geometry.jsonl",
+        "sha256": "6d5b9fabf6aeefbfe8a3567f958c10ac30d56629e8e38d05cf885be10134cb3b",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0013",
+      "canonical_original_id": "s2tld1080_0013",
+      "source_image_sha256": "a137344d03e8bd2345e4476e9a88ff1cd519f3cd0a869fca971f260da4a074f8",
+      "source_annotation": "review_stage2/frozen/batch_002/labels/s2tld1080_0013.json",
+      "source_annotation_sha256": "e0566aa666903569acfe87811d669cbc17c5c2cad75d846b36fd9d0cdb9bb590",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0013_clean01.png",
+      "crop_sha256": "6eaed320474717add04e7fcf5bb8933d5445f0a2e3018a0361f6671b6372dfd8",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0013_clean01.txt",
+      "yolo_label_sha256": "ad9aa9c66d8fbddf39bd2a11c48ec3491e6c6f1f862ebd95b0a8e6ff8f5496c8",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            355,
+            124,
+            392,
+            210
+          ],
+          "native_size": [
+            37,
+            86
+          ],
+          "at_640_letterbox_size": [
+            18.413685847589427,
+            42.79937791601866
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_2",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            917,
+            91,
+            953,
+            178
+          ],
+          "native_size": [
+            36,
+            87
+          ],
+          "at_640_letterbox_size": [
+            17.91601866251944,
+            43.29704510108865
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261024_r2",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_002.jsonl",
+        "sha256": "0a85ab9fb329e339ee9cdf369071a8121f5f346881c25ff953b169799499d9a6",
+        "line": 6
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0016",
+      "canonical_original_id": "s2tld1080_0016",
+      "source_image_sha256": "4b57b1165a48fdb127a808ed0b3f5210f9e916e85d7f9ed5f2b776c8405e5249",
+      "source_annotation": "review_stage2/frozen/batch_003/labels/s2tld1080_0016.json",
+      "source_annotation_sha256": "5f5b5e1d2d3c924ec612a72d9756961300665128733bd2249007c373e43427c0",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0016_clean01.png",
+      "crop_sha256": "141737344be60db7ba9791337f453fd74859d8112646ee22a9b715be8d685567",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0016_clean01.txt",
+      "yolo_label_sha256": "08ae8f72fce3f82e8e8655e80effa445883400d3e0416690210869b53075a5e0",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            139,
+            289,
+            162,
+            340
+          ],
+          "native_size": [
+            23,
+            51
+          ],
+          "at_640_letterbox_size": [
+            15.59322033898305,
+            34.57627118644068
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261024_r2",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_003.jsonl",
+        "sha256": "f80463f3dada2241b6c2d80b8dc29e2b29e8a8d000ab810dc58678c56fb1bf86",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0058",
+      "canonical_original_id": "s2tld1080_0058",
+      "source_image_sha256": "c6c28fb55760f5f1c977acdb534efa9834cdf6a0e776f20fca23ce4b6faeaaca",
+      "source_annotation": "review_stage2/frozen/batch_008/labels/s2tld1080_0058.json",
+      "source_annotation_sha256": "98cb2fe14edba3bfc640213d90518a8abd5feeb46debda8a0dbac203b3f9d11a",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0058_clean01.png",
+      "crop_sha256": "3d995bf33545171c711a47c5eeff8ecd1aa79799ffc1b0156e4bc83242b9c766",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0058_clean01.txt",
+      "yolo_label_sha256": "18d82fa1c17e1fa83c57b0e68ecd1f9d9e06bb78beac1d2025b0eb6495c26e4c",
+      "targets": [
+        {
+          "source_id": "body_ped",
+          "kind": "pedestrian",
+          "bbox_xyxy": [
+            1589,
+            32,
+            1626,
+            93
+          ],
+          "native_size": [
+            37,
+            61
+          ],
+          "at_640_letterbox_size": [
+            13.515981735159816,
+            22.283105022831048
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_008_remaining_review.jsonl",
+        "sha256": "ba602b4d87578e133823c3b436ed8ee91ba98a0b4e60337b7ea3c4128acc2971",
+        "line": 2
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0065",
+      "canonical_original_id": "s2tld1080_0065",
+      "source_image_sha256": "29848f09f1f192bfb97312b831120f4fe7ac8f0eec1882627f6e45bda8dbc4d9",
+      "source_annotation": "review_stage2/frozen/batch_009/labels/s2tld1080_0065.json",
+      "source_annotation_sha256": "16f742227d09fefb560f9885ed58713a4f78bff1774c9cdc4c70cadb79a5b2ad",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0065_clean01.png",
+      "crop_sha256": "e8e5a1d745f2acea52452e7d469d9f1e9e1fd20a4051fb3c94e22b276597e952",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0065_clean01.txt",
+      "yolo_label_sha256": "ac5ee41c05bd0a19aa44b4d746e6d7d1a889d2778eac8f3c8c57205b93d0e278",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            586,
+            290,
+            626,
+            386
+          ],
+          "native_size": [
+            40,
+            96
+          ],
+          "at_640_letterbox_size": [
+            23.42177493138152,
+            56.21225983531565
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_009_remaining_review.jsonl",
+        "sha256": "532720670d1a94d88a75f750b63d77d569592294715f5faa2759031e5db0237a",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0215",
+      "canonical_original_id": "s2tld1080_0215",
+      "source_image_sha256": "108824edb9ebe30726a2252295fed4427d01951e689145a5f4413e739cc0ca72",
+      "source_annotation": "review_stage2/revisions/pc_r2_001/labels/s2tld1080_0215.json",
+      "source_annotation_sha256": "2754c2c83a76163a53774d2a3e565fe1119145437e66f38d03392216213cdf6d",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0215_clean01.png",
+      "crop_sha256": "1717bafb73125531d5dda60856d1f8e93163a30992ebb64e3bef736b63e8b1b0",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0215_clean01.txt",
+      "yolo_label_sha256": "1e8899e54d662f069845263328a288cdd8341c7ad28f6d6ae12a32bce4104274",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1023,
+            289,
+            1082,
+            316
+          ],
+          "native_size": [
+            59,
+            27
+          ],
+          "at_640_letterbox_size": [
+            32.218430034129696,
+            14.744027303754267
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261025_targeted",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/recheck_20261025_part_01.jsonl",
+        "sha256": "53dc345f1fd85bbe1de20d9d19484adbbc8a822db7e74ebbef13bff2786a38b2",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0225",
+      "canonical_original_id": "s2tld1080_0225",
+      "source_image_sha256": "d6de6f606e73539d39b874624f9a32742e96faeb7635fca4845810202d257922",
+      "source_annotation": "review_stage2/frozen/batch_027/labels/s2tld1080_0225.json",
+      "source_annotation_sha256": "4272816573899026d8d3e62d79e30c10fcb85edeec80a57a16560c776e865a8f",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0225_clean01.png",
+      "crop_sha256": "b03f9aed4fe32859cac6d2441df51369fc8b5a0b8a18e6a17c8d327ce455eff7",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0225_clean01.txt",
+      "yolo_label_sha256": "221f33e3db5f773429c732bb90fac184a7478924f96a3d1211ebe2737d5001f5",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            780,
+            353,
+            839,
+            375
+          ],
+          "native_size": [
+            59,
+            22
+          ],
+          "at_640_letterbox_size": [
+            33.56444444444445,
+            12.515555555555556
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            850,
+            348,
+            901,
+            370
+          ],
+          "native_size": [
+            51,
+            22
+          ],
+          "at_640_letterbox_size": [
+            29.013333333333332,
+            12.515555555555556
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_027_remaining_review.jsonl",
+        "sha256": "3e37739ab93daa32cc96480c78b6993b2f7a0f110dc6996698a9c3c6011388b3",
+        "line": 2
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0230",
+      "canonical_original_id": "s2tld1080_0230",
+      "source_image_sha256": "7e6e9e81c1721eaf6abe7b7dd6f64534187a99719b5c59ea41d12c182866f102",
+      "source_annotation": "review_stage2/frozen/batch_027/labels/s2tld1080_0230.json",
+      "source_annotation_sha256": "b751a024579ebf4e9a84d138188b21bce3fb7fa825c179be37b331f40b1cef25",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0230_clean01.png",
+      "crop_sha256": "f7a54f9f0a24f24a391ce4e5d8bc462dcf0e46f7dfa4a6da39e81c36af5d7612",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0230_clean01.txt",
+      "yolo_label_sha256": "7f3be4ac0a5fd44e8f5a2bc69184a8b798d1c60e84722ddb38b451febee50170",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1345,
+            267,
+            1431,
+            301
+          ],
+          "native_size": [
+            86,
+            34
+          ],
+          "at_640_letterbox_size": [
+            28.666666666666664,
+            11.333333333333332
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1442,
+            267,
+            1528,
+            300
+          ],
+          "native_size": [
+            86,
+            33
+          ],
+          "at_640_letterbox_size": [
+            28.666666666666664,
+            11.0
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "side",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            81,
+            398,
+            116,
+            474
+          ],
+          "native_size": [
+            35,
+            76
+          ],
+          "at_640_letterbox_size": [
+            11.666666666666666,
+            25.333333333333332
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 3,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_027_remaining_review.jsonl",
+        "sha256": "3e37739ab93daa32cc96480c78b6993b2f7a0f110dc6996698a9c3c6011388b3",
+        "line": 7
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0233",
+      "canonical_original_id": "s2tld1080_0233",
+      "source_image_sha256": "2af11086e872a9f9413fd1d28daa757e5aa9f0276bd8621f07fce97b18964b04",
+      "source_annotation": "review_stage2/frozen/batch_028/labels/s2tld1080_0233.json",
+      "source_annotation_sha256": "6b6b8c394d22ebcae6ac5e82b0101b7baba8a3148d94745b89bb07e47922e282",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0233_clean01.png",
+      "crop_sha256": "9534a5eb8cde4399731a26be6292f02ef8634ffe413fa32b3d1c327fa769895f",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0233_clean01.txt",
+      "yolo_label_sha256": "e1b15ef0c37c27dce0e946aca2922c32c532b594099339482f939e4ed6159de9",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1346,
+            195,
+            1445,
+            243
+          ],
+          "native_size": [
+            99,
+            48
+          ],
+          "at_640_letterbox_size": [
+            36.901572510192196,
+            17.891671520093183
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1474,
+            201,
+            1587,
+            239
+          ],
+          "native_size": [
+            113,
+            38
+          ],
+          "at_640_letterbox_size": [
+            42.11997670355271,
+            14.164239953407105
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+        "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+        "line": 2
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0234",
+      "canonical_original_id": "s2tld1080_0234",
+      "source_image_sha256": "292aaf2c6d3e68836f2e1607a9f7afbe9533492e91a68a9799052b88483fdaa5",
+      "source_annotation": "review_stage2/frozen/batch_028/labels/s2tld1080_0234.json",
+      "source_annotation_sha256": "284f70e2418e9195e08572e04bede41c2f05018f0987dadbf7a89f47db34633d",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0234_clean01.png",
+      "crop_sha256": "a9309e598c43dbb302cc1aaa4c334b09ba4ed122019b76a8f4c079777758c093",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0234_clean01.txt",
+      "yolo_label_sha256": "9a87fc7628a1bffa05e24f7fd9620d771272950a7a8b6f4318e3849117d46030",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1354,
+            228,
+            1464,
+            267
+          ],
+          "native_size": [
+            110,
+            39
+          ],
+          "at_640_letterbox_size": [
+            40.954043048283886,
+            14.520069808027923
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            1486,
+            217,
+            1595,
+            263
+          ],
+          "native_size": [
+            109,
+            46
+          ],
+          "at_640_letterbox_size": [
+            40.581733566026756,
+            17.126236183827807
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_028_remaining_review.jsonl",
+        "sha256": "1596f60bab197b49a7ccfa077d39fbe19b4bc96619e909abe9d13f94268fad53",
+        "line": 3
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0243",
+      "canonical_original_id": "s2tld1080_0243",
+      "source_image_sha256": "236ac71dda0769e2df68051e0a25e5b5f560a6d3703ee39b17d03aa278d97f8e",
+      "source_annotation": "review_stage2/frozen/batch_029/labels/s2tld1080_0243.json",
+      "source_annotation_sha256": "ee84580efa84e8b179e80cd46ac339306db2e79ee61117c07243c37d0a8db7f6",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0243_clean01.png",
+      "crop_sha256": "64f42ba7dfd939f821354554786da57ec7d33dab96bee38698ef948c589c6175",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0243_clean01.txt",
+      "yolo_label_sha256": "293c8001c06f281b470922e12419874fd5fd31dfdbb9710300e803fe87ba8528",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            114,
+            395,
+            154,
+            415
+          ],
+          "native_size": [
+            40,
+            20
+          ],
+          "at_640_letterbox_size": [
+            23.104693140794225,
+            11.552346570397113
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            165,
+            397,
+            202,
+            414
+          ],
+          "native_size": [
+            37,
+            17
+          ],
+          "at_640_letterbox_size": [
+            21.371841155234655,
+            9.819494584837544
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+        "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+        "line": 4
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0244",
+      "canonical_original_id": "s2tld1080_0244",
+      "source_image_sha256": "6d9b8790899cfafd7871561627c3d46f23e7cdcbaae03d9ddb810a3ad06c3377",
+      "source_annotation": "review_stage2/frozen/batch_029/labels/s2tld1080_0244.json",
+      "source_annotation_sha256": "207b30456987ebdcc8f2a318307bdff8df49e61f08d204feb4f6814c3c126b6d",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0244_clean01.png",
+      "crop_sha256": "35e89acdd2c2bf35be47c4e9bc2b920ac0332ff758b09c0ce7e7a970c3fa45ef",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0244_clean01.txt",
+      "yolo_label_sha256": "b2cf30a8e7b1af9ffbab6de0692e188d7aa80992c9e922050059e5abab08470a",
+      "targets": [
+        {
+          "source_id": "left",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            301,
+            406,
+            356,
+            428
+          ],
+          "native_size": [
+            55,
+            22
+          ],
+          "at_640_letterbox_size": [
+            26.367041198501873,
+            10.54681647940075
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "right",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            352,
+            405,
+            399,
+            425
+          ],
+          "native_size": [
+            47,
+            20
+          ],
+          "at_640_letterbox_size": [
+            22.53183520599251,
+            9.588014981273409
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_remaining_20261025",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/batch_029_remaining_review.jsonl",
+        "sha256": "097dfc770279055d42c5cae60c3dc9a579f7b01e4ccc8302ac8b7e1aab3da583",
+        "line": 5
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0339",
+      "canonical_original_id": "s2tld1080_0339",
+      "source_image_sha256": "4ec8c38bb4825d9cf87daefc1e49de314d08ed6804ceb825227cd6012f7f52ec",
+      "source_annotation": "review_stage2/revisions/pc_r2_003/labels/s2tld1080_0339.json",
+      "source_annotation_sha256": "ed6462bdbe40ae6fe4ed8b1a16d16e43014b9498bac61976658a5e0157051203",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0339_clean01.png",
+      "crop_sha256": "c379be5778d9d08c7cc4401a4bd9be9ec9db12067f87a6f1f94df67f2cb7cd94",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0339_clean01.txt",
+      "yolo_label_sha256": "43359f673c32d2c21a6dcd9483789a5fb258675188e826cac99d078a8b5ce4e6",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            368,
+            224,
+            486,
+            274
+          ],
+          "native_size": [
+            118,
+            50
+          ],
+          "at_640_letterbox_size": [
+            83.26350606394708,
+            35.28114663726571
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_2",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            507,
+            220,
+            628,
+            271
+          ],
+          "native_size": [
+            121,
+            51
+          ],
+          "at_640_letterbox_size": [
+            85.38037486218302,
+            35.98676957001102
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261025_targeted",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/recheck_20261025_part_02.jsonl",
+        "sha256": "7100accdd563a97b98a383867154cb8b16ba7ac4ce464d139df934692b5f3efd",
+        "line": 4
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "s2tld1080_0390",
+      "canonical_original_id": "s2tld1080_0390",
+      "source_image_sha256": "2354a6b125dfea3253ea8adbfb4a56caa0e1e3669efdfd81dbcd6803c89fbe3a",
+      "source_annotation": "review_stage2/frozen/batch_001/labels/s2tld1080_0390.json",
+      "source_annotation_sha256": "020ebd3bcc135017160475cedf3f7f6bcf5cf1843da2a6ac52bdd2d1c2b3b59a",
+      "split": "train",
+      "leakage_group": "unresolved_route_A_B_joint_train",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/s2tld1080_0390_clean01.png",
+      "crop_sha256": "6b4699bed8c65cb9ab944bad9008036afba59626332161cba91ddb26f49e8e52",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/s2tld1080_0390_clean01.txt",
+      "yolo_label_sha256": "ed0b1d320c473ad6a3f970faa2eb71704848eba15e468ff30de3ee25d90ce9d1",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            516,
+            290,
+            582,
+            455
+          ],
+          "native_size": [
+            66,
+            165
+          ],
+          "at_640_letterbox_size": [
+            34.538021259198686,
+            86.34505314799672
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_2",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            581,
+            289,
+            649,
+            454
+          ],
+          "native_size": [
+            68,
+            165
+          ],
+          "at_640_letterbox_size": [
+            35.58462796402289,
+            86.34505314799672
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_stage2",
+      "independent_reviewer": "Codex_board_independent_AI_20261024_r2",
+      "independent_review_source": {
+        "file": "review_stage2/independent_codex_board_r2/fillback_batch_001.jsonl",
+        "sha256": "2206187e227944446e383ccbe59b5dc31c85bda6add1154b2f0128aaca8b1694",
+        "line": 32
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000015272",
+      "canonical_original_id": "flickr_photo_8584364941",
+      "source_image_sha256": "1160c5afa0bf07095879e0c546c24b8bafd2269bb9449be5fdfd018f87b148d9",
+      "source_annotation": "review_stage2/external_scene_pilot_r2/labels/coco_scene_000000015272.json",
+      "source_annotation_sha256": "ed034072c6bae15021b73a3f5e0562878787cdf269d6bb0105840bbb1b16f8a9",
+      "split": "val",
+      "leakage_group": "JP_Tokyo_Tateishi_Sakura_Street_photo_8584364941",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/coco_scene_000000015272_clean01.png",
+      "crop_sha256": "4e750af5b1fe0359c54699f842dc6ad9262499945bbca00a8e1d1e63b83dcc56",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/coco_scene_000000015272_clean01.txt",
+      "yolo_label_sha256": "771fa6bda876ac84086b58df047e13c6f0564d811bd1aee25df444021e59250d",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            66,
+            62,
+            440,
+            219
+          ],
+          "native_size": [
+            374,
+            157
+          ],
+          "at_640_letterbox_size": [
+            233.75,
+            98.125
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r2",
+      "independent_reviewer": "Codex_board_independent_AI_external_r2_whole_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/external_scene_r2_whole_review.jsonl",
+        "source_file_sha256": "b4cebdbc6bac28f8900db8028fa8d12bf02b6518b430f661eaaef07feae690ce",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000008762",
+      "canonical_original_id": "flickr_photo_4466652187",
+      "source_image_sha256": "bb3650f0c0ef740bd88b302d22d94ba74982242a0a6ec9b33b580c13ee938901",
+      "source_annotation": "review_stage2/external_scene_pilot_r1/labels/coco_scene_000000008762.json",
+      "source_annotation_sha256": "25b2772f51eb6f3f7901ea3c805be2a51c7eba74f54faaffc4d21025f58b1dc1",
+      "split": "val",
+      "leakage_group": "US_AZ90_Sierra_Vista_photo_4466652187",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/coco_scene_000000008762_clean01.png",
+      "crop_sha256": "821ae94855f850b962f730d327f0a129f8431cedbfa89662148e61aa449177f3",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/coco_scene_000000008762_clean01.txt",
+      "yolo_label_sha256": "89486cce765a3e2165d7ac2e79ccb9f09ea97adb62559f80e171c1fc6b910881",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            94,
+            136,
+            124,
+            233
+          ],
+          "native_size": [
+            30,
+            97
+          ],
+          "at_640_letterbox_size": [
+            24.838292367399742,
+            80.3104786545925
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        },
+        {
+          "source_id": "body_2",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            265,
+            168,
+            296,
+            232
+          ],
+          "native_size": [
+            31,
+            64
+          ],
+          "at_640_letterbox_size": [
+            25.666235446313067,
+            52.988357050452784
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 2,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r1",
+      "independent_reviewer": "Codex_board_independent_AI_external_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/external_scene_r1_review.jsonl",
+        "source_file_sha256": "3c3c76e560c8a59948044b03a1ef221fb37c206bcc1e01bbf7c688f32f2548af",
+        "line": 1
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    },
+    {
+      "candidate_id": "coco_scene_000000520009",
+      "canonical_original_id": "flickr_photo_502213596",
+      "source_image_sha256": "f4aa83d56a4800335c35f4f6646e81360ed3c908eb71deb2209660f9b2851d01",
+      "source_annotation": "review_stage2/external_scene_revisions/external_pc_r2_002/labels/coco_scene_000000520009.json",
+      "source_annotation_sha256": "beb48e0db0f9110f6fc13e5ed3092b6277ade58e01b26107b3f37bc788ec022a",
+      "split": "val",
+      "leakage_group": "UK_Halifax_Town_Hall_photo_502213596",
+      "crop_file": "review_stage2/clean_crop_release_r1/images/coco_scene_000000520009_clean01.png",
+      "crop_sha256": "069b1cc9d6d61674773406509a00c156aa568077defa3c52a7ef9471dd17d9df",
+      "yolo_label_file": "review_stage2/clean_crop_release_r1/labels/coco_scene_000000520009_clean01.txt",
+      "yolo_label_sha256": "86c9c9be07f2b70a0d506a864b67958d2811ad51d6b1527a8dee865e59715d92",
+      "targets": [
+        {
+          "source_id": "body_1",
+          "kind": "motor_vehicle",
+          "bbox_xyxy": [
+            203,
+            273,
+            244,
+            367
+          ],
+          "native_size": [
+            41,
+            94
+          ],
+          "at_640_letterbox_size": [
+            43.733333333333334,
+            100.26666666666667
+          ],
+          "source_truncated": false,
+          "new_truncation": false
+        }
+      ],
+      "body_count": 1,
+      "first_pass_reviewer": "Codex_PC_AI_external_scene_r1",
+      "independent_reviewer": "Codex_board_independent_AI_external_r2_20261025",
+      "independent_review_source": {
+        "source_file": "review_stage2/independent_external_scene_r1/recheck_external_r2.jsonl",
+        "source_file_sha256": "b18f7c12bf862125f0d6780d0dda85ff78007bade1411b2395318a602f414a56",
+        "line": 2
+      },
+      "human_signoff": false,
+      "eligible_for_dataset": true,
+      "global_training_release": false
+    }
+  ],
+  "global_training_release": false
+}

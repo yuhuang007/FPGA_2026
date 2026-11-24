@@ -1,0 +1,71 @@
+{
+  "archive_image_count": 1222,
+  "images_with_exif": 973,
+  "images_with_comment": 0,
+  "image_info_key_counts": {
+    "jfif": 1222,
+    "jfif_version": 1222,
+    "jfif_unit": 1222,
+    "jfif_density": 1222,
+    "exif": 973,
+    "dpi": 973
+  },
+  "filename_date_counts": {
+    "2020-03-30": 476,
+    "2020-04-04": 746
+  },
+  "examples": [
+    {
+      "member": "S2TLD\u00fa\u00bf1080x1920\u00fa\u2310/JPEGImages/2020-03-30 11_30_03.690871079.jpg",
+      "exif_keys": [
+        305
+      ],
+      "info_keys": [
+        "jfif",
+        "jfif_version",
+        "jfif_unit",
+        "jfif_density",
+        "exif",
+        "dpi"
+      ]
+    },
+    {
+      "member": "S2TLD\u00fa\u00bf1080x1920\u00fa\u2310/JPEGImages/2020-03-30 11_30_03.941895292.jpg",
+      "exif_keys": [
+        305
+      ],
+      "info_keys": [
+        "jfif",
+        "jfif_version",
+        "jfif_unit",
+        "jfif_density",
+        "exif",
+        "dpi"
+      ]
+    },
+    {
+      "member": "S2TLD\u00fa\u00bf1080x1920\u00fa\u2310/JPEGImages/2020-03-30 11_30_04.156560834.jpg",
+      "exif_keys": [
+        305
+      ],
+      "info_keys": [
+        "jfif",
+        "jfif_version",
+        "jfif_unit",
+        "jfif_density",
+        "exif",
+        "dpi"
+      ]
+    }
+  ],
+  "site_independence_supported_by_metadata": false,
+  "timestamp_is_not_site_id": true,
+  "exif_tag_counts": {
+    "Software": 973
+  },
+  "software_tag_values": {
+    "www.meitu.com": 973
+  },
+  "gps_metadata_images": 0,
+  "reason": "No GPS/site/camera route identifiers. EXIF software tag and filename date cannot prove independence."
+}

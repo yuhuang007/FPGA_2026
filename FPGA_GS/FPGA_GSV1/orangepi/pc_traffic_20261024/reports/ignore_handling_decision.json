@@ -1,0 +1,303 @@
+{
+  "recorded_at": "2026-10-25T05:40:26.397674+00:00",
+  "selected_route": "context_preserving_clean_crops_standard_YOLO",
+  "active_pilot": "review_stage2/clean_crop_pilot_r8/manifest.json",
+  "active_pilot_sha256": "6d75d9df14fcc8bd0d800867498919525a96ddba63651711996eb5e56df56cf4",
+  "superseded_pilot": "review_stage2/clean_crop_pilot_r1/manifest.json",
+  "r1_not_a_second_training_pipeline": true,
+  "actual_visual_and_geometry_validated_originals": 44,
+  "actual_validated_body_targets": 81,
+  "geometry_only_potential_originals": 45,
+  "geometry_only_potential_body_targets": 59,
+  "geometry_scan_originals": 53,
+  "confirmed_source_body_targets": 74,
+  "pilot_area_retained": {
+    "min": 0.15877748842592593,
+    "median": 0.7158854166666666,
+    "max": 1.0
+  },
+  "pilot_linear_magnification_at_640": {
+    "min": 1.0,
+    "median": 1.3554537516596294,
+    "max": 2.116868798235943
+  },
+  "pilot_body_short_side_pixels_at_640": {
+    "min": 6.666666666666666,
+    "median": 16.877637130801688,
+    "max": 223.08142940831868
+  },
+  "actual_validation": "reports/clean_crop_validation_r8.json",
+  "visual_review": "reports/clean_crop_visual_review_r8.json",
+  "production_crop_policy": {
+    "split_originals_first": true,
+    "refuse_unassigned_originals": true,
+    "one_crop_per_original_initially": true,
+    "minimum_context_pixels": "x=max(32px,body width), y=max(32px,half body height), capped at the original image boundary; source-truncated bodies remain excluded",
+    "avoid_ignore_padding": "max(12px,min(32px,20% longest region side))",
+    "all_visible_targets_required": true,
+    "no_new_partial_body_allowed": true,
+    "no_blackout_or_blur": true,
+    "keep_source_and_label_sha": true,
+    "quantity_gate_unit": "unique qualified originals, never crop count",
+    "split_release": "Require immutable source-group release and exact source/label SHA before derivation; validate each export and visually review every changed crop."
+  },
+  "standard_yolo_initial_geometry_augmentation": {
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "degrees": 0.0,
+    "translate": 0.0,
+    "scale": 0.0,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "multi_scale": false
+  },
+  "validation_metric_scope": "Clean-crop body detection only. No ignore pixels are fed as ordinary background; this does not estimate source-full-frame recall or unknown targets.",
+  "biases": [
+    "Pedestrian and independent-scene coverage remain very small. Arizona pedestrian body is not safely retained by its crop. Flint and NYC252219 have confirmed body geometry but no safe context crop and are not exported. Houston retains only1/2 certified bodies.",
+    "No negative-only original is represented in this positive pilot.",
+    "Repeated S2TLD backgrounds and source watermark persist.",
+    "Some crops are mostly sky and remove road context; monitor scale/context bias and weight each original once.",
+    "Source-truncated bodies are obstacles; deployment image-edge coverage remains incomplete."
+  ],
+  "why_not_custom_ignore_loss": "The whole400 draft geometry snapshot proposes271 originals and511/631 bodies, including only17/28 pedestrian bodies. This substantial loss triggered reports/ignore_loss_feasibility_r1.json. Installed loss, augmentation and validator lack native ignore propagation; an isolated CPU gradient probe validates only algebra, not an end-to-end route. Keep the actually visually/pixel/loader validated clean-crop route as the sole supported first-round pipeline; add reviewed clean originals and report the quantity/context/pedestrian gaps. No custom training entry is maintained.",
+  "original_scene_and_split_release_still_required": false,
+  "training_started": false,
+  "training_release": false,
+  "superseded_pilots": [
+    "review_stage2/clean_crop_pilot_r1/manifest.json",
+    "review_stage2/clean_crop_pilot_r2/manifest.json"
+  ],
+  "geometry_scan_scope": "Historical r3 scan (39 core originals and Arizona), plus selected r5-r8 originals. Not a scan of the whole growing current final-label register.",
+  "geometry_scan_source_register_hashes_are_historical": true,
+  "individual_pilot_source_labels_still_current_and_sha_verified": true,
+  "historical_core39_source_truncated_body_targets_not_exported": 6,
+  "historical_core39_nontruncated_confirmed_bodies_retained_geometrically": 39,
+  "historical_core39_nontruncated_confirmed_body_denominator": 41,
+  "validated_pilot_batches": [
+    {
+      "manifest": "review_stage2/clean_crop_pilot_r3/manifest.json",
+      "manifest_sha256": "58840fbf0492a93bc4106a34bf3059a3d1641f0d21e55ea1b9d8c2c3be2d42fc",
+      "validation": "reports/clean_crop_validation_r3.json",
+      "visual_review": "reports/clean_crop_visual_review_r3.json",
+      "originals": 8,
+      "targets": 13,
+      "currently_usable_originals": 6
+    },
+    {
+      "manifest": "review_stage2/clean_crop_pilot_r5/manifest.json",
+      "manifest_sha256": "6bebf50924a336a1cf86ce6a4653915ff6a07d9e828af740dc65d55f92aeb882",
+      "validation": "reports/clean_crop_validation_r5.json",
+      "visual_review": "reports/clean_crop_visual_review_r5.json",
+      "originals": 3,
+      "targets": 3,
+      "currently_usable_originals": 3
+    },
+    {
+      "manifest": "review_stage2/clean_crop_pilot_r6/manifest.json",
+      "manifest_sha256": "369aaa576389ed2cc5f20f3167c97787be3f8a454dd328eda0b1f5f26f9562a2",
+      "validation": "reports/clean_crop_validation_r6.json",
+      "visual_review": "reports/clean_crop_visual_review_r6.json",
+      "originals": 1,
+      "targets": 1,
+      "currently_usable_originals": 1
+    },
+    {
+      "manifest": "review_stage2/clean_crop_pilot_r7/manifest.json",
+      "manifest_sha256": "9d981f6839c8e4ea3c23fbad092f11aab4dbf050f6812c5ed8a1969b9d2552df",
+      "validation": "reports/clean_crop_validation_r7.json",
+      "visual_review": "reports/clean_crop_visual_review_r7.json",
+      "originals": 1,
+      "targets": 1,
+      "currently_usable_originals": 1
+    },
+    {
+      "manifest": "review_stage2/clean_crop_pilot_r8/manifest.json",
+      "manifest_sha256": "6d75d9df14fcc8bd0d800867498919525a96ddba63651711996eb5e56df56cf4",
+      "validation": "reports/clean_crop_validation_r8.json",
+      "visual_review": "reports/clean_crop_visual_review_r8.json",
+      "originals": 6,
+      "targets": 13,
+      "currently_usable_originals": 6
+    }
+  ],
+  "all_batches_use_one_clean_crop_standard_YOLO_route": true,
+  "unfinished_run_not_counted": "review_stage2/clean_crop_pilot_r4/aborted_run.json",
+  "actual_retained_class_counts": {
+    "motor_vehicle": 68,
+    "pedestrian": 13
+  },
+  "ignore_aware_loss_assessment": {
+    "path": "reports/ignore_loss_feasibility_r1.json",
+    "sha256": "d14bfd990eb6901afe20ae1fc2a4732d3a64e86c64cb5d8941cbddd2a5bcc354",
+    "custom_training_pipeline_implemented": false
+  },
+  "whole400_draft_geometry_capacity": {
+    "path": "reports/clean_crop_capacity_original400.json",
+    "sha256": "d0b7be45d4ffe4282ffc7046065f0faadf9f7e5ef9db2c6411ac69f20d4e6f90",
+    "all_proposals_are_unapproved_geometry_only": true,
+    "source_snapshot_may_precede_new_label_revisions": true
+  },
+  "validated_production_batches": [
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r1/manifest.json",
+      "production_manifest_sha256": "4a6972f0089127f63b9cac86f3dcccabc715320cbaf5a6fe5c784b6f24c9b97a",
+      "validation": "reports/clean_crop_release_validation_r1.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r1.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r10/manifest.json",
+      "production_manifest_sha256": "c7cd72e4b1747ebf4a81618985d9ee7109b690016ecedad4c334090502ff7911",
+      "validation": "reports/clean_crop_release_validation_r10.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r10.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r3/manifest.json",
+      "production_manifest_sha256": "e61e46503006611a0f1b77980897ed73b418afa29a1c5a0f3c27c3520e6b1501",
+      "validation": "reports/clean_crop_release_validation_r3.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r3.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r4/manifest.json",
+      "production_manifest_sha256": "963d8deb467891452a6a4ce7d296b3bb20c5a55f7a2bb50fbe60ad6f1fe08fc3",
+      "validation": "reports/clean_crop_release_validation_r4.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r4.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r5/manifest.json",
+      "production_manifest_sha256": "0b88a4c954b0bdc69d7a56d55eec51411a4e05337d1f533401dfd68e45e7a0fa",
+      "validation": "reports/clean_crop_release_validation_r5.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r5.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r7/manifest.json",
+      "production_manifest_sha256": "e1ed0a78a0f25acb07ae8642b274915d09c727c70b528a985d4df573cc52b48a",
+      "validation": "reports/clean_crop_release_validation_r7.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r7.json"
+    },
+    {
+      "production_manifest": "review_stage2/clean_crop_release_r9/manifest.json",
+      "production_manifest_sha256": "f5c9b9156d57a37c7c575ef10107b3ece567d9d36e90efa18321a4c4d2632e42",
+      "validation": "reports/clean_crop_release_validation_r9.json",
+      "visual_QA": "reports/clean_crop_release_visual_QA_r9.json"
+    }
+  ],
+  "pilot_only_originals_before_production_union": 17,
+  "actual_validation_counting_rule": "Union by canonical source image ID; production crops replace corresponding pilot variants rather than add new originals.",
+  "released_subset_original_scene_and_split_verified": true,
+  "original_scene_and_split_release_scope": "data/group_releases/r4/manifest.json: Original400 joint train, nine audited external val groups, Madrid/Newton/CapeTown isolated holdout groups. Unlisted sources remain unassigned.",
+  "production_qualified_originals": 44,
+  "production_qualified_body_targets": 81,
+  "production_qualification_registries": [
+    {
+      "path": "reports/qualified_originals_r1.json",
+      "sha256": "486875471c5a9a9c7a5be55e78d9cee5430a84ddbea6e645345444e72c7a3c08",
+      "active_candidate_ids": [
+        "coco_scene_000000008762",
+        "coco_scene_000000015272",
+        "coco_scene_000000520009",
+        "s2tld1080_0013",
+        "s2tld1080_0016",
+        "s2tld1080_0058",
+        "s2tld1080_0065",
+        "s2tld1080_0215",
+        "s2tld1080_0225",
+        "s2tld1080_0230",
+        "s2tld1080_0233",
+        "s2tld1080_0234",
+        "s2tld1080_0243",
+        "s2tld1080_0244",
+        "s2tld1080_0339",
+        "s2tld1080_0390"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r10.json",
+      "sha256": "b7f6e8b86c60995be48430e42feed09b147aef99b932cb9338adcc892bd0f9f1",
+      "active_candidate_ids": [
+        "s2tld1080_0012"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r3.json",
+      "sha256": "af28908d07009a11174f6e8e4251c0576eefd3faaa889974407dff4f4a50235c",
+      "active_candidate_ids": [
+        "s2tld1080_0027",
+        "s2tld1080_0049",
+        "s2tld1080_0050",
+        "s2tld1080_0066",
+        "s2tld1080_0122",
+        "s2tld1080_0143",
+        "s2tld1080_0144"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r4.json",
+      "sha256": "8a0e661f75102f0a79bca73559e32dd266b89c056418ed52ac828544649ac1e4",
+      "active_candidate_ids": [
+        "s2tld1080_0014",
+        "s2tld1080_0015",
+        "s2tld1080_0019",
+        "s2tld1080_0044",
+        "s2tld1080_0121"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r5.json",
+      "sha256": "ee2fb5d4aab9e41150768251979e66aacc499b6630265aaa1082a5a0e68eba8e",
+      "active_candidate_ids": [
+        "coco_scene_000000309391",
+        "coco_scene_000000338560",
+        "commons_scene_132116089",
+        "s2tld1080_0051"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r7.json",
+      "sha256": "10a94a53d3f48cb376e14109839da6e4eb8010e56e9510f7696a7bfa95650f10",
+      "active_candidate_ids": [
+        "s2tld1080_0017",
+        "s2tld1080_0018",
+        "s2tld1080_0020",
+        "s2tld1080_0021"
+      ]
+    },
+    {
+      "path": "reports/qualified_originals_r9.json",
+      "sha256": "eb0013578edde04d5543ac42ce6a33ad9937a0a425a47582f37b596da49082b9",
+      "active_candidate_ids": [
+        "s2tld1080_0025",
+        "s2tld1080_0026",
+        "s2tld1080_0028",
+        "s2tld1080_0029",
+        "s2tld1080_0030",
+        "s2tld1080_0031",
+        "s2tld1080_0032"
+      ]
+    }
+  ],
+  "production_split_counts": {
+    "train": 38,
+    "val": 5,
+    "holdout": 1
+  },
+  "validation_class_counts": {
+    "motor_vehicle": 7,
+    "pedestrian": 1
+  },
+  "specific_unexported_confirmed_source": "Tashkent Commons149061007: main pedestrian body reliable, but padded lower-ignore and minimum available context conflict. No region removed or rule relaxed; no clean export.",
+  "current_final_test_status": "1 isolated heldout original(s); excluded from tuning/calibration. One Madrid pedestrian close-up alone is not adequate final-test coverage.",
+  "active_integrity_hold_ids": [
+    "s2tld1080_0024"
+  ],
+  "integrity_hold_source": {
+    "path": "reports/crop_integrity_holds.json",
+    "sha256": "b32fe13cd5e802d4d9c899ef0308d89aa26a4e833a44f2bb4e0b0fe16f990a97"
+  },
+  "historically_validated_pilots_retired_due_to_new_label_SHA": [
+    "s2tld1080_0000",
+    "s2tld1080_0012"
+  ]
+}

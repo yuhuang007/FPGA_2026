@@ -1,0 +1,9 @@
+{
+  "source": "reports/external_scene_license_audit_r7.json",
+  "source_sha256": "de5674e5426b4bfbf26cc688092bb28b09b2925cedac32a9631fea9e0b6aea0c",
+  "legacy_summary_field_verified_current_CC_BY": 2,
+  "correct_current_CC_BY_images": 1,
+  "correct_current_CC0_images": 1,
+  "per_entry_license_fields_unchanged_and_authoritative": true,
+  "reason": "Generic freeze script legacy summary counted all eligible licenses underCC_BY. Per-file Commons license entries correctly say MadridCC0 and TashkentCCBY4; preserve audit hash already referenced by scene request. This note changes no image/label/review."
+}

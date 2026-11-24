@@ -1,0 +1,15 @@
+BUILD_DIRECTORY=E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\CAM_quality_3_6_0\rear_probe_source\build\CAM1_GREEN_CHAIN_E1_3_6_0_20261024_192436_439
+{
+  "Version": "CAM1 green-line controlled experiment E1: live -> sensor bars -> live -> FPGA bars -> restored live; original CAM0 exposure/ownership",
+  "ProcessingEnable": true,
+  "BuildPass": true,
+  "ExitCode": 0,
+  "ExistingConstraintsMet": true,
+  "InputsUnchanged": true,
+  "Programmed": false,
+  "BoardVerified": false,
+  "RunDirectory": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_probe_source\\build\\CAM1_GREEN_CHAIN_E1_3_6_0_20261024_192436_439",
+  "Release": "E:\\zhoumian\\FPGA\\FPGA_GS\\FPGA_GSV1\\work\\CAM_quality_3_6_0\\rear_probe_source\\build\\CAM1_GREEN_CHAIN_E1_3_6_0_20261024_192436_439/FPGA_GSV1_CAM1_GREEN_CHAIN_E1_3_6_0_HDMI_1080P60.sbit",
+  "SHA256": "5F006CEE3B9191BE008F9640292008D25AE06C9444855A82DFA282243D91A30F",
+  "GeneratedTime": "2026-10-24T11:33:20.4185041Z"
+}

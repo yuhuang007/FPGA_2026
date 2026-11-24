@@ -1,0 +1,8 @@
+test_crop_edge_is_not_confirmed_color (__main__.Tests) ... ok
+test_different_image_confirmation_and_transition (__main__.Tests) ... ok
+test_real_fixed_night_and_LED (__main__.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.486s
+
+OK

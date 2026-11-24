@@ -1,0 +1,939 @@
+{
+  "recorded_at": "2026-10-25T06:13:48.320096+00:00",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=traffic+light+Beijing+filetype%3Abitmap&gsrnamespace=6&gsrlimit=16&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+  "http_status": 200,
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "73618381": {
+          "pageid": 73618381,
+          "ns": 6,
+          "title": "File:City Light (167226535).jpeg",
+          "index": 3,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/City_Light_%28167226535%29.jpeg/1280px-City_Light_%28167226535%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 809,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/c/ce/City_Light_%28167226535%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/City_Light_%28167226535%29.jpeg/1280px-City_Light_%28167226535%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 809,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/ce/City_Light_%28167226535%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/City_Light_%28167226535%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:City_Light_(167226535).jpeg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73618381",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-10-15 03:32:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nCity Light</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "China photographs taken on 2016-03-13|Zhongguancun|Photos imported with import-500px",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/jinhui_lenslife\">Jinhui Wang</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n500px provided description: This is Silicon Valley of China, Beijing Zhongguancun, I took it when the sun went down. [#Architecture ,#Car ,#Sunset ,#City ,#Cityscape ,#Road ,#China ,#Beijing ,#Building ,#Backlight ,#Traffic ,#Sunlight ,#Asia ,#Modern ,#City life]</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "13 March 2016, 21:49:00 (UTC)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/167226535/city-light-by-jinhui-wang\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/167226535/m%3D2048/v2?webp=true&amp;sig=a5361731bff91ed9c87905a71f31ec83e659dc0c959a2a3629313de1a24c8a7e\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/167226535\" class=\"extiw\" title=\"toolforge:import-500px/photo/167226535\">detail page</a>)",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "7854860": {
+          "pageid": 7854860,
+          "ns": 6,
+          "title": "File:Extremely light traffic day in Beijing.JPG",
+          "index": 2,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Extremely_light_traffic_day_in_Beijing.JPG/1280px-Extremely_light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 851,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/96/Extremely_light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Extremely_light_traffic_day_in_Beijing.JPG/1280px-Extremely_light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 851,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/96/Extremely_light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Extremely_light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Extremely_light_traffic_day_in_Beijing.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7854860",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-09-20 13:23:11",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Extremely light traffic day in Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nikon D100|Chaoyangmenwai Dajie|Self-published work|PD-self|Shops in Beijing|Shop signs in Beijing|Building signs in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Rare view of no cars on Beijing streets. Beijing, China.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-08-08",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Scottmeltzer\" title=\"User:Scottmeltzer\">Scott Meltzer</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "2983969": {
+          "pageid": 2983969,
+          "ns": 6,
+          "title": "File:Geely HQ.jpg",
+          "index": 9,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Geely_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 909,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Geely_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 909
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Geely_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Geely_HQ.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2983969",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-09-13 18:00:17",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Geely HQ",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "China photographs taken on 2007-10-10|Images of low quality|Geely Haoqing|Self-published work|PD-self|Blue hatchbacks|Geely automobiles in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>Geely HQ, from public domain photo <a href=\"//commons.wikimedia.org/wiki/File:Beijing_traffic_1.jpg\" title=\"File:Beijing traffic 1.jpg\">Image:Beijing traffic 1.jpg</a>.\n</p>\n(Same model as <a rel=\"nofollow\" class=\"external free\" href=\"http://www.geelymetop.com/images/scan/new/HQ10andHQ13.jpg\">http://www.geelymetop.com/images/scan/new/HQ10andHQ13.jpg</a>)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2007-10-10",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Love_Krittaya\" title=\"User:Love Krittaya\">Love Krittaya</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "7854837": {
+          "pageid": 7854837,
+          "ns": 6,
+          "title": "File:Light traffic day in Beijing.JPG",
+          "index": 1,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Light_traffic_day_in_Beijing.JPG/1280px-Light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 851,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Light_traffic_day_in_Beijing.JPG/1280px-Light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 851,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Light_traffic_day_in_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Light_traffic_day_in_Beijing.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7854837",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-09-20 13:17:47",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Light traffic day in Beijing",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nikon D100|2009 in Beijing|Images with annotations|FAW Tianjin Xiali|Self-published work|PD-self|Automobiles in Beijing|Traffic congestion in Beijing|Men with automobiles",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Atypical traffic in Beijing, China.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-08-07",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Scottmeltzer\" title=\"User:Scottmeltzer\">Scott Meltzer</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "43381644": {
+          "pageid": 43381644,
+          "ns": 6,
+          "title": "File:Peking and the overland route (1917) (14804479883).jpg",
+          "index": 7,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg/1280px-Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 447,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg/1280px-Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 447,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Peking_and_the_overland_route_%281917%29_%2814804479883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Peking_and_the_overland_route_(1917)_(14804479883).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43381644",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-09-18 19:29:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Peking and the overland route (1917) (14804479883)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "1917 books|History of Beijing|Photos uploaded from Flickr by Fæ using a script|Flickr images reviewed by FlickreviewR|Files from Internet Archive Book Images Flickr stream|Files from Flickr's 'The Commons'",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<br>\n<p><b>Identifier</b>: pekingoverlandro00thom (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fpekingoverlandro00thom%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidpekingoverlandro00thom\">Peking and the overland route</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1917\">1917</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1910\">1910s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorThomas_Cook_Ltd\">Thomas Cook Ltd</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectBeijing__China_____Guidebooks\">Beijing (China) -- Guidebooks</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherShanghai___Thos__Cook\">Shanghai : Thos. Cook</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorUniversity_of_California_Libraries\">University of California Libraries</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorMSN\">MSN</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/pekingoverlandro00thom/pekingoverlandro00thom#page/n199/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/pekingoverlandro00thom\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookidpekingoverlandro00thom\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/pekingoverlandro00thom/pekingoverlandro00thom#page/n199/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>Light and Fans. Attached Bath-rooms. Hot and Cold Water. Centra) Heating throughout. Rooms arranged singly or en suite. Perfect Sanitary Arrangements. Private and Public Dining Rooms. Billiard and Reading Rooms. EXCELLENT CUISINE Under experienced Foreign Supervision. Porters in uniform meet all Trains &amp; Steamers. TELEPHONE TO PEKING &amp; TONQKU. TERMS MODERATE. F. HARSH, Manager. IV Astor House Hotel, Ltd. u ^i TIENTSIN Cable Address : ASTOR The Leading Hotel in Tientsin.Delightfully situated facing Vic-toria Park, and located in theCenter of the Towns Life andBusiness. Spacious and Luxurious Diningand Reception Rooms. First Class Cuisine and SelectedCellar under foreign Supervision. Comfortable Bedrooms, Double,Single or en Suite. Central Heating throughout, Elec-tric Light and Modern SanitaryArrangements. Hotel Motor-Omnibus and Portersmeet all Trains and Boats. CooksODuponsAccepted The Manacjement i Cooks Coupons Accepted Chinese Goverimient Railways. PEKING-MUKDEN LINE. ; *</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>Administration Building, Tientsin. THROUGH TRAINS WITH DINING AND SLEEPINGACCOMMODATION RUN DAILY BETWEEN PEKING AND MUKDEN GIVING DIRECT CONNECTION WITH TRANS-SIBERIANSERVICE TO AND FROM EUROPE, AND EXPRESS TRAINS TO AND FROM JAPAN.The trains are lighted throughout by Electricity, Steam-heatedduring Winter, and provided with Electric Fans in each coupe inSummer. English spoken at all stations and on Trains. For further particulars applly to the Traffic Manager, or any office of THOS. COOK &amp; SON. Tientsin, 1st. May, 1917. VI Cliiiiese GoY(Mniiieiit Railways PEKING-HANKOW LINE. THE ROAD THROUGH THE HEART OF CHINA. Avoid the Cold and Hougli Weather in tlie Sea-trip lietween Shanghai and the ISorth hy the more comfortable Route up the Yangtsze to Hankow, thenco via the Ching-Han Railway to Peking, where through connections for Europe are made with the Trains de I.uxe of the Government Railways of North China. This line passes tlirougli the Heart of the Country and enablesthe travelle</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1917",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14804479883/\">https://www.flickr.com/photos/internetarchivebookimages/14804479883/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/pekingoverlandro00thom/pekingoverlandro00thom#page/n199/mode/1up\">https://archive.org/stream/pekingoverlandro00thom/pekingoverlandro00thom#page/n199/mode/1up</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:Fæ/Flickr API detail\">Flickr API detail</a>.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "No restrictions",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "No known copyright restrictions",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://www.flickr.com/commons/usage/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "30795891": {
+          "pageid": 30795891,
+          "ns": 6,
+          "title": "File:THE NANKOW PASS.jpg",
+          "index": 8,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/THE_NANKOW_PASS.jpg/1280px-THE_NANKOW_PASS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 1034,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/THE_NANKOW_PASS.jpg/3840px-THE_NANKOW_PASS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/THE_NANKOW_PASS.jpg/1280px-THE_NANKOW_PASS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1034,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/THE_NANKOW_PASS.jpg/3840px-THE_NANKOW_PASS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/THE_NANKOW_PASS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:THE_NANKOW_PASS.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30795891",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-01-25 14:05:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "THE NANKOW PASS",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Author died more than 70 years ago public domain images|CC-PD-Mark|Photographs of Beijing by John Thomson|PD-old missing SDC copyright status|Images from Illustrations of China and Its People vol. IV.|Historical images of Juyongguan",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:John_Thomson_(photographer)\" class=\"extiw\" title=\"w:en:John Thomson (photographer)\"><span title=\"Scottish photographer, geographer, and traveller (1837–1921)\">John Thomson</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "John Thomson: WE enter the Nankow Pass at about thirty miles distance from Peking. This pass is a bold, rocky defile, separating China proper from the lands of the barbarians beyond. I visited the place, and the Great Wall also, in the company of Mr. Wylie, a gentleman who, some years ago, brought to light the remarkable Buddhist inscription found in the arch at Kew-Yung-Kwan. There is a small hamlet at the Chinese end of the pass. It is here that we see the first spur of the Great Wall, or rather an inner wall or fortress which, in ancient times, would form the final barrier to the invading hordes. When we enter the defile, we are struck with its rugged and picturesque appearance, and with the absence of any road save the little that remains of the old Mongol causeway, which must have been a splendid work in its time. But its time has long past, and the ordinary trade route now-a-days lies along what looks like the bed of a stream, and over boulders into which steps have either been cut or worn. There are, however, some few parts of the ancient road which are still in comparatively good order. Here we find blocks of porphyry, marble of various colours, and granite polished with the traffic of generations long gone by. As we penetrate the pass, limestone rocks crop out on every side; but it is not till we are within four miles of the Great Wall that we come upon the scene presented to the reader in No. 55. At this point the pass narrows down considerably, and makes a sharp bend. On a rocky peak to the left rises a picturesque little edifice, dedicated to Kwei-Sing, the god of literature; on the opposite side of the ravine Is a small two-storied temple, approached by a steep staircase cut into th'e face of the rock. The lower story is consecrated to Kwan-te, the god of war, and the upper one is called the cave of Kwan-yin, the goddess of mercy. Inscriptions in Chinese, Thibetan, and Sanscrit characters are cut on the surface of the rock below.\nOne would imagine that the defile was all but impassable in some places which I have not pictured. Vain delusion! There is a constant traffic at the very worst parts. We look at them, and nothing whatever is to be seen save huge angular rocks jutting out of cairns, and patches of sand. We look again, and in a moment the scene is alive with donkey-men and muleteers who, leaping from rock to rock as they guide their sure-footed beasts through clefts and out of pit-falls, disappear at last among the stones; and so the traffic goes on from year to year, and no attempt is made to improve the route, or to help the weary trader on his journey.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "before 1898<div style=\"display: none;\">date QS:P571,+1898-00-00T00:00:00Z/7,P1326,+1898-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://beinecke.library.yale.edu/dl_crosscollex/brbldl/oneITEM.asp?pid=2035631\">Beinecke Rare Book &amp; Manuscript Library</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "12450273": {
+          "pageid": 12450273,
+          "ns": 6,
+          "title": "File:Tianjin Shenya.JPG",
+          "index": 6,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tianjin_Shenya.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1280,
+              "thumbheight": 1081,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tianjin_Shenya.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 1081
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tianjin_Shenya.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tianjin_Shenya.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12450273",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-12-27 08:21:33",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Tianjin Shenya",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "FAW Tianjin Xiali|Self-published work|PD-self|Extracted images|Number 215 on automobiles|Automobiles in Beijing|Men with automobiles",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Xiali Tianjin Shenya - sedan version of second facelift of 2nd generation Daihatsu Charade. Crop of <a href=\"//commons.wikimedia.org/wiki/File:Light_traffic_day_in_Beijing.JPG\" title=\"File:Light traffic day in Beijing.JPG\">File:Light traffic day in Beijing.JPG</a> by <a href=\"//commons.wikimedia.org/wiki/User:Scottmeltzer\" title=\"User:Scottmeltzer\">Scott Meltzer</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2010-12-27",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Created by <a href=\"//commons.wikimedia.org/wiki/User:Scottmeltzer\" title=\"User:Scottmeltzer\">Scott Meltzer</a>;<br>cropped by <a href=\"//commons.wikimedia.org/wiki/User:Mr.choppers\" title=\"User:Mr.choppers\">Mr.choppers</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "PD-self",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "73791060": {
+          "pageid": 73791060,
+          "ns": 6,
+          "title": "File:Time Is Fleeting (150487065).jpeg",
+          "index": 5,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Time_Is_Fleeting_%28150487065%29.jpeg/1280px-Time_Is_Fleeting_%28150487065%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 747,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Time_Is_Fleeting_%28150487065%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Time_Is_Fleeting_%28150487065%29.jpeg/1280px-Time_Is_Fleeting_%28150487065%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 747,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Time_Is_Fleeting_%28150487065%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Time_Is_Fleeting_%28150487065%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Time_Is_Fleeting_(150487065).jpeg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73791060",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-10-22 09:09:11",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nTime Is Fleeting</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Beijing|Photos imported with import-500px",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/1084368351\">Vivian</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n500px provided description: This photo is taken from the China World Trade Center commercial street, Beijing. goodnight :) [#street ,#light ,#cityscape ,#lights ,#traffic ,#building ,#art ,#photography ,#beijing ,#photoshop ,#international ,#documentary ,#color image ,#Street Photography ,#Commercial photography]</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "22 April 2016, 21:02:55 (UTC)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/150487065/time-is-fleeting-by-vivian\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/150487065/m%3D2048/v2?webp=true&amp;sig=413ffbbb4ecccc5be85b73cd38ee2fd7f1ee7c40e32bd60baa744810e86430b5\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/150487065\" class=\"extiw\" title=\"toolforge:import-500px/photo/150487065\">detail page</a>)",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        "131797781": {
+          "pageid": 131797781,
+          "ns": 6,
+          "title": "File:Woman on electric bike waiting for clearance at Anningzhuang West Rd, Xiaoying West Rd (20230512114408).jpg",
+          "index": 4,
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg/1280px-Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1280,
+              "thumbheight": 853,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg/3840px-Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg/1280px-Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1280,
+                "height": 853,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg/3840px-Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd%2C_Xiaoying_West_Rd_%2820230512114408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Woman_on_electric_bike_waiting_for_clearance_at_Anningzhuang_West_Rd,_Xiaoying_West_Rd_(20230512114408).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131797781",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-05-12 05:46:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Woman on electric bike waiting for clearance at Anningzhuang West Rd, Xiaoying West Rd (20230512114408)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Qinghe Subdistrict, Beijing|Women with smartphones in China|China photographs taken on 2023-05-12|Self-published work|May 2023 in Beijing|Women of Beijing|Files with coordinates missing SDC location of creation|Young women wearing black high-heeled shoes|Women wearing pantsuits|Electrically-powered bicycles in Beijing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.034356",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "116.317489",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Looking at her smartphone during red traffic light.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-05-12 11:44:08",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

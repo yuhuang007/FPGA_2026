@@ -1,0 +1,130 @@
+{
+  "digital_acquisition_complete": true,
+  "errors": [],
+  "metrics": {
+    "A_update": {
+      "frame_id": 1513,
+      "unique_pages": 480,
+      "strip_bytes": 23040,
+      "crc32": "1c6aeaba",
+      "sha256": "a7ba164c09d1d6935288e8e961ac83faa933c62ad83c11ff6fc22764f9cd1db7",
+      "row_mean_stddev": {
+        "R": 8.626541097317677,
+        "G": 4.115643089028184,
+        "B": 9.691929943653378
+      },
+      "chroma_row_stddev": 10.826951102780056,
+      "chroma_neighbor_row_correlation": 0.8683304248030194,
+      "red_blue_row_correlation": 0.5224451043677499,
+      "red_green_row_correlation": -0.525040511247069,
+      "mean_luma_proxy": 7.672526041666667,
+      "bit_one_fraction": {
+        "0": 0.3443576388888889,
+        "1": 0.2234375,
+        "2": 0.06484375,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.4895833333333333,
+        "6": 0.42387152777777776,
+        "7": 0.06692708333333333,
+        "8": 0.0014756944444444444,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.4105902777777778,
+        "12": 0.2699652777777778,
+        "13": 0.05095486111111111,
+        "14": 0.0,
+        "15": 0.0
+      }
+    },
+    "B_frozen": {
+      "frame_id": 2646,
+      "unique_pages": 480,
+      "strip_bytes": 23040,
+      "crc32": "2fd8851f",
+      "sha256": "79a5e62e209d6a68e060f96cee48d41be424b4d66b80d35d902efaebb7c6009c",
+      "row_mean_stddev": {
+        "R": 7.543602869421415,
+        "G": 3.350174740208413,
+        "B": 8.89355880306607
+      },
+      "chroma_row_stddev": 9.52521376443016,
+      "chroma_neighbor_row_correlation": 0.8503245072569185,
+      "red_blue_row_correlation": 0.5253392181149762,
+      "red_green_row_correlation": -0.5309016087464812,
+      "mean_luma_proxy": 6.412977430555555,
+      "bit_one_fraction": {
+        "0": 0.3567708333333333,
+        "1": 0.18776041666666668,
+        "2": 0.04565972222222222,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.5249131944444444,
+        "6": 0.4089409722222222,
+        "7": 0.048177083333333336,
+        "8": 0.0006076388888888889,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.33741319444444445,
+        "12": 0.14817708333333332,
+        "13": 0.027083333333333334,
+        "14": 0.0,
+        "15": 0.0
+      }
+    },
+    "Aprime_restored": {
+      "frame_id": 3779,
+      "unique_pages": 480,
+      "strip_bytes": 23040,
+      "crc32": "f043d5f6",
+      "sha256": "5b23a642fdc1e685dbab4701680cd6cc1b8c46c5ec150bffa5a72719f547b115",
+      "row_mean_stddev": {
+        "R": 8.2162800969983,
+        "G": 4.341517031414982,
+        "B": 9.232960680844863
+      },
+      "chroma_row_stddev": 10.220705790063098,
+      "chroma_neighbor_row_correlation": 0.8593579004269621,
+      "red_blue_row_correlation": 0.45086154073321794,
+      "red_green_row_correlation": -0.4043530626577516,
+      "mean_luma_proxy": 7.5296875,
+      "bit_one_fraction": {
+        "0": 0.29019097222222223,
+        "1": 0.15920138888888888,
+        "2": 0.05555555555555555,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.4861979166666667,
+        "6": 0.5299479166666666,
+        "7": 0.1449652777777778,
+        "8": 0.002690972222222222,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.2990451388888889,
+        "12": 0.16866319444444444,
+        "13": 0.034722222222222224,
+        "14": 0.0,
+        "15": 0.0
+      }
+    }
+  },
+  "final_status": {
+    "phase": 4,
+    "flags": 13,
+    "error": 0,
+    "sample_id": 3779,
+    "ms": 251393,
+    "bracket_source_frame_tags": [
+      3778,
+      3779,
+      3780,
+      3781
+    ],
+    "pre_crc": "3e9fcf04",
+    "post_crc": "a20ca57d",
+    "original_operating_controls": 2165440512,
+    "restored_readback_controls": 17956864,
+    "completed_mask": 7
+  },
+  "interpretation_boundary": "One 16x720 strip per stage, x1120, pre-DDR RGB565. X16 image only repeats columns, no intensity enhancement. Three samples cannot establish significance of modest amplitude changes. Export CRC is not sensor pixel correctness proof."
+}

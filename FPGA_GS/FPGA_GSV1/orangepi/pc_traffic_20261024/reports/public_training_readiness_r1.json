@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-25T06:21:55.398500+00:00",
+  "ready_to_train": true,
+  "selected_release": "datasets/public_body_r1/manifest.json",
+  "selected_release_sha256": "74f4227f2498aa660cf03dc9a2f3da714dd62fd1504f1237523c4b36a31e4ce5",
+  "unique_train_val_originals": 971,
+  "unique_holdout_originals": 1,
+  "source_supervised_public_originals": 928,
+  "legacy_individually_confirmed_safe_originals": 44,
+  "body_targets": 3286,
+  "independent_sample_method_audits": [
+    {
+      "path": "review_stage2/independent_external_scene_r1/public_dataset_compatibility_r1.json",
+      "sha256": "0713bd75d8f14699f5cd4439723d9b602f5ac5d3e09887835635917c79c288d1",
+      "scope": "TLoNY author-linked native YOLO dataset; foreign supplement only"
+    },
+    {
+      "path": "review_stage2/independent_external_scene_r1/public_dataset_compatibility_r2.json",
+      "sha256": "e6ab77b3040b1c66fdda8efb2a963d9eae8c996d14233781d9dec471cf6b1847",
+      "scope": "Small source supervision compatibility and exact implementation review only. No779 per-photo acceptance, night release, measured accuracy, production fit or service approval."
+    }
+  ],
+  "all_selected_entries_SHA_format_mapping_split_checked": true,
+  "training_authorization": "Existing user authorization; compatible public native labels reused after sampled source/method audits. No per-photo AI signatures fabricated.",
+  "historic_unselected_disputes": "Excluded from this release as entire images, never imported as negative backgrounds.",
+  "coverage_limits": [
+    "Only5complete external val originals/8bodies; no China precision claim.",
+    "Final test currently1pedestrian original, insufficient coverage; reserved from tuning.",
+    "Production Trainer fit/val/save is verified during actual training, not preclaimed.",
+    "normal_2 subset deferred; it is not uniformly night."
+  ],
+  "old_build_evidence_scope": "Architecture/deployment feasibility only; new trained weights require new export and board checks."
+}

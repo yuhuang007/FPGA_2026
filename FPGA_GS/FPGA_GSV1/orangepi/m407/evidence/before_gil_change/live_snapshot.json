@@ -1,0 +1,725 @@
+{
+  "ok": true,
+  "directory": "/home/orangepi/fpga_gs_m401_v0_1_2_20261021/m407/evidence/runtime",
+  "snapshot": "LIVE_s1628451912_e0_f32006_2052",
+  "status": {
+    "release": "M4-07-r1-candidate",
+    "mode": "LIVE_FRONT",
+    "source": "FPGA CAM0",
+    "vehicle": "KEY_INTENT_SIMULATION_ONLY",
+    "instance": "43aa1f28c226aa9e56e2d12e",
+    "session": 1628451912,
+    "epoch": 0,
+    "frame_id": 32008,
+    "sequence": 2053,
+    "processed": 2053,
+    "processed_fps": 13.06,
+    "host_monotonic_ms": 2673279.0091689997,
+    "age_ms": 117.9,
+    "stale": false,
+    "last_complete_age_ms": 50.4,
+    "perception": {
+      "signal": {
+        "state": "UNKNOWN",
+        "actions": [],
+        "confidence": 0,
+        "reason": "灯组控制关系未知"
+      },
+      "lanes": {
+        "left": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "right": {
+          "state": "UNKNOWN",
+          "raw_state": "UNKNOWN",
+          "reason": "本车道尚未确认",
+          "adjacent": {
+            "state": "UNKNOWN",
+            "reason": "没有独立外侧边界与道路走廊证据"
+          },
+          "confidence": null,
+          "evidence": {}
+        },
+        "visible_lane_count": null,
+        "ego_ordinal": null,
+        "confirmed_corridors": 0,
+        "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+        "direction_relation": "UNKNOWN",
+        "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+        "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+        "reason": "左右边界不足；不推造完整本车道"
+      },
+      "stage_ms": {},
+      "source": "LIVE_FRONT",
+      "session": 1628451912,
+      "frame_id": 32008,
+      "epoch": 0,
+      "complete_received_monotonic": 2673.16108211,
+      "detection": {
+        "backend": "RKNN/NPU",
+        "model": "YOLOv8n COCO w8a8",
+        "input_size": [
+          640,
+          640
+        ],
+        "threshold": 0.25,
+        "nms_iou": 0.45,
+        "epoch": 0,
+        "frame_id": 32004,
+        "objects": [
+          {
+            "class_id": 0,
+            "category": "person",
+            "label": "行人",
+            "confidence": 0.2768,
+            "box": [
+              1023.67,
+              233.37,
+              1158.59,
+              356.99
+            ],
+            "source": "optical_flow",
+            "track_id": 135,
+            "last_detected_monotonic": 2673.067917496,
+            "missed": 1,
+            "epoch": 0,
+            "detection_frame_id": 32002,
+            "age_ms": 159.5,
+            "spatial_relation": "UNKNOWN",
+            "spatial_reason": "本车道未知或目标底点超出边界观测范围"
+          }
+        ],
+        "detected_count": 0,
+        "held_count": 1,
+        "count": 1,
+        "detection_fps": 9.32,
+        "stage_ms": {
+          "det_preprocess": 8.928,
+          "det_inference": 43.544,
+          "det_postprocess": 22.83,
+          "det_tracking": 0.031,
+          "det_display_tracking": 26.307
+        },
+        "inference_age_ms": 159.5,
+        "display_frame_id": 32008,
+        "age_reference_monotonic": 2673.21290851,
+        "age_ms": 66.1
+      },
+      "traffic": {
+        "backend": "RKNN/NPU + CPU",
+        "method": "原COCO权重/重叠裁剪与低频全图 + 白芯定位/原图灯色 + 有界图像跟踪",
+        "scope": "自动候选；箭头与控制关系UNKNOWN，不自动放行",
+        "epoch": 0,
+        "source_frame_id": 31994,
+        "decoded_monotonic": 2672.738104276,
+        "age_ms": 540.9,
+        "lights": [],
+        "transitions": [],
+        "control_relation": "UNKNOWN",
+        "control_reason": "本轮不建立灯组控制归属",
+        "stage_ms": {
+          "traffic_preprocess": 2.839626999957545,
+          "traffic_inference": 90.94506099972932,
+          "traffic_postprocess": 3.5927000003539433,
+          "traffic_geometry_color": 95.929,
+          "traffic_total": 193.319
+        },
+        "statistics": {
+          "raw_geometry_candidates": 0,
+          "paired_geometry_candidates": 0,
+          "geometry_hypotheses": 82,
+          "direct_bodies": 0,
+          "image_tracked": 0,
+          "candidates_rejected": 0,
+          "rejected_candidates": [],
+          "raw_candidates": [],
+          "scan_box": [
+            0,
+            86,
+            512,
+            503
+          ]
+        }
+      },
+      "road": {
+        "road_contours": [],
+        "paint_contours": [],
+        "ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定",
+          "display_source": "short_hold"
+        },
+        "stage_ms": {
+          "road_preprocess": 5.54,
+          "road_model": 55.2,
+          "lane_postprocess": 51.03,
+          "lane_semantics": 0.11
+        },
+        "model_ego": {
+          "left": null,
+          "right": null,
+          "state": "UNKNOWN",
+          "reason": "左右边界不足；不推造完整本车道",
+          "polygon": [],
+          "candidates": [],
+          "camera_assumption": "光轴中心x=0.5；未作车辆外参标定"
+        },
+        "lane_semantics": {
+          "left": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "right": {
+            "state": "UNKNOWN",
+            "raw_state": "UNKNOWN",
+            "reason": "本车道尚未确认",
+            "adjacent": {
+              "state": "UNKNOWN",
+              "reason": "没有独立外侧边界与道路走廊证据"
+            },
+            "confidence": null,
+            "evidence": {}
+          },
+          "visible_lane_count": null,
+          "ego_ordinal": null,
+          "confirmed_corridors": 0,
+          "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+          "direction_relation": "UNKNOWN",
+          "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+          "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+          "reason": "左右边界不足；不推造完整本车道"
+        },
+        "epoch": 0,
+        "source_frame_id": 32002,
+        "decoded_monotonic": 2672.96003063,
+        "completed_monotonic": 2673.146463106,
+        "state": "HELD",
+        "age_ms": 319,
+        "display_frame_id": 32008
+      }
+    },
+    "skipped_complete_frames": 61,
+    "exact_cache": 22,
+    "received_cache": 28,
+    "stage_ms": {
+      "overlay": 32.189,
+      "jpeg": 8.875,
+      "det_preprocess": 8.928,
+      "det_inference": 43.544,
+      "det_postprocess": 22.83,
+      "det_tracking": 0.031,
+      "det_display_tracking": 26.307,
+      "road_preprocess": 5.54,
+      "road_model": 55.2,
+      "lane_postprocess": 51.03,
+      "lane_semantics": 0.11,
+      "traffic_preprocess": 2.839626999957545,
+      "traffic_inference": 90.94506099972932,
+      "traffic_postprocess": 3.5927000003539433,
+      "traffic_geometry_color": 95.929,
+      "traffic_total": 193.319,
+      "rgb565_decode": 24.711,
+      "process_total": 95.333,
+      "complete_to_preview_ms": 96.055
+    },
+    "stage_mean_ms": {
+      "overlay": 15.904,
+      "jpeg": 2.56,
+      "det_preprocess": 6.639,
+      "det_inference": 54.721,
+      "det_postprocess": 31.857,
+      "det_tracking": 0.02,
+      "det_display_tracking": 3.51,
+      "road_preprocess": 7.937,
+      "road_model": 69.993,
+      "lane_postprocess": 58.871,
+      "lane_semantics": 0.124,
+      "traffic_preprocess": 3.691,
+      "traffic_inference": 105.823,
+      "traffic_postprocess": 10.601,
+      "traffic_geometry_color": 133.109,
+      "traffic_total": 253.245,
+      "rgb565_decode": 13.444,
+      "process_total": 36.15,
+      "complete_to_preview_ms": 40.53
+    },
+    "requested_front_fps": 15,
+    "target_process_fps": 15,
+    "target_preview_fps": 15,
+    "preview_width": 640,
+    "traffic": {
+      "target_hz": 4,
+      "update_fps": 3.47,
+      "completed": 511,
+      "skipped_source_observations": 1542,
+      "sampling_skipped": 1530,
+      "pending_replaced": 12,
+      "neural_region_schedule": "中心/左/右/中心/全图/左/右；总目标4Hz，逐灯图像观测率另计",
+      "error": null,
+      "thread_alive": true
+    },
+    "road": {
+      "model": "YOLOP",
+      "backend": "RKNN/NPU FP16",
+      "target_fps": 8,
+      "semantic_update_fps": 6.46,
+      "semantic_target_fps": 8,
+      "input_size": 320,
+      "outputs": [
+        "drivable_area",
+        "binary_lane_paint"
+      ],
+      "completed": 983,
+      "update_fps": 6.46,
+      "replaced_pending": 1069,
+      "error": null,
+      "alive": true
+    },
+    "detection": {
+      "detection_runs": 1434,
+      "detection_fps": 9.31
+    },
+    "error": null,
+    "show_lights": true,
+    "show_road": true,
+    "show_lane": true,
+    "show_objects": true,
+    "note": "图龄从主机完整接收起算，非端到端延迟；叠加只在香橙派网页，未回传FPGA检测框。",
+    "link": {
+      "heartbeat_tx": 584,
+      "rx_packets": 3097794,
+      "heartbeat_or_welcome": 865,
+      "telemetry_packets": 290,
+      "front_fragments": 3096631,
+      "complete_frames": 2115,
+      "event_ack": 4,
+      "events": 4,
+      "results": 4,
+      "result_accepted": 4,
+      "session": 1628451912,
+      "online": true,
+      "connection_state": "STREAMING",
+      "session_epoch": 0,
+      "reconnects": 0,
+      "reconnect_reason": null,
+      "reconnect_quiet_remaining_ms": 0,
+      "session_started_monotonic": 2526.839600557,
+      "last_video_frame_id": 32012,
+      "assembly_frame_id": 32012,
+      "last_complete_monotonic": 2673.228655373,
+      "requested_front_fps": 15,
+      "recent_complete_fps": 13.147,
+      "telemetry": {
+        "mac_crc": 0,
+        "mac_overrun": 0,
+        "reject_format": 22,
+        "reject_checksum": 30,
+        "reject_session": 0,
+        "reject_profile": 0,
+        "sequence_errors": 0,
+        "duplicate_packets": 0,
+        "begin_wait_cycles": 0,
+        "begin_requests": 0,
+        "assembly_timeouts": 0,
+        "assembly_aborts": 0,
+        "ddr_beats": 0,
+        "published": 0,
+        "displayed_new": 0,
+        "rx_packets": 1832
+      },
+      "feedback": {
+        "controls": {
+          "mode": "REAL",
+          "selection": "unknown",
+          "revision": 0,
+          "applies_to": "NEXT_REAL_EVENT_ONLY",
+          "default": "REAL"
+        },
+        "recent_events": [
+          {
+            "session": 1628451912,
+            "event_id": 1,
+            "event_frame_id": 31142,
+            "action": 2,
+            "action_label": "KEY2 右",
+            "board_timestamp_ms": 1039680,
+            "ttl_ms": 2000,
+            "received_monotonic": 2644.227616222,
+            "host_deadline_monotonic": 2646.127616222,
+            "wait_until_monotonic": 2645.0276162220002,
+            "decision_mode": "REAL",
+            "simulated": false,
+            "selection": "unknown",
+            "control_revision": 0,
+            "event_ack": {
+              "sent": true,
+              "attempts": 1,
+              "event_to_ack_send_ms": 0.174
+            },
+            "frame_received": true,
+            "inference_complete": true,
+            "result": {
+              "code": 0,
+              "reason": 0,
+              "explanation": "SIGNAL_STATE_OR_ASSOCIATION_UNCERTAIN",
+              "sequence": 1,
+              "ttl_ms": 2000,
+              "sent": true,
+              "attempts": 1,
+              "sent_monotonic": 2644.4993357959993,
+              "event_to_result_ms": 271.72,
+              "simulated": false
+            },
+            "result_ack": {
+              "accepted": true,
+              "code": 1,
+              "received_monotonic": 2644.505436211,
+              "event_to_ack_ms": 277.82,
+              "result_to_ack_ms": 6.1,
+              "after_host_deadline": false
+            },
+            "duplicates": 0,
+            "cancel_reason": null,
+            "frame_received_monotonic": 2644.28439272,
+            "frame_received_before_host_deadline": true,
+            "frame_at_decision": {
+              "received": true,
+              "inference_complete": true
+            },
+            "evidence": {
+              "signal": {
+                "state": "UNKNOWN",
+                "actions": [],
+                "confidence": 0,
+                "reason": "灯组控制方向尚未建立，不能依据看见的绿灯放行",
+                "exact_identity": {
+                  "source": "LIVE_FRONT",
+                  "session": 1628451912,
+                  "frame_id": 31142,
+                  "epoch": 0,
+                  "completed_components": [
+                    "road"
+                  ]
+                }
+              },
+              "lanes": {
+                "left": {
+                  "state": "UNKNOWN",
+                  "raw_state": "UNKNOWN",
+                  "reason": "本车道尚未确认",
+                  "adjacent": {
+                    "state": "UNKNOWN",
+                    "reason": "没有独立外侧边界与道路走廊证据"
+                  },
+                  "confidence": null,
+                  "evidence": {}
+                },
+                "right": {
+                  "state": "UNKNOWN",
+                  "raw_state": "UNKNOWN",
+                  "reason": "本车道尚未确认",
+                  "adjacent": {
+                    "state": "UNKNOWN",
+                    "reason": "没有独立外侧边界与道路走廊证据"
+                  },
+                  "confidence": null,
+                  "evidence": {}
+                },
+                "visible_lane_count": null,
+                "ego_ordinal": null,
+                "confirmed_corridors": 0,
+                "numbering_basis": "不能确认完整可见车道集合与最左起点；序号未知",
+                "direction_relation": "UNKNOWN",
+                "direction_reason": "标线颜色/单帧车头方向不能证明同向或对向",
+                "method": "YOLOP二值标线引导＋960宽RGB脊线＋道路几何＋短时投票；非车道实例模型",
+                "reason": "左右边界不足；不推造完整本车道"
+              }
+            },
+            "host_budget_remaining_ms": 0,
+            "host_budget_expired": true
+          },
+          {
+            "session": 1628451912,
+            "event_id": 2,
+            "event_frame_id": 31178,
+            "action": 1,
+            "action_label": "KEY1 左",
+            "board_timestamp_ms": 1040997,
+            "ttl_ms": 2000,
+            "received_monotonic": 2645.429499703,
+            "host_deadline_monotonic": 2647.3294997030002,
+            "wait_until_monotonic": 2646.2294997030003,
+            "decision_mode": "REAL",
+            "simulated": false,
+            "selection": "unknown",
+            "control_revision": 0,
+            "event_ack": {
+              "sent": true,
+              "attempts": 1,
+              "event_to_ack_send_ms": 0.332
+            },
+            "frame_received": true,
+            "inference_complete": true,
+            "result": {
+              "code": 0,
+              "reason": 0,
+              "explanation": "SIGNAL_STATE_OR_ASSOCIATION_UNCERTAIN",
+              "sequence": 1,
+              "ttl_ms": 2000,
+              "sent": true,
+              "attempts": 1,
+              "sent_monotonic": 2645.998554993,
+              "event_to_result_ms": 569.055,
+              "simulated": false
+            },
+            "result_ack": {
+              "accepted": true,
+              "code": 1,
+              "received_monotonic": 2646.097204322,
+              "event_to_ack_ms": 667.705,
+              "result_to_ack_ms": 98.649,
+              "after_host_deadline": false
+            },
+            "duplicates": 0,
+            "cancel_reason": null,
+            "frame_received_monotonic": 2645.489352949,
+            "frame_received_before_host_deadline": true,
+            "frame_at_decision": {
+              "received": true,
+              "inference_complete": true
+            },
+            "evidence": {
+              "signal": {
+                "state": "UNKNOWN",
+                "actions": [],
+                "confidence": 0,
+                "reason": "灯组控制方向尚未建立，不能依据看见的绿灯放行",
+                "exact_identity": {
+                  "source": "LIVE_FRONT",
+                  "session": 1628451912,
+                  "frame_id": 31178,
+                  "epoch": 0,
+                  "completed_components": [
+                    "traffic"
+                  ]
+                }
+              },
+              "lanes": {
+                "left": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                },
+                "right": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                }
+              }
+            },
+            "host_budget_remaining_ms": 0,
+            "host_budget_expired": true
+          },
+          {
+            "session": 1628451912,
+            "event_id": 3,
+            "event_frame_id": 31218,
+            "action": 2,
+            "action_label": "KEY2 右",
+            "board_timestamp_ms": 1042214,
+            "ttl_ms": 2000,
+            "received_monotonic": 2646.804324223,
+            "host_deadline_monotonic": 2648.704324223,
+            "wait_until_monotonic": 2647.6043242230003,
+            "decision_mode": "REAL",
+            "simulated": false,
+            "selection": "unknown",
+            "control_revision": 0,
+            "event_ack": {
+              "sent": true,
+              "attempts": 1,
+              "event_to_ack_send_ms": 0.08
+            },
+            "frame_received": true,
+            "inference_complete": true,
+            "result": {
+              "code": 0,
+              "reason": 0,
+              "explanation": "SIGNAL_STATE_OR_ASSOCIATION_UNCERTAIN",
+              "sequence": 1,
+              "ttl_ms": 2000,
+              "sent": true,
+              "attempts": 1,
+              "sent_monotonic": 2646.927612624,
+              "event_to_result_ms": 123.288,
+              "simulated": false
+            },
+            "result_ack": {
+              "accepted": true,
+              "code": 1,
+              "received_monotonic": 2646.936757412,
+              "event_to_ack_ms": 132.433,
+              "result_to_ack_ms": 9.145,
+              "after_host_deadline": false
+            },
+            "duplicates": 0,
+            "cancel_reason": null,
+            "frame_received_monotonic": 2646.852265094,
+            "frame_received_before_host_deadline": true,
+            "frame_at_decision": {
+              "received": true,
+              "inference_complete": true
+            },
+            "evidence": {
+              "signal": {
+                "state": "UNKNOWN",
+                "actions": [],
+                "confidence": 0,
+                "reason": "灯组控制方向尚未建立，不能依据看见的绿灯放行",
+                "exact_identity": {
+                  "source": "LIVE_FRONT",
+                  "session": 1628451912,
+                  "frame_id": 31218,
+                  "epoch": 0,
+                  "completed_components": [
+                    "objects"
+                  ]
+                }
+              },
+              "lanes": {
+                "left": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                },
+                "right": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                }
+              }
+            },
+            "host_budget_remaining_ms": 0,
+            "host_budget_expired": true
+          },
+          {
+            "session": 1628451912,
+            "event_id": 4,
+            "event_frame_id": 31248,
+            "action": 3,
+            "action_label": "KEY3 直",
+            "board_timestamp_ms": 1043214,
+            "ttl_ms": 2000,
+            "received_monotonic": 2647.752603293,
+            "host_deadline_monotonic": 2649.652603293,
+            "wait_until_monotonic": 2648.552603293,
+            "decision_mode": "REAL",
+            "simulated": false,
+            "selection": "unknown",
+            "control_revision": 0,
+            "event_ack": {
+              "sent": true,
+              "attempts": 1,
+              "event_to_ack_send_ms": 0.155
+            },
+            "frame_received": true,
+            "inference_complete": true,
+            "result": {
+              "code": 0,
+              "reason": 0,
+              "explanation": "SIGNAL_STATE_OR_ASSOCIATION_UNCERTAIN",
+              "sequence": 1,
+              "ttl_ms": 2000,
+              "sent": true,
+              "attempts": 1,
+              "sent_monotonic": 2647.952301166,
+              "event_to_result_ms": 199.698,
+              "simulated": false
+            },
+            "result_ack": {
+              "accepted": true,
+              "code": 1,
+              "received_monotonic": 2647.952659036,
+              "event_to_ack_ms": 200.056,
+              "result_to_ack_ms": 0.358,
+              "after_host_deadline": false
+            },
+            "duplicates": 0,
+            "cancel_reason": null,
+            "frame_received_monotonic": 2647.837087736,
+            "frame_received_before_host_deadline": true,
+            "frame_at_decision": {
+              "received": true,
+              "inference_complete": true
+            },
+            "evidence": {
+              "signal": {
+                "state": "UNKNOWN",
+                "actions": [],
+                "confidence": 0,
+                "reason": "灯组控制方向尚未建立，不能依据看见的绿灯放行",
+                "exact_identity": {
+                  "source": "LIVE_FRONT",
+                  "session": 1628451912,
+                  "frame_id": 31248,
+                  "epoch": 0,
+                  "completed_components": [
+                    "objects"
+                  ]
+                }
+              },
+              "lanes": {
+                "left": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                },
+                "right": {
+                  "state": "UNKNOWN",
+                  "confidence": 0
+                }
+              }
+            },
+            "host_budget_remaining_ms": 0,
+            "host_budget_expired": true
+          }
+        ],
+        "counts": {
+          "events": 4,
+          "exact_frame_received": 4,
+          "exact_frame_received_later": 4,
+          "exact_frame_inferred": 4,
+          "results": 4,
+          "real_results": 4,
+          "real_exact_frame_results": 4
+        },
+        "history_limit": 32,
+        "ttl_note": "板端按事件时刻计算TTL；主机预算从首次收到EVENT起算并保留100ms余量，不能测得板端剩余TTL。",
+        "latency_note": "耗时仅从主机收到EVENT起算，不是物理按键到FPGA屏幕的端到端延迟。"
+      },
+      "host_elapsed_seconds": 146.443,
+      "front_receive_fps": 14.443,
+      "socket_receive_buffer_bytes": 8388608,
+      "current_frame_fragments": 1023,
+      "assembly_dropped": 55,
+      "assembly_duplicates": 0,
+      "hardware_validation": "网口2已有真实前摄验收；按键及双口条件请见本轮验收报告"
+    },
+    "receive_thread_alive": true
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "m406 / m406r2 交通灯对照",
+  "images": [
+    {
+      "src": "evidence/visible/red_page.png",
+      "ok": true
+    },
+    {
+      "src": "evidence/visible/green_page.png",
+      "ok": true
+    },
+    {
+      "src": "evidence/failures/SC_BT_detail.jpg",
+      "ok": true
+    },
+    {
+      "src": "evidence/failures/SC_YJ2_detail.jpg",
+      "ok": true
+    }
+  ],
+  "videos": [
+    {
+      "src": "evidence/offline/SC_YJ_source_exact.mp4",
+      "error": null,
+      "ready": 4
+    },
+    {
+      "src": "evidence/browser/baseline/SC_YJ.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/browser/candidate/SC_YJ.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/offline/SC_BT_source_exact.mp4",
+      "error": null,
+      "ready": 4
+    },
+    {
+      "src": "evidence/browser/baseline/SC_BT.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/browser/candidate/SC_BT.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/offline/SC_BT2_source_exact.mp4",
+      "error": null,
+      "ready": 4
+    },
+    {
+      "src": "evidence/browser/baseline/SC_BT2.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/browser/candidate/SC_BT2.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/offline/SC_YJ2_source_exact.mp4",
+      "error": null,
+      "ready": 4
+    },
+    {
+      "src": "evidence/browser/baseline/SC_YJ2.mp4",
+      "error": null,
+      "ready": 0
+    },
+    {
+      "src": "evidence/browser/candidate/SC_YJ2.mp4",
+      "error": null,
+      "ready": 0
+    }
+  ]
+}
