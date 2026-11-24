@@ -10,4 +10,4 @@
 | 上位机叠加 | [M406 录像回放](../../FPGA_GS/FPGA_GSV1/orangepi/m406/evidence/runtime/SC_BT_17.967_20261024_110818_575_overlay.jpg) | 日间样片回放；画面中的停车为模拟请求。 |
 | M407 实时与等待页 | [历史 CAM0](../../FPGA_GS/FPGA_GSV1/orangepi/m407/evidence/live_page.png)、[NET_RX 等待页](../../FPGA_GS/FPGA_GSV1/orangepi/m407/evidence/netrx361/source_switch/final_page.png) | 来自不同联调阶段，不能合在一起视为 3.6.1 实物验收。 |
 
-完整作品介绍（本地）和完整夜间样片（本地）为入库转码版本，保留完整时长；未覆盖本地原片。
+[完整作品介绍](../../视频/作品介绍/作品介绍.repo.mp4)和完整夜间样片（本地）为入库转码版本，保留完整时长；未覆盖本地原片。
