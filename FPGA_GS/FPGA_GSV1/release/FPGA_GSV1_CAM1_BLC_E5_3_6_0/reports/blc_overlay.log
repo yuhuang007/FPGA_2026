@@ -1,0 +1,2 @@
+PASS12000cycles exact one-cycle retiming of RGB/HS/VS/DE, real Chinese font and E5 labels, viewport/mode/blanking/alarm/source-invalid boundaries; no clock/format change
+E:\zhoumian\FPGA\FPGA_GS\FPGA_GSV1\work\CAM_quality_3_6_0\rear_blc_source\sim\blc_overlay_tb.sv:83: $finish called at 80812367 (1ps)

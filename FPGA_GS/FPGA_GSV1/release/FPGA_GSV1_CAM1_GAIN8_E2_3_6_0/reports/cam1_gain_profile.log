@@ -1,0 +1,2 @@
+PASS CAM1 gain8x: actual SCCB reads/writes,44-byte scans,baseline preserved,RMW reserved bits,lower cap not raised,ACK/timeout/torn AE,readback mismatch/exact rollback,init/reset exclusion; no exposure/BLC/clock writes
+work/CAM_quality_3_6_0/rear_gain_source/sim/cam1_gain_profile_tb.sv:177: $finish called at 241397501000 (1ps)

@@ -1,0 +1,2 @@
+PASS CAM1 probe: production SCCB, preserve503D non-target bits, exact restore/full verify, ACK/timeout/mismatch/recovery, init mutual exclusion, no fake successful phase
+work/CAM_quality_3_6_0/rear_probe_source/sim/cam1_green_probe_tb.sv:94: $finish called at 9305501000 (1ps)

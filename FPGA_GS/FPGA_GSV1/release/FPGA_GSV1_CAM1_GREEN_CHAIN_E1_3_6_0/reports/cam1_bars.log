@@ -1,0 +1,2 @@
+PASS 2764800 pixels:3 full720 frames, native RGB565 8 bars, exact passthrough, first/last pixel and VS-only CDC mode commit
+sim/cam1_probe_bars_tb.sv:29: $finish called at 77103339044 (1ps)
